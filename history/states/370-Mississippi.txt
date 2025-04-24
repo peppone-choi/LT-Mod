@@ -1,0 +1,56 @@
+state = {
+	id = 370
+	name = "STATE_370"
+
+	history = {
+		owner = USA
+		buildings = {
+			schools = 2
+			offices = 1
+			infrastructure = 4
+			air_base = 1
+			7668 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = USA
+		victory_points = { # Biloxi
+			7668 3
+		}
+		victory_points = { # Gulfport
+			4464 1
+		}
+		victory_points = { # Hattiesburg
+			1615 1
+		}
+		victory_points = { # Meridian
+			12429 3
+		}
+		victory_points = { # Jackson
+			4565 10
+		}
+		victory_points = { # Vicksburg
+			10410 1
+		}
+		victory_points = { # Tupelo
+			10753 3
+		}
+		victory_points = { # Oxford
+			7464 1
+		}
+		victory_points = { # Natchez
+			10449 1
+		}
+		victory_points = { # Starkville
+			11717 1
+		}
+	}
+
+	provinces = {
+		1615 4464 4510 4565 4650 7464 7668 8110 10410 10449 10753 11717 12328 12429 17304
+	}
+	manpower = 2221700
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

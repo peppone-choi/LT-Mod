@@ -1,0 +1,601 @@
+capital = 49
+
+# Vacant
+recruit_character = TUR_Generic_Vacant
+
+#GDP Regional distribution
+set_country_flag = GDP_regions
+
+set_country_flag = HAS_ECON_SPHERE
+econ_join_sphere_TUR = yes
+
+oob = "TUR_1962"
+set_air_oob = "TUR_1962_air"
+
+set_convoys = 200
+add_stability = 0.40
+add_war_support = 0.10
+set_research_slots = 3
+
+set_autonomy = { target = SNS autonomy_state = autonomy_italy_hefty_influence }
+set_autonomy = { target = ARM autonomy_state = autonomy_italy_reliant }
+set_autonomy = { target = BKU autonomy_state = autonomy_military_government }
+
+###Playable
+set_country_flag = tno_defined_startup_effectiveness
+
+set_variable = { tno_political_parties_effectiveness = 70 }
+set_variable = { tno_religious_rights_effectiveness = 80 }
+set_variable = { tno_trade_unions_effectiveness = 55 }
+set_variable = { tno_immigration_effectiveness = 50 }
+set_variable = { tno_slavery_effectiveness = 80 }
+set_variable = { tno_public_meetings_effectiveness = 70 }
+set_variable = { tno_press_rights_effectiveness = 50 }
+set_variable = { tno_vote_franchise_effectiveness = 85 }
+
+set_variable = { tno_conscription_effectiveness = 70 }
+set_variable = { tno_military_supervision_effectiveness = 70 }
+set_variable = { tno_training_effectiveness = 60 }
+set_variable = { tno_draft_exemptions_effectiveness = 90 }
+
+set_variable = { tno_trade_laws_effectiveness = 45 }
+set_variable = { tno_Income_taxation_effectiveness = 60 }
+set_variable = { tno_minimum_wage_effectiveness = 40 }
+set_variable = { tno_max_workhours_effectiveness = 20 }
+set_variable = { tno_unemployment_effectiveness = 30 }
+set_variable = { tno_pensions_effectiveness = 60 }
+
+set_variable = { tno_health_care_effectiveness = 80 }
+set_variable = { tno_education_effectiveness = 75 }
+set_variable = { tno_penal_system_effectiveness = 90 }
+set_variable = { tno_security_effectiveness = 80 }
+set_variable = { tno_regulations_effectiveness = 60 }
+set_variable = { tno_gender_rights_effectiveness = 50 }
+
+##CHP
+recruit_character = TUR_Ismet_Inonu
+recruit_character = TUR_Fahri_Koruturk
+recruit_character = TUR_Bulent_Ecevit
+recruit_character = TUR_Nihat_Erim
+recruit_character = TUR_Feridun_Cemal
+recruit_character = TUR_Ferit_Melen
+recruit_character = TUR_Ilhami_Sancar
+recruit_character = TUR_Hasan_Isik
+recruit_character = TUR_Kasim_Gulek
+recruit_character = TUR_Turhan_Feyzioglu
+recruit_character = TUR_Muammer_Aksoy
+recruit_character = TUR_Falih_Rifki_Atay
+recruit_character = TUR_Sevket_Sureyya_Aydemir
+recruit_character = TUR_Sukru_Sokmensuer
+
+##DYP
+recruit_character = TUR_Tevfik_Rustu_Aras
+recruit_character = TUR_Behice_Boran
+recruit_character = TUR_Necdet_Calp
+recruit_character = TUR_Sadun_Aren
+recruit_character = TUR_Mehmet_Ali_Aybar
+recruit_character = TUR_Turkan_Akyol
+recruit_character = TUR_Kemal_Turkler
+recruit_character = TUR_Avni_Erakalin
+recruit_character = TUR_Turan_Gunes
+recruit_character = TUR_Ekrem_Alican
+recruit_character = TUR_Fethi_Celikbas
+recruit_character = TUR_Naim_Talu
+
+##UDP
+recruit_character = TUR_Celal_Bayar
+recruit_character = TUR_Alparslan_Turkes
+recruit_character = TUR_Adnan_Menderes
+recruit_character = TUR_Suleyman_Demirel
+recruit_character = TUR_Fuat_Koprulu
+recruit_character = TUR_Hasan_Polatkan
+recruit_character = TUR_Refik_Koraltan
+recruit_character = TUR_Osman_Turan
+recruit_character = TUR_Ali_Fuat_Basgil
+recruit_character = TUR_Seyfi_Kurtbek
+recruit_character = TUR_Sadettin_Bilgic
+recruit_character = TUR_Tekin_Ariburun
+
+##Junta and General Staff
+recruit_character = TUR_Cemal_Gursel
+recruit_character = TUR_Cemal_Tural
+recruit_character = TUR_Cevdet_Sunay
+recruit_character = TUR_Rustu_Erdelhun
+recruit_character = TUR_Memduh_Tagmac
+recruit_character = TUR_Kenan_Evren
+
+recruit_character = TUR_Unknown_Leader
+recruit_character = TUR_Various_Leaders
+recruit_character = TUR_Vacant
+
+TUR_Mehmet_Ali_Aybar = {
+	promote_character = {
+		ideology = socialist_social_democracy_subtype
+	}
+}
+TUR_Ekrem_Alican = {
+	promote_character = {
+		ideology = liberalism_national_liberal_subtype
+	}
+}
+TUR_Turhan_Feyzioglu = {
+	promote_character = {
+		ideology = conservatism_1_subtype
+	}
+}
+TUR_Bulent_Ecevit = {
+	promote_character = {
+		ideology = progressivism_left_kemalism_subtype
+	}
+}
+TUR_Vacant = {
+	promote_character = {
+		ideology = despotism_subtype
+	}
+}
+TUR_Osman_Turan = {
+	promote_character = {
+		ideology = paternalism_1_subtype
+	}
+}
+TUR_Ali_Fuat_Basgil = {
+	promote_character = {
+		ideology = liberal_conservatism_subtype
+	}
+}
+TUR_Adnan_Menderes = {
+	promote_character = {
+		ideology = conservatism_subtype
+	}
+}
+
+set_party_name = {
+	ideology = progressivism
+	name = TUR_paternalism_party
+	long_name = TUR_paternalism_party_long
+}
+set_party_name = {
+	ideology = conservatism_1
+	name = TUR_paternalism_party
+	long_name = TUR_paternalism_party_long
+}
+set_party_name = {
+	ideology = despotism
+	name = TUR_paternalism_party
+	long_name = TUR_paternalism_party_long
+}
+set_party_name = {
+	ideology = paternalism_1
+	name = TUR_conservatism_party
+	long_name = TUR_conservatism_party_long
+}
+
+add_ideas = {
+	TRI_Founder_TR
+	#STARTING
+	TUR_stains_of_the_past
+	TUR_demokrasi_bahari
+	TUR_economic_stagnation
+	TUR_italo_turkish_tension
+	
+	#MINISTERS
+
+	TUR_Fahri_Koruturk_hog
+	TUR_Cemal_Gursel_sec
+	TUR_Ferit_Melen_eco
+	TUR_Feridun_Cemal_for
+
+	#POLITICAL
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_laicism
+	tno_trade_unions_nonsocialist_allowed
+	tno_immigration_open_immigration
+	tno_slavery_penal_labor
+	tno_public_meetings_regulated
+	tno_press_rights_censored_press
+	tno_vote_franchise_registered_voting
+	#SOCIAL
+	tno_health_care_universal_health_care
+	tno_education_public_education
+	tno_penal_system_harsh_penal_code
+	tno_security_crime_prevention
+	tno_regulations_token_regulations
+	tno_gender_rights_promoted_equality
+	#MILITARY
+	tno_conscription_service_by_requirement
+	tno_military_supervision_no_supervision
+	tno_training_combat_schooling
+	tno_draft_exemptions_none
+	#ECONOMIC
+	tno_trade_laws_limited_exports
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_low_minimum_wage
+	tno_max_workhours_8_hour_work_day
+	tno_pensions_trinket_pensions
+	tno_unemployment_no_subsidies
+	
+	#MISC
+	tno_refugees_vetted_entry
+	tno_safety_limited_regulations
+	tno_pollution_few_regulations
+	tno_lgbt_rights_lgbt_allowed
+	tno_minorities_oppression
+	tno_women_military_assistance
+	tno_racial_integration_none
+	tno_child_labor_illegal
+	
+	#SOCIETAL DEVELOPMENT
+	tno_army_professionalism_professional
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_factory_complexes
+	tno_healthcare_developed
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_modern
+	tno_academic_base_secondary_schooling
+	tno_admin_efficiency_functional_administrative_systems
+}
+
+set_technology = {
+	basic_train = 1
+
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+	
+	transport = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	early_fighter = 1
+
+	artillery_1945 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	building_construction_1 = 1
+	administration_construction_1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	night_vision_1 = 1
+	infantry_kit_1 = 1
+	infantry_weapons_2 = 1
+	night_vision_2 = 1
+	infantry_kit_2 = 1
+	infantry_weapons_improvements_mine_1 = 1
+	infantry_kit_3 = 1
+	infantry_weapons_improvements_ammo_1 = 1
+	infantry_kit_4 = 1
+	infantry_weapons_improvements_grenade_1 = 1
+	infantry_weapons_3 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	combat_support_equipment_1 = 1
+	support_weapons_hmg_1 = 1
+	infantry_at = 1
+	motorized_infantry = 1
+	motorized_infantry_1 = 1
+	#
+	tech_special_forces = 1
+	tech_mountaineers = 1
+	tech_mountaineers2 = 1
+	tech_mountaineers3 = 1
+	marines = 1
+	marines2 = 1
+	marines3 = 1
+	assault_weapons_1 = 1
+	assault_weapons_2 = 1
+	assault_weapons_3 = 1
+	
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	
+	##ARMOR##
+	IFV_1945 = 1
+	MBT_1945 = 1
+	APC_1945 = 1
+
+	APC_1950 = 1
+	APC_1950_basic_turret = 1
+	#APC_1950_basic_engine = 1
+	APC_1950_basic_armor = 1
+	APC_1960 = 1
+
+	IFV_1950 = 1
+	IFV_1950_basic_turret = 1
+	IFV_1950_basic_armor = 1
+	#IFV_1950_basic_engine = 1
+	
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	#MBT_1950_basic_engine = 1
+
+	AC_1945 = 1
+	AC_1950 = 1
+	
+	##ARTY##
+	antiair_1945 = 1
+	antiair_1950 = 1
+	SPAA_1950 = 1
+	artillery_1945 = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	#SPART_1950_speed = 1
+	
+	##LAND DOCTRINE##
+	strategic_theorem = 1
+	
+	##NAVAL##
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	basic_submarine = 1
+	improved_submarine = 1
+	transport = 1
+	
+	##NAVAL DOCTRINE##
+	
+	##HELICOPTERS##
+	very_early_helicopter = 1
+	early_helicopter = 1
+	
+	##LIGHT AIR##
+	early_fighter = 1
+	interceptor_1945 = 1
+	interceptor_1950 = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+	CAS_1945 = 1
+	CAS_1950 = 1
+	
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	tac_air_1950 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	transport_air_1950 = 1
+	
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+	
+	##INDUSTRY##
+	ww2_line_production = 1
+	mass_production_1 = 1
+	building_construction_1 = 1
+	resource_extraction_methods = 1
+	excavation0 = 1
+	energy_technology_1 = 1
+	social_construction_1 = 1
+	administration_construction_1 = 1
+	military_construction_1 = 1
+	production_unit_gain_1 = 1
+	production_unit_gain_2 = 1
+	consumer_goods_reduction_1 = 1
+	consumer_goods_reduction_2 = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		IFV_1945 = 1
+		MBT_1945 = 1
+		APC_1945 = 1
+
+		APC_1950 = 1
+		APC_1950_basic_turret = 1
+		#APC_1950_basic_engine = 1
+		APC_1950_basic_armor = 1
+		APC_1960 = 1
+
+		IFV_1950 = 1
+		IFV_1950_basic_turret = 1
+		IFV_1950_basic_armor = 1
+		#IFV_1950_basic_engine = 1
+		IFV_1960 = 1
+
+		MBT_1950 = 1
+		MBT_1950_basic_turret = 1
+		#MBT_1950_basic_engine = 1
+		MBT_1950_basic_armor = 1
+		MBT_1960 = 1
+
+		antiair_1945 = 1
+		antiair_1950 = 1
+		SPAA_1950 = 1
+		artillery_1945 = 1
+		artillery_1950 = 1
+		artillery_1950_soft_attack = 1
+		SPART_1950 = 1
+		SPART_1950_soft_attack = 1
+		#SPART_1950_speed = 1
+	}	
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		NSB_APC_1945 = 1
+		NSB_APC_1950 = 1
+		NSB_APC_1960 = 1
+		NSB_IFV_1945 = 1
+		NSB_IFV_1945_modules_1 = 1
+		NSB_IFV_1945_modules_2 = 1
+		NSB_IFV_1950 = 1
+		NSB_IFV_1950_modules_1 = 1
+		NSB_IFV_1950_modules_2 = 1
+		NSB_IFV_1960 = 1
+		NSB_MBT_1945 = 1
+		NSB_MBT_1945_modules_1 = 1
+		NSB_MBT_1945_modules_2 = 1
+		NSB_MBT_1950 = 1
+		NSB_MBT_1950_modules_1 = 1
+		NSB_MBT_1950_modules_2 = 1
+		NSB_MBT_1960 = 1
+		NSB_Armour_1 = 1
+		NSB_Armour_2 = 1
+		NSB_Engine_1 = 1
+		NSB_Engine_2 = 1
+
+		NSB_artillery_1945 = 1
+		NSB_artillery_1950 = 1
+		NSB_artillery_MODULE = 1
+		NSB_artillery_1950_SA = 1
+
+		NSB_antiair_1945 = 1
+		NSB_antiair_1950 = 1
+	}
+}
+
+#Non-MtG Naval Tech
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		ww2_frigate = 1
+		basic_frigate = 1
+		ww2_submarine = 1
+		basic_submarine = 1
+		ww2_destroyer = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		ww2_cruiser = 1
+		basic_cruiser = 1
+		improved_cruiser = 1
+		ww2_battleship = 1
+		ww2_carrier = 1
+		early_carrier = 1
+		improved_carrier = 1
+		transport = 1
+		landing_craft = 1
+	}
+	set_naval_oob = "TUR_navy_1962"
+}
+
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = {
+		name = "Millî İstihbarat Teşkilatı"
+		icon = "GFX_intelligence_agency_logo_tur"
+	}
+}
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1955.7.8"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+set_popularities = {
+	socialist = 5
+	progressivism = 10
+	liberalism = 5
+	liberal_conservatism = 3
+	conservatism = 13
+	conservatism_1 = 7
+	paternalism = 49
+	paternalism_1 = 5
+	despotism = 3
+}
+
+#econtype
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_Dirigisme }
+
+##Starting Equipment##
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 1000
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_2
+	amount = 250
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 75
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_2
+	amount = 10
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment_3
+	amount = 20
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 60
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_0
+	amount = 150
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = MBT_equipment_1
+	amount = 10
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = MBT_equipment_2
+	amount = 15
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = cv_jet_fighter_equipment_1
+	amount = 20
+	producer = TUR
+}
+add_equipment_to_stockpile = {
+	type = fighter_equipment_1
+	amount = 60
+	producer = TUR
+}

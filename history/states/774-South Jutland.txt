@@ -1,0 +1,29 @@
+state = { #Population Done
+	id = 774
+	name = "STATE_774"
+	provinces = {
+		332 11251
+	}
+	manpower = 215689
+	state_category = rural
+
+	history = {
+		owner = DEN
+		buildings = {
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 5
+			thermoelectric_plant = 1
+			332 = {
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = DEN
+		victory_points = {
+			11251 2
+		}
+		add_extra_state_shared_building_slots = 2
+		set_state_flag = state_renamings
+	}
+}

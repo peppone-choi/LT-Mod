@@ -1,0 +1,23 @@
+state = {
+	id = 2526
+	name = "STATE_2526"
+
+	history = {
+		owner = COG
+		add_core_of = COG
+		victory_points = {
+			12775 10
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		20015 13408 12775
+	}
+	manpower = 200143
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

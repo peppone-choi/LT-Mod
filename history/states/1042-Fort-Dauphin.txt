@@ -1,0 +1,24 @@
+state = {
+	id = 1042
+	name = "STATE_1042"
+
+	history = {
+		owner = MAD
+		add_core_of = MAD
+		victory_points = { 15936 1 }
+		buildings = {
+			infrastructure = 2
+			15936 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		15936
+	}
+	manpower = 13843
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

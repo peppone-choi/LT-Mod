@@ -1,0 +1,9 @@
+﻿units = {
+	division = {
+		name = "Emergency Garrison"
+		location = 17713
+		division_template = "Emergency Garrison"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.55
+	}
+}

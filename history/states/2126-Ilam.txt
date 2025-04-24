@@ -1,0 +1,24 @@
+state = {
+	id = 2126
+	name = "STATE_2126"
+	provinces = {
+		829 13610 15147
+	}
+	resources = {
+		oil = 4
+	}
+	history = {
+		victory_points = {
+			829 1
+		}
+		owner = PER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PER
+		set_state_flag = GDP_category_town
+	}
+	manpower = 148307
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

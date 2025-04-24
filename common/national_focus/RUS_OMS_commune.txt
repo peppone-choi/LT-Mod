@@ -1,0 +1,117 @@
+focus_tree = {
+	id = RUS_OMS_commune_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OMS
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_OMS_commune_focus_1 # 콜호스 개혁 논쟁
+		x = 1
+		y = 0
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_2 # 군내 정치 감찰 기관 설치
+		prerequisite = { focus = RUS_OMS_commune_focus_1 }
+		x = 1
+		y = 1
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_3 # 공산주의자들과의 타협
+		prerequisite = { focus = RUS_OMS_commune_focus_2 }
+		mutually_exclusive = {
+			focus = RUS_OMS_commune_focus_4
+		}
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_4 # 프롤레탈리아 독재론 배격
+		prerequisite = { focus = RUS_OMS_commune_focus_2 }
+		mutually_exclusive = {
+			focus = RUS_OMS_commune_focus_3
+		}
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_5 # 군인군들과의 타협
+		prerequisite = { focus = RUS_OMS_commune_focus_3 focus = RUS_OMS_commune_focus_4 }
+		x = 0
+		y = 3
+		mutually_exclusive = {
+			focus = RUS_OMS_commune_focus_6
+		}
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_6 # 코뮌군 숙군 작업
+		prerequisite = { focus = RUS_OMS_commune_focus_3 focus = RUS_OMS_commune_focus_4 }
+		mutually_exclusive = {
+			focus = RUS_OMS_commune_focus_5
+		}
+		x = 2
+		y = 3
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_7 # 옴스크 산업 집약 게획
+		prerequisite = { focus = RUS_OMS_commune_focus_5 focus = RUS_OMS_commune_focus_6 }
+		x = 1
+		y = 4
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_8 # 스베들롭스크와의 동맹
+		prerequisite = { focus = RUS_OMS_commune_focus_7 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_election
+		mutually_exclusive = {
+			focus = RUS_OMS_commune_focus_9
+		}
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_9 # 부하린과의 화해
+		prerequisite = { focus = RUS_OMS_commune_focus_7 }
+		mutually_exclusive = {
+			focus = RUS_OMS_commune_focus_8
+		}
+		x = 2
+		y = 5
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_10 # 코뮌군 개혁 작업
+		prerequisite = { focus = RUS_OMS_commune_focus_8 focus = RUS_OMS_commune_focus_9 }
+		x = 1
+		y = 6
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_commune_focus_11 # 붉은 방의 부름
+		prerequisite = { focus = RUS_OMS_commune_focus_10 }
+		x = 1
+		y = 7
+		icon = GFX_goal_generic_election
+	}
+}

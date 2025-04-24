@@ -1,0 +1,36 @@
+state = {
+	id = 405
+	name = "STATE_405"
+
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = UZB
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			air_base = 1
+		}
+		victory_points = {
+			18680 10
+		}
+		victory_points = {
+			7682 1
+		}
+		victory_points = {
+			10671 3
+		}
+		add_core_of = UZB
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4629 7682 7775 10671 18652 18671 18680
+	}
+	manpower = 1368683
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

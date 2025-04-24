@@ -1,0 +1,57 @@
+characters = {
+	# Leaders
+
+	GOR_Mikhail_Katukov = {
+		name = GOR_Mikhail_Katukov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GOR/Portrait_GOR_Mikhail_Katukov.dds"
+			}
+			army = {
+				large = "gfx/leaders/GOR/Portrait_GOR_Mikhail_Katukov.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_IVAN_CHERNYAKHOVSKY_DESC"
+			ideology = communist_stratocratic_communism_subtype
+			id = -1
+		}
+		field_marshal = {
+			traits = { inspirational_leader trickster armor_officer panzer_leader panzer_expert }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 3395
+		}
+	}
+
+	GOR_Ivan_Chernyakhovsky = {
+		name = GOR_Ivan_Chernyakhovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GOR/Portrait_GOR_Ivan_Chernyakhovsky.dds"
+			}
+			army = {
+				large = "gfx/leaders/GOR/Portrait_GOR_Ivan_Chernyakhovsky.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_IVAN_CHERNYAKHOVSKY_DESC"
+			ideology = communist_stratocratic_communism_subtype
+			id = -1
+		}
+		field_marshal = {
+			traits = { inspirational_leader trickster armor_officer panzer_leader panzer_expert }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 3396
+		}
+	}
+}

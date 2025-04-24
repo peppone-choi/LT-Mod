@@ -1,0 +1,40 @@
+state = {
+	id = 111
+	name = "STATE_111"
+
+	resources = {
+		power = 2
+	}
+
+	history = {
+		owner = FIN
+		victory_points = {
+			11105 20
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 5
+			radar_station = 2
+			11105 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+			thermoelectric_plant = 3
+			offices = 3
+			schools = 2
+			barracks = 1
+			prisons = 2
+			hospitals = 2
+			dockyard = 2
+		}
+		add_core_of = FIN
+	}
+
+	provinces = {
+		11105
+	}
+	manpower = 452800
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

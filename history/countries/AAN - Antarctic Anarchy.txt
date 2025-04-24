@@ -1,0 +1,82 @@
+capital = 1597
+
+# Vacant
+recruit_character = AAN_Generic_Vacant
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+recruit_character = AAN_No_Authority
+
+set_research_slots = 0
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+	socialist = 100
+}
+
+#econtype
+set_variable = { TNO_economy_type = token:Econ_Type_Planned }
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_None }
+
+set_country_flag = TNO_eliminate_building_demand
+set_country_flag = can_not_use_econ_system
+
+add_ideas = {
+	AAN_Antarctic_Anarchy
+	### POLITICAL LAWS ###
+	# Political
+	tno_political_parties_not_applicable
+	tno_religious_rights_not_applicable
+	tno_trade_unions_not_applicable
+	tno_immigration_not_applicable
+	tno_slavery_not_applicable
+	tno_public_meetings_not_applicable
+	tno_press_rights_not_applicable
+	tno_vote_franchise_not_applicable
+	tno_refugees_not_applicable
+	# Military
+	tno_conscription_not_applicable
+	tno_women_not_applicable
+	tno_military_supervision_not_applicable
+	tno_training_not_applicable
+	tno_racial_integration_not_applicable
+	tno_draft_exemptions_not_applicable
+	# Social
+	tno_racial_integration_not_applicable
+	tno_health_care_not_applicable
+	tno_pollution_not_applicable
+	tno_education_not_applicable
+	tno_penal_system_not_applicable
+	tno_lgbt_rights_not_applicable
+	tno_gender_rights_not_applicable
+	tno_minorities_not_applicable
+	tno_safety_not_applicable
+	tno_regulations_not_applicable
+	tno_security_not_applicable
+	# Economic
+	tno_trade_laws_not_applicable
+	tno_income_taxation_not_applicable
+	tno_minimum_wage_not_applicable
+	tno_max_workhours_not_applicable
+	tno_child_labor_not_applicable
+	tno_pensions_not_applicable
+	tno_unemployment_not_applicable
+
+	## Societal Development
+	tno_army_professionalism_spartan_discipline
+	tno_industrial_expertise_innovative
+	tno_industrial_equipment_cutting_edge
+	tno_agriculture_modern
+	tno_research_facilities_advanced
+	tno_academic_base_golden_age
+	tno_admin_efficiency_functional_administrative_systems
+}
+Antarctica_Clear_Effectiveness = yes
+
+set_political_power = 1999

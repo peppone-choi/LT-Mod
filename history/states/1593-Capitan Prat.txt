@@ -1,0 +1,26 @@
+state = {
+	id = 1593
+	name = "STATE_1593"
+
+	history = {
+		owner = CHL
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 1
+		}
+		add_core_of = CHL
+		victory_points = {
+			15170 1
+		}
+		set_state_flag = GDP_regions_aysen
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		8198 15167 15168 15169 15170 17542 17544 17550
+	}
+	manpower = 1568
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

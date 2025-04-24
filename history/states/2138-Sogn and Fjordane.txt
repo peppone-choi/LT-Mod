@@ -1,0 +1,53 @@
+state = {
+	id = 2138
+	name = "STATE_2138"
+
+	history = {
+		buildings = {
+			infrastructure = 5
+			18414 = {
+				coastal_bunker = 2
+			}
+			3090 = {
+				coastal_bunker = 2
+			}
+			199 = {
+				coastal_bunker = 2
+			}
+			18404 = {
+				coastal_bunker = 2
+			}
+			3188 = {
+				coastal_bunker = 2
+			}
+			6216 = {
+				coastal_bunker = 2
+			}
+			9047 = {
+				coastal_bunker = 2
+			}
+			3114 = {
+				coastal_bunker = 2
+			}
+			18403 = {
+				coastal_bunker = 2
+			}
+			18399 = {
+				coastal_bunker = 2
+			}
+			3180 = {
+				coastal_bunker = 2
+			}
+		}
+		owner = NOR
+		add_core_of = NOR
+	}
+
+	provinces = {
+		18414 3180 3090 199 18404 3188 6216 9047 3114 18403 18399
+	}
+	manpower = 99957
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

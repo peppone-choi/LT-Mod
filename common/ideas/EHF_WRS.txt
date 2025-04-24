@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		WRS_legitimate_government_of_the_soviet_union = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea WRS_legitimate_government_of_the_soviet_union"
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = WRS_legitimate_government_of_the_soviet_union
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+				surrender_limit = 0.1
+			}
+		}
+		WRS_frigid_depths_of_the_white_sea = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea WRS_frigid_depths_of_the_white_sea"
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = WRS_frigid_depths_of_the_white_sea
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.5
+				consumer_goods_production_factor = -0.5
+				land_reinforce_rate = -0.1
+			}
+		}
+	}
+}

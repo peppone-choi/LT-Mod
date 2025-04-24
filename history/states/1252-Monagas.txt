@@ -1,0 +1,35 @@
+state = {
+	id = 1252
+	name = "STATE_1252"
+	resources = {
+		oil = 24.000
+	}
+
+	history = {
+		owner = VEN
+		buildings = {
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
+			hospitals = 2
+			barracks = 3
+			prisons = 1
+			infrastructure = 3
+			radar_station = 1
+		}
+		add_extra_state_shared_building_slots = 5
+		add_core_of = VEN
+		victory_points = {
+			10823 5
+		}
+		set_state_flag = GDP_regions_sucre
+	}
+
+	provinces = {
+		10823 14308 14436 17391
+	}
+	manpower = 283655
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

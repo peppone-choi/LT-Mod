@@ -1,0 +1,25 @@
+state = {
+	id = 2122
+	name = "STATE_2122"
+
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			11921 = {
+				naval_base = 2
+			}
+			prisons = 1
+		}
+		victory_points = { 11921 10 }
+	}
+
+	provinces = {
+		11921 18026 10026
+	}
+	manpower = 386439
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

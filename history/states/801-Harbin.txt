@@ -1,0 +1,38 @@
+state = {
+	id = 801
+	name = "STATE_801"
+	resources = {
+		steel = 24.000
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+			10433 39
+		}
+		buildings = {
+			infrastructure = 6
+			radar_station = 1
+			air_base = 3
+			schools = 3
+			hospitals = 2
+			offices = 2
+			barracks = 2
+			prisons = 2
+			thermoelectric_plant = 2
+		}
+		set_variable = { china_state_ref = 46 }
+		set_variable = { china_region_ref = 6 }
+		add_extra_state_shared_building_slots = 2
+		set_state_flag = MAN_three_cogs
+	}
+
+	provinces = {
+		10433 16947
+	}
+	manpower = 2932855
+	buildings_max_level_factor = 1.250
+	state_category = large_city
+	local_supplies = 0.000
+}

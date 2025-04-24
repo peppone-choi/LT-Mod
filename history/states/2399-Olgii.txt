@@ -1,0 +1,23 @@
+state = {
+	id = 2399
+	name = "STATE_2399"
+
+	history = {
+		buildings = {
+			infrastructure = 1
+		}
+		owner = XIN
+		add_core_of = XIN
+
+		set_variable = { china_state_ref = 43 }
+		set_variable = { china_region_ref = 5 }
+	}
+
+	provinces = {
+		4751 19752 19697 1774
+	}
+	manpower = 14259
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

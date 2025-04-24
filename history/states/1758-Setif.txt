@@ -1,0 +1,31 @@
+state = {
+	id = 1758
+	name = "STATE_1758"
+
+	resources = {
+		steel = 16
+	}
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 4
+			hospitals = 1
+		}
+		victory_points = { 7166 10 }
+		victory_points = { 18076 10 }
+		victory_points = { 18082 3 }
+		victory_points = { 13077 2 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13077 7166 4046 18076 18082
+	}
+	manpower = 1105493
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

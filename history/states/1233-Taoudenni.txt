@@ -1,0 +1,20 @@
+state = {
+	id = 1233
+	name = "STATE_1233"
+
+	history = {
+		owner = AZW
+		add_core_of = AZW
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1115 14273 14297 14304 14319 14321
+	}
+	manpower = 12203
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

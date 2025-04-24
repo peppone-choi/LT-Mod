@@ -1,0 +1,40 @@
+state = {
+	id = 1723
+	name = "STATE_1723"
+
+	resources = {
+		power = 4
+	}
+
+	history = {
+		owner = FIN
+		victory_points = {
+			165 5
+		}
+		victory_points = {
+			9163 2
+		}
+		victory_points = {
+			9073 1
+		}
+		victory_points = {
+			139 3
+		}
+		victory_points = {
+			11043 1
+		}
+		buildings = {
+			infrastructure = 5
+			barracks = 2
+		}
+		add_core_of = FIN
+	}
+
+	provinces = {
+		37 139 165 3013 3131 6033 9073 9163 11043 11138 13105 13106 13111 13112 13113 18430 18436
+	}
+	manpower = 235214
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

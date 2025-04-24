@@ -1,0 +1,35 @@
+state = {
+	id = 254
+	name = "STATE_254"
+
+	history = {
+		owner = IND
+		buildings = {
+			infrastructure = 4
+			hospitals = 1
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		victory_points = {
+			16039 8
+		}
+		victory_points = {
+			19006 10
+		}
+		victory_points = {
+			16040 10
+		}
+		victory_points = {
+			12868 1
+		}
+		set_state_flag = GDP_regions_punjab
+	}
+
+	provinces = {
+		12868 16039 16040 19006
+	}
+	manpower = 4836978
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

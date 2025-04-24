@@ -1,0 +1,27 @@
+state = {
+	id = 301
+	name = "STATE_301"
+	manpower = 163478
+
+	state_category = rural
+
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		victory_points = { 15265 7 }
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			barracks = 1
+			schools = 1
+			offices = 1
+			thermoelectric_plant = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		15266 15265
+	}
+
+}

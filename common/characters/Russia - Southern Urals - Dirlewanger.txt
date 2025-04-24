@@ -1,0 +1,43 @@
+characters = {
+	# Country leaders #
+	DRL_Oskar_Dirlewanger = {
+		name = DRL_Oskar_Dirlewanger
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DRL/Portrait_Dirlewanger_Brigade_Oskar_Dirlewanger.dds"
+				small = "GFX_idea_DRL_minister_Oskar_Dirlewanger"
+			}
+			army = {
+				large = "gfx/leaders/DRL/Portrait_Dirlewanger_Brigade_Oskar_Dirlewanger.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_OSKAR_DIRLEWANGER_DESC"
+			expire = "1999.1.1"
+			ideology = national_socialism_subtype
+			id = -1
+		}
+		field_marshal = {
+			traits = { winter_specialist harsh_leader trait_reckless }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 3521
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = DRL_Oskar_Dirlewanger_hog
+			allowed = { original_tag = DRL }
+			traits = {
+				head_of_government
+				hog_the_black_bandit
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

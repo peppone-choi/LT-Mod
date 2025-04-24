@@ -1,0 +1,25 @@
+state = {
+	id = 914
+	name = "STATE_914"
+
+	resources = {
+		oil = 14
+	}
+
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		8002 13439 13441 13443 18553 18562
+	}
+	manpower = 6685
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

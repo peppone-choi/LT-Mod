@@ -1,0 +1,29 @@
+state = {
+	id = 785
+	name = "STATE_785"
+
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 4970 1 }
+		victory_points = { 9943 2 }
+		add_core_of = ALG
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4970 5053 9943 8077 8061
+	}
+	manpower = 369134
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

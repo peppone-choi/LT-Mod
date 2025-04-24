@@ -1,0 +1,24 @@
+state = {
+	id = 1299
+	name = "STATE_1299"
+	manpower = 209132
+
+
+	state_category = rural
+
+	history = {
+		owner = SWI
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+		}
+		victory_points = { 18147 3 }
+		add_core_of = SWI
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		3641 9600 18147 18127 18128
+	}
+}

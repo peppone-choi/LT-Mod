@@ -1,0 +1,29 @@
+state = {
+	id = 604
+	name = "STATE_604"
+
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			15647 1
+		}
+		victory_points = {
+			10796 1
+		}
+		set_variable = { china_state_ref = 42 }
+		set_variable = { china_region_ref = 5 }
+		set_state_flag = GDP_regions_qinghai
+	}
+
+	provinces = {
+		1698 2053 2099 7997 8988 10750 10796 10834 10865 12846 12890 13146 13238 15647 19661 19671 19684
+	}
+	manpower = 111870
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

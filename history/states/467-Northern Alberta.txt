@@ -1,0 +1,49 @@
+state = {
+	id = 467
+	name = "STATE_467"
+
+	resources = {
+		oil = 23.000
+	}
+
+	history = {
+		owner = CAN
+		buildings = {
+			infrastructure = 5
+			air_base = 4
+			radar_station = 2
+			thermoelectric_plant = 1
+			schools = 1
+			prisons = 2
+			barracks = 1
+		}
+		add_core_of = CAN
+		victory_points = {
+			14613 15
+		}
+		victory_points = {
+			6726 3
+		}
+		victory_points = {
+			7787 2
+		}
+		victory_points = {
+			1763 2
+		}
+		victory_points = {
+			4765 1
+		}
+		victory_points = {
+			7348 1
+		}
+		set_state_flag = GDP_regions_alberta
+	}
+
+	provinces = {
+		515 1347 1763 1804 3010 4765 6726 6754 7348 7766 7787 7858 8713 12166 12534 13192 14613 17256 17277 17278 17279 17284
+	}
+	manpower = 815223
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

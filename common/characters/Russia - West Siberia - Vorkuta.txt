@@ -1,0 +1,32 @@
+characters = {
+	# Country Leader #
+	VOR_Vasily_Blokhin = {
+		name = VOR_Vasily_Blokhin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VOR/Portrait_Vorkuta_Vasily_Blokhin.dds"
+				small = "GFX_idea_VOR_minister_Vasily_Blokhin"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VASILY_BLOKHIN_DESC"
+			expire = "1999.1.1"
+			ideology = communist_subtype
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = VOR_Vasily_Blokhin_hog
+			allowed = { original_tag = VOR }
+			traits = {
+				head_of_government
+				hog_local_tyrant
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+}

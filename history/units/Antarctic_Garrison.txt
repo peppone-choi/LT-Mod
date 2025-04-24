@@ -1,0 +1,10 @@
+﻿division_template = {
+	name = "Emergency Garrison"
+	
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+	}
+}

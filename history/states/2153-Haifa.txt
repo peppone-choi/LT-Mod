@@ -1,0 +1,26 @@
+state = {
+	id = 2153
+	name = "STATE_2153"
+
+	history = {
+		owner = IME
+		buildings = {
+			infrastructure = 4
+			1065 = {
+				naval_base = 4
+			}
+			synthetic_refinery = 1
+		}
+		victory_points = { 1065 15 }
+		add_core_of = IME
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1065
+	}
+
+	manpower = 296410
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 2117
+	name = "STATE_2117"
+
+	history = {
+		owner = SLG
+		add_core_of = FRS
+		add_core_of = SLG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+		}
+		victory_points = {
+			11923 8
+		}
+		victory_points = {
+			18084 3
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		11923 18083 18084
+	}
+	manpower = 667739
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 2155
+	name = "STATE_2155"
+
+	history = {
+		owner = JOR
+		add_core_of = JOR
+		buildings = {
+			infrastructure = 3
+			prisons = 1
+		}
+		victory_points = {
+			18593 1
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		18593 7001
+	}
+	manpower = 117960
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

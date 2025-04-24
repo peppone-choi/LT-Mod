@@ -1,0 +1,28 @@
+state = {
+	id = 2168
+	name = "STATE_2168"
+
+	resources = {
+		oil = 9
+	}
+
+	state_category = pastoral
+
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13456 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13456 13455 13447 18546
+	}
+	manpower = 61117
+	buildings_max_level_factor = 1.000
+}

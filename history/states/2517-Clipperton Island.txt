@@ -1,0 +1,20 @@
+state = {
+	id = 2517
+	name = "STATE_2517"
+	manpower = 1
+	state_category = wasteland
+
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = FRA
+		add_core_of = FFR
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		19995
+	}
+}

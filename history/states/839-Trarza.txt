@@ -1,0 +1,31 @@
+state = {
+	id = 839
+	name = "STATE_839"
+
+	resources = {
+		steel = 2
+	}
+
+	history = {
+		owner = TRZ
+		add_core_of = TRZ
+		victory_points = { 5034 1 }
+		victory_points = { 13213 5 }
+		buildings = {
+			infrastructure = 2
+			13213 = {
+				naval_base = 1
+			}
+			barracks = 1
+			schools = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		5034 18032 18015 14248 18005 18016 13213
+	}
+	manpower = 190657
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

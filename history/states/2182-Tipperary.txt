@@ -1,0 +1,27 @@
+state = {
+	id = 2182
+	name = "STATE_2182"
+
+	resources = {
+		power = 4
+	}
+
+	history = {
+		owner = IRE
+		victory_points = {
+			11267 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRE
+	}
+
+	provinces = {
+		11267 9310
+	}
+	manpower = 123822
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

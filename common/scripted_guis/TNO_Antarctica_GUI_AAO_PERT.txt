@@ -1,0 +1,1630 @@
+scripted_gui = {
+	Antarctica_GUI_AAO_PERT_Opener = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "Antarctica_GUI_AAO_PERT_Opener"
+
+		visible = {
+
+			tag = AAO
+			has_country_flag = Antarctica_GUI_AAO_PERT_Mechanic_Enabled
+		}
+
+		effects = {
+			Antarctica_GUI_AAO_PERT_Open_Button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_GUI_AAO_PERT_Mechanic_Visible } }
+					set_country_flag = Antarctica_GUI_AAO_PERT_Mechanic_Visible
+				}
+				else_if = {
+					limit = { has_country_flag = Antarctica_GUI_AAO_PERT_Mechanic_Visible }
+					clr_country_flag = Antarctica_GUI_AAO_PERT_Mechanic_Visible
+				}
+			}
+		}
+	}
+
+	Antarctica_GUI_AAO_PERT = {
+		context_type = player_context
+		window_name = "Antarctica_GUI_AAO_PERT"
+
+		visible = {
+			AND = {
+				tag = AAO
+				has_country_flag = Antarctica_GUI_AAO_PERT_Mechanic_Visible
+			}
+		}
+		
+		effects = {
+			Antarctica_GUI_AAO_PERT_Close_Button_click = {
+				clr_country_flag = Antarctica_GUI_AAO_PERT_Mechanic_Visible
+				set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 0 }
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Return_Button_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 1 }
+				
+				swap_PERT_decisions_viewable = yes
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Decisions_Button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_GUI_AAO_PERT_Decisions_Visible } }
+					set_country_flag = Antarctica_GUI_AAO_PERT_Decisions_Visible
+				}
+				else_if = {
+					limit = { has_country_flag = Antarctica_GUI_AAO_PERT_Decisions_Visible }
+					clr_country_flag = Antarctica_GUI_AAO_PERT_Decisions_Visible
+				}
+				
+				swap_PERT_decisions_viewable = yes
+			}
+			
+			Antarctica_GUI_AAO_PERT_Paperwork_Envolope_1_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 1 }
+					}
+					set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 0 }
+				}
+				else = {
+					set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 1 }
+				}
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Envolope_2_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 3 }
+					}
+					set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 0 }
+				}
+				else = {
+					set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 3 }
+				}
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Envolope_3_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 5 }
+					}
+					set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 0 }
+				}
+				else = {
+					set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 5 }
+				}
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Prev_click = {
+				if = {
+					limit = {
+						OR = {
+							check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 1 }
+							check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 3 }
+							check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 5 }
+						}
+					}
+					set_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 0 }
+				}
+				else = {
+					add_to_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = -1 }
+				}
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Next_click = {
+				if = {
+					limit = {
+						OR = {
+							check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 1 }
+							check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 3 }
+							check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 5 }
+						}
+					}
+					add_to_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 1 }
+				}
+			}
+		}
+		
+		triggers = {
+			Antarctica_GUI_AAO_PERT_Network_Return_Button_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 0 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 1 }
+					}
+				}
+			}
+			
+			Antarctica_GUI_AAO_Missile_Diagram_Empty_visible = {
+				NOT = {
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+				}
+			}
+			Antarctica_GUI_AAO_Missile_Diagram_Airframe_visible = {
+				OR = {
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+				}
+			}
+			Antarctica_GUI_AAO_Missile_Diagram_REV_visible = {
+				OR = {
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+				}
+			}
+			Antarctica_GUI_AAO_Missile_Diagram_Electronics_visible = {
+				OR = {
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+				}
+			}
+			Antarctica_GUI_AAO_Missile_Diagram_Testing_visible = {
+				OR = {
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+					has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+				}
+			}
+			
+			Antarctica_GUI_AAO_PERT_Paperwork_Prev_visible = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible > 0 }
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Next_visible = {
+				OR = {
+					check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 1 }
+					check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 3 }
+					check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 5 }
+				}
+			}
+			Antarctica_GUI_AAO_PERT_Clip_1_visible = {
+				has_country_flag = Antarctica_GUI_AAO_PERT_Paperwork_Envolope_1_Available
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Envolope_1_visible = {
+				has_country_flag = Antarctica_GUI_AAO_PERT_Paperwork_Envolope_1_Available
+			}
+			Antarctica_GUI_AAO_PERT_Clip_2_visible = {
+				has_country_flag = Antarctica_GUI_AAO_PERT_Paperwork_Envolope_2_Available
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Envolope_2_visible = {
+				has_country_flag = Antarctica_GUI_AAO_PERT_Paperwork_Envolope_2_Available
+			}
+			Antarctica_GUI_AAO_PERT_Clip_3_visible = {
+				has_country_flag = Antarctica_GUI_AAO_PERT_Paperwork_Envolope_3_Available
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork_Envolope_3_visible = {
+				has_country_flag = Antarctica_GUI_AAO_PERT_Paperwork_Envolope_3_Available
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork1_Top_visible = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 1 }
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork1_Bottom_visible = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 2 }
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork2_Top_visible = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 3 }
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork2_Bottom_visible = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 4 }
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork3_Top_visible = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 5 }
+			}
+			Antarctica_GUI_AAO_PERT_Paperwork3_Bottom_visible = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Paperwork_Visible = 6 }
+			}
+		}
+		
+		properties = {
+			Antarctica_GUI_AAO_Missile_Diagram_Airframe = {
+				image = "[get_Antarctica_GUI_AAO_Missile_Diagram_Airframe_Image]"
+			}
+			Antarctica_GUI_AAO_Missile_Diagram_REV = {
+				image = "[get_Antarctica_GUI_AAO_Missile_Diagram_REV_Image]"
+			}
+			Antarctica_GUI_AAO_Missile_Diagram_Electronics = {
+				image = "[get_Antarctica_GUI_AAO_Missile_Diagram_Electronics_Image]"
+			}
+			Antarctica_GUI_AAO_Missile_Diagram_Testing = {
+				image = "[get_Antarctica_GUI_AAO_Missile_Diagram_Testing_Image]"
+			}
+		}
+	}
+	
+	Antarctica_GUI_AAO_PERT_Decisions_Window = {
+		context_type = player_context
+		window_name = "Antarctica_GUI_AAO_PERT_Decisions_Window"
+		parent_window_name = Antarctica_GUI_AAO_PERT
+		
+		visible = {
+			has_country_flag = Antarctica_GUI_AAO_PERT_Decisions_Visible
+		}
+		
+		effects = {
+			Antarctica_GUI_AAO_PERT_Decision_Entry_Button_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 0 }
+						has_political_power > 4
+					}
+					calculate_PERT_time_to_get_to_each_event = yes
+					add_political_power = -5
+					
+					if = {
+						limit = {
+							OR = {
+								has_country_flag = Antarctica_GUI_AAO_PERT_Electronics_Error_Occurred
+								has_country_flag = Antarctica_GUI_AAO_PERT_Airframe_Error_Occurred
+								has_country_flag = Antarctica_GUI_AAO_PERT_REV_Error_Occurred
+								has_country_flag = Antarctica_GUI_AAO_PERT_Testing_Error_Occurred
+							}
+						}
+						country_event = antarctica_aao_pert.1000
+					}
+					else = {
+						country_event = antarctica_aao_pert.1001
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^0 = 14 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 1 }
+						check_variable = { Antarctica_Equipment > 10 }
+					}
+					add_to_variable = { Antarctica_Equipment = -10 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						
+						add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^1 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 2 }
+						check_variable = { Antarctica_Militarization > 4 }
+						has_political_power > 49.99
+					}
+					add_to_variable = { Antarctica_Militarization = -4 }
+					add_political_power = -50
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Opt
+						
+						add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -2 }
+					}
+					
+					set_temp_variable = { plus = 2 }
+					set_temp_variable = { scope = USA }
+					hidden_effect = { Antarctica_AAO_Successor_Add = yes }
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^2 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 3 }
+						check_variable = { Antarctica_Intel_on_AAG_Value > 2 }
+						check_variable = { Antarctica_Intel_on_AAJ_Value > 2 }
+						check_variable = { Antarctica_Militarization > 6 }
+					}
+					add_to_variable = { Antarctica_Intel_on_AAG_Value = -2 }
+					add_to_variable = { Antarctica_Intel_on_AAJ_Value = -2 }
+					add_to_variable = { Antarctica_Militarization = -6 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						
+						add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = 1 }
+						add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -8 }
+					}
+					
+					set_temp_variable = { plus = 2 }
+					set_temp_variable = { scope = USA }
+					hidden_effect = { Antarctica_AAO_Successor_Add = yes }
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^3 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 4 }
+						check_variable = { Antarctica_Militarization > 2 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+						has_political_power > 99
+					}
+					add_to_variable = { Antarctica_Militarization = -2 }
+					add_to_variable = { Antarctica_Legitimacy = -2 }
+					add_political_power = -100
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						
+						add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -4 }
+					}
+					
+					set_temp_variable = { plus = 2 }
+					set_temp_variable = { scope = USA }
+					hidden_effect = { Antarctica_AAO_Successor_Add = yes }
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^4 = 60 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 100 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 49.99
+					}
+					add_to_variable = { Antarctica_Militarization = -4 }
+					add_to_variable = { Antarctica_Equipment = -8 }
+					add_political_power = -50
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i < 18 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -6 }
+						}
+						else = {
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = 1 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^0 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 101 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+					}
+					add_to_variable = { Antarctica_Militarization = -2 }
+					add_political_power = -25
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i < 18 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -2 }
+						}
+					}
+					
+					set_temp_variable = { plus = 2 }
+					set_temp_variable = { scope = USA }
+					hidden_effect = { Antarctica_AAO_Successor_Add = yes }
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^1 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 102 }
+						check_variable = { Antarctica_Equipment > 5 }
+					}
+					add_to_variable = { Antarctica_Equipment = -5 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i < 18 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^2 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 103 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+					}
+					add_to_variable = { Antarctica_Legitimacy = -2 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i < 18 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^3 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 104 }
+						check_variable = { Antarctica_Equipment > 4 }
+						check_variable = { Antarctica_Militarization > 2 }
+					}
+					add_to_variable = { Antarctica_Equipment = -4 }
+					add_to_variable = { Antarctica_Militarization = -2 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i < 18 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -4 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -4 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^4 = 60 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 200 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 49.99
+					}
+					add_to_variable = { Antarctica_Militarization = -4 }
+					add_to_variable = { Antarctica_Equipment = -8 }
+					add_political_power = -50
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 17 }
+								check_variable = { i < 37 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -6 }
+						}
+						else = {
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = 1 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^0 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 201 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+					}
+					add_to_variable = { Antarctica_Militarization = -2 }
+					add_political_power = -25
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 17 }
+								check_variable = { i < 37 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -2 }
+						}
+					}
+					
+					set_temp_variable = { plus = 2 }
+					set_temp_variable = { scope = USA }
+					hidden_effect = { Antarctica_AAO_Successor_Add = yes }
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^1 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 202 }
+						check_variable = { Antarctica_Equipment > 5 }
+					}
+					add_to_variable = { Antarctica_Equipment = -5 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 17 }
+								check_variable = { i < 37 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^2 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 203 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+					}
+					add_to_variable = { Antarctica_Legitimacy = -2 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 17 }
+								check_variable = { i < 37 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^3 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 300 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 49.99
+					}
+					add_to_variable = { Antarctica_Militarization = -4 }
+					add_to_variable = { Antarctica_Equipment = -8 }
+					add_political_power = -50
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 36 }
+								check_variable = { i < 53 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -6 }
+						}
+						else = {
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = 1 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^0 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 301 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+					}
+					add_to_variable = { Antarctica_Militarization = -2 }
+					add_political_power = -25
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 36 }
+								check_variable = { i < 53 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -2 }
+						}
+					}
+					
+					set_temp_variable = { plus = 2 }
+					set_temp_variable = { scope = USA }
+					hidden_effect = { Antarctica_AAO_Successor_Add = yes }
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^1 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 302 }
+						check_variable = { Antarctica_Equipment > 5 }
+					}
+					add_to_variable = { Antarctica_Equipment = -5 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 36 }
+								check_variable = { i < 53 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^2 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 303 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+					}
+					add_to_variable = { Antarctica_Legitimacy = -2 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 36 }
+								check_variable = { i < 53 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^3 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 304 }
+						check_variable = { Antarctica_Equipment > 4 }
+						check_variable = { Antarctica_Militarization > 2 }
+					}
+					add_to_variable = { Antarctica_Equipment = -4 }
+					add_to_variable = { Antarctica_Militarization = -2 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 36 }
+								check_variable = { i < 53 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -6 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^4 = 50 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 400 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 24.99
+					}
+					add_to_variable = { Antarctica_Militarization = -4 }
+					add_to_variable = { Antarctica_Equipment = -8 }
+					add_political_power = -25
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 52 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -6 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -6 }
+						}
+						else = {
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = 1 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = 1 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^0 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 401 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+					}
+					add_to_variable = { Antarctica_Militarization = -2 }
+					add_political_power = -25
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 52 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^1 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 402 }
+						check_variable = { Antarctica_Equipment > 5 }
+					}
+					add_to_variable = { Antarctica_Equipment = -5 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 52 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^2 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 403 }
+						check_variable = { Antarctica_Militarization > 3 }
+						check_variable = { Antarctica_Legitimacy > 3 }
+					}
+					add_to_variable = { Antarctica_Militarization = -3 }
+					add_to_variable = { Antarctica_Legitimacy = -3 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 52 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -8 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^3 = 45 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 404 }
+						check_variable = { Antarctica_Militarization > 2 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+						check_variable = { Antarctica_Equipment > 2 }
+					}
+					add_to_variable = { Antarctica_Militarization = -2 }
+					add_to_variable = { Antarctica_Legitimacy = -2 }
+					add_to_variable = { Antarctica_Equipment = -2 }
+					for_each_loop = {
+						array = Antarctica_GUI_AAO_PERT_Activity_Timers_Likely
+						if = {
+							limit = {
+								check_variable = { i > 52 }
+							}
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Opt^i = -2 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Likely^i = -2 }
+							add_to_variable = { Antarctica_GUI_AAO_PERT_Activity_Timers_Pes^i = -2 }
+						}
+					}
+					
+					set_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^4 = 30 }
+					set_variable = { Antarctica_GUI_AAO_PERT_Time_Since_Last_Action = 0 }
+				}
+			}
+		}
+		
+		triggers = {
+			Antarctica_GUI_AAO_PERT_Decision_Entry_Button_click_enabled = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 0 }
+						has_political_power > 4
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^0 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 1 }
+						check_variable = { Antarctica_Equipment > 10 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^1 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 2 }
+						check_variable = { Antarctica_Militarization > 4 }
+						has_political_power > 49.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^2 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 3 }
+						check_variable = { Antarctica_Intel_on_AAG_Value > 2 }
+						check_variable = { Antarctica_Intel_on_AAJ_Value > 2 }
+						check_variable = { Antarctica_Militarization > 6 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^3 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 4 }
+						check_variable = { Antarctica_Militarization > 2 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+						has_political_power > 99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^4 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 100 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 49.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^0 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 101 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^1 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 102 }
+						check_variable = { Antarctica_Equipment > 5 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^2 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 103 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^3 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 104 }
+						check_variable = { Antarctica_Equipment > 4 }
+						check_variable = { Antarctica_Militarization > 2 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^4 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 200 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 49.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^0 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 201 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^1 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 202 }
+						check_variable = { Antarctica_Equipment > 5 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^2 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 203 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^3 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 300 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 49.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^0 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 301 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^1 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 302 }
+						check_variable = { Antarctica_Equipment > 5 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^2 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 303 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^3 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 304 }
+						check_variable = { Antarctica_Equipment > 4 }
+						check_variable = { Antarctica_Militarization > 2 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^4 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 400 }
+						check_variable = { Antarctica_Militarization > 4 }
+						check_variable = { Antarctica_Equipment > 8 }
+						has_political_power > 49.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^0 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 401 }
+						check_variable = { Antarctica_Militarization > 2 }
+						has_political_power > 24.99
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^1 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 402 }
+						check_variable = { Antarctica_Equipment > 5 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^2 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 403 }
+						check_variable = { Antarctica_Militarization > 3 }
+						check_variable = { Antarctica_Legitimacy > 3 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^3 = 0 }
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 404 }
+						check_variable = { Antarctica_Militarization > 2 }
+						check_variable = { Antarctica_Legitimacy > 2 }
+						check_variable = { Antarctica_Equipment > 2 }
+						check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^4 = 0 }
+					}
+				}
+			}
+		}
+		
+		dynamic_lists = {
+			Antarctica_GUI_AAO_PERT_Decisions_Window_Grid = {
+				array = Antarctica_GUI_AAO_PERT_Decision_Array
+				index = i
+				value = v
+				change_scope = no
+				entry_container = Antarctica_GUI_AAO_PERT_Decision_Entry
+			}
+		}
+	}
+	
+	Antarctica_GUI_AAO_PERT_Network = {
+		context_type = player_context
+		window_name = "Antarctica_GUI_AAO_PERT_Network"
+		parent_window_name = Antarctica_GUI_AAO_PERT_Draggable_Container
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			# Electronics
+			Antarctica_GUI_AAO_PERT_Network_Integrated_20_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 2 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_50_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 2 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_100_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 2 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_120_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 2 }
+				swap_PERT_decisions_viewable = yes
+			}
+			# Airframe
+			Antarctica_GUI_AAO_PERT_Network_Integrated_30_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 3 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_60_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 3 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_90_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 3 }
+				swap_PERT_decisions_viewable = yes
+			}
+			# REV
+			Antarctica_GUI_AAO_PERT_Network_Integrated_40_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 4 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_70_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 4 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_80_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 4 }
+				swap_PERT_decisions_viewable = yes
+			}
+			# Testing
+			Antarctica_GUI_AAO_PERT_Network_Integrated_110_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 5 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_130_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 5 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_140_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 5 }
+				swap_PERT_decisions_viewable = yes
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_150_click = {
+				set_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 5 }
+				swap_PERT_decisions_viewable = yes
+			}
+		}
+		
+		triggers = {
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3031_visible = {
+				NOT = { has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan }
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3231_visible = {
+				NOT = { has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan }
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3160_visible = {
+				NOT = { has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan }
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_31_visible = {
+				NOT = { has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan }
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Testing_140141_visible = {
+				always = no
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_141_visible = {
+				always = no
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_141150_visible = {
+				always = no
+			}
+		}
+		
+		properties = {
+		
+			# Events
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_10 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^0
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_10 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^0
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_10 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^0
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_10 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^0
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_11 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^1
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_12 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^2
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_20 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^3
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_20 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^3
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_21 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^4
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_22 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^5
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_50 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^6
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_50 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^6
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_100 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^7
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_100 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^7
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_101 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^8
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_102 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^9
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_103 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^10
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_104 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^11
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_105 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^12
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_120 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^13
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_120 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^13
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_120 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^13
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_13 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^14
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_14 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^15
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_15 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^16
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_16 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^17
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_30 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^18
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_30 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^18
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_31 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^19
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_32 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^20
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_33 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^21
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_60 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^22
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_60 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^22
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_61 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^23
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_62 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^24
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_90 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^25
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_90 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^25
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_90 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^25
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_90 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^25
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_17 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^26
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_40 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^27
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_40 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^27
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_41 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^28
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_42 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^29
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_70 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^30
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_70 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^30
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_80 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^31
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_80 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^31
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_81 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^32
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_82 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^33
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_83 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^34
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_84 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^35
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_85 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^36
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_86 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^37
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Testing_121 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^38
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Testing_122 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^39
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_110 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^40
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_110 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^40
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_130 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^41
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_130 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^41
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Testing_131 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^42
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_140 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^43
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_140 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^43
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Testing_141 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^44
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_150 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^45
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_150 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^45
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Testing_151 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^46
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_160 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^47
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_160 = {
+				frame = Antarctica_GUI_AAO_PERT_Event_Frames^47
+			}
+			
+			# Activities
+			
+			Antarctica_GUI_AAO_PERT_Network_Electronics_1011 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^0
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_1012 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^1
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_1021 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^2
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_1120 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^3
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_1220 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^4
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_2022 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^5
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_2122 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^6
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_2250 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^7
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_50100 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^8
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_100101 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^9
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_100102 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^10
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_100103 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^11
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_101104 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^12
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_102104 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^13
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_103102 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^14
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_103104 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^15
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_104105 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^16
+			}
+			Antarctica_GUI_AAO_PERT_Network_Electronics_105120 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^17
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1014 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^18
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1013 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^19
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1314 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^20
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1315 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^21
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1316 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^22
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1430 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^23
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1530 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^24
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_1630 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^25
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3031 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^26
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3032 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^27
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3033 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^28
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3160 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^29
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3231 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^30
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3260 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^31
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3332 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^32
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_3360 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^33
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_6061 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^34
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_6162 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^35
+			}
+			Antarctica_GUI_AAO_PERT_Network_Airframe_6290 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^36
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_REV_1017 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^37
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_1740 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^38
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_4041 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^39
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_4042 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^40
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_4170 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^41
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_4180 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^42
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_4283 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^43
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_7081 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^44
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8082 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^45
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8184 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^46
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8183 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^47
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8281 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^48
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8385 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^49
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8485 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^50
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8586 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^51
+			}
+			Antarctica_GUI_AAO_PERT_Network_REV_8690 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^52
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Testing_90121 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^53
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_90122 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^54
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_90110 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^55
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_120121 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^56
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_121130 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^57
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_122110 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^58
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_110140 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^59
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_130131 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^60
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_131140 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^61
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_140141 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^62
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_140150 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^63
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_141150 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^64
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_150151 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^65
+			}
+			Antarctica_GUI_AAO_PERT_Network_Testing_151160 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^66
+			}
+			
+			Antarctica_GUI_AAO_PERT_Network_Integrated_1020 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^4
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_1030 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^25
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_1040 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^38
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_2050 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^7
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_3060 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^29
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_4070 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^41
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_4080 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^42
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_50100 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^8
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_6090 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^36
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_7090 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^52
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_8090 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^52
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_90100 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^8
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_90130 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^57
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_90110 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^55
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_100120 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^17
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_110140 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^59
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_120130 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^57
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_130140 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^61
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_140150 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^63
+			}
+			Antarctica_GUI_AAO_PERT_Network_Integrated_150160 = {
+				frame = Antarctica_GUI_AAO_PERT_Activity_Frames^66
+			}
+		}
+		
+		dynamic_lists = {
+			Antarctica_GUI_AAO_PERT_Network_Grid = {
+				array = Antarctica_GUI_AAO_PERT_Network_Selector
+				entry_container = "[get_Antarctica_GUI_AAO_PERT_Network_Grid]"
+			}
+		}
+	}
+	
+	#todo
+	#Setup decisions, problems, etc...
+	
+	#being actively involved with the engineering process, but not micromanaging, will lead to better progress
+	#player has a set of default decisions to boost progress (proportional depending on activity timers), and a weekly report decision
+	#player must take decisions and be involved in order to prevent slowdowns
+	#if the player skips decisions for (lets say) more then two weeks, then slowdowns will begin
+	#slowdown will increase until decision is taken, and the player will only be alerted when they request a report (updates numbers for the player and triggers a GUI alert)
+	#the player will need to take more decisions to counteract the slowdown effects in order to prevent bottlenecks
+	#too much slowdown results in the project not being finished before the end of the game, and the truth about Iceman/Iceworm never being revealed to them
+	
+	#PERT Decisions:
+	#Electronics-
+	#Increase Priority (+E, -ART:inf)
+	#Bring in Additional Manpower (+E, -SUP:x1)
+	#Direct Focus Towards X Branch (+Branch, -Others:x3)
+	#
+	#Airframe-
+	#Increase Priority (+A, -ERT:inf)
+	#Bring in Additional Manpower (+E, -SUP:x1)
+	#Direct Focus Towards X Branch (+Branch, -Others:x3)
+	#
+	#REV-
+	#Increase Priority (+R, -EAT:inf)
+	#Bring in Additional Manpower (+E, -SUP:x1)
+	#Direct Focus Towards X Branch (+Branch, -Others:x3)
+	#
+	#Testing-
+	#Increase Priority (+T, -ARE:inf)
+	#Bring in Additional Manpower (+E, -SUP:x1)
+	#Direct Focus Towards X Branch (+Branch, -Others:x3)
+	#
+	#All-
+	#Request Progress Report (reset timer:inf)
+}

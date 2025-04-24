@@ -1,0 +1,19 @@
+state = {
+	id = 2068
+	name = "STATE_2068" # Goudier Island
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAA
+		add_core_of = AAA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17585
+	}
+}

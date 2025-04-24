@@ -1,0 +1,54 @@
+state = { #Population Done
+	id = 231
+	name = "STATE_231"
+
+	resources = {
+		chromium = 10
+	}
+
+	history = {
+		owner = CAU
+		victory_points = {
+			1599 25
+		}
+		victory_points = {
+			1530 3
+		}
+		victory_points = {
+			18355 1
+		}
+		victory_points = {
+			3656 2
+		}
+		victory_points = {
+			6436 1
+		}
+		victory_points = {
+			4605 1
+		}
+		victory_points = {
+			6669 1
+		}
+		victory_points = {
+			6671 1
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+			offices = 2
+			hospitals = 1
+			thermoelectric_plant = 1
+		}
+
+		add_core_of = CAU
+		set_state_flag = GDP_regions_georgia
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1530 1599 3656 3667 4534 4605 6436 6669 6671 9702 15130 18346 18351 18355
+	}
+	manpower = 2418951
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

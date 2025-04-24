@@ -1,0 +1,683 @@
+SC_change_readiness_pakt = {
+	add_to_variable = { PAK.SC_readiness_actual = readiness_temp }
+	clamp_variable = {
+		var = PAK.SC_readiness_actual
+		min = 0
+		max = 100
+	}
+	PAK = { set_variable = { SC_player_readiness_display = PAK.SC_readiness_actual } }
+	GER = { set_variable = { SC_player_readiness_display = PAK.SC_readiness_actual } }
+	SC_calculate_actual_readiness_gap = yes
+	if = {
+		limit = { tag = JAP }
+		if = {
+			limit = {
+				check_variable = {
+					readiness_temp < 0
+				}
+			}
+			multiply_temp_variable = { readiness_temp = -1 }
+			custom_effect_tooltip = SC_opponent_pakt_readiness_decrease_tt
+		}
+		else = {
+			custom_effect_tooltip = SC_opponent_pakt_readiness_increase_tt
+		}
+	}
+	else = {
+		if = {
+			limit = {
+				check_variable = {
+					readiness_temp < 0
+				}
+			}
+			multiply_temp_variable = { readiness_temp = -1 }
+			custom_effect_tooltip = SC_player_readiness_decrease_tt
+		}
+		else = {
+			custom_effect_tooltip = SC_player_readiness_increase_tt
+		}
+	}
+}
+SC_change_readiness_sphere = {
+	add_to_variable = { JAP.SC_readiness_actual = readiness_temp }
+	clamp_variable = {
+		var = JAP.SC_readiness_actual
+		min = 0
+		max = 100
+	}
+	JAP = { set_variable = { SC_player_readiness_display = JAP.SC_readiness_actual } }
+	SC_calculate_actual_readiness_gap = yes
+	if = {
+		limit = { tag = JAP }
+		if = {
+			limit = {
+				check_variable = {
+					readiness_temp < 0
+				}
+			}
+			multiply_temp_variable = { readiness_temp = -1 }
+			custom_effect_tooltip = SC_player_readiness_decrease_tt
+		}
+		else = {
+			custom_effect_tooltip = SC_player_readiness_increase_tt
+		}
+	}
+	else = {
+		if = {
+			limit = {
+				check_variable = {
+					readiness_temp < 0
+				}
+			}
+			multiply_temp_variable = { readiness_temp = -1 }
+			custom_effect_tooltip = SC_opponent_sphere_readiness_decrease_tt
+		}
+		else = {
+			custom_effect_tooltip = SC_opponent_sphere_readiness_increase_tt
+		}
+	}
+}
+SC_calculate_actual_readiness_gap = {
+	set_temp_variable = { temp_gap = JAP.SC_readiness_actual }
+	subtract_from_temp_variable = { temp_gap = PAK.SC_readiness_actual }
+	set_variable = { PAK.SC_actual_readiness_gap = temp_gap } ###positive number = sphere favourable, negative number = pakt favourable
+}
+
+SC_progress_buildup_meter = {
+	add_to_variable = { PAK.SC_buildup_progression = buildup_temp }
+	if = {
+		limit = {
+			check_variable = { buildup_temp < 0 }
+			NOT = { tag = JAP }
+		}
+		multiply_temp_variable = { buildup_temp = -1 }
+		custom_effect_tooltip = SC_progress_buildup_decrease_pakt_tt
+	}
+	else_if = {
+		limit = { NOT = { tag = JAP } }
+		custom_effect_tooltip = SC_progress_buildup_increase_pakt_tt
+	}
+	else = {
+		custom_effect_tooltip = SC_progress_buildup_increase_sphere_tt
+	}
+	clamp_variable = {
+		var = PAK.SC_buildup_progression
+		min = 0
+		max = 100
+	}
+	SC_check_buildup_meter = yes
+}
+
+SC_check_buildup_meter = {
+	if = {
+		limit = {
+			check_variable = { PAK.SC_buildup_progression = 100 }
+		}
+		hidden_effect = {
+			GER = {
+				country_event = { id = subcontinentalcrisis.53 }
+			}
+		}
+	}
+}
+
+SC_change_opposing_displayed_info = {
+	if = {
+		limit = { tag = JAP }
+		add_to_variable = { JAP.SC_current_uncertainty = temp_uncertainty }
+		clamp_variable = {
+			var = JAP.SC_current_uncertainty
+			min = 0
+			max = 100
+		}
+		SC_update_certainty = yes
+		else = { #PAKT
+			add_to_variable = { PAK.SC_current_uncertainty = temp_uncertainty }
+			clamp_variable = {
+				var = PAK.SC_current_uncertainty
+				min = 0
+				max = 100
+			}
+			SC_update_certainty = yes
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				temp_uncertainty < 0
+			}
+		}
+		multiply_temp_variable = { temp_uncertainty = -1 }
+		if = {
+			limit = {
+				check_variable = {
+					temp_uncertainty < 7
+				}
+			}
+			custom_effect_tooltip = SC_uncertainty_decrease_small
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					temp_uncertainty > 30
+				}
+			}
+			custom_effect_tooltip = SC_uncertainty_decrease_large
+		}
+		else = { custom_effect_tooltip = SC_uncertainty_decrease_medium }
+	}
+	else = {
+		if = {
+			limit = {
+				check_variable = {
+					temp_uncertainty < 7
+				}
+			}
+			custom_effect_tooltip = SC_uncertainty_increase_small
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					temp_uncertainty > 30
+				}
+			}
+			custom_effect_tooltip = SC_uncertainty_increase_large
+		}
+		else = { custom_effect_tooltip = SC_uncertainty_increase_medium }
+	}
+}
+SC_set_opposing_displayed_info = {
+	if = {
+		limit = { tag = JAP }
+		set_variable = { JAP.SC_current_uncertainty = temp_uncertainty }
+		clamp_variable = {
+			var = JAP.SC_current_uncertainty
+			min = 0
+			max = 100
+		}
+		SC_update_certainty = yes
+	}
+	else = { #PAKT
+		set_variable = { PAK.SC_current_uncertainty = temp_uncertainty }
+		clamp_variable = {
+			var = PAK.SC_current_uncertainty
+			min = 0
+			max = 100
+		}
+		SC_update_certainty = yes
+	}
+}
+SC_update_certainty = { #applies a new random deviation each time
+	if = {
+		limit = { tag = JAP }
+		set_temp_variable = { temp_base_deviation = JAP.SC_current_uncertainty }
+		divide_temp_variable = { temp_base_deviation = 2 }
+		set_temp_variable = { temp_gap_check_h = 100 }
+		subtract_from_temp_variable = { temp_gap_check_h = PAK.SC_readiness_actual }
+		if = {
+			limit = { #don't let it go above 100, can't clamp as it would subtract from the ascuracy value
+				check_variable = { temp_base_deviation > temp_gap_check_h }
+			}
+			set_temp_variable = { temp_high = 100 }
+			set_temp_variable = { temp_low = 100 }
+			subtract_from_temp_variable = { temp_low = JAP.SC_current_uncertainty }
+		}
+		else_if = { #don't let it go under 0
+			limit = {
+				check_variable = { temp_base_deviation > PAK.SC_readiness_actual }
+			}
+			set_temp_variable = { temp_low = 0 }
+			set_temp_variable = { temp_high = JAP.SC_current_uncertainty }
+		}
+		else = {
+			set_temp_variable = { temp_high = PAK.SC_readiness_actual }
+			set_temp_variable = { temp_low = PAK.SC_readiness_actual }
+			add_to_temp_variable = { temp_high = temp_base_deviation }
+			subtract_from_temp_variable = { temp_low = temp_base_deviation }
+			if = {
+				limit = { #don't apply deviation if value is too low
+					check_variable = { temp_base_deviation > 3 }
+				}
+				set_temp_variable = { temp_random_max = temp_base_deviation }
+				set_temp_variable = { temp_random_min = temp_base_deviation }
+				subtract_from_temp_variable = { temp_random_max = 1 }
+				multiply_temp_variable = { temp_random_min = -1 }
+				add_to_temp_variable = { temp_random_min = 1 }
+				set_variable_to_random = {
+					var = temp_random_deviation
+					max = temp_random_max
+					min = temp_random_min
+				}
+				set_temp_variable = { temp_max_check = 100 }
+				subtract_from_temp_variable = { temp_max_check = temp_high }
+				set_temp_variable = { temp_min_check = 0 }
+				subtract_from_temp_variable = { temp_min_check = temp_low }
+				if = {
+					limit = {
+						check_variable = { temp_random_deviation > temp_max_check }
+					}
+					set_temp_variable = { temp_random_deviation = temp_max_check }
+				}
+				else_if = {
+					limit = {
+						check_variable = { temp_random_deviation < 0 }
+						set_temp_variable = { temp_min_check = temp_random_deviation }
+						multiply_temp_variable = { temp_min_check = -1 }
+						if = {
+							limit = {
+								check_variable = { temp_min_check > temp_low }
+							}
+							set_temp_variable = { temp_random_deviation = temp_low }
+							multiply_temp_variable = { temp_random_deviation = -1 }
+						}
+					}
+				}
+				add_to_temp_variable = { temp_high = temp_random_deviation }
+				add_to_temp_variable = { temp_low = temp_random_deviation }
+			}
+		}
+		SC_apply_updated_certainty = yes
+	}
+	else = { #PAKT
+		set_temp_variable = { temp_base_deviation = PAK.SC_current_uncertainty }
+		divide_temp_variable = { temp_base_deviation = 2 }
+		set_temp_variable = { temp_gap_check_h = 100 }
+		subtract_from_temp_variable = { temp_gap_check_h = JAP.SC_readiness_actual }
+		if = {
+			limit = { #don't let it go above 100, can't clamp as it would subtract from the ascuracy value
+				check_variable = { temp_base_deviation > temp_gap_check_h }
+			}
+			set_temp_variable = { temp_high = 100 }
+			set_temp_variable = { temp_low = 100 }
+			subtract_from_temp_variable = { temp_low = PAK.SC_current_uncertainty }
+		}
+		else_if = { #don't let it go under 0
+			limit = {
+				check_variable = { temp_base_deviation > JAP.SC_readiness_actual }
+			}
+			set_temp_variable = { temp_low = 0 }
+			set_temp_variable = { temp_high = PAK.SC_current_uncertainty }
+		}
+		else = {
+			set_temp_variable = { temp_high = JAP.SC_readiness_actual }
+			set_temp_variable = { temp_low = JAP.SC_readiness_actual }
+			add_to_temp_variable = { temp_high = temp_base_deviation }
+			subtract_from_temp_variable = { temp_low = temp_base_deviation }
+			if = {
+				limit = { #don't apply deviation if value is too low
+					check_variable = { temp_base_deviation > 3 }
+				}
+				set_temp_variable = { temp_random_max = temp_base_deviation }
+				set_temp_variable = { temp_random_min = temp_base_deviation }
+				subtract_from_temp_variable = { temp_random_max = 1 }
+				multiply_temp_variable = { temp_random_min = -1 }
+				add_to_temp_variable = { temp_random_min = 1 }
+				set_variable_to_random = {
+					var = temp_random_deviation
+					max = temp_random_max
+					min = temp_random_min
+				}
+				set_temp_variable = { temp_max_check = 100 }
+				subtract_from_temp_variable = { temp_max_check = temp_high }
+				set_temp_variable = { temp_min_check = 0 }
+				subtract_from_temp_variable = { temp_min_check = temp_low }
+				if = {
+					limit = {
+						check_variable = { temp_random_deviation > temp_max_check }
+					}
+					set_temp_variable = { temp_random_deviation = temp_max_check }
+				}
+				else_if = {
+					limit = {
+						check_variable = { temp_random_deviation < 0 }
+						set_temp_variable = { temp_min_check = temp_random_deviation }
+						multiply_temp_variable = { temp_min_check = -1 }
+						if = {
+							limit = {
+								check_variable = { temp_min_check > temp_low }
+							}
+							set_temp_variable = { temp_random_deviation = temp_low }
+							multiply_temp_variable = { temp_random_deviation = -1 }
+						}
+					}
+				}
+				add_to_temp_variable = { temp_high = temp_random_deviation }
+				add_to_temp_variable = { temp_low = temp_random_deviation }
+			}
+		}
+		SC_apply_updated_certainty = yes
+	}
+}
+SC_apply_updated_certainty = {
+	clamp_temp_variable = {
+		var = temp_high
+		min = 0
+		max = 100
+	}
+	clamp_temp_variable = {
+		var = temp_low
+		min = 0
+		max = 100
+	}
+	if = {
+		limit = { tag = JAP }
+		set_variable = { SC_possible_readiness_max = temp_high }
+		set_variable = { SC_possible_readiness_min = temp_low }
+		SC_assemble_opposing_frame_variable = yes
+	}
+	else = {
+		PAK = {
+			set_variable = { SC_possible_readiness_max = temp_high }
+			set_variable = { SC_possible_readiness_min = temp_low }
+			SC_assemble_opposing_frame_variable = yes
+		}
+		GER = {
+			SC_assemble_opposing_frame_variable = yes
+		}
+	}
+}
+SC_assemble_opposing_frame_variable = {
+	set_variable = { SC_display_two = temp_high }
+	set_variable = { SC_display_one = temp_low }
+	meta_effect = {
+		text = {
+			set_variable = { SC_opposing_readiness_display = [LOW_END][ZEROES][HIGH_END] }
+		}
+		LOW_END = "[?SC_display_one|.0]"
+		ZEROES = "[Get_SC_Zeroes_Amount]"
+		HIGH_END = "[?SC_display_two|.0]"
+	}
+	log = "[GetDateText]: [THIS.GetName]: Opposing Readiness: [?THIS.SC_opposing_readiness_display]"
+}
+
+
+SC_end_effects = { # this is not done
+	clr_global_flag = subcontinental_crisis_ongoing_confrontation
+	set_global_flag = subcontinental_crisis_happened_before
+	if = {
+		limit = { # Stalemate
+			OR = {
+				AND = {
+					check_variable = { JAP.SC_readiness_actual < 30 }
+					check_variable = { PAK.SC_readiness_actual < 30 }
+				}
+				AND = {
+					check_variable = { JAP.SC_readiness_actual = PAK.SC_readiness_actual }
+					NOT = { check_variable = { PAK.SC_readiness_actual > 80 } } # CPS = PAK <= 80
+				}
+				has_game_rule = {
+					rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+					option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_STALEMATE
+				}
+			}
+			NOT = {
+				OR = {
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_PAKISTAN
+					}
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_INDIA
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = { id = SC_WORLD.4 } #frozen conflict
+			}
+		}
+		GER = {
+			set_temp_variable = { temp_uncertainty = 0 }
+			SC_set_opposing_displayed_info = yes
+			set_temp_variable = { Victory_ID = 37 }
+			set_temp_variable = { Victory_Outcome = 4 }
+			set_temp_variable = { Victory_Points = 100 }
+			Cold_War_GUI_ManipulateVictory = yes
+			country_event = { id = subcontinentalcrisis.110 days = 1 }
+		}
+		JAP = {
+			set_temp_variable = { temp_uncertainty = 0 }
+			SC_set_opposing_displayed_info = yes
+			set_temp_variable = { Victory_ID = 37 }
+			set_temp_variable = { Victory_Outcome = 2 }
+			set_temp_variable = { Victory_Points = -100 }
+			Cold_War_GUI_ManipulateVictory = yes
+			country_event = { id = subcontinentalcrisis.111 days = 1 }
+		}
+	}
+	else_if = {
+		limit = { #ww3 ending #todo put custom triggers
+			check_variable = { JAP.SC_readiness_actual > 80 }
+			check_variable = { PAK.SC_readiness_actual > 80 }
+			OR = {
+				has_global_flag = TENSION_ENABLED_GAME_RULE
+				PAK = { is_ai = no }
+				GER = { is_ai = no }
+				AZH = { is_ai = no }
+				JAP = { is_ai = no }
+			}
+			NOT = {
+				OR = {
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_PAKISTAN
+					}
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_INDIA
+					}
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_STALEMATE
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = { id = SC_WORLD.3 } #pakistan attacks japanese bases, azh recinds claims
+			}
+		}
+		hidden_effect = {
+			GER = {
+				set_temp_variable = { temp_uncertainty = 0 }
+				SC_set_opposing_displayed_info = yes
+				set_country_flag = disable_red_button
+				if = {
+					limit = { is_ai = no }
+					country_event = { id = nuclearwar.6 days = 6 }
+				}
+				else = {
+					JAP = { country_event = { id = nuclearwar.6 days = 6 } }
+				}
+				country_event = {
+					id = subcontinentalcrisis.141
+				}
+				country_event = {
+					id = subcontinentalcrisis.140
+					days = 4
+				}
+			}
+			JAP = {
+				set_temp_variable = { temp_uncertainty = 0 }
+				SC_set_opposing_displayed_info = yes
+				declare_war_on = {
+					target = PAK
+					type = annex_everything
+				}
+				set_country_flag = disable_red_button
+				country_event = {
+					id = subcontinentalcrisis.141
+				}
+				country_event = {
+					id = subcontinentalcrisis.142
+					days = 4
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = { # German-Pakistani Victory
+			OR = {
+				check_variable = { PAK.SC_readiness_actual > JAP.SC_readiness_actual }
+				has_game_rule = {
+					rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+					option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_PAKISTAN
+				}
+			}
+			NOT = {
+				OR = {
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_STALEMATE
+					}
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_INDIA
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = { id = SC_WORLD.2 } #pakistan attacks japanese bases, azh recinds claims
+			}
+		}
+		GER = {
+			set_temp_variable = { temp_uncertainty = 0 }
+			SC_set_opposing_displayed_info = yes
+			set_temp_variable = { Victory_ID = 37 }
+			set_temp_variable = { Victory_Outcome = 5 }
+			set_temp_variable = { Victory_Points = 50 }
+			Cold_War_GUI_ManipulateVictory = yes
+			country_event = { id = subcontinentalcrisis.120 days = 1 }
+			country_event = {
+				id = PAK_Germany.13
+				days = 365
+			}
+		}
+		JAP = {
+			set_temp_variable = { temp_uncertainty = 0 }
+			SC_set_opposing_displayed_info = yes
+			set_temp_variable = { Victory_ID = 37 }
+			set_temp_variable = { Victory_Outcome = 1 }
+			set_temp_variable = { Victory_Points = -175 }
+			Cold_War_GUI_ManipulateVictory = yes
+			country_event = { id = subcontinentalcrisis.121 days = 1 }
+		}
+		PAK = {
+			every_owned_state = {
+				remove_core_of = AZH
+				remove_claim_by = AZH
+			}
+			diplomatic_relation = {
+				country = AZH
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	else_if = {
+		limit = { # Indian_Japanese Victory
+			OR = {
+				check_variable = { PAK.SC_readiness_actual < JAP.SC_readiness_actual }
+				has_game_rule = {
+					rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+					option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_INDIA
+				}
+			}
+			NOT = {
+				OR = {
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_STALEMATE
+					}
+					has_game_rule = {
+						rule = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+						option = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_PAKISTAN
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = { id = SC_WORLD.1 } #attach on jammu
+			}
+		}
+		GER = {
+			remove_from_faction = PAK
+			diplomatic_relation = {
+				country = PAK
+				relation = guarantee
+				active = no
+			}
+			set_temp_variable = { temp_uncertainty = 0 }
+			SC_set_opposing_displayed_info = yes
+			set_temp_variable = { Victory_ID = 37 }
+			set_temp_variable = { Victory_Outcome = 1 }
+			set_temp_variable = { Victory_Points = -300 }
+			Cold_War_GUI_ManipulateVictory = yes
+			# Pakistani collapse events
+			country_event = { id = subcontinentalcrisis.130 days = 1 } # Pulling Back
+			country_event = { # Namarië
+				id = PAK_Germany.14
+				days = 1
+				random = 1
+			}
+			country_event = { # The Shattered State
+				id = PAK_Germany.15
+				days = 3
+				random = 2
+			}
+			country_event = { # Header
+				id = PAK_Germany.16
+				days = 6
+				random = 4
+			}
+			country_event = { # The Watch on the Havel
+				id = PAK_Germany.17
+				days = 1095
+			}
+		}
+		JAP = {
+			set_temp_variable = { temp_uncertainty = 0 }
+			SC_set_opposing_displayed_info = yes
+			set_temp_variable = { Victory_ID = 37 }
+			set_temp_variable = { Victory_Outcome = 5 }
+			set_temp_variable = { Victory_Points = 100 }
+			Cold_War_GUI_ManipulateVictory = yes
+			country_event = { id = subcontinentalcrisis.131 days = 1 }
+			country_event = { # Punishment Initiation, offset so this and jap_india.40 don't fire so close to each other
+				id = jap_india.39
+				days = 375
+				random_days = 60
+			}
+			country_event = { # Green Indus
+				id = jap_india.40
+				days = 365
+			}
+		}
+		AZH = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 1317
+					num_provinces = 4
+					on_win = AZH_skeleton.998
+					on_lose = AZH_skeleton.998
+					on_cancel = AZH_skeleton.998
+				}
+				defender = {
+					state = 1318
+					num_provinces = 4
+				}
+			}
+		}
+	}
+}

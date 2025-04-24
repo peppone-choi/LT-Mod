@@ -1,0 +1,20 @@
+state = {
+	id = 834
+	name = "STATE_834"
+
+	history = {
+		owner = BKF
+		add_core_of = BKF
+		victory_points = { 14115 1 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7983 14096 14100 14115 14129
+	}
+	manpower = 702150
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

@@ -1,0 +1,20 @@
+state = { #Population Done
+	id = 1445
+	name = "STATE_1445"
+	manpower = 643815
+	state_category = rural
+	history = {
+		owner = ITA
+		victory_points = { 6972 4 }
+		victory_points = { 9856 3 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ITA
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		3968 6972 9856 14659
+	}
+}

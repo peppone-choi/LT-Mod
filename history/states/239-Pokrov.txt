@@ -1,0 +1,36 @@
+state = {
+	id = 239
+	name = "STATE_239"
+
+	history = {
+		owner = SAM
+		victory_points = {
+			11523 10
+		}
+		victory_points = {
+			11421 5
+		}
+		victory_points = {
+			11395 1
+		}
+		victory_points = {
+			6539 2
+		}
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			schools = 1
+		}
+		add_core_of = SAM
+		add_core_of = MCW
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		499 578 3490 3551 6430 6479 6539 6574 6601 9432 9447 9475 9577 11395 11421 11460 11523 13290 18311
+	}
+	manpower = 739969
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

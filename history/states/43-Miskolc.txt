@@ -1,0 +1,39 @@
+state = {
+	id = 43
+	name = "STATE_43"
+	resources = {
+		steel = 4.000
+		aluminium = 43.000
+	}
+
+	history = {
+		owner = HUN
+		buildings = {
+			infrastructure = 4
+			air_base = 5
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			6751 10
+		}
+		victory_points = {
+			3565 5
+		}
+		victory_points = {
+			3731 3
+		}
+		victory_points = {
+			11520 1
+		}
+		add_core_of = HUN
+	}
+
+	provinces = {
+		716 3565 3713 3731 6751 9690 11520 18157
+	}
+	manpower = 1315027
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

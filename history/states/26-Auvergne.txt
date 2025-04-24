@@ -1,0 +1,45 @@
+state = {
+	id = 26
+	name = "STATE_26"
+	resources = {
+		uranium = 6.000
+		steel = 10.000
+	}
+
+	history = {
+		owner = FRS
+		buildings = {
+			infrastructure = 4
+			schools = 1
+			offices = 2
+			barracks = 2
+			hospitals = 2
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			590 15
+		}
+		add_core_of = FRS
+		add_core_of = FFR
+		victory_points = {
+			9607 5
+		}
+		victory_points = {
+			9609 1
+		}
+		victory_points = {
+			15239 1
+		}
+		victory_points = {
+			9732 1
+		}
+	}
+
+	provinces = {
+		590 769 3594 6644 6773 9593 9607 9609 9732 9748 11576 15237 15238 15239 15241 15243 17988
+	}
+	manpower = 1273162
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 2198
+	name = "STATE_2198"
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = TAJ
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		victory_points = {
+			1919 2
+		}
+		victory_points = {
+			1216 1
+		}
+		add_core_of = TAJ
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1919 18689 18640 18641 1216 18646
+	}
+	manpower = 428850
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

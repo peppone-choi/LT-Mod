@@ -1,0 +1,27 @@
+state = {
+	id = 1738
+	name = "STATE_1738"
+	resources = {
+		aluminium = 2.000
+	}
+
+	history = {
+		owner = VIC
+		add_core_of = VIC
+		add_core_of = VIN
+		victory_points = {
+			12065 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1073 7518 12008 12065 19064
+	}
+	manpower = 849525
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

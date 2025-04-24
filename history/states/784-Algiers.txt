@@ -1,0 +1,33 @@
+state = {
+	id = 784
+	name = "STATE_784"
+
+	history = {
+		owner = FRS
+		victory_points = { 3959 25 }
+		victory_points = { 1145 10 }
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			radar_station = 2
+			air_base = 3
+			3959 = {
+				naval_base = 6
+			}
+			hospitals = 1
+			offices = 1
+			prisons = 1
+		}
+		add_core_of = ALG
+		add_core_of = FRS
+		add_core_of = FFR
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		3959 1145
+	}
+	manpower = 1413296
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

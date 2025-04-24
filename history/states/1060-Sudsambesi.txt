@@ -1,0 +1,38 @@
+
+state = {
+	id = 1060
+	name = "STATE_1060"
+	resources = {
+		aluminium = 1.000
+	}
+
+	history = {
+		owner = MZB
+		add_core_of = MZB
+		buildings = {
+			offices = 1
+			barracks = 1
+			infrastructure = 3
+			13710 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13710 5
+		}
+		victory_points = {
+			13733 1
+		}
+		victory_points = {
+			2120 1
+		}
+	}
+
+	provinces = {
+		2120 12935 13710 13733 13740 17852
+	}
+	manpower = 405478
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

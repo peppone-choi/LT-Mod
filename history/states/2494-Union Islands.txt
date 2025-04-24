@@ -1,0 +1,23 @@
+state = {
+	id = 2494
+	name = "STATE_2494"
+	manpower = 1617
+	state_category = small_island
+
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		add_claim_by = USA
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+			13050 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		13050
+	}
+}

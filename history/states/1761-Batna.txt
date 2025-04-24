@@ -1,0 +1,33 @@
+state = {
+	id = 1761
+	name = "STATE_1761"
+
+	resources = {
+		uranium = 2
+	}
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		victory_points = { 9976 10 }
+		victory_points = { 12034 2 }
+		victory_points = { 12888 6 }
+		victory_points = { 10059 3 }
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		add_core_of = ALG
+		set_state_flag = state_renamings
+	}
+
+
+	provinces = {
+		10059 18077 12034 18012 12888 7149 9976
+	}
+	manpower = 574434
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

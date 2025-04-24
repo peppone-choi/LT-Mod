@@ -1,0 +1,20 @@
+state = {
+	id = 741
+	name = "STATE_741"
+
+	history = {
+		add_core_of = CAM
+		owner = CAM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1620 7645 10204 12150 19016 19028
+	}
+	manpower = 169732
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

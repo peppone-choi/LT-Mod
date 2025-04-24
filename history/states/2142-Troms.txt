@@ -1,0 +1,52 @@
+state = {
+	id = 2142
+	name = "STATE_2142"
+
+	history = {
+		buildings = {
+			infrastructure = 4
+			18401 = {
+				coastal_bunker = 2
+			}
+			91 = {
+				coastal_bunker = 2
+			}
+			11090 = {
+				coastal_bunker = 2
+			}
+			44 = {
+				coastal_bunker = 2
+			}
+			11050 = {
+				coastal_bunker = 2
+				naval_base = 2
+			}
+			3058 = {
+				coastal_bunker = 2
+			}
+			3082 = {
+				coastal_bunker = 2
+			}
+			6079 = {
+				coastal_bunker = 2
+			}
+			air_base = 3
+		}
+		victory_points = {
+			11050 2
+		}
+		victory_points = {
+			18401 1
+		}
+		owner = NOR
+		add_core_of = NOR
+	}
+
+	provinces = {
+		18401 3145 91 11090 6130 18394 11050 44 3058 3082 6079 6107
+	}
+	manpower = 127771
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

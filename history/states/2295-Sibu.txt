@@ -1,0 +1,27 @@
+state = {
+	id = 2295
+	name = "STATE_2295"
+	resources = {
+		oil = 6
+	}
+
+	history = {
+		owner = NRB
+		victory_points = {
+			12283 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NRB
+		set_state_flag = GDP_regions_sarawak
+	}
+
+	provinces = {
+		19287 19286 12283 4216 2222 7443 2117
+	}
+	manpower = 274558
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

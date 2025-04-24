@@ -1,0 +1,35 @@
+state = {
+	id = 70
+	name = "STATE_70"
+	resources = {
+		tungsten = 2.000
+		oil = 4
+	}
+
+	history = {
+		owner = SLO
+		victory_points = {
+			9692 15
+		}
+		victory_points = {
+			9539 3
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+			offices = 2
+			schools = 1
+			thermoelectric_plant = 1
+			synthetic_refinery = 1
+		}
+		add_core_of = SLO
+	}
+
+	provinces = {
+		13129 9692 9539
+	}
+	manpower = 619790
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

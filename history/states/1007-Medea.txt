@@ -1,0 +1,30 @@
+state = {
+	id = 1007
+	name = "STATE_1007"
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ALG
+		add_core_of = ILG
+		victory_points = { 18078 4 }
+		victory_points = { 4131 2 }
+		victory_points = { 1128 1 }
+		victory_points = { 4146 1 }
+		victory_points = { 7033 1 }
+		victory_points = { 18010 3 }
+		victory_points = { 18044 2 }
+		buildings = {
+			infrastructure = 4
+			offices = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1128 4131 4146 7033 18078 7040 9960 18010 18013 18044
+	}
+	manpower = 753831
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

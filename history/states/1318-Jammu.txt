@@ -1,0 +1,24 @@
+state = {
+	id = 1318
+	name = "STATE_1318"
+
+	history = {
+		victory_points = {
+			12754 10
+		}
+		owner = IND
+		buildings = {
+			infrastructure = 3
+		}
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_jammu_kashmir
+	}
+
+	provinces = {
+		10905 12754 16013 16014 18851 18881 19010 19012
+	}
+	manpower = 1360376
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

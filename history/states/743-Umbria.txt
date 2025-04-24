@@ -1,0 +1,37 @@
+state = {
+	id = 743
+	name = "STATE_743"
+	resources = {
+		power = 4.000
+	}
+
+	history = {
+		owner = ITA
+		victory_points = {
+			3885 10
+		}
+		victory_points = {
+			14652 9
+		}
+		victory_points = {
+			14654 4
+		}
+		victory_points = {
+			14653 3
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+			schools = 1
+		}
+		add_core_of = ITA
+	}
+
+	provinces = {
+		3885 14652 14653 14654 14655
+	}
+	manpower = 794736
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

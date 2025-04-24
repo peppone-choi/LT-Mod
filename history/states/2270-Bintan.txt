@@ -1,0 +1,33 @@
+state = {
+	id = 2270
+	name = "STATE_2270"
+	resources = {
+		oil = 14
+		aluminium = 2
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+			12113 = {
+				naval_base = 1
+			}
+			radar_station = 1
+		}
+		victory_points = {
+			12113 1
+		}
+		set_state_flag = GDP_regions_riau
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		12113 19213
+	}
+	manpower = 154001
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

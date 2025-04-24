@@ -1,0 +1,24 @@
+state = {
+	id = 1274
+	name = "STATE_1274"
+
+	history = {
+		owner = SER
+		add_core_of = SER
+		victory_points = { 3609 3 }
+		victory_points = { 797 1 }
+		victory_points = { 9599 2 }
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+		}
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		797 3609 9599
+	}
+	manpower = 514546
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

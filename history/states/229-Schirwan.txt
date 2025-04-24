@@ -1,0 +1,32 @@
+state = { #Population Done
+	id = 229
+	name = "STATE_229"
+	resources = {
+		oil = 24
+		aluminium = 8
+	}
+
+	history = {
+		owner = AZR
+		buildings = {
+			infrastructure = 5
+			prisons = 1
+		}
+		victory_points = { 1536 1 }
+		victory_points = { 4458 1 }
+		victory_points = { 4545 1 }
+		victory_points = { 15128 1 }
+		victory_points = { 4614 1 }
+		victory_points = { 18344 1 }
+		add_core_of = AZR
+		set_state_flag = GDP_regions_azerbaijan
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1536 4458 4545 4614 11704 15128 18343 18344 18349
+	}
+	manpower = 759546
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 2479
+	name = "STATE_2479"
+
+	history = {
+		owner = AAF
+		add_core_of = AAF
+	}
+
+	provinces = {
+		19946
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

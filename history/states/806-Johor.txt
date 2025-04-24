@@ -1,0 +1,35 @@
+state = {
+	id = 806
+	name = "STATE_806"
+	resources = {
+		rubber = 16
+		oil = 6
+	}
+
+	history = {
+		owner = SHO
+		add_core_of = SHO
+		add_core_of = MLY
+		victory_points = {
+			14699 5
+		}
+		victory_points = {
+			14694 1
+		}
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+			schools = 1
+			thermoelectric_plant = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		10313 14693 14694 14699 19031
+	}
+	manpower = 1084251
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

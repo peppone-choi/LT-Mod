@@ -1,0 +1,33 @@
+state = {
+	id = 803
+	name = "STATE_803"
+	resources = {
+		rubber = 4
+		tungsten = 2
+	}
+
+	history = {
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+		}
+		owner = MLY
+		add_core_of = SHO
+		add_core_of = MLY
+		victory_points = {
+			14701 5
+		}
+		victory_points = {
+			12215 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1364 1376 4310 7342 12215 14697 14700 14701 14703
+	}
+	manpower = 1406952
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

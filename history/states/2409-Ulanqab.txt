@@ -1,0 +1,27 @@
+state = {
+	id = 2409
+	name = "STATE_2409"
+	resources = {
+		steel = 2.000
+	}
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_chahar_suiyuan
+		set_variable = { china_state_ref = 55 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		1723 2087 4525 7048 10629 12331 12609 12880
+	}
+	manpower = 375902
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

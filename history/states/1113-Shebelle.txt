@@ -1,0 +1,28 @@
+state = {
+	id = 1113
+	name = "STATE_1113"
+	resources = {
+		uranium = 3.000
+	}
+
+	history = {
+		owner = IEA
+		add_core_of = IEA
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+		}
+		victory_points = {
+			13944 5
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		2063 10928 12991 13944 13991 15538 15539 17909 17911
+	}
+	manpower = 678845
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

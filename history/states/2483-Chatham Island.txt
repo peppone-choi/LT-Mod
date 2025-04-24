@@ -1,0 +1,17 @@
+state = {
+	id = 2483
+	name = "STATE_2483"
+
+	history = {
+		owner = NZL
+		add_core_of = NZL
+	}
+
+	provinces = {
+		19939
+	}
+	manpower = 817
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+	local_supplies = 0.000
+}

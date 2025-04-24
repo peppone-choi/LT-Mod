@@ -1,0 +1,97 @@
+focus_tree = {
+	id = RUS_KEM_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KEM
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_KEM_focus_1 #붉은 크냐지의 왕국
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_2 #류리크 대개혁의 실시
+		prerequisite = { focus = RUS_KEM_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_KEM_focus_3
+		}
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_3 # 러시아 '신문화' 제창
+		prerequisite = { focus = RUS_KEM_focus_2 }
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_4 # 노동조합의 권익
+		prerequisite = { focus = RUS_KEM_focus_3 }
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_5 # 토지개혁의 끝
+		prerequisite = { focus = RUS_KEM_focus_4 }
+		x = 0
+		y = 4
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_6 # 수보로프 사관학교 설립
+		prerequisite = { focus = RUS_KEM_focus_1 }
+		x = 2
+		y = 1
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_7 # 붉은 군대 사면령
+		prerequisite = { focus = RUS_KEM_focus_6 }
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_8 # 새로운 러시아 인민들의 군대
+		prerequisite = { focus = RUS_KEM_focus_7 }
+		x = 2
+		y = 3
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_9 # 영공을 위한 준비
+		prerequisite = { focus = RUS_KEM_focus_8 }
+		x = 2
+		y = 4
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KEM_focus_10 # 붉은 크냐지를 위한 대연회
+		prerequisite = { focus = RUS_KEM_focus_9 }
+		prerequisite = {
+			focus = RUS_KEM_focus_5
+		}
+		x = 2
+		y = 5
+		icon = GFX_goal_generic_orthodox
+	}
+}

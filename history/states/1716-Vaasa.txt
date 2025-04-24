@@ -1,0 +1,47 @@
+state = {
+	id = 1716
+	name = "STATE_1716"
+
+	resources = {
+		power = 2
+	}
+
+	history = {
+		owner = FIN
+		victory_points = {
+			3122 5
+		}
+		victory_points = {
+			11126 1
+		}
+		victory_points = {
+			66 1
+		}
+		victory_points = {
+			3172 1
+		}
+		victory_points = {
+			18438 1
+		}
+		victory_points = {
+			6138 1
+		}
+		buildings = {
+			infrastructure = 5
+			3122 = {
+				naval_base = 2
+			}
+			schools = 1
+			hospitals = 1
+		}
+		add_core_of = FIN
+	}
+
+	provinces = {
+		66 3122 3172 11065 11126 63 3119 6013 6138 6198 9038 9156 18431 18438
+	}
+	manpower = 443468
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,111 @@
+focus_tree = {
+	id = RUS_KRS_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KRS
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_KRS_focus_1 #크라스노야르스크 대교구 건립
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_2 #협동농장 재건
+		prerequisite = { focus = RUS_KRS_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_KRS_focus_3
+		}
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_3 # 자영농들의 권익
+		prerequisite = { focus = RUS_KRS_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_KRS_focus_2
+		}
+		x = 2
+		y = 1
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_4 # 노멘클라투라 자본가
+		prerequisite = { focus = RUS_KRS_focus_2 focus = RUS_KRS_focus_3 }
+		x = 0
+		y = 2
+		mutually_exclusive = {
+			focus = RUS_KRS_focus_5
+		}
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_5 # 협동조합주의 공업 육성
+		prerequisite = { focus = RUS_KRS_focus_2 focus = RUS_KRS_focus_3 }
+		x = 2
+		y = 2
+		mutually_exclusive = {
+			focus = RUS_KRS_focus_4
+		}
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_6 # 오흐라나의 부활
+		prerequisite = { focus = RUS_KRS_focus_4 focus = RUS_KRS_focus_5 }
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_7 # 십자가 아래로의 통합 천명
+		prerequisite = { focus = RUS_KRS_focus_6 }
+		x = 0
+		y = 4
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_8 # 러시아 십자군의 기초
+		prerequisite = { focus = RUS_KRS_focus_7 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_9 # 군제 개혁
+		prerequisite = { focus = RUS_KRS_focus_8 }
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_10 # 탈영병들의 유대감
+		prerequisite = { focus = RUS_KRS_focus_9 }
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KRS_focus_11 # 중앙시베리아 통함전쟁 개시
+		prerequisite = { focus = RUS_KRS_focus_10 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_orthodox
+	}
+}

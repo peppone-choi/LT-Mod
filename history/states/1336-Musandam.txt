@@ -1,0 +1,22 @@
+state = {
+	id = 1336
+	name = "STATE_1336"
+
+	state_category = wasteland
+
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 2
+			13468 = { naval_base = 1 }
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13468
+	}
+	manpower = 17807
+	buildings_max_level_factor = 1.000
+}

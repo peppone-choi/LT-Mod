@@ -1,0 +1,43 @@
+state = {
+	id = 1959
+	name = "STATE_1959"
+
+	history = {
+		owner = IND
+		victory_points = {
+			12786 20
+		}
+		victory_points = {
+			16054 3
+		}
+		victory_points = {
+			18891 4
+		}
+		victory_points = {
+			18903 6
+		}
+		victory_points = {
+			10751 3
+		}
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+			air_base = 3
+			prisons = 1
+			12786 = {
+				bunker = 1
+			}
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_uttar_pradesh
+	}
+
+	provinces = {
+		10751 12786 16051 16054 18891 18903
+	}
+	manpower = 10280352
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

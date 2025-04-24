@@ -1,0 +1,32 @@
+state = {
+	id = 1782
+	name = "STATE_1782"
+	resources = {
+		oil = 2.000
+	}
+
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			15773 10
+		}
+		victory_points = {
+			15774 10
+		}
+		victory_points = {
+			15775 6
+		}
+		add_core_of = EGY
+	}
+
+	provinces = {
+		7091 15773 15774 15775
+	}
+	manpower = 2300970
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

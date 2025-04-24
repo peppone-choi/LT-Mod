@@ -1,0 +1,2454 @@
+guiTypes = {
+
+	extendedScrollbarType = {
+		name = "right_vertical_slider_Antarctica_GUI"
+		position = { x = -12 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x = -17 y = -19}
+		}
+	}
+
+	extendedScrollbarType = {
+		name = "right_vertical_slider_Antarctica_GUI_Large"
+		position = { x = -12 y = 0 }
+		size = { width = 18 height = 18 }
+		maxValue = 1
+		minValue = 0
+		stepSize = 0.01
+		startValue = 0.5
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_Antarctica_GUI_Large_scroll_drager"
+			position = { x = -10 y = 0 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x = -17 y = -19}
+		}
+	}
+	
+	extendedScrollbarType = {
+		name = "bottom_horizontal_slider_Antarctica_GUI_Large"
+		position = { x = 0 y = -14 }
+		size = { width = 18 height = 18 }
+		maxValue = 1
+		minValue = 0
+		stepSize = 0.01
+		startValue = 0.5
+		horizontal = yes
+		orientation = lower_left
+		origo = lower_left
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_horisontal_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_Antarctica_GUI_Large_scroll_drager_Horz"
+			position = { x = 0 y = -10 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track_horisontal"
+			position = { x = 0 y = 3 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_left"
+			position = { x = 3 y = 1 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_right"
+			position = { x = -19 y = -17 }
+		}
+	}
+
+	extendedScrollbarType = {
+		name = "right_vertical_slider_Antarctica_GUI_Special_Missions"
+		position = { x = -3 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x = -17 y = -19}
+		}
+	}
+
+	extendedScrollbarType = {
+		name = "right_vertical_slider_Antarctica_GUI_Log"
+		position = { x = -8 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x = -17 y = -19}
+		}
+	}
+
+	containerWindowType = {
+		name = "Antarctica_GUI_Open"
+		size = { width = 220 height = 128 }
+		position = { x = 176 y = 54 }
+		
+		iconType = {
+			name = "Background"
+			spriteType = "GFX_pol_goal_bg"
+		}
+
+		buttonType = {
+			name = "Antarctica_GUI_Open_Button_Text"
+			position = { x = 100 y = 7 }
+			spriteType = "GFX_add_national_goal_button"
+			clicksound = click_default
+		}
+
+		instantTextboxType = {
+			name = "Antarctica_GUI_Open_Button_Text_Name"
+			position = { x = 120 y = 38 }
+			font = "aldrich_22_outline"
+			text = Antarctica_GUI_Open_Button_Text
+			maxWidth = 218
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+			vertical_alignment = center
+		}
+
+		iconType = {
+			name = "Antarctica_GUI_Mission_Progress"
+			spriteType = "GFX_activegoal_progress"
+			position = { x = 112 y = 72 }
+		}
+
+		iconType = {
+			name = "Antarctica_GUI_Mission_Progress_Frame"
+			position = { x = 110 y = 72 }
+			spriteType = "GFX_pol_goal_progress_frame"
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Open_Button_Focus"
+			spriteType = "GFX_Antarctica_GUI_button"
+			position = { x = 46 y = 47 }
+			centerposition = yes
+			scale = 0.8
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Main"
+		size = { width = 100% height = 100% }
+		position = { x = -12000 y = 0 }
+		show_position = { x = 0 y = 0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400
+
+		background = {
+			name = "Antarctica_GUI_Main_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Main_Zoom_Container"
+			position = { x = 0 y = 0 }
+
+			gridboxtype = {
+				name = "Antarctica_GUI_Main_Zoom"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 0 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Main_Zoom_0"
+		size = { width = 100% height = 100% }
+		position = { x = 0 y = 0 }
+		horizontalScrollbar = "bottom_horizontal_slider_Antarctica_GUI_Large"
+		verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Large"
+		margin = { top = 12 bottom = 14 left = 14 right = 29 }
+		
+		background = {
+			name = "Antarctica_GUI_Main_Scrollbars_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Main_Assets"
+			size = { width = 4096 height = 4096 }
+			position = { x = 0 y = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Main_Assets_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_Main_Background_Asset"
+				spriteType = "GFX_Antarctica_GUI_Background_Asset"
+				scale = 1
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Main_Tiles_Grid"
+				position = { x = -1984 y = 0 }
+				size = { width = 100% height = 100% }
+				slotsize = { width = 128 height = 128 } 
+				add_horizontal = yes
+				max_slots_horizontal = 32
+				max_slots_vertical = 32
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Schirmacher"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 2315 y = 535 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17695
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Begerheim"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1685 y = 585 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17772
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Esperanza"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 155 y = 895 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17715
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Prat"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 25 y = 940 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17666
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_McMurdo"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 2235 y = 3095 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17802
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Showa"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1130 y = 3005 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17688
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_HAG"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1625 y = 765 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17654
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Artigas"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1730 y = 660 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17798
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Galindez"
+				spriteType = GFX_Antarctica_GUI_VP_strip
+				position = { x = 164 y = 1234 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17689
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Main_Zoom_1"
+		size = { width = 100% height = 100% }
+		position = { x = 0 y = 0 }
+		horizontalScrollbar = "bottom_horizontal_slider_Antarctica_GUI_Large"
+		verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Large"
+		margin = { top = 12 bottom = 14 left = 14 right = 29 }
+
+		background = {
+			name = "Antarctica_GUI_Main_Scrollbars_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Main_Assets"
+			size = { width = 3072 height = 3072 }
+			position = { x = 0 y = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Main_Assets_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_Main_Background_Asset"
+				spriteType = "GFX_Antarctica_GUI_Background_Asset"
+				scale = 0.75
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Main_Tiles_Grid"
+				position = { x = -1488 y = 0 }
+				size = { width = 100% height = 100% }
+				slotsize = { width = 96 height = 96 } 
+				add_horizontal = yes
+				max_slots_horizontal = 32
+				max_slots_vertical = 32
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Schirmacher"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1732 y = 397 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17695
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Begerheim"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1260 y = 435 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17772
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Esperanza"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 112 y = 667 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17715
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Prat"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 15 y = 701 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17666
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_McMurdo"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1672 y = 2317 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17802
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Showa"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 843 y = 2250 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17688
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_HAG"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1210 y = 575 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17654
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Artigas"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1290 y = 500 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17798
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Galindez"
+				spriteType = GFX_Antarctica_GUI_VP_strip
+				position = { x = 116 y = 925 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17689
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Main_Zoom_2"
+		size = { width = 100% height = 100% }
+		position = { x = 0 y = 0 }
+		horizontalScrollbar = "bottom_horizontal_slider_Antarctica_GUI_Large"
+		verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Large"
+		margin = { top = 12 bottom = 14 left = 14 right = 29 }
+
+		background = {
+			name = "Antarctica_GUI_Main_Scrollbars_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Main_Assets"
+			size = { width = 2048 height = 2048 }
+			position = { x = 0 y = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Main_Assets_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_Main_Background_Asset"
+				spriteType = "GFX_Antarctica_GUI_Background_Asset"
+				scale = 0.5
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Main_Tiles_Grid"
+				position = { x = -992 y = 0 }
+				size = { width = 100% height = 100% }
+				slotsize = { width = 64 height = 64 } 
+				add_horizontal = yes
+				max_slots_horizontal = 32
+				max_slots_vertical = 32
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Schirmacher"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1152 y = 262 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17695
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Begerheim"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 837 y = 287 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17772
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Esperanza"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 72 y = 441 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17715
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Prat"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 7 y = 464 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17666
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_McMurdo"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 1112 y = 1542 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17802
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Showa"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 559 y = 1497 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17688
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_HAG"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 803 y = 377 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17654
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Artigas"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 855 y = 335 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17798
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Galindez"
+				spriteType = GFX_Antarctica_GUI_VP_strip
+				position = { x = 78 y = 600 }
+				frame = 1
+				pdx_tooltip = VICTORY_POINTS_17689
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Main_Zoom_3"
+		size = { width = 100% height = 100% }
+		position = { x = 0 y = 0 }
+		horizontalScrollbar = "bottom_horizontal_slider_Antarctica_GUI_Large"
+		verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Large"
+		margin = { top = 12 bottom = 14 left = 14 right = 29 }
+
+		background = {
+			name = "Antarctica_GUI_Main_Scrollbars_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Main_Assets"
+			size = { width = 1024 height = 1024 }
+			position = { x = 0 y = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Main_Assets_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_Main_Background_Asset"
+				spriteType = "GFX_Antarctica_GUI_Background_Asset"
+				scale = 0.25
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Main_Tiles_Grid"
+				position = { x = -496 y = 0 }
+				size = { width = 100% height = 100% }
+				slotsize = { width = 32 height = 32 } 
+				add_horizontal = yes
+				max_slots_horizontal = 32
+				max_slots_vertical = 32
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Schirmacher"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 571 y = 124 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17695
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Begerheim"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 413 y = 138 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17772
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Esperanza"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 29 y = 216 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17715
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Prat"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = -4 y = 225 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17666
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_McMurdo"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 549 y = 766 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17802
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Showa"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 272 y = 743 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17688
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_HAG"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 395 y = 191 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17654
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Artigas"
+				spriteType = "GFX_Antarctica_GUI_VP_strip"
+				position = { x = 420 y = 165 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17798
+			}
+
+			iconType = {
+				name = "Antarctica_GUI_VP_Big_Galindez"
+				spriteType = GFX_Antarctica_GUI_VP_strip
+				position = { x = 33 y = 295 }
+				frame = 2
+				pdx_tooltip = VICTORY_POINTS_17689
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Static_Assets_Container"
+		size = { width = 239 height = 49 }
+		position = { x = -12000 y = 0 }
+		show_position = { x = 10 y = 8 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400
+	
+		background = {
+			name = "Antarctica_GUI_Static_Assets_bg"
+			quadTextureSprite = "GFX_tiled_decisions_bg_small"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Static_Assets_bg_tt_container"
+			spriteType = "GFX_tiled_decisions_bg_small_alt"
+			size = { x = 151 y = 49 }
+			pdx_tooltip = Antarctica_GUI_Special_Missions_tt
+		}
+	
+		buttonType = {
+			name = "Antarctica_GUI_Main_close_button"
+			position = { x = 6 y = 6 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			orientation = upper_left
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	
+		buttonType = {
+			name = "Antarctica_GUI_Main_Info_button"
+			position = { x = 28 y = 6 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Info_Button"
+			pdx_tooltip = Antarctica_GUI_Main_Info_button_tt
+		}
+	
+		buttonType = {
+			name = "Antarctica_GUI_Main_Dropdown_button"
+			position = { x = 68 y = 6 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Dropdown_Button"
+			pdx_tooltip = Antarctica_GUI_Main_Dropdown_button_tt
+		}
+	
+		buttonType = {
+			name = "Antarctica_GUI_Main_Log_button"
+			position = { x = 108 y = 6 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Log_Button"
+			pdx_tooltip = Antarctica_GUI_Main_Log_button_tt
+		}
+	
+		buttonType = {
+			name = "Antarctica_GUI_Main_Zoom_Out"
+			position = { x = 154 y = 6 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Zoom_1_Button"
+			pdx_tooltip = Antarctica_GUI_Main_Zoom_Out_tt
+		}
+
+		buttonType = {
+			name = "Antarctica_GUI_Main_Zoom_In"
+			position = { x = 194 y = 6 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Zoom_2_Button"
+			pdx_tooltip = Antarctica_GUI_Main_Zoom_In_tt
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Main_Dropdown"
+		size = { width = 400 height = 400 }
+		position = { x = 10 y = 52 }
+		
+		background = {
+			name = "Antarctica_GUI_Main_Dropdown_bg"
+			quadTextureSprite = "GFX_tiled_decisions_bg_small"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Main_Dropdown_bg_tt_container"
+			spriteType = "GFX_tiled_decisions_bg_small_alt"
+			size = { x = 400 y = 400 }
+			pdx_tooltip = Antarctica_GUI_Special_Missions_tt
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Main_Dropdown_Text"
+			position = { x = 10 y = 8 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Main_Dropdown_Text
+			maxWidth = 375
+			format = left
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Main_Log"
+		size = { width = 400 height = 400 }
+		position = { x = 10 y = 52 }
+		
+		background = {
+			name = "Antarctica_GUI_Main_Log_bg"
+			quadTextureSprite = "GFX_tiled_decisions_bg_small"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Main_Log_Grid_Container"
+			size = { width = 400 height = 400 }
+			position = { x = 0 y = 0 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Log"
+			margin = { top = 10 bottom = 10 left = 0 right = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Main_Log_Grid_Container_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+		
+			gridboxtype = {
+				name = "Antarctica_GUI_Main_Log_Grid"
+				position = { x = 15 y = 10 }
+				size = { width = 350 height = 350 }
+				slotsize = { width = 360 height = 80 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Log_Entry"
+		position = { x = 0 y = -10 }
+		size = { width = 360 height = 80 }
+		
+		background = {
+			name = "Antarctica_GUI_Log_Entry_bg"
+			quadTextureSprite = "GFX_tiled_decisions_bg_small"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Log_Entry_Text"
+			position = { x = 7 y = 5 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_Log_Entry_Full_Text
+			maxWidth = 340
+			maxHeight = 80
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_100"
+		position = { x = 0 y = 0 }
+		size = { width = 128 height = 128 }
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Asset"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Section_Box_100"
+			pdx_tooltip = Antarctica_GUI_Tile_Text_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Tile_Asset_Fill_Color"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 6 y = 4 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Tile_Text
+			maxWidth = 120
+			maxHeight = 120
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Prog_CRT_bg"
+			spriteType = "GFX_Antarctica_GUI_Mission_Prog_CRT_bg"
+			position = { x = 64 y = 62 }
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Prog_Bg"
+			spriteType = "GFX_Antarctica_GUI_Mission_Prog_Bg"
+			position = { x = 64 y = 65 }
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Mission_Prog_Unknown"
+			position = { x = -36 y = 51 }
+			font = "aldrich_32_outline"
+			text = "?"
+			format = center
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Prog_Bar"
+			spriteType = "GFX_Antarctica_GUI_Mission_Prog_Bar"
+			position = { x = 64 y = 64 }
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Prog_Bg_Extra"
+			spriteType = "GFX_Antarctica_GUI_Mission_Prog_Bg_Extra"
+			position = { x = 64 y = 41 }
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag"
+			quadTextureSprite = "GFX_flag_small2_plain"
+			position = { x = 64 y = 107 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag_Overlay"
+			quadTextureSprite = "GFX_flag_overlay_stateview"
+			position = { x = 43 y = 95 }
+			scale = 1.07
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag_Mark"
+			position = { x = -36 y = 95 }
+			font = "aldrich_28_outline"
+			text = "?"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Mission_Cancel_Button"
+			position = { x = -21 y = 2 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			orientation = upper_right
+			pdx_tooltip = Antarctica_GUI_Tile_Mission_Cancel_Button_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Special_Mission_Alert"
+			position = { x = 2 y = 91 }
+			spriteType = "GFX_Antarctica_GUI_Special_Mission_Alert"
+			pdx_tooltip = Antarctica_GUI_Special_Mission_Alert
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_75"
+		position = { x = 0 y = 0 }
+		size = { width = 96 height = 96 }
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Asset"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Section_Box_75"
+			pdx_tooltip = Antarctica_GUI_Tile_Text_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Tile_Asset_Fill_Color"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 6 y = 4 }
+			font = "aldrich_20_outline"
+			text = Antarctica_GUI_Tile_Text
+			maxWidth = 120
+			maxHeight = 120
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag"
+			quadTextureSprite = "GFX_flag_small2_plain"
+			position = { x = 48 y = 50 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag_Overlay"
+			quadTextureSprite = "GFX_flag_overlay_stateview"
+			position = { x = 27 y = 38 }
+			scale = 1.07
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag_Mark"
+			position = { x = -51 y = 38 }
+			font = "aldrich_28_outline"
+			text = "?"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Mission_Cancel_Button"
+			position = { x = -21 y = 2 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			orientation = upper_right
+			pdx_tooltip = Antarctica_GUI_Tile_Mission_Cancel_Button_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Special_Mission_Alert"
+			position = { x = 2 y = 60 }
+			spriteType = "GFX_Antarctica_GUI_Special_Mission_Alert"
+			pdx_tooltip = Antarctica_GUI_Special_Mission_Alert
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_50"
+		position = { x = 0 y = 0 }
+		size = { width = 64 height = 64 }
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Asset"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Section_Box_50"
+			pdx_tooltip = Antarctica_GUI_Tile_Text_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Tile_Asset_Fill_Color"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 6 y = 4 }
+			font = "aldrich_16_outline"
+			text = Antarctica_GUI_Tile_Text
+			maxWidth = 120
+			maxHeight = 120
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag"
+			spriteType = "GFX_flag_small2_plain"
+			position = { x = 32 y = 40 }
+			alwaystransparent = yes
+			scale = 0.65
+		}
+		iconType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag_Overlay"
+			quadTextureSprite = "GFX_flag_overlay_stateview"
+			position = { x = 11 y = 28 }
+			scale = 1.07
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Mission_Flag_Mark"
+			position = { x = -68 y = 28 }
+			font = "aldrich_28_outline"
+			text = "?"
+			format = center
+			#alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Mission_Cancel_Button"
+			position = { x = -21 y = 2 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			orientation = upper_right
+			pdx_tooltip = Antarctica_GUI_Tile_Mission_Cancel_Button_tt
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_25"
+		position = { x = 0 y = 0 }
+		size = { width = 32 height = 32 }
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Asset"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Section_Box_25"
+			pdx_tooltip = Antarctica_GUI_Tile_Text_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Tile_Asset_Fill_Color"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 3 y = 2 }
+			font = "aldrich_12_outline"
+			text = Antarctica_GUI_Tile_Text
+			maxWidth = 120
+			maxHeight = 120
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Cancel_Confirm_Window"
+		position = { x = 600 y = 200 }
+		size = { width = 256 height = 256 }
+		moveable = yes
+		
+		background = {
+			name = "Antarctica_GUI_Cancel_Confirm_Window_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Cancel_Confirm_Window_Text"
+			position = { x = 10 y = 34 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Cancel_Confirm_Window_Text
+			maxWidth = 236
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Cancel_Confirm_Window_Button_Yes"
+			position = { x = 134 y = 200 }
+			quadTextureSprite = "GFX_sort_button_100x29"
+			buttonFont = "aldrich_20_outline"
+			buttonText = Antarctica_GUI_Cancel_Confirm_Window_Button_Yes_Text
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Cancel_Confirm_Window_Button_No"
+			position = { x = 12 y = 200 }
+			quadTextureSprite = "GFX_sort_button_100x29"
+			buttonFont = "aldrich_20_outline"
+			buttonText = Antarctica_GUI_Cancel_Confirm_Window_Button_No_Text
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Special_Mission_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 210 height = 80 }
+		
+		background = {
+			name = "Antarctica_GUI_Special_Mission_Entry_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Special_Mission_Entry_Button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_Special_Mission_Entry_Button_Text
+			multiline = yes
+			pdx_tooltip = Antarctica_GUI_Special_Mission_Entry_Button_tt
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_Window_Owned_Coastal"
+		position = { x = 420 y = 200 }
+		size = { width = 512 height = 512 }
+		moveable = yes
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 4 y = 16 }
+			font = "aldrich_24_outline"
+			text = "A.G.S. Tile #[?Antarctica_GUI_Selected_State]"
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Controller"
+			position = { x = 4 y = 46 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Tile_Controller_Text
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Window_Buttons"
+			position = { x = 243 y = 16 }
+			size = { width = 245 height = 480 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI"
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Window_Buttons_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_1"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_1_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_1_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_2"
+				position = { x = 0 y = 90 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_2_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_2_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_3"
+				position = { x = 0 y = 180 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_3_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_3_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_4"
+				position = { x = 0 y = 270 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_4_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_4_self_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_5"
+				position = { x = 0 y = 360 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_5_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_5_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_6"
+				position = { x = 0 y = 450 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_6_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_6_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_8"
+				position = { x = 0 y = 540 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_8_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_8_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_10"
+				position = { x = 0 y = 630 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_10_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_10_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_11"
+				position = { x = 0 y = 720 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_11_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_11_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_12"
+				position = { x = 0 y = 810 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_12_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_12_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_14"
+				position = { x = 0 y = 900 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_14_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_14_self_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_15"
+				position = { x = 0 y = 990 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_15_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_15_self_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_16"
+				position = { x = 0 y = 1080 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_16_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_16_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_17"
+				position = { x = 0 y = 1170 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_17_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_17_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_18"
+				position = { x = 0 y = 1260 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_18_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_18_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_20"
+				position = { x = 0 y = 1350 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_20_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_20_tt
+			}
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Special_Missions_Window"
+			position = { x = 7 y = 194 }
+			size = { width = 236 height = 304 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Special_Missions"
+			margin = { top = 4 bottom = 4 left = 0 right = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_bg"
+				quadTextureSprite = "GFX_tiled_decisions_bg_small"
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Title"
+				position = { x = 0 y = 4 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text
+				maxWidth = 234
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Grid"
+				position = { x = 5 y = 31 }
+				size = { width = 210 height = 250 }
+				slotsize = { width = 210 height = 82 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+				max_slots_vertical = 16
+			}
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Special_Mission_Cover"
+			spriteType = "GFX_Antarctica_GUI_Special_Mission_Cover"
+			position = { x = 7 y = 196 }
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Window_close_button"
+			position = { x = -31 y = 12 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			orientation = upper_right
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_Window_Owned_Inland"
+		position = { x = 420 y = 200 }
+		size = { width = 512 height = 512 }
+		moveable = yes
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 4 y = 16 }
+			font = "aldrich_24_outline"
+			text = "A.G.S. Tile #[?Antarctica_GUI_Selected_State]"
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Controller"
+			position = { x = 4 y = 46 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Tile_Controller_Text
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Window_Buttons"
+			position = { x = 243 y = 16 }
+			size = { width = 245 height = 480 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI"
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Window_Buttons_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_1"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_1_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_1_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_2"
+				position = { x = 0 y = 90 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_2_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_2_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_4"
+				position = { x = 0 y = 180 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_4_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_4_self_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_6"
+				position = { x = 0 y = 270 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_6_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_6_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_7"
+				position = { x = 0 y = 360 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_7_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_7_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_11"
+				position = { x = 0 y = 450 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_11_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_11_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_12"
+				position = { x = 0 y = 540 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_12_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_12_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_15"
+				position = { x = 0 y = 630 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_15_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_15_self_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_21"
+				position = { x = 0 y = 720 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_21_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_21_self_tt
+			}
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Special_Missions_Window"
+			position = { x = 7 y = 194 }
+			size = { width = 236 height = 304 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Special_Missions"
+			margin = { top = 4 bottom = 4 left = 0 right = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_bg"
+				quadTextureSprite = "GFX_tiled_decisions_bg_small"
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Title"
+				position = { x = 0 y = 4 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text
+				maxWidth = 234
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Grid"
+				position = { x = 5 y = 31 }
+				size = { width = 210 height = 250 }
+				slotsize = { width = 210 height = 82 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+				max_slots_vertical = 16
+			}
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Special_Mission_Cover"
+			spriteType = "GFX_Antarctica_GUI_Special_Mission_Cover"
+			position = { x = 7 y = 196 }
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Window_close_button"
+			position = { x = -31 y = 12 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			orientation = upper_right
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_Window_Foreign_Coastal"
+		position = { x = 420 y = 200 }
+		size = { width = 512 height = 512 }
+		moveable = yes
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 4 y = 16 }
+			font = "aldrich_24_outline"
+			text = "A.G.S. Tile #[?Antarctica_GUI_Selected_State]"
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Controller"
+			position = { x = 4 y = 46 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Tile_Controller_Text
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Window_Buttons"
+			position = { x = 243 y = 16 }
+			size = { width = 245 height = 480 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI"
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Window_Buttons_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_1"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_1_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_1_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_2"
+				position = { x = 0 y = 90 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_2_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_2_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_4"
+				position = { x = 0 y = 180 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_4_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_4_other_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_9"
+				position = { x = 0 y = 270 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_9_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_9_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_14"
+				position = { x = 0 y = 360 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_14_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_14_other_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_17"
+				position = { x = 0 y = 450 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_17_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_17_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_19"
+				position = { x = 0 y = 540 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_19_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_19_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_22"
+				position = { x = 0 y = 630 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_22_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_22_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_25"
+				position = { x = 0 y = 720 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_25_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_25_tt
+			}
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Special_Missions_Window"
+			position = { x = 7 y = 194 }
+			size = { width = 236 height = 304 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Special_Missions"
+			margin = { top = 4 bottom = 4 left = 0 right = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_bg"
+				quadTextureSprite = "GFX_tiled_decisions_bg_small"
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Title"
+				position = { x = 0 y = 4 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text
+				maxWidth = 234
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Grid"
+				position = { x = 5 y = 31 }
+				size = { width = 210 height = 250 }
+				slotsize = { width = 210 height = 82 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+				max_slots_vertical = 16
+			}
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Special_Mission_Cover"
+			spriteType = "GFX_Antarctica_GUI_Special_Mission_Cover"
+			position = { x = 7 y = 196 }
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Window_close_button"
+			position = { x = -31 y = 12 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			orientation = upper_right
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_Window_Foreign_Inland"
+		position = { x = 420 y = 200 }
+		size = { width = 512 height = 512 }
+		moveable = yes
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 4 y = 16 }
+			font = "aldrich_24_outline"
+			text = "A.G.S. Tile #[?Antarctica_GUI_Selected_State]"
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Controller"
+			position = { x = 4 y = 46 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Tile_Controller_Text
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Window_Buttons"
+			position = { x = 243 y = 16 }
+			size = { width = 245 height = 480 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI"
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Window_Buttons_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_1"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_1_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_1_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_2"
+				position = { x = 0 y = 90 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_2_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_2_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_3"
+				position = { x = 0 y = 180 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_3_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_3_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_4"
+				position = { x = 0 y = 270 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_4_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_4_other_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_7"
+				position = { x = 0 y = 360 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_7_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_7_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_15"
+				position = { x = 0 y = 450 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_15_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_15_other_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_17"
+				position = { x = 0 y = 540 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_17_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_17_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_21"
+				position = { x = 0 y = 630 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_21_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_21_other_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_22"
+				position = { x = 0 y = 720 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_22_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_22_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_24"
+				position = { x = 0 y = 810 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_24_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_24_tt
+			}
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Special_Missions_Window"
+			position = { x = 7 y = 194 }
+			size = { width = 236 height = 304 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Special_Missions"
+			margin = { top = 4 bottom = 4 left = 0 right = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_bg"
+				quadTextureSprite = "GFX_tiled_decisions_bg_small"
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Title"
+				position = { x = 0 y = 4 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text
+				maxWidth = 234
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Grid"
+				position = { x = 5 y = 31 }
+				size = { width = 210 height = 250 }
+				slotsize = { width = 210 height = 82 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+				max_slots_vertical = 16
+			}
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Special_Mission_Cover"
+			spriteType = "GFX_Antarctica_GUI_Special_Mission_Cover"
+			position = { x = 7 y = 196 }
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Window_close_button"
+			position = { x = -31 y = 12 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			orientation = upper_right
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Tile_Window_Sea"
+		position = { x = 420 y = 200 }
+		size = { width = 512 height = 512 }
+		moveable = yes
+		
+		background = {
+			name = "Antarctica_GUI_Tile_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Number"
+			position = { x = 4 y = 16 }
+			font = "aldrich_24_outline"
+			text = "A.G.S. Tile #[?Antarctica_GUI_Selected_State]"
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Tile_Controller"
+			position = { x = 4 y = 46 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_Tile_Controller_Text
+			maxWidth = 240
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Window_Buttons"
+			position = { x = 243 y = 16 }
+			size = { width = 245 height = 480 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI"
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Window_Buttons_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_26"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_26_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_26_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_27"
+				position = { x = 0 y = 90 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_27_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_27_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_28"
+				position = { x = 0 y = 180 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_28_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_28_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_29"
+				position = { x = 0 y = 270 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_29_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_29_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_31"
+				position = { x = 0 y = 360 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_31_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_31_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_Tile_Window_Button_32"
+				position = { x = 0 y = 450 }
+				quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+				buttonFont = "aldrich_24_outline"
+				buttonText = "Antarctica_GUI_Button_32_Action_Name"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_Tile_Window_Button_32_tt
+			}
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Tile_Special_Missions_Window"
+			position = { x = 7 y = 194 }
+			size = { width = 236 height = 304 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Special_Missions"
+			margin = { top = 4 bottom = 4 left = 0 right = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_bg"
+				quadTextureSprite = "GFX_tiled_decisions_bg_small"
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Title"
+				position = { x = 0 y = 4 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text
+				maxWidth = 234
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Tile_Special_Missions_Window_Grid"
+				position = { x = 5 y = 31 }
+				size = { width = 210 height = 250 }
+				slotsize = { width = 210 height = 82 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+				max_slots_vertical = 16
+			}
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Special_Mission_Cover"
+			spriteType = "GFX_Antarctica_GUI_Special_Mission_Cover"
+			position = { x = 7 y = 196 }
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_Tile_Window_close_button"
+			position = { x = -31 y = 12 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			orientation = upper_right
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_Situation_Overview_GUI"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 365 }
+		
+		iconType = {
+			name = "Antarctica_Situation_Overview_GUI_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 393 y = -63 }
+			pdx_tooltip = Antarctica_Situation_Overview_GUI_tt
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_Situation_Overview_GUI_Movement"
+			position = { x = 0 y = 2 }
+			size = { width = 0 height = 0 }
+		
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_bg"
+				spriteType = "GFX_Antarctica_Decision_GUI_bg"
+				position = { x = 20 y = -20 }
+				alwaystransparent = yes
+				frame = 1
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_bg"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_bg"
+				position = { x = 35 y = 84 }
+				alwaystransparent = yes
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_1"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 44 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_1_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 24 y = 0 }
+				scale = 1.03
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_2"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 106 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_2_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 86 y = 0 }
+				scale = 1.03
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_3"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 168 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_3_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 148 y = 0 }
+				scale = 1.03
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_4"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 230 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_4_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 210 y = 0 }
+				scale = 1.03
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_5"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 292 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_5_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 272 y = 0 }
+				scale = 1.03
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_6"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 354 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_6_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 334 y = 0 }
+				scale = 1.03
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_7"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 416 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_7_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 396 y = 0 }
+				scale = 1.03
+			}
+			
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_8"
+				quadTextureSprite = "GFX_flag_small2_plain"
+				position = { x = 478 y = 11 }
+			}
+			buttonType = {
+				name = "Antarctica_Situation_Overview_GUI_Flag_8_Overlay"
+				quadTextureSprite = "GFX_flag_overlay_stateview_solid"
+				position = { x = 458 y = 0 }
+				scale = 1.03
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_1_Title"
+				position = { x = 35 y = 44 }
+				font = "aldrich_24_outline"
+				text = Antarctica_Situation_Overview_GUI_Bar_1_Title
+				maxWidth = 452
+				maxHeight = 40
+				format = center
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_1"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_L"
+				position = { x = 35 y = 83 }
+				pdx_tooltip = Antarctica_Situation_Overview_GUI_Bar_1_tt
+			}
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_1_Cover"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_Cover"
+				position = { x = 35 y = 83 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_2_Title"
+				position = { x = 35 y = 115 }
+				font = "aldrich_24_outline"
+				text = Antarctica_Situation_Overview_GUI_Bar_2_Title
+				maxWidth = 452
+				maxHeight = 40
+				format = center
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_2"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_M"
+				position = { x = 35 y = 154 }
+				pdx_tooltip = Antarctica_Situation_Overview_GUI_Bar_2_tt
+			}
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_2_Cover"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_Cover"
+				position = { x = 35 y = 155 }
+				pdx_tooltip = Antarctica_Situation_Overview_GUI_Bar_2_Cover_tt
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_3_Title"
+				position = { x = 35 y = 186 }
+				font = "aldrich_24_outline"
+				text = Antarctica_Situation_Overview_GUI_Bar_3_Title
+				maxWidth = 452
+				maxHeight = 40
+				format = center
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_3"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_E"
+				position = { x = 35 y = 225 }
+				pdx_tooltip = Antarctica_Situation_Overview_GUI_Bar_3_tt
+			}
+			iconType = {
+				name = "Antarctica_Situation_Overview_GUI_Bar_3_Cover"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_Cover"
+				position = { x = 35 y = 226 }
+				pdx_tooltip = Antarctica_Situation_Overview_GUI_Bar_3_Cover_tt
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_Situation_Overview_GUI_Intel_Info"
+				position = { x = 35 y = 257 }
+				font = "aldrich_24_outline"
+				text = Antarctica_Situation_Overview_GUI_Intel_Info
+				maxWidth = 452
+				maxHeight = 106
+				format = center
+				vertical_alignment = center
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "TNO_Antarctica_AI_Window"
+		position = { x = 1050 y = 0 }	
+		size = { width = 225 height = 150 }
+		
+		background = {
+			name = "TNO_Antarctica_AI_Window_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		buttonType = {
+			name = "TNO_Antarctica_AI_Window_Button"
+			quadTextureSprite = "GFX_sort_button_202x29"
+			position = { x = 10 y = 34 }
+			frame = 2
+			buttonFont = "aldrich_16_outline"
+			text = "Antarctica Daily Tick"
+			multiline = yes
+		}	
+	}
+}

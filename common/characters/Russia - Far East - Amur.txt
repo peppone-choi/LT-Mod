@@ -1,0 +1,13 @@
+characters = {
+	# Leaders
+	AMR_Vasily_Blyukher = {
+		name = AMR_Vasily_Blyukher
+		country_leader= {
+			desc = "POLITICS_VASILY_BLYUKHER_DESC"
+			ideology = communist_stratocratic_communism_subtype
+			traits = {  }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+	}
+}

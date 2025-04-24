@@ -1,0 +1,24 @@
+state = { #Population Done
+	id = 2514
+	name = "STATE_2514"
+	manpower = 3700
+	state_category = tiny_island
+
+	history = {
+		owner = SUR
+		add_core_of = SUR
+		add_core_of = CUR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			19992 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 19992 1 }
+	}
+
+	provinces = {
+		19992
+	}
+}

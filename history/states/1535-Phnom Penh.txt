@@ -1,0 +1,26 @@
+state = {
+	id = 1535
+	name = "STATE_1535"
+
+	history = {
+		owner = CAM
+		add_core_of = CAM
+		victory_points = {
+			7376 20
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			prisons = 1
+			thermoelectric_plant = 1
+		}
+	}
+
+	provinces = {
+		7376 19034 19035 19113
+	}
+	manpower = 1161209
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

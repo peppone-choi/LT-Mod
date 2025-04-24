@@ -1,0 +1,27 @@
+state = {
+	id = 1746
+	name = "STATE_1746"
+
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		add_core_of = VIC
+		victory_points = {
+			1300 5
+		}
+		victory_points = {
+			4334 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1300 4255 4334 19038 19055 19056
+	}
+	manpower = 1065105
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

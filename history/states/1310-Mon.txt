@@ -1,0 +1,35 @@
+state = {
+	id = 1310
+	name = "STATE_1310"
+
+	resources = {
+		rubber = 8
+		power = 1
+	}
+
+	history = {
+		owner = BUR
+		victory_points = {
+			1403 5
+		}
+		victory_points = {
+			4336 1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			1403 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BUR
+	}
+
+	provinces = {
+		1403 4336 19162
+	}
+	manpower = 1082867
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

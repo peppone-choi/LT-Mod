@@ -1,0 +1,21 @@
+state = {
+	id = 1196
+	name = "STATE_1196"
+
+	history = {
+		owner = CAO
+		add_core_of = CAO
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		11194 11702 14012 14024 14044
+	}
+	manpower = 578000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

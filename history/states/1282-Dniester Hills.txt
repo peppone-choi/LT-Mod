@@ -1,0 +1,25 @@
+state = {
+	id = 1282
+	name = "STATE_1282"
+	manpower = 779407
+
+	state_category = town
+
+
+	history = {
+		owner = TNS
+		add_core_of = TNS
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		victory_points = { 754 1 }
+		victory_points = { 741 6 }
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		741 9714 754 9576 16162
+	}
+}

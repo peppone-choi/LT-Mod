@@ -1,0 +1,118 @@
+focus_tree = {
+	id = RUS_TYM_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TYM
+		}
+	}
+	default = no
+
+	focus = {
+		id = TYM_start_focus_1 # 내무인민위원회 복구 논쟁
+		x = 1
+		y = 0
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_2 # "공작정치" 도입
+		prerequisite = { focus = TYM_start_focus_1 }
+		x = 0
+		y = 1
+		mutually_exclusive = {
+			focus = TYM_start_focus_3
+		}
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_3 # NKVD의 제어
+		prerequisite = { focus = TYM_start_focus_1 }
+		x = 2
+		y = 1
+		mutually_exclusive = {
+			focus = TYM_start_focus_2
+		}
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_4 # 튜멘 농업개혁위원회
+		prerequisite = { focus = TYM_start_focus_2 focus = TYM_start_focus_3 }
+		x = 1
+		y = 2
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_5 # 서시베리아 5개년 계획
+		prerequisite = { focus = TYM_start_focus_4 }
+		mutually_exclusive = {
+			focus = TYM_start_focus_6
+		}
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_6 # 신경제정책의 복원
+		prerequisite = { focus = TYM_start_focus_4 }
+		mutually_exclusive = {
+			focus = TYM_start_focus_5
+		}
+		x = 2
+		y = 3
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_7 # 군사방첩기구 논쟁
+		prerequisite = { focus = TYM_start_focus_5 focus = TYM_start_focus_6 }
+		x = 1
+		y = 4
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_8 # 어디에건 있고 어디에건 없다
+		prerequisite = { focus = TYM_start_focus_7 }
+		x = 1
+		y = 5
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_9 # 스베들롭스크와의 타협 시도
+		prerequisite = { focus = TYM_start_focus_7 }
+		x = 4
+		y = 5
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_10 # 군대개혁위원회 도입
+		prerequisite = { focus = TYM_start_focus_9 }
+		x = 4
+		y = 6
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_11 # 볼로그다와의 협상
+		prerequisite = { focus = TYM_start_focus_10 }
+		x = 4
+		y = 7
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = TYM_start_focus_12 # 새로운 조국 전쟁
+		prerequisite = { focus = TYM_start_focus_11 }
+		x = 4
+		y = 8
+		icon = GFX_goal_generic_political
+	}
+}

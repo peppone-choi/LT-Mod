@@ -1,0 +1,20 @@
+state = {
+	id = 1216
+	name = "STATE_1216"
+
+	history = {
+		owner = HAU
+		add_core_of = HAU
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		8116 12794 13671 14113 14139 14142 14153 14159 14172 14429 15910
+	}
+	manpower = 476000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

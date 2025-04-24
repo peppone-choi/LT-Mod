@@ -1,0 +1,19 @@
+﻿division_template = {
+	name = "MACA-SOG Antarctic Task Force"
+	
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {	
+		location = 17802 # McMurdo
+		division_template = "MACA-SOG Antarctic Task Force"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}

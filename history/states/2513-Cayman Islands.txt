@@ -1,0 +1,24 @@
+state = { #Population Done
+	id = 2513
+	name = "STATE_2513"
+	manpower = 8511
+	state_category = tiny_island
+
+	history = {
+		owner = CAN
+		add_claim_by = ENG
+		buildings = {
+			infrastructure = 2
+			15745 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # George Town
+			15745 1
+		}
+	}
+
+	provinces = {
+		15745
+	}
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 1455
+	name = "STATE_1455"
+	provinces = {
+		4350 4368 10167 10241 12253 14706 12213 10298 7325
+	}
+	state_category = town
+	history = {
+		owner = SPH
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+		victory_points = { 10241 5 }
+		victory_points = { 12253 3 }
+		victory_points = { 14706 5 }
+		add_core_of = SPH
+		add_core_of = PHI
+		add_core_of = UPH
+		set_state_flag = state_renamings
+	}
+	manpower = 1653753
+	buildings_max_level_factor = 1.000
+}

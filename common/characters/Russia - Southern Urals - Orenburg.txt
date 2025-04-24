@@ -1,0 +1,196 @@
+characters = {
+	# Country leaders #
+	ORE_Workers_Council_of_Orenburg = {
+		name = ORE_Workers_Council_of_Orenburg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORE/Portrait_Orenburg_Workers_Council.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_WORKERS_COUNCIL_ORENBURG_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_anarcho_communist_subtype
+			id = -1
+		}
+	}
+
+	ORE_Ivan_Kashirin = {
+		name = ORE_Ivan_Kashirin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Ivan_Kashirin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ORE_Ivan_Kashirin_pol
+			allowed = { original_tag = ORE }
+			traits = { }
+		}
+	}
+
+	ORE_Grigory_Petrovsky = {
+		name = ORE_Grigory_Petrovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Grigory_Petrovsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ORE_Grigory_Petrovsky_pol
+			allowed = { original_tag = ORE }
+			traits = { }
+		}
+	}
+
+	ORE_Nikolai_Kashirin = {
+		name = ORE_Nikolai_Kashirin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Nikolai_Kashirin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ORE_Nikolai_Kashirin_pol
+			allowed = { original_tag = ORE }
+			traits = { }
+		}
+	}
+
+	ORE_Pyotr_Kashirin = {
+		name = ORE_Pyotr_Kashirin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Pyotr_Kashirin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ORE_Pyotr_Kashirin_pol
+			allowed = { original_tag = ORE }
+			traits = { }
+		}
+	}
+
+	ORE_Lazar_Kaganovich = {
+		name = ORE_Lazar_Kaganovich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Lazar_Kaganovich.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ORE_Lazar_Kaganovich_pol
+			allowed = { original_tag = ORE }
+			traits = { }
+		}
+	}
+
+	# ORE Marshals
+	ORE_Nikolai_Kashirin = {
+		name = ORE_Nikolai_Kashirin
+		portraits = {
+			army = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Nikolai_Kashirin.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	# ORE Generals
+	ORE_Philip_Ershakov = {
+		name = ORE_Philip_Ershakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Philip_Ershakov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	ORE_Ivan_Korobnikov = {
+		name = ORE_Ivan_Korobnikov
+		portraits = {
+			army = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Ivan_Korobnikov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	ORE_Nikolai_Pichugin = {
+		name = ORE_Nikolai_Pichugin
+		portraits = {
+			army = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Nikolai_Pichugin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	ORE_Mikhail_Velikanov = {
+		name = ORE_Mikhail_Velikanov
+		portraits = {
+			army = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Mikhail_Velikanov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	ORE_Maksim_Stepanov = {
+		name = ORE_Maksim_Stepanov
+		portraits = {
+			army = {
+				large = "gfx/leaders/ORE/Portrait_ORE_Maksim_Stepanov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

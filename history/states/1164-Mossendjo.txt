@@ -1,0 +1,24 @@
+state = {
+	id = 1164
+	name = "STATE_1164"
+	resources = {
+		oil = 8.000
+		uranium = 10.000
+	}
+
+	history = {
+		owner = COG
+		add_core_of = COG
+		victory_points = {
+			13912 5
+		}
+	}
+
+	provinces = {
+		2192 13912 13924
+	}
+	manpower = 197108
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

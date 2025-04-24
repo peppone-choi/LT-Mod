@@ -1,0 +1,48 @@
+state = {
+	id = 367
+	name = "STATE_367"
+
+	history = {
+		owner = USA
+		buildings = {
+			schools = 1
+			prisons = 1
+			barracks = 3
+			radar_station = 3
+			infrastructure = 4
+			7480 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = USA
+		victory_points = { # Birmingham
+			12735 20
+		}
+		victory_points = { # Mobile
+			7480 10
+		}
+		victory_points = { # Montgomery
+			492 5
+		}
+		victory_points = { # Tuscaloosa
+			1587 3
+		}
+		victory_points = { # Auburn
+			11509 1
+		}
+		victory_points = { # Huntsville
+			5059 3
+		}
+		victory_points = { # Florence
+			10192 1
+		}
+	}
+
+	provinces = {
+		492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 17303
+	}
+	manpower = 3433862
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

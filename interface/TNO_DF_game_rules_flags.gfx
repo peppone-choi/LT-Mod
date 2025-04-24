@@ -1,0 +1,30 @@
+spriteTypes = {
+
+##########################################
+### Deep Freeze ###
+##########################################
+# AAG
+spriteType = {
+	name = "GFX_TNO_game_rule_flag_AAG"
+	texturefile = "gfx/flags/small/AAG.tga"
+	legacy_lazy_load = no
+}
+# AAA
+spriteType = {
+	name = "GFX_TNO_game_rule_flag_AAA"
+	texturefile = "gfx/flags/small/AAA.tga"
+	legacy_lazy_load = no
+}
+# AAO
+spriteType = {
+	name = "GFX_TNO_game_rule_flag_AAO"
+	texturefile = "gfx/flags/small/AAO.tga"
+	legacy_lazy_load = no
+}
+	# GRO
+spriteType = {
+	name = "GFX_TNO_game_rule_flag_GRO"
+	texturefile = "gfx/flags/small/GRO.tga"
+	legacy_lazy_load = no
+}
+}

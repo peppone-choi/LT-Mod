@@ -1,0 +1,28 @@
+state = {
+	id = 654
+	name = "STATE_654"
+	resources = {
+		tungsten = 9.000
+	}
+
+	history = {
+		owner = ALT
+		add_extra_state_shared_building_slots = 2
+		buildings = {
+			hospitals = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			4800 3
+		}
+		add_core_of = ALT
+	}
+
+	provinces = {
+		4781 4800 7262 8601 10713 12509
+	}
+	manpower = 399000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

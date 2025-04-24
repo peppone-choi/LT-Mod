@@ -1,0 +1,25 @@
+state = {
+	id = 1240
+	name = "STATE_1240"
+
+	history = {
+		owner = LEB
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			1108 = {
+				naval_base = 1
+			}
+			prisons = 1
+		}
+		add_core_of = LEB
+		victory_points = { 1108 5 }
+		set_state_flag = state_renamings
+	}
+	provinces = {
+		1108
+	}
+	manpower = 319952
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

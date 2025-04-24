@@ -1,0 +1,26 @@
+state = {
+	id = 1110
+	name = "STATE_1110"
+
+	history = {
+		owner = IEA
+		add_core_of = IEA
+		victory_points = { 8124 4 }
+		buildings = {
+			barracks = 1
+			infrastructure = 3
+			radar_station = 1
+			8124 = {
+				naval_base = 2
+			}
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		8124 10777 15547
+	}
+	manpower = 93636
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

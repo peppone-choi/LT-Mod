@@ -1,0 +1,25 @@
+state = { #Population + VPs Done
+	id = 798
+	name = "STATE_798"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			offices = 1
+			infrastructure = 3
+			1355 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 1355 1 }
+		set_state_flag = GDP_regions_nusa_tenggara
+	}
+
+	provinces = {
+		1339 1355 4358 12206
+	}
+	manpower = 782048
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+}

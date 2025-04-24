@@ -1,0 +1,322 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_divider_crt_single_vertical"
+		size = { x = 1 y = 16 }
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/divider_crt_single_vertical.dds"
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Box"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Box.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/AAO_PERT_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_1"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_1.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_2"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_2.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_3"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_3.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_4"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_4.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_5"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_5.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_6"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_6.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_7"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_7.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_8"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_8.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_9"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_9.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_10"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_10.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_11"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_11.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_12"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_12.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_13"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_13.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_14"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_14.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_15"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_15.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_16"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_16.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Arrow_17"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Arrow_17.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_Antarctica_GUI_AAO_tiled_research_blue_bg"
+		size = { x = 94 y = 94 }
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_tiled_research_blue_bg.dds"
+		borderSize = { x = 32 y = 32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_Antarctica_GUI_AAO_tiled_research_green_bg"
+		size = { x = 94 y = 94 }
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_tiled_research_green_bg.dds"
+		borderSize = { x = 32 y = 32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_Antarctica_GUI_AAO_tiled_research_red_bg"
+		size = { x = 94 y = 94 }
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_tiled_research_red_bg.dds"
+		borderSize = { x = 32 y = 32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_Antarctica_GUI_AAO_tiled_research_purple_bg"
+		size = { x = 94 y = 94 }
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_tiled_research_purple_bg.dds"
+		borderSize = { x = 32 y = 32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_Antarctica_GUI_AAO_tiled_research_yellow_bg"
+		size = { x = 94 y = 94 }
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_tiled_research_yellow_bg.dds"
+		borderSize = { x = 32 y = 32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_Empty"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_Empty.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A30"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A30.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A31"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A31.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A32"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A32.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A33"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A33.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A60"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A60.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A90"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A90.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E100"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G100.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E120"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G120.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E130"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G130.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E20"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G20.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E50"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G50.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R40"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R40.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R70"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R70.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R80"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R80.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R90"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R90.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_T130"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_T130.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A30T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A30T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A32T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A32T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A33T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A33T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A60T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A60T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_A90T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_A90T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E100T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G100T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E120T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G120T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E130T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G130T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E20T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G20T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_E50T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_G50T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R40T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R40T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R70T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R70T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R80T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R80T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_R90T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_R90T.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_Missile_T130T"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/Antarctica_GUI_AAO_Missile_T130T.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_Paperwork1_Bottom"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/paperwork1bottom.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_Paperwork1_Top"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/paperwork1top.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_Paperwork2_Bottom"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/paperwork2bottom.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_Paperwork2_Top"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/paperwork2top.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_Paperwork3_Bottom"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/paperwork3bottom.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_Paperwork3_Top"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/paperwork3top.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_PERT_Paperwork_Envelope"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/paperworkenvelope.dds"
+		transparencecheck = yes
+	}
+}

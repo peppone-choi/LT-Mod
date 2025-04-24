@@ -1,0 +1,36 @@
+state = {
+	id = 1659
+	name = "STATE_1659"
+	manpower = 632145
+
+	state_category = town
+
+	resources = {
+		chromium = 6
+		power = 4
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			offices = 1
+			prisons = 1
+			schools = 1
+			dockyard = 1
+			thermoelectric_plant = 1
+			1937 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 1937 20 }
+	}
+
+	provinces = {
+		1937
+	}
+}

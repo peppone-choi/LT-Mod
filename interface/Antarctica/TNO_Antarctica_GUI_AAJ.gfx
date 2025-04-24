@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAJ_BG_Grid"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAJ/Antarctica_Decision_GUI_AAJ_BG_Grid.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAJ_Dot"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAJ/Antarctica_Decision_GUI_AAJ_Dot.dds"
+	}
+}

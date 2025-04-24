@@ -1,0 +1,261 @@
+characters = {
+	# Country Leaders
+	SVR_Konstantin_Rokossovsky = {
+		name = SVR_Konstantin_Rokossovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Konstantin_Rokossovsky.dds"
+			}
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Konstantin_Rokossovsky.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KONSTANTIN_ROKOSSOVSKY_DESC"
+			traits = { the_lion_of_siberia }
+			expire = "1999.1.1"
+			ideology = despotism_military_junta_subtype
+			id = -1
+		}
+		field_marshal = {
+			traits = { trait_cautious armor_officer organizer brilliant_strategist inspirational_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = 3551
+		}
+	}
+
+	SVR_Pavel_Batov = {
+		name = SVR_Pavel_Batov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Pavel_Batov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SVR_Pavel_Batov_pol
+			allowed = { original_tag = SVR }
+			traits = { }
+		}
+	}
+
+	SVR_Grigory_Shtern = {
+		name = SVR_Grigory_Shtern
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Grigory_Shtern.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SVR_Grigory_Shtern_pol
+			allowed = { original_tag = SVR }
+			traits = { }
+		}
+	}
+
+	SVR_German_Tarasov = {
+		name = SVR_German_Tarasov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVR/Portrait_SVR_German_Tarasov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SVR_German_Tarasov_pol
+			allowed = { original_tag = SVR }
+			traits = { }
+		}
+	}
+
+	SVR_Dmitry_Ustinov = {
+		name = SVR_Dmitry_Ustinov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Dmitry_Ustinov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SVR_Dmitry_Ustinov_pol
+			allowed = { original_tag = SVR }
+			traits = { }
+		}
+	}
+
+	# SVR Army Chief of Staff
+	SVR_Konstantin_Rokossovsky = {
+		name = SVR_Konstantin_Rokossovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Konstantin_Rokossovsky.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = SVR_Konstantin_Rokossovsky_army
+			allowed = { original_tag = SVR }
+			traits = { army_offense }
+		}
+	}
+
+	# SVR Marshals
+	SVR_Konstantin_Rokossovsky = {
+		name = SVR_Konstantin_Rokossovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Konstantin_Rokossovsky.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	# SVR Generals
+	SVR_Rodion_Malinovsky = {
+		name = SVR_Rodion_Malinovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Rodion_Malinovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SVR_Dmitry_Ustinov = {
+		name = SVR_Dmitry_Ustinov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Dmitry_Ustinov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SVR_Pavel_Batov = {
+		name = SVR_Pavel_Batov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Pavel_Batov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SVR_Grigory_Shtern = {
+		name = SVR_Grigory_Shtern
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Grigory_Shtern.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SVR_Andrei_Grechko = {
+		name = SVR_Andrei_Grechko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Andrei_Grechko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SVR_Pavel_Kurotsky = {
+		name = SVR_Pavel_Kurotsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Pavel_Kurotsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SVR_German_Tarasov = {
+		name = SVR_German_Tarasov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_German_Tarasov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SVR_Maksim_Stepanov = {
+		name = SVR_Maksim_Stepanov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_SVR_Maksim_Stepanov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

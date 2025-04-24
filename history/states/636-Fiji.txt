@@ -1,0 +1,32 @@
+state = {
+	id = 636
+	name = "STATE_636"
+
+	history = {
+		owner = FIJ
+		add_core_of = FIJ
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			radar_station = 2
+			air_base = 1
+			4286 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			4286 5
+		}
+		victory_points = {
+			7302 1
+		}
+	}
+
+	provinces = {
+		3428 4286 7302 12159
+	}
+	manpower = 180000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

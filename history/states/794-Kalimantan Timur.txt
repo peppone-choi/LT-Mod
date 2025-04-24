@@ -1,0 +1,46 @@
+state = {
+	id = 794
+	name = "STATE_794"
+	resources = {
+		rubber = 24
+		oil = 52
+		aluminium = 16
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			10237 1
+		}
+		victory_points = {
+			12196 1
+		}
+		victory_points = {
+			7415 1
+		}
+		buildings = {
+			barracks = 1
+			infrastructure = 2
+			air_base = 1
+			radar_station = 1
+			dockyard = 1
+			thermoelectric_plant = 1
+			synthetic_refinery = 1
+			10237 = {
+				naval_base = 5
+			}
+			1404 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+		1252 1404 4323 7231 7355 7415 10181 10237 10325 12196 12225 12243 12252
+	}
+	manpower = 529210
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

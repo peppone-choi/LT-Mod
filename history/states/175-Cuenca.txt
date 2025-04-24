@@ -1,0 +1,24 @@
+state = {
+	id = 175
+	name = "STATE_175"
+
+	history = {
+		owner = SPA
+		victory_points = {
+			3945 2
+		}
+		buildings = {
+			offices = 1
+			infrastructure = 5
+		}
+		add_core_of = SPA
+	}
+
+	provinces = {
+		888 3891 3945 6879 9757 9852 11742 11870
+	}
+	manpower = 330359
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

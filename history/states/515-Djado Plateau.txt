@@ -1,0 +1,23 @@
+state = {
+	id = 515
+	name = "STATE_515"
+	resources = {
+		uranium = 10.000
+	}
+
+	history = {
+		owner = AYR
+		add_core_of = AYR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		4913 14240 14258 14271 14278
+	}
+	manpower = 1944
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

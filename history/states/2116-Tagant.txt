@@ -1,0 +1,23 @@
+state = {
+	id = 2116
+	name = "STATE_2116"
+
+	history = {
+		owner = TRZ
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = TRZ
+		victory_points = {
+			14245 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		14253 18004 14245 18019 13216 1962
+	}
+	manpower = 19163
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+}

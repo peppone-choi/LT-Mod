@@ -1,0 +1,27 @@
+state = {
+	id = 908
+	name = "STATE_908"
+
+	history = {
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13426 1
+		}
+		victory_points = {
+			18557 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		2029 4976 12894 13426 18557 18561
+	}
+	manpower = 383702
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

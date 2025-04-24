@@ -1,0 +1,75 @@
+state = {
+	id = 219
+	name = "STATE_219"
+
+	history = {
+		owner = MCW
+		victory_points = {
+			18294 5
+		}
+		victory_points = {
+			301 5
+		}
+		victory_points = {
+			18254 5
+		}
+		victory_points = {
+			14457 5
+		}
+		victory_points = {
+			6283 1
+		}
+		victory_points = {
+			3327 1
+		}
+		victory_points = {
+			11236 1
+		}
+		victory_points = {
+			344 3
+		}
+		victory_points = {
+			3290 3
+		}
+		victory_points = {
+			9348 10
+		}
+		victory_points = {
+			18259 3
+		}
+		victory_points = {
+			9378 5
+		}
+		victory_points = {
+			11282 1
+		}
+		victory_points = {
+			366 1
+		}
+		victory_points = {
+			3391 3
+		}
+		victory_points = {
+			366 1
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			thermoelectric_plant = 1
+			radar_station = 2
+			offices = 2
+			schools = 1
+		}
+		add_core_of = MCW
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		301 344 366 401 3259 3263 3290 3327 3358 3391 6283 6290 6348 9235 9282 9302 9348 9378 9395 11217 11236 11282 11330 11362 14457 18254 18259 18279 18291 18293 18294 18327
+	}
+	manpower = 4454658
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

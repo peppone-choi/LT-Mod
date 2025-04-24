@@ -1,0 +1,27 @@
+state = {
+	id = 870
+	name = "STATE_870"
+	resources = {
+		aluminium = 7.000
+	}
+
+	history = {
+		owner = WRS
+		buildings = {
+			infrastructure = 1
+			barracks = 1
+		}
+		victory_points = {
+			3155 1
+		}
+		add_core_of = WRS
+	}
+
+	provinces = {
+		3155 7330 11200 13347
+	}
+	manpower = 42000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

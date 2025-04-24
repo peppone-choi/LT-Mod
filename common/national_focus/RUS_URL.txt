@@ -1,0 +1,90 @@
+focus_tree = {
+    id = URL_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = URL
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = URL_focus_1 #벨로레츠크 대성당 재건
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = URL_focus_2 #무신론자들의 유산
+        prerequisite = {focus = URL_focus_1}
+        mutually_exclusive = {focus = URL_focus_3}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = URL_focus_3 #새로운 관료제
+        prerequisite = {focus = URL_focus_1}
+        mutually_exclusive = {focus = URL_focus_2}
+        x = 1
+        y = 1
+    }
+
+    focus = {
+        id = URL_focus_4 #남우랄 삼자동맹
+        prerequisite = {focus = URL_focus_2 focus = URL_focus_3}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = URL_focus_5 #붉은 군대의 유산
+        prerequisite = {focus = URL_focus_4}
+        mutually_exclusive = {focus = URL_focus_6}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = URL_focus_6 #핏줄조차 붉지않은 군대
+        prerequisite = {focus = URL_focus_4}
+        mutually_exclusive = {focus = URL_focus_5}
+        x = 1
+        y = 3
+    }
+
+     focus = {
+        id = URL_focus_7 #러시아 선교회 창설
+        prerequisite = {focus = URL_focus_5 focus = URL_focus_6}
+        x = 0
+        y = 4
+    }
+
+     
+    focus = {
+        id = URL_focus_8 #기계화 농업 도입
+        prerequisite = {focus = URL_focus_7}
+        x = 0
+        y = 5
+    }
+
+    focus = {
+        id = URL_focus_9 #슈바벤의 괴물 처단 준비
+        prerequisite = {focus = URL_focus_8}
+        x = 0
+        y = 6
+    }
+
+    focus = {
+        id = URL_focus_10 #북방의 붉은 군대
+        prerequisite = {focus = URL_focus_10}
+        x = 0
+        y = 7
+    allow_branch = { has_country_flag = URL}
+    }
+
+}

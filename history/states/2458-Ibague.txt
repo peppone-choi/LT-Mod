@@ -1,0 +1,37 @@
+state = {
+	id = 2458
+	name = "STATE_2458"
+
+	history = {
+		owner = CLC
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 3
+			offices = 1
+			barracks = 1
+			2953 = {
+				bunker = 5
+			}
+			2521 = {
+				bunker = 2
+			}
+			10790 = {
+				bunker = 2
+			}
+			anti_air_building = 1
+		}
+		victory_points = {
+			2953 10
+		}
+	}
+
+	provinces = {
+		2521 2953 10790
+	}
+	manpower = 247516
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

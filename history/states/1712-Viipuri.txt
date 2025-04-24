@@ -1,0 +1,74 @@
+state = {
+	id = 1712
+	name = "STATE_1712"
+	resources = {
+		steel = 4.000
+		power = 2
+	}
+
+	history = {
+		owner = FIN
+		buildings = {
+			infrastructure = 6
+			air_base = 4
+			thermoelectric_plant = 2
+			barracks = 1
+			offices = 1
+			3060 = {
+				bunker = 4
+			}
+			9206 = {
+				coastal_bunker = 1
+				naval_base = 4
+			}
+			9206 = {
+				bunker = 4
+			}
+			9150 = {
+				bunker = 2
+			}
+			3187 = {
+				bunker = 2
+			}
+			offices = 2
+			barracks = 2
+			prisons = 2
+		}
+		victory_points = {
+			9206 10
+		}
+		victory_points = {
+			6082 3
+		}
+		victory_points = {
+			18441 3
+		}
+		victory_points = {
+			3187 1
+		}
+		victory_points = {
+			9105 1
+		}
+		victory_points = {
+			9176 1
+		}
+		victory_points = {
+			9183 2
+		}
+		victory_points = {
+			3061 6
+		}
+		victory_points = {
+			6186 2
+		}
+		add_core_of = FIN
+	}
+
+	provinces = {
+		52 3060 6082 6167 9100 9150 9206 11056 11162 13100 18441 3061 6186 9183 9105 3050 6150 3187 6052 9176 3133 11046 6153
+	}
+	manpower = 723926
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

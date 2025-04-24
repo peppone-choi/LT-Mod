@@ -1,0 +1,107 @@
+focus_tree = {
+    id = GAY_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = GAY
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = GAY_focus_1 #투하쳅스키에게서 온 서신
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = GAY_focus_2 #국민 볼셰비즘 강령 창립
+        prerequisite = {focus = GAY_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = GAY_focus_3 #코민테른 재건
+        prerequisite = {focus = GAY_focus_2}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = GAY_focus_4 #프룬제 아카데미 재건
+        prerequisite = {focus = GAY_focus_3}
+        x = 1
+        y = 2
+    }
+
+    focus = {
+        id = GAY_focus_5 #대전략 교리
+        prerequisite = {focus = GAY_focus_4}
+        mutually_exclusive = {focus = GAY_focus_6}
+        mutually_exclusive = {focus = GAY_focus_7}
+        x = 1
+        y = 3
+    }
+
+    focus = {
+        id = GAY_focus_6 #대규모 교리
+        prerequisite = {focus = GAY_focus_4}
+        mutually_exclusive = {focus = GAY_focus_5}
+        mutually_exclusive = {focus = GAY_focus_7}
+        x = 2
+        y = 3
+    }
+
+    focus = {
+        id = GAY_focus_7 #기동 교리
+        prerequisite = {focus = GAY_focus_4}
+        mutually_exclusive = {focus = GAY_focus_6}
+        mutually_exclusive = {focus = GAY_focus_5}
+        x = 3
+        y = 3
+    }
+
+    focus = {
+        id = GAY_focus_8 #"전문제 근위사단" 창설
+        prerequisite = {focus = GAY_focus_5 
+                        focus = GAY_focus_6 
+                        focus = GAY_focus_7}
+                        x = 2
+                        y = 4
+    }
+
+    focus = {
+        id = GAY_focus_9 #투하쳅스키의 밀사에 대한 답변
+        prerequisite = {focus = GAY_focus_8}
+        x = 2
+        y = 5
+    }
+
+    focus = {
+        id = GAY_focus_10 #추이코프의 합류
+        prerequisite = {focus = GAY_focus_3}
+        x = 0
+        y = 3
+    }
+
+
+     focus = {
+        id = GAY_focus_11 #KGB 창설
+        x = 4
+        y = 0
+     }
+
+     focus = {
+        id = GAY_focus_12 #'제 5열'
+        prerequisite = {focus = GAY_focus_11}
+        x = 4
+        y = 1
+     }
+
+
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 168
+	name = "STATE_168"
+
+	history = {
+		owner = SPA
+		victory_points = {
+			10024 10
+		}
+		victory_points = {
+			1093 15
+		}
+		victory_points = {
+			10109 5
+		}
+		victory_points = {
+			4195 2
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			radar_station = 1
+			air_base = 2
+			10024 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = SPA
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		1093 4195 7111 10024 10109
+	}
+	manpower = 804860
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

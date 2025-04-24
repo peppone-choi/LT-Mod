@@ -1,0 +1,22 @@
+state = {
+	id = 1966
+	name = "STATE_1966"
+	manpower = 261622
+
+	state_category = rural
+
+
+	history = {
+		owner = TNS
+		add_core_of = TNS
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 11703 1 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		11703 3738 16164
+	}
+}

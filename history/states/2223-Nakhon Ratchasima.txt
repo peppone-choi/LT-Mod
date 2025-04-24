@@ -1,0 +1,28 @@
+state = {
+	id = 2223
+	name = "STATE_2223"
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		buildings = {
+			infrastructure = 4
+			offices = 1
+		}
+		victory_points = {
+			12195 5
+		}
+		victory_points = {
+			19106 5
+		}
+		set_state_flag = GDP_regions_isan
+	}
+
+	provinces = {
+		12195 19141 12388 4582 19095 12373 19106
+	}
+	manpower = 2430788
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

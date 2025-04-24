@@ -1,0 +1,35 @@
+state = {
+	id = 943
+	name = "STATE_943"
+
+	history = {
+		owner = OST
+		victory_points = {
+			310 8
+		}
+		victory_points = {
+			222 3
+		}
+		victory_points = {
+			3333 1
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = OST
+		set_state_flag = GDP_regions_latvia
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		222 310 319 341 3333 6459 9275 13319 14589 14592 14595 14596
+	}
+	manpower = 594815
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 418
+	name = "STATE_418"
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PER
+		victory_points = {
+			8093 3
+		}
+		victory_points = {
+			18727 3
+		}
+		victory_points = {
+			18723 1
+		}
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		8093 11671 12704 12748 18723 18724 18727 18730 18732 18734 18742
+	}
+	manpower = 332362
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 2125
+	name = "STATE_2125"
+	provinces = {
+		12359 14705
+	}
+	resources = {
+		oil = 4
+	}
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PER
+		set_state_flag = GDP_category_town
+	}
+	manpower = 6421
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

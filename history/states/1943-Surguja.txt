@@ -1,0 +1,32 @@
+state = {
+	id = 1943
+	name = "STATE_1943"
+
+	resources = {
+		aluminium = 16
+	}
+
+	history = {
+		owner = IND
+		victory_points = { 16098 2 }
+		buildings = {
+			infrastructure = 1
+			16099 = {
+				bunker = 3
+			}
+			7497 = {
+				bunker = 3
+			}
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_madhya_pradesh
+	}
+
+	provinces = {
+		12480 16099 7497 16098
+	}
+	manpower = 1628882
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

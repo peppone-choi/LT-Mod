@@ -1,0 +1,24 @@
+state = {
+	id = 832
+	name = "STATE_832"
+	resources = {
+		oil = 3.000
+	}
+
+	history = {
+		owner = HAU
+		add_core_of = HAU
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1975 2056 14175
+	}
+	manpower = 344988
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

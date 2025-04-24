@@ -1,0 +1,145 @@
+focus_tree = {
+	id = RUS_AMR_start_focus
+	country = { 
+			factor = 0
+			modifier = {
+					add = 10
+					tag = AMR
+			}
+	}
+
+	default = no
+
+	focus = {
+			id = RUS_AMR_japanese_army_notification #일본군의 통보
+			icon = GFX_RUS_AMR_japanese_army_notification
+			x = 0
+			y = 0
+	}
+
+	focus = {
+			id = RUS_AMR_all_russian_national_army #전러시아 국민군 창설
+			prerequisite = { focus = RUS_AMR_japanese_army_notification }
+			icon = GFX_RUS_AMR_all_russian_national_army
+			x = 0
+			y = 1
+	}
+
+	focus = {
+			id = RUS_AMR_russian_traditions #러시아인들의 전통
+			prerequisite = { focus = RUS_AMR_all_russian_national_army }
+			mutually_exclusive = {
+					focus = RUS_AMR_modern_cavalry
+			}
+			icon = GFX_RUS_AMR_russian_traditions
+			x = 0
+			y = 2
+	}
+
+	focus = {
+			id = RUS_AMR_modern_cavalry #신시대의 창기병
+			prerequisite = { focus = RUS_AMR_all_russian_national_army }
+			mutually_exclusive = {
+					focus = RUS_AMR_russian_traditions
+			}
+			icon = GFX_RUS_AMR_modern_cavalry
+			x = 2
+			y = 2
+	}
+
+	focus = {
+			id = RUS_AMR_japanese_businessman_goodwill #일본 사업가들의 호의
+			prerequisite = { 
+					focus = RUS_AMR_russian_traditions
+					focus = RUS_AMR_modern_cavalry 
+			}
+			icon = GFX_RUS_AMR_japanese_businessman_goodwill
+			x = 0
+			y = 3
+	}
+
+	focus = {
+			id = RUS_AMR_japanese_political_tension #일본의 정치 긴장
+			prerequisite = { focus = RUS_AMR_japanese_businessman_goodwill }
+			icon = GFX_RUS_AMR_japanese_political_tension
+			x = 0
+			y = 4
+	}
+
+	focus = {
+			id = RUS_AMR_positive_christianity #긍정적 기독교로의 통합
+			prerequisite = { focus = RUS_AMR_japanese_political_tension }
+			icon = GFX_RUS_AMR_positive_christianity
+			x = 0
+			y = 5
+	}
+
+	focus = {
+			id = RUS_AMR_national_internal_committee #전러시아 국민 내무위원회
+			prerequisite = { focus = RUS_AMR_positive_christianity }
+			icon = GFX_RUS_AMR_national_internal_committee
+			x = 0
+			y = 6
+	}
+
+	focus = {
+			id = RUS_AMR_revival_of_farmers #자영농의 부활
+			prerequisite = { focus = RUS_AMR_national_internal_committee }
+			mutually_exclusive = {
+					focus = RUS_AMR_kolkhoz_succession
+			}
+			icon = GFX_RUS_AMR_revival_of_farmers
+			x = 0
+			y = 7
+	}
+
+	focus = {
+			id = RUS_AMR_kolkhoz_succession #콜호스의 계승
+			prerequisite = { focus = RUS_AMR_national_internal_committee }
+			mutually_exclusive = {
+					focus = RUS_AMR_revival_of_farmers
+			}
+			icon = GFX_RUS_AMR_kolkhoz_succession
+			x = 2
+			y = 7
+	}
+
+	focus = {
+			id = RUS_AMR_japanese_bureaucrat_influence #일본 관료들의 영향
+			prerequisite = { 
+					focus = RUS_AMR_revival_of_farmers
+					focus = RUS_AMR_kolkhoz_succession
+			}
+			mutually_exclusive = {
+					focus = RUS_AMR_soviet_bureaucrat_amnesty
+			}
+			icon = GFX_RUS_AMR_japanese_bureaucrat_influence
+			x = 0
+			y = 8
+	}
+
+	focus = {
+			id = RUS_AMR_soviet_bureaucrat_amnesty #소련 관료 사면령
+			prerequisite = { 
+					focus = RUS_AMR_revival_of_farmers
+					focus = RUS_AMR_kolkhoz_succession
+			}
+			mutually_exclusive = {
+					focus = RUS_AMR_japanese_bureaucrat_influence
+			}
+			icon = GFX_RUS_AMR_soviet_bureaucrat_amnesty
+			x = 2
+			y = 8
+	}
+
+	focus = {
+			id = RUS_AMR_all_russian_liberation_war #전러시아 해방전쟁 선포
+			prerequisite = { 
+					focus = RUS_AMR_japanese_bureaucrat_influence
+					focus = RUS_AMR_soviet_bureaucrat_amnesty
+			}
+			icon = GFX_RUS_AMR_all_russian_liberation_war
+			x = 0
+			y = 9
+	}
+}

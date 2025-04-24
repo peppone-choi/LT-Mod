@@ -1,0 +1,32 @@
+state = {
+	id = 194
+	name = "STATE_194"
+
+	history = {
+		owner = OST
+		victory_points = {
+			331 8
+		}
+		victory_points = {
+			6373 1
+		}
+		victory_points = {
+			3350 1
+		}
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+		}
+		add_core_of = OST
+		set_state_flag = GDP_regions_belarus
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		304 331 386 1699 1890 3293 3350 6344 6373 13297 14550 14555
+	}
+	manpower = 609637
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1363
+	name = "STATE_1363"
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+			barracks = 1
+		}
+		victory_points = {
+			7602 5
+		}
+		victory_points = {
+			18739 4
+		}
+		add_core_of = PER
+	}
+
+	provinces = {
+		7602 15143 18739 18754 18779 18789 18791 18811
+	}
+	manpower = 507101
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 2127
+	name = "STATE_2127"
+	provinces = {
+		18106
+	}
+	history = {
+		owner = ZZZ
+		buildings = {
+			infrastructure = 0
+		}
+		victory_points = { 18106 1 }
+		add_core_of = ZZZ
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	impassable = yes
+}

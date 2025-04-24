@@ -1,0 +1,64 @@
+state = {
+	id = 6
+	name = "STATE_6"
+	resources = {
+		steel = 48.000
+	}
+
+	history = {
+		owner = BRG
+		victory_points = {
+			6598 10
+		}
+		victory_points = {
+			18111 10
+		}
+		victory_points = {
+			6560 5
+		}
+		victory_points = {
+			3576 4
+		}
+		victory_points = {
+			13068 4
+		}
+		victory_points = {
+			18116 4
+		}
+		victory_points = {
+			18118 3
+		}
+		victory_points = {
+			9574 5
+		}
+		buildings = {
+			offices = 1
+			infrastructure = 7
+			air_base = 3
+			dockyard = 1
+			thermoelectric_plant = 2
+			thermoelectric_plant = 1
+			6560 = {
+				naval_base = 4
+				coastal_bunker = 2
+			}
+			6446 = {
+				coastal_bunker = 2
+			}
+			6598 = {
+				coastal_bunker = 2
+				naval_base = 1
+			}
+		}
+		add_core_of = BRG
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		3576 6446 6560 6598 9574 11419 13068 18111 18116 18118
+	}
+	manpower = 3862866
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

@@ -1,0 +1,42 @@
+state = {
+	id = 503
+	name = "STATE_503"
+
+	history = {
+		owner = BRA
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			thermoelectric_plant = 2
+			barracks = 1
+		}
+		add_core_of = BRA
+		victory_points = {
+			8181 15
+		}
+		victory_points = {
+			17817 10
+		}
+		victory_points = {
+			4587 10
+		}
+		victory_points = {
+			17415 10
+		}
+		victory_points = {
+			8239 9
+		}
+		victory_points = {
+			14601 5
+		}
+	}
+
+	provinces = {
+		2109 4533 5156 8181 8239 17408 17415 17817 14601 17816 5178 4587
+	}
+	manpower = 4296375
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

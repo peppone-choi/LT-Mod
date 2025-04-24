@@ -1,0 +1,37 @@
+state = {
+	id = 152
+	name = "STATE_152"
+	resources = {
+		steel = 12.000
+		aluminium = 7.000
+	}
+
+	history = {
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			18121 10
+		}
+		victory_points = {
+			9665 3
+		}
+		victory_points = {
+			732 4
+		}
+		buildings = {
+			barracks = 2
+			prisons = 1
+			infrastructure = 5
+		}
+		set_state_flag = GDP_regions_austria
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		732 3684 3703 5283 6708 9665 18121
+	}
+	manpower = 1229973
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

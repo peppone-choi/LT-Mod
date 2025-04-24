@@ -1,0 +1,107 @@
+characters = {
+	# Country leader #
+	TOM_Boris_Pasternak = {
+		name = TOM_Boris_Pasternak
+		portraits = {
+			civilian = { large = "gfx/leaders/TOM/Portrait_Tomsk_Boris_Pasternak.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_BORIS_PASTERNAK_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_interim_government_subtype
+			traits = { }
+			id = -1
+		}
+	}
+	TOM_Dmitry_Likhachevk = {
+		name = TOM_Dmitry_Likhachev
+		portraits = {
+			civilian = { large = "gfx/leaders/TOM/Portrait_Tomsk_Dmitry_Likhachev.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_BORIS_PASTERNAK_DESC"
+			expire = "1999.1.1"
+			ideology = conservatism_christian_conservatism_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = TOM_Dmitry_Likhachev_hog
+			allowed = { original_tag = TOM }
+			traits = { }
+		}
+	}
+	TOM_Yevgeny_Petrov = {
+		name = TOM_Yevgeny_Petrov
+		portraits = {
+			civilian = { large = "gfx/leaders/TOM/Portrait_Tomsk_Yevgeny_Petrov.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_BORIS_PASTERNAK_DESC"
+			expire = "1999.1.1"
+			ideology = progressivism_social_radicalism_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = TOM_Dmitry_Likhachev_for
+			allowed = { original_tag = TOM }
+			traits = { }
+		}
+	}
+	TOM_Yevgeny_Petrov = {
+		name = TOM_Yevgeny_Petrov
+		portraits = {
+			civilian = { large = "gfx/leaders/TOM/Portrait_Tomsk_Yevgeny_Petrov.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_BORIS_PASTERNAK_DESC"
+			expire = "1999.1.1"
+			ideology = progressivism_social_radicalism_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = TOM_Dmitry_Likhachev_for
+			allowed = { original_tag = TOM }
+			traits = { }
+		}
+	}
+	TOM_Isaac_Babel = {
+		name = TOM_Isaac_Babel
+		portraits = {
+			civilian = { large = "gfx/leaders/TOM/Portrait_Tomsk_Isaac_Babel.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_BORIS_PASTERNAK_DESC"
+			expire = "1999.1.1"
+			ideology = liberal_conservatism_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = TOM_Dmitry_Likhachev_eco
+			allowed = { original_tag = TOM }
+			traits = { }
+		}
+	}
+
+	TOM_Anatoly_Pepelyayevl = {
+		name = TOM_Anatoly_Pepelyayev
+		portraits = {
+			civilian = { large = "gfx/leaders/TOM/Portrait_Tomsk_Anatoly_Pepelyayev.dds" }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 897
+	name = "STATE_897"
+
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		victory_points = {
+			6115 20
+		}
+		buildings = {
+			schools = 1
+			infrastructure = 6
+			offices = 1
+			dockyard = 1
+			6115 = {
+				coastal_bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+		6115
+	}
+	manpower = 475663
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

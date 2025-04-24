@@ -1,0 +1,87 @@
+# █████╗ ██╗     ███████╗██████╗ ████████╗███████╗#
+#██╔══██╗██║     ██╔════╝██╔══██╗╚══██╔══╝██╔════╝#
+#███████║██║     █████╗  ██████╔╝   ██║   ███████╗#
+#██╔══██║██║     ██╔══╝  ██╔══██╗   ██║   ╚════██║#
+#██║  ██║███████╗███████╗██║  ██║   ██║   ███████║#
+#╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝#
+#Scripted Localisation
+
+#################################################
+##=|  TNO Alert System Scripted Localisation |=##
+##======================| |====================##
+#################################################
+
+#Index; Search for these names using ctrl+f and you'll find the section they entitle.
+#	Get_TNO_alert_name
+#	Get_TNO_alert_description
+#	Get_TNO_alert_GFX
+
+#################################################
+#                  Alert Names                  #
+#################################################
+defined_text = {
+	name = Get_TNO_alert_name
+	text = { localization_key = "[?alert_id.GetTokenKey]" }
+}
+
+#################################################
+#              Alert Descriptions               #
+#################################################
+defined_text = {
+	name = Get_TNO_alert_description
+	text = {
+		trigger = {
+			check_variable = { alert_id = token:Alert_ODF_Task_Forces }
+			set_temp_variable = { Antarctic_Intelligence_Agents_Free = Antarctic_Intelligence_Agents_Cap }
+			subtract_from_temp_variable = { Antarctic_Intelligence_Agents_Free = Antarctic_Intelligence_Agents_Active }
+		}
+		localization_key = "[?alert_id.GetTokenKey]_Desc"
+	}
+	text = { localization_key = "[?alert_id.GetTokenKey]_Desc" }
+}
+
+#################################################
+#                   Alert GFX                   #
+#################################################
+defined_text = {
+	name = Get_TNO_alert_GFX
+	### ALERTS WITH DIRECTLY DEFINED GFX ###
+
+	#|=====[ GENERAL ]=====|#
+	# text = {
+	# 	trigger = { check_variable = { alert_id = token: } }
+	# 	localization_key = "GFX_TNO_"
+	# }
+
+	#|=====[ REICH ]=====|#
+	text = {
+		trigger = { check_variable = { alert_id = token:Alert_BRI_ChaosThreshold } }
+		localization_key = "GFX_TNO_Alert_RUS_Smuta_Chaos"
+	}
+
+	#|=====[ OFN ]=====|#
+
+
+	#|=====[ LATIN AMERICA ]=====|#
+
+
+	#|=====[ MEDITERRANEAN ]=====|#
+
+
+	#|=====[ MIDDLE EAST ]=====|#
+
+
+	#|=====[ AFRICA ]=====|#
+
+
+	#|=====[ RUSSIA ]=====|#
+
+
+	#|=====[ ASIA ]=====|#
+
+	
+	### DEFAULT ###
+	text = {
+		localization_key = "GFX_TNO_[?alert_id.GetTokenKey]"
+	}
+}

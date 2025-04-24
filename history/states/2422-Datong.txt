@@ -1,0 +1,36 @@
+state = {
+	id = 2422
+	name = "STATE_2422"
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		add_core_of = SHX
+		victory_points = {
+			7158 15
+		}
+		victory_points = {
+			10507 3
+		}
+		victory_points = {
+			13230 2
+		}
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_chahar_suiyuan
+		set_variable = { china_state_ref = 54 }
+		set_variable = { china_region_ref = 7 }
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		7158 10480 10507 12432 13230 16577 19768
+	}
+	manpower = 2149669
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

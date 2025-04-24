@@ -1,0 +1,21 @@
+state = {
+	id = 2035
+	name = "STATE_2035"
+	provinces = {
+		17622 17801 17812 17627
+	}
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAO
+		add_core_of = AAO
+		add_core_of = AAS
+		victory_points = { 17801 1 }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+}

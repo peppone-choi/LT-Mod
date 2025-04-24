@@ -1,0 +1,30 @@
+state = {
+	id = 2174
+	name = "STATE_2174"
+
+	history = {
+		owner = ULS
+		victory_points = {
+			3379 2
+		}
+		victory_points = {
+			18606 1
+		}
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			prisons = 1
+		}
+		add_core_of = ULS
+		add_core_of = IRE
+		add_claim_by = ENG
+	}
+
+	provinces = {
+		3379 18606
+	}
+	manpower = 266959
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

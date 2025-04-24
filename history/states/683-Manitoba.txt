@@ -1,0 +1,49 @@
+state = {
+	id = 683
+	name = "STATE_683"
+
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			thermoelectric_plant = 1
+			hospitals = 1
+			offices = 1
+			infrastructure = 4
+			air_base = 2
+			radar_station = 3
+		}
+		victory_points = {
+			4872 15
+		}
+		victory_points = {
+			12145 3
+		}
+		victory_points = {
+			1873 1
+		}
+		victory_points = {
+			12688 1
+		}
+		victory_points = {
+			4218 1
+		}
+		victory_points = {
+			7185 1
+		}
+		victory_points = {
+			5239 1
+		}
+		victory_points = {
+			7782 1
+		}
+	}
+
+	provinces = {
+		1848 1873 3721 4218 4426 4790 4872 5119 5239 6728 7185 7782 9615 10585 10605 12145 12636 12688 13182 17254 17280 13163
+	}
+	manpower = 939105
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

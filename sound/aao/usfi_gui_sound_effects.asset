@@ -1,0 +1,63 @@
+soundeffect = {
+	name = usfi_25mm_1
+	sounds = {
+		sound = usfi_25mm_1
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = usfi_40mm_1
+	sounds = {
+		sound = usfi_40mm_1
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = usfi_105mm_1
+	sounds = {
+		sound = usfi_105mm_1
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = usfi_25mm_2
+	sounds = {
+		sound = usfi_25mm_2
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = usfi_40mm_2
+	sounds = {
+		sound = usfi_40mm_2
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = usfi_105mm_2
+	sounds = {
+		sound = usfi_105mm_2
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = usfi_beep
+	sounds = {
+		sound = usfi_beep
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = usfi_boom
+	sounds = {
+		sound = usfi_boom
+	}
+	volume = 1
+}

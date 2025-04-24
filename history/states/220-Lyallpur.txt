@@ -1,0 +1,36 @@
+state = {
+	id = 220
+	name = "STATE_220"
+
+	history = {
+		owner = IND
+		add_claim_by = AZH
+		add_core_of = IND
+		buildings = {
+			infrastructure = 3
+			radar_station = 1
+			prisons = 1
+		}
+		victory_points = {
+			16027 20
+		}
+		victory_points = {
+			18887 8
+		}
+		victory_points = {
+			18946 4
+		}
+		victory_points = {
+			9084 3
+		}
+		set_state_flag = GDP_regions_punjab
+	}
+
+	provinces = {
+		9084 16027 18887 18910 18946 18998
+	}
+	manpower = 3150822
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

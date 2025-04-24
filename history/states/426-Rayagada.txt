@@ -1,0 +1,38 @@
+state = {
+	id = 426
+	name = "STATE_426"
+	resources = {
+		steel = 13.000
+		aluminium = 10.000
+	}
+
+	history = {
+		add_claim_by = AZH
+		add_core_of = IND
+		owner = IND
+		victory_points = {
+			7090 1
+		}
+		victory_points = {
+			18976 2
+		}
+		buildings = {
+			infrastructure = 3
+			18960 = {
+				bunker = 3
+			}
+			11978 = {
+				bunker = 3
+			}
+		}
+		set_state_flag = GDP_regions_orissa_ind
+	}
+
+	provinces = {
+		7090 7372 10469 11924 11978 12241 18960 18967 18976
+	}
+	manpower = 3022252
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 1452
+	name = "STATE_1452"
+
+	resources = {
+		steel = 8
+	}
+
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		add_core_of = VIC
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			dockyard = 1
+			offices = 1
+			19084 = {
+				naval_base = 3
+			}
+		}
+		victory_points = { 19084 10 }
+		victory_points = { 19013 1 }
+	}
+
+	provinces = {
+		19084 1157 19013
+	}
+	manpower = 2246610
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

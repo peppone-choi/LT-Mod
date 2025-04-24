@@ -1,0 +1,32 @@
+state = {
+	id = 2269
+	name = "STATE_2269"
+	resources = {
+		oil = 8
+		rubber = 6
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12184 1
+		}
+		victory_points = {
+			1332 1
+		}
+		set_state_flag = GDP_regions_riau
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		1401 19285 1246 1332 12184 12296
+	}
+	manpower = 268496
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

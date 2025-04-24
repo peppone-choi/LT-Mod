@@ -1,0 +1,27 @@
+state = {
+	id = 799
+	name = "STATE_799"
+
+	history = {
+		victory_points = {
+			1425 20
+		}
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			offices = 1
+			barracks = 1
+			infrastructure = 4
+			air_base = 1
+		}
+		set_state_flag = GDP_regions_east_west_java
+	}
+
+	provinces = {
+		1425 19333 19359
+	}
+	manpower = 2501752
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

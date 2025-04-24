@@ -1,0 +1,38 @@
+state = {
+	id = 103
+	name = "STATE_103"
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			prisons = 1
+			offices = 1
+			infrastructure = 4
+			air_base = 1
+			14660 = {
+				naval_base = 5
+			}
+			14661 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			14660 4
+		}
+		victory_points = {
+			14661 8
+		}
+		victory_points = {
+			3943 4
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		3868 3943 14660 14661
+	}
+	manpower = 483240
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

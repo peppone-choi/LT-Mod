@@ -1,0 +1,47 @@
+state = {
+	id = 244
+	name = "STATE_244"
+
+	resources = {
+		oil = 16
+		aluminium = 2
+	}
+
+	history = {
+		owner = AZR
+		victory_points = {
+			18350 10
+		}
+		victory_points = {
+			11645 3
+		}
+		victory_points = {
+			15129 2
+		}
+		victory_points = {
+			1610 1
+		}
+		victory_points = {
+			1539 1
+		}
+		victory_points = {
+			4477 1
+		}
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		add_core_of = AZR
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_regions_azerbaijan
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1539 1610 4477 11645 11674 12309 15129 18345 18347 18350
+	}
+	manpower = 1583019
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

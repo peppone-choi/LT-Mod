@@ -1,0 +1,28 @@
+characters = {
+	#Leaders
+	ONG_Vladimir_Kirpichnikov = {
+		name = ONG_Vladimir_Kirpichnikov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ONG/Portrait_Onega_Vladimir_Kirpichnikov.dds"
+			}
+			army = {
+				large = "gfx/leaders/ONG/Portrait_Onega_Vladimir_Kirpichnikov.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VLADIMIR_KIRPICHNIKOV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_military_junta_subtype
+		}
+		field_marshal = {
+			traits = { infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+}

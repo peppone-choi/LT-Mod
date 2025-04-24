@@ -1,0 +1,30 @@
+state = { #Population Done
+	id = 672
+	name = "STATE_672"
+	manpower = 364955
+
+	resources = {
+		aluminium = 4
+	}
+
+	state_category = rural
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		victory_points = { 7384 1 }
+		victory_points = { 15703 1 }
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+			15703 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = GDP_regions_south_sumatra
+	}
+
+	provinces = {
+		7384 7396 15703
+	}
+}

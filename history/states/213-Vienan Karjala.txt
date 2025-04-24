@@ -1,0 +1,26 @@
+state = {
+	id = 213
+	name = "STATE_213"
+
+	history = {
+		owner = FIN
+		victory_points = {
+			3067 1
+		}
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			schools = 1
+		}
+		set_state_flag = GDP_regions_karelia
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		36 80 134 3067 3071 6098 6175 9074 9119 9123 9198 11054 11096 11146 11181 18432 18445 18447
+	}
+	manpower = 48597
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

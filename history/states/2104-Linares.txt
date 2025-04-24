@@ -1,0 +1,30 @@
+state = {
+	id = 2104
+	name = "STATE_2104"
+
+	history = {
+		owner = CHL
+		buildings = {
+			hospitals = 1
+			prisons = 1
+			offices = 1
+			infrastructure = 3
+		}
+		add_core_of = CHL
+		victory_points = {
+			14828 2
+		}
+		victory_points = {
+			12984 1
+		}
+		set_state_flag = GDP_regions_maule
+	}
+
+	provinces = {
+		14823 12984 14826 14828 17503
+	}
+	manpower = 178498
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 1651
+	name = "STATE_1651"
+
+	history = {
+		owner = CLL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		2007 10792 12729 15628 15629 17335 17341 17346 17350
+	}
+	manpower = 12403
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

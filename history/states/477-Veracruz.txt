@@ -1,0 +1,64 @@
+state = {
+	id = 477
+	name = "STATE_477"
+	resources = {
+		oil = 22.000
+		steel = 8.000
+		tungsten = 2.000
+	}
+
+	history = {
+		owner = MEX
+		buildings = {
+			thermoelectric_plant = 2
+			barracks = 1
+			schools = 1
+			hospitals = 1
+			infrastructure = 3
+			dockyard = 1
+			air_base = 1
+			14496 = {
+				naval_base = 3
+			}
+			10889 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = MEX
+		victory_points = {
+			14496 10
+		}
+		victory_points = {
+			14499 6
+		}
+		victory_points = {
+			16895 6
+		}
+		victory_points = {
+			17311 3
+		}
+		victory_points = {
+			8079 2
+		}
+		victory_points = {
+			10889 2
+		}
+		victory_points = {
+			16961 1
+		}
+		victory_points = {
+			12810 1
+		}
+		victory_points = {
+			10732 1
+		}
+	}
+
+	provinces = {
+		443 8079 10732 10889 12810 14496 14499 14513 16895 16961 17311
+	}
+	manpower = 3233678
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

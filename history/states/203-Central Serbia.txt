@@ -1,0 +1,24 @@
+state = {
+	id = 203
+	name = "STATE_203"
+
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			prisons = 1
+		}
+		victory_points = { 18156 6 }
+		victory_points = { 6953 2 }
+		victory_points = { 6970 3 }
+	}
+
+	provinces = {
+		6970 3984 18156 6953
+	}
+	manpower = 499296
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

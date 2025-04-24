@@ -1,0 +1,21 @@
+state = {
+	id = 1159
+	name = "STATE_1159"
+
+	history = {
+		owner = TRZ
+		add_core_of = TRZ
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 8058 1 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		8058 18039 18049
+	}
+	manpower = 79509
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

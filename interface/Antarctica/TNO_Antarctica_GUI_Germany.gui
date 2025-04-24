@@ -1,0 +1,22 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_AAG_Germany"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 480 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Germany_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAG_Germany_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Germany_Art"
+			position = { x = 57 y = 120 }
+			spriteType = "GFX_Antarctica_Decision_GUI_Germany_Art"
+		}
+	}
+}

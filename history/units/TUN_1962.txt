@@ -1,0 +1,39 @@
+﻿division_template = {
+	name = "Firqat Alharas"
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 3 }
+		light_infantry = { x = 0 y = 4 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 } 
+	}
+}
+
+units = {
+	division = {
+		name="1 Firqat Haras"
+		location="11969"
+		division_template= "Firqat Alharas"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name="2 Firqat Haras"
+		location="9994"
+		division_template= "Firqat Alharas"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name="3 Firqat Haras"
+		location="7077"
+		division_template= "Firqat Alharas"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

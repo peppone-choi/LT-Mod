@@ -1,0 +1,26 @@
+state = {
+	id = 1730
+	name = "STATE_1730"
+
+	history = {
+		owner = CAU
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			6763 1
+		}
+		add_core_of = CAU
+		set_state_flag = GDP_regions_azerbaijan
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		6763 18337
+	}
+	manpower = 129800
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

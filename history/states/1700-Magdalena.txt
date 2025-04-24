@@ -1,0 +1,38 @@
+state = {
+	id = 1700
+	name = "STATE_1700"
+	resources = {
+		oil = 2.000
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			17333 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			17333 10
+		}
+		victory_points = {
+			2670 10
+		}
+		victory_points = {
+			17332 5
+		}
+	}
+
+	provinces = {
+		2278 2286 2453 2670 8056 15330 15512 17332 17333
+	}
+	manpower = 710472
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,24 @@
+state = { #Population Done
+	id = 118
+	name = "STATE_118"
+	manpower = 181194
+
+	state_category = rural
+	history = {
+		owner = SPA
+		victory_points = { 4135 6 }
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			4135 = {
+				naval_base = 6
+				coastal_bunker = 3
+			}
+		}
+		add_core_of = SPA
+		set_state_flag = GDP_category_large_town
+	}
+	provinces = {
+		4135
+	}
+}

@@ -1,0 +1,36 @@
+state = {
+	id = 404
+	name = "STATE_404"
+
+	history = {
+		owner = KAZ
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			barracks = 1
+			prisons = 1
+			air_base = 3
+		}
+		victory_points = { 1312 3 }
+		victory_points = { 4232 7 }
+		victory_points = { 7425 4 }
+		victory_points = { 4333 20 }
+		victory_points = { 4389 1 }
+		victory_points = { 4250 1 }
+		victory_points = { 12177 1 }
+		victory_points = { 1402 5 }
+		add_core_of = KAZ
+		set_state_flag = state_renamings
+	}
+
+	resources = {
+		steel = 10
+	}
+
+	provinces = {
+		1243 1312 1375 1382 1402 4232 4250 4277 4333 4389 4595 7335 7354 7392 7407 7425 10179 10220 10275 10277 12121 12152 12177 1239 10290 7405 10161 10292 1287 7350 7332
+	}
+	manpower = 1127610
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+}

@@ -1,0 +1,30 @@
+state = { #Population Done
+	id = 1886
+	name = "STATE_1886"
+	manpower = 2024911
+
+	state_category = city
+
+	history = {
+		owner = HOL
+		add_core_of = HOL
+		victory_points = { 6286 5 }
+		victory_points = { 13295 4 }
+		victory_points = { 11456 10 }
+		victory_points = { 15673 1 }
+		victory_points = { 6241 5 }
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 3
+			offices = 2
+		}
+		set_state_flag = state_renamings
+	}
+	resources = {
+		power = 6
+	}
+
+	provinces = {
+		15673 15672 6286 9403 13295 9363 6241 11456
+	}
+}

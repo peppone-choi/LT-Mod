@@ -1,0 +1,22 @@
+state = {
+	id = 2130
+	name = "STATE_2130"
+	manpower = 110904
+
+	state_category = pastoral
+
+	history = {
+		owner = SWI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 658 2 }
+		add_core_of = SWI
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		658 18123 18126 3662 3660
+	}
+}

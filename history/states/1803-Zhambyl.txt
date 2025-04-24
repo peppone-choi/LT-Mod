@@ -1,0 +1,31 @@
+state = {
+	id = 1803
+	name = "STATE_1803"
+	resources = {
+		steel = 5.000
+		tungsten = 3.000
+		aluminium = 2.000
+		uranium = 1.000
+	}
+
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 12640 10 }
+		victory_points = { 12340 1 }
+		victory_points = { 10603 1 }
+		victory_points = { 4773 3 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4492 4773 10506 10603 12340 12385 12487 12640 12658
+	}
+	manpower = 597398
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

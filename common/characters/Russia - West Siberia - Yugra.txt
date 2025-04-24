@@ -1,0 +1,32 @@
+characters = {
+	YGR_Jaba_Ioseliani = {
+		name = YGR_Jaba_Ioseliani
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YGR/Portrait_Yugra_Jaba_Ioseliani.dds"
+			}
+			army = {
+				large = "gfx/leaders/YGR/Portrait_Yugra_Jaba_Ioseliani.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JABA_IOSELIANI_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_warlordism_subtype
+			id = -1
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			traits = {
+				trait_reckless
+				organizer
+				fast_planner
+			}
+			legacy_id = 3531
+		}
+	}
+}

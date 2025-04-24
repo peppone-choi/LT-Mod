@@ -1,0 +1,34 @@
+state = {
+	id = 1661
+	name = "STATE_1661"
+	resources = {
+		aluminium = 6.000
+		power = 4.000
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			air_base = 2
+		}
+		victory_points = {
+			15327 10
+		}
+		victory_points = {
+			2660 5
+		}
+	}
+
+	provinces = {
+		2509 2520 2660 15327 15516 15623 17362 17366
+	}
+	manpower = 973387
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

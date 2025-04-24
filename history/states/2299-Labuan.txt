@@ -1,0 +1,29 @@
+state = {
+	id = 2299
+	name = "STATE_2299"
+
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = NRB
+		buildings = {
+			infrastructure = 2
+			19234 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = NRB
+		set_state_flag = GDP_regions_sabah
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		19234
+	}
+	manpower = 533
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+	local_supplies = 0.000
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 1650
+	name = "STATE_1650"
+	resources = {
+		oil = 4.000
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			17351 1
+		}
+		set_demilitarized_zone = yes
+	}
+
+	provinces = {
+		2422 2581 12770 15518 15631 17340 17351
+	}
+	manpower = 95939
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

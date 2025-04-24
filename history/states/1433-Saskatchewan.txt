@@ -1,0 +1,51 @@
+state = {
+	id = 1433
+	name = "STATE_1433"
+
+	resources = {
+		uranium = 2.000 #in Northern
+	}
+
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			air_base = 1
+			prisons = 1
+			infrastructure = 4
+			radar_station = 2
+		}
+		victory_points = {
+			4739 10
+		}
+		victory_points = {
+			12603 10
+		}
+		victory_points = {
+			10611 3
+		}
+		victory_points = {
+			12593 1
+		}
+		victory_points = {
+			3769 1
+		}
+		victory_points = {
+			9669 1
+		}
+		victory_points = {
+			736 3
+		}
+		victory_points = {
+			1671 1
+		}
+	}
+
+	provinces = {
+		736 1671 1788 2976 3481 3498 3769 3800 4695 4739 6779 9669 10552 10611 10656 11440 12593 12603 12663 12682 13167 13168 13183 13185 13187 17264 17270
+	}
+	manpower = 942666
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

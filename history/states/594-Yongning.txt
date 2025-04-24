@@ -1,0 +1,36 @@
+state = {
+	id = 594
+	name = "STATE_594"
+	resources = {
+		aluminium = 18
+		tungsten = 16
+	}
+
+	history = {
+		owner = GUX
+		add_core_of = GUX
+		set_variable = { china_state_ref = 19 }
+		set_variable = { china_region_ref = 2 }
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			offices = 1
+			schools = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			7137 14
+		}
+		victory_points = {
+			10050 5
+		}
+	}
+
+	provinces = {
+		4134 4177 7137 7650 10050 19451 19464 19476 19486
+	}
+	manpower = 3966905
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

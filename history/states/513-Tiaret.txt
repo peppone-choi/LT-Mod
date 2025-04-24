@@ -1,0 +1,26 @@
+state = {
+	id = 513
+	name = "STATE_513"
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ALG
+		add_core_of = ILG
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		victory_points = { 12760 7 }
+		victory_points = { 10045 1 }
+		add_core_of = ALG
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4018 18047 18031 10045 12020 12760
+	}
+	manpower = 305246
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

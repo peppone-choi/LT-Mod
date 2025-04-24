@@ -1,0 +1,38 @@
+state = {
+	id = 637
+	name = "STATE_637"
+
+	history = {
+		owner = KMC
+		buildings = {
+			barracks = 1
+			infrastructure = 2
+			dockyard = 2
+			7878 = {
+				naval_base = 5
+			}
+			12207 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		add_core_of = KMC
+		victory_points = {
+			7878 8
+		}
+		victory_points = {
+			1863 1
+		}
+		victory_points = {
+			4728 1
+		}
+	}
+
+	provinces = {
+		1823 1839 1863 4728 4744 5738 5936 5972 7710 7878 8437 8654 12207 12522 16964
+	}
+	manpower = 231435
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

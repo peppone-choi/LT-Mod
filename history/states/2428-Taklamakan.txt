@@ -1,0 +1,22 @@
+state = {
+	id = 2428
+	name = "STATE_2428"
+
+	impassable = yes
+
+	history = {
+		owner = XIN
+		add_core_of = XIN
+
+		set_variable = { china_state_ref = 43 }
+		set_variable = { china_region_ref = 5 }
+	}
+
+	provinces = {
+		7790
+	}
+	manpower = 378
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

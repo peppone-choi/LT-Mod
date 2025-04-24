@@ -1,0 +1,38 @@
+state = {
+	id = 916
+	name = "STATE_916"
+	resources = {
+		oil = 34.000
+	}
+
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 4
+			dockyard = 3
+			thermoelectric_plant = 1
+			air_base = 1
+			anti_air_building = 1
+			radar_station = 1
+			2089 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			2089 15
+		}
+		victory_points = {
+			16321 6
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		2089 12726 15765 16321 18458
+	}
+	manpower = 594197
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

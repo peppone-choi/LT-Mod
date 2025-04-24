@@ -1,0 +1,36 @@
+state = {
+	id = 816
+	name = "STATE_816"
+	resources = {
+		power = 2
+		steel = 12
+		oil = 18
+	}
+
+	history = {
+		victory_points = {
+			19238 5
+		}
+		victory_points = {
+			7296 1
+		}
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+			offices = 1
+			19238 = {
+				naval_base = 2
+			}
+		}
+		set_state_flag = GDP_regions_kalimantan
+	}
+
+	provinces = {
+		1225 1416 4236 7296 10178 19238 19292
+	}
+	manpower = 1473155
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

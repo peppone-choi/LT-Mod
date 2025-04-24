@@ -1,0 +1,31 @@
+state = {
+	id = 1963
+	name = "STATE_1963"
+
+	history = {
+		owner = TIB
+		add_core_of = TIB
+		add_claim_by = AZH
+		add_claim_by = IND
+		victory_points = {
+			16138 1
+		}
+		victory_points = {
+			12730 1
+		}
+		set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 2
+		}
+		set_variable = { china_state_ref = 22 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		1996 10810 12730 16137 16138 16985 17009 18852 19638 19657 19670 19691 19730 19750
+	}
+	manpower = 233406
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 805
+	name = "STATE_805"
+	resources = {
+		rubber = 14
+	}
+
+	history = {
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			7399 1
+		}
+		owner = SHO
+		add_core_of = SHO
+		add_core_of = MLY
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1392 4367 4384 7399 12255 12271 14695 14698 19321
+	}
+	manpower = 359739
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

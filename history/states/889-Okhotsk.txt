@@ -1,0 +1,26 @@
+state = {
+	id = 889
+	name = "STATE_889"
+
+	history = {
+		owner = MAG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MAG
+		victory_points = {
+			10598 1
+		}
+		victory_points = {
+			13402 1
+		}
+	}
+
+	provinces = {
+		1772 1807 4810 4881 5838 7088 7772 8574 8617 10572 10590 10598 12518 12650 13398 13402 13403 13405 13406 13411
+	}
+	manpower = 36463
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

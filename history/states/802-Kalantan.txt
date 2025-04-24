@@ -1,0 +1,28 @@
+state = {
+	id = 802
+	name = "STATE_802"
+	resources = {
+		rubber = 8
+	}
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		add_core_of = MLY
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7329 5
+		}
+		set_state_flag = GDP_regions_thai_malaya
+	}
+
+	provinces = {
+		1348 7329 10227
+	}
+	manpower = 579246
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

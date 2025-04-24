@@ -1,0 +1,25 @@
+state = { #Population Done
+	id = 2512
+	name = "STATE_2512"
+	manpower = 5668
+	state_category = tiny_island
+
+	history = {
+		owner = CAN
+		add_claim_by = ENG
+		buildings = {
+			infrastructure = 3
+			10440 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # Cockburn Town
+			10440 1
+		}
+		
+	}
+
+	provinces = {
+		10440
+	}
+}

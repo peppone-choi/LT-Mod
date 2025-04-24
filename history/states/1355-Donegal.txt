@@ -1,0 +1,22 @@
+state = {
+	id = 1355
+	name = "STATE_1355"
+
+	history = {
+		owner = IRE
+		buildings = {
+			infrastructure = 3
+			offices = 1
+			radar_station = 2
+		}
+		add_core_of = IRE
+	}
+
+	provinces = {
+		337 18605
+	}
+	manpower = 113842
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

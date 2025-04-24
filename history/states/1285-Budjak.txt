@@ -1,0 +1,23 @@
+state = {
+	id = 1285
+	name = "STATE_1285"
+	manpower = 611742
+
+	state_category = town
+
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 3
+			6727 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 3704 2 }
+		victory_points = { 3701 2 }
+		victory_points = { 6727 2 }
+		set_state_flag = universal_renamings
+	}
+	provinces = { 3701 3704 6727 6743 9683 }
+}

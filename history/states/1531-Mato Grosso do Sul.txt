@@ -1,0 +1,33 @@
+state = {
+	id = 1531
+	name = "STATE_1531"
+	resources = {
+		oil = 1.000
+	}
+
+	history = {
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRA
+		victory_points = {
+			12951 7
+		}
+		victory_points = {
+			8224 8
+		}
+		victory_points = {
+			17460 5
+		}
+		set_state_flag = GDP_regions_mato_grosso
+	}
+
+	provinces = {
+		2181 5200 8189 8224 10959 12951 17409 17412 17418 17460 17462 17463
+	}
+	manpower = 560345
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

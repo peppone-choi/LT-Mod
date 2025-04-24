@@ -1,0 +1,37 @@
+state = {
+	id = 2389
+	name = "STATE_2389"
+
+	history = {
+		owner = GUZ
+		add_core_of = GUZ
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			barracks = 1
+		}
+		victory_points = {
+			10335 2
+		}
+		victory_points = {
+			19505 3
+		}
+		victory_points = {
+			19523 2
+		}
+		victory_points = {
+			4480 6
+		}
+		set_variable = { china_state_ref = 18 }
+		set_variable = { china_region_ref = 2 }
+		set_state_flag = state_category_town
+	}
+
+	provinces = {
+		19505 7665 10335 19523 4480
+	}
+	manpower = 3053893
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

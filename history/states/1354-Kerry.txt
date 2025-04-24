@@ -1,0 +1,25 @@
+state = {
+	id = 1354
+	name = "STATE_1354"
+
+	history = {
+		owner = IRE
+		victory_points = {
+			6405 1
+		}
+		buildings = {
+			infrastructure = 2
+			hospitals = 1
+			radar_station = 2
+		}
+		add_core_of = IRE
+	}
+
+	provinces = {
+		6405 18608
+	}
+	manpower = 116458
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

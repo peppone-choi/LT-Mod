@@ -1,0 +1,35 @@
+state = {
+	id = 842
+	name = "STATE_842"
+	resources = {
+		tungsten = 12
+		aluminium = 2
+		rubber = 4
+		power = 2
+	}
+
+	history = {
+		owner = BUR
+		add_core_of = BUR
+		buildings = {
+			infrastructure = 2
+			1315 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1315 1
+		}
+		victory_points = {
+			12292 1
+		}
+	}
+
+	provinces = {
+		1296 1315 1385 4275 7295 10217 12292 19045 19053
+	}
+	manpower = 592790
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

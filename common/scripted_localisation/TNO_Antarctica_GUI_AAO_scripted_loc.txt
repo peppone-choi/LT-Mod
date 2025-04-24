@@ -1,0 +1,2920 @@
+# PERT
+defined_text = {
+	name = get_Antarctica_GUI_AAO_PERT_Network_Grid
+	
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 0 }
+				check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 1 }
+			}
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Network_Integrated
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 2 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Network_Electronics
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 3 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Network_Airframe
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 4 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Network_REV
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Network_Selector^0 = 5 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Network_Testing
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_Missile_Diagram_Airframe_Image
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^25 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A90T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^25 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A90"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^22 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A60T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^22 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A60"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^19 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A31"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^20 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A32T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^20 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A32"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^21 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A33T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^21 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A33"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^18 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A30T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^18 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_A30"
+	}
+	text = {
+		localization_key = "GFX_blank"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_Missile_Diagram_Electronics_Image
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^41 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E130T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^41 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E130"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^13 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E120T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^13 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E120"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^7 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E100T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^7 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E100"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^6 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E50T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^6 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E50"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^3 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E20T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^3 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_E20"
+	}
+	text = {
+		localization_key = "GFX_blank"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_Missile_Diagram_REV_Image
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^25 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R90T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^25 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R90"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^31 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R80T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^31 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R80"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^30 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R70T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^30 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R70"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^27 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R40T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^27 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_R40"
+	}
+	text = {
+		localization_key = "GFX_blank"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_Missile_Diagram_Testing_Image
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^40 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_T130T"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^40 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_Missile_T130"
+	}
+	text = {
+		localization_key = "GFX_blank"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_PERT_Missile_Name
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^40 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Titan_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Event_Frames^40 > 2 }
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Minuteman
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Minuteman_Name
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_PERT_Decision_Name
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_0
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 100 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_100
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 101 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_101
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 102 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_102
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 103 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_103
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 104 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_104
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 200 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_200
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 201 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_201
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 202 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_202
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 203 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_203
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 300 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_300
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 301 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_301
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 302 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_302
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 303 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_303
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 304 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_304
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 400 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_400
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 401 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_401
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 402 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_402
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 403 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_403
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 404 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_404
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_PERT_Decision_TT
+	
+	# No Timer
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 0 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_0
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 1 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 2 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 3 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 4 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Integrated_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 100 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_100
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 101 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_101
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 102 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_102
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 103 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_103
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 104 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Electronics_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_104
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 200 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_200
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 201 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_201
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 202 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_202
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 203 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Airframe_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_203
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 300 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_300
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 301 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_301
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 302 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_302
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 303 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_303
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 304 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_REV_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_304
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 400 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_400
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 401 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_401
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 402 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_402
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 403 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_403
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 404 }
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array_Testing_Timer^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_404
+	}
+	# Timer
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_0
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 100 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_100
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 101 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_101
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 102 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_102
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 103 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_103
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 104 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_104
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 200 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_200
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 201 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_201
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 202 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_202
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 203 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_203
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 300 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_300
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 301 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_301
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 302 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_302
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 303 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_303
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 304 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_304
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 400 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_400
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 401 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_401
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 402 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_402
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 403 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_403
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_PERT_Decision_Array^i = 404 }
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt_timer_404
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_PERT_Stages
+	
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_GUI_AAO_PERT_Selected_Titan
+		}
+		localization_key = Antarctica_GUI_AAO_PERT_II
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_PERT_III
+	}
+}
+
+# CIA
+# Phases - 0 = Planning, 1 = Execution, 2 = Conclusion - Antarctica_GUI_AAO_CIA_Phase_Array
+# Malaysia War ID = 0, Madagascar War ID = 1, Philippines War ID = 2, SAW ID = 3 - Antarctica_GUI_AAO_CIA_War_Array
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_War_Title
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_War_Title_Malaysia
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_War_Title_Madagascar
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_War_Title_Philippines
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_War_Title_SAW
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Planning_Phase_Text1
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Planning_Phase_Text2
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_2_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Planning_Phase_Text3
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_1_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Planning_Phase_3_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Execution_Phase_Text1
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_1_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Execution_Phase_Text2
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_2_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Execution_Phase_Text3
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Execution_Phase_3_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_1_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_2_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Malaysia_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Malaysia_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Malaysia_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Malaysia_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Malaysia_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Madagascar_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Madagascar_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Madagascar_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Madagascar_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Madagascar_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Philippines_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Philippines_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Philippines_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Philippines_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_Philippines_Completed
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_SAW_Unavailable
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_SAW_Completed }
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_SAW_Available
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_SAW_Completed
+		}
+		localization_key = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3_SAW_Completed
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_CIA_Phase_NA
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Malaysia_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 0 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Malaysia_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Malaysia"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Madagascar_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Madagascar_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Madagascar"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Philippines_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_Philippines_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Philippines"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			NOT = { check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 } }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			check_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^Antarctica_GUI_AAO_CIA_Selected_War = 2 }
+			NOT = { has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_SAW_Completed }
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Available"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAO_CIA_War_Array^Antarctica_GUI_AAO_CIA_Selected_War = 3 }
+			has_country_flag = Antarctica_GUI_AAO_CIA_Conclusion_Phase_3_SAW_Completed
+		}
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_SAW"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+	}
+}
+
+# Air Support
+defined_text = {
+	name = USFI_Air_Support_GUI_Title_Begin_Game_Text
+	text = {
+		trigger = {
+			NOT = { has_country_flag = USFI_Air_Support_Mission_Begun }
+		}
+		localization_key = USFI_Air_Support_GUI_Title_Begin_Game_Text_Not_Begun
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Begun
+		}
+		localization_key = USFI_Air_Support_GUI_Title_Begin_Game_Text_Begun
+	}
+}
+
+defined_text = {
+	name = USFI_Air_Support_GUI_25MM_Text
+	text = {
+		trigger = {
+			NOT = { has_country_flag = USFI_Air_Support_25MM_Selected }
+		}
+		localization_key = USFI_Air_Support_GUI_25MM_Text_Not_Chosen
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_25MM_Selected
+		}
+		localization_key = USFI_Air_Support_GUI_25MM_Text_Chosen
+	}
+}
+
+defined_text = {
+	name = USFI_Air_Support_GUI_40MM_Text
+	text = {
+		trigger = {
+			NOT = { has_country_flag = USFI_Air_Support_40MM_Selected }
+		}
+		localization_key = USFI_Air_Support_GUI_40MM_Text_Not_Chosen
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_40MM_Selected
+		}
+		localization_key = USFI_Air_Support_GUI_40MM_Text_Chosen
+	}
+}
+
+defined_text = {
+	name = USFI_Air_Support_GUI_105MM_Text
+	text = {
+		trigger = {
+			NOT = { has_country_flag = USFI_Air_Support_105MM_Selected }
+		}
+		localization_key = USFI_Air_Support_GUI_105MM_Text_Not_Chosen
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_105MM_Selected
+		}
+		localization_key = USFI_Air_Support_GUI_105MM_Text_Chosen
+	}
+}
+
+defined_text = {
+	name = USFI_Air_Support_GUI_25MM_Ammo_Text
+	text = {
+		trigger = {
+			NOT = { has_country_flag = USFI_Air_Support_GUI_25MM_Disabled }
+		}
+		localization_key = USFI_Air_Support_GUI_25MM_Ammo_Text_Count
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_25MM_Disabled
+			check_variable = { USFI_Air_Support_GUI_25MM_Reload_Counter = 0 }
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_0
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_25MM_Disabled
+			check_variable = { USFI_Air_Support_GUI_25MM_Reload_Counter = 1 }
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_25MM_Disabled
+			check_variable = { USFI_Air_Support_GUI_25MM_Reload_Counter = 2 }
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_25MM_Disabled
+			check_variable = { USFI_Air_Support_GUI_25MM_Reload_Counter = 3 }
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_3
+	}
+	text = {
+		trigger = {
+			
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_0
+	}
+}
+
+defined_text = {
+	name = USFI_Air_Support_GUI_40MM_Ammo_Text
+	text = {
+		trigger = {
+			NOT = { has_country_flag = USFI_Air_Support_GUI_40MM_Disabled }
+		}
+		localization_key = USFI_Air_Support_GUI_40MM_Ammo_Text_Count
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_40MM_Disabled
+			OR = {
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 0 }
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 4 }
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_0
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_40MM_Disabled
+			OR = {
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 1 }
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 5 }
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_40MM_Disabled
+			OR = {
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 2 }
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 6 }
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_40MM_Disabled
+			check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 3 }
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_3
+	}
+	text = {
+		trigger = {
+			
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_0
+	}
+}
+
+defined_text = {
+	name = USFI_Air_Support_GUI_105MM_Ammo_Text
+	text = {
+		trigger = {
+			NOT = { has_country_flag = USFI_Air_Support_GUI_105MM_Disabled }
+		}
+		localization_key = USFI_Air_Support_GUI_105MM_Ammo_Text_Count
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_105MM_Disabled
+			OR = {
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 0 }
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 4 }
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 8 }
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_0
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_105MM_Disabled
+			OR = {
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 1 }
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 5 }
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 9 }
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_105MM_Disabled
+			OR = {
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 2 }
+				check_variable = { USFI_Air_Support_GUI_105MM_Reload_Counter = 6 }
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_GUI_105MM_Disabled
+			OR = {
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 3 }
+				check_variable = { USFI_Air_Support_GUI_40MM_Reload_Counter = 7 }
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_3
+	}
+	text = {
+		trigger = {
+			
+		}
+		localization_key = USFI_Air_Support_GUI_Ammo_Text_Reloading_0
+	}
+}
+
+defined_text = {
+	name = USFI_Air_Support_GUI_Level_Text
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_1
+		}
+		localization_key = USFI_Air_Support_GUI_Level_1_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_2
+		}
+		localization_key = USFI_Air_Support_GUI_Level_2_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_3
+		}
+		localization_key = USFI_Air_Support_GUI_Level_3_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_4
+		}
+		localization_key = USFI_Air_Support_GUI_Level_4_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_5
+		}
+		localization_key = USFI_Air_Support_GUI_Level_5_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_6
+		}
+		localization_key = USFI_Air_Support_GUI_Level_6_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_7
+		}
+		localization_key = USFI_Air_Support_GUI_Level_7_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_8
+		}
+		localization_key = USFI_Air_Support_GUI_Level_8_Text
+	}
+	text = {
+		trigger = {
+			has_country_flag = USFI_Air_Support_Mission_Level_9
+		}
+		localization_key = USFI_Air_Support_GUI_Level_9_Text
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_flag = USFI_Air_Support_Mission_Level_1
+					has_country_flag = USFI_Air_Support_Mission_Level_2
+					has_country_flag = USFI_Air_Support_Mission_Level_3
+					has_country_flag = USFI_Air_Support_Mission_Level_4
+					has_country_flag = USFI_Air_Support_Mission_Level_5
+					has_country_flag = USFI_Air_Support_Mission_Level_6
+					has_country_flag = USFI_Air_Support_Mission_Level_7
+					has_country_flag = USFI_Air_Support_Mission_Level_8
+					has_country_flag = USFI_Air_Support_Mission_Level_9
+				}
+			}
+		}
+		localization_key = USFI_Air_Support_GUI_Level_Unknown_Text
+	}
+}

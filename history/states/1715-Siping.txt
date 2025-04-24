@@ -1,0 +1,32 @@
+state = {
+	id = 1715
+	name = "STATE_1715"
+
+	history = {
+		owner = MAN
+		victory_points = {
+			4642 16
+		}
+		victory_points = {
+			19811 1
+		}
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 2
+			prisons = 1
+			schools = 1
+			hospitals = 1
+		}
+		add_core_of = MAN
+		set_variable = { china_state_ref = 48 }
+		set_variable = { china_region_ref = 6 }
+	}
+
+	provinces = {
+		930 4503 4642 916 19811 887 3913
+	}
+	manpower = 8402257
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

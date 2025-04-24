@@ -1,0 +1,35 @@
+state = {
+	id = 510
+	name = "STATE_510" # rosario
+	manpower = 1197080
+	resources = {
+		oil = 6
+	}
+
+	state_category = large_town
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+		}
+		victory_points = { 14954 20 }
+		victory_points = { 5163 3 }
+		victory_points = { 7550 2 }
+		victory_points = { 14999 2 }
+		victory_points = { 15093 1 }
+		victory_points = { 14792 1 }
+		victory_points = { 7500 1 }
+		victory_points = { 14963 1 }
+		victory_points = { 15009 1 }
+		victory_points = { 14964 1 }
+
+		add_core_of = ARG
+		set_state_flag = GDP_regions_santa_fe
+	}
+
+	provinces = {
+		5163 7500 7550 14792 14937 14954 14963 14964 14999 15009 15093
+	}
+}

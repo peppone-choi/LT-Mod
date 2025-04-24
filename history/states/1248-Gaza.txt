@@ -1,0 +1,21 @@
+state = {
+	id = 1248
+	name = "STATE_1248"
+	manpower = 167496
+
+	state_category = rural
+
+	history = {
+		owner = IME
+		victory_points = { 14453 5 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = IME
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		14453
+	}
+}

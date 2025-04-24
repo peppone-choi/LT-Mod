@@ -1,0 +1,33 @@
+state = {
+	id = 184
+	name = "STATE_184"
+	manpower = 403780
+
+	state_category = town
+
+	resources = {
+		chromium = 16
+		uranium = 2
+	}
+
+	history = {
+		owner = BUL
+		victory_points = { 6990 4 }
+		victory_points = { 9930 4 }
+		victory_points = { 16204 2 }
+		victory_points = { 14447 2 }
+		buildings = {
+			infrastructure = 3
+			9930 = {
+				naval_base = 2
+			}
+			air_base = 3
+		}
+		add_core_of = GRE
+		add_core_of = BUL
+	}
+
+	provinces = {
+		6990 9791 9930 14447 16202 16203 16204
+	}
+}

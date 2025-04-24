@@ -1,0 +1,29 @@
+state = {
+	id = 1459
+	name = "STATE_1459"
+
+	history = {
+		owner = UPH
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			4241 = {
+				naval_base = 4
+			}
+		}
+		victory_points = { 7445 3 }
+		victory_points = { 4241 20 }
+		add_core_of = UPH
+		add_core_of = PHI
+		add_core_of = SPH
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1407 4241 7445 10328 14734 14735 19380
+	}
+	manpower = 1004821
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

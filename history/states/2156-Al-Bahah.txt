@@ -1,0 +1,28 @@
+state = {
+	id = 2156
+	name = "STATE_2156"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13442 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13442
+	}
+	manpower = 132097
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

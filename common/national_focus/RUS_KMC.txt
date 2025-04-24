@@ -1,0 +1,106 @@
+focus_tree = {
+	id = RUS_KMC_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KMC
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_KMC_focus_1 #백악관의 불신
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_2 # 캄차카 신자본가들의 소집
+		prerequisite = { focus = RUS_KMC_focus_1 }
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_3 # 러시아 공화국군 정비
+		prerequisite = { focus = RUS_KMC_focus_2 }
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_4 # CIA와의 관계 정립
+		prerequisite = { focus = RUS_KMC_focus_3 }
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_5 # 해방 의용군의 도달
+		prerequisite = { focus = RUS_KMC_focus_4 }
+		x = 0
+		y = 4
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_6 # 내무전략부 창설
+		prerequisite = { focus = RUS_KMC_focus_5 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_7 # 웨스트포인트식 군제 도입
+		prerequisite = { focus = RUS_KMC_focus_6 }
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_8 # 노동조합의 호의
+		prerequisite = { focus = RUS_KMC_focus_7 }
+		mutually_exclusive = {
+			focus = RUS_KMC_focus_9
+		}
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_9 # 자본가의 지지
+		prerequisite = { focus = RUS_KMC_focus_7 }
+		mutually_exclusive = {
+			focus = RUS_KMC_focus_8
+		}
+		x = 2
+		y = 7
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_10 # 야쿠트 인들과의 약속
+		prerequisite = { focus = RUS_KMC_focus_8
+		focus = RUS_KMC_focus_9 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_KMC_focus_11 # 마가단 전선
+		prerequisite = { focus = RUS_KMC_focus_10 }
+		x = 0
+		y = 9
+		icon = GFX_goal_generic_orthodox
+	}
+}

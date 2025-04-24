@@ -1,0 +1,37 @@
+state = {
+	id = 1364
+	name = "STATE_1364"
+
+	history = {
+		owner = URA
+		add_claim_by = URA
+		add_core_of = SOR
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
+			hospitals = 1
+		}
+		victory_points = {
+			19466 5
+		}
+		victory_points = {
+			7763 10
+		}
+		set_resistance = 0
+		set_compliance = 100
+		set_variable = { china_state_ref = 52 }
+		set_variable = { china_region_ref = 6 }
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_pastoral
+	}
+
+	provinces = {
+		1724 1739 4731 4847 7754 7763 12657 13304 19466 19483
+	}
+	manpower = 186397
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,40 @@
+state = {
+	id = 322
+	name = "STATE_322"
+	resources = {
+		chromium = 2.000
+	}
+
+	history = {
+		owner = TIB
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TIB
+		victory_points = {
+			2010 5
+		}
+		victory_points = {
+			17014 1
+		}
+		victory_points = {
+			4900 1
+		}
+		victory_points = {
+			2014 1
+		}
+		victory_points = {
+			19627 1
+		}
+		set_variable = { china_state_ref = 22 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		2010 2014 2093 4900 5094 8121 12784 12807 17014 17029 19439 19627
+	}
+	manpower = 465895
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

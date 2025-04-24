@@ -1,0 +1,28 @@
+state = {
+	id = 1039
+	name = "STATE_1039"
+
+	history = {
+		owner = ANG
+		add_core_of = ANG
+		buildings = {
+			offices = 1
+			barracks = 1
+			infrastructure = 1
+		}
+		victory_points = {
+			13854 1
+		}
+		victory_points = {
+			13824 1
+		}
+	}
+
+	provinces = {
+		7548 13824 13825 13835 13839 13854 13856 17925 17927 17928
+	}
+	manpower = 237820
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

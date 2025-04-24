@@ -1,0 +1,31 @@
+state = {
+	id = 2378
+	name = "STATE_2378"
+	resources = {
+		tungsten = 4.000
+	}
+
+	history = {
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			5997 1
+		}
+		victory_points = {
+			1319 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_variable = { china_state_ref = 20 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		1319 4559 5997 8023 19653
+	}
+	manpower = 1868543
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

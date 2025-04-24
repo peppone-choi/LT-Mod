@@ -1,0 +1,40 @@
+state = {
+	id = 605
+	name = "STATE_605"
+	resources = {
+		aluminium = 2.000
+	}
+
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			air_base = 3
+			infrastructure = 5
+			offices = 1
+			schools = 1
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			4925 35
+		}
+		victory_points = {
+			12141 5
+		}
+		victory_points = {
+			19922 5
+		}
+		set_demilitarized_zone = yes
+		set_state_flag = GDP_regions_chuanxi
+		set_variable = { china_state_ref = 17 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		4925 8734 12141 19843 19922
+	}
+	manpower = 7782374
+	buildings_max_level_factor = 2.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 2425
+	name = "STATE_2425"
+	resources = {
+		oil = 8.000
+	}
+
+	history = {
+		owner = GAN
+		add_core_of = GAN
+		victory_points = {
+			1647 7
+		}
+		victory_points = {
+			5025 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_variable = { china_state_ref = 40 }
+		set_variable = { china_region_ref = 5 }
+	}
+
+	provinces = {
+		1647 5025 11735 16840 19518 19520
+	}
+	manpower = 1884596
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

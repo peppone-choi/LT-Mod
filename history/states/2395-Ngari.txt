@@ -1,0 +1,25 @@
+state = {
+	id = 2395
+	name = "STATE_2395"
+
+	history = {
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TIB
+		victory_points = {
+			10802 1
+		}
+		set_variable = { china_state_ref = 22 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		1961 1991 4994 8029 10802 10918 12801 16981 17039 19440 19662 19668 19688 19704 19708
+	}
+	manpower = 50050
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

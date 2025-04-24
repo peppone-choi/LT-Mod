@@ -1,0 +1,32 @@
+state = {
+	id = 1277
+	name = "STATE_1277"
+
+	resources = {
+		aluminium = 3
+	}
+
+	history = {
+		owner = CRO
+		victory_points = { 11899 10 }
+		victory_points = { 16178 5 }
+		victory_points = { 11574 3 }
+		buildings = {
+			offices = 1
+			schools = 1
+			infrastructure = 5
+			air_base = 8
+			thermoelectric_plant = 1
+		}
+		add_core_of = CRO
+		set_state_flag = GDP_regions_bosnia
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		11899 6799 11574 16178
+	}
+	manpower = 694335
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+}

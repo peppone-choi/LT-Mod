@@ -1,0 +1,24 @@
+state = {
+	id = 2200
+	name = "STATE_2200"
+
+	history = {
+		owner = TAJ
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4542 1
+		}
+		add_core_of = TAJ
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18653 12250 4542 15975 4467
+	}
+	manpower = 367364
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

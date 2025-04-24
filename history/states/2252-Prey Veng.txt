@@ -1,0 +1,20 @@
+state = {
+	id = 2252
+	name = "STATE_2252"
+
+	history = {
+		owner = CAM
+		add_core_of = CAM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		12260 19119
+	}
+	manpower = 575464
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

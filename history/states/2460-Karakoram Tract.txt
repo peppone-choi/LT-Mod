@@ -1,0 +1,29 @@
+state = {
+	id = 2460
+	name = "STATE_2460"
+
+	history = {
+		owner = IND
+		add_claim_by = AZH
+		add_claim_by = XIN
+		add_core_of = IND
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_jammu_kashmir
+		set_variable = {
+			china_state_ref = 43
+		}
+		set_variable = {
+			china_region_ref = 5
+		}
+	}
+
+	provinces = {
+		10821
+	}
+	manpower = 14205
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

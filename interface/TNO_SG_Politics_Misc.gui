@@ -1,0 +1,145 @@
+# So how does this work
+#
+guiTypes = { 
+	containerWindowType = {
+		name = "TNO_sd_category_tno_assorted_laws_window"
+		position = { x = 547 y = 0 }
+		size = { width = 730 height = 100%% }
+		clipping = yes
+
+		containerWindowType = { # This double container thing is just to ensure that the animation plays correctly and that the windows show up where they should be
+			name = "TNO_sd_category_tno_assorted_laws_window_content"
+			size = { width = 730 height = 100%% }
+			position = { x = -1000 y = 0 }
+			hide_position = { x = -1000 y = 0 }
+			show_position = { x = 0 y = 0 }
+			hide_animation_type = accelerated
+			show_animation_type = decelerated
+			animation_time = 450
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_plain_grey"
+			}
+
+			instantTextboxType = {
+				name = "title"
+				position = { x = 16 y = 9 }
+				font = "Bomb_36"
+				text = "tno_assorted_laws"
+				maxWidth = 450
+				maxHeight = 30
+				format = left
+			}
+
+			containerWindowType = {
+				name = "grid_contrainer"
+				position = { x = 6 y = 50 }
+				size = { width = 730 height = 100%% }
+
+				containerWindowType = {
+					name = "grid"
+					size = { width = 718 height = -4 }
+					verticalScrollbar = "right_vertical_slider_tno_laws_2"
+					margin = { top = 13 bottom = 10 }
+
+					iconType = {
+						name = "assorted_laws_calculator"
+						spriteType = "GFX_tiled_window_transparent_transparent"
+						alwaystransparent = yes
+					}
+
+					gridBoxType = {
+						name = "TNO_Politics_Assorted_Law_Grid"
+						slotsize = { width = 330 height = 94 }
+						position = { x = 189 y = 15 }
+						max_slots_horizontal = 2
+					}
+
+					background = {
+						name = "Background"
+						quadTextureSprite = "GFX_tiled_window_1b_no_border"
+					}
+				}
+			}
+
+			buttonType = {
+				name = "close"
+				position = { x = -39 y = 8 }
+				quadTextureSprite = "GFX_tno_close_button"
+				buttonFont = "Main_14_black"
+				shortcut = "ESCAPE"
+				Orientation = "UPPER_RIGHT"
+				clicksound = click_close
+				pdx_tooltip = "CLOSE"
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_assorted_law_entry"
+
+		iconType = {
+			name = "rectangle"
+			spriteType = "GFX_assorted_laws_rectangle"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "line"
+			spriteType = "GFX_line"
+			Orientation = "UPPER_LEFT"
+			position = { x = 131 y = 35 }
+		}
+
+		instantTextboxType = {
+			name = "name"
+			position = { x = 0 y = 10 }
+			font = "aldrich_22_outline"
+			text = "[?temp_law.GetTokenLocalizedKey]"
+			maxWidth = 320
+			maxHeight = 20
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "status"
+			position = { x = 0 y = 45 }
+			font = "aldrich_24_outline"
+			text = [get_law_category_namespace]
+			maxWidth = 320
+			maxHeight = 20
+			format = center
+			text_color_code = W
+		}
+	}
+	
+	containerWindowType = { name = "TNO_empty_assorted_law_entry" }
+
+	containerWindowType = {
+		name = "TNO_country_specific_assorted_law_entry"
+
+		iconType = {
+			name = "rectangle"
+			spriteType = "GFX_assorted_laws_rectangle"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "law_name"
+			position = { x = 0 y = 0 }
+			font = "aldrich_24_outline"
+			text = "[get_TNO_assorted_law_name]"
+			maxWidth = 320
+			format = center
+			maxHeight = 84
+			vertical_alignment = center
+			text_color_code = W
+			pdx_tooltip = TNO_assorted_law_desc_tt
+		}
+	}
+}

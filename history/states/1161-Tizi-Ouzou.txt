@@ -1,0 +1,26 @@
+state = {
+	id = 1161
+	name = "STATE_1161"
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = { 18085 4 }
+		victory_points = { 11939 1 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18085 11939
+	}
+	manpower = 762459
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

@@ -1,0 +1,204 @@
+characters = {
+	# Country leader #
+	NOV_Alexander_Pokryshkin = {
+		name = NOV_Alexander_Pokryshkin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_Novosibirsk_Alexander_Pokryshkin.dds"
+				small = "GFX_idea_NOV_minister_Alexander_Pokryshkin"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ALEXANDER_POKRYSHKIN_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_oligarchy_subtype
+			traits = { the_siberian_falcon }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = NOV_Alexander_Pokryshkin_hog
+			allowed = { original_tag = NOV }
+			traits = {
+				head_of_government
+				hog_old_air_marshal
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	NOV_Makar_Shukshin = {
+		name = NOV_Makar_Shukshin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Makar_Shukshin.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = NOV_Makar_Shukshin_hog
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+	}
+
+	NOV_Pyotr_Derber = {
+		name = NOV_Pyotr_Derber
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Pyotr_Derber.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = NOV_Pyotr_Derver_for
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+	}
+
+	NOV_Mikhail_Devyataev = {
+		name = NOV_Mikhail_Devyataev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Mikhail_Devyataev.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = NOV_Mikhail_Devyataev_sec
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+	}
+
+	NOV_Nikifor_Nesterovskii = {
+		name = NOV_Nikifor_Nesterovskii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Nikifor_Nesterovskii.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = NOV_Nikifor_Nesterovskii_eco
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+	}
+
+	NOV_Alexander_Chayanov = {
+		name = NOV_Alexander_Chayanov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Alexander_Chayanov.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = NOV_Alexander_Chayanov_sec
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+	}
+
+	NOV_Mikhail_Shatilov = {
+		name = NOV_Mikhail_Shatilov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Mikhail_Shatilov.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = NOV_Mikhail_Shatilov_sec
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+	}
+
+	NOV_Ivan_Pavlunovsky = {
+		name = NOV_Ivan_Pavlunovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Ivan_Pavlunovsky.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = NOV_Ivan_Pavlunovsky_sec
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = NOV_Ivan_Pavlunovsky_eco
+			allowed = { original_tag = NOV }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# NOV Marshals
+	NOV_Yan_Gaylit = {
+		name = NOV_Yan_Gaylit
+		portraits = {
+			army = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Yan_Gaylit.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	NOV_Genrich_Eiche = {
+		name = NOV_Genrich_Eiche
+		portraits = {
+			army = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Genrich_Eiche.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	# NOV Generals
+	NOV_Kasyan_Chaykovsky = {
+		name = NOV_Kasyan_Chaykovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/NOV/Portrait_NOV_Kasyan_Chaykovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

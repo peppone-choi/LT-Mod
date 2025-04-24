@@ -1,0 +1,37 @@
+state = {
+	id = 2441
+	name = "STATE_2441"
+	resources = {
+		steel = 2.000
+		oil = 10.000
+		uranium = 2.000
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			15707 5
+		}
+		victory_points = {
+			4010 5
+		}
+		victory_points = {
+			12069 5
+		}
+		set_state_flag = GDP_regions_shandong_taiyue
+		set_variable = { china_state_ref = 12 }
+		set_variable = { china_region_ref = 1 }
+	}
+
+	provinces = {
+		4010 9987 12069 15707
+	}
+	manpower = 5329333
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

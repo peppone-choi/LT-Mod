@@ -1,0 +1,38 @@
+state = {
+	id = 459
+	name = "STATE_459"
+	resources = {
+		steel = 16
+		power = 4
+		oil = 4
+	}
+
+	history = {
+		owner = SLG
+		add_core_of = FRS
+		add_core_of = ALG
+		add_core_of = SLG
+		victory_points = { 18075 15 }
+		victory_points = { 7132 1 }
+		victory_points = { 4150 7 }
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			air_base = 5
+			radar_station = 1
+			18075 = {
+				naval_base = 5
+			}
+			schools = 1
+			offices = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4150 7132 18075 18071 18025
+	}
+	manpower = 786662
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

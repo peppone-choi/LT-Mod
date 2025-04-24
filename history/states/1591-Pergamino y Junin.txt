@@ -1,0 +1,32 @@
+state = {
+	id = 1591
+	name = "STATE_1591"
+
+	history = {
+		owner = ARG
+		buildings = {
+			barracks = 1
+			infrastructure = 3
+		}
+		add_core_of = ARG
+		victory_points = {
+			12351 4
+		}
+		victory_points = {
+			10390 5
+		}
+		victory_points = {
+			17500 2
+		}
+		set_state_flag = GDP_regions_la_plata
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		10390 12351 17500
+	}
+	manpower = 295315
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

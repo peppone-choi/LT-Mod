@@ -1,0 +1,28 @@
+state = {
+	id = 410
+	name = "STATE_410"
+
+	resources = {
+		oil = 12
+	}
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PER
+		victory_points = {
+			18746 1
+		}
+		set_state_flag = GDP_category_large_city
+	}
+
+	provinces = {
+		13606 18719 18746
+	}
+	manpower = 161219
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

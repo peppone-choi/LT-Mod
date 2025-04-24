@@ -1,0 +1,29 @@
+﻿GENERIC_ANTARCTICA_OPERATIVE_CODENAME = {
+	name = GENERIC_ANTARCTICA_OPERATIVE_CODENAME
+	
+	for_countries = { AAA AAB AAC AAG AAJ AAO }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+
+	unique = {
+		"Wolf"
+		"Sparrow"
+		"Hawk"
+		"Eagle"
+		"Snake"
+		"Bear"
+		"Tiger"
+		"Condor"
+		"Magpie"
+		"Turtle"
+		"Shark"
+		"Mouse"
+		"Hornet"
+		"Dragon"
+		"Butterfly"
+		"Stallion"
+		"Tomcat"
+	}
+}

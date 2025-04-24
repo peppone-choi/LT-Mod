@@ -1,0 +1,27 @@
+state = {
+	id = 108
+	name = "STATE_108"
+	resources = {
+		steel = 1.000
+	}
+
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 5
+			offices = 1
+		}
+		victory_points = { 6998 8 }
+		victory_points = { 18184 3 }
+		victory_points = { 15648 1 }
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		11887 6998 15648 18185 18184
+	}
+	manpower = 723363
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

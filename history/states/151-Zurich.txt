@@ -1,0 +1,45 @@
+state = { #Population Done
+	id = 151
+	name = "STATE_151"
+	manpower = 1838279
+
+
+	state_category = large_town
+
+	history = {
+		owner = SWI
+		buildings = {
+			infrastructure = 5
+			barracks = 1
+			schools = 1
+			anti_air_building = 2
+			air_base = 4
+			thermoelectric_plant = 2
+			18145 = {
+				bunker = 6
+			}
+			663 = {
+				bunker = 6
+			}
+			11623 = {
+				bunker = 6
+			}
+			661 = {
+				bunker = 6
+			}
+			18125 = {
+				bunker = 4
+			}
+		}
+		victory_points = { 18125 20 }
+		victory_points = { 663 8 }
+		victory_points = { 11623 6 }
+		victory_points = { 18145 1 }
+		add_core_of = SWI
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18145 18125 663 661 11623 18148
+	}
+}

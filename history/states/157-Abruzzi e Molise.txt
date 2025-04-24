@@ -1,0 +1,42 @@
+state = {
+	id = 157
+	name = "STATE_157"
+
+	history = {
+		owner = ITA
+		victory_points = {
+			3910 5
+		}
+		victory_points = {
+			6831 8
+		}
+		victory_points = {
+			14658 3
+		}
+		victory_points = {
+			9838 4
+		}
+		victory_points = {
+			3966 2
+		}
+		victory_points = {
+			14657 3
+		}
+		buildings = {
+			infrastructure = 5
+			schools = 1
+			6831 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ITA
+	}
+
+	provinces = {
+		963 3910 3966 6831 9838 14657 14658
+	}
+	manpower = 1564176
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

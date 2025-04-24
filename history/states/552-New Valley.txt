@@ -1,0 +1,21 @@
+state = {
+	id = 552
+	name = "STATE_552"
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 1
+			radar_station = 1
+		}
+	}
+
+	provinces = {
+		2064 7216 10097 10869 10907 12099 12733 12771 12816 14323 14324 14325 14340 14341 14348 14362 14366 14389 15782 15783 15786 15787 15788 15802 17963 17967 17971 17973 17975
+	}
+	manpower = 37705
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

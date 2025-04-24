@@ -1,0 +1,316 @@
+CHI_is_not_in_crisis = {
+	custom_trigger_tooltip = {
+		tooltip = CHI_not_in_crisis_tooltip
+		NOT = {
+			has_country_flag = CHI_Western_Insurrection_Warmup
+			has_global_flag = CHI_Western_Insurrection_Crisis
+			has_global_flag = CHI_Yunnan_War
+			has_country_flag = CHI_Nanjing_Crisis
+			has_country_flag = CHI_Oil_Crisis
+			has_country_flag = ECON_ONGOING_FISCAL_CRISIS
+		}
+	}
+}
+
+YUN_WI_map_enable_action_GUI = {
+	if = {
+		limit = { check_variable = { china_states_action_id = 0 } }
+		custom_trigger_tooltip = {
+			tooltip = YUN_WI_action_1_tooltip
+			any_of_scopes = {
+				array = global.greater_china_states
+				check_variable = { china_state_ref = ROOT.selected_province }
+				NOT = { has_state_flag = WI_recruit_cooldown }
+			}
+		}
+		set_temp_variable = { tempCP = greater_china_provinces_pop_controlled^selected_province }
+		multiply_temp_variable = { tempCP = 0.5 }
+		add_to_temp_variable = { tempCP = 1 }
+		round_temp_variable = tempCP
+		ROOT = { command_power > tempCP }
+	}
+
+	else_if = {
+		limit = { check_variable = { china_states_action_id = 1 } }
+		custom_trigger_tooltip = {
+			tooltip = YUN_WI_action_2_tooltip
+			any_of_scopes = {
+				array = global.greater_china_states
+				check_variable = { china_state_ref = ROOT.selected_province }
+				NOT = { has_state_flag = WI_confiscate_cooldown }
+			}
+		}
+		set_temp_variable = { tempCP = greater_china_provinces_pop_controlled^selected_province }
+		multiply_temp_variable = { tempCP = 0.5 }
+		add_to_temp_variable = { tempCP = 1 }
+		round_temp_variable = tempCP
+		ROOT = { command_power > tempCP }
+	}
+
+	else_if = {
+		limit = { check_variable = { china_states_action_id = 2 } }
+		custom_trigger_tooltip = {
+			tooltip = YUN_WI_action_3_tooltip
+			any_of_scopes = {
+				array = global.greater_china_states
+				check_variable = { china_state_ref = ROOT.selected_province }
+				NOT = { has_state_flag = WI_mil_build_cooldown }
+			}
+		}
+		set_temp_variable = { tempPP = greater_china_provinces_GDP_controlled^selected_province }
+		multiply_temp_variable = { tempPP = 10 }
+		add_to_temp_variable = { tempPP = 1 }
+		round_temp_variable = tempPP
+		ROOT = { has_political_power > tempPP }
+	}
+
+	else_if = {
+		limit = { check_variable = { china_states_action_id = 3 } }
+		custom_trigger_tooltip = {
+			tooltip = YUN_WI_action_4_tooltip
+			any_of_scopes = {
+				array = global.greater_china_states
+				check_variable = { china_state_ref = ROOT.selected_province }
+				NOT = { has_state_flag = WI_power_build_cooldown }
+			}
+		}
+		set_temp_variable = { tempPP = greater_china_provinces_GDP_controlled^selected_province }
+		multiply_temp_variable = { tempPP = 5 }
+		add_to_temp_variable = { tempPP = 1 }
+		round_temp_variable = tempPP
+		ROOT = { has_political_power > tempPP }
+	}
+
+	else_if = {
+		limit = { check_variable = { china_states_action_id = 4 } }
+		custom_trigger_tooltip = {
+			tooltip = YUN_WI_action_5_tooltip
+			any_of_scopes = {
+				array = global.greater_china_states
+				check_variable = { china_state_ref = ROOT.selected_province }
+				NOT = { has_state_flag = WI_propaganda_cooldown }
+			}
+		}
+	}
+}
+
+Sichuan_help_ai = {
+	has_equipment = { infantry_equipment > var:WI_Sichuan_invest_weapon }
+}
+
+#CHI_can_increase_infiltration_in_state = {
+#	custom_trigger_tooltip = {
+#		tooltip = CHI_can_be_infiltrated
+#		OR = {
+#			NOT = { has_state_flag = CHI_infiltration_@ROOT }
+#			has_state_flag = {
+#				flag = CHI_infiltration_@ROOT
+#				value < 4
+#			}
+#		}
+#	}
+#}
+#
+#CHI_uprising_is_available = {
+#	custom_trigger_tooltip = {
+#		tooltip = CHI_uprising_is_available
+#		any_state = {
+#			CONTROLLER = {
+#				OR = {
+#					tag = JAP
+#					is_in_faction_with = JAP
+#				}
+#			}
+#			CHI_is_infiltrated_by_PREV = yes
+#		}
+#	}
+#}
+#
+#CHI_is_infiltrated_by_PREV = {
+#	has_state_flag = {
+#		flag = CHI_infiltration_@PREV
+#		value > 0
+#	}
+#}
+#
+#CHI_is_not_infiltrating_a_state = {
+#	custom_trigger_tooltip = {
+#		tooltip = CHI_is_not_infiltrating_a_state
+#		NOT = {
+#			#Anti Japan
+#			has_decision = CHI_infiltrate_shanghai
+#			#add more
+#		}
+#	}
+#}
+
+#Trigger checks for a flag on the state, dynamically appending the country tag of one of china countries
+#has_any_CHI_infiltration_flag = {
+#	any_country = {
+#		PREV = {
+#			has_state_flag = CHI_infiltration_@PREV
+#		}
+#	}
+#}
+#
+#ROOT_any_anti_JAP_state_infiltration_detected = {
+#	any_state = {
+#		OR = {
+#			is_controlled_by = ROOT
+#			any_of = {
+#				array = subjects
+#				is_controlled_by = var:v
+#			}
+#		}
+#		has_state_flag = {
+#			flag = discovered_infiltration
+#			value > 0
+#		}
+#	}
+#}
+#
+##State scope
+#CHI_infiltration_uprising_PREV_will_spawn_troops_in_state = {
+#	has_state_flag = {
+#		flag = CHI_infiltration_@PREV
+#		value > 2
+#	}
+#}
+#
+##State scope
+#CHI_infiltration_uprising_PREV_will_sabotage_state = {
+#	OR = {
+#		has_state_flag = {
+#			flag = CHI_infiltration_@PREV
+#			value = 1
+#		}
+#		has_state_flag = {
+#			flag = CHI_infiltration_@PREV
+#			value = 2
+#		}
+#	}
+#}
+#
+##Country scope
+#CHI_ROOT_war_with_controller_of_anti_japan_infiltrated_state = {
+#	OR = {
+#		813 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		728 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		591 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		524 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		813 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		812 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		1094 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		811 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#	OR = {
+#		810 = { CHI_is_infiltrated_by_PREV = yes CONTROLLER = { has_war_with = ROOT } }
+#	}
+#}
+#
+##Country scope
+#CHI_all_anti_japan_infiltration_discovered = {
+#	813 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#	728 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#	591 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#	524 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#	812 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#	1094 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#	811 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#	810 = {
+#		has_state_flag = discovered_infiltration
+#		CHI_is_infiltrated_by_PREV = yes
+#	}
+#
+#}
+
+
+target_trigger_warlord_decisions = {
+	FROM = {
+		OR = {
+			original_tag = SHX
+			original_tag = GAN
+			original_tag = XIN
+			original_tag = ETR
+			original_tag = QIN
+			original_tag = SIC
+			original_tag = XIK
+			original_tag = GUZ
+			original_tag = GUX
+			original_tag = GNG
+			original_tag = MEN
+			original_tag = YUN
+		}
+	}
+}
+
+
+## Secret Army
+
+CHI_has_set_recruitment_level = {
+	custom_trigger_tooltip = {
+		tooltip = CHI_has_set_recruitment_level_tt
+		check_variable = {
+			var = CHI_sa_recruitment
+			value = tempReqRecruitment
+			compare = greater_than_or_equals
+		}
+	}
+}
+
+CHI_has_set_training_level = {
+	custom_trigger_tooltip = {
+		tooltip = CHI_has_set_training_level_tt
+		check_variable = {
+			var = CHI_sa_training
+			value = tempReqTraining
+			compare = greater_than_or_equals
+		}
+	}
+}
+
+CHI_has_set_weaponry_level = {
+	custom_trigger_tooltip = {
+		tooltip = CHI_has_set_weaponry_level_tt
+		check_variable = {
+			var = CHI_sa_weaponry
+			value = tempReqWeaponry
+			compare = greater_than_or_equals
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 2324
+	name = "STATE_2324"
+	resources = {
+		oil = 6.000
+		chromium = 3.000
+	}
+
+	history = {
+		owner = PHI
+		buildings = {
+			infrastructure = 3
+			4429 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 4429 3 }
+		add_core_of = PHI
+		add_core_of = SPH
+		add_core_of = UPH
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		7419 14718 4429 10145
+	}
+	manpower = 209054
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 2388
+	name = "STATE_2388"
+
+	history = {
+		owner = GUZ
+		add_core_of = GUZ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10006 3
+		}
+		victory_points = {
+			19549 2
+		}
+		set_variable = { china_state_ref = 18 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		19549 4896 10006
+	}
+	manpower = 1980255
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

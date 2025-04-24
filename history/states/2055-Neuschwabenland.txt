@@ -1,0 +1,20 @@
+state = {
+	id = 2055
+	name = "STATE_2055" # Queen Maud Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
+
+	history = {
+		owner = AAN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17626 17691 17721 16441 17674 17703 17651 17647 17697 17573 17694 17650 16388 17586 17740 17736 17564
+	}
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 436
+	name = "STATE_436"
+
+	history = {
+		owner = IND
+		buildings = {
+			infrastructure = 5
+			schools = 1
+		}
+		add_claim_by = AZH
+		add_core_of = IND
+		victory_points = {
+			10030 25
+		}
+		victory_points = {
+			4557 4
+		}
+		victory_points = {
+			7619 8
+		}
+		victory_points = {
+			16087 8
+		}
+		victory_points = {
+			18975 5
+		}
+		set_state_flag = GDP_regions_maharashtra
+	}
+
+	provinces = {
+		4557 7619 10030 10171 18975
+	}
+	manpower = 3787533
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 898
+	name = "STATE_898"
+
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		victory_points = {
+			9296 5
+		}
+		buildings = {
+			hospitals = 1
+			barracks = 1
+			infrastructure = 4
+			radar_station = 2
+			9296 = {
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			11367 = {
+				coastal_bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+		3049 9296 11367 18375
+	}
+	manpower = 109083
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

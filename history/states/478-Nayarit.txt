@@ -1,0 +1,32 @@
+state = {
+	id = 478
+	name = "STATE_478"
+	resources = {
+		tungsten = 6.000
+	}
+
+	history = {
+		owner = MEX
+		buildings = {
+			barracks = 2
+			prisons = 1
+			infrastructure = 2
+			radar_station = 1
+		}
+		add_core_of = MEX
+		victory_points = {
+			12873 5
+		}
+		victory_points = {
+			17327 1
+		}
+	}
+
+	provinces = {
+		12873 17313 17327
+	}
+	manpower = 462226
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

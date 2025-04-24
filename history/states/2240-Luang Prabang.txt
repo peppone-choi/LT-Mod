@@ -1,0 +1,26 @@
+state = {
+	id = 2240
+	name = "STATE_2240"
+
+	resources = {
+		rubber = 4
+	}
+
+	history = {
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		victory_points = { 10496 1 }
+	}
+
+	provinces = {
+		10496 7103 19037 4613 7075
+	}
+	manpower = 274907
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

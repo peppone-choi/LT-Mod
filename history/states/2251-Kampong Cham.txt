@@ -1,0 +1,28 @@
+state = {
+	id = 2251
+	name = "STATE_2251"
+
+	resources = {
+		rubber = 12
+	}
+
+	history = {
+		add_core_of = CAM
+		owner = CAM
+		buildings = {
+			infrastructure = 2
+			offices = 1
+		}
+		victory_points = {
+			19145 1
+		}
+	}
+
+	provinces = {
+		19145 4330
+	}
+	manpower = 609418
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

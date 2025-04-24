@@ -1,0 +1,29 @@
+state = {
+	id = 1649
+	name = "STATE_1649"
+	resources = {
+		oil = 14.000
+		steel = 1.000
+	}
+
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_claim_by = STC
+		add_claim_by = BOL
+		victory_points = {
+			15355 1
+		}
+	}
+
+	provinces = {
+		5230 12916 13174 15355
+	}
+	manpower = 41750
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

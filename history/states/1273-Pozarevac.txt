@@ -1,0 +1,27 @@
+state = {
+	id = 1273
+	name = "STATE_1273"
+
+	resources = {
+		steel = 2
+		uranium = 2
+	}
+
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 6634 2 }
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		6634 14666 9602
+	}
+	manpower = 263780
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

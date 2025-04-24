@@ -1,0 +1,38 @@
+state = {
+	id = 288
+	name = "STATE_288"
+	resources = {
+		rubber = 4.000
+		tungsten = 4.000
+	}
+
+	history = {
+		owner = BUR
+		add_core_of = BUR
+		victory_points = {
+			1330 30
+		}
+		victory_points = {
+			19118 1
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			radar_station = 1
+			air_base = 1
+			synthetic_refinery = 1
+			offices = 1
+			19118 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+		1330 10154 10267 12197 19118
+	}
+	manpower = 2628725
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

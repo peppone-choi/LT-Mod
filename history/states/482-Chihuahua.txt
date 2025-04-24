@@ -1,0 +1,38 @@
+state = {
+	id = 482
+	name = "STATE_482"
+	resources = {
+		steel = 4.000
+	}
+
+	history = {
+		owner = MEX
+		buildings = {
+			thermoelectric_plant = 1
+			barracks = 1
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = MEX
+		victory_points = {
+			8097 15
+		}
+		victory_points = {
+			10830 10
+		}
+		victory_points = {
+			10916 4
+		}
+		victory_points = {
+			12850 3
+		}
+	}
+
+	provinces = {
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 17326
+	}
+	manpower = 1454253
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,148 @@
+Antarctica_Situation_Overview = {
+	icon = GFX_decision_category_ODF_antarctica
+	
+	allowed = {
+		is_Antarctic_nation = yes
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+	priority = 20000
+	scripted_gui = Antarctica_Situation_Overview
+}
+
+Antarctica_GUI_AAO = {
+	icon = GFX_decision_category_ODF_antarctica_oaa
+	picture = GFX_decision_image_AAO_GUI
+	
+	allowed = {
+		tag = AAO
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+	priority = 10000
+	scripted_gui = Antarctica_GUI_AAO
+}
+
+Antarctica_GUI_AAO_CIA = {
+	icon = GFX_decision_category_ODF_antarctica_oaa
+	picture = GFX_decision_image_AAO_CIA_GUI
+	
+	allowed = {
+		tag = AAO
+	}
+	visible = {
+		has_country_flag = Antarctica_GUI_AAO_CIA_Enabled
+	}
+	visible_when_empty = yes
+	priority = 9000
+	scripted_gui = Antarctica_GUI_AAO_CIA
+}
+
+Antarctica_GUI_AAO_Invasion = {
+	icon = GFX_decision_category_ODF_antarctica_oaa
+	picture = GFX_decision_image_AAO_Invasion_GUI
+	
+	allowed = {
+		tag = AAO
+	}
+	visible = {
+		has_country_flag = Antarctica_GUI_AAO_Invasion_Enabled
+	}
+	visible_when_empty = yes
+	priority = 21000
+	scripted_gui = Antarctica_GUI_AAO_Invasion
+}
+
+Antarctica_GUI_AAC = {
+	icon = GFX_decision_category_ODF_antarctica
+	picture = GFX_decision_image_AAC_GUI
+	
+	allowed = {
+		tag = AAC
+	}
+	visible = {
+		always = no
+	}
+	visible_when_empty = yes
+	priority = 10000
+	scripted_gui = Antarctica_GUI_AAC
+}
+
+Antarctica_GUI_AAG = {
+	icon = GFX_decision_category_ODF_antarctica_ns
+	picture = GFX_decision_image_AAG_GUI
+	
+	allowed = {
+		tag = AAG
+	}
+	visible = {
+		has_country_flag = Antarctica_GUI_AAG_Testing_Enabled
+	}
+	visible_when_empty = yes
+	priority = 10000
+	scripted_gui = Antarctica_GUI_AAG
+}
+
+Antarctica_GUI_AAG_Survival = {
+	icon = GFX_decision_category_ODF_antarctica_ns
+	picture = GFX_decision_image_AAG_Survival_GUI
+	
+	allowed = {
+		tag = AAG
+	}
+	visible = {
+		has_country_flag = Antarctica_GUI_AAG_Survival_Mech_Enabled
+	}
+	visible_when_empty = yes
+	priority = 9999
+	scripted_gui = Antarctica_GUI_AAG_Survival
+}
+
+Antarctica_GUI_AAG_Nuclear = {
+	icon = GFX_decision_category_ODF_antarctica_ns
+	picture = GFX_decision_image_AAG_Nuclear_GUI
+	
+	allowed = {
+		tag = AAG
+	}
+	visible = {
+		has_country_flag = Antarctica_GUI_AAG_Nuclear_Mechanic_Enabled
+	}
+	visible_when_empty = yes
+	priority = 10002
+	scripted_gui = Antarctica_GUI_AAG_Nuclear
+}
+
+Antarctica_GUI_AAJ = {
+	icon = GFX_decision_category_ODF_antarctica
+	picture = GFX_decision_image_AAJ_GUI
+	
+	allowed = {
+		tag = AAJ
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+	priority = 10000
+	scripted_gui = Antarctica_GUI_AAJ
+}
+
+Antarctica_GUI_AAA = {
+	icon = GFX_decision_category_ODF_antarctica
+	picture = GFX_decision_image_AAA_GUI
+	
+	allowed = {
+		tag = AAA
+	}
+	visible = {
+		has_country_flag = Antarctica_GUI_AAA_Op90_Prep_Enabled
+	}
+	visible_when_empty = yes
+	priority = 10000
+	scripted_gui = Antarctica_GUI_AAA
+}

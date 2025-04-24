@@ -1,0 +1,41 @@
+state = {
+	id = 438
+	name = "STATE_438"
+	resources = {
+		rubber = 2.000
+		chromium = 6.000
+	}
+
+	history = {
+		owner = IND
+		victory_points = {
+			4315 15
+		}
+		victory_points = {
+			7244 15
+		}
+		victory_points = {
+			12146 5
+		}
+		victory_points = {
+			5032 6
+		}
+		victory_points = {
+			1412 4
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_karnataka
+	}
+
+	provinces = {
+		1412 4315 4344 7244 12146 18874
+	}
+	manpower = 4955277
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

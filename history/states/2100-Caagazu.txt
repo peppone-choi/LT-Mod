@@ -1,0 +1,25 @@
+state = {
+	id = 2100
+	name = "STATE_2100"
+	manpower = 229041
+
+	state_category = rural
+
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		victory_points = { 12901 5 }
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			barracks = 1
+			schools = 1
+			offices = 1
+		}
+	}
+
+	provinces = {
+		15264 12901
+	}
+
+}

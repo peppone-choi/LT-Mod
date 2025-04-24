@@ -1,0 +1,25 @@
+state = {
+	id = 193
+	name = "STATE_193"
+
+	history = {
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = { 15650 1 }
+		victory_points = { 18168 2 }
+		victory_points = { 18152 1 }
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		15653 18152 15650 18168 15649
+	}
+	manpower = 506096
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

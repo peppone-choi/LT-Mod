@@ -1,0 +1,31 @@
+state = {
+	id = 1466
+	name = "STATE_1466"
+	resources = {
+		uranium = 1
+		power = 1
+	}
+
+	history = {
+		owner = KYR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			18674 8
+		}
+		victory_points = {
+			18621 2
+		}
+		add_core_of = TAJ
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13255 18621 18674 18696
+	}
+	manpower = 310546
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,48 @@
+state = {
+	id = 376
+	name = "STATE_376"
+	resources = {
+		oil = 14.000
+		aluminium = 52.000
+	}
+
+	history = {
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			nuclear_reactor = 2
+			radar_station = 3
+			air_base = 5
+		}
+		add_core_of = USA
+		victory_points = { # Albuquerque
+			4975 15
+		}
+		victory_points = { # Santa Fe
+			12684 5
+		}
+		victory_points = { # Las Crusces
+			12791 3
+		}
+		victory_points = { # Roswell
+			8070 1
+		}
+		victory_points = { # Carlsbad
+			3867 1
+		}
+		victory_points = { # Tucumcari
+			10867 1
+		}
+		victory_points = { # Farmington
+			10645 1
+		}
+	}
+
+	provinces = {
+		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 17300
+	}
+	manpower = 974653
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

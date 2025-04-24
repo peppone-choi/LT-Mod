@@ -1,0 +1,28 @@
+state = {
+	id = 583
+	name = "STATE_583"
+
+	history = {
+		owner = KAZ
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			schools = 1
+		}
+		victory_points = { 10284 8 }
+		victory_points = { 7429 4 }
+		victory_points = { 7233 1 }
+		victory_points = { 12257 1 }
+		victory_points = { 1363 1 }
+		victory_points = { 12229 1 }
+		add_core_of = KAZ
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1272 1303 1331 1363 4337 4340 4369 7233 7357 7383 7429 10140 10168 10284 10295 10312 12115 12139 12143 12170 12185 12229 12257 12266 13302
+	}
+	manpower = 658912
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

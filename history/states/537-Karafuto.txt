@@ -1,0 +1,46 @@
+state = {
+	id = 537
+	name = "STATE_537"
+	resources = {
+		oil = 11.000
+	}
+
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+			air_base = 2
+			12446 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12446 10
+		}
+		victory_points = {
+			855 3
+		}
+		victory_points = {
+			1820 2
+		}
+		victory_points = {
+			1755 2
+		}
+		victory_points = {
+			1322 1
+		}
+		set_state_flag = universal_renamings
+		set_variable = { china_state_ref = 53 }
+		set_variable = { china_region_ref = 6 }
+	}
+
+	provinces = {
+		855 1322 1742 1755 1820 12446 19475 19580
+	}
+	manpower = 506051
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

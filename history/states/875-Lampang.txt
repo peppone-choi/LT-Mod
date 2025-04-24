@@ -1,0 +1,32 @@
+state = {
+	id = 875
+	name = "STATE_875"
+	resources = {
+		steel = 6
+	}
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		buildings = {
+			thermoelectric_plant = 1
+			barracks = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			19159 1
+		}
+		victory_points = {
+			1990 1
+		}
+		set_state_flag = GDP_regions_north_thailand
+	}
+
+	provinces = {
+		1990 4496 7531 8045 19050 19066 19069 19079 19159 19160
+	}
+	manpower = 1826754
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 990
+	name = "STATE_990"
+
+	history = {
+		owner = DEN
+		victory_points = {
+			399 6
+		}
+		victory_points = {
+			3206 2
+		}
+		buildings = {
+			infrastructure = 5
+			prisons = 1
+			barracks = 1
+		}
+		add_core_of = DEN
+	}
+
+	provinces = {
+		3206 399
+	}
+	manpower = 426644
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

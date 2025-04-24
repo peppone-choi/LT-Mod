@@ -1,0 +1,28 @@
+state = {
+	id = 1567
+	name = "STATE_1567"
+
+	history = {
+		owner = TUR
+		victory_points = {
+			6997 3
+		}
+		victory_points = {
+			16226 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AZR
+		add_core_of = TUR
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		6997 16226 18472
+	}
+	manpower = 121250
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

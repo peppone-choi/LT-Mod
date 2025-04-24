@@ -1,0 +1,36 @@
+state = {
+	id = 1416
+	name = "STATE_1416"
+
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			14510 10
+		}
+		victory_points = {
+			14509 5
+		}
+		victory_points = {
+			17019 8
+		}
+		victory_points = {
+			16925 3
+		}
+		victory_points = {
+			5876 2
+		}
+	}
+
+	provinces = {
+		2008 5876 14509 14510 14517 16925 17019
+	}
+	manpower = 2057267
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

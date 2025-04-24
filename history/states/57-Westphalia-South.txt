@@ -1,0 +1,44 @@
+state = {
+	id = 57
+	name = "STATE_57"
+	resources = {
+		steel = 34.000
+	}
+
+	history = {
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			495 20
+		}
+		victory_points = {
+			6535 7
+		}
+		victory_points = {
+			9547 4
+		}
+		victory_points = {
+			3398 5
+		}
+		victory_points = {
+			9443 5
+		}
+		buildings = {
+			hospitals = 2
+			barracks = 1
+			offices = 1
+			infrastructure = 7
+			air_base = 4
+			thermoelectric_plant = 1
+		}
+		set_state_flag = GDP_category_large_city
+	}
+
+	provinces = {
+		495 3398 6535 9443 9547 18139
+	}
+	manpower = 3597920
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

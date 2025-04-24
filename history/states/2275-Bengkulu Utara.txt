@@ -1,0 +1,22 @@
+state = {
+	id = 2275
+	name = "STATE_2275"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 7440 1 }
+		set_state_flag = GDP_regions_sumatra
+	}
+
+	provinces = {
+		1648 7440 19324
+	}
+	manpower = 111655
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

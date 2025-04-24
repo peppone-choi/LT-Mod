@@ -1,0 +1,27 @@
+state = {
+	id = 2302
+	name = "STATE_2302"
+
+	resources = {
+		rubber = 8
+		oil = 4
+	}
+
+	history = {
+		owner = NRB
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 4282 1 }
+		add_core_of = NRB
+		set_state_flag = GDP_regions_sabah
+	}
+
+	provinces = {
+		4282 19275
+	}
+	manpower = 35366
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 2064
+	name = "STATE_2064" # Laurie Island
+	manpower = 20
+
+	state_category = wasteland
+
+	history = {
+		owner = AAA
+		add_core_of = AAA
+		victory_points = { 17594 1 }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17594
+	}
+}

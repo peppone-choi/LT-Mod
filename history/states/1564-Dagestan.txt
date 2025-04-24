@@ -1,0 +1,39 @@
+state = {
+	id = 1564
+	name = "STATE_1564"
+	resources = {
+		oil = 4.000
+	}
+
+	history = {
+		owner = CAU
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7624 5
+		}
+		victory_points = {
+			3682 3
+		}
+		victory_points = {
+			15132 3
+		}
+		victory_points = {
+			3668 10
+		}
+		victory_points = {
+			4463 2
+		}
+		add_core_of = CAU
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1450 1455 3668 3682 3711 4463 6701 7554 7624 9645 15131 15132 15136 15692 18298
+	}
+	manpower = 977774
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

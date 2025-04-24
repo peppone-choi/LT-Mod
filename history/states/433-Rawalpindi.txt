@@ -1,0 +1,31 @@
+state = {
+	id = 433
+	name = "STATE_433"
+
+	history = {
+		victory_points = {
+			8022 20
+		}
+		victory_points = {
+			18989 4
+		}
+		victory_points = {
+			10173 1
+		}
+		owner = IND
+		add_claim_by = AZH
+		add_core_of = IND
+		buildings = {
+			infrastructure = 4
+		}
+		set_state_flag = GDP_regions_punjab
+	}
+
+	provinces = {
+		8022 10173 16031 18989 18993
+	}
+	manpower = 2698026
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

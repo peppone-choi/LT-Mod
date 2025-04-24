@@ -1,0 +1,29 @@
+state = {
+	id = 1895
+	name = "STATE_1895"
+	resources = {
+		power = 2.000
+	}
+
+	history = {
+		owner = PAK
+		victory_points = {
+			15998 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PAK
+		add_claim_by = AZH
+		add_claim_by = IND
+		add_claim_by = AFG
+	}
+
+	provinces = {
+		15998 16000 16001 18868
+	}
+	manpower = 1214431
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 1332
+	name = "STATE_1332"
+
+	resources = {
+		oil = 12
+	}
+
+	history = {
+		owner = JAP
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_new_guinea
+	}
+
+	provinces = {
+		1389 10423 11004 11018 12240 12400 12428 19194
+	}
+	manpower = 318571
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

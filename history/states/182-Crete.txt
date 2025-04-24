@@ -1,0 +1,28 @@
+state = { #Population Done
+	id = 182
+	name = "STATE_182"
+	manpower = 673800
+
+	state_category = town
+	history = {
+		owner = GRE
+		victory_points = { 9940 6 }
+		victory_points = { 12058 4 }
+		victory_points = { 1164 1 }
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			radar_station = 1
+			12058 = {
+				naval_base = 1
+			}
+			9940 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = GRE
+	}
+	provinces = {
+		1164 4170 9940 12058
+	}
+}

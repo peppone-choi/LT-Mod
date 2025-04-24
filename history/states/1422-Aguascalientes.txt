@@ -1,0 +1,21 @@
+state = {
+	id = 1422
+	name = "STATE_1422"
+
+	manpower = 288485
+	state_category = pastoral
+
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		victory_points = { 10172 10 }
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		10172
+	}
+}

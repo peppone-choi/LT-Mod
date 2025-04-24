@@ -1,0 +1,27 @@
+state = {
+	id = 2123
+	name = "STATE_2123"
+
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 7005 6 }
+		victory_points = { 18054 1 }
+		victory_points = { 12000 1 }
+		victory_points = { 11957 1 }
+	}
+
+	provinces = {
+		7005 18054 11957 1105 12000 10082 3987 9983 4992 18040
+	}
+	manpower = 469280
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

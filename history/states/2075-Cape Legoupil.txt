@@ -1,0 +1,23 @@
+state = {
+	id = 2075
+	name = "STATE_2075" # Cape Legoupil
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAC
+		add_core_of = AAC
+		victory_points = { 17667 1 }
+		buildings = {
+			infrastructure = 1
+			17667 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		17667
+	}
+}

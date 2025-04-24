@@ -1,0 +1,42 @@
+state = {
+	id = 1323
+	name = "STATE_1323"
+	manpower = 1926098
+
+	state_category = large_city
+
+	resources = {
+		steel = 9
+		aluminium = 3
+	}
+
+	history = {
+		owner = ITA
+		victory_points = { 14640 25 }
+		victory_points = { 15619 10 }
+		victory_points = { 13585 5 }
+		victory_points = { 13587 2 }
+		victory_points = { 13586 1 }
+		victory_points = { 14637 7 }
+		buildings = {
+			barracks = 1
+			infrastructure = 5
+			dockyard = 3
+			13587 = {
+				naval_base = 8
+			}
+			15619 = {
+				naval_base = 10
+			}
+			schools = 2
+			air_base = 3
+			anti_air_building = 2
+		}
+		add_core_of = ITA
+		set_state_flag = GDP_regions_liguria
+	}
+
+	provinces = {
+		13585 13586 13587 14637 14640 15619
+	}
+}

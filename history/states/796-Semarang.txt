@@ -1,0 +1,34 @@
+state = {
+	id = 796
+	name = "STATE_796"
+	resources = {
+		oil = 8
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			12277 20
+		}
+		buildings = {
+			barracks = 1
+			infrastructure = 5
+			thermoelectric_plant = 1
+			hospitals = 1
+			dockyard = 1
+			12277 = {
+				naval_base = 3
+			}
+		}
+		set_state_flag = GDP_regions_central_java
+	}
+
+	provinces = {
+		12277 19227 19249 19313
+	}
+	manpower = 2862674
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 831
+	name = "STATE_831"
+
+	history = {
+		owner = HAU
+		add_core_of = HAU
+		victory_points = {
+			7950 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7950 14170 14184
+	}
+	manpower = 321000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

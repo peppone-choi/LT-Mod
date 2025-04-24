@@ -1,0 +1,97 @@
+ideas = {
+	#################################################
+	#                 Normal Ideas                  #
+	#################################################
+	# hidden_ideas = {
+	# 	TNO_Espionage_AgentRecruitment_timeout = {
+	# 		allowed = { always = no }
+	# 		removal_cost = -1
+	# 		# on_remove = { country_event = TNO_Espionage.3 }
+	# 	}
+	# }
+
+	#################################################
+	#                  Dummy Ideas                  #
+	#################################################
+
+	#|=====[ AGENCIES ]=====|#
+	hidden_ideas = {
+		Espionage_CIA = {}  # CIA (Central Intelligence Agency)
+		Espionage_FBI = {}  # FBI (Federal Bureau of Investigation)
+		Espionage_RSHA = {} # RSHA (Reichssicherheitshauptamt)
+		Espionage_RND = {}  # RND (Reichsnachrichtendienst)
+		Espionage_HVA = {}  # HVA (Hauptverwaltung Aufklärung)
+	}
+
+	#|=====[ LEADERS ]=====|#
+	hidden_ideas = {
+		# GER
+		Espionage_Gehlen = {}
+		Espionage_Wessel = {}
+		Espionage_Kaltenbrunner = {}
+
+		Espionage_Muller = {}
+		Espionage_Gehlen_BOR = {}
+
+		# USA
+		Espionage_Hoover = {}
+		Espionage_FBI_Vacant = {}
+		Espionage_Dulles = {}
+		Espionage_Helms = {}
+		Espionage_Bunker = {}
+		Espionage_Brown = {}
+		Espionage_Taylor = {}
+		Espionage_Cooper = {}
+		Espionage_Bissell = {}
+		Espionage_Jackson = {}
+		Espionage_Schlesinger = {}
+		Espionage_Knoche = {}
+		Espionage_Bush = {}
+		Espionage_Tower = {}
+		Espionage_Copeland = {}
+		Espionage_Lovestone = {}
+		Espionage_Vacant = {}
+	}
+
+	#|=====[ TECHNOLOGIES ]=====|#
+	hidden_ideas = {
+		# GER
+		Espionage_GER_Tech_0 = {} # Modernized Fm/EloAufkl
+		Espionage_GER_Tech_1 = {} # Sonderblindfunkdienst
+		Espionage_GER_Tech_2 = {} # ENTDECKER Recon Satellites
+		Espionage_GER_Tech_3 = {} # 31211-5 Bugs
+		Espionage_GER_Tech_4 = {} # M-190 Cipher Machine
+		Espionage_GER_Tech_5 = {} # Nahkampf Training
+		Espionage_GER_Tech_6 = {} # UFT-421 Personal Radio
+		Espionage_GER_Tech_7 = {} # RS 50 Modified Camera
+		Espionage_GER_Tech_8 = {} # Flecktarn B Camouflage
+		Espionage_GER_Tech_9 = {} # "Truth Serum"
+
+		# USA
+		Espionage_USA_Tech_0 = {} # Pigeon Camera
+		Espionage_USA_Tech_1 = {} # Belly Buster
+		Espionage_USA_Tech_2 = {} # Engraved Mirrors
+		Espionage_USA_Tech_3 = {} # Cigarette Camera
+		Espionage_USA_Tech_4 = {} # Miniature Compass
+		Espionage_USA_Tech_5 = {} # Pipe Radio
+		Espionage_USA_Tech_6 = {} # Film Spike
+		Espionage_USA_Tech_7 = {} # Motion Detector
+		Espionage_USA_Tech_8 = {} # Pictogram Counter
+		Espionage_USA_Tech_9 = {} # Hollow Coins
+	}
+
+	#|=====[ REGIONS ]=====|#
+	hidden_ideas = {
+		Espionage_Map_NA = {}  # North America
+		Espionage_Map_CA = {}  # Central America
+		Espionage_Map_SA = {}  # South America
+		Espionage_Map_EU = {}  # Europe
+		Espionage_Map_RU = {}  # Russia
+		Espionage_Map_AF = {}  # Africa
+		Espionage_Map_ME = {}  # Middle East
+		Espionage_Map_EA = {}  # East Asia
+		Espionage_Map_SEA = {} # South East Asia
+		Espionage_Map_OC = {}  # Oceania
+	}
+}
+

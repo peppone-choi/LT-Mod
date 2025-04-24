@@ -1,0 +1,55 @@
+state = {
+	id = 160
+	name = "STATE_160"
+	resources = {
+		steel = 32.000
+		aluminium = 18.000
+	}
+
+	history = {
+		owner = ITA
+		victory_points = {
+			11584 15
+		}
+		victory_points = {
+			17997 10
+		}
+		victory_points = {
+			6656 7
+		}
+		victory_points = {
+			18001 10
+		}
+		victory_points = {
+			14644 4
+		}
+		victory_points = {
+			3604 10
+		}
+		victory_points = {
+			9582 4
+		}
+		victory_points = {
+			18000 2
+		}
+		buildings = {
+			offices = 1
+			infrastructure = 5
+			air_base = 3
+			schools = 1
+			11584 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = ITA
+		set_state_flag = GDP_regions_veneto
+	}
+
+	provinces = {
+		603 3604 6656 9582 11584 14644 14645 17997 17999 18000 18001
+	}
+	manpower = 3687908
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

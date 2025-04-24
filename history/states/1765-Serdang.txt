@@ -1,0 +1,35 @@
+state = {
+	id = 1765
+	name = "STATE_1765"
+	resources = {
+		rubber = 20
+		oil = 20
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			19203 5
+		}
+		victory_points = {
+			19202 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			barracks = 1
+			radar_station = 1
+			thermoelectric_plant = 1
+		}
+		set_state_flag = GDP_regions_medan
+	}
+
+	provinces = {
+		15670 19202 19203 19217
+	}
+	manpower = 1556682
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

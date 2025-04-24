@@ -1,0 +1,33 @@
+state = {
+	id = 2356
+	name = "STATE_2356"
+
+	resources = {
+		steel = 2
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			12310 5
+		}
+		victory_points = {
+			19465 11
+		}
+		set_state_flag = GDP_regions_hunan
+		set_variable = { china_state_ref = 27 }
+		set_variable = { china_region_ref = 3 }
+	}
+
+	provinces = {
+		12310 12017 12053 19465
+	}
+	manpower = 5291746
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,48 @@
+state = {
+	id = 719
+	name = "STATE_719"
+	resources = {
+		chromium = 106.000
+	}
+
+	history = {
+		owner = SAF
+		buildings = {
+			schools = 1
+			prisons = 1
+			offices = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+			13522 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			13521 20
+		}
+		victory_points = {
+			15384 10
+		}
+		victory_points = {
+			13535 2
+		}
+		victory_points = {
+			13537 1
+		}
+		victory_points = {
+			13508 1
+		}
+		victory_points = {
+			15387 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces = {
+		8178 13508 13513 13516 13521 13522 13526 13528 13531 13532 13535 13537 13540 13541 13547 15384 15385 15386 15387 17833
+	}
+	manpower = 1914144
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

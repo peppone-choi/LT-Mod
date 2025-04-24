@@ -1,0 +1,27 @@
+state = {
+	id = 1673
+	name = "STATE_1673"
+	resources = {
+		tungsten = 39.000
+	}
+
+	history = {
+		owner = POR
+		victory_points = { 924 3 }
+		victory_points = { 17983 1 }
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = POR
+		set_state_flag = GDP_category_town
+		set_state_flag = GDP_regions_portugal
+	}
+
+	provinces = {
+		844 924 11768 17983
+	}
+	manpower = 451269
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

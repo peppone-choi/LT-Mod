@@ -1,0 +1,29 @@
+state = {
+	id = 1309
+	name = "STATE_1309"
+
+	resources = {
+		tungsten = 6
+		aluminium = 2
+		rubber = 4
+	}
+
+	history = {
+		owner = BUR
+		victory_points = {
+			4408 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BUR
+	}
+
+	provinces = {
+		4408 7441 12125 12238 12256 13215 19077 19078 19088
+	}
+	manpower = 707310
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

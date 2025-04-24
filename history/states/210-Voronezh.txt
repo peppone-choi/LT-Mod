@@ -1,0 +1,60 @@
+state = {
+	id = 210
+	name = "STATE_210"
+	resources = {
+		steel = 56.000
+	}
+
+	history = {
+		owner = MCW
+		victory_points = {
+			413 20
+		}
+		victory_points = {
+			18322 10
+		}
+		victory_points = {
+			6369 3
+		}
+		victory_points = {
+			9489 1
+		}
+		victory_points = {
+			3527 3
+		}
+		victory_points = {
+			3469 3
+		}
+		victory_points = {
+			6494 1
+		}
+		victory_points = {
+			18310 1
+		}
+		victory_points = {
+			6587 3
+		}
+		victory_points = {
+			6317 1
+		}
+		buildings = {
+			infrastructure = 4
+			schools = 1
+			offices = 1
+			prisons = 2
+			air_base = 2
+			thermoelectric_plant = 1
+			radar_station = 2
+		}
+		add_core_of = MCW
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		413 437 473 510 3469 3504 3527 3566 6317 6341 6369 6398 6428 6477 6494 6553 6587 6591 9312 9339 9424 9448 9489 9529 9552 11396 11412 11475 11540 18301 18305 18310 18316 18322 18324
+	}
+	manpower = 2992860
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

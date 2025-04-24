@@ -1,0 +1,28 @@
+state = {
+	id = 874
+	name = "STATE_874"
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		buildings = {
+			infrastructure = 3
+			prisons = 1
+		}
+		victory_points = {
+			10438 5
+		}
+		victory_points = {
+			10425 1
+		}
+		set_state_flag = GDP_regions_isan
+	}
+
+	provinces = {
+		1535 1548 7601 10425 10438 12264 12402 12431 19092
+	}
+	manpower = 3232179
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

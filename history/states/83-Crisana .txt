@@ -1,0 +1,26 @@
+state = { # Weird space in name is to prevent conflict with vanilla state file being uncapitalized for some reason
+	id = 83
+	name = "STATE_83"
+
+	history = {
+		owner = ROM
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			schools = 1
+		}
+		victory_points = {
+			18213 10
+		}
+		add_core_of = ROM
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		696 6682 6697 9640 18199 18213
+	}
+	manpower = 766244
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 567
+	name = "STATE_567"
+	resources = {
+		oil = 16.000
+	}
+
+	history = {
+		owner = IRK
+		buildings = {
+			infrastructure = 3
+			radar_station = 1
+		}
+		victory_points = {
+			1803 1
+		}
+		victory_points = {
+			4750 4
+		}
+		victory_points = {
+			7841 3
+		}
+		victory_points = {
+			10570 3
+		}
+		victory_points = {
+			10661 3
+		}
+		add_core_of = IRK
+	}
+
+	provinces = {
+		1803 1813 1876 4750 4808 4815 4930 5253 5523 7713 7769 7841 7876 10549 10562 10570 10661 10664 10699
+	}
+	manpower = 566920
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

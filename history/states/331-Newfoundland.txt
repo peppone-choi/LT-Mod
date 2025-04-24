@@ -1,0 +1,37 @@
+state = {
+	id = 331
+	name = "STATE_331"
+	manpower = 452716
+
+	state_category = town
+
+	history = {
+		owner = CAN
+		buildings = {
+			infrastructure = 4
+			radar_station = 2
+			air_base = 5
+			12505 = {
+				naval_base = 3
+			}
+			prisons = 1
+			barracks = 1
+			offices = 1
+		}
+		add_core_of = CAN
+		victory_points = { # St. John
+			12505 10 # provincial capital
+		}
+		victory_points = { # Gander
+			7758 1
+		}
+		victory_points = { # Corner Brook
+			7788 1
+		}
+		set_state_flag = GDP_regions_newfoundland
+	}
+
+	provinces = {
+		7758 7788 12505 12680 12698
+	}
+}

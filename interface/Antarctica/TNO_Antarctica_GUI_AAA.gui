@@ -1,0 +1,1283 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 965 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAA_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Main_Contents"
+			position = { x = 20 y = 107 }
+			size = { width = 0 height = 0 }
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Horizontal_Bar_1"
+				spriteType = "GFX_Antarctica_GUI_AAA_Horizontal_Bar"
+				position = { x = 0 y = 68 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Equipment_Title_Text"
+				position = { x = 0 y = 78 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAA_Equipment_Title_Text
+				maxWidth = 482
+				format = left
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Tech_Icon"
+				spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_1"
+				position = { x = 241 y = 167 }
+				centerposition = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Tech_Research_Button"
+				position = { x = 61 y = 236 }
+				quadTextureSprite = "GFX_tiled_decisions_bg_small"
+				size = { x = 360 y = 120 }
+				buttonFont = "aldrich_48_outline"
+				buttonText = Antarctica_GUI_AAA_Tech_Research_Button_Text
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Horizontal_Bar_2"
+				spriteType = "GFX_Antarctica_GUI_AAA_Horizontal_Bar"
+				position = { x = 0 y = 366 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Supplies_Title_Text"
+				position = { x = 0 y = 376 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAA_Supplies_Title_Text
+				maxWidth = 482
+				maxHeight = 80
+				format = left
+				pdx_tooltip = Antarctica_GUI_AAA_Supplies_tt
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Supplies_Main_Base_Bar"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_E_Base"
+				position = { x = 15 y = 408 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Supplies_Main_Base_Bar_Text"
+				position = { x = 0 y = 448 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAA_Supplies_Main_Base_Bar_Text
+				maxWidth = 482
+				format = center
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Supplies_Main_Base_Bar_Minus"
+				position = { x = 15 y = 442 }
+				quadTextureSprite = "GFX_Antarctica_GUI_AAA_Minus_Button"
+				pdx_tooltip = Antarctica_GUI_AAA_Supplies_Minus_tt
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Supplies_Main_Base_Bar_Plus"
+				position = { x = 441 y = 442 }
+				quadTextureSprite = "GFX_Antarctica_GUI_AAA_Plus_Button"
+				pdx_tooltip = Antarctica_GUI_AAA_Supplies_Plus_tt
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Supplies_Sub_Base_Bar"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_E_SubBase"
+				position = { x = 15 y = 472 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Supplies_Sub_Base_Bar_Text"
+				position = { x = 0 y = 510 }
+				font = "aldrich_20_outline"
+				text = Antarctica_GUI_AAA_Supplies_Sub_Base_Bar_Name
+				maxWidth = 482
+				format = center
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Supplies_Sub_Base_Bar_Minus"
+				position = { x = 15 y = 506 }
+				quadTextureSprite = "GFX_Antarctica_GUI_AAA_Minus_Button"
+				pdx_tooltip = Antarctica_GUI_AAA_Supplies_Sub_Base_Bar_tt
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Supplies_Sub_Base_Bar_Plus"
+				position = { x = 441 y = 506 }
+				quadTextureSprite = "GFX_Antarctica_GUI_AAA_Plus_Button"
+				pdx_tooltip = Antarctica_GUI_AAA_Supplies_Sub_Base_Bar_tt
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Supplies_Patrol_Bar"
+				spriteType = "GFX_Antarctica_Decision_GUI_Bar_E_Patrol"
+				position = { x = 15 y = 536 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Supplies_Patrol_Bar_Text"
+				position = { x = 0 y = 574 }
+				font = "aldrich_20_outline"
+				text = Antarctica_GUI_AAA_Supplies_Patrol_Bar_Text
+				maxWidth = 482
+				format = center
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Supplies_Patrol_Bar_Minus"
+				position = { x = 15 y = 570 }
+				quadTextureSprite = "GFX_Antarctica_GUI_AAA_Minus_Button"
+				pdx_tooltip = Antarctica_GUI_AAA_Supplies_Minus_tt
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Supplies_Patrol_Bar_Plus"
+				position = { x = 441 y = 570 }
+				quadTextureSprite = "GFX_Antarctica_GUI_AAA_Plus_Button"
+				pdx_tooltip = Antarctica_GUI_AAA_Supplies_Plus_tt
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Horizontal_Bar_3"
+				spriteType = "GFX_Antarctica_GUI_AAA_Horizontal_Bar"
+				position = { x = 0 y = 608 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Info_Intel_Title"
+				position = { x = 0 y = 620 }
+				font = "aldrich_22_outline"
+				text = Antarctica_GUI_AAA_Info_Intel_Title
+				maxWidth = 482
+				format = left
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Info_Secrecy_Title"
+				position = { x = 0 y = 647 }
+				font = "aldrich_22_outline"
+				text = Antarctica_GUI_AAA_Info_Secrecy_Title
+				maxWidth = 482
+				maxHeight = 50
+				format = left
+				pdx_tooltip = Antarctica_GUI_AAA_Progressbar_Secrecy_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAA_Progressbar_Frame"
+				spriteType = "GFX_Antarctica_GUI_AAA_Progressbar_Frame"
+				position = { x = 15 y = 678 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAA_Progressbar_Secrecy_AAO"
+				spriteType = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAO"
+				position = { x = 15 y = 677 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAA_Progressbar_Secrecy_AAG"
+				spriteType = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAG"
+				position = { x = 15 y = 677 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAA_Progressbar_Secrecy_AAJ"
+				spriteType = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAJ"
+				position = { x = 15 y = 677 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAA_Progressbar_Secrecy_AAC"
+				spriteType = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAC"
+				position = { x = 15 y = 677 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAA_Progressbar_Secrecy_Cover"
+				spriteType = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_Cover"
+				position = { x = 15 y = 678 }
+				pdx_tooltip = Antarctica_GUI_AAA_Progressbar_Secrecy_tt
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Info_Secrecy_AAO"
+				position = { x = -10 y = 719 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAA_Info_Secrecy_AAO
+				maxWidth = 502
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Info_Secrecy_AAG"
+				position = { x = -10 y = 746 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAA_Info_Secrecy_AAG
+				maxWidth = 502
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Info_Secrecy_AAJ"
+				position = { x = -10 y = 773 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAA_Info_Secrecy_AAJ
+				maxWidth = 502
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Info_Secrecy_AAC"
+				position = { x = 0 y = 800 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAA_Info_Secrecy_AAC
+				maxWidth = 482
+				format = center
+			}
+			
+			#instantTextboxType = {
+			#	name = "Antarctica_GUI_AAA_Info_Success_Chance"
+			#	position = { x = 0 y = 825 }
+			#	font = "aldrich_32_outline"
+			#	text = Antarctica_GUI_AAA_Info_Success_Chance
+			#	maxWidth = 482
+			#	format = center
+			#}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAA_Info_Crew_Button"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAA_Standard_Button_Blue"
+				position = { x = 131 y = 826 }
+				buttonFont = "aldrich_24_outline"
+				buttonText = Antarctica_GUI_AAA_Info_Crew_Button_Text
+				pdx_tooltip = Antarctica_GUI_AAA_Info_Crew_Button_tt
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Research_Window"
+		position = { x = -3 y = 78 }
+		size = { width = 100%% height = 100%% }
+		fade_time = 400
+		fade_type = linear
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_techtree_bg"
+		}
+
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Folder"
+			position = { x = 0 y = 50 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 26 right = 27 }
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider_tech_tree"
+			horizontalScrollbar = "bottom_horizontal_slider_tech_tree"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Folder_BG"
+				position = { x = 0 y = 0 }
+				clipping = no
+				size = {
+					width = 1239 height = 700
+					min = { width = 100%% height = 100%% }
+				}
+
+				iconType = {
+					name = "Tech_Tree_Snowcat_bg"
+					spriteType = "GFX_Tech_Tree_Snowcat_bg"
+					position = { x = 14 y = 0 }
+					alwaystransparent = yes
+				}
+			}
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Vehicle_1"
+				position = { x = 50 y = 50 }
+				size = { width = 183 height = 84 }
+				clipping = no
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_1_Icon"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_1"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_1_Icon_Status"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Large"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_1_Text"
+					position = { x = 119 y = 40 }
+					font = "aldrich_20_outline"
+					text = Antarctica_GUI_AAA_Research_Window_Vehicle_1_Text
+					maxWidth = 240
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Vehicle_2"
+				position = { x = 50 y = 250 }
+				size = { width = 183 height = 84 }
+				clipping = no
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_2_Icon"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_2"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_2_Icon_Status"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Large"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_2_Text"
+					position = { x = 119 y = 40 }
+					font = "aldrich_20_outline"
+					text = Antarctica_GUI_AAA_Research_Window_Vehicle_2_Text
+					maxWidth = 240
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Vehicle_3"
+				position = { x = 50 y = 450 }
+				size = { width = 183 height = 84 }
+				clipping = no
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_3_Icon"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_3"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_3_Icon_Status"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Large"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_3_Text"
+					position = { x = 119 y = 40 }
+					font = "aldrich_20_outline"
+					text = Antarctica_GUI_AAA_Research_Window_Vehicle_3_Text
+					maxWidth = 240
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Vehicle_4" # Tech 0
+				position = { x = 50 y = 650 }
+				size = { width = 183 height = 84 }
+				clipping = no
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_4_Icon"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_4"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_4_Icon_Status"
+					position = { x = 119 y = 58 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Large"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Vehicle_4_Text"
+					position = { x = 119 y = 40 }
+					font = "aldrich_20_outline"
+					text = ""
+					maxWidth = 240
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_1"
+				position = { x = 600 y = 130 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_1_Arrow_1"
+					position = { x = -190 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Available"
+				}
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_1_Arrow_2"
+					position = { x = -190 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Available"
+				}
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_1_Arrow_3"
+					position = { x = -190 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_3_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_1_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_1"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_1_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_1_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Treads"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_2"
+				position = { x = 800 y = 80 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_2_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_2_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_2"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_2_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_2_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Expanded Fuel Tank"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_3"
+				position = { x = 800 y = 180 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_3_Arrow_1"
+					position = { x = -126 y = -15 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Available"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_XOR_1"
+					position = { x = -100 y = -44 }
+					spriteType = "GFX_techtree_xor_up"
+				}
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_XOR_2"
+					position = { x = -100 y = -45 }
+					spriteType = "GFX_techtree_xor_down"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_3_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_3"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_3_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_3_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Expanded Storage"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_4"
+				position = { x = 1000 y = 80 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_4_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_4_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_4"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_4_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_4_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Fine Tune Engine for Fuel Use"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_5"
+				position = { x = 1000 y = 180 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_5_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_5_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_5"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_5_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_5_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Fine Tune Engine for Reliability"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_6"
+				position = { x = 1200 y = 130 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_6_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Available"
+				}
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_6_Arrow_2"
+					position = { x = -126 y = -15 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_6_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_6"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_6_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_6_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Tires"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_7"
+				position = { x = 1400 y = 130 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_7_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_7_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_7"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_7_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_7_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Modernize Radio"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_8"
+				position = { x = 600 y = 330 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_8_Arrow_1"
+					position = { x = -190 y = -165 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_4_Available"
+				}
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_8_Arrow_2"
+					position = { x = -190 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Available"
+				}
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_8_Arrow_3"
+					position = { x = -190 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_8_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_8"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_8_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_8_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Suspension"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_9"
+				position = { x = 800 y = 280 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_9_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_9_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_9"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_9_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_9_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Armaments I"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_10"
+				position = { x = 800 y = 380 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_10_Arrow_1"
+					position = { x = -126 y = -15 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Available"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_XOR_1"
+					position = { x = -100 y = -44 }
+					spriteType = "GFX_techtree_xor_up"
+				}
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_XOR_2"
+					position = { x = -100 y = -45 }
+					spriteType = "GFX_techtree_xor_down"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_10_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_10"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_10_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_10_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Speed I"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_11"
+				position = { x = 1000 y = 280 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_11_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_11_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_11"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_11_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_11_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Armaments II"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_12"
+				position = { x = 1000 y = 380 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_12_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_12_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_12"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_12_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_12_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Speed II"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_13"
+				position = { x = 1200 y = 280 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_13_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_13_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_13"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_13_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_13_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Armaments III"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_14"
+				position = { x = 1200 y = 380 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_14_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_14_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_14"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_14_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_14_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Speed III"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_15"
+				position = { x = 600 y = 730 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_15_Arrow_1"
+					position = { x = -190 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_15_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_15"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_15_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_15_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Dog Training I"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_16"
+				position = { x = 800 y = 730 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_16_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_16_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_16"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_16_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_16_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Better Skis"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_17"
+				position = { x = 1000 y = 730 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_17_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_17_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_17"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_17_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_17_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Dog Training II"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_18"
+				position = { x = 1200 y = 730 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_18_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_18_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_18"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_18_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_18_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Lighter Sled"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+			containerWindowType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Tech_19"
+				position = { x = 1400 y = 730 }
+				size = { width = 72 height = 72 }
+				clipping = no
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_19_Arrow_1"
+					position = { x = -126 y = 25 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+				}
+
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_19_Icon"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_19"
+				}
+				
+				iconType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_19_Icon_Status"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+					alwaystransparent = yes
+				}
+				
+				instantTextBoxType = {
+					name = "Antarctica_GUI_AAA_Research_Window_Tech_19_Text"
+					position = { x = 0 y = -18 }
+					font = "aldrich_20_outline"
+					#text = "Improved Dog Training III"
+					maxWidth = 72
+					maxHeight = 20
+					format = left
+				}
+			}
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Close_Button"
+			position = { x = -49 y = 11 }
+			quadTextureSprite = "GFX_crt_closebutton_large"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Research_Window_Info"
+		position = { x = 500 y = 100 }
+		size = { width = 550 height = 550 }
+		orientation = UPPER_LEFT
+		moveable = yes
+		fade_time = 500
+		fade_type = linear
+		show_sound = pop_up
+
+		background = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_Background"
+			spriteType = "GFX_tiled_bg"
+		}
+
+		iconType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_tech_info_top_win"
+			spriteType = "GFX_tech_info_top_win"
+			position = { x = 1 y = 1 }
+			orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_close"
+			quadTextureSprite = "GFX_tno_close_button"
+			position = { x = -43 y = 10 }
+			shortcut = "ESCAPE"
+			orientation = "UPPER_RIGHT"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+		}
+
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_tech_info_title"
+			position = { x = 50 y = 13 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_AAA_Research_Window_Info_tech_info_title
+			maxWidth = 450
+			maxHeight = 30
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_tech_info_description"
+			position = { x = 27 y = 117 }
+			font = "Bomb_16"
+			text = Antarctica_GUI_AAA_Research_Window_Info_tech_info_tt
+			maxWidth = 490
+			maxHeight = 85
+			format = left
+			scrollbarType = right_vertical_slider_tech_desc
+		}
+
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_research"
+			quadTextureSprite = "GFX_tno_button_148x34"
+			text = Antarctica_GUI_AAA_Research_Window_Info_research
+			buttonFont = "Bomb_16"
+			position = { x = 200 y = 51 }
+			pdx_tooltip = Antarctica_GUI_AAA_Research_Window_Info_research_tt
+			shortcut = "RETURN"
+		}
+
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_researchtime_label"
+			position = { x = 0 y = 88 }
+			font = "Bomb_16"
+			text = Antarctica_GUI_AAA_Research_Window_Info_researchtime_label
+			maxWidth = 550
+			maxHeight = 30
+			format = center
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Info_stats_area"
+			position = { x = 20 y = 220 }
+			size = { width = -20 height = 315 }
+			#horizontalScrollbar = "bottom_horizontal_slider_tech_tree"
+			verticalScrollbar = "right_vertical_slider_tech_tree"
+			margin = { top = 4 left = 13 right = 5}
+			clipping = yes
+
+			background = {
+				name = "Antarctica_GUI_AAA_Research_Window_Info_Text_Background"
+				quadTextureSprite = "GFX_tiled_paper_bg2"
+			}
+
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAA_Research_Window_Info_tech_info_special_description"
+				position = { x = 0 y = 20 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAA_Research_Window_Info_tech_info_text
+				maxWidth = 450
+				maxHeight = 70
+				format = left
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Research_Window_Finished_Popup"
+		position = { x = -225 y = -160 }
+		size = { width = 500 height = 260 }
+		orientation = center
+		moveable = yes
+		fade_time = 200
+		fade_type = linear
+		show_sound = research_complete
+		hide_sound = menu_close_window
+		click_to_front = yes
+
+		background = {
+			name = "Antarctica_GUI_AAA_Research_Window_Finished_Popup_BG"
+			quadTextureSprite ="GFX_tiled_bg"
+		}
+
+		instantTextBoxType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Finished_Popup_Title"
+			position = { x = 50 y = 35 }
+			font = "aldrich_48_outline"
+			text = Antarctica_GUI_AAA_Research_Window_Finished_Popup_Title
+			format = center
+			maxWidth = 400
+		}
+
+		iconType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Finished_Popup_Bottom"
+			spriteType = "GFX_diplo_popup_bottom"
+			position = { x = 3 y = 189 }
+		}
+
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Research_Window_Finished_Popup_Button"
+			position = { x = 195 y = 205}
+			quadTextureSprite ="GFX_sort_button_100x29"
+			buttonText = "BUTTON_OK"
+			buttonFont = "aldrich_24_outline"
+			shortcut = "RETURN"
+			clicksound = click_ok
+		}
+	}
+}

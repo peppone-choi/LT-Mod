@@ -1,0 +1,38 @@
+state = {
+	id = 171
+	name = "STATE_171"
+	resources = {
+		tungsten = 2.000
+	}
+
+	history = {
+		owner = SPA
+		victory_points = {
+			11675 6
+		}
+		victory_points = {
+			9689 5
+		}
+		victory_points = {
+			6734 10
+		}
+		buildings = {
+			barracks = 1
+			prisons = 1
+			offices = 1
+			infrastructure = 4
+			air_base = 2
+		}
+		add_core_of = SPA
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		6734 9686 9689 11675 11840
+	}
+	manpower = 1210032
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

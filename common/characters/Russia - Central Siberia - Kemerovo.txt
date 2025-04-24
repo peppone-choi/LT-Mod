@@ -1,0 +1,222 @@
+characters = {
+	KEM_Rurik_II = {
+		name = KEM_Rurik_II
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_Kemerovo_Rurik_II.dds"
+			}
+			army = {
+				large = "gfx/leaders/KEM/Portrait_Kemerovo_Rurik_II.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RURIK_II_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_absolute_monarchy_subtype
+			traits = {  }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_RURIK_II_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_social_nationalism_subtype
+			traits = { }
+		}
+		field_marshal = {
+			traits = { war_hero brilliant_strategist inspirational_leader trickster }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 3635
+		}
+	}
+
+	KEM_Dmitri_Shostakovich = {
+		name = KEM_Dmitri_Shostakovich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Dmitri_Shostakovich.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_RURIK_II_DESC"
+			expire = "1999.1.1"
+			ideology = progressivism_utopian_socialism_subtype
+			traits = {  }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = KEM_Dmitri_Shostakovich_hog
+			allowed = { original_tag = KEM }
+			traits = { }
+		}
+	}
+
+	KEM_Stefan_Shchipachev = {
+		name = KEM_Stefan_Shchipachev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Stefan_Shchipachev.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = KEM_Stefan_Shchipachev_fog
+			allowed = { original_tag = KEM }
+			traits = { }
+		}
+	}
+
+	KEM_Leopold_Averbakh = {
+		name = KEM_Leopold_Averbakh
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Leopold_Averbakh.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = KEM_Leopold_Averbakh_sec
+			allowed = { original_tag = KEM }
+			traits = { }
+		}
+	}
+
+	KEM_Alexander_Slepkov = {
+		name = KEM_Alexander_Slepkov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Alexander_Slepkov.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = KEM_Alexander_Slepkov_eco
+			allowed = { original_tag = KEM }
+			traits = { }
+		}
+	}
+
+	# KEM Generals
+	KEM_Sergey_Biryuzov = {
+		name = KEM_Sergey_Biryuzov
+		portraits = {
+			army = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Sergey_Biryuzov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KEM_Pavel_Batitsky = {
+		name = KEM_Pavel_Batitsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Pavel_Batitsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KEM_Alexander_Belyaev = {
+		name = KEM_Alexander_Belyaev
+		portraits = {
+			army = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Alexander_Belyaev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KEM_Andrei_Tupitsin = {
+		name = KEM_Andrei_Tupitsin
+		portraits = {
+			army = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Andrei_Tupitsin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KEM_Ivan_Churochkin = {
+		name = KEM_Ivan_Churochkin
+		portraits = {
+			army = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Ivan_Churochkin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KEM_Alexander_Kiselev = {
+		name = KEM_Alexander_Kiselev
+		portraits = {
+			army = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Alexander_Kiselev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KEM_Alexander_Shevchenko = {
+		name = KEM_Alexander_Shevchenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/KEM/Portrait_KEM_Alexander_Shevchenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

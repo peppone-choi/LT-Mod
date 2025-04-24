@@ -1,0 +1,117 @@
+focus_tree = {
+	id = RUS_OMS_military_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OMS
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_OMS_military_focus_1 # 서시베리아 5개년 계획
+		x = 2
+		y = 0
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_2 # 지역 관료들과의 타협
+		prerequisite = { focus = RUS_OMS_military_focus_1 }
+		x = 2
+		y = 1
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_3 # '독일적 사상'의 배격 선언
+		prerequisite = { focus = RUS_OMS_military_focus_2 }
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_4 # 붉은 잔당의 끝
+		prerequisite = { focus = RUS_OMS_military_focus_3 }
+		x = 2
+		y = 3
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_5 # 수보로프 사관학교 설립
+		prerequisite = { focus = RUS_OMS_military_focus_4 }
+		x = 2
+		y = 4
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_6 # 대전략 교리 전문화
+		prerequisite = { focus = RUS_OMS_military_focus_5 }
+		mutually_exclusive = {
+			focus = RUS_OMS_military_focus_7
+			focus = RUS_OMS_military_focus_8
+		}
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_7 # 기동전 교리 전문화
+		prerequisite = { focus = RUS_OMS_military_focus_5 }
+		x = 2
+		y = 5
+		icon = GFX_goal_generic_election
+		mutually_exclusive = {
+			focus = RUS_OMS_military_focus_6
+			focus = RUS_OMS_military_focus_8
+		}
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_8 # 대규모 전투 교리 전문화
+		prerequisite = { focus = RUS_OMS_military_focus_5 }
+		x = 4
+		y = 5
+		icon = GFX_goal_generic_election
+		mutually_exclusive = {
+			focus = RUS_OMS_military_focus_7
+			focus = RUS_OMS_military_focus_6
+		}
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_9 # 전략 로켓군의 시작
+		prerequisite = { focus = RUS_OMS_military_focus_6 focus = RUS_OMS_military_focus_7 focus = RUS_OMS_military_focus_8 }
+		x = 1
+		y = 6
+		mutually_exclusive = {
+			focus = RUS_OMS_military_focus_10
+		}
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_10 # 하늘의 기사들
+		prerequisite = { focus = RUS_OMS_military_focus_6 focus = RUS_OMS_military_focus_7 focus = RUS_OMS_military_focus_8 }
+		x = 3
+		y = 6
+		mutually_exclusive = {
+			focus = RUS_OMS_military_focus_9
+		}
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_military_focus_11 # 독일에 맞서기 위한 동맹
+		prerequisite = { focus = RUS_OMS_military_focus_9 focus = RUS_OMS_military_focus_10 }
+		x = 2
+		y = 7
+		icon = GFX_goal_generic_election
+	}
+}

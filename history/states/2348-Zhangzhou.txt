@@ -1,0 +1,36 @@
+state = {
+	id = 2348
+	name = "STATE_2348"
+
+	resources = {
+		steel = 10
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10093 2
+		}
+		victory_points = {
+			12084 3
+		}
+		victory_points = {
+			19759 9
+		}
+		set_state_flag = GDP_regions_fujian
+		set_variable = { china_state_ref = 34 }
+		set_variable = { china_region_ref = 4 }
+	}
+
+	provinces = {
+		19759 10010 19553 10093 19666 10054 12057 12084 19765
+	}
+	manpower = 2289270
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

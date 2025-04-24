@@ -1,0 +1,230 @@
+characters = {
+	# Country leaders #
+		# TYM Ministers
+		TYM_Nikolai_Bukharin = {
+			name = TYM_Nikolai_Bukharin
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Nikolai_Bukharin.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = TYM_Nikolai_Bukharin_pol
+				allowed = { original_tag = TYM }
+				traits = { }
+			}
+		}
+	
+		TYM_Alexei_Rykov = {
+			name = TYM_Alexei_Rykov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Alexei_Rykov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = TYM_Alexei_Rykov_pol
+				allowed = { original_tag = TYM }
+				traits = { }
+			}
+		}
+	
+		TYM_Mikhail_Tomsky = {
+			name = TYM_Mikhail_Tomsky
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Mikhail_Tomsky.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = TYM_Mikhail_Tomsky_pol
+				allowed = { original_tag = TYM }
+				traits = { }
+			}
+		}
+	
+		TYM_Genrikh_Yagoda = {
+			name = TYM_Genrikh_Yagoda
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Genrikh_Yagoda.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = TYM_Genrikh_Yagoda_pol
+				allowed = { original_tag = TYM }
+				traits = { }
+			}
+		}
+	
+		TYM_Martemian_Ryutin = {
+			name = TYM_Martemian_Ryutin
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Martemian_Ryutin.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = TYM_Martemian_Ryutin_pol
+				allowed = { original_tag = TYM }
+				traits = { }
+			}
+		}
+	
+		TYM_Nikolai_Uglanov = {
+			name = TYM_Nikolai_Uglanov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Nikolai_Uglanov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = TYM_Nikolai_Uglanov_pol
+				allowed = { original_tag = TYM }
+				traits = { }
+			}
+		}
+	
+		# TYM Army Chief of Staff
+		TYM_Fyodor_Tolbukhin = {
+			name = TYM_Fyodor_Tolbukhin
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Fyodor_Tolbukhin.dds"
+				}
+			}
+			advisor = {
+				slot = army_chief
+				idea_token = TYM_Fyodor_Tolbukhin_army
+				allowed = { original_tag = TYM }
+				traits = { }
+			}
+		}
+	
+		# TYM Marshals
+		TYM_Fyodor_Tolbukhin = {
+			name = TYM_Fyodor_Tolbukhin
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Fyodor_Tolbukhin.dds"
+				}
+			}
+			field_marshal = {
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+		}
+	
+		TYM_Kirill_Meretskov = {
+			name = TYM_Kirill_Meretskov
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Kirill_Meretskov.dds"
+				}
+			}
+			field_marshal = {
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+		}
+	
+		# TYM Generals
+		TYM_Alexander_Bazenin = {
+			name = TYM_Alexander_Bazenin
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Alexander_Bazenin.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		TYM_Fyodor_Bobrakov = {
+			name = TYM_Fyodor_Bobrakov
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Fyodor_Bobrakov.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		TYM_Nikolai_Zorin = {
+			name = TYM_Nikolai_Zorin
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Nikolai_Zorin.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		TYM_Boris_Delakov = {
+			name = TYM_Boris_Delakov
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Boris_Delakov.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		TYM_Alexei_Ignatiev = {
+			name = TYM_Alexei_Ignatiev
+			portraits = {
+				army = {
+					large = "gfx/leaders/TYM/Portrait_TYM_Alexei_Ignatiev.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+}

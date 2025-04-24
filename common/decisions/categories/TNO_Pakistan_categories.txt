@@ -1,0 +1,8 @@
+PAK_OBQ_control_claims_category = {
+	allowed = {
+		tag = PAK
+	}
+	visible = {
+		has_global_flag = PAK_obq_ongoing
+	}
+}

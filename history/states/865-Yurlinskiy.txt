@@ -1,0 +1,18 @@
+state = { #Population Done
+	id = 865
+	name = "STATE_865"
+	provinces = {
+			3127 4326 11111
+	}
+	history = {
+		owner = GAY
+		buildings = {
+			infrastructure = 2
+			prisons = 1
+		}
+		add_core_of = GAY
+	}
+	manpower = 21000
+	state_category = rural
+	buildings_max_level_factor = 1.000
+}

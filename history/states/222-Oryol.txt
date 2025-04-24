@@ -1,0 +1,49 @@
+state = {
+	id = 222
+	name = "STATE_222"
+	resources = {
+		steel = 28.000
+	}
+
+	history = {
+		owner = MCW
+		victory_points = {
+			9384 10
+		}
+		victory_points = {
+			3335 10
+		}
+		victory_points = {
+			3346 5
+		}
+		victory_points = {
+			328 3
+		}
+		victory_points = {
+			11242 1
+		}
+		victory_points = {
+			18256 1
+		}
+		victory_points = {
+			3226 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			offices = 1
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = MCW
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		288 302 328 356 384 3226 3306 3318 3335 3346 3376 6252 6386 6411 9261 9301 9355 9384 9411 11214 11242 11283 11337 11368 18256 18309 18318 3390 3364
+	}
+	manpower = 2293282
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,75 @@
+focus_tree = {
+	id = RUS_BRY_start_focus
+	country = { 
+			factor = 0
+			modifier = {
+					add = 10
+					tag = BRY
+			}
+	}
+
+	default = no
+
+	focus = {
+			id = RUS_BRY_people_of_troubled_forest #시름하는 숲의 사람들
+			icon = GFX_RUS_BRY_people_of_troubled_forest
+			x = 0
+			y = 0
+	}
+
+	focus = {
+			id = RUS_BRY_secret_militia_training #민병대 비밀 육성
+			prerequisite = { focus = RUS_BRY_people_of_troubled_forest }
+			icon = GFX_RUS_BRY_secret_militia_training
+			x = 0
+			y = 1
+	}
+
+	focus = {
+			id = RUS_BRY_flames_behind_curtain #철의 장막 속 일어나는 불길
+			prerequisite = { focus = RUS_BRY_secret_militia_training }
+			icon = GFX_RUS_BRY_flames_behind_curtain
+			x = 0
+			y = 2
+	}
+
+	focus = {
+			id = RUS_BRY_mongolian_liberation_army #몽골 인민 해방군 창설
+			prerequisite = { focus = RUS_BRY_flames_behind_curtain }
+			icon = GFX_RUS_BRY_mongolian_liberation_army
+			x = 0
+			y = 3
+	}
+
+	focus = {
+			id = RUS_BRY_questionable_sources #의문스러운 출처
+			prerequisite = { focus = RUS_BRY_mongolian_liberation_army }
+			icon = GFX_RUS_BRY_questionable_sources
+			x = 0
+			y = 4
+	}
+
+	focus = {
+			id = RUS_BRY_hunt_stalin_faction #친 스탈린 파벌 색출
+			prerequisite = { focus = RUS_BRY_questionable_sources }
+			icon = GFX_RUS_BRY_hunt_stalin_faction
+			x = 0
+			y = 5
+	}
+
+	focus = {
+			id = RUS_BRY_buryat_mongol_official #부랴트 몽골어 공식화
+			prerequisite = { focus = RUS_BRY_hunt_stalin_faction }
+			icon = GFX_RUS_BRY_buryat_mongol_official
+			x = 0
+			y = 6
+	}
+
+	focus = {
+			id = RUS_BRY_wildfire_in_forest #숲에서 일어나는 들불
+			prerequisite = { focus = RUS_BRY_buryat_mongol_official }
+			icon = GFX_RUS_BRY_wildfire_in_forest
+			x = 0
+			y = 7
+	}
+}

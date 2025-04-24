@@ -1,0 +1,27 @@
+state = {
+	id = 1887
+	name = "STATE_1887"
+
+	history = {
+		owner = ONG
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+		}
+		victory_points = {
+			6109 1
+		}
+		add_core_of = ONG
+		set_state_flag = GDP_regions_karelia
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		18 26 127 2356 6109 11038
+	}
+	manpower = 51707
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

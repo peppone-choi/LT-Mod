@@ -1,0 +1,35 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_AAJ"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 640 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAJ_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAJ_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		iconType = {
+			position = { x = 24 y = 160 }
+			name = "Antarctica_GUI_AAJ_BG_Grid"
+			spriteType = "GFX_Antarctica_GUI_AAJ_BG_Grid"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAJ_Dot"
+			position = { x = 261 y = 404 }
+			size = { width = 0 height = 0 }
+			
+			iconType = {
+				position = { x = 0 y = 0 }
+				name = "Antarctica_GUI_AAJ_Dot"
+				spriteType = "GFX_Antarctica_GUI_AAJ_Dot"
+				centerposition = yes
+			}
+		}
+	}
+}

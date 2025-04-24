@@ -1,0 +1,49 @@
+state = {
+	id = 1362
+	name = "STATE_1362"
+	resources = {
+		power = 2.000
+		oil = 10.000
+	}
+
+	history = {
+		owner = PER
+		buildings = {
+			hospitals = 1
+			offices = 1
+			thermoelectric_plant = 2
+			infrastructure = 6
+		}
+		victory_points = {
+			18801 4
+		}
+		victory_points = {
+			18736 3
+		}
+		victory_points = {
+			10768 4
+		}
+		victory_points = {
+			10385 4
+		}
+		victory_points = {
+			18737 2
+		}
+		victory_points = {
+			18807 1
+		}
+		victory_points = {
+			18776 1
+		}
+		add_core_of = PER
+		set_state_flag = GDP_category_large_city
+	}
+
+	provinces = {
+		10385 10768 18736 18737 18750 18755 18776 18777 18801 18807 18808 18813
+	}
+	manpower = 843110
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

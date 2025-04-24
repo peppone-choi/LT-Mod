@@ -1,0 +1,24 @@
+state = {
+	id = 1540
+	name = "STATE_1540"
+
+	history = {
+		owner = MLI
+		add_core_of = MLI
+		victory_points = {
+			14145 3
+		}
+		buildings = {
+			infrastructure = 1
+			thermoelectric_plant = 1
+		}
+	}
+
+	provinces = {
+		14145 15206
+	}
+	manpower = 411000
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

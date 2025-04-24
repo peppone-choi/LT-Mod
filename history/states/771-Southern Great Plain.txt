@@ -1,0 +1,36 @@
+state = {
+	id = 771
+	name = "STATE_771"
+
+	history = {
+		owner = HUN
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			18208 4
+		}
+		victory_points = {
+			679 5
+		}
+		victory_points = {
+			9656 5
+		}
+		victory_points = {
+			6716 4
+		}
+		victory_points = {
+			11646 3
+		}
+		add_core_of = HUN
+	}
+
+	provinces = {
+		679 699 6716 9656 11644 11646 18208
+	}
+	manpower = 1438019
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

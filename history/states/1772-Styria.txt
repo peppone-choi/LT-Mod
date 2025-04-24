@@ -1,0 +1,32 @@
+state = {
+	id = 1772
+	name = "STATE_1772"
+	resources = {
+		tungsten = 14.000
+		chromium = 18.000
+	}
+
+	history = {
+		owner = GER
+		victory_points = {
+			9648 15
+		}
+		buildings = {
+			infrastructure = 5
+			offices = 1
+			barracks = 2
+			schools = 1
+		}
+		add_core_of = GER
+		set_state_flag = GDP_regions_austria
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		653 6687 6690 6691 9646 9648 9650 9679 11630 18120
+	}
+	manpower = 1195023
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

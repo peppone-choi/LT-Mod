@@ -1,0 +1,33 @@
+state = {
+	id = 770
+	name = "STATE_770"
+
+	history = {
+		owner = GER
+		victory_points = {
+			665 10
+		}
+		victory_points = {
+			3654 2
+		}
+		buildings = {
+			offices = 1
+			prisons = 1
+			infrastructure = 5
+			nuclear_reactor = 1
+			radar_station = 2
+			3654 = {
+				bunker = 5
+			}
+		}
+		add_core_of = GER
+	}
+
+	provinces = {
+		596 665 3654 18119 18122
+	}
+	manpower = 551310
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

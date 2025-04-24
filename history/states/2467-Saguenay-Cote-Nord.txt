@@ -1,0 +1,34 @@
+state = {
+	id = 2467
+	name = "STATE_2467"
+
+	history = {
+		owner = CAN
+		buildings = {
+			radar_station = 1
+			prisons = 1
+			infrastructure = 3
+			air_base = 4
+		}
+		add_core_of = CAN
+		victory_points = { # Saguenay
+			14619 3
+		}
+		victory_points = { # Sept-Iles
+			10715 2
+		}
+		victory_points = { # Baie-Comeau
+			7807 1
+		}
+		set_state_flag = GDP_regions_quebec
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		1356 1657 4419 4769 7807 7810 7893 10534 10715 12600 13164 14618 14619 14620 17263
+	}
+	manpower = 350813
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

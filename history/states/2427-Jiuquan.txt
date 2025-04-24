@@ -1,0 +1,38 @@
+state = {
+	id = 2427
+	name = "STATE_2427"
+
+	resources = {
+		oil = 6
+		chromium = 8
+	}
+
+	history = {
+		owner = GAN
+		add_core_of = GAN
+		victory_points = {
+			2028 5
+		}
+		victory_points = {
+			12820 1
+		}
+		victory_points = {
+			7971 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+		set_variable = { china_state_ref = 41 }
+		set_variable = { china_region_ref = 5 }
+		set_state_flag = GDP_regions_gansu
+	}
+
+	provinces = {
+		2028 8102 19411 1778 19401 12820 7971 12596 5076
+	}
+	manpower = 594799
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

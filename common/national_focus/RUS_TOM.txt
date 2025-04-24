@@ -1,0 +1,172 @@
+focus_tree = {
+	id = RUS_TOM_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TOM
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_TOM_focus_1 #중앙 시베리아 동란
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_2 #집정정부의 정당화
+		prerequisite = { focus = RUS_TOM_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_3
+		}
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_3 #자유선거의 약속
+		prerequisite = { focus = RUS_TOM_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_2
+		}
+		x = 2
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_4 #거국내각 수립
+		prerequisite = { 
+		focus = RUS_TOM_focus_2
+		focus = RUS_TOM_focus_3 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_5
+		}
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_5 #야당 인정
+		prerequisite = { focus = RUS_TOM_focus_2
+		focus = RUS_TOM_focus_3 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_4
+		}
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_6 #시베리아국 오흐라나 수립
+		prerequisite = { 
+		focus = RUS_TOM_focus_4
+		focus = RUS_TOM_focus_5 }
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_7 #군부의 위험성
+		prerequisite = { 
+		focus = RUS_TOM_focus_6 }
+		x = 0
+		y = 4	
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_8 #구세대의 신뢰성
+		prerequisite = { 
+		focus = RUS_TOM_focus_7 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_9
+		}
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_9 # 신세대 장교 지원
+		prerequisite = { 
+		focus = RUS_TOM_focus_7 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_8
+		}
+		x = 2
+		y = 5
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_10 #노동조합 인정
+		prerequisite = { 
+		focus = RUS_TOM_focus_8
+		focus = RUS_TOM_focus_9 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_11
+		}
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_11 #실로비키 회유
+		prerequisite = { 
+		focus = RUS_TOM_focus_8
+		focus = RUS_TOM_focus_9 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_10
+		}
+		x = 2
+		y = 6
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_12 #콜호스의 종식
+		prerequisite = { 
+		focus = RUS_TOM_focus_10
+		focus = RUS_TOM_focus_11 }
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_13
+		}
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_13 #시베리아국의 군사력 강화
+		prerequisite = { 
+		focus = RUS_TOM_focus_10 
+		focus = RUS_TOM_focus_11 
+		}
+		mutually_exclusive = {
+			focus = RUS_TOM_focus_12
+		}
+		x = 2
+		y = 7
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_TOM_focus_14 #시베리아국의 미래
+		prerequisite = { 
+		focus = RUS_TOM_focus_12
+		focus = RUS_TOM_focus_13 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_communism
+	}
+}

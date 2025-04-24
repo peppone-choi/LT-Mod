@@ -1,0 +1,23 @@
+state = { #Population Done
+	id = 1500
+	name = "STATE_1500" # Misiones
+	manpower = 234936
+
+	state_category = pastoral
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14987 1
+		}
+		add_core_of = ARG
+		set_state_flag = GDP_regions_misiones
+	}
+
+	provinces = {
+		14987 14989
+	}
+}

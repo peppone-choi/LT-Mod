@@ -1,0 +1,25 @@
+state = {
+	id = 1737
+	name = "STATE_1737"
+
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		add_core_of = VIC
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		victory_points = { 19021 1 }
+		victory_points = { 19048 1 }
+	}
+
+	provinces = {
+		19018 19021 19048 19074 19161
+	}
+	manpower = 1052834
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,40 @@
+﻿l_english:
+ ### Country Names ###
+ BKU: "VI. Inspectorate-General"
+ BKU_DEF: "the VI. Inspectorate-General of Mosul and Kerkuk"
+ BKU_ADJ: "Turkish"
+
+ ## Cosmetic Tags ##
+ BKU_Mustafa: "Kurdistan"
+ BKU_Mustafa_DEF: "the Republic of Kurdistan"
+ BKU_Mustafa_ADJ: "Kurdish"
+
+ BKU_Tikrit: "Tikrit Region"
+ BKU_Tikrit_DEF: "the Tikrit Region"
+ BKU_Tikrit_ADJ: "Tikrit"
+
+ BKU_Iraq: "Free Republic of Iraq"
+ BKU_Iraq_DEF: "the Free Republic of Iraq"
+ BKU_Iraq_ADJ: "Iraqi"
+
+ ### Parties ###
+ BKU_paternalism_party: "Local Collaborators"
+ BKU_paternalism_party_long: "Yerel İşbirlikçiler"
+ BKU_despotism_party: "M&K U-M"
+ BKU_despotism_party_long: "Musul ve Kerkük Umumi Müfettişliği"
+
+ ### Characters ### 
+ BKU_Sabiha_Gokcen: "Sabiha Gökçen"
+
+ ## Leader Descs ##
+ POLITICS_AHMAD_BARZANI_DESC: "Is compromising your ideals the only way for the Kurdish people to reach for an once thought impossible dream of self-determination? It seems like it is.\n\nSheikh Ahmad Barzani once lost it all at a young age: his tribe having launched an insurrection against the Ottoman authorities in his infancy, he was not even an adult when his father, grandfather and a brother were executed for their defiance of the Sublime Porte's yoke. It wasn't until the 1930's, after a short exile in Turkey, that Ahmad himself led the various Kurdish tribes against the Iraqi government and their British puppet masters alongside his younger brother Mustafa.\n\nOne would've thought his war was a hopeless cause. But as the British Mandate of Iraq fell before the might of the Axis soldiers, Barzani swiftly took control of his homeland by fighting for the Turkish forces and taking advantage of his liaisons within the Turkish political scene. The Sheikh now sits on top of a throne made out of the bones of Kurdish freedom warriors, listening to a sweet tune coming from Ankara which tells him what to dance to..."
+ POLITICS_SABIHA_GOKCEN_DESC: "Sabiha Gökçen has had only one priority in mind as Inspector-General of Mosul and Kirkuk, sitting at the head of the Sixth Inspectorate-General. That priority is the interests of the Turkish nation in the long-chaotic land of Musul and Kerkük, and the preservation of radical Kemalism within those interests.\n\nDecades beforehand, Gökçen's priorities were far more mundane. The adoptive daughter of Atatürk at first had little to worry about beyond making the plane she flew (as one of the first women pilots in Turkish history) work. But with the bombings of Dersim and the rise of Recep Peker (a close ally of hers) and İsmet İnönü to power, she was catapulted into a greater position of military service, and served as a war hero on the frontlines of Syria, Armenia, and western Russia.\n\nNot even the purge of radical Kemalists by İnönü after the death of Peker could constrain Gökçen's rise. Though she drew closer to Peker's friends, she prudently held her peace as an army officer until İnönü, misjudging her silence on politics as orthodoxy and more importantly trusting her experience with anti-terrorist campaigns and generally getting things done, appointed her Inspector-General of Mosul and Kirkuk.\n\nSummoning like-minded generals, politicians, and bureaucrats, and letting Talat Aydemir's Kemalist Youth run wild in the region, Gökçen began Operation Alp Arslan, her plan to integrate Mosul and Kirkuk into Turkey irrevocably. Leveraging oil revenues, she has converted Mosul into an industrial complex and one of the most powerful suppliers of the Turkish Army. And now, if Gökçen has anything to say about it, Mosul and Kirkuk will become forevermore integral parts of Turkey, no matter how many bombs must fall on how many "subversives"."
+
+ ## Minister Descs ##
+
+ ### Ideas ###
+ BKU_Operation_Alparslan: "Operation Alp Arslan"
+ BKU_Operation_Alparslan_desc: "Operation Alp Arslan, named for the Seljuk sultan who broke Anatolia open to the Turkish people through his victory at the Battle of Manzikert, has a similar intention to those of its namesake.\n\nIts goal—condemned by the opposition at home, the UDP and the DYP—is simple. Success will mean the completion of an effort to 'eliminate' all terrorist activity and complete the Turkification of the region via a multi-staged effort of surveillance and education in urban centres and exterminating the terrorists and anti-Turkish resistance in mountains and villages."
+ BKU_Musul_Kerkuk_Oil_Company: "Musul ve Kerkük Petrol Şirketi"
+ BKU_Musul_Kerkuk_Oil_Company_desc: "Musul ve Kerkük Petrol Şirketi, the Mosul and Kirkuk Petroleum Company, is a subsidiary of the Petrol Ofisi. Its remit is to exploit the oil-rich lands of Mosul and Kirkuk to their full potential, and it takes to this task with alacrity.\n\nThe work of the MKPŞ has, in the general case, yielded a massive windfall. This windfall stuffs the wallets of a veritable army of Turkish businessmen, as well as the privy purse of the Sixth Inspectorate-General; the latter party uses the proceeds to invest in the local military industry."
+ BKU_Turkey_takes_oil_tt: "§RAll natural reserves within this region are administered by Turkey.§!"

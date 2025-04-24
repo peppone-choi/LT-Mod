@@ -1,0 +1,76 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_USFI_Groovy"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Groovy.dds"
+	}
+	spriteType = {
+		name = "GFX_USFI_Air_Support_GUI_Gun_Button"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Gun_Button.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_USFI_Air_Support_GUI_Info_Button"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Info_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_USFI_Air_Support_GUI_HS_Button"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_HS_Button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_USFI_Air_Support_GUI_Gun_Text_bg"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Gun_Text_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_USFI_Air_Support_GUI_Gameplay_bg"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Gameplay_bg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_USFI_Air_Support_GUI_Title"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Title.png"
+	}
+	
+	progressbartype = {
+		name = "GFX_USFI_Air_Support_GUI_Health_Bar"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Health_Bar.dds"
+		textureFile2 = "gfx/interface/blank.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	spriteType = {
+		name = "GFX_USFI_Air_Support_GUI_Health_Bar_Frame"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Health_Bar_Frame.dds"
+	}
+	
+	spriteType = { # 33 x 17 each frame
+		name = "GFX_USFI_Air_Support_GUI_Infantry"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Infantry.dds"
+		noOfFrames = 1
+	}
+	
+	spriteType = { # 40 x 42 each frame
+		name = "GFX_USFI_Air_Support_GUI_SAM"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_SAM.dds"
+		noOfFrames = 3
+	}
+	
+	spriteType = { # 24 x 58 each frame
+		name = "GFX_USFI_Air_Support_GUI_Tank"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Tank.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = { # 25 x 57 each frame
+		name = "GFX_USFI_Air_Support_GUI_Heli"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/air_support/USFI_Air_Support_GUI_Heli.dds"
+		noOfFrames = 3
+	}
+}

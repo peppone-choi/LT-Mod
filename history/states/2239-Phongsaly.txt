@@ -1,0 +1,20 @@
+state = {
+	id = 2239
+	name = "STATE_2239"
+
+	history = {
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		12392 12433 19059
+	}
+	manpower = 58006
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

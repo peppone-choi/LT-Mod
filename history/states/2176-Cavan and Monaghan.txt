@@ -1,0 +1,20 @@
+state = {
+	id = 2176
+	name = "STATE_2176"
+
+	history = {
+		owner = IRE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRE
+	}
+
+	provinces = {
+		11303 18603 18604
+	}
+	manpower = 103682
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

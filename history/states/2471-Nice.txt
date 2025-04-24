@@ -1,0 +1,36 @@
+state = {
+	id = 2471
+	name = "STATE_2471"
+	manpower = 427167
+
+	state_category = town
+
+	resources = {
+		steel = 2
+		aluminium = 2
+	}
+
+	history = {
+		owner = ITA
+		victory_points = { 13583 15 }
+		buildings = {
+			barracks = 1
+			infrastructure = 5
+			dockyard = 1
+			13583 = {
+				naval_base = 2
+			}
+			schools = 1
+		}
+		add_core_of = ITA
+		add_core_of = FRS
+		add_claim_by = FFR
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_large_city
+		set_state_flag = GDP_regions_liguria
+	}
+
+	provinces = {
+		13583 14639
+	}
+}

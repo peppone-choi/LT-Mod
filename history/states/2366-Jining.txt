@@ -1,0 +1,40 @@
+state = {
+	id = 2366
+	name = "STATE_2366"
+	resources = {
+		steel = 4.000
+		oil = 12.000
+		uranium = 2.000
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			9956 5
+		}
+		victory_points = {
+			12015 5
+		}
+		victory_points = {
+			19812 3
+		}
+		victory_points = {
+			19867 10
+		}
+		set_state_flag = GDP_regions_shandong_taiyue
+		set_variable = { china_state_ref = 12 }
+		set_variable = { china_region_ref = 1 }
+	}
+
+	provinces = {
+		9956 10043 12015 19812 19867 17959
+	}
+	manpower = 6576178
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

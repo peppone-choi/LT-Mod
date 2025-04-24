@@ -1,0 +1,35 @@
+state = {
+	id = 1340
+	name = "STATE_1340"
+	resources = {
+		rubber = 8.000
+	}
+
+	history = {
+		owner = AZH
+		victory_points = {
+			16120 15
+		}
+		victory_points = {
+			16121 1
+		}
+		victory_points = {
+			10349 3
+		}
+		buildings = {
+			infrastructure = 3
+			schools = 1
+		}
+		add_core_of = AZH
+		add_claim_by = IND
+		set_state_flag = GDP_regions_assam
+	}
+
+	provinces = {
+		10349 16120 16121 18848
+	}
+	manpower = 4252365
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

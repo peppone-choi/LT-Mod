@@ -1,0 +1,27 @@
+state = {
+	id = 1140
+	name = "STATE_1140"
+	resources = {
+		oil = 4.000
+	}
+
+	history = {
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12866 1
+		}
+		add_core_of = LBA
+		set_state_flag = GDP_regions_libya
+	}
+
+	provinces = {
+		1994 7985 10754 12082 12866 14359 14370 14375 16181 17974
+	}
+	manpower = 13452
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

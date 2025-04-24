@@ -1,0 +1,983 @@
+### Dirty War ###
+defined_text = {
+	name = MEX_DW_Get_Recruitable_Unit_Name
+	text = {
+		trigger = {
+			set_temp_variable = { temp_unit_name = unit_idx }
+		}
+		localization_key = [MEX_DW_unit_desc_name]
+	}
+	text = {
+		localization_key = "Error"
+	}
+}
+defined_text = {
+	name = MEX_DW_Get_EVENT_TIME_BEFORE
+	text = {
+		trigger = {
+			set_temp_variable = { DATEOFEVENT = GLOBAL.num_days }
+			subtract_from_temp_variable = { DATEOFEVENT = event_time@var:display_date }
+
+		}
+		localization_key = "[?DATEOFEVENT]"
+	}
+}
+defined_text = {
+	name = MEX_DW_Get_Recruitable_Unit_Cost
+	text = {
+		trigger = {
+			check_variable = { unit_idx = SOLDIER }
+		}
+		localization_key = "Error"
+	}
+}
+defined_text = {
+	name = MEX_DW_unit_select
+	text = {
+		trigger = {
+			set_temp_variable = { temp_unit = MEX_DW_unit_log^action_idx }
+			check_variable = { temp_unit:MEX_DW_alliegance = MEX.government }
+		}
+		localization_key = MEX_DW_unit_select_tooltip
+	}
+	text = {
+		localization_key = "Enemy Unit"
+	}
+}
+defined_text = {
+	name = MEX_DW_unit_desc
+	text = {
+		trigger = {
+			set_temp_variable = { temp_unit_name = MEX_DW_unit_log_name^action_idx }
+			set_temp_variable = { temp_unit_num = MEX_DW_unit_log_num^action_idx }
+			set_temp_variable = { temp_unit_nodes_moveable = MEX_DW_unit_log_nodes^action_idx }
+		}
+		localization_key = MEX_DW_show_unit
+	}
+}
+defined_text = {
+	name = MEX_DW_Get_Unit_over_node_icon
+	text = {
+		trigger = {
+			MEX = {
+				set_temp_variable = { holddd = MEX_DW_zoom_array^0 }
+			}
+			check_variable = { unit_idx:MEX_DW_UNIT_TYPE = MEX.SOLDIER }
+		}
+		localization_key = "GFX_MEX_DW_soldat_in_node_[?holddd]"
+	}
+	text = {
+		trigger = {
+			check_variable = { unit_idx:MEX_DW_UNIT_TYPE = MEX.DFS_AGENTS }
+		}
+		localization_key = "GFX_MEX_DW_dfs_in_node_[?holddd]"
+	}
+	text = {
+		trigger = {
+			check_variable = { unit_idx:MEX_DW_UNIT_TYPE = MEX.FJP }
+		}
+		localization_key = "GFX_MEX_DW_police_in_node_[?holddd]"
+	}
+	text = {
+		trigger = {
+			check_variable = { unit_idx:MEX_DW_UNIT_TYPE = MEX.AIR_STRIKE }
+		}
+		localization_key = "GFX_MEX_DW_jet_in_node_[?holddd]"
+	}
+}
+defined_text = {
+	name = MEX_DW_show_soldier_units
+	text = {
+		trigger = {
+			set_temp_variable = { hold = 0 }
+			set_temp_variable = { TYPE = token:MEX_UNIT_SOLDIER}
+		}
+		localization_key = "[MEX_DW_check_if_soldier]"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_check_if_soldier
+	text = {
+		trigger = {
+			MEX_dw_are_units_in_node = yes
+		}
+		localization_key = MEX_DW_Units_In_Node_Soldiers
+	}
+	text = {
+		trigger = {
+			add_to_temp_variable = { hold = 1 }
+			check_variable = { hold < MEX_DW_node_units^num }
+		}
+		localization_key = [MEX_DW_check_if_soldier]
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = MEX_DW_show_dfs_units
+	text = {
+		trigger = {
+			set_temp_variable = { hold = 0 }
+			set_temp_variable = { TYPE = token:MEX_UNIT_DFS_AGENT}
+		}
+		localization_key = "[MEX_DW_check_if_dfs]"
+	}
+}
+defined_text = {
+	name = MEX_DW_check_if_dfs
+	text = {
+		trigger = {
+			MEX_dw_are_units_in_node = yes
+		}
+		localization_key = MEX_DW_Units_In_Node_DFS
+	}
+	text = {
+		trigger = {
+			add_to_temp_variable = { hold = 1 }
+			check_variable = { hold < MEX_DW_node_units^num }
+		}
+		localization_key = [MEX_DW_check_if_dfs]
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = MEX_DW_show_police_units
+	text = {
+		trigger = {
+			set_temp_variable = { hold = 0 }
+			set_temp_variable = { TYPE = token:MEX_UNIT_FJP }
+		}
+		localization_key = "[MEX_DW_check_if_police]"
+	}
+}
+defined_text = {
+	name = MEX_DW_check_if_police
+	text = {
+		trigger = {
+			MEX_dw_are_units_in_node = yes
+		}
+		localization_key = MEX_DW_Units_In_Node_Police
+	}
+	text = {
+		trigger = {
+			add_to_temp_variable = { hold = 1 }
+			check_variable = { hold < MEX_DW_node_units^num }
+		}
+		localization_key = [MEX_DW_check_if_police]
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = MEX_DW_show_jets_units
+	text = {
+		trigger = {
+			set_temp_variable = { hold = 0 }
+			set_temp_variable = { TYPE = token:MEX_UNIT_AIR_STRIKE }
+		}
+		localization_key = "[MEX_DW_check_if_jets]"
+	}
+}
+defined_text = {
+	name = MEX_DW_check_if_jets
+	text = {
+		trigger = {
+			MEX_dw_are_units_in_node = yes
+		}
+		localization_key = MEX_DW_Units_In_Node_Jets
+	}
+	text = {
+		trigger = {
+			add_to_temp_variable = { hold = 1 }
+			check_variable = { hold < MEX_DW_node_units^num }
+		}
+		localization_key = [MEX_DW_check_if_jets]
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = MEX_DW_show_unit_icon
+	text = {
+		trigger = {
+			var:unit = {
+				meta_trigger = {
+					text = {
+						set_temp_variable = { test = token:[THING] }
+					}
+					THING = "[?MEX_DW_UNIT_TYPE.GetTokenKey]"
+				}
+			}
+		}
+		localization_key = "[?test.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = MEX_DW_Get_Base_Node_Dist
+	text = {
+		trigger = {
+			set_temp_variable = { test = MEX_DW_UNIT_TYPE }
+			MEX = {
+				set_temp_variable = { swag = base_node_dist@var:test }
+			}
+		}
+		localization_key = "[?swag]"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_Get_Pie_Frame
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = {
+					set_temp_variable = { frame = [FACTION_VALUE]_control_frame }
+				}
+				FACTION_VALUE = "[?MEX_DW_ALL_GROUPS_v.GetTokenKey]"
+			}
+		}
+		localization_key = "[?frame]"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_zoom_level
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_zoom_array^0 = 0 }
+		}
+		localization_key = TNO_MEX_Dirty_War_Zoom_0
+	}
+	text = {
+		trigger = {
+			check_variable = {  MEX_DW_zoom_array^0 = 1 }
+		}
+		localization_key = TNO_MEX_Dirty_War_Zoom_1
+	}
+	text = {
+		trigger = {
+			check_variable = {  MEX_DW_zoom_array^0 = 2 }
+		}
+		localization_key = TNO_MEX_Dirty_War_Zoom_2
+	}
+	text = {
+		localization_key = TNO_MEX_Dirty_War_Zoom_3
+	}
+}
+defined_text = {
+	name = MEX_DW_connection
+	text = {
+		trigger = {
+			set_temp_variable = { start =  MEX_DW_rendered_connections_start^connection_idx }
+			set_temp_variable = { end =  MEX_DW_rendered_connections_end^connection_idx }
+
+			AND = {
+				is_in_array = {
+					array = path
+					value = start
+				}
+				is_in_array = {
+					array = path
+					value = end
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_green
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { start_group = start:MEX_DW_controller }
+			set_temp_variable = { end_group = end:MEX_DW_controller }
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+			OR = {
+				NOT = { MEX_dw_is_connection_allegence_known = yes }
+				NOT = { check_variable = { end_group = start_group } }
+				OR = {
+					check_variable = { start:MEX_DW_controller = 0 }
+					check_variable = { end:MEX_DW_controller = 0 }
+				}
+			}
+
+		}
+		localization_key = GFX_MEX_DW_map_connection_grey_bold
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { start_group = start:MEX_DW_controller }
+			set_temp_variable = { end_group = end:MEX_DW_controller }
+			OR = {
+				NOT = { MEX_dw_is_connection_allegence_known = yes }
+				NOT = { check_variable = { end_group = start_group } }
+				OR = {
+					check_variable = { start:MEX_DW_controller = 0 }
+					check_variable = { end:MEX_DW_controller = 0 }
+				}
+				AND = {
+					NOT = {
+						is_in_array = {
+							array = MEX.MEX_DW_Regions_Focusing
+							value = start:MEX_DW_region
+						}
+					}
+					NOT = {
+						is_in_array = {
+							array = MEX.MEX_DW_Regions_Focusing
+							value = end:MEX_DW_region
+						}
+					}
+					check_variable = { MEX.MEX_DW_Regions_Focusing^num > 0 }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_grey
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 1 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_red_arrow_bold
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 1 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_red_arrow_bold_2
+	}
+
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 1 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_red_bold
+	}
+
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 1 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_red_arrow
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 1 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_red_arrow_2
+	}
+
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 1 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+		}
+		localization_key = GFX_MEX_DW_map_connection_red
+	}
+
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 2 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_brown_arrow_bold
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 2 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_brown_arrow_bold_2
+	}
+
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 2 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_brown_bold
+	}
+
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 2 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_brown_arrow
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 2 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+			OR = {
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 1 }
+					check_variable = { end:MEX_DW_parent = start }
+				}
+				AND = {
+					check_variable = { MEX_DW_rendered_connections_f2s^connection_idx = 0 }
+					check_variable = { start:MEX_DW_parent = end }
+				}
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_brown_arrow_2
+	}
+
+	text = {
+		trigger = {
+			set_temp_variable = { START_CONTROLLER = start:MEX_DW_controller }
+			check_variable = { factional_allignment@var:START_CONTROLLER = 2 }
+			check_variable = { end:MEX_DW_controller = start:MEX_DW_controller }
+		}
+		localization_key = GFX_MEX_DW_map_connection_brown
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { start = MEX_DW_selected_location }
+				check_variable = { end = MEX_DW_selected_location }
+			}
+		}
+		localization_key = GFX_MEX_DW_map_connection_bold
+	}
+	text = {
+		localization_key = GFX_MEX_DW_map_connection
+	}
+}
+
+defined_text = {
+	name = MEX_DW_Get_Factional_Allignment
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_GROUP_v = 3 }
+		}
+		localization_key = [?MEX_DW_GROUP_v]
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { fac_all_value = factional_allignment@var:MEX_DW_GROUP_v }
+		}
+		localization_key = [?fac_all_value]
+	}
+}
+defined_text = {
+	name = MEX_DW_Actions_Text_Color
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_ev_ac_click = 1 }
+		}
+		localization_key = MEX_DW_Actions_Bold
+	}
+	text = {
+		localization_key = "Operations"
+	}
+}
+defined_text = {
+	name = MEX_DW_Events_Text_Color
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_ev_ac_click = 0 }
+		}
+		localization_key = MEX_DW_Events_Bold
+	}
+	text = {
+		localization_key = "Events"
+	}
+}
+defined_text = {
+	name = MEX_DW_location_icon
+	text = {
+		trigger = {
+			NOT = {
+				is_in_array = {
+					array = MEX.MEX_DW_Regions_Focusing
+					value = MEX_DW_region
+				}
+			}
+			check_variable = { MEX.MEX_DW_Regions_Focusing^num > 0}
+		}
+		localization_key = GFX_MEX_DW_node_glitchy_unfocused
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { mod_res = location_id }
+			modulo_temp_variable = { mod_res = 4 }
+			check_variable = { mod_res = 0 }
+			NOT = { MEX_dw_is_node_allegence_known = yes }
+		}
+		localization_key = GFX_MEX_DW_node_glitchy
+	}
+	text = {
+		trigger = {
+			check_variable = { mod_res = 1 }
+			NOT = { MEX_dw_is_node_allegence_known = yes }
+		}
+		localization_key = GFX_MEX_DW_node_glitchy_2
+	}
+	text = {
+		trigger = {
+			check_variable = { mod_res = 2 }
+			NOT = { MEX_dw_is_node_allegence_known = yes }
+		}
+		localization_key = GFX_MEX_DW_node_glitchy
+	}
+	text = {
+		trigger = {
+			NOT = { MEX_dw_is_node_allegence_known = yes }
+		}
+		localization_key = GFX_MEX_DW_node_glitchy_4
+	}
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_controller = 0 }
+		}
+		localization_key = GFX_MEX_DW_node_glitchy_4
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { what_is_node_type = MEX_DW_node_type }
+			set_temp_variable = { who_is_controlling = MEX_DW_controller }
+			MEX = {
+				set_temp_variable = { who_is_alligned = factional_allignment@var:who_is_controlling }
+			}
+
+		}
+		localization_key = "GFX_MEX_DW_node_[?what_is_node_type]_[?who_is_alligned]"
+	}
+	text = {
+		localization_key = GFX_MEX_DW_node_0_0
+	}
+}
+
+defined_text = {
+	name = MEX_DW_should_show_stronghold_tt
+	text = {
+		trigger = {
+			MEX_dw_is_node_allegence_known = yes
+		}
+		localization_key = MEX_DW_stronghold_tt
+	}
+	text = {
+		localization_key = MEX_DW_town_tooltip
+	}
+}
+
+defined_text = {
+	name = MEX_DW_toggle_fog_of_war_scripted
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_fog_of_war_enabled < 2 }
+		}
+		localization_key = MEX_dw_toggle_fog_off_tooltip
+	}
+	text = {
+		localization_key = MEX_dw_toggle_fog_on_tooltip
+	}
+}
+defined_text = {
+	name = MEX_DW_Show_Units_Or_Conention
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_selected_location:Is_In_Battle > 0 }
+		}
+		localization_key = dw_node_active_contention
+	}
+	text = {
+		localization_key = dw_node_active_units
+	}
+}
+defined_text = {
+	name = MEX_DW_get_node_supply_through
+	text = {
+		trigger = {
+			set_temp_variable = { total_supply = 0 }
+			all_of = {
+				array = MEX_DW_supply_through
+				value = i
+				add_to_temp_variable = { total_supply = i }
+			}
+		}
+		localization_key = "[?total_supply]"
+	}
+}
+defined_text = {
+	name = MEX_DW_SHOULD_SHOW_SUPPLY_INFO
+	text = {
+		trigger = {
+			set_temp_variable = { node_thing_cntrller = MEX_DW_controller }
+			MEX = {
+				set_temp_variable = { wowoowowow = factional_allignment@var:node_thing_cntrller }
+			}
+			check_variable = { wowoowowow > 0 }
+		}
+		localization_key = "MEX_DW_town_show_enemy_supply"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = MEX_DW_days_ago
+	text = {
+		trigger = {
+			set_temp_variable = { difference = GLOBAL.date }
+			subtract_from_temp_variable = { difference = display_date }
+			check_variable = { difference < 0.024 }
+			set_temp_variable = { display_hours = difference }
+			multiply_temp_variable = { display_hours = 1000 }
+			check_variable = { display_hours = 1 }
+		}
+		localization_key = MEX_DW_date_hour
+	}
+	text = {
+		trigger = {
+			check_variable = { difference < 0.024 }
+		}
+		localization_key = MEX_DW_date_hours
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { display_days = difference }
+			divide_temp_variable = { display_days = 0.024 }
+			round_temp_variable = display_days
+			check_variable = { display_days = 1 }
+		}
+		localization_key = MEX_DW_date_day
+	}
+	text = {
+		localization_key = MEX_DW_date_days
+	}
+}
+
+defined_text = {
+	name = MEX_DW_location_tooltip
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_node_type = MEX.STRONGHOLD }
+		}
+		localization_key = MEX_DW_stronghold_tooltip
+	}
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_node_type = MEX.CITY }
+		}
+		localization_key = MEX_DW_city_tooltip
+	}
+	text = {
+		localization_key = MEX_DW_town_tooltip
+	}
+}
+
+
+defined_text = {
+	name = MEX_DW_location_controller_name
+	text = {
+		trigger = {
+			NOT = { MEX_dw_is_node_allegence_known = yes }
+		}
+		localization_key = "Unknown"
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { temp_faction = MEX_DW_controller }
+		}
+		localization_key = MEX_DW_location_controller_name_inner
+	}
+
+}
+defined_text = {
+	name = MEX_DW_GROUP_FIND_FACTION
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_GROUP_v = 3 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = "[?MEX_DW_GROUP_v.GetTokenLocalizedKey]"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_faction_name
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_controller = 0 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = "[?MEX_DW_controller.GetTokenKey]_node_tt"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_Get_Unit_EQ_Recruit
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = {
+					set_temp_variable = { code_name_locket = token:[EQ_DW_NAME_LOC_VALUE]_code_name }
+					set_temp_variable = { actual_value_to_display = MEX_DW_[ACTUAL_UNIT_NAME_VALUE]_unit_calc_val^eq_required_i }
+				}
+				EQ_DW_NAME_LOC_VALUE = "[?eq_required_v.GetTokenKey]"
+				ACTUAL_UNIT_NAME_VALUE = "[?MEX_DW_recruit_unit_button_array_value.GetTokenKey]"
+			}
+		}
+		localization_key = "[?eq_required_v.GetTokenLocalizedKey]: [?actual_value_to_display]"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_FindReasonForFac
+	text = {
+		localization_key = "MEX_DW_FACTION_TOWN_REASON_[?Reason_for_inf@var:MEX_DW_GROUP_v]"
+	}
+}
+defined_text = {
+	name = MEX_DW_Get_Node_Terrain
+	text = {
+		trigger = {
+			set_temp_variable = { temp_valueee =  MEX_DW_terrain }
+		}
+		localization_key = "MEX_DW_terrain_[?temp_valueee]"
+	}
+}
+defined_text = { 
+	name = MEX_DW_Get_Node_Region
+	text = {
+		trigger = {
+			set_temp_variable = { temp_valueregion =  MEX_DW_region }
+		}
+		localization_key = "MEX_DW_region_[?temp_valueregion]"
+	}
+}
+defined_text = {
+	name = MEX_DW_Event_Scrip_loc
+	text = {
+		trigger = {
+			set_temp_variable = { value_of_ev_loc_type = event_type@var:display_date }
+		}
+		localization_key = "[?value_of_ev_loc_type.GetTokenLocalizedKey]"
+	}
+}
+defined_text = {
+	name = MEX_DW_faction_name_event_tt
+	text = {
+		trigger = {
+			set_temp_variable = { node_faction_value_thing = node_faction_taking@var:display_date }
+		}
+		localization_key = "[?node_faction_value_thing.GetTokenKey]_node_tt"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_location_name_event_tt
+	text = {
+		trigger = {
+			set_temp_variable = { location_id = node_value_to_take@var:display_date }
+		}
+		localization_key = "[MEX_DW_location_name]"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_faction_good_bad
+	text = {
+		trigger = {
+			check_variable = { node_faction_taking@var:display_date = token:MEX_Faction_GOVERNMENT }
+		}
+		localization_key = MEX_DW_Government_Retake_Node_Good
+	}
+	text = {
+		localization_key = MEX_DW_Government_Retake_Node_Bad
+	}
+}
+defined_text = {
+	name = MEX_DW_GET_BATTLE_LEAN_FACS
+	text = {
+		trigger = {
+			set_temp_variable = { first = MEX_DW_selected_location:MEX_DW_First_Group_Units^0 }
+			set_temp_variable = { second = MEX_DW_selected_location:MEX_DW_Second_Group_Units^0 }
+			set_temp_variable = { first = first:MEX_DW_alliegance }
+			set_temp_variable = { second = second:MEX_DW_alliegance }
+		}
+		localization_key = "[?factional_allignment@var:first]_[?factional_allignment@var:second]"
+	}
+}
+defined_text = {
+	name = MEX_DW_Battle_Get_Faction_Allignment
+	text = {
+		trigger = { 
+			set_temp_variable = { temp_fac = MEX_DW_selected_location:MEX_DW_Battle_First_Group }
+		}
+		localization_key = "GFX_[?temp_fac.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = MEX_DW_Battle_Get_Faction_Allignment_2
+	text = {
+		trigger = { 
+			set_temp_variable = { temp_fac = MEX_DW_selected_location:MEX_DW_Battle_Second_Group }
+		}
+		localization_key = "GFX_[?temp_fac.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = MEX_DW_Get_Fac_Node_tt
+	text = {
+		trigger = {
+			check_variable = { MEX_DW_GROUP_v = 3 }
+		}
+		localization_key = ""
+	}
+	text = {
+		localization_key = "[?MEX_DW_GROUP_v.GetTokenKey]_node_tt"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_get_selected_location
+	text = {
+		trigger = {
+			set_temp_variable = { location_id = MEX.MEX_DW_selected_location }
+			check_variable = { location_id > 0 }
+		}
+		localization_key = [MEX_DW_location_name]
+	}
+	text = {
+		localization_key = "0"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_location_name
+	text = {
+		localization_key = "MEX_DW_location_[?location_id]"
+	}
+}
+
+defined_text = {
+	name = MEX_DW_action_desc_location_names
+	text = {
+		localization_key = "MEX_DW_location_[?MEX_DW_action_log_targets^action_idx]"
+	}
+}

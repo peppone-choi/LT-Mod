@@ -1,0 +1,34 @@
+state = {
+	id = 1129
+	name = "STATE_1129"
+
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14089 1
+		}
+		victory_points = {
+			18522 1
+		}
+		victory_points = {
+			18536 1
+		}
+		set_state_flag = GDP_regions_sudan
+	}
+
+	provinces = {
+		10908 12800 14089 14130 18522 18525 18528 18529 18533 18535 18536
+	}
+	manpower = 690229
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

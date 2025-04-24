@@ -1,0 +1,175 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Grid"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Grid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Image1.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Unavailable.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Malaysia.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Malaysia.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Malaysia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Malaysia.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Malaysia.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Malaysia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Malaysia.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Malaysia.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Malaysia"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Malaysia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Madagascar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Madagascar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Madagascar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Madagascar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Madagascar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Madagascar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Madagascar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Madagascar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Madagascar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Madagascar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_Philippines.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_Philippines.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_Philippines.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_Philippines.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_Philippines.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_Philippines.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_Philippines.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_Philippines.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Philippines"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_Philippines.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image1_SAW.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image2_SAW.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Planning_Phase_Image3_SAW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image1_SAW.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image2_SAW.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Execution_Phase_Image3_SAW.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1_SAW.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2_SAW.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_SAW"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3_SAW.dds"
+	}
+}

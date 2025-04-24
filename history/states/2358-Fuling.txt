@@ -1,0 +1,32 @@
+state = {
+	id = 2358
+	name = "STATE_2358"
+
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4141 5
+		}
+		victory_points = {
+			15708 4
+		}
+		victory_points = {
+			19496 5
+		}
+		set_state_flag = GDP_regions_chuandong
+		set_variable = { china_state_ref = 16 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		4141 19496 10304 19784 19645 10822 19690 15708
+	}
+	manpower = 3886426
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

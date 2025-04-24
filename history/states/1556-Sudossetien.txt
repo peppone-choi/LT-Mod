@@ -1,0 +1,29 @@
+state = {
+	id = 1556
+	name = "STATE_1556"
+	resources = {
+		chromium = 4.000
+	}
+
+	history = {
+		owner = CAU
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			15133 2
+		}
+		add_core_of = CAU
+		set_state_flag = GDP_regions_georgia
+		set_state_flag = GDP_category_large_town
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		11609 15133 18340
+	}
+	manpower = 97628
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

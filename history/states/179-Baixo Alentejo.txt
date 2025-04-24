@@ -1,0 +1,23 @@
+state = {
+	id = 179
+	name = "STATE_179"
+
+	history = {
+		owner = POR
+		victory_points = { 6933 2 }
+		buildings = {
+			hospitals = 1
+			infrastructure = 4
+			air_base = 1
+		}
+		add_core_of = POR
+		set_state_flag = GDP_regions_portugal
+	}
+
+	provinces = {
+		980 3866 6884 6933 9765 9819
+	}
+	manpower = 538935
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

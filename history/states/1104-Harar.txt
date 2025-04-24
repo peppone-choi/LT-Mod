@@ -1,0 +1,27 @@
+state = {
+	id = 1104
+	name = "STATE_1104"
+
+	history = {
+		owner = IEA
+		add_core_of = IEA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			14101 10
+		}
+		victory_points = {
+			12714 5
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		7980 12714 14043 14060 14101 15550 15551 15561 17900
+	}
+	manpower = 1314047
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

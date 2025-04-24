@@ -1,0 +1,31 @@
+state = {
+	id = 1662
+	name = "STATE_1662"
+	resources = {
+		aluminium = 6.000
+		chromium = 6.000
+	}
+
+	history = {
+		owner = CLC
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		victory_points = {
+			15314 10
+		}
+		buildings = {
+			infrastructure = 2
+			prisons = 1
+			barracks = 1
+		}
+	}
+
+	provinces = {
+		2330 2354 2435 2560 2566 7936 15313 15314 17358 17367
+	}
+	manpower = 555200
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

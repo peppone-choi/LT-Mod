@@ -1,0 +1,21 @@
+state = {
+	id = 2493
+	name = "STATE_2493"
+
+	state_category = tiny_island
+
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+		}
+	}
+
+	provinces = {
+		19965
+	}
+	manpower = 816
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 45
+	name = "STATE_45"
+	resources = {
+		oil = 2.000
+	}
+
+	history = {
+		owner = HUN
+		buildings = {
+			infrastructure = 5
+			barracks = 1
+			hospitals = 1
+		}
+		add_core_of = HUN
+		add_core_of = SER
+		victory_points = {
+			9621 10
+		}
+		victory_points = {
+			3617 10
+		}
+		victory_points = {
+			3623 9
+		}
+		victory_points = {
+			6670 3
+		}
+	}
+
+	provinces = {
+		619 3617 3623 6670 9621
+	}
+	manpower = 868675
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,51 @@
+state = {
+	id = 238
+	name = "STATE_238"
+
+	history = {
+		owner = GOR
+		victory_points = {
+			6247 10
+		}
+		victory_points = {
+			9267 5
+		}
+		victory_points = {
+			6356 3
+		}
+		victory_points = {
+			9356 1
+		}
+		victory_points = {
+			9257 5
+		}
+		victory_points = {
+			11295 5
+		}
+		victory_points = {
+			6269 1
+		}
+		victory_points = {
+			3268 8
+		}
+		victory_points = {
+			378 10
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			prisons = 2
+		}
+		add_core_of = GOR
+		add_core_of = MCW
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		280 346 357 378 3116 3202 3240 3268 3347 3370 6135 6231 6247 6269 6295 6316 6356 6358 6370 9257 9267 9278 9311 9356 11239 11252 11295 11338 18248 18249 18278 18285
+	}
+	manpower = 2364615
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

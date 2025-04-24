@@ -1,0 +1,32 @@
+state = {
+	id = 913
+	name = "STATE_913"
+
+	resources = {
+		oil = 8
+	}
+
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 2
+			2103 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		victory_points = {
+			2103 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		2018 2059 2103 13433 13435 13436 13438 18576
+	}
+	manpower = 53547
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

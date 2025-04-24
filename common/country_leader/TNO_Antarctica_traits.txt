@@ -1,0 +1,318 @@
+leader_traits = {
+	# Country leader traits
+	Antarctic_Admiral = {
+		political_power_gain = 0.10
+		research_speed_factor = 0.05
+		naval_coordination = 0.10
+		navy_capital_ship_attack_factor = 0.05
+		navy_capital_ship_defence_factor = 0.05
+		
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Prefet_des_Alfreds = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Spirit_of_Exploration = {
+		political_power_gain = -0.05
+		planning_speed = 0.10
+		org_loss_when_moving = -0.25
+		recon_factor = 0.05
+		
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Reichsgeschaftsfuhrer_des_Ahnenerbe = {
+		research_speed_factor = -0.05
+		encryption = 0.15
+		stability_factor = 0.05
+		
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Antarctic_Diplomat = {
+		political_power_gain = 0.15
+		stability_factor = 0.1
+		trade_opinion_factor = 0.05
+		
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Seasoned_Airman = {
+		air_accidents_factor = -0.05
+		air_weather_penalty = -0.10
+		air_night_penalty = -0.10
+		recon_factor = 0.05
+		
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Desperate_Leadership = {
+		political_power_gain = -0.3
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Antarctic_General = {
+		special_forces_attack_factor = 0.1
+		special_forces_defence_factor = 0.1
+		
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# High command traits
+	high_command_AAG_experience_gain = {
+		sprite = 5
+		experience_gain_army = 0.05
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	navy_chief_AAG_experience_gain = {
+		sprite = 5
+		experience_gain_navy = 0.05
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	air_chief_AAG_experience_gain = {
+		sprite = 5
+		experience_gain_air = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	# Division mechanic traits
+	AAG_Hans_Degen_Planned_Training = {
+		sprite = 5
+		army_org_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Hans_Degen_Rapid_Training = {
+		sprite = 5
+		experience_gain_army_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Hans_Degen_Maneuver_Training = {
+		sprite = 5
+		org_loss_when_moving = -0.2
+		army_speed_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Hans_Degen_Defense_Training = {
+		sprite = 5
+		army_defence_factor = 0.1
+		max_planning_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Hans_Degen_Attack_Training = {
+		sprite = 5
+		army_attack_factor = 0.1
+		breakthrough_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Hans_Degen_Supply_Assurances = {
+		sprite = 5
+		army_org_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Entrenchment_Speed = {
+		sprite = 5
+		dig_in_speed_factor = 0.1
+		recon_factor_while_entrenched = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Entrenchment_Depth = {
+		sprite = 5
+		max_dig_in_factor = 0.1
+		cas_damage_reduction = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Environment_Training = {
+		sprite = 5
+		terrain_penalty_reduction = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Night_Attack_Training = {
+		sprite = 5
+		land_night_attack = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Sorted_Supplies = {
+		sprite = 5
+		supply_consumption_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Planned_Offensives = {
+		sprite = 5
+		planning_speed = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Alfred_Kottas_Naval_Supplies = {
+		sprite = 5
+		no_supply_grace = 168
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Franz_Preuschoff_Air_Supplies = {
+		sprite = 5
+		air_cas_present_factor = 0.1
+		army_bonus_air_superiority_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Prepared_for_Encirclements = {
+		sprite = 5
+		out_of_supply_factor = -0.1
+		pocket_penalty = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Prepared_for_Defense = {
+		sprite = 5
+		army_org_factor = 0.1
+		attrition = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Hot_Climate_Training = {
+		sprite = 5
+		acclimatization_hot_climate_gain_factor = 0.25
+		recon_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Cold_Climate_Training = {
+		sprite = 5
+		acclimatization_cold_climate_gain_factor = 0.25
+		winter_attrition_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Erwin_Fussenegger_Speed_Training = {
+		sprite = 5
+		army_speed_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Erwin_Fussenegger_Attack_Training = {
+		sprite = 5
+		army_attack_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Erwin_Fussenegger_Army_Organization_Training = {
+		sprite = 5
+		army_org_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Erwin_Fussenegger_Extra_Training = {
+		sprite = 5
+		experience_gain_army_unit_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Erwin_Fussenegger_Rested_and_Ready = {
+		sprite = 5
+		army_org_regain = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Eduard_Zorn_Experience_Retention = {
+		sprite = 5
+		experience_loss_factor = -1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_William_Robertson_Experience_Retention = {
+		sprite = 5
+		experience_loss_factor = -1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

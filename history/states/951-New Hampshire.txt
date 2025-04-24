@@ -1,0 +1,30 @@
+state = {
+	id = 951
+	name = "STATE_951"
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			schools = 1
+			prisons = 1
+			offices = 2
+			infrastructure = 5
+		}
+		victory_points = { # Manchester
+			3712 5
+		}
+		victory_points = { # Concord
+			3715 5
+		}
+		set_state_flag = GDP_regions_new_england
+	}
+
+	provinces = {
+		733 3712 3715 10481
+	}
+	manpower = 632000
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 1789
+	name = "STATE_1789"
+
+	state_category = rural
+
+	resources = {
+		oil = 6
+	}
+
+	history = {
+		owner = GUL
+		add_core_of = GUL
+		victory_points = { 15806 5 }
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+			15806 = {
+				naval_base = 2
+			}
+			air_base = 1
+			synthetic_refinery = 1
+		}
+		add_extra_state_shared_building_slots = 1
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		15806
+	}
+	manpower = 173359
+	buildings_max_level_factor = 1.000
+}

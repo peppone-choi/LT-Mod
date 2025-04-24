@@ -1,0 +1,23 @@
+state = {
+	id = 2323
+	name = "STATE_2323"
+	state_category = enclave
+
+	history = {
+		owner = GRE
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = GRE
+		set_demilitarized_zone = yes
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_regions_cyprus
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		19369
+	}
+	manpower = 17984
+	buildings_max_level_factor = 1.000
+}

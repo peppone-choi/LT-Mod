@@ -1,0 +1,43 @@
+state = {
+	id = 2195
+	name = "STATE_2195"
+
+	resources = {
+		uranium = 2
+		tungsten = 12
+		power = 2
+	}
+
+	history = {
+		owner = KYR
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			18685 2
+		}
+		victory_points = {
+			18670 3
+		}
+		victory_points = {
+			18676 4
+		}
+		victory_points = {
+			1459 4
+		}
+		victory_points = {
+			11687 1
+		}
+		add_core_of = UZB
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18685 18676 11687 1459 18670
+	}
+	manpower = 453100
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

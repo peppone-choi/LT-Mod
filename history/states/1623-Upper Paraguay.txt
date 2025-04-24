@@ -1,0 +1,26 @@
+state = {
+	id = 1623
+	name = "STATE_1623"
+
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		add_claim_by = BOL
+		victory_points = {
+			5165 1
+		}
+		buildings = {
+			infrastructure = 1
+			schools = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		5165 17525
+	}
+	manpower = 3854
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

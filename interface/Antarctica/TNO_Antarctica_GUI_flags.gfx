@@ -1,0 +1,54 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_GUI_Flags_Open_Button"
+		textureFile = "gfx/interface/Antarctica_GUI_Flags_Open_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAA"
+		textureFile = "gfx/flags/extra_large/AAA.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAB"
+		textureFile = "gfx/flags/extra_large/AAB.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAB_Large"
+		textureFile = "gfx/flags/extra_large/AAB_Large.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAC"
+		textureFile = "gfx/flags/extra_large/AAC.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAG"
+		textureFile = "gfx/flags/extra_large/AAG.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAI"
+		textureFile = "gfx/flags/extra_large/AAI.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAJ"
+		textureFile = "gfx/flags/extra_large/AAJ.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAO"
+		textureFile = "gfx/flags/extra_large/AAO.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAS"
+		textureFile = "gfx/flags/extra_large/AAS.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAU"
+		textureFile = "gfx/flags/extra_large/AAU.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAZ"
+		textureFile = "gfx/flags/extra_large/AAZ.tga"
+	}
+	spriteType = {
+		name = "GFX_flag_extra_large_AAR"
+		textureFile = "gfx/flags/extra_large/AAR.tga"
+	}
+}

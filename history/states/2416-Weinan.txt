@@ -1,0 +1,35 @@
+state = {
+	id = 2416
+	name = "STATE_2416"
+
+	history = {
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			19617 3
+		}
+		victory_points = {
+			12156 1
+		}
+		victory_points = {
+			5007 3
+		}
+		victory_points = {
+			16864 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_shaanxi
+		set_variable = { china_state_ref = 38 }
+		set_variable = { china_region_ref = 5 }
+	}
+
+	provinces = {
+		7301 19617 12156 16836 5007 16864
+	}
+	manpower = 4450705
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

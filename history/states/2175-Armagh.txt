@@ -1,0 +1,26 @@
+state = {
+	id = 2175
+	name = "STATE_2175"
+
+	history = {
+		owner = ULS
+		victory_points = {
+			3242 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ULS
+		add_core_of = IRE
+		add_claim_by = ENG
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		3242
+	}
+	manpower = 117954
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 1982
+	name = "STATE_1982"
+
+	history = {
+		owner = BUL
+		victory_points = {
+			9612 10
+		}
+		victory_points = {
+			9614 3
+		}
+		victory_points = {
+			18203 2
+		}
+		buildings = {
+			infrastructure = 4
+			offices = 1
+		}
+		add_core_of = BUL
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		649 9612 9614 18203
+	}
+	manpower = 651626
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

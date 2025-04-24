@@ -1,0 +1,25 @@
+state = { #Population + VPs Done
+	id = 824
+	name = "STATE_824"
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			prisons = 1
+			infrastructure = 2
+			air_base = 1
+			barracks = 1
+			7413 = {
+				naval_base = 4
+			}
+		}
+		victory_points = { 7413 1 }
+		set_state_flag = GDP_regions_maluku
+	}
+	provinces = {
+		1419 1437 7369 7413 10141 10342
+	}
+	manpower = 307198
+	state_category = small_island
+	buildings_max_level_factor = 1.000
+}

@@ -1,0 +1,35 @@
+state = { #Population Done
+	id = 3
+	name = "STATE_3"
+	manpower = 1336591
+
+	state_category = town
+
+
+	history = {
+		owner = SWI
+		victory_points = { 18146 15 }
+		victory_points = { 9638 10 }
+		victory_points = { 11604 7 }
+		victory_points = { 9620 2 }
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			offices = 1
+			anti_air_building = 2
+			thermoelectric_plant = 1
+			9638 = {
+				bunker = 6
+			}
+			18146 = {
+				bunker = 4
+			}
+		}
+		add_core_of = SWI
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		9638 18146 9620 11604 11601 18124 9618
+	}
+}

@@ -1,0 +1,37 @@
+state = {
+	id = 425
+	name = "STATE_425"
+	resources = {
+		steel = 6.000
+	}
+
+	history = {
+		owner = IND
+		add_claim_by = AZH
+		add_core_of = IND
+		victory_points = {
+			1359 15
+		}
+		victory_points = {
+			10259 8
+		}
+		victory_points = {
+			10324 7
+		}
+		victory_points = {
+			10799 3
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = GDP_regions_karnataka
+	}
+
+	provinces = {
+		1359 5032 7411 10259 10324 10799 19003
+	}
+	manpower = 4423458
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

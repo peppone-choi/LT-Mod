@@ -1,0 +1,22 @@
+state = {
+	id = 2401
+	name = "STATE_2401"
+
+	impassable = yes
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		set_state_flag = GDP_regions_outer_mongolia
+		set_variable = { china_state_ref = 57 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		10560
+	}
+	manpower = 206
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

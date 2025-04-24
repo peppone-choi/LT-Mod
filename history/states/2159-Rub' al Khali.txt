@@ -1,0 +1,26 @@
+state = {
+	id = 2159
+	name = "STATE_2159"
+	resources = {
+		oil = 8.000
+	}
+
+	impassable = yes
+
+	history = {
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SAU
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		12768
+	}
+	manpower = 314
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

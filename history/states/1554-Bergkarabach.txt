@@ -1,0 +1,26 @@
+state = {
+	id = 1554
+	name = "STATE_1554"
+
+	history = {
+		owner = AZR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			18342 2
+		}
+		add_core_of = AZR
+		set_state_flag = GDP_regions_azerbaijan
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		1467 9715 18342
+	}
+	manpower = 292671
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

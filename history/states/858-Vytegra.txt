@@ -1,0 +1,24 @@
+state = {
+	id = 858
+	name = "STATE_858"
+
+	history = {
+		owner = ONG
+		buildings = {
+			infrastructure = 2
+			barracks = 1
+		}
+		victory_points = {
+			166 1
+		}
+		add_core_of = ONG
+	}
+
+	provinces = {
+		166 3160 6017 11036 11103 18295
+	}
+	manpower = 37000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

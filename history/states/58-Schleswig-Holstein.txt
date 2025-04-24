@@ -1,0 +1,51 @@
+state = {
+	id = 58
+	name = "STATE_58"
+
+	history = {
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			6389 15
+		}
+		victory_points = {
+			317 10
+		}
+		victory_points = {
+			18132 7
+		}
+		victory_points = {
+			11331 10
+		}
+		buildings = {
+			barracks = 1
+			prisons = 1
+			infrastructure = 5
+			dockyard = 3
+			air_base = 5
+			enrichment_plant = 1
+			missile_silo = 1
+			thermoelectric_plant = 2
+			6389 = {
+				naval_base = 8
+			}
+			3368 = {
+				coastal_bunker = 2
+			}
+			3231 = {
+				coastal_bunker = 2
+			}
+			11366 = {
+				coastal_bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+		317 3231 3368 6257 6389 9320 11331 11366 18132
+	}
+	manpower = 2309409
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 556
+	name = "STATE_556"
+	resources = {
+		rubber = 17.000
+		uranium = 2.000
+	}
+
+	history = {
+		owner = SUS
+		add_core_of = SUS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		12802 15392 15907
+	}
+	manpower = 199143
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

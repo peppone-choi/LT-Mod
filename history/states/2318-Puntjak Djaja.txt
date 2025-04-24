@@ -1,0 +1,22 @@
+state = {
+	id = 2318
+	name = "STATE_2318"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 7269 1 }
+		set_state_flag = GDP_regions_west_papua
+	}
+
+	provinces = {
+		7269 10436 19193
+	}
+	manpower = 127040
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

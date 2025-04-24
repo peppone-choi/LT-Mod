@@ -1,0 +1,29 @@
+state = {
+	id = 546
+	name = "STATE_546"
+	resources = {
+		rubber = 2.000
+	}
+
+	history = {
+		owner = GRO
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = GRO
+		victory_points = {
+			12944 3
+		}
+		victory_points = {
+			13834 1
+		}
+	}
+
+	provinces = {
+		8182 12944 13834 13842 13846 17874
+	}
+	manpower = 417847
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

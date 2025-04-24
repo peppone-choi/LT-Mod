@@ -1,0 +1,31 @@
+state = {
+	id = 1946
+	name = "STATE_1946"
+	resources = {
+		steel = 28.000
+	}
+
+	history = {
+		owner = IND
+		victory_points = {
+			7574 10
+		}
+		victory_points = {
+			16083 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_madhya_pradesh
+	}
+
+	provinces = {
+		7574 16083 18984
+	}
+	manpower = 2245917
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

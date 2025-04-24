@@ -1,0 +1,25 @@
+state = {
+	id = 2114
+	name = "STATE_2114"
+
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = SPA
+		victory_points = { 8111 1 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MOR
+		set_state_flag = GDP_regions_morocco
+	}
+
+	provinces = {
+		8038 8111 14384 4920
+	}
+	manpower = 45001
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 166
+	name = "STATE_166"
+	resources = {
+		steel = 25.000
+		uranium = 6.000
+	}
+
+	history = {
+		owner = SPA
+		victory_points = {
+			3816 15
+		}
+		victory_points = {
+			7213 1
+		}
+		victory_points = {
+			948 1
+		}
+		buildings = {
+			offices = 1
+			schools = 1
+			infrastructure = 5
+			air_base = 3
+		}
+		add_core_of = SPA
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		790 798 813 871 948 3816 3909 3954 6901 7213 9812 9813 9840 11737
+	}
+	manpower = 869624
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

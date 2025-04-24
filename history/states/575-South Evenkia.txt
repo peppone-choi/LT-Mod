@@ -1,0 +1,25 @@
+state = {
+	id = 575
+	name = "STATE_575"
+
+	history = {
+		owner = NRL
+		add_core_of = NRL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4812 1
+		}
+		add_extra_state_shared_building_slots = 1
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1741 4703 4743 4812 5109 7805 10631 13341 13349
+	}
+	manpower = 62494
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

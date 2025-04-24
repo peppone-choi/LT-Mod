@@ -1,0 +1,39 @@
+state = {
+	id = 2364
+	name = "STATE_2364"
+
+	resources = {
+		power = 1
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			1169 15
+		}
+		victory_points = {
+			4058 3
+		}
+		victory_points = {
+			12062 6
+		}
+		victory_points = {
+			19849 3
+		}
+		set_state_flag = GDP_regions_hebei_zhongyuan
+		set_variable = { china_state_ref = 11 }
+		set_variable = { china_region_ref = 1 }
+	}
+
+	provinces = {
+		19849 1169 7092 1188 12062 4058
+	}
+	manpower = 6186301
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

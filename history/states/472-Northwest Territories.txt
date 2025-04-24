@@ -1,0 +1,40 @@
+state = {
+	id = 472
+	name = "STATE_472"
+	resources = {
+		aluminium = 5.000
+		oil = 6.000
+		tungsten = 12
+	}
+
+	history = {
+		owner = CAN
+		buildings = {
+			prisons = 1
+			barracks = 1
+			infrastructure = 1
+			radar_station = 4
+			air_base = 2
+			7813 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CAN
+		victory_points = {
+			17211 10
+		}
+		victory_points = {
+			7813 1
+		}
+		set_state_flag = GDP_regions_northwest_territories
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		1712 2407 2947 3691 7696 7813 7830 7901 8962 10527 10703 10721 13075 13188 13189 13190 13191 16845 16847 16852 17160 17169 17178 17181 17201 17202 17206 17207 17211 17215 17218 17219 17221 17222 17233 17246
+	}
+	manpower = 23462
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

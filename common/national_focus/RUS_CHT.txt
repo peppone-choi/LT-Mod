@@ -1,0 +1,140 @@
+focus_tree = {
+	id = RUS_CHT_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHT
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_CHT_focus_1 #블라디보스토크의 전보
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_2 #군사 통치의 유지
+		prerequisite = { focus = RUS_CHT_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_CHT_focus_3
+		}
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_3 #새로운 통치체제
+		prerequisite = { focus = RUS_CHT_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_CHT_focus_2
+		}
+		x = 2
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_4 #숙련된 코사크들
+		prerequisite = { 
+		focus = RUS_CHT_focus_2
+		focus = RUS_CHT_focus_3 }
+		mutually_exclusive = {
+			focus = RUS_CHT_focus_5
+		}
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_5 #새로운 백군
+		prerequisite = { focus = RUS_CHT_focus_2
+		focus = RUS_CHT_focus_3 }
+		mutually_exclusive = {
+			focus = RUS_CHT_focus_4
+		}
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_6 #일본의 정치긴장 이해
+		prerequisite = { 
+		focus = RUS_CHT_focus_4
+		focus = RUS_CHT_focus_5 }
+		mutually_exclusive = {
+			focus = RUS_CHT_focus_7
+		}
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_7 #코사크 관습법의 공식화
+		prerequisite = { 
+		focus = RUS_CHT_focus_6}
+		x = 0
+		y = 4
+		mutually_exclusive = {
+			focus = RUS_CHT_focus_8
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_8 #새로운 제국의 헌법
+		prerequisite = { 
+		focus = RUS_CHT_focus_6}
+		x = 2
+		y = 4
+		mutually_exclusive = {
+			focus = RUS_CHT_focus_7
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_9 #자바이칼 오흐라나의 창설
+		prerequisite = { 
+		focus = RUS_CHT_focus_7
+		focus = RUS_CHT_focus_8 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_10 #농업개혁 논쟁
+		prerequisite = { 
+		focus = RUS_CHT_focus_9 }
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_11 #자바이칼 공업 유치
+		prerequisite = { 
+		focus = RUS_CHT_focus_10 }
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_CHT_focus_12 #차르냐, 기병대냐.
+		prerequisite = { 
+		focus = RUS_CHT_focus_11 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_communism
+	}
+}

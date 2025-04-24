@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAC_Basic_Map"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAC/Antarctica_GUI_AAC_Basic_Map.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAC_Basic_Map_AAA_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAC/Antarctica_GUI_AAC_Basic_Map_AAA_Button.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAC_Basic_Map_AAJ_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAC/Antarctica_GUI_AAC_Basic_Map_AAJ_Button.dds"
+		transparencecheck = yes
+	}
+	
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAC_Progressbar_AAA"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAC/Antarctica_GUI_AAC_Progressbar_AAA.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAC/Antarctica_GUI_AAC_Progressbar_Frame_AAA.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAC_Progressbar_AAJ"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAC/Antarctica_GUI_AAC_Progressbar_AAJ.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAC/Antarctica_GUI_AAC_Progressbar_Frame_AAJ.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

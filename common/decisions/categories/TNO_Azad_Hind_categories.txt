@@ -1,0 +1,11 @@
+AZH_forpol_decisions_category = {
+	icon = GFX_decision_category_generic_control_warlord
+
+	picture = GFX_decision_image_ITA_empire_management
+
+	allowed = {
+		tag = AZH
+	}
+	visible_when_empty = yes
+	priority = 100
+}

@@ -1,0 +1,82 @@
+focus_tree = {
+    id = PRD_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = PRD
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = PRD_focus_1 #내무인민위원회 복구 논쟁
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = PRD_focus_2 #'공작조치'도입
+        prerequisite = {focus = PRD_focus_1}
+        mutually_exclusive = {focus = PRD_focus_3}
+        x = 0
+        y = 1
+    }
+
+
+     focus = {
+        id = PRD_focus_3 #NKVD의 제어
+        prerequisite = {focus = PRD_focus_1}
+        mutually_exclusive = {focus = PRD_focus_2}
+        x = 1
+        y = 1
+    }
+
+    focus = {
+        id = PRD_focus_4 #군사방첩기구 논쟁
+        prerequisite = {focus = PRD_focus_2 focus = PRD_focus_3}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = PRD_focus_5 #어디에건 있고, 어디에건 없다.
+        prerequisite = {focus = PRD_focus_4}
+        x = 0
+        y = 3
+    }
+    
+    focus = {
+        id = PRD_focus_6 #스베들롭스크와의 타협시도
+        prerequisite = {focus = PRD_focus_5}
+        x = 1
+        y = 2
+    }
+
+    focus = {
+        id = PRD_focus_7 #군대개혁위원회 도입
+        prerequisite = {focus = PRD_focus_6}
+        x = 1
+        y = 2
+    }
+    
+
+    focus = {
+        id = PRD_focus_8 #볼고르가와의 협상
+        prerequisite = {focus = PRD_focus_6}
+        x = 1
+        y = 3
+    }
+    
+
+    focus = {
+        id = PRD_focus_9 #새로운 조국 전쟁
+        prerequisite = {focus = PRD_focus_8}
+        x = 1
+        y = 4
+    }
+
+}

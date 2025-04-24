@@ -1,0 +1,32 @@
+state = {
+	id = 2374
+	name = "STATE_2374"
+
+	history = {
+		owner = XIK
+		add_core_of = XIK
+		buildings = {
+			infrastructure = 2
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			8629 10
+		}
+		victory_points = {
+			7988 1
+		}
+		victory_points = {
+			12724 1
+		}
+		set_variable = { china_state_ref = 21 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		1918 1999 4999 7988 8104 8532 8629 12724 12837 13227 15705 15706 19776
+	}
+	manpower = 595451
+	buildings_max_level_factor = 2.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 2071
+	name = "STATE_2071" # Greenwich Island
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAC
+		add_core_of = AAC
+		add_core_of = AAA
+		add_claim_by = ENG
+		victory_points = { 17666 3 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			17666 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		17666
+	}
+}

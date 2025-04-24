@@ -1,0 +1,663 @@
+characters = {
+	# Country leaders #
+	WRS_Lev_Kamenev = {
+		name = WRS_Lev_Kamenev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Lev_Kamenev.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_LEV_KAMENEV_DESC"
+			ideology = communist_bolshevism_subtype
+			id = -1
+		}
+	}
+	
+	WRS_Sergey_Kirov = {
+		name = WRS_Sergey_Kirov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Sergey_Kirov.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_SERGEY_KIROV_DESC"
+			ideology = communist_bolshevism_subtype
+			id = -1
+		}
+	}
+
+	
+	Nikita_Khrushchev = {
+		name = WRS_Nikita_Khrushchev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Nikita_Khrushchev.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_NIKITA_KHRUSHCHEV_DESC"
+			ideology = communist_bolshevism_subtype
+			id = -1
+		}
+	}
+
+	
+	WRS_Mikhail_Suslov = {
+		name = WRS_Mikhail_Suslov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Mikhail_Suslov.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
+			ideology = communist_bolshevism_subtype
+			id = -1
+		}
+	}
+
+	WRS_Lev_Sedov = {
+		name = WRS_Lev_Sedov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Lev_Sedov.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_LEV_SEDOV_DESC"
+			ideology = communist_trotskyism_subtype
+			id = -1
+		}
+	}
+
+	WRS_Power_Vacuum = {
+		name = WRS_Power_Vacuum
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRRF_Power_Vacuum.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			ideology = communist_subtype
+			id = -1
+		}
+	}
+
+	# WRS Ministers
+	WRS_Lev_Kamenev = {
+		name = WRS_Lev_Kamenev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Lev_Kamenev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Lev_Kamenev_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Sergey_Kirov = {
+		name = WRS_Sergey_Kirov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Sergey_Kirov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Sergey_Kirov_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Andrei_Savanin = {
+		name = WRS_Andrei_Savanin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Andrei_Savanin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Andrei_Savanin_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Arthur_Artuchov = {
+		name = WRS_Arthur_Artuchov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Arthur_Artuchov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Arthur_Artuchov_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Nikita_Khrushchev = {
+		name = WRS_Nikita_Khrushchev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Nikita_Khrushchev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Nikita_Khrushchev_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Alexandra_Kollontai = {
+		name = WRS_Alexandra_Kollontai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Alexandra_Kollontai.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Alexandra_Kollontai_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Anastas_Mikoyan = {
+		name = WRS_Anastas_Mikoyan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Anastas_Mikoyan.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Anastas_Mikoyan_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Yuri_Andropov = {
+		name = WRS_Yuri_Andropov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Yuri_Andropov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Yuri_Andropov_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Mikhail_Suslov = {
+		name = WRS_Mikhail_Suslov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Mikhail_Suslov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Mikhail_Suslov_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Nikolai_Kondratyev = {
+		name = WRS_Nikolai_Kondratyev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Nikolai_Kondratyev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Nikolai_Kondratyev_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Fyodor_Bogdanov = {
+		name = WRS_Fyodor_Bogdanov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Fyodor_Bogdanov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Fyodor_Bogdanov_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Yan_Gamarnik = {
+		name = WRS_Yan_Gamarnik
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Yan_Gamarnik.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Yan_Gamarnik_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	WRS_Lev_Sedov = {
+		name = WRS_Lev_Sedov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Lev_Sedov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = WRS_Lev_Sedov_pol
+			allowed = { original_tag = WRS }
+			traits = { }
+		}
+	}
+
+	# WRS Army Chief of Staff
+	WRS_Vasily_Levichev = {
+		name = WRS_Vasily_Levichev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Vasily_Levichev.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = WRS_Vasily_Levichev_army
+			allowed = { original_tag = WRS }
+			traits = { army_offense }
+		}
+	}
+
+	# WRS Navy Chief of Staff
+	WRS_Ivan_Isakov = {
+		name = WRS_Ivan_Isakov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Ivan_Isakov.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = WRS_Ivan_Isakov_navy
+			allowed = { original_tag = WRS }
+			traits = { navy_offense }
+		}
+	}
+
+	# WRS Air Chief of Staff
+	WRS_Yakov_Alksnis = {
+		name = WRS_Yakov_Alksnis
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Yakov_Alksnis.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = WRS_Yakov_Alksnis_air
+			allowed = { original_tag = WRS }
+			traits = { air_offense }
+		}
+	}
+
+	# WRS Marshals
+	WRS_Boris_Shaposhnikov = {
+		name = WRS_Boris_Shaposhnikov
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Boris_Shaposhnikov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Ivan_Shlyomin = {
+		name = WRS_Ivan_Shlyomin
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Ivan_Shlyomin.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Andrei_Yeryomenko = {
+		name = WRS_Andrei_Yeryomenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Andrei_Yeryomenko.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Yan_Gamarnik = {
+		name = WRS_Yan_Gamarnik
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Yan_Gamarnik.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Vasily_Levichev = {
+		name = WRS_Vasily_Levichev
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Vasily_Levichev.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# WRS Generals
+	WRS_Fyodor_Karmalyuk = {
+		name = WRS_Fyodor_Karmalyuk
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Fyodor_Karmalyuk.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Nikolai_Rakitin = {
+		name = WRS_Nikolai_Rakitin
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Nikolai_Rakitin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Maksim_Mager = {
+		name = WRS_Maksim_Mager
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Maksim_Mager.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Fyodor_Kuznetsov = {
+		name = WRS_Fyodor_Kuznetsov
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Fyodor_Kuznetsov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Hmayak_Babayan = {
+		name = WRS_Hmayak_Babayan
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Hmayak_Babayan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Ivan_Chernyakhovsky = {
+		name = WRS_Ivan_Chernyakhovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Ivan_Chernyakhovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Konstantin_Provalov = {
+		name = WRS_Konstantin_Provalov
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Konstantin_Provalov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Ivan_Bagramyan = {
+		name = WRS_Ivan_Bagramyan
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Ivan_Bagramyan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Kirill_Meretskov = {
+		name = WRS_Kirill_Meretskov
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Kirill_Meretskov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Vasily_Sokolovsky = {
+		name = WRS_Vasily_Sokolovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Vasily_Sokolovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	# WRS Admirals
+	WRS_Ivan_Isakov = {
+		name = WRS_Ivan_Isakov
+		portraits = {
+			navy = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Ivan_Isakov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { fleet_logistics }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Nikolai_Kuznetsov = {
+		name = WRS_Nikolai_Kuznetsov
+		portraits = {
+			navy = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Nikolai_Kuznetsov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { fleet_logistics }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Sergey_Gorshkov = {
+		name = WRS_Sergey_Gorshkov
+		portraits = {
+			navy = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Sergey_Gorshkov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { fleet_logistics }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	WRS_Magomet_Gadzhiyev = {
+		name = WRS_Magomet_Gadzhiyev
+		portraits = {
+			navy = {
+				large = "gfx/leaders/WRS/Portrait_WRS_Magomet_Gadzhiyev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { fleet_logistics }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

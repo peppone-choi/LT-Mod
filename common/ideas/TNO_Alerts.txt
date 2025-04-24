@@ -1,0 +1,93 @@
+ideas = {
+	#################################################
+	#                  Dummy Ideas                  #
+	#################################################
+
+	#|=====[ GENERAL ]=====|#
+	hidden_ideas = {
+		Alert_UnallocatedPU = {}
+		Alert_LostPU = {}
+		Alert_FiscalCrisis = {}
+		Alert_HighTension = {}
+		Alert_CGEmpty = {}
+		Alert_CreditRating_Improved = {}
+		Alert_CreditRating_Degraded = {}
+		Alert_Proxy_War_Active = {}
+	}
+
+	#|=====[ REICH ]=====|#
+	hidden_ideas = {
+		# Bormann alerts
+		Alert_KartenhausAction = {}
+
+		# Britain alerts
+		Alert_SCO_ArmedForces_Paranoia = {}
+		Alert_ENG_Election = {}
+		Alert_BRI_ChaosThreshold = {}
+
+		# Ukraine alerts
+		Alert_UKR_BreadBasket_GovControl = {}
+		Alert_UKR_BreadBasket_ConsCycle = {}
+		Alert_UKR_BreadBasket_ActionAvailable = {}
+		Alert_UKR_BreadBasket_DecisiveRegionWarning = {}
+	}
+
+	#|=====[ OFN ]=====|#
+	hidden_ideas = {
+		# US alerts
+		Alert_US_Election = {}
+	}
+
+	#|=====[ LATIN AMERICA ]=====|#
+	hidden_ideas = {
+		# Brazil alerts
+		Alert_BRA_SenadoVoting = {}
+		Alert_BRA_PresVoting = {}
+		Alert_BRA_PLVoting = {}
+		Alert_BRA_Development = {}
+		# Mexico alerts
+		Alert_MEX_Project = {}
+		Alert_MEX_Debt = {}
+	}
+
+	#|=====[ MEDITERRANEAN ]=====|#
+	hidden_ideas = {
+		# Italy alerts
+		Alert_GreatGame = {}
+
+		# Iberia alerts
+		Alert_AAS_Resources = {}
+	}
+
+	#|=====[ MIDDLE EAST ]=====|#
+	hidden_ideas = {
+	}
+
+	#|=====[ AFRICA ]=====|#
+	hidden_ideas = {
+	}
+
+	#|=====[ RUSSIA ]=====|#
+	hidden_ideas = {
+		# Smuta alerts
+		Alert_RUS_Smuta_Chaos = {}
+		Alert_RUS_Smuta_Supplies = {}
+		Alert_RUS_Smuta_War = {}
+	}
+
+	#|=====[ ASIA ]=====|#
+	hidden_ideas = {
+		# Guangdong alerts
+		Alert_GNG_LegCo_Bill = {}
+		Alert_GNG_Product_Cycle = {}
+		Alert_GNG_Economy_Check_Soon = {}
+		Alert_GNG_PTRG = {}
+	}
+
+	#|=====[ ANTARCTICA ]=====|#
+	hidden_ideas = {
+		Alert_ODF_Task_Forces = {}
+		Alert_ODF_Low_Stat = {}
+	}
+}
+

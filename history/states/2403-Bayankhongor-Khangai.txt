@@ -1,0 +1,32 @@
+state = {
+	id = 2403
+	name = "STATE_2403"
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		victory_points = {
+			1798 3
+		}
+		victory_points = {
+			16615 3
+		}
+		victory_points = {
+			1725 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		set_variable = { china_state_ref = 57 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		1725 1728 1798 4697 7806 7881 10623 12541 12675 13588 14663 16615 16627 16646 16651 19387 19406 19550
+	}
+	manpower = 330918
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

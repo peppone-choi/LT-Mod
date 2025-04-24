@@ -1,0 +1,338 @@
+characters = {
+
+	# MAG Ministers
+	MAG_Konstantin_Rodzaevsky = {
+		name = MAG_Konstantin_Rodzaevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Konstantin_Rodzaevsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Konstantin_Rodzaevsky_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Anastasy_Vonsyatsky = {
+		name = MAG_Anastasy_Vonsyatsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Anastasy_Vonsyatsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Anastasy_Vonsyatsky_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Boris_Tedli = {
+		name = MAG_Boris_Tedli
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Boris_Tedli.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Boris_Tedli_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Nikolai_Nikiforov = {
+		name = MAG_Nikolai_Nikiforov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Nikolai_Nikiforov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Nikolai_Nikiforov_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Mikhail_Matkovsky = {
+		name = MAG_Mikhail_Matkovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Mikhail_Matkovsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Mikhail_Matkovsky_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Nikolai_Petlin = {
+		name = MAG_Nikolai_Petlin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Nikolai_Petlin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Nikolai_Petlin_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	# MAG Marshals
+	MAG_Anastasy_Vonsyatsky = {
+		name = MAG_Anastasy_Vonsyatsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Anastasy_Vonsyatsky.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	# MAG Ministers
+	MAG_Ivan_Mikhailov = {
+		name = MAG_Ivan_Mikhailov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Ivan_Mikhailov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Ivan_Mikhailov_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Amakasu_Masahiko = {
+		name = MAG_Amakasu_Masahiko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Amakasu_Masahiko.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Amakasu_Masahiko_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Shiina_Etsusaburo = {
+		name = MAG_Shiina_Etsusaburo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Shiina_Etsusaburo.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Shiina_Etsusaburo_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Gurgen_Nagolian = {
+		name = MAG_Gurgen_Nagolian
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Gurgen_Nagolian.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Gurgen_Nagolian_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Leonid_Ustrugov = {
+		name = MAG_Leonid_Ustrugov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Leonid_Ustrugov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Leonid_Ustrugov_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Alexei_Baksheyev = {
+		name = MAG_Alexei_Baksheyev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Alexei_Baksheyev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Alexei_Baksheyev_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	MAG_Asano_Makoto = {
+		name = MAG_Asano_Makoto
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Asano_Makoto.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAG_Asano_Makoto_pol
+			allowed = { original_tag = MAG }
+			traits = { }
+		}
+	}
+
+	# MAG Marshals
+	MAG_Amakasu_Masahiko = {
+		name = MAG_Amakasu_Masahiko
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Amakasu_Masahiko.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	# MAG Generals
+	MAG_Vladimir_Kruchinin = {
+		name = MAG_Vladimir_Kruchinin
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Vladimir_Kruchinin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAG_Nikolai_Alekseyev = {
+		name = MAG_Nikolai_Alekseyev
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Nikolai_Alekseyev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAG_Asano_Makoto = {
+		name = MAG_Asano_Makoto
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Asano_Makoto.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAG_Alexei_Baksheyev = {
+		name = MAG_Alexei_Baksheyev
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Alexei_Baksheyev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAG_Boris_Shulkevich = {
+		name = MAG_Boris_Shulkevich
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Boris_Shulkevich.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	MAG_Lev_Okhotin = {
+		name = MAG_Lev_Okhotin
+		portraits = {
+			army = {
+				large = "gfx/leaders/MAG/Portrait_MAG_Lev_Okhotin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+} 

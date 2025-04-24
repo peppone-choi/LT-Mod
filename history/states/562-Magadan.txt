@@ -1,0 +1,45 @@
+state = {
+	id = 562
+	name = "STATE_562"
+	resources = {
+		tungsten = 14.000
+		steel = 2.000
+		uranium = 2.000
+		power = 4.000
+	}
+
+	history = {
+		owner = MAG
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			offices = 1
+			dockyard = 1
+			thermoelectric_plant = 1
+			12683 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = MAG
+		victory_points = {
+			12683 10
+		}
+		victory_points = {
+			8650 1
+		}
+		victory_points = {
+			1865 1
+		}
+		victory_points = {
+			8552 1
+		}
+	}
+
+	provinces = {
+		1865 5722 5791 5860 5887 6452 8552 8626 8650 10540 12551 12683
+	}
+	manpower = 245618
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

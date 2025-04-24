@@ -1,0 +1,52 @@
+state = {
+	id = 1284
+	name = "STATE_1284"
+
+	history = {
+		owner = ROM
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+			offices = 1
+			hospitals = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			9716 10
+		}
+		victory_points = {
+			6706 10
+		}
+		victory_points = {
+			3741 7
+		}
+		victory_points = {
+			9701 3
+		}
+		victory_points = {
+			3728 4
+		}
+		victory_points = {
+			11534 3
+		}
+		victory_points = {
+			723 4
+		}
+		victory_points = {
+			744 1
+		}
+		victory_points = {
+			6729 2
+		}
+		add_core_of = ROM
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		723 744 3728 3741 6706 6729 6747 9701 9716 11534 11655 11672
+	}
+	manpower = 3043672
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

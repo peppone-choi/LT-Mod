@@ -1,0 +1,26 @@
+state = { #Population Done
+	id = 624
+	name = "STATE_624"
+	provinces = {
+		1372 4228 4377 7307 12279 14717 14727
+	}
+	state_category = town
+	history = {
+		owner = UPH
+		buildings = {
+			infrastructure = 3
+			14717 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 14717 5 }
+		victory_points = { 4228 5 }
+		victory_points = { 12279 5 }
+		add_core_of = UPH
+		add_core_of = PHI
+		add_core_of = SPH
+		set_state_flag = state_renamings
+	}
+	manpower = 2658496
+	buildings_max_level_factor = 1.000
+}

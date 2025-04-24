@@ -1,0 +1,20 @@
+state = {
+	id = 2051
+	name = "STATE_2051" # Marie Byrd Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
+
+	history = {
+		owner = AAN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17733 17773
+	}
+}

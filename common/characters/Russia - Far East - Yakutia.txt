@@ -1,0 +1,292 @@
+characters = {
+	# YAK Ministers
+	YAK_Viktor_Shpovalnikov = {
+		name = YAK_Viktor_Shpovalnikov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Viktor_Shpovalnikov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Viktor_Shpovalnikov_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Yefim_Yachuk = {
+		name = YAK_Yefim_Yachuk
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Yefim_Yachuk.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Yefim_Yachuk_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Jamsrangiin_Tseveen = {
+		name = YAK_Jamsrangiin_Tseveen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Jamsrangiin_Tseveen.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Jamsrangiin_Tseveen_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Maksim_Ammosov = {
+		name = YAK_Maksim_Ammosov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Maksim_Ammosov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Maksim_Ammosov_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Vladimir_Shatov = {
+		name = YAK_Vladimir_Shatov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Vladimir_Shatov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Vladimir_Shatov_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Mikhail_Trilisser = {
+		name = YAK_Mikhail_Trilisser
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Mikhail_Trilisser.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Mikhail_Trilisser_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Elena_Ferrari = {
+		name = YAK_Elena_Ferrari
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Elena_Ferrari.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Elena_Ferrari_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Alexander_Ulanovsky = {
+		name = YAK_Alexander_Ulanovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Alexander_Ulanovsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Alexander_Ulanovsky_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	YAK_Alexandra_Ovchinnikova = {
+		name = YAK_Alexandra_Ovchinnikova
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Alexandra_Ovchinnikova.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = YAK_Alexandra_Ovchinnikova_pol
+			allowed = { original_tag = YAK }
+			traits = { }
+		}
+	}
+
+	# YAK Marshals
+	YAK_Grigory_Ivanovich_Semyonov = {
+		name = YAK_Grigory_Ivanovich_Semyonov
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Grigory_Ivanovich_Semyonov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	YAK_Grigory_Shtern = {
+		name = YAK_Grigory_Shtern
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Grigory_Shtern.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	YAK_Yefim_Yachuk = {
+		name = YAK_Yefim_Yachuk
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Yefim_Yachuk.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	# YAK Generals
+	YAK_Alexander_Ulanovsky = {
+		name = YAK_Alexander_Ulanovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Alexander_Ulanovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	YAK_Fyodor_Oklopkov = {
+		name = YAK_Fyodor_Oklopkov
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Fyodor_Oklopkov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	YAK_Robert_Klein = {
+		name = YAK_Robert_Klein
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Robert_Klein.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	YAK_Pavel_Ksenofontov = {
+		name = YAK_Pavel_Ksenofontov
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Pavel_Ksenofontov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	YAK_Zhambyl_Tulayev = {
+		name = YAK_Zhambyl_Tulayev
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Zhambyl_Tulayev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	YAK_Dava_Tsidenov = {
+		name = YAK_Dava_Tsidenov
+		portraits = {
+			army = {
+				large = "gfx/leaders/YAK/Portrait_YAK_Dava_Tsidenov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+} 

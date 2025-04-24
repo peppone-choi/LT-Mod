@@ -1,0 +1,28 @@
+state = {
+	id = 1805
+	name = "STATE_1805"
+	resources = {
+		chromium = 2.000
+	}
+
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = { 12594 10 }
+		victory_points = { 10584 1 }
+		victory_points = { 7784 3 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1668 4661 4674 7784 10218 10584 10653 10680 12594 12635 12662 18819
+	}
+	manpower = 520229
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

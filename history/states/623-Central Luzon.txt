@@ -1,0 +1,40 @@
+state = { #Population Done
+	id = 623
+	name = "STATE_623"
+	manpower = 4106410
+
+	state_category = town
+
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+		owner = PHI
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			radar_station = 2
+			14708 = {
+				naval_base = 5
+			}
+			1415 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 7275 5 }
+		victory_points = { 7323 3 }
+		victory_points = { 1288 3 }
+		victory_points = { 14710 3 }
+		victory_points = { 14708 3 }
+		victory_points = { 10280 3 }
+
+		add_core_of = PHI
+		add_core_of = SPH
+		add_core_of = UPH
+		set_state_flag = state_renamings
+	}
+	provinces = {
+		1288 7275 7323 7351 10165 14707 14708 14709 14710 10280 1415
+	}
+}

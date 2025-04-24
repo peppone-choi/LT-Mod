@@ -1,0 +1,851 @@
+﻿division_template = {
+	name = "Bubing Shi"				# Chinese Infantry Division
+	division_names_group = CHI_INF_01	# Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Bubing Lü"					#Chinese garrison division
+	division_names_group = CHI_GAR_01	#Normal Equipment and Training
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	priority = 0 # garrison
+}
+
+division_template = {
+	name = "Jingwei Shi"
+	is_locked = yes
+	division_names_group = CHI_INF_02
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Jingrui Jingwei Shi"
+	is_locked = yes
+	division_names_group = CHI_INF_02
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		elite_infantry = { x = 1 y = 2 }
+		elite_infantry = { x = 2 y = 0 }
+		elite_infantry = { x = 2 y = 1 }
+		elite_infantry = { x = 2 y = 2 }
+		elite_infantry = { x = 2 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	## 1st Area Army 第一方面軍
+	division = { # 1師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10040
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 2師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10040
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 3師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10040
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 4師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10040
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 10師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 10040
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 19旅
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 10040
+		division_template = "Bubing Lü"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 20旅
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 10040
+		division_template = "Bubing Lü"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 2nd Area Army 第二方面軍
+	division = { # 19師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 1089
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 22師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 10095
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 24師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 4001
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 25師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 4001
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 26師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 4001
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 38師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 19876
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 39師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 19801
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 40師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 19801
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 41師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 7142
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 42師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7181
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 19旅
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 19876
+		division_template = "Bubing Lü"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 20旅
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 19876
+		division_template = "Bubing Lü"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 3rd Area Army 第三方面軍
+	division = { # 46師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 19882
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 47師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = 9937
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 48師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 1083
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 49師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
+		location = 19498
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 50師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 50
+		}
+		location = 1099
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 4th Area Army 第四方面軍
+	division = { # 14師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 9958
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 15師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 16841
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 16師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 9958
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 17師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 10098
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 18師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 1004
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 54師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 19823
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 55師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 19823
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 56師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = 19863
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 5th Area Army 第五方面軍
+	division = { # 23師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 19820
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 51師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = 19471
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 6th Area Army 第六方面軍
+	division = { # 7師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4169
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 8師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 7027
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 9師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 7071
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 7th Area Army 第七方面軍（原淮海綏靖公署）
+	division = { # 28師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 19859
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 33師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 7071
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 35師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 7071
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 8th Area Army 第八方面軍 （原杭州綏靖公署）
+	division = { # 34師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 19453
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 36師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 19448
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 37師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 13143
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 9th Area Army 第九方面軍 （原廣州綏靖公署）
+	division = { # 20師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 7191
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 30師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 10101
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 43師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 19601
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 44師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 11911
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 45師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 9974
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	## 10th Area Army 第十方面軍 （原獨立第十軍）
+	division = { # 57師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 19480
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 58師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 1628
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 59師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 59
+		}
+		location = 1153
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = { # 60師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 60
+		}
+		location = 9942
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	## Wuhan High Command （武漢行營）
+	division = { # 5師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12467
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { # 6師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1612
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { # 11師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 19846
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { # 12師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 19827
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { # 13師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 19847
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { # 19師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 1036
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { # 52師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 4009
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = { # 53師
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 12467
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	## Police Army 警衛軍
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11913
+		division_template = "Jingrui Jingwei Shi"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11913
+		division_template = "Jingrui Jingwei Shi"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11913
+		division_template = "Jingrui Jingwei Shi"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7014
+		division_template = "Jingrui Jingwei Shi"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 7222
+		division_template = "Jingrui Jingwei Shi"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11913
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11913
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11913
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11913
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11913
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7014
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7014
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 7014
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 7222
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 7222
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 7222
+		division_template = "Jingwei Shi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

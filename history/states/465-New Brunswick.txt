@@ -1,0 +1,45 @@
+state = {
+	id = 465
+	name = "STATE_465"
+
+	history = {
+		owner = CAN
+		buildings = {
+			schools = 1
+			prisons = 1
+			barracks = 1
+			infrastructure = 6
+			air_base = 1
+			4285 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = CAN
+		victory_points = { # St. John
+			4285 6
+		}
+		victory_points = { # Moncton
+			1424 4
+		}
+		victory_points = { # Fredrickston
+			4342 10 # provincial capital
+		}
+		victory_points = { # Oromocto
+			12289 1
+		}
+		victory_points = { # Chatham (Mirimichi didn't exist until 1995)
+			4432 1
+		}
+		victory_points = { # Edmundston
+			4362 1
+		}
+	}
+
+	provinces = {
+		634 1424 4285 4342 4362 4432 7379 12289 17265
+	}
+	manpower = 609236
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,41 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_Closing_Screen"
+		size = { width = 803 height = 552 }
+		position = { x = 155 y = 155 }
+		moveable = yes
+		
+		background = {
+			name = "Antarctica_Closing_Screen_BG_real"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+		
+		iconType = {
+			name = "Antarctica_Closing_Screen_BG"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_TNO_Closing_BG"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "Antarctica_Closing_Screen_Close_Button"
+			quadTextureSprite = "GFX_button_359x34" 
+			buttonFont = "Bomb_20"
+			buttonText = "Thank you for playing!"
+			position = { x = 227 y = 497 }
+			shortcut = "ESCAPE"
+			pdx_tooltip = Antarctica_Closing_Screen_Close_Button_tt
+		}
+		
+		instantTextBoxType = {
+			name = "Antarctica_Closing_Screen_Text"
+			position = { x = 20 y = 21 }
+			font = "aldrich_24_outline"
+			text = Antarctica_Closing_Screen_Text
+			maxWidth = 748
+			maxHeight = 462
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}
+	}
+}

@@ -1,0 +1,29 @@
+state = { #Population Done
+	id = 671
+	name = "STATE_671"
+	manpower = 431680
+
+	resources = {
+		uranium = 2
+		rubber = 2
+	}
+
+	state_category = rural
+
+	history = {
+		add_core_of = VIN
+		add_core_of = VIC
+		owner = VIN
+		victory_points = { 4379 10 }
+		buildings = {
+			infrastructure = 3
+			offices = 2
+			thermoelectric_plant = 1
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		4379
+	}
+}

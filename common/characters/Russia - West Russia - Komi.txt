@@ -1,0 +1,13 @@
+characters = {
+	KOM_Nikolai_Voznesensky = {
+		name = KOM_Nikolai_Voznesensky
+		portraits = { civilian = { large = "gfx/leaders/KOM/Portrait_Komi_Nikolai_Voznesensky.dds" } }
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_VOZNESENSKY_DESC"
+			expire = "1999.1.1"
+			ideology = progressivism_reformist_socialism_subtype
+			traits = { controversial_populist }
+			id = -1
+		}
+	}
+}

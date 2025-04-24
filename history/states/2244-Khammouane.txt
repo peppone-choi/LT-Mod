@@ -1,0 +1,25 @@
+state = {
+	id = 2244
+	name = "STATE_2244"
+
+	resources = {
+		aluminium = 2
+	}
+
+	history = {
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1520 1 }
+	}
+
+	provinces = {
+		1362 1390 1520 10326 4260
+	}
+	manpower = 148941
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

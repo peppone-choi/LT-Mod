@@ -1,0 +1,24 @@
+state = {
+	id = 1804
+	name = "STATE_1804"
+
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		victory_points = { 10619 4 }
+		victory_points = { 4845 1 }
+		victory_points = { 7795 1 }
+		victory_points = { 10550 2 }
+		set_state_flag = state_renamings
+	}
+	provinces = {
+		13197 13149 12529 4764 10550 7856 7795 10619 4845
+	}
+	manpower = 664786
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

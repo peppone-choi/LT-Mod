@@ -1,0 +1,29 @@
+state = {
+	id = 584
+	name = "STATE_584"
+	resources = {
+		oil = 12
+	}
+
+	history = {
+		owner = TRK
+		buildings = {
+			infrastructure = 2
+			thermoelectric_plant = 1
+			prisons = 1
+		}
+		victory_points = { 12333 10 }
+		victory_points = { 4599 4 }
+		victory_points = { 18679 1 }
+		add_core_of = TRK
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1493 4599 7491 8099 10510 12333 12491 14704 18615 18679 18682
+	}
+	manpower = 496260
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

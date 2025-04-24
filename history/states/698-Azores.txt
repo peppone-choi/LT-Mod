@@ -1,0 +1,27 @@
+state = { #Population Done
+	id = 698
+	name = "STATE_698"
+	manpower = 320072
+
+	state_category = small_island
+
+	history = {
+		owner = SPA
+		victory_points = { 1751 7 }
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+			air_base = 3
+			1751 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = SPA
+		set_state_flag = GDP_regions_portugal
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		1751
+	}
+}

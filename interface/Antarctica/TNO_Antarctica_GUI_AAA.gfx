@@ -1,0 +1,316 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Horizontal_Bar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Horizontal_Bar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Progressbar_Frame"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Frame.dds"
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAO"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Bar_AAO.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Frame.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAG"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Bar_AAG.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Frame.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAJ"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Bar_AAJ.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Frame.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAC"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Bar_AAC.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Frame.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_Cover"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Progressbar_Frame.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Plus_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Plus_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Minus_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Minus_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Standard_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Standard_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Standard_Button_Blue"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Standard_Button_Blue.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Large_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Large_Button.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_Antarctica_Decision_GUI_Bar_E_Base"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_Decision_GUI_Bar_E_Full.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_Decision_GUI_Bar_Empty.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 800
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_Decision_GUI_Bar_E_SubBase"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_Decision_GUI_Bar_E_Full.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_Decision_GUI_Bar_Empty.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 200
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_Decision_GUI_Bar_E_Patrol"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_Decision_GUI_Bar_E_Full.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_Decision_GUI_Bar_Empty.dds"
+		size = { x = 452 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+	
+	spriteType = {
+		name = "GFX_Tech_Tree_Snowcat_bg"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Tech_Tree_Snowcat_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_1"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_2"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_3"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_4"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_1"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_2"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_3"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_4"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_5"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_6"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_7"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_8"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_9"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_9.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_10"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_10.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_11"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_11.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_12"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_12.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_13"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_13.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_14"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_15"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_16"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_17"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_18"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Tech_Icon_Upgrade_19"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Tech_Icon_Upgrade_19.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Available_Large"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Available_Large.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Unavailable_Large"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Unavailable_Large.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Large"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Researched_Large.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Available_Small"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Available_Small.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Unavailable_Small"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Unavailable_Small.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researched_Small"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Researched_Small.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researching_Large"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Researching_Large.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Technology_Researching_Small"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Technology_Researching_Small.dds"
+		noOfFrames = 6
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Researched"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Researched.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_1_Unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Researched"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Researched.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_2_Unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_3_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_3_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_3_Researched"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_3_Researched.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_3_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_3_Unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_4_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_4_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_4_Researched"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_4_Researched.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_4_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Start_4_Unavailable.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Researched"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Researched.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_1_Unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Researched"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Researched.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_2_Unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Available"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Researched"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Researched.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Unavailable"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/prep/Antarctica_Decision_GUI_AAA_Arrow_Horz_Tech_3_Unavailable.dds"
+	}
+}

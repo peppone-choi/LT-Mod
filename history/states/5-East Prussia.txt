@@ -1,0 +1,61 @@
+state = {
+	id = 5
+	name = "STATE_5"
+	resources = {
+		uranium = 4.000
+	}
+
+	history = {
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			6332 20
+		}
+		victory_points = {
+			6375 4
+		}
+		victory_points = {
+			3288 8
+		}
+		victory_points = {
+			348 7
+		}
+		victory_points = {
+			3384 5
+		}
+		victory_points = {
+			6259 2
+		}
+		victory_points = {
+			3254 2
+		}
+		buildings = {
+			schools = 1
+			prisons = 1
+			barracks = 1
+			offices = 1
+			infrastructure = 6
+			air_base = 6
+			enrichment_plant = 1
+			missile_silo = 1
+			thermoelectric_plant = 2
+			radar_station = 2
+			anti_air_building = 2
+			6332 = {
+				bunker = 1
+				naval_base = 5
+			}
+			3288 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		266 281 348 395 3254 3288 3351 3384 6259 6321 6332 6375 6402 6567 9290 9316 9327 9346 9372 9398 11245 11265 11385 11386 11492
+	}
+	manpower = 3748087
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

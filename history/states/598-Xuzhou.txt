@@ -1,0 +1,37 @@
+state = {
+	id = 598
+	name = "STATE_598"
+
+	resources = {
+		oil = 8
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			offices = 1
+			prisons = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			19859 24
+		}
+		victory_points = {
+			7025 4
+		}
+		set_state_flag = GDP_regions_jiangsu_huaihai
+		set_variable = { china_state_ref = 3 }
+		set_variable = { china_region_ref = 0 }
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		1121 7025 11973 12055 19859 17141
+	}
+	manpower = 5465542
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

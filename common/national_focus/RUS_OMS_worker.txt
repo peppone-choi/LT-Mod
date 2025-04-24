@@ -1,0 +1,111 @@
+focus_tree = {
+	id = RUS_OMS_worker_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OMS
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_OMS_worker_focus_1 # 코민테른 재건
+		x = 1
+		y = 0
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_2 # 노동자 평의회 지위 공고화
+		prerequisite = { focus = RUS_OMS_worker_focus_1 }
+		x = 1
+		y = 1
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_3 # 서시베리아 산업집약계획
+		prerequisite = { focus = RUS_OMS_worker_focus_2 }
+		x = 1
+		y = 2
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_4 # 농업개혁 논쟁
+		prerequisite = { focus = RUS_OMS_worker_focus_3 }
+		x = 1
+		y = 3
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_5 # 민족주의자와의 타협
+		prerequisite = { focus = RUS_OMS_worker_focus_4 }
+		x = 0
+		y = 4
+		mutually_exclusive = {
+			focus = RUS_OMS_worker_focus_6
+		}
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_6 # 흑색연맹의 끝
+		prerequisite = { focus = RUS_OMS_worker_focus_4 }
+		mutually_exclusive = {
+			focus = RUS_OMS_worker_focus_5
+		}
+		x = 2
+		y = 4
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_7 # 투하쳅스키의 유산
+		prerequisite = { focus = RUS_OMS_worker_focus_5 focus = RUS_OMS_worker_focus_6 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_election
+		mutually_exclusive = {
+			focus = RUS_OMS_worker_focus_8
+		}
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_8 # 러시아적인 혁명군
+		prerequisite = { focus = RUS_OMS_worker_focus_5 focus = RUS_OMS_worker_focus_6 }
+		x = 2
+		y = 5
+		icon = GFX_goal_generic_election
+		mutually_exclusive = {
+			focus = RUS_OMS_worker_focus_7
+		}
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_9 # 영구 혁명론 제창
+		prerequisite = { focus = RUS_OMS_worker_focus_7 focus = RUS_OMS_worker_focus_8 }
+		x = 1
+		y = 6
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_10 # 코뮌의 잔재 청산
+		prerequisite = { focus = RUS_OMS_worker_focus_9 }
+		x = 1
+		y = 7
+		icon = GFX_goal_generic_election
+	}
+
+	focus = {
+		id = RUS_OMS_worker_focus_11 # 대원수의 밀사
+		prerequisite = { focus = RUS_OMS_worker_focus_10 }
+		x = 1
+		y = 8
+		icon = GFX_goal_generic_election
+	}
+}

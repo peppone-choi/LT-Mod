@@ -1,0 +1,1757 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Opener"
+		size = { width = 220 height = 128 }
+		position = { x = -1 y = 287 }
+
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Open_Button"
+			spriteType = "GFX_Antarctica_GUI_AAO_PERT_button"
+			position = { x = 138 y = 36 }
+			pdx_tooltip = Antarctica_GUI_AAO_PERT_Open_Button_tt
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT"
+		position = { x = 0 y = 0 }
+		size = { width = 1280 height = 720 }
+		moveable = yes
+		clipping = no
+		
+		background = {
+			name = "Antarctica_GUI_AAO_PERT_bg"
+			quadTextureSprite = "GFX_tiled_window_plain_grey"
+		}
+
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAO_PERT_Title"
+			position = { x = 10 y = 3 }
+			textureFile = ""
+			font = "Bomb_36"
+			text = Antarctica_GUI_AAO_PERT_Title
+			format = left
+			maxWidth = 2000
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Missile_Diagram"
+			position = { x = 0 y = 44 }
+			size = { width = 100%% height = 100%% }
+			clipping = no
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_thin_border2"
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAO_Missile_Diagram_Empty"
+				spriteType = "GFX_Antarctica_GUI_AAO_Missile_Empty"
+				position = { x = 7 y = 6 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_Missile_Diagram_Airframe"
+				position = { x = 7 y = 6 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_Missile_Diagram_REV"
+				position = { x = 7 y = 6 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_Missile_Diagram_Electronics"
+				position = { x = 7 y = 6 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_Missile_Diagram_Testing"
+				position = { x = 7 y = 6 }
+			}
+
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_PERT_Missile_Name"
+				position = { x = 12 y = 11 }
+				font = "aldrich_28_outline"
+				text = Antarctica_GUI_AAO_PERT_Missile_Name
+				format = left
+				maxWidth = 150
+			}
+		
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Divider"
+				position = { x = 406 y = 7 }
+				size = { x = 1 y = 662 }
+				quadTextureSprite = "GFX_divider_crt_single_vertical"
+				alwaystransparent = yes
+			}
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Draggable_Container_Border"
+			position = { x = 400 y = 44 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 11 left = 11 bottom = 11 right = 11 }
+			clipping = yes
+
+			background = {
+				name = "Antarctica_GUI_AAO_PERT_Draggable_Container_Border_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Draggable_Container"
+				position = { x = -1775 y = -175 }
+				size = { width = 8775 height = 1375 }
+				clipping = yes
+			}
+			# position and size must sum to equal Antarctica_GUI_AAO_PERT_Network size
+			# increase both to add more space
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Return_Button"
+				quadTextureSprite = "GFX_tno_bookmark_button"
+				position = { x = 13 y = 11 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Return_Button_text
+				buttonFont = "aldrich_24_outline"
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Return_Button_tt
+				frame = 1
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Decisions_Button"
+				quadTextureSprite = "GFX_tno_bookmark_button"
+				position = { x = -235 y = 11 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Decisions_Button_text
+				buttonFont = "aldrich_24_outline"
+				Orientation = "UPPER_RIGHT"
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Decisions_Button_tt
+				frame = 1
+			}
+		}
+	
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Info_button"
+			position = { x = 363 y = 56 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Info_Button"
+			pdx_tooltip = Antarctica_GUI_AAO_PERT_Info_button_tt
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork_Envolope_1"
+			quadTextureSprite = "GFX_Antarctica_GUI_AAO_PERT_Paperwork_Envelope"
+			position = { x = -20 y = 30 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Clip_1"
+			spriteType = "GFX_event_pic_clip"
+			position = { x = -10 y = 50 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork1_Top"
+			spriteType = "GFX_Antarctica_GUI_AAO_PERT_Paperwork1_Top"
+			position = { x = 150 y = 4 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork1_Bottom"
+			spriteType = "GFX_Antarctica_GUI_AAO_PERT_Paperwork1_Bottom"
+			position = { x = 150 y = 4 }
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork_Envolope_2"
+			quadTextureSprite = "GFX_Antarctica_GUI_AAO_PERT_Paperwork_Envelope"
+			position = { x = -25 y = 110 }
+			rotation = -0.25
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Clip_2"
+			spriteType = "GFX_event_pic_clip"
+			position = { x = -10 y = 130 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork2_Top"
+			spriteType = "GFX_Antarctica_GUI_AAO_PERT_Paperwork2_Top"
+			position = { x = 150 y = 4 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork2_Bottom"
+			spriteType = "GFX_Antarctica_GUI_AAO_PERT_Paperwork2_Bottom"
+			position = { x = 150 y = 4 }
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork_Envolope_3"
+			quadTextureSprite = "GFX_Antarctica_GUI_AAO_PERT_Paperwork_Envelope"
+			position = { x = -28 y = 190 }
+			rotation = -0.15
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Clip_3"
+			spriteType = "GFX_event_pic_clip"
+			position = { x = -10 y = 210 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork3_Top"
+			spriteType = "GFX_Antarctica_GUI_AAO_PERT_Paperwork3_Top"
+			position = { x = 150 y = 4 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork3_Bottom"
+			spriteType = "GFX_Antarctica_GUI_AAO_PERT_Paperwork3_Bottom"
+			position = { x = 150 y = 4 }
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork_Prev"
+			position = { x = 160 y = 14 }
+			spriteType = "GFX_event_button_minimize"
+		}
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Paperwork_Next"
+			position = { x = 970 y = 664 }
+			spriteType = "GFX_event_button_minimize"
+			rotation = 3.14
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Close_Button"
+			position = { x = -39 y = 9 }
+			quadTextureSprite = "GFX_tno_close_button"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Decisions_Window"
+		position = { x = 955 y = 98 }
+		size = { width = 300 height = 300 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_decisions_bg_small"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Decisions_Window_Grid"
+			position = { x = 0 y = 0 }
+			size = { width = 300 height = 299 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Special_Missions"
+			margin = { top = 4 bottom = 4 left = 0 right = 0 }
+			
+			background = {
+				name = "Antarctica_GUI_AAO_PERT_Decisions_Window_Grid_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_AAO_PERT_Decisions_Window_Grid"
+				position = { x = 5 y = 1 }
+				size = { width = 210 height = 250 }
+				slotsize = { width = 210 height = 82 } 
+				add_horizontal = no
+				max_slots_horizontal = 1
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Decision_Entry"
+		position = { x = 35 y = 0 }
+		size = { width = 210 height = 80 }
+		
+		background = {
+			name = "Antarctica_GUI_AAO_PERT_Decision_Entry_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAO_PERT_Decision_Entry_Button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_Antarctica_GUI_Large_Button"
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_Text
+			multiline = yes
+			pdx_tooltip = Antarctica_GUI_AAO_PERT_Decision_Entry_Button_tt
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Network"
+		position = { x = 0 y = 0 }
+		size = { width = 7000 height = 1200 }
+		clipping = no
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		gridboxtype = {
+			name = "Antarctica_GUI_AAO_PERT_Network_Grid"
+			position = { x = 35 y = 0 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 100%% height = 0 }
+			add_horizontal = no
+			max_slots_horizontal = 1
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Network_Integrated"
+		position = { x = 0 y = 0 }
+		clipping = no
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Network_Integrated_Offset"
+			position = { x = 0 y = 250 }
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_Background"
+				position = { x = -49 y = -249 }
+				size = { width = 2626 height = 826 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_Integrated_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_yellow_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_Background"
+				position = { x = 275 y = -25 }
+				size = { width = 778 height = 178 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_Airframe_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_red_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_Background"
+				position = { x = 275 y = 175 }
+				size = { width = 478 height = 378 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_REV_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_green_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_Background"
+				position = { x = 275 y = -225 }
+				size = { width = 1378 height = 178 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_Electronics_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_blue_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_Background"
+				position = { x = 1175 y = -25 }
+				size = { width = 1078 height = 378 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_Testing_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_purple_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_10"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 0 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_10_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_10_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_1020"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 130 y = 53 }
+				#alwaystransparent = yes
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_1030"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_2"
+				position = { x = 63 y = -147 }
+				#alwaystransparent = yes
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_1040"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_3"
+				position = { x = 63 y = 130 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_20"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_20_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_20_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_2050"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 430 y = -147 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_30"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_30_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_30_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_3060"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 430 y = 53 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_40"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_40_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_40_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_4070"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 430 y = 253 }
+				#alwaystransparent = yes
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_4080"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_4"
+				position = { x = 513 y = 265 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_50"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_50_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_50_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_50100"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_8"
+				position = { x = 730 y = -147 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_60"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_60_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_60_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_6090"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 730 y = 53 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_70"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_70_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_70_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_7090"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_6"
+				position = { x = 730 y = 130 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_80"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 400 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_80_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_80_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_8090"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_7"
+				position = { x = 730 y = 130 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_90"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 900 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_90_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_90_tt
+			}
+			#iconType = {
+			#	name = "Antarctica_GUI_AAO_PERT_Network_Integrated_90100"
+			#	spriteType = "GFX_Antarctica_GUI_AAO_Arrow_2"
+			#	position = { x = 963 y = -147 }
+			#	#alwaystransparent = yes
+			#}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_90130"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_8"
+				position = { x = 1030 y = 53 }
+				#alwaystransparent = yes
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_90110"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_9"
+				position = { x = 1030 y = 63 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_100"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_100_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_100_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_100120"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1330 y = -147 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_110"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_110_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_110_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_110140"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_11"
+				position = { x = 1330 y = 130 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_120"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_120_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_120_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_120130"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 1553 y = -70 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_130"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_130_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_130_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_130140"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1630 y = 53 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_140"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1800 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_140_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_140_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_140150"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1930 y = 53 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_150"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2100 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_150_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_150_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_150160"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 2230 y = 53 }
+				#alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Integrated_160"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2400 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Integrated_160_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Integrated_160_tt
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Network_Electronics"
+		position = { x = 0 y = 0 }
+		clipping = no
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Network_Electronics_Offset"
+			position = { x = 0 y = 250 }
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_Background"
+				position = { x = -49 y = -249 }
+				size = { width = 2626 height = 826 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_Electronics_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_blue_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_10"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 0 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_10_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_10_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_1011"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_2"
+				position = { x = 63 y = -147 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_1011_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_1012"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 130 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_1012_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_1021"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_13"
+				position = { x = 63 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_1021_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_11"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_11_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_11_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_1120"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_9"
+				position = { x = 430 y = -137 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_1120_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_12"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_12_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_12_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_1220"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 430 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_1220_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_20"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_20_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_20_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_2022"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 730 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_2022_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_21"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_21_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_21_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_2122"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_6"
+				position = { x = 730 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_2122_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_22"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 900 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_22_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_22_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_2250"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1030 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_2250_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_50"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_50_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_50_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_50100"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1330 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_50100_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_100"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_100_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_100_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_100101"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_2"
+				position = { x = 1563 y = -147 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_100101_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_100102"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1630 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_100102_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_100103"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_3"
+				position = { x = 1563 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_100103_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_101"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1800 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_101_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_101_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_101104"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_9"
+				position = { x = 1930 y = -137 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_101104_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_102"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1800 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_102_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_102_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_102104"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1930 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_102104_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_103"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1800 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_103_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_103_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_103102"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 1853 y = 129 }
+				#alwaystransparent = yes
+				rotation = 3.141592
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_103102_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_103104"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_6"
+				position = { x = 1930 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_103104_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_104"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2100 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_104_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_104_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_104105"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 2230 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_104105_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_105"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2400 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_105_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_105_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_105120"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 2453 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_105120_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Electronics_120"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2400 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Electronics_120_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Electronics_120_tt
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Network_Airframe"
+		position = { x = 0 y = 0 }
+		clipping = no
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Network_Airframe_Offset"
+			position = { x = 0 y = 250 }
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_Background"
+				position = { x = -49 y = -249 }
+				size = { width = 2626 height = 626 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_Airframe_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_red_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_10"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 0 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_10_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_10_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1014"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_12"
+				position = { x = 63 y = -147 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1014_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1013"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 130 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1013_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_13"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_13_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_13_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1314"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_2"
+				position = { x = 363 y = -147 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1314_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1315"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 430 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1315_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1316"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_3"
+				position = { x = 363 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1316_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_14"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_14_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_14_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1430"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_9"
+				position = { x = 730 y = -137 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1430_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_15"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_15_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_15_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1530"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 730 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1530_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_16"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_16_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_16_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_1630"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_6"
+				position = { x = 730 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_1630_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_30"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 900 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_30_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_30_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3031"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_14"
+				position = { x = 1030 y = -147 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3031_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3032"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1030 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3032_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3033"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_15"
+				position = { x = 1030 y = 63 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3033_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_31"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_31_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_31_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3160"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_15"
+				position = { x = 1330 y = -137 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3160_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_32"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_32_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_32_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3231"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 1253 y = -70 }
+				#alwaystransparent = yes
+				rotation = 3.141592
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3231_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3260"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1330 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3260_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_33"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_33_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_33_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3332"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 1253 y = 129 }
+				#alwaystransparent = yes
+				rotation = 3.141592
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3332_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_3360"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_14"
+				position = { x = 1330 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_3360_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_60"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_60_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_60_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_6061"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1630 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_6061_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_61"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1800 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_61_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_61_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_6162"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1930 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_6162_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_62"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2100 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_62_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_62_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_6290"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 2230 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_6290_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Airframe_90"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2400 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Airframe_90_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Airframe_90_tt
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Network_REV"
+		position = { x = 0 y = 0 }
+		clipping = no
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Network_REV_Offset"
+			position = { x = 0 y = 250 }
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_Background"
+				position = { x = -49 y = -249 }
+				size = { width = 2626 height = 826 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_REV_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_green_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_10"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 0 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_10_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_10_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_1017"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 130 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_1017_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_17"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_17_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_17_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_1740"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 430 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_1740_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_40"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_40_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_40_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_4041"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 730 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_4041_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_4042"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_16"
+				position = { x = 663 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_4042_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_41"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 900 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_41_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_41_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_4170"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1030 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_4170_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_4180"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_15"
+				position = { x = 1030 y = 63 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_4180_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_42"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 900 y = 400 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_42_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_42_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_4283"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_17"
+				position = { x = 1030 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_4283_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_70"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_70_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_70_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_7081"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1330 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_7081_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_80"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_80_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_80_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8082"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1330 y = 253 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8082_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_81"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_81_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_81_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8184"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_12"
+				position = { x = 1563 y = -147 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8184_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8183"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1630 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8183_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_82"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_82_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_82_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8281"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 1553 y = 129 }
+				#alwaystransparent = yes
+				rotation = 3.141592
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8281_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_83"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1800 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_83_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_83_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8385"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1930 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8385_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_84"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2100 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_84_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_84_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8485"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 2153 y = -70 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8485_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_85"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2100 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_85_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_85_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8586"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 2230 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8586_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_86"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2400 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_86_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_86_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_8690"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 2453 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_8690_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_REV_90"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2400 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_REV_90_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_REV_90_tt
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_PERT_Network_Testing"
+		position = { x = 0 y = 0 }
+		clipping = no
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_PERT_Network_Testing_Offset"
+			position = { x = 0 y = 250 }
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_Background"
+				position = { x = -49 y = -249 }
+				size = { width = 2626 height = 826 }
+				
+				background = {
+					name = "Antarctica_GUI_AAO_PERT_Network_Testing_Border"
+					quadTextureSprite = "GFX_Antarctica_GUI_AAO_tiled_research_purple_bg"
+					alwaystransparent = yes
+				}
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_90"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 0 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_90_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_90_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_90121"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 130 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_90121_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_90122"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_3"
+				position = { x = 63 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_90122_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_90110"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_16"
+				position = { x = 63 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_90110_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_120"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_120_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_120_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_120121"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 353 y = -70 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_120121_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_121"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_121_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_121_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_121130"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 430 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_121130_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_122"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_122_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_122_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_122110"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 353 y = 330 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_122110_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_110"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 300 y = 400 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_110_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_110_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_110140"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_17"
+				position = { x = 430 y = 130 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_110140_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_130"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 600 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_130_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_130_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_130131"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 730 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_130131_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_131"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 900 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_131_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_131_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_131140"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1030 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_131140_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_140"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1200 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_140_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_140_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_140141"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_2"
+				position = { x = 1263 y = -147 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_140141_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_140150"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1330 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_140150_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_141"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = -200 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_141_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_141_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_141150"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_10"
+				position = { x = 1553 y = -70 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_141150_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_150"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1500 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_150_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_150_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_150151"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1630 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_150151_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_151"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 1800 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_151_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_151_tt
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_151160"
+				spriteType = "GFX_Antarctica_GUI_AAO_Arrow_1"
+				position = { x = 1930 y = 53 }
+				#alwaystransparent = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_151160_tt
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAO_PERT_Network_Testing_160"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Box"
+				position = { x = 2100 y = 0 }
+				buttonText = Antarctica_GUI_AAO_PERT_Network_Testing_160_text
+				buttonFont = "aldrich_20_outline"
+				multiline = yes
+				pdx_tooltip = Antarctica_GUI_AAO_PERT_Network_Testing_160_tt
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 2457
+	name = "STATE_2457"
+
+	history = {
+		owner = AAA
+		add_core_of = AAA
+		add_core_of = AAR
+		add_claim_by = ENG
+
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17722 17751
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+}

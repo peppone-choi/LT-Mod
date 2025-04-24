@@ -1,0 +1,53 @@
+state = {
+	id = 31
+	name = "STATE_31"
+
+	history = {
+		owner = FRS
+		victory_points = {
+			15216 15
+		}
+		victory_points = {
+			6766 5
+		}
+		victory_points = {
+			15222 5
+		}
+		victory_points = {
+			15205 1
+		}
+		victory_points = {
+			11699 1
+		}
+		victory_points = {
+			6931 1
+		}
+		victory_points = {
+			15208 3
+		}
+		victory_points = {
+			15227 1
+		}
+		victory_points = {
+			15230 1
+		}
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+			air_base = 2
+			hospitals = 1
+			offices = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = FRS
+		add_core_of = FFR
+	}
+
+	provinces = {
+		752 755 929 943 3749 3754 3915 3948 6766 6931 6962 9723 9882 9884 11697 11699 11709 12169 15204 15205 15207 15208 15216 15219 15220 15221 15222 15223 15224 15225 15226 15227 15228 15229 15230 15232
+	}
+	manpower = 2061300
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

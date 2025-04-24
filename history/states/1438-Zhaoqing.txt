@@ -1,0 +1,35 @@
+state = {
+	id = 1438
+	name = "STATE_1438"
+
+	manpower = 4330932
+	state_category = rural
+
+	history = {
+		owner = GNG
+		add_core_of = GNG
+		set_variable = { china_state_ref = 35 }
+		set_variable = { china_region_ref = 4 }
+		set_state_flag = state_renamings
+		buildings = {
+			barracks = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			4092 3
+		}
+		victory_points = {
+			9997 2
+		}
+		victory_points = {
+			10080 4
+		}
+		victory_points = {
+			11941 5
+		}
+	}
+
+	provinces = {
+		4092 11941 10080 12014 9997 10121
+	}
+}

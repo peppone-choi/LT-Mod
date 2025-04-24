@@ -1,0 +1,30 @@
+state = {
+	id = 1797
+	name = "STATE_1797"
+	manpower = 252200
+
+	state_category = town
+
+	resources = {
+		steel = 10
+		aluminium = 4
+	}
+
+	history = {
+		victory_points = { 35 8 }
+		victory_points = { 9185 1 }
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+			air_base = 4
+			thermoelectric_plant = 1
+			anti_air_building = 1
+			hospitals = 1
+			offices = 2
+		}
+	}
+	provinces = {
+		35 9185 3106
+	}
+}

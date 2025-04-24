@@ -1,0 +1,29 @@
+state = {
+	id = 699
+	name = "STATE_699"
+
+	history = {
+		owner = SPA
+		victory_points = {
+			15354 1
+		}
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+			15354 = {
+				naval_base = 1
+			}
+		}
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_western_sahara
+	}
+
+	provinces = {
+		7979 14378 14380 15352 15353 15354
+	}
+	manpower = 14716
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

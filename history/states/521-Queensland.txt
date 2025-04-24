@@ -1,0 +1,55 @@
+state = {
+	id = 521
+	name = "STATE_521"
+	resources = {
+		tungsten = 36.000
+		oil = 3.000
+	}
+
+	history = {
+		owner = AST
+		buildings = {
+			infrastructure = 5
+			thermoelectric_plant = 1
+			air_base = 3
+			barracks = 2
+			7564 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+			10487 = {
+				coastal_bunker = 5
+			}
+		}
+		victory_points = {
+			7564 20
+		}
+		victory_points = {
+			7535 2
+		}
+		victory_points = {
+			7651 4
+		}
+		victory_points = {
+			7522 2
+		}
+		victory_points = {
+			12308 1
+		}
+		victory_points = {
+			10430 1
+		}
+		victory_points = {
+			10445 6
+		}
+		add_core_of = AST
+	}
+
+	provinces = {
+		1472 1570 2116 4481 4502 4517 4530 4546 4632 5198 5227 7522 7535 7564 7592 7649 7651 7666 10430 10445 10475 10487 10941 11006 12308 12451 12949 19933 19934
+	}
+	manpower = 849997
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

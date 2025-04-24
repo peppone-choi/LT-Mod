@@ -1,0 +1,62 @@
+state = {
+	id = 463
+	name = "STATE_463"
+
+	history = {
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			offices = 4
+			air_base = 5
+			radar_station = 5
+			13091 = {
+				naval_base = 1
+			}
+			13090 = {
+				naval_base = 1
+			}
+			13203 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		victory_points = { # Anchorage
+			13091 15
+		}
+		victory_points = { # Ketchikan
+			13202 1
+		}
+		victory_points = { # Juneau
+			13203 3
+		}
+		victory_points = { # Unalaska
+			13090 1
+		}
+		victory_points = { # Fairbanks
+			17199 3
+		}
+		victory_points = { # Kodiak
+			7884 1
+		}
+		victory_points = { # Nome
+			7855 1
+		}
+		victory_points = { # Seward
+			4833 1
+		}
+		victory_points = { # Sitka
+			17241 1
+		}
+		victory_points = { # Barrow/Utqiagvik
+			17209 1
+		}
+	}
+
+	provinces = {
+		1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 16828 16829 17161 17162 17163 17165 17167 17170 17173 17174 17175 17176 17177 17179 17180 17182 17183 17184 17185 17186 17187 17188 17190 17191 17192 17193 17194 17197 17198 17199 17200 17203 17205 17209 17213 17223 17225 17226 17228 17229 17230 17232 17234 17238 17239 17241 17242 17243 17245 17247 17248 17249
+	}
+	manpower = 246000
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

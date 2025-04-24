@@ -1,0 +1,211 @@
+characters = {
+	# Country leaders
+	KRS_Nikolai_Andreev = {
+		name = KRS_Nikolai_Andreev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KRS/Portrait_Krasnoyarsk_Nikolai_Andreev.dds"
+			}
+			army = {
+				large = "gfx/leaders/KRS/Portrait_Krasnoyarsk_Nikolai_Andreev.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_anocracy_subtype
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = communist_subtype
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = conservatism_subtype
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_subtype
+			id = -1
+		}
+		field_marshal = {
+			desc = "MILITARY_NIKOLAI_ANDREEV_DESC"
+			traits = { trait_cautious infantry_leader winter_specialist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 3651
+		}
+	}
+
+	KRS_Anatoly_Krasnov_Levitin = {
+		name = KRS_Anatoly_Krasnov_Levitin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KRS_Anatoly_Krasnov_Levitin.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = KRS_Anatoly_Krasnov_Levitin_hog
+			allowed = { original_tag = KRS }
+			traits = { }
+		}
+	}
+
+	KRS_Nicholas_Yarushevich = {
+		name = KRS_Nicholas_Yarushevich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KRS_Nicholas_Yarushevich.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = KRS_Nicholas_Yarushevich_for
+			allowed = { original_tag = KRS }
+			traits = { }
+		}
+	}
+
+	KRS_Georgy_Karpov = {
+		name = KRS_Georgy_Karpov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KRS_Georgy_Karpov.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = KRS_Nicholas_Yarushevich_sec
+			allowed = { original_tag = KRS }
+			traits = { }
+		}
+	}
+
+	KRS_Aleksandr_Kokarev = {
+		name = KRS_Aleksandr_Kokarev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KEM/Portrait_KRS_Georgy_Karpov.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = KRS_Nicholas_Yarushevich_sec
+			allowed = { original_tag = KRS }
+			traits = { }
+		}
+	}
+
+	KRS_Mitrofan = {
+		name = KRS_Mitrofan
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRS/Portrait_KRS_Mitrofan.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	# KRS Generals
+	KRS_Boris_Shevchenko = {
+		name = KRS_Boris_Shevchenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRS/Portrait_KRS_Boris_Shevchenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KRS_Grigory_Shevchenko = {
+		name = KRS_Grigory_Shevchenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRS/Portrait_KRS_Grigory_Shevchenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KRS_Alexander_Berezin = {
+		name = KRS_Alexander_Berezin
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRS/Portrait_KRS_Alexander_Berezin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KRS_Ivan_Krasnov = {
+		name = KRS_Ivan_Krasnov
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRS/Portrait_KRS_Ivan_Krasnov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KRS_Vladimir_Smetanin = {
+		name = KRS_Vladimir_Smetanin
+		portraits = {
+			army = {
+				large = "gfx/leaders/KRS/Portrait_KRS_Vladimir_Smetanin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

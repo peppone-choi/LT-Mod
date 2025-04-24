@@ -1,0 +1,35 @@
+
+state = {
+	id = 505
+	name = "STATE_505"
+	resources = {
+		aluminium = 18.000
+	}
+
+	history = {
+		owner = BRA
+		buildings = {
+			infrastructure = 3
+			radar_station = 1
+			air_base = 2
+			prisons = 2
+			barracks = 1
+		}
+		add_core_of = BRA
+		victory_points = {
+			12987 10
+		}
+		victory_points = {
+			8140 6
+		}
+		set_state_flag = GDP_regions_goias
+	}
+
+	provinces = {
+		5115 5208 8140 12959 12987 17403 17406 17416 17421 17818
+	}
+	manpower = 1755057
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

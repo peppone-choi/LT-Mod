@@ -1,0 +1,32 @@
+state = {
+	id = 804
+	name = "STATE_804"
+	resources = {
+		oil = 6
+		rubber = 8
+	}
+
+	history = {
+		buildings = {
+			infrastructure = 3
+			4424 = {
+				naval_base = 2
+			}
+		}
+		owner = SHO
+		add_core_of = SHO
+		add_core_of = MLY
+		victory_points = {
+			4424 5
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4424
+	}
+	manpower = 341319
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

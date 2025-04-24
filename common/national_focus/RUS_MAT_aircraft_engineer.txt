@@ -1,0 +1,94 @@
+focus_tree = {
+    id = MGN_aircraft_engineer_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = MGN
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = MGN_AIR_focus_1 #맨발의 폭군의 후계자
+        x = 0
+        y = 0
+    }
+
+      focus = {
+        id = MGN_AIR_focus_2 #마그니토고로스크 5개년 계획
+        prerequisite = {focus = MGN_AIR_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = MGN_AIR_focus_3 #관료조직 흡수
+        prerequisite = {focus = MGN_AIR_focus_2}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = MGN_AIR_focus_4 #VASKHNIL 재건
+        prerequisite = {focus = MGN_AIR_focus_3}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = MGN_AIR_focus_5 #로캣공학 연구소 창설
+        prerequisite = {focus = MGN_AIR_focus_4}
+        x = 0
+        y = 4
+    }
+
+    focus = {
+        id = MGN_AIR_focus_6 #검은 산의 하늘의 기사들
+        prerequisite = {focus = MGN_AIR_focus_5}
+        x = 0
+        y = 5
+    }
+
+    focus = {
+        id = MGN_AIR_focus_7 #석탄위기 발발 루트1
+        prerequisite = {focus = MGN_AIR_focus_6}
+        x = 0
+        y = 6
+    }
+
+    focus = {
+        id = MGN_AIR_focus_8 #석탄위기 발발 루트2
+        prerequisite = {focus = MGN_AIR_focus_6}
+        x = 1
+        y = 6
+    }
+
+    focus = {
+        id = MGN_AIR_focus_9 #남우랄 경제협력위원회 설립
+        prerequisite = {focus = MGN_AIR_focus_7}
+        prerequisite = {focus = MGN_GEN_focus_8}
+        x = 0
+        y = 7
+    }
+
+    focus = {
+        id = MGN_AIR_focus_10 #도적때의 끝
+        prerequisite = {focus = MGN_AIR_focus_9}
+        x = 0
+        y = 8
+    }
+
+    focus = {
+        id = MGN_AIR_focus_11 #북방의 군대의 부름
+        prerequisite = {focus = MGN_AIR_focus_10}
+        x = 0
+        y = 9
+    allow_branch = { has_country_flag = MGN}
+    }
+
+
+    }

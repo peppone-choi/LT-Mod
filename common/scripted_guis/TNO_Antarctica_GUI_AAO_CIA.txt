@@ -1,0 +1,74 @@
+scripted_gui = {
+	Antarctica_GUI_AAO_CIA = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAO_CIA"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			Antarctica_GUI_AAO_CIA_Swap_Left_Arrow_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_CIA_Selected_War > 0 }
+					}
+					add_to_variable = { Antarctica_GUI_AAO_CIA_Selected_War = -1 }
+				}
+			}
+			Antarctica_GUI_AAO_CIA_Swap_Right_Arrow_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAO_CIA_Selected_War < Antarctica_GUI_AAO_CIA_Number_of_Wars }
+					}
+					add_to_variable = { Antarctica_GUI_AAO_CIA_Selected_War = 1 }
+				}
+			}
+		}
+		
+		triggers = {
+			Antarctica_GUI_AAO_CIA_Swap_Left_Arrow_click_enabled = {
+				check_variable = { Antarctica_GUI_AAO_CIA_Selected_War > 0 }
+			}
+			Antarctica_GUI_AAO_CIA_Swap_Right_Arrow_click_enabled = {
+				check_variable = { Antarctica_GUI_AAO_CIA_Selected_War < Antarctica_GUI_AAO_CIA_Number_of_Wars }
+			}
+		}
+		
+		properties = {
+			Antarctica_GUI_AAO_CIA_Operation_Secrecy_Bar = {
+				frame = 90
+			}
+			
+			Antarctica_GUI_AAO_CIA_Planning_Phase_Image1 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Planning_Phase_Image1]"
+			}
+			Antarctica_GUI_AAO_CIA_Planning_Phase_Image2 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Planning_Phase_Image2]"
+			}
+			Antarctica_GUI_AAO_CIA_Planning_Phase_Image3 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Planning_Phase_Image3]"
+			}
+			
+			Antarctica_GUI_AAO_CIA_Execution_Phase_Image1 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Execution_Phase_Image1]"
+			}
+			Antarctica_GUI_AAO_CIA_Execution_Phase_Image2 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Execution_Phase_Image2]"
+			}
+			Antarctica_GUI_AAO_CIA_Execution_Phase_Image3 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Execution_Phase_Image3]"
+			}
+			
+			Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1]"
+			}
+			Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2]"
+			}
+			Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3 = {
+				image = "[get_Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3]"
+			}
+		}
+	}
+}

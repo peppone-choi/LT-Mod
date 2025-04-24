@@ -1,0 +1,30 @@
+state = {
+	id = 1073
+	name = "STATE_1073"
+
+	history = {
+		owner = MZB
+		add_core_of = MZB
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			prisons = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			13792 2
+		}
+		victory_points = {
+			2159 1
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		2159 10972 13792 13795 13800 13812 17848
+	}
+	manpower = 281083
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

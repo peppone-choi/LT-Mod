@@ -1,0 +1,69 @@
+focus_tree = {
+    id = VTK_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = VTK
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = VTK_focus_1 #의장 비상직권 발행
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = VTK_focus_2 #경제 1
+        prerequisite = {focus = VTK_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = VTK_focus_3 #경제 2
+        prerequisite = {focus = VTK_focus_2}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = VTK_focus_4 #외교
+        prerequisite = {focus = VTK_focus_3}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = VTK_focus_5 #스테판 라진 군사 사관학교 창설
+        prerequisite = {focus = VTK_focus_4}
+        x = 0
+        y = 4
+    }
+
+    focus = {
+        id = VTK_focus_6 #군사 1
+        prerequisite = {focus = VTK_focus_5}
+        x = 0
+        y = 5
+    }
+
+    focus = {
+        id = VTK_focus_7 #군사 2
+        prerequisite = {focus = VTK_focus_6}
+        x = 0
+        y = 6
+    }
+
+    focus = {
+        id = VTK_focus_8 #볼로그다의 밀사
+        prerequisite = {focus = VTK_focus_7}
+        x = 0
+        y = 7
+    }
+}

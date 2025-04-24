@@ -1,0 +1,43 @@
+state = {
+	id = 1538
+	name = "STATE_1538"
+
+	resources = {
+		oil = 6
+		uranium = 2
+	}
+
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			prisons = 1
+			offices = 1
+			thermoelectric_plant = 2
+			infrastructure = 5
+			radar_station = 1
+		}
+		victory_points = {
+			6999 36
+		}
+		victory_points = {
+			19536 5
+		}
+		victory_points = {
+			19826 5
+		}
+		victory_points = {
+			19926 7
+		}
+		set_variable = { china_state_ref = 15 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		911 1893 6999 19536 19826 19926
+	}
+	manpower = 9478697
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

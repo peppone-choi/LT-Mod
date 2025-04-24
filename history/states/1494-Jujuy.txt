@@ -1,0 +1,28 @@
+state = { #Population Done
+	id = 1494
+	name = "STATE_1494"
+	manpower = 241462
+
+	resources = {
+		tungsten = 2
+	}
+
+	state_category = pastoral
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+		victory_points = { 11001 1 }
+		victory_points = { 14795 4 }
+		victory_points = { 14952 1 }
+
+		set_state_flag = GDP_regions_salta_jujuy
+	}
+
+	provinces = {
+		2224 11001 14994 14995 15065 14795 14952
+	}
+}

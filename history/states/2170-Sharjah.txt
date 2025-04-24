@@ -1,0 +1,29 @@
+state = {
+	id = 2170
+	name = "STATE_2170"
+
+	resources = {
+		oil = 12
+	}
+
+	history = {
+		owner = GUL
+		add_core_of = UAE
+		add_core_of = GUL
+		victory_points = {
+			10904 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		10904
+	}
+	manpower = 24707
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

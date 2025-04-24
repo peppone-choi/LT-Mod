@@ -1,0 +1,37 @@
+state = {
+	id = 1002
+	name = "STATE_1002"
+
+	history = {
+		owner = SPA
+		victory_points = {
+			6800 3
+		}
+		victory_points = {
+			6896 5
+		}
+		victory_points = {
+			3953 2
+		}
+		victory_points = {
+			11863 2
+		}
+		victory_points = {
+			12081 2
+		}
+		add_core_of = SPA
+		buildings = {
+			offices = 1
+			infrastructure = 4
+		}
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		3953 6800 6832 6896 9778 9828 9881 11863 12081
+	}
+	manpower = 592602
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

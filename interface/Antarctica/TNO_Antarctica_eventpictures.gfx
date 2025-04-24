@@ -1,0 +1,2185 @@
+spriteTypes = {
+
+	#########################
+	# REPORT/COUNTRY EVENTS #
+	#########################
+
+	spriteType = {
+		name = "GFX_report_event_crevasse_polar_vehicle"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_crevasse_polar_vehicle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_little_america"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_little_america.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mcmurdo_station"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mcmurdo_station.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_american_air_force_plane"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_american_air_force_plane.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_america_armored_vehicle_snow"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_america_armored_vehicle_snow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldier"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_machine_gun"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_machine_gun.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_map_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_map_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_map_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_map_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_plane_crash"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_plane_crash.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_plane_crash_survivors"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_plane_crash_survivors.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_plane_on_ice"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_plane_on_ice.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctic_construction_crew"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_construction_crew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_armored_vehicle_snow"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_armored_vehicle_snow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_german_antarctic_crew"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_antarctic_crew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_german_antarctica_patch"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_antarctica_patch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_german_antarctic_plane_launch"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_antarctic_plane_launch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_german_snow_vehicle"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_snow_vehicle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_iceberg_usa_helicopter_carrier"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_iceberg_usa_helicopter_carrier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_james_r_reedy"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_james_r_reedy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_japanese_antarctic_crew"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_japanese_antarctic_crew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_japanese_antarctic_explorers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_japanese_antarctic_explorers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_nazi_flag_explorers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_nazi_flag_explorers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_supplies_antarctica"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_supplies_antarctica.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_usa_helicopter_ship"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_usa_helicopter_ship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_deep_freeze_patch"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_deep_freeze_patch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_maca_sog"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_maca_sog.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_castle_bravo_bw"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_castle_bravo_bw.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_castle_bravo_color"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_castle_bravo_color.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_expedition_convoy"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_expedition_convoy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_expedition_convoy_driver"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_expedition_convoy_driver.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_expedition_convoy"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_expedition_convoy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_expedition_team"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_expedition_team.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_leal_expedition_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_leal_expedition_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_leal_expedition_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_leal_expedition_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_leal_expedition_vehicles"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_leal_expedition_vehicles.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_leal_magazine_hero"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_leal_magazine_hero.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_leal_magazine_hero_bw"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_leal_magazine_hero_bw.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_argentina_south_pole"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_south_pole.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_businessman_talking"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_businessman_talking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_glasses_thinking"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_glasses_thinking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_jfk"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_jfk.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_keyboard_rock_star"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_keyboard_rock_star.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_laughing"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_laughing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_lbj"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_lbj.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_navy_ship_bridge_talking"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_navy_ship_bridge_talking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_photo_op"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_photo_op.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_talking_submarine_model"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_talking_submarine_model.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_rudolf_mayr_happy"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_rudolf_mayr_happy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_rudolf_mayr_pilot_close"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_rudolf_mayr_pilot_close.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_rudolf_mayr_pilot_far"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_rudolf_mayr_pilot_far.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_deception_eruption_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_deception_eruption_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_deception_eruption_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_deception_eruption_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_deception_eruption_3"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_deception_eruption_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_deception_eruption_4"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_deception_eruption_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_japanese_flag_plane"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_japanese_flag_plane.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229_workers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229_workers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_anton_grasser"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_anton_grasser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ernst_herrmann"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_ernst_herrmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_helicopter_crash_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_generic_helicopter_crash_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_generic_helicopter_crash_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_generic_helicopter_crash_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_helicopter_crash"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_helicopter_crash.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_japan_helicopter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_japan_helicopter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_usa_helicopter_rocks"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_usa_helicopter_rocks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_usa_helicopter_squad_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_usa_helicopter_squad_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_usa_helicopter_squad_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_usa_helicopter_squad_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_coast_storm"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_coast_storm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mountains_storm_sun"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mountains_storm_sun.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_penguins"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_penguins.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mayr_schirmacher_old_team"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mayr_schirmacher_old_team.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_usa_coast_guard_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_usa_coast_guard_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_usa_coast_guard_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_usa_coast_guard_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_navy_officers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_navy_officers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229_pilot"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229_pilot.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229_truck"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229_truck.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_aviation_aircraft_blueprints"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_aviation_aircraft_blueprints.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_tired_man"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_tired_man.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_aircraft_hardpoint"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_aircraft_hardpoint.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_candle"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_candle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_new_swabia_map"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_new_swabia_map.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_schirmacher_station"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_schirmacher_station.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229_pilot_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229_pilot_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229_runway_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229_runway_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229_runway_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229_runway_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_229_runway_3"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_229_runway_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_inside"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_inside.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_inside"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_inside.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_inside_bloody"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_inside_bloody.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_outside_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_outside_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_outside_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_outside_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_tunnel"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_tunnel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_wip_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_wip_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_me_p1110_wip_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_me_p1110_wip_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_office"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_office.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_letter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_letter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mbb_bo_115_blueprints"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mbb_bo_115_blueprints.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mbb_bo_115_cockpit"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mbb_bo_115_cockpit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mbb_bo_115_flight"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mbb_bo_115_flight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mbb_bo_115_group"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mbb_bo_115_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mbb_bo_115_outside_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mbb_bo_115_outside_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mbb_bo_115_outside_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mbb_bo_115_outside_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mbb_bo_115_outside_front"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mbb_bo_115_outside_front.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_helicopter_flares"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_helicopter_flares.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_office_door"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_office_door.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_bar"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_bar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_18_blueprints"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_18_blueprints.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_18_flight_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_18_flight_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_18_flight_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_18_flight_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_18_flight_3"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_18_flight_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_horten_ho_18_runway"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_horten_ho_18_runway.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_engine_test_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_engine_test_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_engine_test_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_engine_test_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_aircraft_refuel"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_aircraft_refuel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldiers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldiers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldiers_base"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldiers_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldiers_gear"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldiers_gear.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldiers_mg_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldiers_mg_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldiers_mg_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldiers_mg_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldiers_stg"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldiers_stg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldiers_trench"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldiers_trench.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_tank"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_tank.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_schumann_group_redacted"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_schumann_group_redacted.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_schumann_group"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_schumann_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_begerheim_ss_base"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_begerheim_ss_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_subarmine_ice"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_subarmine_ice.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_subarmine_poster"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_subarmine_poster.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_grasser_nervous"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_grasser_nervous.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_grasser_young"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_grasser_young.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_schumann_nazi_party"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_schumann_nazi_party.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_schumann_young"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_schumann_young.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_burning_note"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_burning_note.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_helicopter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_helicopter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_naval_patrol_sub"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_naval_patrol_sub.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_outpost_tunnel"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_outpost_tunnel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_tracked_vehicle"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_tracked_vehicle.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_written_notes"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_written_notes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_trucks"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_trucks.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_jet_plane_me_262"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_jet_plane_me_262.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctic_survey_camera"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_survey_camera.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_supply_ship"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_supply_ship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctic_doctors_office"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_doctors_office.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctic_penguin_group_outside"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_penguin_group_outside.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctic_station"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_station.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_penguin_cage"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_penguin_cage.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_penguin_cage_blood"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_penguin_cage_blood.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pervitin_ad"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pervitin_ad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pervitin_drugs_table"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pervitin_drugs_table.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_tape_recorder"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_tape_recorder.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_hangar"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_hangar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_glacier_moulin"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_glacier_moulin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_rations_crate"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_rations_crate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_paperwork_pile"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_paperwork_pile.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_working_crew_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_working_crew_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_working_crew_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_working_crew_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_large_naval_vessels"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_large_naval_vessels.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_rudolf_mayr"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_rudolf_mayr.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_naval_buoy"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_naval_buoy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_supply_tractor"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_supply_tractor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctic_naval_patrol_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_naval_patrol_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctic_naval_patrol_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_naval_patrol_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_supplies_outside"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_supplies_outside.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_supplies_crates"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_supplies_crates.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_schirmacher_upset"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_schirmacher_upset.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_map_german_text"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_map_german_text.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mayr_jacket"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mayr_jacket.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_misc_supplies_pile"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_misc_supplies_pile.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_new_swabia_map_plans_old"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_new_swabia_map_plans_old.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_schirmacher_jacket"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_schirmacher_jacket.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_helicopter_supply_delivery"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_helicopter_supply_delivery.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_menacing_snow_figure"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_menacing_snow_figure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_storeroom"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_storeroom.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_radio_electronics_station"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_radio_electronics_station.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_antarctic_expedition_medal_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_antarctic_expedition_medal_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_antarctic_expedition_medal_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_antarctic_expedition_medal_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_snow_corpse"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_snow_corpse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_german_soldier_mp40"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_german_soldier_mp40.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_south_africa_yacht"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_south_africa_yacht.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_dog_sled"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_dog_sled.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_lutze"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_lutze.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_gutschow"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_gutschow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_the_end"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_the_end.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_frozen_corpse_ending"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_frozen_corpse_ending.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_eduard_zorn"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_eduard_zorn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_hans_degen"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_hans_degen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_hans_degen_young"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_hans_degen_young.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_3"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_4"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_schwabenland_ship"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_schwabenland_ship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_5"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_6"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_7"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_8"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_9"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_9.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_10"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_10.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_erwin_fussenegger_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_erwin_fussenegger_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_erwin_fussenegger_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_erwin_fussenegger_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_valentin_feurstein"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_valentin_feurstein.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_11"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_11.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_12"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_12.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_13"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_13.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_frozen_body_german"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_frozen_body_german.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_edelweiss_flower"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_edelweiss_flower.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_14"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_14.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_alfred_kottas_phone"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_alfred_kottas_phone.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_15"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_15.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_16"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_16.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_2nd_mountain_division_17"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_2nd_mountain_division_17.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_nuclear_bomb_wiring"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_nuclear_bomb_wiring.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_circuit_board"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_circuit_board.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_nuclear_artillery_shell"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_nuclear_artillery_shell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_srbm_nuclear_rocket"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_srbm_nuclear_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_plutonium_nuclear_fuel"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_plutonium_nuclear_fuel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raw_uranium_mine"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raw_uranium_mine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_building_155"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_building_155.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_howard_beale_hand_up"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_howard_beale_hand_up.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_station_nuclear_power_plant"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_station_nuclear_power_plant.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_reedy_handshake"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_reedy_handshake.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_pm-3a"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_pm-3a.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_howard_beale_interview"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_howard_beale_interview.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_cia_rip_boat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_rip_boat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_hillary_cold_weather_gear"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_hillary_cold_weather_gear.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_charles_seymour_wright"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_charles_seymour_wright.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_charles_seymour_wright_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_charles_seymour_wright_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_oaa_winter_crew"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_oaa_winter_crew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_phleger_kennedy_dc"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_phleger_kennedy_dc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_snocat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_snocat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_talking_hands"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_talking_hands.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_hillary_suit"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_hillary_suit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_cia_malaysia_422nd_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_malaysia_422nd_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_cia_malaysia_422nd_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_malaysia_422nd_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_cia_photo_collage"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_photo_collage.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_camp_century_plane"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_plane.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_classified_documents_army_engineers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_classified_documents_army_engineers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pert_minuteman_titan_launch_sites"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pert_minuteman_titan_launch_sites.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_interview_mic"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_interview_mic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pert_missile_airframe_launch"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pert_missile_airframe_launch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pert_missile_electronics"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pert_missile_electronics.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pert_missile_electronics_final"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pert_missile_electronics_final.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pert_missile_rev"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pert_missile_rev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_nuclear_reactor_control_center"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_nuclear_reactor_control_center.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_nuclear_reactor_sign"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_nuclear_reactor_sign.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_nuclear_reactor_sign_penguin"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_nuclear_reactor_sign_penguin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_nuclear_reactor_tank"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_nuclear_reactor_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_nuclear_reactor_team_logo"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_nuclear_reactor_team_logo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_nuclear_reactor_workers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_nuclear_reactor_workers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pert_missile_mating"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pert_missile_mating.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctic_survey_snow"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctic_survey_snow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_large_cargo_truck"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_large_cargo_truck.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_pert_missile_launch"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pert_missile_launch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_raborn_politics_talking"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_raborn_politics_talking.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_cia_agents_suits"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_agents_suits.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_camp_century_construction_machinery"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_construction_machinery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_camp_century_project_iceworm_silo_map"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_project_iceworm_silo_map.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_hillary_antarctica_vehicle"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_hillary_antarctica_vehicle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_nuclear_reactor_building"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_nuclear_reactor_building.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_us_military_police_man"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_us_military_police_man.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cia_interrogation_room"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_interrogation_room.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_canadian_plane_twin_otter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_canadian_plane_twin_otter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_african_american_soldier_inspection"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_african_american_soldier_inspection.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_african_american_soldier_recruiter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_african_american_soldier_recruiter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_camp_century_thule"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_thule.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_camp_century_digging_snow_shovel"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_digging_snow_shovel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_camp_century_construction_machinery_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_construction_machinery_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_camp_century_tunnel_buildings"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_tunnel_buildings.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_african_american_protester_voting"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_african_american_protester_voting.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_camp_century_base_map"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_base_map.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_camp_century_collapse_building"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_collapse_building.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_camp_century_long_tunnel"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_camp_century_long_tunnel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_byrd_statue_african_american_soldier"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_byrd_statue_african_american_soldier.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_phleger_suit_hand"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_phleger_suit_hand.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_american_flag_soldiers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_american_flag_soldiers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_howard_beale_office_paper"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_howard_beale_office_paper.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_reedy_ship_captain"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_reedy_ship_captain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_american_soldiers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_american_soldiers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_a_very_mcmurdo_christmas"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_a_very_mcmurdo_christmas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_columbus_ohio_aerial"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_columbus_ohio_aerial.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_female_researcher_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_female_researcher_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_female_researcher_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_female_researcher_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_madagascar_map"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_madagascar_map.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_madagascar_marcel_bigeard"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_madagascar_marcel_bigeard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_officers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_officers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_malagasy_uprising_soldiers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_malagasy_uprising_soldiers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_soldier_letter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_soldier_letter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_madagascar_marcel_bigeard_handshake"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_madagascar_marcel_bigeard_handshake.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_soldier_pow_dead"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_soldier_pow_dead.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_german_soldier_pow"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_german_soldier_pow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cia_rip_africa_car"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_rip_africa_car.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_africa_vaccinations"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_africa_vaccinations.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_admiral_rademaker_brazil"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_admiral_rademaker_brazil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_tent_kitchen"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_tent_kitchen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_american_ship_ice_digging"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_american_ship_ice_digging.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_radio_operator_record"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_radio_operator_record.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mundaring_state_park"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mundaring_state_park.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_radio_operator_record_mic"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_radio_operator_record_mic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_radio_operator_mic"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_radio_operator_mic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_bon_scott_statue"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_bon_scott_statue.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_party"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_party.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_radio_crew_paperwork"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_radio_crew_paperwork.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cia_agents_suits_hats"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_agents_suits_hats.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_jerusalem_city_helicopter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_jerusalem_city_helicopter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mcmurdo_radio_operator_headset"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mcmurdo_radio_operator_headset.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_walter_cronkite"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_walter_cronkite.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_jim_beam_ad"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_jim_beam_ad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_fishing_boat_ship"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_fishing_boat_ship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cia_black_plane"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_black_plane.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cia_soldiers_helicopter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_soldiers_helicopter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cia_american_fishing_boats"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_american_fishing_boats.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cia_rip_hat_tip"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_cia_rip_hat_tip.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_chongqing_rubble"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_chongqing_rubble.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_train_destroyed"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_train_destroyed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_jean_schramme_suit"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_jean_schramme_suit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_mike_hoare_merc"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_mike_hoare_merc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_bob_denard"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_bob_denard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_vosburg_church"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_vosburg_church.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_phleger_writing_letter"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_phleger_writing_letter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_american_wounded_soldier"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_american_wounded_soldier.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_american_soldier_returning_home"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_american_soldier_returning_home.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_american_soldier_cold_weather_gear_nvgs"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_american_soldier_cold_weather_gear_nvgs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_researchers_plane"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_researchers_plane.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_the_end_rocket"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_the_end_rocket.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_rickover_time_magazine"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_rickover_time_magazine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_howard_beale_mic"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_howard_beale_mic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_hillary_chair"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_hillary_chair.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_leal_snocat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_leal_snocat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_south_pole_empty"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_south_pole_empty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_giro_expedition_gear_goggles"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_giro_expedition_gear_goggles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_giro_jacket"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_giro_jacket.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_olezza_uniform"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_olezza_uniform.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pujato_boat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pujato_boat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_pujato_younger"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_pujato_younger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_esperanza_base"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_esperanza_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_operacion_90_crew_leal_giro"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_operacion_90_crew_leal_giro.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_snowcat_group_motorpool"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_snowcat_group_motorpool.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_giro_lamp_eating"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_giro_lamp_eating.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ceppi_headshot_photo"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_ceppi_headshot_photo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_thiokol_trackmaster_4t10"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_thiokol_trackmaster_4t10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_ceppi_snocat_mechanic"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_ceppi_snocat_mechanic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentinean_snocats_supplies"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentinean_snocats_supplies.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentinean_snocat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentinean_snocat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentinean_base"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentinean_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_aktiv_fischer_snow_trac"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_aktiv_fischer_snow_trac.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_camara_base_boat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_camara_base_boat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_light_plane"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_light_plane.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_dog_sled_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_dog_sled_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_leal_giro_winter_gear"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_leal_giro_winter_gear.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_giro_expedition_sled"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_giro_expedition_sled.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_pujato_shaking_hands"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_pujato_shaking_hands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_snowcat_night_building"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_snowcat_night_building.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pujato_portrait"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pujato_portrait.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_dc3"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_dc3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_outpost_blizzard"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_outpost_blizzard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_buenos_aires_street"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_buenos_aires_street.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_alfonzo_headshot_photo"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_alfonzo_headshot_photo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_belgrano_base_door"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_belgrano_base_door.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_dc3_crew"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_dc3_crew.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_island_helicopters"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_island_helicopters.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_small_base"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_small_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_esperanza_base_wide"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_esperanza_base_wide.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_giro_mountaintop"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_giro_mountaintop.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_ice_breaker"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_ice_breaker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_full_team"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_full_team.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_army_officers"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_army_officers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_takeso_shimoda_diplomat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_takeso_shimoda_diplomat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ushuaia_town"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_ushuaia_town.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_weapons_crate"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_weapons_crate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_zacarias_headshot_photo"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_zacarias_headshot_photo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_soldiers_standing"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_soldiers_standing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_soldiers_trench"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_soldiers_trench.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_san_martin_base"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_san_martin_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_wiencke_island_outpost"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_wiencke_island_outpost.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_plane_matienzo"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_plane_matienzo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_galindez_island_base"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_galindez_island_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_massera_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_massera_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_massera_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_massera_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_ship_rosario"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_ship_rosario.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_icebreaker_ship"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_icebreaker_ship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_ship_ice"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_ship_ice.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_almirante_brown_ship"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_almirante_brown_ship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_massera_old_nervous"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_massera_old_nervous.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_g21_goose"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_g21_goose.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_ship_sinking_fire"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_ship_sinking_fire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_traveling_flag"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_traveling_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_snowcat"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_snowcat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_mechanics"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_mechanics.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_tent"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_tent.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_the_end_pole"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_the_end_pole.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_berkner_island_coast"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_berkner_island_coast.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_patrol_82_1"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_patrol_82_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_patrol_82_2"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_patrol_82_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_surveyor"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_surveyor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_broken_sled"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_broken_sled.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_equipment"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_equipment.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pujato_scout"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pujato_scout.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_snowcat_accident"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_snowcat_accident.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_giro_cave"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_giro_cave.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_leal_goggles"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_leal_goggles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_sobral_base_sign"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_sobral_base_sign.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_crew_roster"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_crew_roster.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_sobral_base_entrance"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_sobral_base_entrance.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_mountains"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_mountains.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_convoy_sleds"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_convoy_sleds.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_pole_team"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_pole_team.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_op90_pole_solo"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_op90_pole_solo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_scott_tomb"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_scott_tomb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_pujato_dog"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_pujato_dog.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_argentina_belgrano_base_party"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_argentina_belgrano_base_party.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_leal_giro_salute"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_leal_giro_salute.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_op90_return_parade"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_op90_return_parade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_dog_sled_3"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_dog_sled_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_antarctica_scott_tent"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_antarctica_scott_tent.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_argentina_massera_interview"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_argentina_massera_interview.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pujato_stare"
+		texturefile = "gfx/event_pictures/Antarctica/report_event_pujato_stare.dds"
+	}
+	
+	###############
+	# NEWS EVENTS #
+	###############
+
+	spriteType = {
+		name = "GFX_news_event_german_antarctic_supplies_1"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_german_antarctic_supplies_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_german_antarctic_supplies_2"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_german_antarctic_supplies_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_german_antarctic_supplies_3"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_german_antarctic_supplies_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_ofn_reedy"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_ofn_reedy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_alfred_ritscher"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_alfred_ritscher.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_antarctica_map"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_antarctica_map.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_antarctica_german_soldier"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_antarctica_german_soldier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_antarctica_galindez_island"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_antarctica_galindez_island.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_antarctica_south_georgia"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_antarctica_south_georgia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_antarctica_sanae"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_antarctica_sanae.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_hyman_rickover"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_hyman_rickover.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_phillip_law"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_phillip_law.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_edmund_hillary"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_edmund_hillary.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_operacion_90_failure"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_operacion_90_failure.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_operacion_90_success"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_operacion_90_success.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_us_naval_officer"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_us_naval_officer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_operation_southern_cross"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_operation_southern_cross.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_howard_beale"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_howard_beale.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_operacion_90_success_mid"
+		texturefile = "gfx/event_pictures/news_event/Antarctica/news_event_operacion_90_success_mid.dds"
+	}
+}

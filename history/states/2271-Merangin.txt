@@ -1,0 +1,23 @@
+state = {
+	id = 2271
+	name = "STATE_2271"
+	manpower = 284131
+	state_category = pastoral
+	resources = {
+		rubber = 4
+		oil = 8
+	}
+	history = {
+		owner = INS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 19271 1 }
+		add_core_of = INS
+		set_state_flag = GDP_regions_djambi
+	}
+
+	provinces = {
+		19271 19305 15702 1533 19228 19236
+	}
+}

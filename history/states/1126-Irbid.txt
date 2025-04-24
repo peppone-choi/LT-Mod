@@ -1,0 +1,29 @@
+state = {
+	id = 1126
+	name = "STATE_1126"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = JOR
+		add_core_of = JOR
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+		}
+		victory_points = {
+			7170 1
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		7170 18591
+	}
+	manpower = 212030
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

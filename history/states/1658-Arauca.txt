@@ -1,0 +1,27 @@
+state = {
+	id = 1658
+	name = "STATE_1658"
+
+	resources = {
+		oil = 6
+	}
+
+	history = {
+		owner = CLL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 17364 1 }
+	}
+
+	provinces = {
+		15324 17364
+	}
+	manpower = 20937
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

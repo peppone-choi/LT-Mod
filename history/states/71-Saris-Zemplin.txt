@@ -1,0 +1,26 @@
+state = { #Population Done
+	id = 71
+	name = "STATE_71"
+	manpower = 583903
+
+	state_category = rural
+
+	history = {
+		owner = SLO
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = SLO
+		victory_points = { 3581 4 }
+		victory_points = { 6586 1 }
+	}
+
+	resources = {
+		oil = 2
+	}
+
+	provinces = {
+		3581 6604 6586
+	}
+}

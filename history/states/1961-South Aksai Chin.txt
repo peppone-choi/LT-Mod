@@ -1,0 +1,24 @@
+state = {
+	id = 1961
+	name = "STATE_1961"
+
+	history = {
+		owner = TIB
+		add_core_of = TIB
+		add_claim_by = IND
+		add_claim_by = AZH
+		buildings = {
+			infrastructure = 1
+		}
+		set_variable = { china_state_ref = 22 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		5042 16157 18878
+	}
+	manpower = 1352
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

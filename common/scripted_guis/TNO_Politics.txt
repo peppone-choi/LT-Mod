@@ -1,0 +1,1025 @@
+scripted_gui = {
+
+	TNO_SG_politics = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_SG_politics_faction_leader_container"
+
+		visible = {
+			always = yes
+		}
+
+		triggers = {
+			faction_leader_member_visible = {
+				is_in_faction = yes
+				#is_subject = no
+			}
+			faction_subject_visible = {
+				is_in_faction = yes
+				is_subject = yes
+			}
+			faction_icon_einheitspakt_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				GER = { is_faction_leader = yes }
+				OR = {
+					tag = GER
+					is_in_faction_with = GER
+				}
+			}
+			faction_icon_as_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				GRO = { is_faction_leader = yes }
+				OR = {
+					tag = GRO
+					is_in_faction_with = GRO
+				}
+			}
+			faction_icon_coprosperity_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				JAP = { is_faction_leader = yes }
+				OR = {
+					tag = JAP
+					is_in_faction_with = JAP
+				}
+			}
+			faction_icon_OFN_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				USA = { is_faction_leader = yes }
+				OR = {
+					tag = USA
+					is_in_faction_with = USA
+				}
+			}
+			faction_icon_UA_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				URL = { is_faction_leader = yes }
+				OR = {
+					tag = URL
+					is_in_faction_with = URL
+				}
+			}
+			faction_icon_FI_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_global_flag = FOURTH_INTERNATIONAL_FOUNDED
+				has_country_flag = FOURTH_INTERNATIONAL_MEMBER
+				OR = {
+					has_government = socialist
+					has_government = communist
+				}
+			}
+			faction_icon_triumvirate_visible = {
+				is_in_faction = yes
+				ITA = { is_faction_leader = yes }
+				OR = {
+					tag = ITA
+					is_in_faction_with = ITA
+				}
+				NOT = { has_global_flag = Triumvirate_Collapse }
+			}
+			faction_icon_mediterranean_bloc_visible = {
+				is_in_faction = yes
+				ITA = {
+					is_faction_leader = yes
+					has_idea = ITA_Mediterranean_Bloc_Leader
+				}
+				OR = {
+					tag = ITA
+					is_in_faction_with = ITA
+				}
+			}
+			faction_icon_imperial_alliance_visible = {
+				is_in_faction = yes
+				ITA = {
+					is_faction_leader = yes
+					has_idea = ITA_Imperial_Alliance_Leader
+				}
+				OR = {
+					tag = ITA
+					is_in_faction_with = ITA
+				}
+			}
+			faction_icon_rome_pact_visible = {
+				is_in_faction = yes
+				ITA = {
+					is_faction_leader = yes
+					has_idea = ITA_Rome_Pact_Leader
+				}
+				OR = {
+					tag = ITA
+					is_in_faction_with = ITA
+				}
+			}
+			faction_icon_NLF_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				CHI = { is_faction_leader = yes }
+				OR = {
+					tag = CHI
+					is_in_faction_with = CHI
+				}
+			}
+			faction_icon_PALF_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_country_flag = PALF_MEMBER
+			}
+			faction_icon_FMA_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_country_flag = FMA_MEMBER
+			}
+			faction_icon_FRU_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_country_flag = FRU_MEMBER
+			}
+			faction_icon_WAA_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_country_flag = WAA_MEMBER
+			}
+			faction_icon_WAF_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_country_flag = WAF_MEMBER
+			}
+			faction_icon_Mano_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				has_idea = Mano_Member
+			}
+			faction_icon_Haitian_United_Front_visible = {
+				is_in_faction = yes
+				has_idea = HUF_Faction
+			}
+			faction_icon_Hispaniola_Front_visible = {
+				is_in_faction = yes
+				has_idea = HRF_Faction
+			}
+			faction_icon_Central_Asia_Defense_League_visible = {
+				is_in_faction = yes
+				has_country_flag = CADL_MEMBER
+			}
+			faction_icon_Central_Asian_Solidarity_Alliance_visible = {
+				is_in_faction = yes
+				has_country_flag = CASA_MEMBER
+			}
+			faction_icon_Orungu_Alliance_visible = {
+				is_in_faction = yes
+				has_country_flag = CAL_MEMBER
+			}
+			faction_icon_Revolutionary_Iranian_Liberation_Front_visible = {
+				is_in_faction = yes
+				has_country_flag = PER_RILF_MEMBER
+			}
+			faction_icon_Siberian_Mutual_Assistance_Compact_visible = {
+				is_in_faction = yes
+				has_country_flag = SMAC_MEMBER
+			}
+			faction_icon_generic_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				NOT = {
+					AND = {
+						GER = { is_faction_leader = yes }
+						OR = {
+							tag = GER
+							is_in_faction_with = GER
+						}
+					}
+					AND = {
+						GRO = { is_faction_leader = yes }
+						OR = {
+							tag = GRO
+							is_in_faction_with = GRO
+						}
+					}
+					AND = {
+						JAP = { is_faction_leader = yes }
+						OR = {
+							tag = JAP
+							is_in_faction_with = JAP
+						}
+					}
+					AND = {
+						USA = { is_faction_leader = yes }
+						OR = {
+							tag = USA
+							is_in_faction_with = USA
+						}
+					}
+					AND = {
+						ITA = { is_faction_leader = yes }
+						OR = {
+							tag = ITA
+							is_in_faction_with = ITA
+						}
+					}
+					AND = {
+						CHI = { is_faction_leader = yes }
+						OR = {
+							tag = CHI
+							is_in_faction_with = CHI
+						}
+					}
+					AND = {
+						URL = { is_faction_leader = yes }
+						OR = {
+							tag = URL
+							is_in_faction_with = URL
+						}
+					}
+					has_country_flag = PALF_MEMBER
+					has_country_flag = FMA_MEMBER
+					has_country_flag = FRU_MEMBER
+					has_country_flag = WAA_MEMBER
+					has_country_flag = WAF_MEMBER
+					has_country_flag = CADL_MEMBER
+					has_country_flag = CASA_MEMBER
+					has_country_flag = CAL_MEMBER
+					has_country_flag = PER_RILF_MEMBER
+					has_country_flag = SMAC_MEMBER
+					has_idea = Mano_Member
+					has_idea = HUF_Faction
+					has_idea = HRF_Faction
+				}
+			}
+			current_faction_status_visible = {
+				OR = {
+					is_in_faction = yes
+					has_idea = Pakt_Observer
+					has_idea = Sphere_Observer
+					has_idea = OFN_Observer
+					has_idea = TRI_Observer
+					has_idea = NLF_Member
+				}
+			}
+		}
+
+		properties = {
+			current_faction_status = {
+				image = "[This.GetFactionStatus_icon]"
+			}
+		}
+	}
+	
+	TNO_SG_politics_bop_cover = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_SG_politics_bop_cover"
+		visible = {
+			NOT = { has_country_flag = TNO_disable_bop_cover }
+			has_any_power_balance = yes
+		}
+		effects = {
+			cover_button_click = {
+				set_country_flag = TNO_disable_bop_cover
+			}
+		}
+	}
+
+	################
+	TNO_SG_politics_laws = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_SG_politics_laws"
+		#dirty = TNO_laws_dirty # Disabled until I can figure out why it doesnt update at the start of the game
+
+		visible = {
+			always = yes
+		}
+
+		dynamic_lists = {
+			TNO_Politics_Law_Grid = {
+				array = TNO_Politics_Law_display
+				change_scope = no
+				entry_container = "TNO_pol_category_[?TNO_Politics_Law_display^i]"
+			}
+		}
+
+		properties = {
+			category_1_collapse_btn = { frame = TNO_category_1_collapse }
+			category_2_collapse_btn = { frame = TNO_category_2_collapse }
+			category_3_collapse_btn = { frame = TNO_category_3_collapse }
+			category_4_collapse_btn = { frame = TNO_category_4_collapse }
+			category_5_collapse_btn = { frame = TNO_category_5_collapse }
+			category_6_collapse_btn = { frame = TNO_category_6_collapse }
+
+			category_1_law_tno_political_parties_bar = { frame = tno_political_parties_effectiveness }
+			category_1_law_tno_political_parties_icon = { image = "[GetCategory1Lawtno_political_parties_icon]" }
+			category_1_law_tno_political_parties_trend = { image = "[get_political_parties_policy_trend]" }
+
+			category_1_law_tno_religious_rights_bar = { frame = tno_religious_rights_effectiveness }
+			category_1_law_tno_religious_rights_icon = { image = "[GetCategory1Lawtno_religious_rights_icon]" }
+			category_1_law_tno_religious_rights_trend = { image = "[get_religious_rights_policy_trend]" }
+
+			category_1_law_tno_trade_unions_bar = { frame = tno_trade_unions_effectiveness }
+			category_1_law_tno_trade_unions_icon = { image = "[GetCategory1Lawtno_trade_unions_icon]" }
+			category_1_law_tno_trade_unions_trend = { image = "[get_trade_unions_policy_trend]" }
+
+			category_1_law_tno_immigration_bar = { frame = tno_immigration_effectiveness }
+			category_1_law_tno_immigration_bar_actual = { frame = tno_immigration_effectiveness_actual }
+			category_1_law_tno_immigration_icon = { image = "[GetCategory1Lawtno_immigration_icon]" }
+			category_1_law_tno_immigration_trend = { image = "[get_immigration_policy_trend]" }
+
+			category_1_law_tno_slavery_bar = { frame = tno_slavery_effectiveness }
+			category_1_law_tno_slavery_bar_actual = { frame = tno_slavery_effectiveness_actual }
+			category_1_law_tno_slavery_icon = { image = "[GetCategory1Lawtno_slavery_icon]" }
+			category_1_law_tno_slavery_trend = { image = "[get_slavery_policy_trend]" }
+
+			category_1_law_tno_public_meetings_bar = { frame = tno_public_meetings_effectiveness }
+			category_1_law_tno_public_meetings_bar_actual = { frame = tno_public_meetings_effectiveness_actual }
+			category_1_law_tno_public_meetings_icon = { image = "[GetCategory1Lawtno_public_meetings_icon]" }
+			category_1_law_tno_public_meetings_trend = { image = "[get_public_meetings_policy_trend]" }
+
+			category_1_law_tno_press_rights_bar = { frame = tno_press_rights_effectiveness }
+			category_1_law_tno_press_rights_bar_actual = { frame = tno_press_rights_effectiveness_actual }
+			category_1_law_tno_press_rights_icon = { image = "[GetCategory1Lawtno_press_rights_icon]" }
+			category_1_law_tno_press_rights_trend = { image = "[get_press_rights_policy_trend]" }
+
+			category_1_law_tno_vote_franchise_bar = { frame = tno_vote_franchise_effectiveness }
+			category_1_law_tno_vote_franchise_icon = { image = "[GetCategory1Lawtno_vote_franchise_icon]" }
+			category_1_law_tno_vote_franchise_trend = { image = "[get_vote_franchise_policy_trend]" }
+
+			category_2_law_tno_conscription_bar = { frame = tno_conscription_effectiveness }
+			category_2_law_tno_conscription_bar_actual = { frame = tno_conscription_effectiveness_actual }
+			category_2_law_tno_conscription_icon = { image = "[GetCategory2Lawtno_conscription_icon]" }
+			category_2_law_tno_conscription_trend = { image = "[get_conscription_policy_trend]" }
+
+			category_2_law_tno_military_supervision_bar = { frame = tno_military_supervision_effectiveness }
+			category_2_law_tno_military_supervision_bar_actual = { frame = tno_military_supervision_effectiveness_actual }
+			category_2_law_tno_military_supervision_icon = { image = "[GetCategory2Lawtno_military_supervision_icon]" }
+			category_2_law_tno_military_supervision_trend = { image = "[get_military_supervision_policy_trend]" }
+
+			category_2_law_tno_training_bar = { frame = tno_training_effectiveness }
+			category_2_law_tno_training_bar_actual = { frame = tno_training_effectiveness_actual }
+			category_2_law_tno_training_icon = { image = "[GetCategory2Lawtno_training_icon]" }
+			category_2_law_tno_training_trend = { image = "[get_training_policy_trend]" }
+
+			category_2_law_tno_draft_exemptions_bar = { frame = tno_draft_exemptions_effectiveness }
+			category_2_law_tno_draft_exemptions_bar_actual = { frame = tno_draft_exemptions_effectiveness_actual }
+			category_2_law_tno_draft_exemptions_icon = { image = "[GetCategory2Lawtno_draft_exemptions_icon]" }
+			category_2_law_tno_draft_exemptions_trend = { image = "[get_draft_exemptions_policy_trend]" }
+
+			category_3_law_tno_trade_laws_bar = { frame = tno_trade_laws_effectiveness }
+			category_3_law_tno_trade_laws_bar_actual = { frame = tno_trade_laws_effectiveness_actual }
+			category_3_law_tno_trade_laws_icon = { image = "[GetCategory3Lawtno_trade_laws_icon]" }
+			category_3_law_tno_trade_laws_trend = { image = "[get_trade_laws_policy_trend]" }
+
+			category_3_law_tno_income_taxation_bar = { frame = tno_income_taxation_effectiveness }
+			category_3_law_tno_income_taxation_bar_actual = { frame = tno_income_taxation_effectiveness_actual }
+			category_3_law_tno_income_taxation_icon = { image = "[GetCategory3Lawtno_income_taxation_icon]" }
+			category_3_law_tno_income_taxation_trend = { image = "[get_income_taxation_policy_trend]" }
+
+			category_3_law_tno_minimum_wage_bar = { frame = tno_minimum_wage_effectiveness }
+			category_3_law_tno_minimum_wage_bar_actual = { frame = tno_minimum_wage_effectiveness_actual }
+			category_3_law_tno_minimum_wage_icon = { image = "[GetCategory3Lawtno_minimum_wage_icon]" }
+			category_3_law_tno_minimum_wage_trend = { image = "[get_minimum_wage_policy_trend]" }
+
+			category_3_law_tno_max_workhours_bar = { frame = tno_max_workhours_effectiveness }
+			category_3_law_tno_max_workhours_bar_actual = { frame = tno_max_workhours_effectiveness_actual }
+			category_3_law_tno_max_workhours_icon = { image = "[GetCategory3Lawtno_max_workhours_icon]" }
+			category_3_law_tno_max_workhours_trend = { image = "[get_max_workhours_policy_trend]" }
+
+			category_3_law_tno_pensions_bar = { frame = tno_pensions_effectiveness }
+			category_3_law_tno_pensions_bar_actual = { frame = tno_pensions_effectiveness_actual }
+			category_3_law_tno_pensions_icon = { image = "[GetCategory3Lawtno_pensions_icon]" }
+			category_3_law_tno_pensions_trend = { image = "[get_pensions_policy_trend]" }
+
+			category_3_law_tno_unemployment_bar = { frame = tno_unemployment_effectiveness }
+			category_3_law_tno_unemployment_bar_actual = { frame = tno_unemployment_effectiveness_actual }
+			category_3_law_tno_unemployment_icon = { image = "[GetCategory3Lawtno_unemployment_icon]" }
+			category_3_law_tno_unemployment_trend = { image = "[get_unemployment_policy_trend]" }
+
+			category_4_law_tno_regulations_bar = { frame = tno_regulations_effectiveness }
+			category_4_law_tno_regulations_bar_actual = { frame = tno_regulations_effectiveness_actual }
+			category_4_law_tno_regulations_icon = { image = "[GetCategory4Lawtno_regulations_icon]" }
+			category_4_law_tno_regulations_trend = { image = "[get_regulations_policy_trend]" }
+
+			category_4_law_tno_health_care_bar = { frame = tno_health_care_effectiveness }
+			category_4_law_tno_health_care_bar_actual = { frame = tno_health_care_effectiveness_actual }
+			category_4_law_tno_health_care_icon = { image = "[GetCategory4Lawtno_health_care_icon]" }
+			category_4_law_tno_health_care_trend = { image = "[get_health_care_policy_trend]" }
+
+			category_4_law_tno_education_bar = { frame = tno_education_effectiveness }
+			category_4_law_tno_education_bar_actual = { frame = tno_education_effectiveness_actual }
+			category_4_law_tno_education_icon = { image = "[GetCategory4Lawtno_education_icon]" }
+			category_4_law_tno_education_trend = { image = "[get_education_policy_trend]" }
+
+			category_4_law_tno_penal_system_bar = { frame = tno_penal_system_effectiveness }
+			category_4_law_tno_penal_system_bar_actual = { frame = tno_penal_system_effectiveness_actual }
+			category_4_law_tno_penal_system_icon = { image = "[GetCategory4Lawtno_penal_system_icon]" }
+			category_4_law_tno_penal_system_trend = { image = "[get_penal_system_policy_trend]" }
+
+			category_4_law_tno_gender_rights_bar = { frame = tno_gender_rights_effectiveness }
+			category_4_law_tno_gender_rights_icon = { image = "[GetCategory4Lawtno_gender_rights_icon]" }
+			category_4_law_tno_gender_rights_trend = { image = "[get_gender_rights_policy_trend]" }
+
+			category_4_law_tno_security_bar = { frame = tno_security_effectiveness }
+			category_4_law_tno_security_bar_actual = { frame = tno_security_effectiveness_actual }
+			category_4_law_tno_security_icon = { image = "[GetCategory4Lawtno_security_icon]" }
+			category_4_law_tno_security_trend = { image = "[get_security_policy_trend]" }
+
+			category_6_academic_base_trend = { image = "[get_academic_base_trend]" }
+			category_6_research_facilities_trend = { image = "[get_research_facilities_trend]" }
+			category_6_agriculture_trend = { image = "[get_agriculture_trend]" }
+			category_6_healthcare_trend = { image = "[get_healthcare_trend]" }
+			category_6_admin_efficiency_trend = { image = "[get_admin_efficiency_trend]" }
+			category_6_industrial_equipment_trend = { image = "[get_industrial_equipment_trend]" }
+			category_6_industrial_expertise_trend = { image = "[get_industrial_expertise_trend]" }
+			category_6_army_professionalism_trend = { image = "[get_army_professionalism_trend]" }
+		}
+
+		effects = {
+			category_header_1_click = {
+				if = {
+					limit = { check_variable = { TNO_category_1_collapse = 1 } }
+					remove_from_array = { TNO_Politics_Law_display = 1 }
+					remove_from_array = { TNO_Politics_Law_display = 2 }
+					remove_from_array = { TNO_Politics_Law_display = 3 }
+					remove_from_array = { TNO_Politics_Law_display = 4 }
+					set_variable = { TNO_category_1_collapse = 2 }
+				}
+				else_if = {
+					limit = { check_variable = { TNO_category_1_collapse = 2 } }
+					add_to_array = { array = TNO_Politics_Law_display value = 4 index = 1 }
+					add_to_array = { array = TNO_Politics_Law_display value = 3 index = 1 }
+					add_to_array = { array = TNO_Politics_Law_display value = 2 index = 1 }
+					add_to_array = { array = TNO_Politics_Law_display value = 1 index = 1 }
+					set_variable = { TNO_category_1_collapse = 1 }
+				}
+				
+				add_to_variable = { TNO_laws_dirty = 1 }
+			}
+			category_header_2_click = {
+				if = {
+					limit = { check_variable = { TNO_category_2_collapse = 1 } }
+					remove_from_array = { TNO_Politics_Law_display = 11 }
+					remove_from_array = { TNO_Politics_Law_display = 12 }
+					set_variable = { TNO_category_2_collapse = 2 }
+				}
+				else_if = {
+					limit = { check_variable = { TNO_category_2_collapse = 2 } }
+					for_each_loop = {
+						array = TNO_Politics_Law_display
+						if = {
+							limit = { check_variable = { TNO_Politics_Law_display^i = 10 } }
+							add_to_temp_variable = { i = 1 }
+							add_to_array = { array = TNO_Politics_Law_display value = 12 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 11 index = i }
+							set_variable = { TNO_category_2_collapse = 1 }
+							set_temp_variable = { break = 1 }
+						}
+					}
+				}
+				
+				add_to_variable = { TNO_laws_dirty = 1 }
+			}
+			category_header_3_click = {
+				if = {
+					limit = { check_variable = { TNO_category_3_collapse = 1 } }
+					remove_from_array = { TNO_Politics_Law_display = 21 }
+					remove_from_array = { TNO_Politics_Law_display = 22 }
+					remove_from_array = { TNO_Politics_Law_display = 23 }
+					set_variable = { TNO_category_3_collapse = 2 }
+				}
+				else_if = {
+					limit = { check_variable = { TNO_category_3_collapse = 2 } }
+					for_each_loop = {
+						array = TNO_Politics_Law_display
+						if = {
+							limit = { check_variable = { TNO_Politics_Law_display^i = 20 } }
+							add_to_temp_variable = { i = 1 }
+							add_to_array = { array = TNO_Politics_Law_display value = 23 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 22 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 21 index = i }
+							set_variable = { TNO_category_3_collapse = 1 }
+							set_temp_variable = { break = 1 }
+						}
+					}
+				}
+				
+				add_to_variable = { TNO_laws_dirty = 1 }
+			}
+			category_header_4_click = {
+				if = {
+					limit = { check_variable = { TNO_category_4_collapse = 1 } }
+					remove_from_array = { TNO_Politics_Law_display = 31 }
+					remove_from_array = { TNO_Politics_Law_display = 32 }
+					remove_from_array = { TNO_Politics_Law_display = 33 }
+					set_variable = { TNO_category_4_collapse = 2 }
+				}
+				else_if = {
+					limit = { check_variable = { TNO_category_4_collapse = 2 } }
+					for_each_loop = {
+						array = TNO_Politics_Law_display
+						if = {
+							limit = { check_variable = { TNO_Politics_Law_display^i = 30 } }
+							add_to_temp_variable = { i = 1 }
+							add_to_array = { array = TNO_Politics_Law_display value = 33 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 32 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 31 index = i }
+							set_variable = { TNO_category_4_collapse = 1 }
+							set_temp_variable = { break = 1 }
+						}
+					}
+				}
+				
+				add_to_variable = { TNO_laws_dirty = 1 }
+			}
+			category_5_collapse_btn_click = { # Assorted Laws is different
+				if = {
+					limit = { check_variable = { TNO_category_5_collapse = 1 } }
+					set_variable = { TNO_category_5_collapse = 2 }
+					clear_variable = tno_opened_laws_category
+					clear_array = tno_laws_display_selection
+				}
+				else_if = {
+					limit = { check_variable = { TNO_category_5_collapse = 2 } }
+					set_variable = { TNO_category_5_collapse = 1 }
+					set_variable = { tno_opened_laws_category = 100 }
+				}
+				
+				add_to_variable = { TNO_laws_dirty = 1 }
+			}
+			category_header_6_click = {
+				if = {
+					limit = { check_variable = { TNO_category_6_collapse = 1 } }
+					remove_from_array = { TNO_Politics_Law_display = 51 }
+					remove_from_array = { TNO_Politics_Law_display = 52 }
+					remove_from_array = { TNO_Politics_Law_display = 53 }
+					remove_from_array = { TNO_Politics_Law_display = 54 }
+					set_variable = { TNO_category_6_collapse = 2 }
+				}
+				else_if = {
+					limit = { check_variable = { TNO_category_6_collapse = 2 } }
+					for_each_loop = {
+						array = TNO_Politics_Law_display
+						if = {
+							limit = { check_variable = { TNO_Politics_Law_display^i = 50 } }
+							add_to_temp_variable = { i = 1 }
+							add_to_array = { array = TNO_Politics_Law_display value = 54 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 53 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 52 index = i }
+							add_to_array = { array = TNO_Politics_Law_display value = 51 index = i }
+							set_variable = { TNO_category_6_collapse = 1 }
+							set_temp_variable = { break = 1 }
+						}
+					}
+				}
+				
+				add_to_variable = { TNO_laws_dirty = 1 }
+			}
+
+			# Politics
+			category_1_law_tno_political_parties_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 1 }
+				add_to_array = { tno_laws_display_selection = token:tno_political_parties_nonpartisan_system }
+				add_to_array = { tno_laws_display_selection = token:tno_political_parties_one_party_state }
+				add_to_array = { tno_laws_display_selection = token:tno_political_parties_controlled_opposition }
+				add_to_array = { tno_laws_display_selection = token:tno_political_parties_dominant_party_system }
+				add_to_array = { tno_laws_display_selection = token:tno_political_parties_multiparty_system }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_1_law_tno_religious_rights_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 2 }
+				add_to_array = { tno_laws_display_selection = token:tno_religious_rights_state_religion }
+				add_to_array = { tno_laws_display_selection = token:tno_religious_rights_pluralism }
+				add_to_array = { tno_laws_display_selection = token:tno_religious_rights_secularism }
+				add_to_array = { tno_laws_display_selection = token:tno_religious_rights_laicism }
+				add_to_array = { tno_laws_display_selection = token:tno_religious_rights_suppression_of_churches }
+				add_to_array = { tno_laws_display_selection = token:tno_religious_rights_state_atheism }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_1_law_tno_trade_unions_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 3 }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_unions_illegal }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_unions_state_controlled }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_unions_nonsocialist_allowed }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_unions_all_allowed }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_1_law_tno_immigration_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 4 }
+				add_to_array = { tno_laws_display_selection = token:tno_immigration_closed_borders }
+				add_to_array = { tno_laws_display_selection = token:tno_immigration_skilled_labor_only }
+				add_to_array = { tno_laws_display_selection = token:tno_immigration_quota_immigration }
+				add_to_array = { tno_laws_display_selection = token:tno_immigration_open_immigration }
+				add_to_array = { tno_laws_display_selection = token:tno_immigration_encouraged_immigration }
+				add_to_array = { tno_laws_display_selection = token:tno_immigration_ethnic_immigration }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_1_law_tno_slavery_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 5 }
+				add_to_array = { tno_laws_display_selection = token:tno_slavery_chattel }
+				add_to_array = { tno_laws_display_selection = token:tno_slavery_corvee }
+				add_to_array = { tno_laws_display_selection = token:tno_slavery_penal_labor }
+				add_to_array = { tno_laws_display_selection = token:tno_slavery_work_programs }
+				add_to_array = { tno_laws_display_selection = token:tno_slavery_pow_only }
+				add_to_array = { tno_laws_display_selection = token:tno_slavery_outlawed }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_1_law_tno_public_meetings_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 6 }
+				add_to_array = { tno_laws_display_selection = token:tno_public_meetings_outlawed }
+				add_to_array = { tno_laws_display_selection = token:tno_public_meetings_regulated }
+				add_to_array = { tno_laws_display_selection = token:tno_public_meetings_allowed }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_1_law_tno_press_rights_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 7 }
+				add_to_array = { tno_laws_display_selection = token:tno_press_rights_propaganda_press }
+				add_to_array = { tno_laws_display_selection = token:tno_press_rights_state_press_only }
+				add_to_array = { tno_laws_display_selection = token:tno_press_rights_censored_press }
+				add_to_array = { tno_laws_display_selection = token:tno_press_rights_free_press }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_1_law_tno_vote_franchise_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 8 }
+				add_to_array = { tno_laws_display_selection = token:tno_vote_franchise_no_voting }
+				add_to_array = { tno_laws_display_selection = token:tno_vote_franchise_elite_voting }
+				add_to_array = { tno_laws_display_selection = token:tno_vote_franchise_inequal_voting }
+				add_to_array = { tno_laws_display_selection = token:tno_vote_franchise_registered_voting }
+				add_to_array = { tno_laws_display_selection = token:tno_vote_franchise_universal }
+				add_to_array = { tno_laws_display_selection = token:tno_vote_franchise_promoted_voting }
+				scoped_sound_effect = "open_sub_window"
+			}
+			# Military
+			category_2_law_tno_conscription_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 11 }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_scraping_the_barrel }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_all_adults_serve }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_service_by_requirement }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_extensive_conscription }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_broadened_conscription }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_limited_conscription }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_volunteer_only }
+				add_to_array = { tno_laws_display_selection = token:tno_conscription_disarmed_nation }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_2_law_tno_military_supervision_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 12 }
+				add_to_array = { tno_laws_display_selection = token:tno_military_supervision_kill_em_all }
+				add_to_array = { tno_laws_display_selection = token:tno_military_supervision_no_supervision }
+				add_to_array = { tno_laws_display_selection = token:tno_military_supervision_rules_of_engagement }
+				add_to_array = { tno_laws_display_selection = token:tno_military_supervision_watchdog_groups }
+				add_to_array = { tno_laws_display_selection = token:tno_military_supervision_total_supervision }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_2_law_tno_training_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 13 }
+				add_to_array = { tno_laws_display_selection = token:tno_training_none }
+				add_to_array = { tno_laws_display_selection = token:tno_training_minimal_training }
+				add_to_array = { tno_laws_display_selection = token:tno_training_basic_training }
+				add_to_array = { tno_laws_display_selection = token:tno_training_combat_schooling }
+				add_to_array = { tno_laws_display_selection = token:tno_training_advanced_training_methods }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_2_law_tno_draft_exemptions_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 14 }
+				add_to_array = { tno_laws_display_selection = token:tno_draft_exemptions_none }
+				add_to_array = { tno_laws_display_selection = token:tno_draft_exemptions_elite_exemptions }
+				add_to_array = { tno_laws_display_selection = token:tno_draft_exemptions_educational_deferment }
+				add_to_array = { tno_laws_display_selection = token:tno_draft_exemptions_civil_service_deferment }
+				add_to_array = { tno_laws_display_selection = token:tno_draft_exemptions_generous_exemptions }
+				scoped_sound_effect = "open_sub_window"
+			}
+			# Econ
+			category_3_law_tno_trade_laws_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 21 }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_laws_free_trade }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_laws_export_focus }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_laws_limited_exports }
+				add_to_array = { tno_laws_display_selection = token:tno_trade_laws_closed_economy }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_3_law_tno_income_taxation_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 22 }
+				add_to_array = { tno_laws_display_selection = token:tno_income_taxation_no_income_taxation }
+				add_to_array = { tno_laws_display_selection = token:tno_income_taxation_low_income_weighted }
+				add_to_array = { tno_laws_display_selection = token:tno_income_taxation_flat_taxes }
+				add_to_array = { tno_laws_display_selection = token:tno_income_taxation_high_income_weighted }
+				add_to_array = { tno_laws_display_selection = token:tno_income_taxation_negative_taxation }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_3_law_tno_minimum_wage_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 23 }
+				add_to_array = { tno_laws_display_selection = token:tno_minimum_wage_no_minimum_wage }
+				add_to_array = { tno_laws_display_selection = token:tno_minimum_wage_trinket_minimum_wage }
+				add_to_array = { tno_laws_display_selection = token:tno_minimum_wage_low_minimum_wage }
+				add_to_array = { tno_laws_display_selection = token:tno_minimum_wage_acceptable_minimum }
+				add_to_array = { tno_laws_display_selection = token:tno_minimum_wage_good_minimum_wage }
+				add_to_array = { tno_laws_display_selection = token:tno_minimum_wage_annual_wage }
+				add_to_array = { tno_laws_display_selection = token:tno_minimum_wage_collective_bargaining }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_3_law_tno_max_workhours_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 24 }
+				add_to_array = { tno_laws_display_selection = token:tno_max_workhours_unlimited_work_day }
+				add_to_array = { tno_laws_display_selection = token:tno_max_workhours_14_hour_work_day }
+				add_to_array = { tno_laws_display_selection = token:tno_max_workhours_12_hour_work_day }
+				add_to_array = { tno_laws_display_selection = token:tno_max_workhours_10_hour_work_day }
+				add_to_array = { tno_laws_display_selection = token:tno_max_workhours_8_hour_work_day }
+				add_to_array = { tno_laws_display_selection = token:tno_max_workhours_6_hour_work_day }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_3_law_tno_pensions_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 25 }
+				add_to_array = { tno_laws_display_selection = token:tno_pensions_no_pensions }
+				add_to_array = { tno_laws_display_selection = token:tno_pensions_trinket_pensions }
+				add_to_array = { tno_laws_display_selection = token:tno_pensions_low_pensions }
+				add_to_array = { tno_laws_display_selection = token:tno_pensions_acceptable_pensions }
+				add_to_array = { tno_laws_display_selection = token:tno_pensions_good_pensions }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_3_law_tno_unemployment_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 26 }
+				add_to_array = { tno_laws_display_selection = token:tno_unemployment_no_subsidies }
+				add_to_array = { tno_laws_display_selection = token:tno_unemployment_trinket_subsidies }
+				add_to_array = { tno_laws_display_selection = token:tno_unemployment_low_subsidies }
+				add_to_array = { tno_laws_display_selection = token:tno_unemployment_moderate_subsidies }
+				add_to_array = { tno_laws_display_selection = token:tno_unemployment_generous_subsidies }
+				add_to_array = { tno_laws_display_selection = token:tno_unemployment_full_employment_policy }
+				scoped_sound_effect = "open_sub_window"
+			}
+			# Social
+			category_4_law_tno_health_care_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 31 }
+				add_to_array = { tno_laws_display_selection = token:tno_health_care_no_government_support }
+				add_to_array = { tno_laws_display_selection = token:tno_health_care_service_for_care }
+				add_to_array = { tno_laws_display_selection = token:tno_health_care_negotiated_coverage }
+				add_to_array = { tno_laws_display_selection = token:tno_health_care_support_for_emergencies }
+				add_to_array = { tno_laws_display_selection = token:tno_health_care_low_income_protections }
+				add_to_array = { tno_laws_display_selection = token:tno_health_care_universal_health_care }
+				add_to_array = { tno_laws_display_selection = token:tno_health_care_free_universal_care }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_4_law_tno_education_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 32 }
+				add_to_array = { tno_laws_display_selection = token:tno_education_restricted_education }
+				add_to_array = { tno_laws_display_selection = token:tno_education_stratified_education }
+				add_to_array = { tno_laws_display_selection = token:tno_education_public_education }
+				add_to_array = { tno_laws_display_selection = token:tno_education_subsidised_higher_education }
+				add_to_array = { tno_laws_display_selection = token:tno_education_public_higher_education }
+				add_to_array = { tno_laws_display_selection = token:tno_education_free_education }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_4_law_tno_penal_system_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 33 }
+				add_to_array = { tno_laws_display_selection = token:tno_penal_system_overt_oppression }
+				add_to_array = { tno_laws_display_selection = token:tno_penal_system_politicized_penal_system }
+				add_to_array = { tno_laws_display_selection = token:tno_penal_system_harsh_penal_code }
+				add_to_array = { tno_laws_display_selection = token:tno_penal_system_incarceration }
+				add_to_array = { tno_laws_display_selection = token:tno_penal_system_rehabilitation }
+				add_to_array = { tno_laws_display_selection = token:tno_penal_system_military_justice }
+				add_to_array = { tno_laws_display_selection = token:tno_penal_system_frontier_justice }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_4_law_tno_security_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 34 }
+				add_to_array = { tno_laws_display_selection = token:tno_security_anarchic }
+				add_to_array = { tno_laws_display_selection = token:tno_security_resource_extraction }
+				add_to_array = { tno_laws_display_selection = token:tno_security_crime_prevention }
+				add_to_array = { tno_laws_display_selection = token:tno_security_maintenance_of_order }
+				add_to_array = { tno_laws_display_selection = token:tno_security_political_control }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_4_law_tno_regulations_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 35 }
+				add_to_array = { tno_laws_display_selection = token:tno_regulations_utterly_unregulated }
+				add_to_array = { tno_laws_display_selection = token:tno_regulations_token_regulations }
+				add_to_array = { tno_laws_display_selection = token:tno_regulations_moderate_regulations }
+				add_to_array = { tno_laws_display_selection = token:tno_regulations_strict_regulations }
+				add_to_array = { tno_laws_display_selection = token:tno_regulations_harsh_regulations }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_4_law_tno_gender_rights_icon_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 36 }
+				add_to_array = { tno_laws_display_selection = token:tno_gender_rights_heavily_restricted }
+				add_to_array = { tno_laws_display_selection = token:tno_gender_rights_traditional_roles }
+				add_to_array = { tno_laws_display_selection = token:tno_gender_rights_women_in_the_workplace }
+				add_to_array = { tno_laws_display_selection = token:tno_gender_rights_gender_equality }
+				add_to_array = { tno_laws_display_selection = token:tno_gender_rights_promoted_equality }
+				add_to_array = { tno_laws_display_selection = token:tno_gender_rights_enforced_equality }
+				scoped_sound_effect = "open_sub_window"
+			}
+			# Soc Dev
+			category_6_sd_tno_academic_base_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 52 }
+				add_to_array = { tno_laws_display_selection = token:tno_academic_base_mass_illiteracy }
+				add_to_array = { tno_laws_display_selection = token:tno_academic_base_basic_literacy }
+				add_to_array = { tno_laws_display_selection = token:tno_academic_base_primary_schooling }
+				add_to_array = { tno_laws_display_selection = token:tno_academic_base_secondary_schooling }
+				add_to_array = { tno_laws_display_selection = token:tno_academic_base_tertiary_schooling }
+				add_to_array = { tno_laws_display_selection = token:tno_academic_base_golden_age }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_6_sd_tno_research_facilities_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 53 }
+				add_to_array = { tno_laws_display_selection = token:tno_research_facilities_makeshift }
+				add_to_array = { tno_laws_display_selection = token:tno_research_facilities_basic }
+				add_to_array = { tno_laws_display_selection = token:tno_research_facilities_outdated }
+				add_to_array = { tno_laws_display_selection = token:tno_research_facilities_modern }
+				add_to_array = { tno_laws_display_selection = token:tno_research_facilities_advanced }
+				add_to_array = { tno_laws_display_selection = token:tno_research_facilities_cutting_edge }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_6_sd_tno_agriculture_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 54 }
+				add_to_array = { tno_laws_display_selection = token:tno_agriculture_subsistence }
+				add_to_array = { tno_laws_display_selection = token:tno_agriculture_centralized }
+				add_to_array = { tno_laws_display_selection = token:tno_agriculture_basic_mechanized }
+				add_to_array = { tno_laws_display_selection = token:tno_agriculture_mass_mechanized }
+				add_to_array = { tno_laws_display_selection = token:tno_agriculture_modern }				
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_6_sd_tno_healthcare_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 55 }
+				add_to_array = { tno_laws_display_selection = token:tno_healthcare_makeshift }
+				add_to_array = { tno_laws_display_selection = token:tno_healthcare_rudimentary }
+				add_to_array = { tno_laws_display_selection = token:tno_healthcare_nascent }
+				add_to_array = { tno_laws_display_selection = token:tno_healthcare_developed }
+				add_to_array = { tno_laws_display_selection = token:tno_healthcare_advanced }
+				add_to_array = { tno_laws_display_selection = token:tno_healthcare_world_class }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_6_sd_tno_admin_efficiency_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 56 }
+				add_to_array = { tno_laws_display_selection = token:tno_admin_efficiency_organized_chaos }
+				add_to_array = { tno_laws_display_selection = token:tno_admin_efficiency_nonexistent_state_apparatus }
+				add_to_array = { tno_laws_display_selection = token:tno_admin_efficiency_illegitimate_administration }
+				add_to_array = { tno_laws_display_selection = token:tno_admin_efficiency_deficient_administrative_systems }
+				add_to_array = { tno_laws_display_selection = token:tno_admin_efficiency_functional_administrative_systems }
+				add_to_array = { tno_laws_display_selection = token:tno_admin_efficiency_streamlined_bureaucracy }
+				add_to_array = { tno_laws_display_selection = token:tno_admin_efficiency_well_oiled_machine }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_6_sd_tno_industrial_expertise_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 57 }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_expertise_pre_industrial }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_expertise_incompetent }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_expertise_nascent }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_expertise_experienced }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_expertise_innovative }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_6_sd_tno_industrial_equipment_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 58 }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_equipment_hand_tools }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_equipment_power_tools }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_equipment_manufacturing_lines }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_equipment_factory_complexes }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_equipment_modern }
+				add_to_array = { tno_laws_display_selection = token:tno_industrial_equipment_cutting_edge }
+				scoped_sound_effect = "open_sub_window"
+			}
+			category_6_sd_tno_army_professionalism_btn_click = {
+				clear_array = tno_laws_display_selection
+				set_variable = { tno_opened_laws_category = 59 }
+				add_to_array = { tno_laws_display_selection = token:tno_army_professionalism_untrained }
+				add_to_array = { tno_laws_display_selection = token:tno_army_professionalism_reluctant_conscripts }
+				add_to_array = { tno_laws_display_selection = token:tno_army_professionalism_disgruntled_veterans }
+				add_to_array = { tno_laws_display_selection = token:tno_army_professionalism_cronyism }
+				add_to_array = { tno_laws_display_selection = token:tno_army_professionalism_political_interference }
+				add_to_array = { tno_laws_display_selection = token:tno_army_professionalism_professional }
+				add_to_array = { tno_laws_display_selection = token:tno_army_professionalism_spartan_discipline }
+				scoped_sound_effect = "open_sub_window"
+			}
+		}
+	}
+
+#############################################################################################
+#############################################################################################
+#	 _          __          __ __          _______ _   _ _____   ______          _______ 	#
+#	| |        /\ \        / / \ \        / /_   _| \ | |  __ \ / __ \ \        / / ____|	#
+#	| |       /  \ \  /\  / /   \ \  /\  / /  | | |  \| | |  | | |  | \ \  /\  / / (___  	#
+#	| |      / /\ \ \/  \/ /     \ \/  \/ /   | | | . ` | |  | | |  | |\ \/  \/ / \___ \ 	#
+#	| |____ / ____ \  /\  /       \  /\  /   _| |_| |\  | |__| | |__| | \  /\  /  ____) |	#
+#	|______/_/    \_\/  \/         \/  \/   |_____|_| \_|_____/ \____/   \/  \/  |_____/ 	#
+#																							#
+#############################################################################################
+#############################################################################################
+
+	TNO_SG_politics_laws_socdev_display = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_politics_laws_socdev_window"
+
+		visible = {
+			has_variable = tno_opened_laws_category
+			NOT = { check_variable = { tno_opened_laws_category = 100 } }
+		}
+
+		dynamic_lists = {
+			TNO_politics_laws_socdev_gridbox = {
+				array = tno_laws_display_selection
+				index = law_i
+				value = law_v
+				entry_container = TNO_politics_laws_socdev_entry
+			}
+		}
+
+		effects = {
+			TNO_politics_laws_socdev_close_click = {
+				clear_array = tno_laws_display_selection
+				clear_variable = tno_opened_laws_category
+			}
+		}
+
+		properties = {
+			TNO_politics_laws_socdev_gridbox_icon = {
+				image = "GFX_idea_[?law_v.GetTokenKey]"
+			}
+		}
+	}
+
+#############################################################################################
+#############################################################################################
+# .___  ___.  __       _______.  ______     __          ___   ____    __    ____   _______.	#
+# |   \/   | |  |     /       | /      |   |  |        /   \  \   \  /  \  /   /  /       |	#
+# |  \  /  | |  |    |   (----`|  ,----'   |  |       /  ^  \  \   \/    \/   /  |   (----`	#
+# |  |\/|  | |  |     \   \    |  |        |  |      /  /_\  \  \            /    \   \    	#
+# |  |  |  | |  | .----)   |   |  `----.   |  `----./  _____  \  \    /\    / .----)   |   	#
+# |__|  |__| |__| |_______/     \______|   |_______/__/     \__\  \__/  \__/  |_______/   	#
+#																							#
+#############################################################################################
+#############################################################################################
+
+	# We say that the tno_opened_laws_category variable set to 100 is the misc laws
+	# We also make sure we clear the arrow
+	# Not perfect but w/e
+
+	TNO_SG_SD_category_tno_assorted_laws = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TNO_sd_category_tno_assorted_laws_window"
+
+		visible = {
+			check_variable = { tno_opened_laws_category = 100 }
+		}
+
+		triggers = {
+			assorted_laws_calculator_visible = {
+				all_of = {
+					array = TNO_assorted_laws
+					add_to_temp_array = { TNO_assorted_laws_display_temp = v }
+				}
+				add_to_temp_array = { TNO_assorted_laws_display_temp = 0 }
+				add_to_temp_array = { TNO_assorted_laws_display_temp = 0 }
+			}
+		}
+
+		effects = {
+			close_click = {
+				set_variable = { TNO_category_5_collapse = 2 }
+				clear_variable = tno_opened_laws_category
+				clear_array = tno_laws_display_selection
+			}
+		}
+
+		dynamic_lists = {
+			TNO_Politics_Assorted_Law_Grid = {
+				array = TNO_assorted_laws_display_temp
+				entry_container = "[get_TNO_assorted_law_entry]"
+				value = temp_law
+			}
+		}
+	}
+}

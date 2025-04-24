@@ -1,0 +1,27 @@
+state = {
+	id = 91
+	name = "STATE_91" # Lwow
+
+	manpower = 1034096
+	state_category = rural
+
+	history = {
+		owner = GGN
+		add_core_of = GGN
+		add_core_of = POL
+		#add_core_of = GAC
+
+		victory_points = { 3483 4 }
+		victory_points = { 3562 1 }
+
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		3483 438 3562 15668
+	}
+}

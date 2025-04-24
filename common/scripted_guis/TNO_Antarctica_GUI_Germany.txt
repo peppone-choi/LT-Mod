@@ -1,0 +1,10 @@
+scripted_gui = {
+	Antarctica_GUI_AAG_Germany = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAG_Germany"
+
+		visible = {
+			always = yes
+		}
+	}
+}

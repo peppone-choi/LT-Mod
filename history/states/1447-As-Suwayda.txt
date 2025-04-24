@@ -1,0 +1,26 @@
+state = { #Population Done
+	id = 1447
+	name = "STATE_1447"
+	manpower = 82523
+	state_category = pastoral
+	history = {
+		owner = SNS
+		buildings = {
+			infrastructure = 2
+			4486 = {
+				bunker = 4
+			}
+			16268 = {
+				bunker = 4
+			}
+		}
+		victory_points = { 16268 5 }
+		add_core_of = SYR
+		add_core_of = SNS
+		set_state_flag = GDP_regions_syria
+	}
+
+	provinces = {
+		16268 4486 16267
+	}
+}

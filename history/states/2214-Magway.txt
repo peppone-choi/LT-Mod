@@ -1,0 +1,30 @@
+state = {
+	id = 2214
+	name = "STATE_2214"
+
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = BUR
+		victory_points = {
+			19134 1
+		}
+		victory_points = {
+			4541 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BUR
+	}
+
+	provinces = {
+		19121 4541 7190 4019 7034 4059 19134 1333 1650
+	}
+	manpower = 2170933
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

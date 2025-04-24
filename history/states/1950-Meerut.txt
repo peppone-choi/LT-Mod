@@ -1,0 +1,40 @@
+state = {
+	id = 1950
+	name = "STATE_1950"
+
+	history = {
+		owner = IND
+		victory_points = {
+			16044 15
+		}
+		victory_points = {
+			11955 10
+		}
+		victory_points = {
+			18904 6
+		}
+		victory_points = {
+			18916 8
+		}
+		victory_points = {
+			18939 5
+		}
+		victory_points = {
+			18936 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_uttar_pradesh
+	}
+
+	provinces = {
+		11955 16043 16044 18904 18916 18936 18939
+	}
+	manpower = 10147169
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

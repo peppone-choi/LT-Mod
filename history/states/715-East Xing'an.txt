@@ -1,0 +1,32 @@
+state = {
+	id = 715
+	name = "STATE_715"
+	resources = {
+		oil = 1.000
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			19560 3
+		}
+		victory_points = {
+			19842 1
+		}
+		set_variable = { china_state_ref = 50 }
+		set_variable = { china_region_ref = 6 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1847 4809 4876 7873 7894 10567 10638 19456 19489 19521 19560 19571 19583 19603 19616 19842
+	}
+	manpower = 557891
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 2097
+	name = "STATE_2097"
+	manpower = 1682
+	state_category = small_island
+
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		victory_points = { 16826 1 }
+		buildings = {
+			infrastructure = 1
+			air_base = 4
+			16826 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+		16826 16822 16823 16819 16825
+	}
+}

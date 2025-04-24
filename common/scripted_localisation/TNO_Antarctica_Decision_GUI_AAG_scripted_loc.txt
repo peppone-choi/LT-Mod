@@ -1,0 +1,422 @@
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Date_Text
+
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+						has_country_flag = Antarctica_GUI_AAG_Research_1_Completed
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+						has_country_flag = Antarctica_GUI_AAG_Research_2_Completed
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+						has_country_flag = Antarctica_GUI_AAG_Research_3_Completed
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+						has_country_flag = Antarctica_GUI_AAG_Research_4_Completed
+					}
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Date_Text_Display
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAG_Entry_Date_Text_Empty
+	}
+}
+
+defined_text = {
+	name = Antarctica_Decision_GUI_AAG_Entry_Picture
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+		}
+		localization_key = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_HO229"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+		}
+		localization_key = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_ME1110"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+		}
+		localization_key = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_BO115"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+		}
+		localization_key = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_HOXVIII"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_TEST"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Title
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Title_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Title_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Title_4
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Body_Text
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Body_Text_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Body_Text_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Body_Text_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Body_Text_4
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_1_tt
+	
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+						has_country_flag = Antarctica_GUI_AAG_Research_1_Test_1_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+						has_country_flag = Antarctica_GUI_AAG_Research_2_Test_1_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+						has_country_flag = Antarctica_GUI_AAG_Research_3_Test_1_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+						has_country_flag = Antarctica_GUI_AAG_Research_4_Test_1_Done
+					}
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Text
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Blank
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_2_tt
+	
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+						has_country_flag = Antarctica_GUI_AAG_Research_1_Test_2_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+						has_country_flag = Antarctica_GUI_AAG_Research_2_Test_2_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+						has_country_flag = Antarctica_GUI_AAG_Research_3_Test_2_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+						has_country_flag = Antarctica_GUI_AAG_Research_4_Test_2_Done
+					}
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Text
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Blank
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_3_tt
+	
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+						has_country_flag = Antarctica_GUI_AAG_Research_1_Test_3_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+						has_country_flag = Antarctica_GUI_AAG_Research_2_Test_3_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+						has_country_flag = Antarctica_GUI_AAG_Research_3_Test_3_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+						has_country_flag = Antarctica_GUI_AAG_Research_4_Test_3_Done
+					}
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Text
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Blank
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_4_tt
+	
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+						has_country_flag = Antarctica_GUI_AAG_Research_1_Test_4_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+						has_country_flag = Antarctica_GUI_AAG_Research_2_Test_4_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+						has_country_flag = Antarctica_GUI_AAG_Research_3_Test_4_Done
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+						has_country_flag = Antarctica_GUI_AAG_Research_4_Test_4_Done
+					}
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Text
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAG_Entry_Button_tt_Blank
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_1_Text
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_1_Text_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_1_Text_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_1_Text_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_1_Text_4
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_2_Text
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_2_Text_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_2_Text_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_2_Text_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_2_Text_4
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_3_Text
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_3_Text_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_3_Text_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_3_Text_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_3_Text_4
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Entry_Button_4_Text
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 1 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_4_Text_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 2 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_4_Text_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 3 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_4_Text_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Research_Array_value = 4 }
+		}
+		localization_key = Antarctica_GUI_AAG_Entry_Button_4_Text_4
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Survival_Current_Life_Support
+	
+	text = {
+		trigger = {
+			set_temp_variable = { Antarctica_AAG_Survival_Current_Life_Support = Antarctica_AAG_Survival_Supply_Usage }
+			multiply_temp_variable = { Antarctica_AAG_Survival_Current_Life_Support = Antarctica_GUI_AAG_Survival_Mech_One_Supply_Amount }
+		
+			always = yes
+		}
+		localization_key = Antarctica_GUI_AAG_Survival_Current_Life_Support
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_AAG_Survival_Shoot_Local_Wildlife_effect_tt
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Survival_Shoot_Local_Wildlife_Counter = 0 }
+		}
+		localization_key = "5"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Survival_Shoot_Local_Wildlife_Counter = 1 }
+		}
+		localization_key = "4"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Survival_Shoot_Local_Wildlife_Counter = 2 }
+		}
+		localization_key = "3"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Survival_Shoot_Local_Wildlife_Counter = 3 }
+		}
+		localization_key = "2"
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_AAG_Survival_Shoot_Local_Wildlife_Counter = 4 }
+		}
+		localization_key = "1"
+	}
+	text = {
+		localization_key = "0.5"
+	}
+}

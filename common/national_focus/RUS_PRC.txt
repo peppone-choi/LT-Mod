@@ -1,0 +1,138 @@
+focus_tree = {
+	id = RUS_PRC_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_PRC_focus_1 #지휘권 재확립
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_2 #투바 인들의 자유
+		prerequisite = { focus = RUS_PRC_focus_1 }
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_3 #붉은 군대로의 통합
+		prerequisite = { focus = RUS_PRC_focus_2 }
+		mutually_exclusive = {
+			focus = RUS_PRC_focus_4
+		}
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_4 #사두정 연합
+		prerequisite = { focus = RUS_PRC_focus_2 }
+		mutually_exclusive = {
+			focus = RUS_PRC_focus_3
+		}
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_5 #투바의 특수성
+		prerequisite = { 
+		focus = RUS_PRC_focus_3
+		focus = RUS_PRC_focus_4 }
+		mutually_exclusive = {
+			focus = RUS_PRC_focus_6
+		}
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_6 #시베리아 SSR 통합
+		prerequisite = { 
+		focus = RUS_PRC_focus_3
+		focus = RUS_PRC_focus_4 }
+		mutually_exclusive = {
+			focus = RUS_PRC_focus_5
+		}
+		x = 2
+		y = 3
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_7 #투바의 민족문화 부흥
+		prerequisite = { 
+			focus = RUS_PRC_focus_5
+		focus = RUS_PRC_focus_6 }
+		mutually_exclusive = {
+			focus = RUS_PRC_focus_8
+		}
+		x = 0
+		y = 4
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_8 #사회주의로의 통합
+		prerequisite = { 
+			focus = RUS_PRC_focus_5
+		focus = RUS_PRC_focus_6 }
+		mutually_exclusive = {
+			focus = RUS_PRC_focus_7
+		}
+		x = 2
+		y = 4
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_9 #일시적인 봉함
+		prerequisite = { 
+			focus = RUS_PRC_focus_7
+		focus = RUS_PRC_focus_8 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_10 #군사물자 대규모 수입 게획
+		prerequisite = { 
+			focus = RUS_PRC_focus_9 }
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_11 #붉은 군대의 진군 준비
+		prerequisite = { 
+			focus = RUS_PRC_focus_10 }
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_PRC_focus_12 #반동 혁명의 종말
+		prerequisite = { 
+			focus = RUS_PRC_focus_11 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_communism
+	}
+}

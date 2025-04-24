@@ -1,0 +1,27 @@
+state = {
+	id = 1027
+	name = "STATE_1027"
+
+	history = {
+		owner = NAM
+		add_core_of = NAM
+		buildings = {
+			schools = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			13676 1
+		}
+		victory_points = {
+			10957 1
+		}
+	}
+
+	provinces = {
+		10957 12519 13672 13676 13678 13709 13712
+	}
+	manpower = 90195
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

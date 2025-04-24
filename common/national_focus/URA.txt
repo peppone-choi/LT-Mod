@@ -1,0 +1,91 @@
+focus_tree = {
+	id = URA_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = URA
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = URA_focus_1 #바이칼호 진군계획
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_2 # 붉은색의 젊은 사자들
+		prerequisite = { focus = URA_focus_1 }
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_3 # 우라지오 5개년 계획
+		prerequisite = { focus = URA_focus_2 }
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_4 # 연해주 협화회 설립
+		prerequisite = { focus = URA_focus_3 }
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_5 # 우라지오 첨단산업국 건립
+		prerequisite = { focus = URA_focus_4 }
+		x = 0
+		y = 4
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_6 # 청년장교단 지원
+		prerequisite = { focus = URA_focus_5 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_7 # 도이치식 군제개혁
+		prerequisite = { focus = URA_focus_6 }
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_8 # 반 도조파 정치치인들과의 접촉
+		prerequisite = { focus = URA_focus_7 }
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_9 # 4호 작전계획 최종 제출
+		prerequisite = { focus = URA_focus_8 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = URA_focus_10 # 뜻밖의 전역
+		prerequisite = { focus = URA_focus_9 }
+		x = 0
+		y = 9
+		icon = GFX_goal_generic_orthodox
+	}
+}

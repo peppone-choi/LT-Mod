@@ -1,0 +1,26 @@
+state = {
+	id = 1251
+	name = "STATE_1251"
+
+	history = {
+		owner = VEN
+		buildings = {
+			offices = 2
+			infrastructure = 2
+		}
+		add_core_of = VEN
+		victory_points = {
+			14424 3
+		}
+		add_extra_state_shared_building_slots = 1
+		set_state_flag = GDP_regions_bolivar
+	}
+
+	provinces = {
+		10767 14424 17374
+	}
+	manpower = 39146
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

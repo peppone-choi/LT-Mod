@@ -1,0 +1,66 @@
+state = {
+	id = 158
+	name = "STATE_158"
+	resources = {
+		steel = 31.000
+		aluminium = 25.000
+		chromium = 4.000
+		tungsten = 2.000
+		power = 3.000
+		uranium = 4.000
+	}
+
+	history = {
+		owner = ITA
+		victory_points = {
+			6780 30
+		}
+		victory_points = {
+			17992 3
+		}
+		victory_points = {
+			14638 4
+		}
+		victory_points = {
+			9741 9
+		}
+		victory_points = {
+			3782 5
+		}
+		victory_points = {
+			776 8
+		}
+		victory_points = {
+			11570 5
+		}
+		victory_points = {
+			17993 2
+		}
+		victory_points = {
+			9738 3
+		}
+		victory_points = {
+			11730 2
+		}
+		victory_points = {
+			11723 6
+		}
+		victory_points = {
+			770 2
+		}
+		buildings = {
+			offices = 1
+			infrastructure = 5
+			air_base = 8
+		}
+		add_core_of = ITA
+	}
+
+	provinces = {
+		611 770 776 3782 6635 6780 9738 9741 11570 11721 11723 11730 14636 14638 14641 17990 17991 17992 17993
+	}
+	manpower = 4014959
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 2259
+	name = "STATE_2259"
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+		owner = THA
+		add_core_of = MLY
+		add_core_of = THA
+		buildings = {
+			infrastructure = 4
+		}
+		set_state_flag = GDP_regions_thai_malaya
+	}
+
+	provinces = {
+		12144
+	}
+	manpower = 102726
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

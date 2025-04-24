@@ -1,0 +1,27 @@
+state = {
+	id = 2148
+	name = "STATE_2148"
+	resources = {
+		oil = 4.000
+	}
+
+	history = {
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SYR
+		add_core_of = TUR
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_rural
+		set_state_flag = GDP_regions_turkish_syria
+	}
+
+	provinces = {
+		901 1634 10882 14463
+	}
+	manpower = 76825
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

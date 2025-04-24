@@ -1,0 +1,23 @@
+state = {
+	id = 323
+	name = "STATE_323"
+
+	history = {
+		owner = NEP
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			16108 1
+		}
+		add_core_of = NEP
+	}
+
+	provinces = {
+		16108 16109 18859
+	}
+	manpower = 1046562
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

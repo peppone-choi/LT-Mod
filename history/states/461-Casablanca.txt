@@ -1,0 +1,28 @@
+state = {
+	id = 461
+	name = "STATE_461"
+
+	history = {
+		owner = SPA
+		add_core_of = MOR
+		victory_points = { 7069 30 }
+		buildings = {
+			offices = 2
+			infrastructure = 6
+			hospitals = 1
+			schools = 1
+			air_base = 4
+			7069 = {
+				naval_base = 4
+			}
+		}
+		set_state_flag = GDP_regions_morocco
+	}
+
+	provinces = {
+		7069
+	}
+	manpower = 1056139
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

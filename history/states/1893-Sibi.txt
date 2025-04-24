@@ -1,0 +1,26 @@
+state = {
+	id = 1893
+	name = "STATE_1893"
+
+	history = {
+		owner = KLT
+		victory_points = {
+			15992 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KLT
+		add_claim_by = AZH
+		add_claim_by = IND
+		add_claim_by = AFG
+	}
+
+	provinces = {
+		10813 13484 15992
+	}
+	manpower = 76596
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 1642
+	name = "STATE_1642"
+
+	history = {
+		owner = MAN
+		victory_points = {
+			14629 10
+		}
+		victory_points = {
+			19588 3
+		}
+		victory_points = {
+			14632 1
+		}
+		set_variable = { china_state_ref = 56 }
+		set_variable = { china_region_ref = 7 }
+		set_state_flag = state_renamings
+		buildings = {
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 3
+			thermoelectric_plant = 1
+		}
+		add_core_of = MAN
+		set_state_flag = state_category_pastoral
+	}
+
+	provinces = {
+		1502 1558 1638 4514 6893 7812 9831 11836 11903 12337 12469 14626 14629 14632 19542 19588 19825
+	}
+	manpower = 2870499
+
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 2149
+	name = "STATE_2149"
+
+	history = {
+		owner = LEB
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			barracks = 1
+		}
+		victory_points = {
+			792 1
+		}
+		add_core_of = LEB
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		792 18592
+	}
+	manpower = 538253
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

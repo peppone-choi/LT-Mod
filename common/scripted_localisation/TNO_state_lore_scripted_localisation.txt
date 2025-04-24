@@ -1,0 +1,38 @@
+# Use useful_python_programs/scars_thingy.py for ease of usage.
+
+# TODO: (use CTRL + F to jump between these)
+# 1) TITLE
+# 2) INITIALS
+# 3) DESCRIPTION
+
+################
+### 1) TITLE ###
+################
+
+defined_text = {
+	name = Statelore_Get_Name
+	text = {
+		localization_key = "state_lore_name.[?selected_lore]"
+	}
+}
+
+###################
+### 2) INITIALS ###
+###################
+
+defined_text = {
+	name = Statelore_Get_Initials
+	text = {
+		localization_key = "state_lore_initials.[?lore_entries_onscreen^sl_i]"
+	}
+}
+
+######################
+### 3) DESCRIPTION ###
+######################
+defined_text = {
+	name = Statelore_Get_Desc
+	text = {
+		localization_key = state_lore_desc.[?selected_lore]
+	}
+}

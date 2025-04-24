@@ -1,0 +1,20 @@
+state = {
+	id = 2213
+	name = "STATE_2213"
+
+	history = {
+		owner = BUR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BUR
+	}
+
+	provinces = {
+		19057 4087 19063 1197 19073 19062 1934 19080 4318 19068 19042 4996
+	}
+	manpower = 120334
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

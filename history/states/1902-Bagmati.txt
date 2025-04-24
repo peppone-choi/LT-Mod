@@ -1,0 +1,33 @@
+state = {
+	id = 1902
+	name = "STATE_1902"
+	resources = {
+		steel = 8.000
+	}
+
+	history = {
+		owner = NEP
+		victory_points = {
+			16112 10
+		}
+		victory_points = {
+			18841 1
+		}
+		victory_points = {
+			18832 1
+		}
+		buildings = {
+			infrastructure = 3
+			offices = 1
+		}
+		add_core_of = NEP
+	}
+
+	provinces = {
+		4987 16112 16113 18832 18841 18854 19008
+	}
+	manpower = 3638435
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

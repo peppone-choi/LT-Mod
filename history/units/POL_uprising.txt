@@ -1,0 +1,106 @@
+﻿division_template = {
+	name = "Polish Partisan"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Warsaw Partisans"
+		location = 6511
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Warsaw Partisans"
+		location = 3544
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Warsaw Partisans"
+		location = 12562
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Warsaw Partisans"
+		location = 524
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Warsaw Partisans"
+		location = 3544
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Lublin Partisans"
+		location = 19179
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Lublin Partisans"
+		location = 19173
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Lublin Partisans"
+		location = 3521
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Lublin Partisans"
+		location = 11532
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Lublin Partisans"
+		location = 19180
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Polish Partisans"
+		location = 19173
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Polish Partisans"
+		location = 11398
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Polish Partisans"
+		location = 9427
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Polish Partisans"
+		location = 19177
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Polish Partisans"
+		location = 11398
+		division_template = "Polish Partisan"
+		start_experience_factor = 0.5
+	}
+}

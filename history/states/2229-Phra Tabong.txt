@@ -1,0 +1,28 @@
+state = {
+	id = 2229
+	name = "STATE_2229"
+	resources = {
+		rubber = 6
+	}
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		add_core_of = CAM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10177 1
+		}
+		set_state_flag = GDP_regions_thai_cambodia
+	}
+
+	provinces = {
+		10134 1353 10177
+	}
+	manpower = 389750
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

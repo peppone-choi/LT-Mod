@@ -1,0 +1,21 @@
+state = {
+	id = 1890
+	name = "STATE_1890"
+	provinces = {
+		7847 4990
+	}
+	history = {
+		owner = PAK
+		victory_points = { 7847 1 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PAK
+		add_claim_by = AZH
+		add_claim_by = IND
+		add_claim_by = AFG
+	}
+	manpower = 61959
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

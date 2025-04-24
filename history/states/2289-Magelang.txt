@@ -1,0 +1,27 @@
+state = {
+	id = 2289
+	name = "STATE_2289"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7642 1
+		}
+		victory_points = {
+			19315 1
+		}
+		set_state_flag = GDP_regions_central_java
+	}
+
+	provinces = {
+		19315 7642
+	}
+	manpower = 2262674
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

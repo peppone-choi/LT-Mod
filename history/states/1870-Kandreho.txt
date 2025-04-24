@@ -1,0 +1,19 @@
+state = {
+	id = 1870
+	name = "STATE_1870"
+
+	impassable = yes
+
+	history = {
+		owner = MAD
+		add_core_of = MAD
+	}
+
+	provinces = {
+		15906
+	}
+	manpower = 48482
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 2449
+	name = "STATE_2449"
+	resources = {
+		oil = 6.000
+	}
+
+	history = {
+		set_demilitarized_zone = yes
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2363 10
+		}
+	}
+
+	provinces = {
+		2363 7993 12845 17359
+	}
+	manpower = 436071
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

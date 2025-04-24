@@ -1,0 +1,30 @@
+state = {
+	id = 2211
+	name = "STATE_2211"
+	resources = {
+		steel = 2
+	}
+
+	history = {
+		owner = SLO
+		victory_points = {
+			3484 2
+		}
+		victory_points = {
+			9551 4
+		}
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+		}
+		add_core_of = SLO
+	}
+
+	provinces = {
+		18151 3484 9551
+	}
+	manpower = 702709
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

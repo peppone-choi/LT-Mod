@@ -1,0 +1,38 @@
+state = { #Population Done
+	id = 82
+	name = "STATE_82"
+	manpower = 1139969
+	resources = {
+		aluminium = 6
+		uranium = 4
+	}
+
+	state_category = town
+
+	history = {
+		owner = ROM
+		buildings = {
+			infrastructure = 4
+			offices = 2
+			schools = 1
+			hospitals = 1
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = ROM
+		victory_points = {
+			646 10
+		}
+		victory_points = {
+			11592 5
+		}
+		victory_points = {
+			662 3
+		}
+		set_state_flag = GDP_category_large_city
+	}
+
+	provinces = {
+		646 662 3649 9606 11592 11608
+	}
+}

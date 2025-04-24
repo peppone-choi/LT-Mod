@@ -1,0 +1,32 @@
+state = {
+	id = 974
+	name = "STATE_974"
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+			air_base = 2
+		}
+		add_core_of = PER
+		victory_points = {
+			12773 10
+		}
+		victory_points = {
+			5098 1
+		}
+		victory_points = {
+			18806 1
+		}
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		5098 12773 18762 18806
+	}
+	manpower = 776409
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

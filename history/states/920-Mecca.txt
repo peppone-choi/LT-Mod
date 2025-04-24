@@ -1,0 +1,41 @@
+state = {
+	id = 920
+	name = "STATE_920"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			thermoelectric_plant = 1
+			synthetic_refinery = 1
+			infrastructure = 4
+			air_base = 1
+			dockyard = 2
+			12883 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			13448 20
+		}
+		victory_points = {
+			12883 20
+		}
+		victory_points = {
+			5037 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		2090 5037 12883 13440 13444 13448 13450 13452 13453 13477 13478 18554
+	}
+	manpower = 1239396
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

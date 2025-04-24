@@ -1,0 +1,21 @@
+state = {
+	id = 2020
+	name = "STATE_2020"
+	provinces = {
+		17671 17675 17629 17610 17572 17779 17723 16413 17676 17783 17613
+	}
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAA
+		add_core_of = AAA
+		add_core_of = AAC
+		add_claim_by = ENG
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+}

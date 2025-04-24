@@ -1,0 +1,26 @@
+state = {
+	id = 2013
+	name = "STATE_2013"
+
+	history = {
+		owner = ENG
+		victory_points = { 271 10 }
+		victory_points = { 16367 5 }
+		buildings = {
+			infrastructure = 5
+			radar_station = 2
+			271 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ENG
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		16367 271 221
+	}
+	manpower = 583505
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

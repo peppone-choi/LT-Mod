@@ -1,0 +1,46 @@
+state = {
+	id = 275
+	name = "STATE_275"
+	resources = {
+		steel = 7.000
+		chromium = 32.000
+		uranium = 10.000
+	}
+
+	history = {
+		owner = SAF
+		buildings = {
+			thermoelectric_plant = 2
+			prisons = 2
+			barracks = 1
+			schools = 1
+			hospitals = 1
+			offices = 1
+			infrastructure = 3
+			air_base = 3
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			13523 10
+		}
+		victory_points = {
+			13529 9
+		}
+		victory_points = {
+			15371 4
+		}
+		victory_points = {
+			13534 2
+		}
+		add_core_of = SAF
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		5231 12064 13510 13520 13523 13524 13529 13533 13534 13539 15364 15366 15367 15368 15369 15370 15371 17841
+	}
+	manpower = 3064009
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

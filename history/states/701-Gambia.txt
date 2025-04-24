@@ -1,0 +1,28 @@
+state = {
+	id = 701
+	name = "STATE_701"
+
+	history = {
+		add_core_of = JOL
+		owner = JOL
+		victory_points = {
+			4989 1
+		}
+		buildings = {
+			infrastructure = 2
+			thermoelectric_plant = 1
+			4989 = {
+				naval_base = 2
+			}
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		4989 7299 14266 18688
+	}
+	manpower = 252388
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

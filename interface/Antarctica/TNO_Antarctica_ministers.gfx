@@ -1,0 +1,526 @@
+spriteTypes = {
+	# AAJ
+	spriteType = {
+		name = "GFX_idea_AAJ_Kyuhei_Suzuki"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Kyuhei_Suzuki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAJ_Iwao_Fujita"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Iwao_Fujita.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAJ_Nakai_Haruo"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Nakai_Haruo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAJ_Takeshi_Nagata"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Takeshi_Nagata.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAJ_Kyuhei_Suzuki_large"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Kyuhei_Suzuki_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAJ_Iwao_Fujita_large"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Iwao_Fujita_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAJ_Nakai_Haruo_large"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Nakai_Haruo_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAJ_Takeshi_Nagata_large"
+		texturefile = "gfx/interface/ideas/ministers/AAJ/AAJ_minister_Takeshi_Nagata_large.dds"
+		legacy_lazy_load = no
+	}
+
+	# AAF
+	spriteType = {
+		name = "GFX_idea_AAF_Jacques_Cousteau"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Jacques_Cousteau.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_Pierre_Cousteau"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Pierre-Antoine_Cousteau.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_Jacques_Dequecker"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Jacques_Dequecker.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_Jean_Sapin_Jaloustre"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Jean_Sapin_Jaloustre.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AAF_Jacques_Cousteau_large"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Jacques_Cousteau_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAF_Pierre_Cousteau_large"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Pierre_Cousteau_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAF_Jacques_Dequecker_large"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Jacques_Dequecker_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAF_Jean_Sapin_Jaloustre_large"
+		texturefile = "gfx/interface/ideas/ministers/AAF/AAF_minister_Jean_Sapin_Jaloustre_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	# AAO
+	spriteType = {
+		name = "GFX_idea_AAO_James_R_Reedy"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_James_R_Reedy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAO_Herman_Phleger"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Herman_Phleger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAO_Howard_Beale"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Howard_Beale.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAO_William_Robertson"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_William_Robertson.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAO_James_R_Reedy_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_James_R_Reedy_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_Herman_Phleger_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Herman_Phleger_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_Howard_Beale_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Howard_Beale_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_William_Robertson_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_William_Robertson_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_AAO_Grayston_Lynch"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Grayston_Lynch.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_Theodore_Shackley"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Theodore_Shackley.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_David_Atlee_Phillips"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_David_Atlee_Phillips.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_William_Pawley"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_William_Pawley.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_Christopher_Fitzgerald"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Christopher_Fitzgerald.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_AAO_Grayston_Lynch_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Grayston_Lynch_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_Theodore_Shackley_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Theodore_Shackley_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_David_Atlee_Phillips_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_David_Atlee_Phillips_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_William_Pawley_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_William_Pawley_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAO_Christopher_Fitzgerald_large"
+		texturefile = "gfx/interface/ideas/ministers/AAO/AAO_minister_Christopher_Fitzgerald_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	# AAG
+	spriteType = {
+		name = "GFX_idea_AAG_Richard_Heinrich_Schirmacher"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Richard_Heinrich_Schirmacher.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Ernst_Herrmann"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Ernst_Herrmann.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Erich_Schumann"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Erich_Schumann.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Anton_Grasser"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Anton_Grasser.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Vacant_Position"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Vacant_Position.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAG_Richard_Heinrich_Schirmacher_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Richard_Heinrich_Schirmacher_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Ernst_Herrmann_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Ernst_Herrmann_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Erich_Schumann_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Erich_Schumann_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Anton_Grasser_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Anton_Grasser_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Vacant_Position_large"
+		textureFile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Vacant_Position_large.dds"
+		legacy_lazy_load = no
+	}
+	
+
+	spriteType = {
+		name = "GFX_idea_AAG_Hans_Degen"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Hans_Degen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Eduard_Zorn"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Eduard_Zorn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Erwin_Fussenegger"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Erwin_Fussenegger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Valentin_Feurstein"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Valentin_Feurstein.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Alfred_Kottas"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Alfred_Kottas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Franz_Preuschoff"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Franz_Preuschoff.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AAG_Hans_Degen_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Hans_Degen_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Eduard_Zorn_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Eduard_Zorn_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Erwin_Fussenegger_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Erwin_Fussenegger_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Valentin_Feurstein_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Valentin_Feurstein_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Alfred_Kottas_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Alfred_Kottas_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Franz_Preuschoff_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Franz_Preuschoff_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAG_Kurt_Diebner"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Kurt_Diebner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Carl_Friedrich_von_Weizsacker"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Carl_Friedrich_von_Weizsacker.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Rudolf_Mentzel"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Rudolf_Mentzel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAG_Kurt_Diebner_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Kurt_Diebner_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Carl_Friedrich_von_Weizsacker_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Carl_Friedrich_von_Weizsacker_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Rudolf_Mentzel_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Rudolf_Mentzel_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAG_Karl_Weiken"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Karl_Weiken.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Werner_Dankwort"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Werner_Dankwort.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Walther_Hofmann"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Walther_Hofmann.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAG_Karl_Weiken_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Karl_Weiken_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Werner_Dankwort_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Werner_Dankwort_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Walther_Hofmann_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Walther_Hofmann_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAG_Otto_Abetz"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Otto_Abetz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Rudolf_Rahn"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Rudolf_Rahn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Karl_Maria_Hettlage"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Karl_Maria_Hettlage.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Erich_Ehrlinger"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Erich_Ehrlinger.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAG_Otto_Abetz_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Otto_Abetz_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Rudolf_Rahn_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Rudolf_Rahn_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Karl_Maria_Hettlage_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Karl_Maria_Hettlage_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Erich_Ehrlinger_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Erich_Ehrlinger_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAG_Eberhard_Kinzel"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Eberhard_Kinzel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Hasso_von_Manteuffel"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Hasso_von_Manteuffel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Martin_Harlinghausen"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Martin_Harlinghausen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Ernst_Klasing"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Ernst_Klasing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAG_Eberhard_Kinzel_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Eberhard_Kinzel_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Hasso_von_Manteuffel_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Hasso_von_Manteuffel_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Martin_Harlinghausen_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Martin_Harlinghausen_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAG_Ernst_Klasing_large"
+		texturefile = "gfx/interface/ideas/ministers/AAG/AAG_minister_Ernst_Klasing_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	# AAA
+	spriteType = {
+		name = "GFX_idea_AAA_Gustavo_Adolfo_Giro"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Gustavo_Adolfo_Giro.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Juan_Carlos_Beltramino"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Juan_Carlos_Beltramino.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Mario_Luis_Olezza"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Mario_Luis_Olezza.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Hernan_Pujato"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Hernan_Pujato.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAA_Gustavo_Adolfo_Giro_large"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Gustavo_Adolfo_Giro_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAA_Juan_Carlos_Beltramino_large"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Juan_Carlos_Beltramino_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAA_Mario_Luis_Olezza_large"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Mario_Luis_Olezza_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAA_Hernan_Pujato_large"
+		texturefile = "gfx/interface/ideas/ministers/AAA/AAA_minister_Hernan_Pujato_large.dds"
+		legacy_lazy_load = no
+	}
+	
+	# AAC
+	spriteType = {
+		name = "GFX_idea_AAC_Marcial_Mora_Miranda"
+		texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Marcial_Mora_Miranda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAC_Enrique_Gajardo_Villarroel"
+		texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Enrique_Gajardo_Villarroel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAC_Carlos_Gonzalez_Jaksic"
+		texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Carlos_Gonzalez_Jaksic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAC_Jose_Toribio_Merino"
+		texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Jose_Toribio_Merino.dds"
+	}
+	#spriteType = {
+	#	name = "GFX_idea_AAC_Anibal_Pinto_Santa_Cruz"
+	#	texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Anibal_Pinto_Santa_Cruz.dds"
+	#}
+	
+	spriteType = {
+		name = "GFX_AAC_Marcial_Mora_Miranda_large"
+		texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Marcial_Mora_Miranda_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAC_Enrique_Gajardo_Villarroel_large"
+		texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Enrique_Gajardo_Villarroel_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAC_Carlos_Gonzalez_Jaksic_large"
+		textureFile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Carlos_Gonzalez_Jaksic_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAC_Jose_Toribio_Merino_large"
+		texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Jose_Toribio_Merino_large.dds"
+		legacy_lazy_load = no
+	}
+	#spriteType = {
+	#	name = "GFX_AAC_Anibal_Pinto_Santa_Cruz_large"
+	#	texturefile = "gfx/interface/ideas/ministers/AAC/AAC_minister_Anibal_Pinto_Santa_Cruz_large.dds"
+	#	legacy_lazy_load = no
+	#}
+	
+	# AAB
+	spriteType = {
+		name = "GFX_idea_AAB_Herbert_Jankuhn"
+		texturefile = "gfx/interface/ideas/ministers/AAB/AAB_minister_Herbert_Jankuhn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAB_Yrjo_von_Gronhagen"
+		texturefile = "gfx/interface/ideas/ministers/AAB/AAB_minister_Yrjo_von_Gronhagen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAB_Heinz_Brucher"
+		texturefile = "gfx/interface/ideas/ministers/AAB/AAB_minister_Heinz_Brucher.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_AAB_Herbert_Jankuhn_large"
+		texturefile = "gfx/interface/ideas/ministers/AAB/AAB_minister_Herbert_Jankuhn_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAB_Yrjo_von_Gronhagen_large"
+		texturefile = "gfx/interface/ideas/ministers/AAB/AAB_minister_Yrjo_von_Gronhagen_large.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_AAB_Heinz_Brucher_large"
+		texturefile = "gfx/interface/ideas/ministers/AAB/AAB_minister_Heinz_Brucher_large.dds"
+		legacy_lazy_load = no
+	}
+}

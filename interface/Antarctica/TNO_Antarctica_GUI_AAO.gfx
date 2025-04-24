@@ -1,0 +1,42 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_pie_chart_usa"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/pie_chart_usa.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/empty_pie.dds"
+		size = { x = 300 y = 300 }
+		effectFile = "gfx/FX/progress_radial.lua"
+	}
+	progressbartype = {
+		name = "GFX_pie_chart_ast"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/pie_chart_ast.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/empty_pie.dds"
+		size = { x = 300 y = 300 }
+		effectFile = "gfx/FX/progress_radial.lua"
+	}
+	progressbartype = {
+		name = "GFX_pie_chart_nzl"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/pie_chart_nzl.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/empty_pie.dds"
+		size = { x = 300 y = 300 }
+		effectFile = "gfx/FX/progress_radial.lua"
+	}
+	spriteType = {
+		name = "GFX_pie_chart_overlay_AAO"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/pie_chart_overlay_AAO.dds"
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAO_Progressbar_Cohesion"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/AAO_Cohesion_Progressbar_Bar.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/admin/AAO_Cohesion_Progressbar_Bar_Frame.dds"
+		size = { x = 31 y = 452 }
+		effectFile = "gfx/FX/progress_vertical.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_Antarctica_GUI_AAO_Progressbar_Invasion"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_Decision_GUI_AAO_Invasion_Progressbar_Bar.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/cia/Antarctica_Decision_GUI_AAO_Invasion_Progressbar_BG.dds"
+		size = { x = 452 y = 113 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

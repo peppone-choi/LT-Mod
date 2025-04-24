@@ -1,0 +1,43 @@
+state = {
+	id = 995
+	name = "STATE_995"
+	resources = {
+		tungsten = 14.000
+	}
+
+	history = {
+		owner = SPA
+		victory_points = {
+			11825 10
+		}
+		victory_points = {
+			11854 8
+		}
+		victory_points = {
+			9872 4
+		}
+		victory_points = {
+			3820 3
+		}
+		victory_points = {
+			738 2
+		}
+		victory_points = {
+			9870 1
+		}
+		add_core_of = SPA
+		buildings = {
+			barracks = 1
+			infrastructure = 5
+		}
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		738 885 903 3820 4024 6936 9700 9827 9846 9870 9872 11684 11806 11809 11825 11854 15522
+	}
+	manpower = 1193925
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

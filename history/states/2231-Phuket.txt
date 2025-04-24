@@ -1,0 +1,30 @@
+state = {
+	id = 2231
+	name = "STATE_2231"
+
+	resources = {
+		rubber = 12
+		tungsten = 14
+		steel = 2
+	}
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			19082 1
+		}
+		set_state_flag = GDP_regions_south_thailand
+	}
+
+	provinces = {
+		19082 12230 10158 19061
+	}
+	manpower = 383082
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,49 @@
+state = {
+	id = 989
+	name = "STATE_989"
+	resources = {
+		steel = 60.000
+		tungsten = 40.000
+		chromium = 25.000
+		power = 4.000
+	}
+
+	history = {
+		victory_points = {
+			6165 3
+		}
+		victory_points = {
+			9108 1
+		}
+		victory_points = {
+			9186 1
+		}
+		victory_points = {
+			101 2
+		}
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+			anti_air_building = 3
+			air_base = 2
+			6165 = {
+				naval_base = 2
+			}
+			9186 = {
+				bunker = 2
+			}
+			hospitals = 1
+			barracks = 2
+		}
+	}
+
+	provinces = {
+		61 201 3104 6024 6083 6125 6165 6168 9108 9147 9186 11073 11208 18360 18362 18370 18373 18378 58 101 148 151 190 3003 3054 3062 3095 3179 6055 6074 6155 6170 6206 6208 9083 9175 9178 9211 9226 11058 11060 11102 11112 11152 11155 11190 13119 18358 18367 18371 18406
+	}
+	manpower = 264937
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

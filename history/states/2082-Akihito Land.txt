@@ -1,0 +1,19 @@
+state = {
+	id = 2082
+	name = "STATE_2082"
+	provinces = {
+		17749 16390 17619 16430
+	}
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAJ
+		add_core_of = AAJ
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+}

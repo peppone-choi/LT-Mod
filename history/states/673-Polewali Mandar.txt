@@ -1,0 +1,26 @@
+state = {
+	id = 673
+	name = "STATE_673"
+
+	history = {
+		victory_points = {
+			7598 1
+		}
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 2
+			7598 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		7598 19197 19300
+	}
+	manpower = 357938
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

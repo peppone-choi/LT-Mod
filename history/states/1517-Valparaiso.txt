@@ -1,0 +1,44 @@
+state = {
+	id = 1517
+	name = "STATE_1517"
+	resources = {
+		steel = 6.000
+	}
+
+	history = {
+		owner = CHL
+		buildings = {
+			barracks = 2
+			schools = 1
+			hospitals = 1
+			prisons = 1
+			offices = 2
+			infrastructure = 5
+			14833 = {
+				naval_base = 3
+			}
+			air_base = 2
+			dockyard = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = CHL
+		victory_points = {
+			14833 15
+		}
+		victory_points = {
+			15508 2
+		}
+		victory_points = {
+			17554 3
+		}
+		set_state_flag = GDP_regions_valparaiso
+	}
+
+	provinces = {
+		8222 14833 15508 17554
+	}
+	manpower = 636953
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 140
+	name = "STATE_140"
+	resources = {
+		power = 2.000
+	}
+
+	history = {
+		victory_points = {
+			383 20
+		}
+		victory_points = {
+			18382 3
+		}
+		owner = SWE
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			radar_station = 1
+			air_base = 5
+			thermoelectric_plant = 2
+			383 = {
+				naval_base = 6
+			}
+			prisons = 1
+			offices = 1
+			schools = 1
+		}
+		add_core_of = SWE
+	}
+
+	provinces = {
+		171 383 6310 18382
+	}
+	manpower = 628500
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 1820
+	name = "STATE_1820"
+	resources = {
+		steel = 24.000
+		power = 1.000
+	}
+
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			6944 = {
+				naval_base = 3
+			}
+			offices = 1
+			barracks = 1
+		}
+		victory_points = {
+			898 10
+		}
+		victory_points = {
+			6944 5
+		}
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_regions_korea
+	}
+
+	provinces = {
+		898 959 3860 6822 6922 6944
+	}
+	manpower = 1523881
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

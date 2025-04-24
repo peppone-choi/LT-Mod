@@ -1,0 +1,96 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_AAC"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 880 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAC_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAC_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAC_assets"
+			position = { x = 0 y = 175 }
+			size = { width = 0 height = 0 }
+			
+			iconType = {
+				name = "Antarctica_GUI_AAC_Basic_Map"
+				spriteType = "GFX_Antarctica_GUI_AAC_Basic_Map"
+				position = { x = 32 y = 0 }
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAC_Basic_Map_AAA_Button"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAC_Basic_Map_AAA_Button"
+				position = { x = 245 y = 0 }
+				pdx_tooltip = Antarctica_GUI_AAC_Basic_Map_AAA_Button_tt
+			}
+			buttonType = {
+				name = "Antarctica_GUI_AAC_Basic_Map_AAJ_Button"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAC_Basic_Map_AAJ_Button"
+				position = { x = 32 y = 110 }
+				pdx_tooltip = Antarctica_GUI_AAC_Basic_Map_AAJ_Button_tt
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAA_1_Text"
+				position = { x = 31 y = 440 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAC_Progressbar_AAA_1_Text
+				maxWidth = 452
+				format = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAA_1"
+				spriteType = "GFX_Antarctica_GUI_AAC_Progressbar_AAA"
+				position = { x = 31 y = 470 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAA_2_Text"
+				position = { x = 31 y = 510 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAC_Progressbar_AAA_2_Text
+				maxWidth = 452
+				format = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAA_2"
+				spriteType = "GFX_Antarctica_GUI_AAC_Progressbar_AAA"
+				position = { x = 31 y = 540 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAJ_1_Text"
+				position = { x = 31 y = 580 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAC_Progressbar_AAJ_1_Text
+				maxWidth = 452
+				format = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAJ_1"
+				spriteType = "GFX_Antarctica_GUI_AAC_Progressbar_AAJ"
+				position = { x = 31 y = 610 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAJ_2_Text"
+				position = { x = 31 y = 650 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAC_Progressbar_AAJ_2_Text
+				maxWidth = 452
+				format = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAC_Progressbar_AAJ_2"
+				spriteType = "GFX_Antarctica_GUI_AAC_Progressbar_AAJ"
+				position = { x = 31 y = 680 }
+			}
+		}
+	}
+}

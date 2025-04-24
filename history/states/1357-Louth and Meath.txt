@@ -1,0 +1,26 @@
+state = {
+	id = 1357
+	name = "STATE_1357"
+
+	history = {
+		owner = IRE
+		victory_points = {
+			18612 2
+		}
+		victory_points = {
+			3359 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = IRE
+	}
+
+	provinces = {
+		3359 18612 18613
+	}
+	manpower = 132500
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

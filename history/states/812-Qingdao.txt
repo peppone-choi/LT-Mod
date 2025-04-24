@@ -1,0 +1,36 @@
+state = {
+	id = 812
+	name = "STATE_812"
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 5
+			prisons = 1
+			offices = 1
+			hospitals = 1
+			thermoelectric_plant = 2
+			10000 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			10000 30
+		}
+		victory_points = {
+			19845 5
+		}
+		set_variable = { china_state_ref = 9 }
+		set_variable = { china_region_ref = 1 }
+	}
+
+	provinces = {
+		10000 19845 19857
+	}
+	manpower = 3015261
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

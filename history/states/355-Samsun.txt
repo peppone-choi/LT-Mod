@@ -1,0 +1,41 @@
+state = {
+	id = 355
+	name = "STATE_355"
+	resources = {
+		steel = 14.000
+	}
+
+	history = {
+		owner = TUR
+		victory_points = {
+			11881 10
+		}
+		victory_points = {
+			16220 2
+		}
+		victory_points = {
+			16221 2
+		}
+		victory_points = {
+			11894 1
+		}
+		buildings = {
+			infrastructure = 3
+			11881 = {
+				naval_base = 1
+			}
+			radar_station = 1
+			prisons = 1
+			schools = 1
+		}
+		add_core_of = TUR
+	}
+
+	provinces = {
+		9900 11881 11894 16220 16221 18457
+	}
+	manpower = 1202323
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

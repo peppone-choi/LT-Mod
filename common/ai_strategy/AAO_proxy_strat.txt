@@ -1,0 +1,87 @@
+AAO_PROXY_STRAT_SAW = {
+	allowed = {
+		OR = {
+			original_tag = AAO
+		}
+	}
+	enable = {
+		OR = {
+			SAF = {	has_war_with = BOR }
+			SAF = {	has_war_with = ANG }
+			SAF = {	has_war_with = GRO }
+			SAF = {	has_war_with = COG }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SAF
+		value = 1000
+	}
+}
+
+AAO_PROXY_STRAT_MAD = {
+	allowed = {
+		OR = {
+			original_tag = AAO
+		}
+	}
+	enable = {
+		OR = {
+			MAD = {	has_war_with = MDM }
+			MAD = {	has_war_with = MDG }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = MAD
+		value = 1000
+	}
+}
+
+AAO_PROXY_STRAT_MLY = {
+	allowed = {
+		OR = {
+			original_tag = AAO
+		}
+	}
+	enable = {
+		OR = {
+			MLY = {	has_war_with = SHO }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = MLY
+		value = 1000
+	}
+}
+
+AAO_PROXY_STRAT_SPH = {
+	allowed = {
+		OR = {
+			original_tag = AAO
+		}
+	}
+	enable = {
+		OR = {
+			SPH = {	has_war_with = PHI }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SPH
+		value = 1000
+	}
+}

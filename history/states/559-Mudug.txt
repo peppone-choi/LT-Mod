@@ -1,0 +1,25 @@
+state = {
+	id = 559
+	name = "STATE_559"
+
+	history = {
+		owner = IEA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		add_core_of = IEA
+		victory_points = {
+			1964 3
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1964 2020 5065 12840 15541 15542 17912
+	}
+	manpower = 1056158
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

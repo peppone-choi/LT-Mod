@@ -1,0 +1,22 @@
+state = {
+	id = 470
+	name = "STATE_470"
+	history = {
+		owner = SNS
+		add_core_of = SNS
+		add_core_of = SYR
+		victory_points = {
+			15736 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_syria
+	}
+	provinces = {
+		15736
+	}
+	manpower = 133234
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

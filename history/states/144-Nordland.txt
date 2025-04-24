@@ -1,0 +1,75 @@
+state = {
+	id = 144
+	name = "STATE_144"
+	resources = {
+		steel = 6
+	}
+
+	history = {
+		owner = NOR
+		buildings = {
+			barracks = 1
+			infrastructure = 4
+			radar_station = 3
+			air_base = 1
+			192 = {
+				coastal_bunker = 2
+				naval_base = 4
+			}
+			6187 = {
+				coastal_bunker = 2
+			}
+			3126 = {
+				coastal_bunker = 2
+			}
+			3088 = {
+				coastal_bunker = 2
+			}
+			6111 = {
+				coastal_bunker = 2
+			}
+			173 = {
+				coastal_bunker = 2
+			}
+			3048 = {
+				coastal_bunker = 2
+			}
+			6071 = {
+				coastal_bunker = 2
+			}
+			6214 = {
+				coastal_bunker = 2
+			}
+			9126 = {
+				coastal_bunker = 2
+			}
+			38 = {
+				coastal_bunker = 2
+			}
+			3132 = {
+				coastal_bunker = 2
+			}
+			3034 = {
+				coastal_bunker = 2
+			}
+			11157 = {
+				coastal_bunker = 2
+			}
+		}
+		victory_points = {
+			192 1
+		}
+		victory_points = {
+			9126 1
+		}
+		add_core_of = NOR
+	}
+
+	provinces = {
+		38 173 192 3034 3048 3088 3126 3132 6071 6111 6187 6214 9126 9208 11157
+	}
+	manpower = 237530
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+scripted_gui = {
+	Antarctica_Closing_Screen = {
+		context_type = player_context
+		window_name = "Antarctica_Closing_Screen"
+
+		visible = {
+			has_country_flag = Antarctica_Closing_Screen_visible
+		}
+
+		effects = {
+			Antarctica_Closing_Screen_Close_Button_click = {
+				clr_country_flag = Antarctica_Closing_Screen_visible
+				if = {
+					limit = {
+						tag = AAG
+						AAG = { has_country_leader = { character = AAG_No_Authority } }
+					}
+					hidden_effect = {
+						AAO = { transfer_state = 2062 }
+						2062 = { add_core_of = AAO }
+					}
+				}
+			}
+		}
+	}
+}

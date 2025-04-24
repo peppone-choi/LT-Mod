@@ -1,0 +1,31 @@
+state = {
+	id = 1313
+	name = "STATE_1313"
+
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = BUR
+		add_core_of = BUR
+		victory_points = {
+			19107 1
+		}
+		victory_points = {
+			7254 1
+		}
+		buildings = {
+			infrastructure = 3
+			schools = 1
+		}
+	}
+
+	provinces = {
+		7254 7382 10223 12267 12284 19024 19036 19107 19132
+	}
+	manpower = 3424929
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,407 @@
+is_Antarctic_nation = {
+	OR = {
+		tag = AAA
+		tag = AAB
+		tag = AAC
+		tag = AAF
+		tag = AAO
+		tag = AAJ
+		tag = AAG
+		tag = AAU
+		tag = AAS
+		tag = AAZ
+		tag = AAI
+		tag = AAR
+		tag = AAV
+		tag = AAN
+	}
+}
+
+is_AGS_Inland_Tile = {
+	AND = {
+		NOT = { is_AGS_Coastal_Tile = yes }
+		NOT = { is_AGS_Sea_Tile = yes }
+	}
+}
+
+is_AGS_Coastal_Tile = {
+	OR = {
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 67 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 99 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 110 }
+			check_variable = { Antarctica_GUI_Selected_State < 117 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 142 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 148 }
+			check_variable = { Antarctica_GUI_Selected_State < 153 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 161 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 173 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 184 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 192 }
+			check_variable = { Antarctica_GUI_Selected_State < 195 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 204 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 215 }
+			check_variable = { Antarctica_GUI_Selected_State < 221 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 224 }
+			check_variable = { Antarctica_GUI_Selected_State < 227 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 236 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 253 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 256 }
+			check_variable = { Antarctica_GUI_Selected_State < 260 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 268 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 285 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 288 }
+			check_variable = { Antarctica_GUI_Selected_State < 293 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 300 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 317 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 322 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 324 }
+			check_variable = { Antarctica_GUI_Selected_State < 328 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 330 }
+			check_variable = { Antarctica_GUI_Selected_State < 333 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 349 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 353 }
+			check_variable = { Antarctica_GUI_Selected_State < 357 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 358 }
+			check_variable = { Antarctica_GUI_Selected_State < 363 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 380 }
+			check_variable = { Antarctica_GUI_Selected_State < 383 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 386 }
+			check_variable = { Antarctica_GUI_Selected_State < 389 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 413 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 419 }
+			check_variable = { Antarctica_GUI_Selected_State < 423 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 444 }
+			check_variable = { Antarctica_GUI_Selected_State < 447 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 452 }
+			check_variable = { Antarctica_GUI_Selected_State < 455 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 479 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 484 }
+			check_variable = { Antarctica_GUI_Selected_State < 487 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 512 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 517 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 543 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 549 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 574 }
+			check_variable = { Antarctica_GUI_Selected_State < 577 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 580 }
+			check_variable = { Antarctica_GUI_Selected_State < 584 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 608 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 612 }
+			check_variable = { Antarctica_GUI_Selected_State < 616 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 640 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 647 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 670 }
+			check_variable = { Antarctica_GUI_Selected_State < 673 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 679 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 703 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 710 }
+			check_variable = { Antarctica_GUI_Selected_State < 713 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 733 }
+			check_variable = { Antarctica_GUI_Selected_State < 736 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 744 }
+			check_variable = { Antarctica_GUI_Selected_State < 747 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 747 }
+			check_variable = { Antarctica_GUI_Selected_State < 752 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 764 }
+			check_variable = { Antarctica_GUI_Selected_State < 767 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 778 }
+			check_variable = { Antarctica_GUI_Selected_State < 782 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 783 }
+			check_variable = { Antarctica_GUI_Selected_State < 788 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 797 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 819 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 827 }
+			check_variable = { Antarctica_GUI_Selected_State < 830 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 851 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 860 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 882 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 889 }
+			check_variable = { Antarctica_GUI_Selected_State < 892 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 913 }
+			check_variable = { Antarctica_GUI_Selected_State < 918 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 918 }
+			check_variable = { Antarctica_GUI_Selected_State < 923 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State = 950 }
+		}
+	}
+}
+
+is_AGS_Sea_Tile = {
+	OR = {
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 0 }
+			check_variable = { Antarctica_GUI_Selected_State < 67 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 67 }
+			check_variable = { Antarctica_GUI_Selected_State < 99 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 99 }
+			check_variable = { Antarctica_GUI_Selected_State < 111 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 116 }
+			check_variable = { Antarctica_GUI_Selected_State < 142 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 152 }
+			check_variable = { Antarctica_GUI_Selected_State < 161 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 161 }
+			check_variable = { Antarctica_GUI_Selected_State < 173 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 184 }
+			check_variable = { Antarctica_GUI_Selected_State < 193 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 194 }
+			check_variable = { Antarctica_GUI_Selected_State < 204 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 220 }
+			check_variable = { Antarctica_GUI_Selected_State < 225 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 226 }
+			check_variable = { Antarctica_GUI_Selected_State < 236 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 253 }
+			check_variable = { Antarctica_GUI_Selected_State < 257 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 259 }
+			check_variable = { Antarctica_GUI_Selected_State < 268 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 285 }
+			check_variable = { Antarctica_GUI_Selected_State < 289 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 292 }
+			check_variable = { Antarctica_GUI_Selected_State < 300 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 317 }
+			check_variable = { Antarctica_GUI_Selected_State < 322 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 327 }
+			check_variable = { Antarctica_GUI_Selected_State < 331 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 349 }
+			check_variable = { Antarctica_GUI_Selected_State < 354 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 382 }
+			check_variable = { Antarctica_GUI_Selected_State < 387 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 413 }
+			check_variable = { Antarctica_GUI_Selected_State < 420 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 446 }
+			check_variable = { Antarctica_GUI_Selected_State < 453 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 479 }
+			check_variable = { Antarctica_GUI_Selected_State < 485 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 512 }
+			check_variable = { Antarctica_GUI_Selected_State < 517 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 543 }
+			check_variable = { Antarctica_GUI_Selected_State < 549 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 576 }
+			check_variable = { Antarctica_GUI_Selected_State < 581 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 608 }
+			check_variable = { Antarctica_GUI_Selected_State < 613 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 640 }
+			check_variable = { Antarctica_GUI_Selected_State < 647 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 672 }
+			check_variable = { Antarctica_GUI_Selected_State < 679 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 703 }
+			check_variable = { Antarctica_GUI_Selected_State < 711 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 735 }
+			check_variable = { Antarctica_GUI_Selected_State < 745 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 766 }
+			check_variable = { Antarctica_GUI_Selected_State < 779 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 781 }
+			check_variable = { Antarctica_GUI_Selected_State < 784 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 797 }
+			check_variable = { Antarctica_GUI_Selected_State < 819 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 829 }
+			check_variable = { Antarctica_GUI_Selected_State < 851 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 860 }
+			check_variable = { Antarctica_GUI_Selected_State < 882 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 891 }
+			check_variable = { Antarctica_GUI_Selected_State < 914 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 922 }
+			check_variable = { Antarctica_GUI_Selected_State < 950 }
+		}
+		AND = {
+			check_variable = { Antarctica_GUI_Selected_State > 950 }
+			check_variable = { Antarctica_GUI_Selected_State < 1025 }
+		}
+	}
+}

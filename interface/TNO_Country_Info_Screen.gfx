@@ -1,0 +1,309 @@
+spriteTypes = {
+	# New Opening 
+	spriteType = {
+		name = "GFX_topbar_star_button"
+		textureFile = "gfx/interface/topbar/topbar_star_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CountryInfo_background"
+		texturefile = "gfx/interface/country_info_screen/background.dds"
+	}
+	frameanimatedspritetype = {
+		name = "GFX_CountryInfo_animated_logo"
+		texturefile = "gfx/interface/country_info_screen/animated_logo.dds"
+		noofframes = 10
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs"
+		texturefile = "gfx/interface/country_info_screen/top_tabs.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_1"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_1.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_2"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_2.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_3"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_3.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_4"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_2.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_entry_folder"
+		texturefile = "gfx/interface/country_info_screen/entry_folder.dds"
+		noofframes = 2
+	}
+	frameanimatedspritetype = {
+		name = "GFX_CountryInfo_entry_content_glow"
+		texturefile = "gfx/interface/country_info_screen/entry_content_glow.dds"
+		noofframes = 2
+		animation_rate_fps = 1.25
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+		effectfile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_entry_content"
+		texturefile = "gfx/interface/country_info_screen/entry_content.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_block_signal_lost"
+		textureFile = "gfx/interface/country_info_screen/block_signal_lost.dds"
+	}
+	frameanimatedspritetype = {
+		name = "GFX_CountryInfo_animated_signal_lost"
+		texturefile = "gfx/interface/country_info_screen/animated_signal_lost.dds"
+		noofframes = 20
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+	}
+
+	# Buttons
+	spriteType = {
+		name = "GFX_opening_button_next_page"
+		textureFile = "gfx/interface/opening_screen/opening_button_next_page.dds"
+	}
+	spriteType = {
+		name = "GFX_opening_button_prev_page"
+		textureFile = "gfx/interface/opening_screen/opening_button_prev_page.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_discord_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/discord_button.dds"
+	}
+	spriteType = {
+		name = "GFX_reddit_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/reddit_button.dds"
+	}
+	spriteType = {
+		name = "GFX_youtube_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/youtube_button.dds"
+	}
+	spriteType = {
+		name = "GFX_twitter_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/twitter_button.dds"
+	}
+	spriteType = {
+		name = "GFX_twitch_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/twitch_button.dds"
+	}
+	spriteType = {
+		name = "GFX_tvtropes_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/tvtropes_button.dds"
+	}
+
+	# Posters
+	# THESE MUST BE IN THE FORMAT: GFX_TNO_OpeningScreen_Poster_(tag name) OR IT WILL NOT WORK
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_NoContent"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_NoContent.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_SAF"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_SouthAfrica.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_ANG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Sudwest.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_COG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Zentral.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_GRO"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Ostafrika.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_URL"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_UralGuard.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_ORE"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Orenburg.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_DRL"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Dirlewanger.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_MGN"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Magnitogorsk.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_SAM"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Samara.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_VYT"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Vyatka.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_PRM"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Aryan_Brotherhood.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_ONG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Onega.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_TOM"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Tomsk.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_ZLT"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Zlatoust.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_WRS"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_WRRF.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_TYM"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Tyumen.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_SVR"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Sverdlovsk.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_OMS"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Omsk.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_KEM"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Kemerovo.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_KOM"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Komi.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_MAG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Magadan.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_SBA"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_SBA.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_NOV"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Novosibirsk.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_AMR"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Amur.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_CHT"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Chita.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_BRY"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Buryatia.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_IRK"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Irkutsk.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_USA"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_USA.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_WAL"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Wales.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_ENG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_England.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_SCO"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Scotland.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_IRE"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Ireland.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_GER"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Germany.dds"
+	}	
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_OST"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Ostland.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_ITA"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Italy.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_IBR"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Iberia.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_YUN"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Yunnan.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_INS"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Indonesia.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_CHI"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_China.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_JAP"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Japan.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_BRG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Burgundy.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_BRA"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Brazil.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_GNG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Guangdong.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_NOR"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Norway.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_UKR"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Ukraine.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_GGN"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Poland.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_MEX"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Mexico.dds"
+	}
+}

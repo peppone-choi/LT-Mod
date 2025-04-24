@@ -1,0 +1,33 @@
+state = {
+	id = 141
+	name = "STATE_141"
+
+	history = {
+		owner = SWE
+		victory_points = {
+			6050 25
+		}
+		buildings = {
+			infrastructure = 7
+			radar_station = 1
+			anti_air_building = 2
+			air_base = 7
+			thermoelectric_plant = 1
+			6050 = {
+				naval_base = 8
+			}
+			schools = 3
+			offices = 3
+			hospitals = 2
+		}
+		add_core_of = SWE
+	}
+
+	provinces = {
+		6050
+	}
+	manpower = 817974
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

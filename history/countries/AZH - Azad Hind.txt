@@ -1,0 +1,419 @@
+capital = 1349
+
+#GDP Regional distribution
+set_country_flag = GDP_regions
+
+# Vacant
+recruit_character = AZH_Generic_Vacant
+recruit_character = AZH_Saumyendranath_Tagore
+recruit_character = AZH_Sheel_Bhadra_Yagee
+recruit_character = AZH_Jayaprakash_Narayan
+recruit_character = AZH_Subhas_Chandra_Bose
+recruit_character = AZH_MZ_Kiani
+recruit_character = AZH_Nirmal_Chandra_Chatterjee
+recruit_character = AZH_Aiyappan_Pillai_Madhavan_Nair
+recruit_character = AZH_Eknat_Ranade
+recruit_character = AZH_AC_Chatterji
+recruit_character = AZH_Nedyam_Raghavan
+recruit_character = AZH_Abid_Hasan_Safrani
+recruit_character = AZH_Samar_Guha
+recruit_character = AZH_Anand_Mohan_Sahay
+recruit_character = AZH_Congress_Remnants
+recruit_character = AZH_Amiya_Nath_Bose
+
+######## armed forces ########
+
+recruit_character = AZH_Gurbaksh_Singh_Dhillon
+recruit_character = AZH_Mohan_Singh
+recruit_character = AZH_Lakshmi_Sahgal
+recruit_character = AZH_Prem_Sahgal
+recruit_character = AZH_Geoffrey_Scoones
+recruit_character = AZH_Iwachi_Fujiwara
+recruit_character = AZH_Mohammad_Usman
+recruit_character = AZH_Aubertin_Walter_Sothern_Mallaby
+recruit_character = AZH_Gurbachan_Singh_Salaria
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+set_popularities = {
+	communist = 2
+	socialist = 12
+	socialist_2 = 2
+	paternalism = 46
+	despotism_1 = 22
+	despotism_2 = 6
+	fascism = 7
+	fascism_2 = 3
+}
+
+oob = "AZH_1962"
+set_air_oob = "AZH_1962_air"
+
+set_variable = { TNO_economy_type = token:Econ_Type_Planned }
+
+set_technology = {
+	basic_train = 1
+
+	# shipbuild_basics = 1
+	electronic_mechanical_engineering = 1
+
+	transport = 1
+	motorized_infantry = 1
+	support_weapons = 1
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	artillery_1945 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	building_construction_1 = 1
+	administration_construction_1 = 1
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	ww2_carrier = 1
+	# infantry_equipment_0 = 1
+	infantry_weapons_1 = 1
+	night_vision_1 = 1
+	infantry_at = 1
+	
+	infantry_kit_1 = 1
+	infantry_weapons_2 = 1
+	night_vision_2 = 1
+	infantry_kit_2 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	motorized_infantry = 1
+	marines = 1
+	#
+	tech_mountaineers = 1
+	#
+	paratroopers = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	assault_weapons_1 = 1
+	tech_engineers2 = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_transport_helicopter_company = 1
+
+
+	###THE SUPER SPECIAL BLOCK OF DEATH###
+	infantry_weapons_improvements_mine_1 = 1
+	infantry_kit_3 = 1
+	infantry_weapons_improvements_ammo_1 = 1
+	infantry_weapons_improvements_grenade_1 = 1
+	#
+	assault_weapons_1 = 1
+	support_weapons_hmg_1 = 1
+	combat_support_equipment_1 = 1
+	
+	support_weapons_arty_1 = 1
+	infantry_at_upgrade_1 = 1
+	#
+	infantry_weapons_3 = 1
+	night_vision_3 = 1
+	infantry_kit_4 = 1
+	paratroopers2 = 1
+
+
+	###BLOCK OF DEATH###
+
+
+
+
+	artillery_1945 = 1
+	basic_frigate = 1
+	ww2_destroyer = 1
+	basic_destroyer = 1
+	ww2_cruiser = 1
+	ww2_battleship = 1
+	ww2_submarine = 1
+	transport = 1
+	early_fighter = 1
+	fighter_1945 = 1
+	CAS_1945 = 1
+	tac_bomber1 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	radar_1950 = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	computing_machine_1950 = 1
+	improved_encryption = 1
+	advanced_encryption = 1
+	encryption_1950 = 1
+	improved_decryption = 1
+	advanced_decryption = 1
+	decryption_1950 = 1
+	energy_technology_1 = 1
+	social_construction_1 = 1
+
+	resource_extraction_methods = 1
+	excavation0 = 1
+
+
+	helicopter_engines = 1
+	jet_engines = 1
+	#ww_2_rocketry = 1
+	#SRBM_0 = 1
+	ww2_line_production = 1
+	mass_production_1 = 1
+	building_construction_1 = 1
+	production_unit_gain_1 = 1
+	administration_construction_1 = 1
+	excavation1 = 1
+	military_construction_1 = 1
+	prison_construction_1 = 1
+	very_early_helicopter = 1
+	early_helicopter = 1
+}
+
+# NSB tech #
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		IFV_1945 = 1
+		MBT_1945 = 1
+		APC_1945 = 1
+		APC_1950 = 1
+		APC_1950_basic_turret = 1
+		#APC_1950_basic_engine = 1
+		APC_1950_basic_armor = 1
+		IFV_1950 = 1
+		IFV_1950_basic_turret = 1
+		IFV_1950_basic_armor = 1
+		#IFV_1950_basic_engine = 1
+		MBT_1950 = 1
+		MBT_1950_basic_turret = 1
+		#MBT_1950_basic_engine = 1
+		MBT_1950_basic_armor = 1
+		AC_1945 = 1
+		AC_1950 = 1
+
+		Heavy_1945 = 1
+		Heavy_1950 = 1
+		Superheavy_1945 = 1
+		
+		antiair_1945 = 1
+		antiair_1950 = 1
+		light_SPAA_1950 = 1
+		SPAA_1950 = 1
+		artillery_1945 = 1
+		artillery_1950 = 1
+		light_SPART_1950 = 1
+		light_SPART_1950_soft_attack = 1
+		SPART_1950 = 1
+		SPART_1950_soft_attack = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		NSB_APC_1945 = 1
+		NSB_APC_1950 = 1
+		#
+		#
+		NSB_IFV_1945 = 1
+		NSB_IFV_1945_modules_1 = 1
+		NSB_IFV_1945_modules_2 = 1
+		NSB_IFV_1950 = 1
+		NSB_MBT_1945 = 1
+		NSB_MBT_1945_modules_1 = 1
+		NSB_MBT_1945_modules_2 = 1
+		NSB_MBT_1950 = 1
+		NSB_AC_1945 = 1
+		NSB_AC_1950 = 1
+		NSB_Armour_1 = 1
+		NSB_Engine_1 = 1
+		NSB_Engine_2 = 1
+
+		NSB_artillery_1945 = 1
+		NSB_artillery_1950 = 1
+		NSB_artillery_1950_SA = 1
+
+		NSB_heavy_1945 = 1
+		NSB_heavy_1950 = 1
+		NSB_superheavy_1945 = 1
+
+		NSB_antiair_1945 = 1
+		NSB_antiair_1950 = 1
+	}
+}
+
+set_stability = 0.7
+set_war_support = 0.67
+
+set_politics = {
+	ruling_party = paternalism
+	last_election = "1961.5.23"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_variable = {
+	var = AZH_Bengali_Ethnic_Tensions
+	value = 40
+}
+set_variable = {
+	var = AZH_Army_Independence
+	value = 40
+}
+set_variable = {
+	var = AZH_Army_Loyalty
+	value = 60
+}
+
+set_country_flag = USA_CIA_can_access_rebels
+
+add_opinion_modifier = { target = IND modifier = AZH_raj_sucks }
+add_opinion_modifier = { target = PAK modifier = AZH_acl_sucks }
+add_opinion_modifier = { target = CYL modifier = AZH_acl_sucks }
+
+set_autonomy = {
+	target = BHU
+	autonomous_state = autonomy_italy_reliant
+}
+
+set_autonomy = {
+	target = SIK
+	autonomous_state = autonomy_italy_reliant
+}
+
+add_ideas = {
+	#STARTING
+	Sphere_Coequal
+	AZH_The_Crossroads_of_the_Subhasist_Revolution
+	AZH_A_New_Hammer_for_Old_Problems
+	AZH_The_Old_Ghosts_of_Communalism
+	AZH_Thirteen_Years_of_Progress
+	AZH_Frontline_of_Anti_Imperialism
+	#MINISTERS
+	
+	#POLITICAL
+	tno_political_parties_one_party_state
+	tno_religious_rights_laicism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_penal_labor
+	tno_public_meetings_allowed
+	tno_press_rights_censored_press
+	tno_vote_franchise_universal
+	#MILITARY
+	tno_conscription_volunteer_only
+	tno_military_supervision_rules_of_engagement
+	tno_training_basic_training
+	tno_draft_exemptions_civil_service_deferment
+	#SOCIAL
+	tno_health_care_low_income_protections
+	tno_education_public_education
+	tno_penal_system_harsh_penal_code
+	tno_gender_rights_gender_equality
+	tno_security_maintenance_of_order
+	tno_regulations_moderate_regulations
+	#ECONOMIC
+	tno_trade_laws_export_focus
+	tno_income_taxation_high_income_weighted
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_10_hour_work_day
+	tno_pensions_acceptable_pensions
+	tno_unemployment_trinket_subsidies
+	#MISC
+	tno_refugees_skilled
+	tno_women_total_equality
+	tno_racial_integration_integrated_military
+	tno_safety_acceptable_regulations
+	tno_pollution_few_regulations
+	tno_lgbt_rights_lgbt_allowed
+	tno_minorities_equal_rights
+	tno_child_labor_illegal
+	#DEVELOPMENT#
+	tno_industrial_expertise_experienced
+	tno_industrial_equipment_factory_complexes
+	tno_healthcare_nascent
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_mass_illiteracy
+	tno_army_professionalism_professional
+	tno_admin_efficiency_deficient_administrative_systems
+}
+
+set_research_slots = 3
+
+##Starting Equipment##
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 6000
+	producer = AZH
+}
+
+add_equipment_to_stockpile = {
+	type = anti_tank_equipment_1
+	amount = 2000
+	producer = JAP
+}
+
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 500
+	producer = JAP
+}
+
+add_equipment_to_stockpile = {
+	type = support_equipment_1
+	amount = 1000
+	producer = AZH
+}
+
+add_equipment_to_stockpile = {
+	type = artillery_equipment_3
+	amount = 1000
+	producer = JAP
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	add_equipment_to_stockpile = {
+		type = IFV_equipment_2
+		amount = 500
+		producer = AZH
+	}
+}	
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	add_equipment_to_stockpile = {
+		type = IFV_chassis_2
+		amount = 500
+		producer = AZH
+	}
+}

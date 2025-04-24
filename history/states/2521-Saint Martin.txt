@@ -1,0 +1,21 @@
+state = { #Population Done
+	id = 2521
+	name = "STATE_2521"
+	manpower = 6678
+	state_category = tiny_island
+
+	history = {
+		owner = WIN
+		add_core_of = WIN
+		add_core_of = GUD
+		
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 19994 1 }
+	}
+
+	provinces = {
+		19994
+	}
+}

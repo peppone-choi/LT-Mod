@@ -1,0 +1,26 @@
+state = {
+	id = 1534
+	name = "STATE_1534"
+
+	history = {
+		owner = KLT
+		add_core_of = KLT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			8066 5
+		}
+		add_claim_by = AZH
+		add_claim_by = IND
+		add_claim_by = AFG
+	}
+
+	provinces = {
+		8066 15991 18883
+	}
+	manpower = 123066
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 2189
+	name = "STATE_2189"
+	resources = {
+		steel = 2.000
+	}
+
+	history = {
+		owner = AFG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			18655 1
+		}
+		add_core_of = AFG
+	}
+
+	provinces = {
+		7916 14754 15973 18654 18655
+	}
+	manpower = 363535
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

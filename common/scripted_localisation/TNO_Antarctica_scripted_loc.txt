@@ -1,0 +1,4854 @@
+defined_text = {
+	name = Antarctica_GUI_Country_Name
+
+	# Special Tiles
+	#text = {
+	#	trigger = {
+	#		AND = {
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State > 512 }
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State < 528 }
+	#		}
+	#	}
+	#	localization_key = Antarctica_GUI_Special_Name_Full_1
+	#}
+	#text = {
+	#	trigger = {
+	#		OR = {
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State = 225 }
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State = 226 }
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State = 322 }
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State = 354 }
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State = 355 }
+	#		}
+	#	}
+	#	localization_key = Antarctica_GUI_Special_Name_Full_2
+	#}
+	#text = {
+	#	trigger = {
+	#		OR = {
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State = 67 }
+	#			check_variable = { FROM.Antarctica_GUI_Selected_State = 356 }
+	#		}
+	#	}
+	#	localization_key = Antarctica_GUI_Special_Name_Full_3
+	#}
+
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAA }
+			check_variable = { FROM.Antarctica_GUI_Selected_State = 528 }
+		}
+		localization_key = Antarctica_GUI_AAA_Name_Full_Pole
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAA } }
+		localization_key = Antarctica_GUI_AAA_Name_Full
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAB }
+			check_variable = { FROM.Antarctica_Intel_on_AAB_Value = 0 }
+			NOT = { AAB = { has_cosmetic_tag = AAB_Large } }
+		}
+		localization_key = Antarctica_GUI_AAG_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAB } }
+		localization_key = Antarctica_GUI_AAB_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAC } }
+		localization_key = Antarctica_GUI_AAC_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAO } }
+		localization_key = Antarctica_GUI_AAO_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAG } }
+		localization_key = Antarctica_GUI_AAG_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAJ } }
+		localization_key = Antarctica_GUI_AAJ_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAI } }
+		localization_key = Antarctica_GUI_AAI_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAR } }
+		localization_key = Antarctica_GUI_AAR_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAV } }
+		localization_key = Antarctica_GUI_AAV_Name_Full
+	}
+	text = {
+		trigger = { check_variable = { FROM.Antarctica_GUI_Selected_Scope = ZZZ } }
+		localization_key = Antarctica_GUI_South_Pole_Name_Full
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Asset_Fill_Color_100
+	
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAA } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAA_100"
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB }
+			check_variable = { FROM.Antarctica_Intel_on_AAB_Value = 0 }
+			NOT = { AAB = { has_cosmetic_tag = AAB_Large } }
+		}
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAB_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAC } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAC_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAO } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAO_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAG } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAJ } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAJ_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAI } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAI_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAR } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAR_100"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAV } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAV_100"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_ZZZ_100"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Asset_Fill_Color_75
+	
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAA } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAA_75"
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB }
+			check_variable = { FROM.Antarctica_Intel_on_AAB_Value = 0 }
+			NOT = { AAB = { has_cosmetic_tag = AAB_Large } }
+		}
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAB_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAC } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAC_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAO } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAO_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAG } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAJ } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAJ_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAI } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAI_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAR } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAR_75"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAV } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAV_75"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_ZZZ_75"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Asset_Fill_Color_50
+	
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAA } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAA_50"
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB }
+			check_variable = { FROM.Antarctica_Intel_on_AAB_Value = 0 }
+			NOT = { AAB = { has_cosmetic_tag = AAB_Large } }
+		}
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAB_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAC } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAC_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAO } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAO_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAG } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAJ } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAJ_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAI } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAI_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAR } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAR_50"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAV } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAV_50"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_ZZZ_50"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Asset_Fill_Color_25
+	
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAA } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAA_25"
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB }
+			check_variable = { FROM.Antarctica_Intel_on_AAB_Value = 0 }
+			NOT = { AAB = { has_cosmetic_tag = AAB_Large } }
+		}
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAB } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAB_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAC } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAC_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAO } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAO_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAG } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAG_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAJ } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAJ_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAI } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAI_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAR } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAR_25"
+	}
+	text = {
+		trigger = { check_variable = { global.Antarctica_GUI_Tile_Scope_Array^i = AAV } }
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_AAV_25"
+	}
+	text = {
+		localization_key = "GFX_Antarctica_GUI_Section_Box_Fill_Color_ZZZ_25"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = FROM }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining
+	}
+
+	# Default missions started by others
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAA }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAA
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAB }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAB
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAC }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAC
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAG }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAG
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAO }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAO
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAJ }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAJ
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAI }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAI
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i = AAR }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_AAR
+	}
+
+	text = {
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Error
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAA
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAA_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAA_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAB
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAB_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAB_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAC
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAC_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAC_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAO
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAO_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAO_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAG
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAG_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAG_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAJ
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAJ_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAJ_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAI
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAI_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAI_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Mission_Source_Foreign_AAR
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAR_Value < 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Mission_Source_Unknown
+	}
+	text = {
+		localization_key = Antarctica_GUI_AAR_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAA
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAA_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAB
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAB_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAC
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAC_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAG
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAG_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAO
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAO_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAJ
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAJ_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAI
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAI_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Days_Remaining_Foreign_AAR
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Intel_on_AAR_Value < 35 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Foreign_Unknown
+	}
+	
+	text = { # Default Missions started by viewer, foreign missions are covered after
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.571 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.22 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2.5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 6.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 8.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 5 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 1.66 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 28 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 3.33 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 29 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 10 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 30 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 7.14 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 31 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 4.76 }
+		
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 32 }
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+	
+	text = { # Special Missions
+		trigger = {
+			set_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = global.Antarctica_GUI_Tile_Mission_Progress_Array^i }
+			divide_temp_variable = { global.Antarctica_GUI_Tile_Days_Remaining = 2 }
+			
+			OR = { # All grouped, as they all take 50 days
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1001 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1002 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1003 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1004 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1005 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1006 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1007 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1008 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1009 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1010 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1011 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1012 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1013 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1014 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1015 }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^i = 1016 }
+			}
+		}
+		localization_key = Antarctica_GUI_Tile_Days_Remaining_Short
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Selected_Tile_Intel
+	
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { FROM.Antarctica_GUI_Selected_Scope = -1 }
+				check_variable = { FROM.Antarctica_GUI_Selected_Scope = THIS }
+			}
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_None
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAA }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAA
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAC }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAC
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAB }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAB
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAG }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAG
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAJ }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAJ
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAO }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAO
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAI }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAI
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = AAR }
+		}
+		localization_key = Antarctica_GUI_Selected_Tile_Intel_AAR
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_Situation_Overview_GUI_Intel_Info
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAA }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAA
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAB }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAB
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAC }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAC
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAO }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAO
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAG }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAG
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAJ }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAJ
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAI }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAI
+	}
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = AAR }
+			NOT = { check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM } }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_AAR
+	}
+	text = {
+		localization_key = Antarctica_Situation_Overview_GUI_Intel_Info_Agent_Stats
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_Situation_Overview_GUI_Bar_3_tt_Supply
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = FROM }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Bar_3_tt_Supply
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Mission_Flag
+	
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i > 0 }
+		}
+		localization_key = "[?global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^i.GetFlag]"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_Legitimacy
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = THIS }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Bar_1_Stats
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_Militarization
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = THIS }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Bar_2_Stats
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_Equipment
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_Decision_GUI_Tab_Scope = THIS }
+		}
+		localization_key = Antarctica_Situation_Overview_GUI_Bar_3_Stats
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Topbar_Personnel_tt
+
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_GUI_AAG_Survival_Mech_Enabled
+		}
+		localization_key = Antarctica_GUI_Topbar_Personnel_tt_2
+	}
+	text = {
+		localization_key = Antarctica_GUI_Topbar_Personnel_tt_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Open_Button_Text
+
+	text = {
+		trigger = {
+			has_country_leader = { character = AAG_No_Authority }
+		}
+		localization_key = Antarctica_GUI_Open_Button_Text_Disabled
+	}
+	text = {
+		localization_key = Antarctica_GUI_Open_Button_Text_View
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Sea_Tile
+	
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					is_AGS_Sea_Tile = yes
+					is_AGS_Coastal_Tile = yes
+				}
+				AND = {
+					is_AGS_Sea_Tile = yes
+					is_AGS_Inland_Tile = yes
+				}
+				AND = {
+					is_AGS_Inland_Tile = yes
+					is_AGS_Coastal_Tile = yes
+				}
+			}
+		}
+		localization_key = "ERROR 1"
+	}
+	text = {
+		trigger = {
+			is_AGS_Sea_Tile = yes
+		}
+		localization_key = Antarctica_GUI_Sea_Tile
+	}
+	text = {
+		trigger = {
+			is_AGS_Coastal_Tile = yes
+		}
+		localization_key = Antarctica_GUI_Coastal_Tile
+	}
+	text = {
+		trigger = {
+			is_AGS_Inland_Tile = yes
+		}
+		localization_key = Antarctica_GUI_Inland_Tile
+	}
+	text = {
+		localization_key = "ERROR 2"
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_1_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_1_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_1_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_2_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_2_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_2_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_3_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_3_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_3_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_4_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_4_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_4_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_5_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_5_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_5_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_6_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_6_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_6_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_7_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_7_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_7_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_8_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_8_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_8_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_9_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_9_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_9_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_10_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_10_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_10_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_11_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_11_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_11_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_12_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_12_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_12_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_13_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_13_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_13_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_14_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_14_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_14_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_15_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_15_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_15_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_16_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_16_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_16_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_17_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_17_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_17_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_18_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_18_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_18_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_19_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_19_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_19_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_20_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_20_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_20_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_21_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_21_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_21_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_22_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_22_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_22_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_23_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_23_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_23_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_24_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_24_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_24_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_25_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_25_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_25_Action_2
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_26_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_26_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_26_Action_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_27_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_27_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_27_Action_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_28_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_28_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_28_Action_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_29_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_29_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_29_Action_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_30_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_30_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_30_Action_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_31_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_31_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_31_Action_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Button_32_Action_Name
+	
+	text = {
+		trigger = {
+			check_variable = { FROM.Antarctica_GUI_Selected_Scope = FROM }
+		}
+		localization_key = Antarctica_GUI_Button_32_Action_1
+	}
+	text = {
+		localization_key = Antarctica_GUI_Button_32_Action_1
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Special_Missions_Available_Text
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count = 1 }
+		}
+		localization_key = Antarctica_GUI_Special_Missions_Available_Text_single
+	}
+	text = {
+		localization_key = Antarctica_GUI_Special_Missions_Available_Text_multi
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Main_Zoom_Array
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Main_Zoom_Array^0 = 0 }
+		}
+		localization_key = Antarctica_GUI_Main_Zoom_0
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Main_Zoom_Array^0 = 1 }
+		}
+		localization_key = Antarctica_GUI_Main_Zoom_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Main_Zoom_Array^0 = 2 }
+		}
+		localization_key = Antarctica_GUI_Main_Zoom_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Main_Zoom_Array^0 = 3 }
+		}
+		localization_key = Antarctica_GUI_Main_Zoom_3
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Tile_Special_Missions_Window_Title_Text
+	
+	text = {
+		trigger = {
+			tag = AAG
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAG
+	}
+	text = {
+		trigger = {
+			tag = AAA
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAA
+	}
+	text = {
+		trigger = {
+			tag = AAC
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAC
+	}
+	text = {
+		trigger = {
+			tag = AAB
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAB
+	}
+	text = {
+		trigger = {
+			tag = AAJ
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAJ
+	}
+	text = {
+		trigger = {
+			tag = AAO
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAO
+	}
+	text = {
+		trigger = {
+			tag = AAI
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAI
+	}
+	text = {
+		trigger = {
+			tag = AAR
+		}
+		localization_key = Antarctica_GUI_Tile_Special_Missions_Window_Title_Text_AAR
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_Entry_Button_Text
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_1_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_2_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_10_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_11_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_12_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_13_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_14_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_15_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_16_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_17_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_18_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_19_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_20_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_21_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_22_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_23_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_24_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_25_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_26_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_27_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_Entry_Button_tt
+	
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_1_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_2_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_10_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_11_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_12_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 13 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_13_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 14 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_14_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 15 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_15_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 16 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_16_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 17 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_17_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 18 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_18_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 19 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_19_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 20 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_20_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 21 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_21_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 22 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_22_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 23 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_23_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 24 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_24_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 25 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_25_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 26 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_26_Name_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctic_Special_Missions_Count_Array^i = 27 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_27_Name_tt
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_1_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 1 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_1_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_10_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 10 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_10_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_11_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 11 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_11_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_12_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 12 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_12_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_13_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 13 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_13_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_14_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 14 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_14_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_15_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 15 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_15_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_16_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 16 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_16_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_17_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 17 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_17_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_18_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 18 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_18_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_19_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 19 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_19_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_20_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 20 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_20_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_21_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 21 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_21_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_22_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 22 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_22_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_23_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 23 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_23_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_24_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 24 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_24_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_25_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 25 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_25_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_26_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 26 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_26_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Special_Mission_27_tt
+	
+	text = {
+		trigger = {
+			is_in_array = { Antarctic_Special_Missions_Count_Array = 27 }
+		}
+		localization_key = Antarctica_GUI_Special_Mission_27_tt
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Log_Completion_Source
+	
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAA }
+		}
+		localization_key = Antarctica_GUI_AAA_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAB }
+		}
+		localization_key = Antarctica_GUI_AAB_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAC }
+		}
+		localization_key = Antarctica_GUI_AAC_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAG }
+		}
+		localization_key = Antarctica_GUI_AAG_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAJ }
+		}
+		localization_key = Antarctica_GUI_AAJ_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAO }
+		}
+		localization_key = Antarctica_GUI_AAO_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAI }
+		}
+		localization_key = Antarctica_GUI_AAI_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Source^i = AAR }
+		}
+		localization_key = Antarctica_GUI_AAR_Name
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Log_Completion_Target
+	
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAA }
+		}
+		localization_key = Antarctica_GUI_AAA_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAB }
+		}
+		localization_key = Antarctica_GUI_AAB_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAC }
+		}
+		localization_key = Antarctica_GUI_AAC_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAG }
+		}
+		localization_key = Antarctica_GUI_AAG_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAJ }
+		}
+		localization_key = Antarctica_GUI_AAJ_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAO }
+		}
+		localization_key = Antarctica_GUI_AAO_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAI }
+		}
+		localization_key = Antarctica_GUI_AAI_Name
+	}
+	text = {
+		trigger = {
+			check_variable = { global.Antarctica_GUI_Log_Completion_Target^i = AAR }
+		}
+		localization_key = Antarctica_GUI_AAR_Name
+	}
+	text = {
+		localization_key = Antarctica_GUI_Log_Completion_Target_Backup
+	}
+}

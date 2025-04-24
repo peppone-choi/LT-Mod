@@ -1,0 +1,33 @@
+state = {
+	id = 1312
+	name = "STATE_1312"
+	resources = {
+		uranium = 10.000
+	}
+
+	history = {
+		owner = SAF
+		victory_points = {
+			13515 1
+		}
+		buildings = {
+			offices = 1
+			infrastructure = 2
+			synthetic_refinery = 1
+			13515 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = SAF
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4528 10415 10442 13497 13515 17824 17828
+	}
+	manpower = 510284
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

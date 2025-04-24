@@ -1,0 +1,24 @@
+state = {
+	id = 292
+	name = "STATE_292"
+
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13479 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		2057 4968 5027 13469 13479 18544 18551 18569
+	}
+	manpower = 114096
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

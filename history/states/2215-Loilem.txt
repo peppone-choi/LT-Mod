@@ -1,0 +1,23 @@
+state = {
+	id = 2215
+	name = "STATE_2215"
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+		owner = BUR
+		add_core_of = BUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7647 1607 19081 7603 2061 19049
+	}
+	manpower = 251192
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

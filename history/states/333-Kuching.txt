@@ -1,0 +1,33 @@
+state = {
+	id = 333
+	name = "STATE_333"
+	resources = {
+		rubber = 6
+		aluminium = 2
+	}
+
+	history = {
+		owner = NRB
+		victory_points = {
+			1208 5
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			barracks = 1
+			thermoelectric_plant = 1
+			synthetic_refinery = 1
+		}
+		add_core_of = NRB
+		set_state_flag = GDP_regions_sarawak
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1208 19216
+	}
+	manpower = 260349
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

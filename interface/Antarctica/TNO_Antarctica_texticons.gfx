@@ -1,0 +1,223 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_texticon_LEG"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_LEG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_MIL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_MIL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_SUP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_SUP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTVAL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTVAL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTCAP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTCAP.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTCAPtoINTVAL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTCAPtoINTVAL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTCAPtoLEG"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTCAPtoLEG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTCAPtoMIL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTCAPtoMIL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTCAPtoPP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTCAPtoPP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTCAPtoSUP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTCAPtoSUP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTVALtoINTCAP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTVALtoINTCAP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTVALtoLEG"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTVALtoLEG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTVALtoMIL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTVALtoMIL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTVALtoPP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTVALtoPP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_INTVALtoSUP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_INTVALtoSUP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_LEGtoINTCAP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_LEGtoINTCAP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_LEGtoINTVAL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_LEGtoINTVAL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_LEGtoMIL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_LEGtoMIL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_LEGtoPP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_LEGtoPP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_LEGtoSUP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_LEGtoSUP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_MILtoINTCAP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_MILtoINTCAP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_MILtoINTVAL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_MILtoINTVAL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_MILtoLEG"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_MILtoLEG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_MILtoPP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_MILtoPP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_MILtoSUP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_MILtoSUP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_PPtoINTCAP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_PPtoINTCAP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_PPtoINTVAL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_PPtoINTVAL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_PPtoLEG"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_PPtoLEG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_PPtoMIL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_PPtoMIL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_PPtoSUP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_PPtoSUP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_SUPtoINTCAP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_SUPtoINTCAP.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_SUPtoINTVAL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_SUPtoINTVAL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_SUPtoLEG"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_SUPtoLEG.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_SUPtoMIL"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_SUPtoMIL.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Antarctica_texticon_SUPtoPP"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_SUPtoPP.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_texticon_Closing_Banner"
+		texturefile = "gfx/texticons/antarctica/Antarctica_texticon_Closing_Banner.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_censor_char_texticon"
+		texturefile = "gfx/texticons/antarctica/censor_char_texticon.dds"
+		legacy_lazy_load = no
+	}
+}

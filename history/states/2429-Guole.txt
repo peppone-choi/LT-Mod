@@ -1,0 +1,37 @@
+state = {
+	id = 2429
+	name = "STATE_2429"
+
+	resources = {
+		oil = 4
+		chromium = 2
+	}
+
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			5193 1
+		}
+		victory_points = {
+			19735 1
+		}
+		victory_points = {
+			12815 1
+		}
+		set_variable = { china_state_ref = 42 }
+		set_variable = { china_region_ref = 5 }
+		set_state_flag = GDP_regions_qinghai
+	}
+
+	provinces = {
+		10490 19735 4536 12815 1882 10817 10903 10787 7270 4888 11448 4313 5193 19742
+	}
+	manpower = 750152
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

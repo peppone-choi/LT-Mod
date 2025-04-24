@@ -1,0 +1,24 @@
+state = {
+	id = 2076
+	name = "STATE_2076" # Maudheim
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAB
+		add_core_of = AAB
+		add_core_of = AAG
+		victory_points = { 17772 3 }
+		buildings = {
+			infrastructure = 2
+			17772 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		17772
+	}
+}

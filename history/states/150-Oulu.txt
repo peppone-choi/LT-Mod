@@ -1,0 +1,43 @@
+state = {
+	id = 150
+	name = "STATE_150"
+	resources = {
+		steel = 3.000
+		power = 3.000
+	}
+
+	history = {
+		owner = FIN
+		victory_points = {
+			11121 10
+		}
+		victory_points = {
+			195 2
+		}
+		victory_points = {
+			9233 3
+		}
+		victory_points = {
+			11024 1
+		}
+		victory_points = {
+			6045 2
+		}
+		victory_points = {
+			6134 1
+		}
+		buildings = {
+			infrastructure = 5
+			offices = 1
+		}
+		add_core_of = FIN
+	}
+
+	provinces = {
+		7 82 120 132 158 195 3026 3073 3115 3149 3153 6045 6081 6134 6146 6212 9106 9158 9233 11024 11041 11079 11081 11121 11132 18434 18444 18449
+	}
+	manpower = 407346
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

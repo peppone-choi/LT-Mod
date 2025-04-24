@@ -1,0 +1,30 @@
+state = {
+	id = 2462
+	name = "STATE_2462"
+
+	history = {
+		owner = SWE
+		victory_points = {
+			161 3
+		}
+		victory_points = {
+			8753 5
+		}
+		buildings = {
+			infrastructure = 6
+			nuclear_reactor = 1
+			schools = 1
+			prisons = 1
+			barracks = 1
+		}
+		add_core_of = SWE
+	}
+
+	provinces = {
+		161 18417 8753 6209
+	}
+	manpower = 468261
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

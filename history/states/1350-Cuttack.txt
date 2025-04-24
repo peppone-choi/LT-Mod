@@ -1,0 +1,52 @@
+state = {
+	id = 1350
+	name = "STATE_1350"
+	resources = {
+		steel = 15.000
+		chromium = 6.000
+	}
+
+	history = {
+		owner = AZH
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			dockyard = 1
+			10116 = {
+				naval_base = 2
+			}
+			18860 = {
+				bunker = 3
+			}
+			18867 = {
+				bunker = 3
+			}
+			18842 = {
+				bunker = 3
+			}
+			16103 = {
+				bunker = 1
+			}
+		}
+		victory_points = {
+			16103 15
+		}
+		victory_points = {
+			10116 10
+		}
+		victory_points = {
+			12462 10
+		}
+		add_core_of = AZH
+		add_claim_by = IND
+		set_state_flag = GDP_regions_orissa_azh
+	}
+
+	provinces = {
+		10060 10088 10116 12462 16103 18842 18860 18867
+	}
+	manpower = 5105963
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

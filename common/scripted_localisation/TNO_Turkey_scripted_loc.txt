@@ -1,0 +1,659 @@
+#Merge conflict I love <3
+
+# 1971 Election World Event Texts
+
+defined_text = {
+	name = GetTURLeftKemalistPartyName
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_left }
+		}
+		localization_key = TUR_paternalism_party #CHP
+	}
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_right }
+		}
+		localization_key = TUR_DSP_party #DSP
+	}
+}
+defined_text = {
+	name = GetTURLeftKemalistParagraph
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = tur_chp_went_left
+				has_country_flag = TUR_CHP_gov
+			}
+		}
+		localization_key = TUR_left_kemalist_paragraph_a #CHP went left and was elected in 1963
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = tur_chp_went_left
+				NOT = { has_country_flag = TUR_CHP_gov }
+			}
+		}
+		localization_key = TUR_left_kemalist_paragraph_b #CHP went left and was in opposition
+	}
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_right }
+		}
+		localization_key = TUR_left_kemalist_paragraph_c #CHP went right
+	}
+}
+defined_text = {
+	name = GetTURLeftKemalistOptionText
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_left }
+		}
+		localization_key = TUR_left_kemalist_option_a #CHP
+	}
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_right }
+		}
+		localization_key = TUR_left_kemalist_option_b #DSP
+	}
+}
+
+defined_text = {
+	name = GetTURRightKemalistPartyName
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_right }
+		}
+		localization_key = TUR_paternalism_party #CHP
+	}
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_left }
+		}
+		localization_key = TUR_DSP_party #DSP
+	}
+}
+defined_text = {
+	name = GetTURRightKemalistParagraph
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = tur_chp_went_right
+				has_country_flag = TUR_CHP_gov
+			}
+		}
+		localization_key = TUR_right_kemalist_paragraph_a #CHP went right and was elected in 1963
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = tur_chp_went_right
+				NOT = { has_country_flag = TUR_CHP_gov }
+			}
+		}
+		localization_key = TUR_right_kemalist_paragraph_b #CHP went right and was in opposition
+	}
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_left }
+		}
+		localization_key = TUR_right_kemalist_paragraph_c #CHP went left
+	}
+}
+defined_text = {
+	name = GetTURRightKemalistOptionText
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_right }
+		}
+		localization_key = TUR_right_kemalist_option_a #CHP
+	}
+	text = {
+		trigger = {
+			TUR = { has_country_flag = tur_chp_went_left }
+		}
+		localization_key = TUR_right_kemalist_option_b #CGP
+	}
+}
+
+defined_text = {
+	name = GetTURPopConPartyName
+	text = {
+		trigger = {
+			TUR = { has_country_flag = TUR_UDP_Demirel }
+		}
+		localization_key = TUR_conservatism_party #UDP
+	}
+	text = {
+		trigger = {} # #in all other cases Demirel forms AP
+		localization_key = TUR_AP_party #AP
+	}
+}
+defined_text = {
+	name = GetTURPopConParagraph
+	text = { #Demirel was appointed prime minister in 1967
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_UDP_Demirel
+				has_country_flag = TUR_UDP_gov
+			}
+		}
+		localization_key = TUR_popcon_paragraph_a
+	}
+	text = { #Bilgiç was appointed prime minister in 1967
+		trigger = {
+			TUR = {
+				NOT = { has_country_flag = TUR_UDP_Demirel }
+				has_country_flag = TUR_UDP_gov
+			}
+		}
+		localization_key = TUR_popcon_paragraph_b
+	}
+	text = {
+		trigger = {} #in all other cases Demirel forms AP
+		localization_key = TUR_popcon_paragraph_c
+	}
+}
+defined_text = {
+	name = GetTURPopConOptionText
+	text = {
+		trigger = {
+			TUR = { has_country_flag = TUR_UDP_Demirel }
+		}
+		localization_key = TUR_popcon_option_a #UDP
+	}
+	text = {
+		trigger = {}
+		localization_key = TUR_popcon_option_b #AP
+	}
+}
+
+defined_text = {
+	name = GetTURPatConPartyName
+	text = {
+		trigger = {
+			TUR = { has_country_flag = TUR_UDP_Bilgic }
+		}
+		localization_key = TUR_conservatism_party #UDP
+	}
+	text = {
+		trigger = {} # #in all other cases Bilgiç forms MMP
+		localization_key = TUR_MMP_party #MMP
+	}
+}
+defined_text = {
+	name = GetTURPatConParagraph
+	text = { #Bilgiç was appointed prime minister in 1967
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_UDP_Bilgic
+				has_country_flag = TUR_UDP_gov
+			}
+		}
+		localization_key = TUR_patcon_paragraph_a
+	}
+	text = { #Demirel was appointed prime minister in 1967
+		trigger = {
+			TUR = {
+				NOT = { has_country_flag = TUR_UDP_Bilgic }
+				has_country_flag = TUR_UDP_gov
+			}
+		}
+		localization_key = TUR_patcon_paragraph_b
+	}
+	text = {
+		trigger = {} #in all other cases Bilgiç forms MMP
+		localization_key = TUR_patcon_paragraph_c
+	}
+}
+defined_text = {
+	name = GetTURPatConOptionText
+	text = {
+		trigger = {
+			TUR = { has_country_flag = TUR_UDP_Bilgic }
+		}
+		localization_key = TUR_patcon_option_a #UDP
+	}
+	text = {
+		trigger = {}
+		localization_key = TUR_patcon_option_b #MMP
+	}
+}
+
+defined_text = {
+	name = GetTURLiberalPartyName
+	text = {
+		trigger = {
+			TUR = { has_country_flag = TUR_DYP_Alican }
+		}
+		localization_key = TUR_liberalism_party #DYP
+	}
+	text = {
+		trigger = {} # #in all other cases liberals form IDP
+		localization_key = TUR_IDP_party #IDP
+	}
+}
+defined_text = {
+	name = GetTURLeftLiberalParagraph
+	text = { #Liberals own DYP and was elected in 1963
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_DYP_Alican
+				has_country_flag = TUR_DYP_gov
+			}
+		}
+		localization_key = TUR_liberal_paragraph_a
+	}
+	text = {
+		trigger = {} #in all other cases liberals form IDP
+		localization_key = TUR_liberal_paragraph_b
+	}
+}
+defined_text = {
+	name = GetTURLiberalOptionText
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_DYP_Alican
+				has_country_flag = TUR_DYP_gov
+			}
+		}
+		localization_key = TUR_liberal_option_a #DYP
+	}
+	text = {
+		trigger = {}
+		localization_key = TUR_liberal_option_b #IDP
+	}
+}
+
+# Skeleton Faction Affiliation Texts
+defined_text = {
+	name = GetTurkeyOFNApplicationParagraph
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_UDP_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.1.UDP
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_CHP_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.1.CHP
+
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_DYP_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.1.DYP
+
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_Erim_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.1.Junta
+
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_Menderes_Ascendant
+			}
+		}
+		localization_key = turkey_faction_skeleton.1.Menderes
+
+	}
+}
+defined_text = {
+	name = GetTurkeyPaktApplicationParagraph
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_UDP_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.2.UDP
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_CHP_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.2.CHP
+
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_Erim_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.2.Junta
+
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_Menderes_Ascendant
+			}
+		}
+		localization_key = turkey_faction_skeleton.2.Menderes
+
+	}
+}
+defined_text = {
+	name = GetTurkeySphereApplicationParagraph
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_UDP_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.3.UDP
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_CHP_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.3.CHP
+
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_Erim_gov
+			}
+		}
+		localization_key = turkey_faction_skeleton.3.Junta
+
+	}
+	text = {
+		trigger = {
+			TUR = {
+				has_country_flag = TUR_Menderes_Ascendant
+			}
+		}
+		localization_key = turkey_faction_skeleton.3.Menderes
+
+	}
+}
+
+
+# Misc Laws
+#1 - basic law
+
+defined_text = {
+	name = GetAssortedLawsTUR
+
+	#1924 Constitution - beginning
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 0 }
+		}
+		localization_key = TUR_basic_law_0
+	}
+	#1924 Constitution - democratized
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 1 }
+		}
+		localization_key = TUR_basic_law_1
+	}
+	#1924 Constitution - personalized
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 2 }
+		}
+		localization_key = TUR_basic_law_2
+	}
+	#1924 Constitution - Suspended
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 3 }
+		}
+		localization_key = TUR_basic_law_3
+	}
+	#1924 Constitution - Socialized
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 4 }
+		}
+		localization_key = TUR_basic_law_4
+	}
+	#New Constitution
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 5 }
+		}
+		localization_key = TUR_basic_law_5
+	}
+	
+	#Grand Council of Kemalism
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			check_variable = { TUR_basic_law_var = 0 }
+		}
+		localization_key = TUR_legislature_0
+	}
+	# Senate of the Republic
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			check_variable = { TUR_basic_law_var = 1 }
+		}
+		localization_key = TUR_legislature_1
+	}
+	# Grand National Assembly
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			check_variable = { TUR_basic_law_var = 2 }
+		}
+		localization_key = TUR_legislature_2
+	}
+	
+	# Inspectorate-Generals
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+			check_variable = { TUR_IG_status_var = 0 }
+		}
+		localization_key = TUR_ig_status_0
+	}
+	# Inspectorate-Generals - Reformed
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+			check_variable = { TUR_IG_status_var = 1 }
+		}
+		localization_key = TUR_ig_status_1
+	}
+	# Inspectorate-Generals - Abolished
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+			check_variable = { TUR_IG_status_var = 2 }
+		}
+		localization_key = TUR_ig_status_2
+	}
+	
+	#Treaty of Varna
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+			check_variable = { TUR_straits_status_var = 0 }
+		}
+		localization_key = TUR_straits_loc_1
+	}
+	
+	#Kemalist Youth Movement
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+			has_country_flag = TUR_AGH_active
+		}
+		localization_key = TUR_AGH_loc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+			# check_variable = { TUR_basic_law_var = 1 }
+		}
+		localization_key = placeholder
+	}
+}
+
+# Misc Laws Descriptions
+#1 - basic law
+defined_text = {
+	name = GetAssortedLawsDescTUR
+	
+	#1924 Constitution - beginning
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 0 }
+		}
+		localization_key = TUR_basic_law_desc_0
+	}
+	#1924 Constitution - democratized
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 1 }
+		}
+		localization_key = TUR_basic_law_desc_1
+	}
+	#1924 Constitution - personalized
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 2 }
+		}
+		localization_key = TUR_basic_law_desc_2
+	}
+	#1924 Constitution - Suspended
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 3 }
+		}
+		localization_key = TUR_basic_law_desc_3
+	}
+	#1924 Constitution - Socialized
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 4 }
+		}
+		localization_key = TUR_basic_law_desc_4
+	}
+	#New Constitution
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { TUR_constitution_status = 5 }
+		}
+		localization_key = TUR_basic_law_desc_5
+	}
+
+	#Grand Council of Kemalism
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			check_variable = { TUR_basic_law_var = 0 }
+		}
+		localization_key = TUR_legislature_desc_0
+	}
+
+	# Senate of the Republic
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			check_variable = { TUR_basic_law_var = 1 }
+		}
+		localization_key = TUR_legislature_desc_1
+	}
+	
+	# Grand National Assembly of Turkey
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			check_variable = { TUR_basic_law_var = 2 }
+		}
+		localization_key = TUR_legislature_desc_2
+	}
+	
+	# Inspectorate-Generals
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+			check_variable = { TUR_IG_status_var = 0 }
+		}
+		localization_key = TUR_ig_status_desc_0
+	}
+	# Inspectorate-Generals - Reformed
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+			check_variable = { TUR_IG_status_var = 1 }
+		}
+		localization_key = TUR_ig_status_desc_1
+	}
+	# Inspectorate-Generals - Abolished
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+			check_variable = { TUR_IG_status_var = 2 }
+		}
+		localization_key = TUR_ig_status_desc_2
+	}
+	
+	#Treaty of Varna
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+			check_variable = { TUR_straits_status_var = 0 }
+		}
+		localization_key = TUR_straits_loc_desc_1
+	}
+	
+	#Kemalist Youth Movement
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+			has_country_flag = TUR_AGH_active
+		}
+		localization_key = TUR_AGH_loc_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+			# check_variable = { TUR_basic_law_var = 1 }
+		}
+		localization_key = placeholder
+	}
+
+}

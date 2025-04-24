@@ -1,0 +1,38 @@
+state = {
+	id = 2367
+	name = "STATE_2367"
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			7189 5
+		}
+		victory_points = {
+			7160 3
+		}
+		victory_points = {
+			19852 3
+		}
+		victory_points = {
+			19917 3
+		}
+		victory_points = {
+			19929 2
+		}
+		set_state_flag = GDP_regions_shandong_taiyue
+		set_variable = { china_state_ref = 12 }
+		set_variable = { china_region_ref = 1 }
+	}
+
+	provinces = {
+		7189 11962 19929 19917 7160 19852
+	}
+	manpower = 7060926
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

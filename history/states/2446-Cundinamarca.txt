@@ -1,0 +1,31 @@
+state = {
+	id = 2446
+	name = "STATE_2446"
+	resources = {
+		steel = 20.000
+		power = 4.000
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			barracks = 1
+		}
+		victory_points = {
+			15511 10
+		}
+	}
+
+	provinces = {
+		2297 2396 2484 10747 15511 17354 17356 17368
+	}
+	manpower = 2581867
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

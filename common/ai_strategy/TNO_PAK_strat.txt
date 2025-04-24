@@ -1,0 +1,109 @@
+PAK_prep_war_strat = { # Before war
+	allowed = {
+		tag = PAK
+	}
+	enable = {
+		NOT = {
+			has_global_flag = PAK_obq_ongoing
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = IND
+		value = 1000
+	}
+}
+PAK_war_strat_obq = { # During OBQ, offensive
+	allowed = {
+		tag = PAK
+	}
+	enable = {
+		has_global_flag = PAK_obq_ongoing
+		NOT = {
+			PAK = {
+				controls_state = 1316
+				controls_state = 1475
+				controls_state = 1913
+				controls_state = 1478
+				controls_state = 926
+				controls_state = 205
+				controls_state = 2208
+				controls_state = 1318
+				controls_state = 927
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -2000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = IND
+		value = 2000
+	}
+	ai_strategy = {
+		type = front_control
+		area = pakistan
+		tag = IND
+		ordertype = front
+		execution_type = rush
+	}
+	ai_strategy = {
+		type = force_concentration_target_weight
+		area = gangetic_plain
+		value = -40
+	}
+	ai_strategy = {
+		type = force_concentration_target_weight
+		area = pakistan
+		value = 150
+	}
+	ai_strategy = {
+		type = force_concentration_target_weight
+		area = india
+		value = -80
+	}
+}
+PAK_war_strat_obq_defend = { # Got territory, now just defend
+	allowed = {
+		tag = PAK
+	}
+	enable = {
+		has_global_flag = PAK_obq_ongoing
+		PAK = {
+			controls_state = 1316
+			controls_state = 1475
+			controls_state = 1913
+			controls_state = 1478
+			controls_state = 926
+			controls_state = 205
+			controls_state = 2208
+			controls_state = 1318
+			controls_state = 927
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -2000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = IND
+		value = 2000
+	}
+	ai_strategy = {
+		type = front_control
+		tag = IND
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+	}
+}

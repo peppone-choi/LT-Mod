@@ -1,0 +1,42 @@
+state = {
+	id = 586
+	name = "STATE_586"
+	resources = {
+		steel = 4.000
+		tungsten = 2.000
+		aluminium = 4.000
+	}
+
+	history = {
+		owner = KYR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			offices = 1
+			prisons = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			12583 10
+		}
+		victory_points = {
+			18683 3
+		}
+		victory_points = {
+			7706 1
+		}
+		victory_points = {
+			18675 2
+		}
+		add_core_of = KYR
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		7706 12583 13266 18645 18650 18657 18675 18683
+	}
+	manpower = 941093
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

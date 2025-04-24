@@ -1,0 +1,29 @@
+state = {
+	id = 1402
+	name = "STATE_1402"
+
+	history = {
+		owner = OST
+		add_core_of = OST
+		victory_points = {
+			11392 3
+		}
+		victory_points = {
+			9353 1
+		}
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+		}
+		set_state_flag = GDP_regions_luki
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1181 3310 6242 9353 11259 11392 14590 15987
+	}
+	manpower = 218571
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

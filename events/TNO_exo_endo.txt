@@ -1,0 +1,51 @@
+add_namespace = exo_endo
+
+#event nos. are based off the states affected
+
+country_event = {
+	id = exo_endo.701
+	immediate = { log = "[GetDateText]: [Root.GetName]: event exo_endo.701" }
+	title = exo_endo.701
+	desc = exo_endo.701
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = exo_endo.701.a
+		state_control_effect_701 = yes 
+	}
+}
+
+country_event = {
+	id = exo_endo.2194
+	immediate = { log = "[GetDateText]: [Root.GetName]: event exo_endo.2194" }
+	title = exo_endo.2194
+	desc = exo_endo.2194
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = exo_endo.2194.a
+		state_control_effect_2194 = yes 
+	}
+}
+
+country_event = {
+	id = exo_endo.2195
+	immediate = { log = "[GetDateText]: [Root.GetName]: event exo_endo.2195" }
+	title = exo_endo.2195
+	desc = exo_endo.2195
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = exo_endo.2195.a
+		state_control_effect_2195 = yes 
+	}
+}

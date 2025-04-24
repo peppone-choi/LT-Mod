@@ -1,0 +1,38 @@
+state = {
+	id = 350
+	name = "STATE_350"
+	resources = {
+		oil = 24.000
+	}
+
+	history = {
+		owner = TUR
+		victory_points = {
+			4512 10
+		}
+		victory_points = {
+			16242 7
+		}
+		victory_points = {
+			11739 1
+		}
+		victory_points = {
+			11759 2
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			prisons = 1
+		}
+		add_core_of = TUR
+		add_core_of = KUR
+	}
+
+	provinces = {
+		4512 9823 11739 11759 11871 16240 16241 16242 16243 18466
+	}
+	manpower = 862650
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

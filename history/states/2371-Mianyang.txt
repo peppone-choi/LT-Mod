@@ -1,0 +1,36 @@
+state = {
+	id = 2371
+	name = "STATE_2371"
+
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12767 3
+		}
+		victory_points = {
+			19878 4
+		}
+		victory_points = {
+			7256 3
+		}
+		victory_points = {
+			12274 5
+		}
+		set_demilitarized_zone = yes
+		set_state_flag = GDP_regions_chuanxi
+		set_variable = { china_state_ref = 17 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		19878 1367 10132 2045 7256 2091 12274 19865 12767
+	}
+	manpower = 7978492
+	buildings_max_level_factor = 2.000
+	state_category = rural
+	local_supplies = 0.000
+}

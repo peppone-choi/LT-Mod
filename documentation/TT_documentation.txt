@@ -1,0 +1,84 @@
+# GENERAL 
+
+# Growth Change
+set_temp_variable = { gdp_growth_temp = var }
+econ_gdp_growth_change = yes
+
+# Inflation Change
+set_temp_variable = { inflation_temp = var }
+econ_inflation_change = yes
+
+# Interest Rates Change
+set_temp_variable = { interest_rates_temp = var }
+econ_interest_rates_change = yes
+
+# Income Tax Change
+set_temp_variable = { income_tax_temp = var }
+econ_income_tax_rate_change = yes
+
+# Business Tax Change
+set_temp_variable = { business_tax_temp = var }
+econ_business_tax_rate_change = yes
+
+
+
+# ONE TIME CHANGES
+
+# GDP Flat
+set_temp_variable = { temp_econ_GDP_boost_flat = var }
+econ_GDP_boost_once_flat = yes
+
+# GDP Percentage
+set_temp_variable = { temp_econ_GDP_boost_percentage = var }
+econ_GDP_boost_once_percentage = yes
+
+# Spend Money Once
+set_temp_variable = { temp_econ_spending_amount = var }
+econ_spend_money_once_effect = yes
+
+# Add to Reserves
+set_temp_variable = { money_reserves_temp = var }
+econ_money_reserves_change_raw_money = yes
+
+# Debt Flat
+set_temp_variable = { debt_temp = var }
+econ_national_debt_change = yes
+
+# Production Units
+set_temp_variable = { pus_temp = var }
+econ_pus_change = yes
+
+
+
+# STATE SCOPE
+
+# SPECIFIED State GDP Flat
+set_temp_variable = { temp_state_value_addition = var }
+econ_state_value_change_addition_specified_state = yes
+
+# RANDOM State GDP Flat
+set_temp_variable = { temp_state_value_addition = var }
+econ_state_value_change_addition = yes
+
+# SPECIFIED State GDP Percentage
+set_temp_variable = { state_value_multiplier_temp = var }
+econ_state_value_change_multiply_specified_state = yes
+
+# RANDOM State GDP Percentage
+set_temp_variable = { state_value_multiplier_temp = var }
+econ_state_value_change_multiply = yes
+
+
+# ANNUAL EXPENSES/INCOME
+
+# Civilian Costs
+set_temp_variable = { civilian_costs_temp = var }
+econ_civilian_costs_tooltip = yes
+
+# Misc Costs
+set_temp_variable = { misc_costs_temp = var }
+econ_misc_costs_change = yes
+
+# Misc Income
+set_temp_variable = { misc_income_temp = var }
+econ_misc_income_change = yes

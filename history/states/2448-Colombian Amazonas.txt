@@ -1,0 +1,26 @@
+state = {
+	id = 2448
+	name = "STATE_2448"
+	resources = {
+		rubber = 12
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 1
+		}
+		set_demilitarized_zone = yes
+	}
+
+	provinces = {
+		17363 12825 15632 15519 17342
+	}
+	manpower = 10500
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

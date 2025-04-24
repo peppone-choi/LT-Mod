@@ -1,0 +1,28 @@
+state = {
+	id = 1817
+	name = "STATE_1817"
+	resources = {
+		steel = 16
+		tungsten = 13
+		uranium = 5
+	}
+
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 4107 5 }
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_regions_korea
+	}
+
+	provinces = {
+		4107 7155 11915 1003 15860 7070
+	}
+	manpower = 2730752
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

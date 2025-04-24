@@ -1,0 +1,28 @@
+state = {
+	id = 1414
+	name = "STATE_1414"
+
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		victory_points = {
+			14503 1
+		}
+		victory_points = {
+			17075 1
+		}
+		buildings = {
+			offices = 1
+			hospitals = 1
+			infrastructure = 5
+		}
+	}
+
+	provinces = {
+		14503 17075
+	}
+	manpower = 410980
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

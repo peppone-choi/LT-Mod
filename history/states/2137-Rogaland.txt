@@ -1,0 +1,48 @@
+state = {
+	id = 2137
+	name = "STATE_2137"
+
+	resources = {
+		steel = 8
+	}
+
+	history = {
+		buildings = {
+			infrastructure = 5
+			air_base = 6
+			prisons = 1
+			53 = {
+				coastal_bunker = 2
+				naval_base = 6
+			}
+			3192 = {
+				coastal_bunker = 2
+			}
+			18402 = {
+				coastal_bunker = 2
+			}
+			137 = {
+				coastal_bunker = 2
+			}
+			6176 = {
+				coastal_bunker = 2
+			}
+		}
+		victory_points = {
+			3192 2
+		}
+		victory_points = {
+			53 5
+		}
+		owner = NOR
+		add_core_of = NOR
+	}
+
+	provinces = {
+		53 6176 137 18402 3192
+	}
+	manpower = 239052
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

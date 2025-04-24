@@ -1,0 +1,100 @@
+focus_tree = {
+	id = RUS_IRK_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IRK
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_IRK_focus_1 #강철의 독재자의 성채
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_2 #몰로토프의 보고
+		prerequisite = { focus = RUS_IRK_focus_1 }
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_3 #이르쿠츠크 5개년 계획
+		prerequisite = { focus = RUS_IRK_focus_2 }
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_4 #징발 계획 실시
+		prerequisite = { focus = RUS_IRK_focus_3 }
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_5 #NKVD 개혁
+		prerequisite = { focus = RUS_IRK_focus_4 }
+		x = 0
+		y = 4
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_6 #극동의 새로운 붉은 군대
+		prerequisite = { focus = RUS_IRK_focus_5 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_7 #구세대의 충성
+		prerequisite = { focus = RUS_IRK_focus_6 }
+		mutually_exclusive = {
+			focus = RUS_IRK_focus_8
+		}
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_8 #신세대의 혜안
+		prerequisite = { focus = RUS_IRK_focus_6 }
+		mutually_exclusive = {
+			focus = RUS_IRK_focus_7
+		}
+		x = 2
+		y = 6
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_9 #반동세력의 배후
+		prerequisite = { 
+			focus = RUS_IRK_focus_7
+			focus = RUS_IRK_focus_8 }
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_IRK_focus_10 #부랴티아의 운명
+		prerequisite = { 
+			focus = RUS_IRK_focus_9 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_communism
+	}
+}

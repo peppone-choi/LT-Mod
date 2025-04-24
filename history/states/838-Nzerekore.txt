@@ -1,0 +1,24 @@
+state = {
+	id = 838
+	name = "STATE_838"
+	resources = {
+		uranium = 2.000
+	}
+
+	history = {
+		owner = SUS
+		add_core_of = SUS
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		5039 5070 14053 14070 14073 15299 15395 15396 15397 15398
+	}
+	manpower = 132200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

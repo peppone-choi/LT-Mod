@@ -1,0 +1,31 @@
+state = {
+	id = 1919
+	name = "STATE_1919"
+
+	history = {
+		owner = IND
+		victory_points = {
+			12876 10
+		}
+		victory_points = {
+			12041 9
+		}
+		victory_points = {
+			12844 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_rajasthan
+	}
+
+	provinces = {
+		12041 12844 12876 18822
+	}
+	manpower = 2140949
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,35 @@
+state = {
+	id = 1302
+	name = "STATE_1302"
+
+	history = {
+		owner = GAN
+		add_core_of = GAN
+		victory_points = {
+			2022 24
+		}
+		victory_points = {
+			19569 7
+		}
+		victory_points = {
+			16783 1
+		}
+		set_variable = { china_state_ref = 40 }
+		set_variable = { china_region_ref = 5 }
+		set_state_flag = GDP_category_large_town
+		buildings = {
+			infrastructure = 3
+			offices = 1
+			air_base = 3
+			thermoelectric_plant = 1
+		}
+	}
+
+	provinces = {
+		1630 2022 5057 6638 12797 14445 16783 19500 19569 16844 16857
+	}
+	manpower = 3425935
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

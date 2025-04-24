@@ -1,0 +1,24 @@
+state = {
+	id = 2194
+	name = "STATE_2194"
+
+	history = {
+		owner = KRK
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12454 1
+		}
+		add_core_of = KRK
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		7541 7641 10348 12454 12474 13264 13276 17129
+	}
+	manpower = 35707
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

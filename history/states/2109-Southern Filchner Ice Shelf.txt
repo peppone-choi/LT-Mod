@@ -1,0 +1,20 @@
+state = {
+	id = 2109
+	name = "STATE_2109"
+
+	history = {
+		owner = AAN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	impassable = yes
+
+	provinces = {
+		16439 17767 17711 17624 17789 17570
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

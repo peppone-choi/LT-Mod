@@ -1,0 +1,35 @@
+state = {
+	id = 656
+	name = "STATE_656"
+	resources = {
+		oil = 89.000
+	}
+
+	history = {
+		owner = IRQ
+		add_core_of = KUW
+		add_core_of = IRQ
+		victory_points = {
+			8085 20
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			dockyard = 3
+			thermoelectric_plant = 1
+			8085 = {
+				naval_base = 4
+			}
+		}
+		add_extra_state_shared_building_slots = 1
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		8085 16317 16318 18455
+	}
+	manpower = 338296
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

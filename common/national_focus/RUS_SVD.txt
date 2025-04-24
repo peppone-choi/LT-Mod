@@ -1,0 +1,87 @@
+focus_tree = {
+    id = SVD_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = SVD
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = SVD_focus_1 #붉은 군대의 우월성
+        x = 0
+        y = 0
+    }
+
+
+    focus = {
+        id = SVD_focus_2 #우랄중공업 육성계획 복원
+        prerequisite = {focus = SVD_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = SVD_focus_3 #전략로켓군 창설
+        prerequisite = {focus = SVD_focus_2}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = SVD_focus_4 #우랄 군제개혁위원회 창설
+        prerequisite = {focus = SVD_focus_3}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = SVD_focus_5 #붉은 군대의 전통
+        prerequisite = {focus = SVD_focus_3}
+        mutually_exclusive = {focus = SVD_focus_6}
+        x = 0
+        y = 4
+    }
+
+    focus = {
+        id = SVD_focus_6 #페룬의 망치
+        mutually_exclusive = {focus = SVD_focus_5}
+        prerequisite = {focus = SVD_focus_4}
+        x = 1
+        y = 4
+    }
+
+    focus = {
+        id = SVD_focus_7 #지역당위원회와의 타협
+        prerequisite = {focus = SVD_focus_5 focus = SVD_focus_6}
+        x = 0
+        y = 5
+    }
+    
+    focus = {
+        id = SVD_focus_8 #투하쳅스키의 밀사
+        prerequisite = {focus = SVD_focus_7}
+        x = 0
+        y = 6
+    }
+
+
+    focus = {
+        id = SVD_focus_9 #조국전쟁을 위한 특임대
+        prerequisite = {focus = SVD_focus_8}
+        x = 0
+        y = 7
+    }
+
+    focus = {
+        id = SVD_focus_10 #조국전쟁의 개막
+        prerequisite = {focus = SVD_focus_10}
+        x = 0
+        y = 8
+    }
+}

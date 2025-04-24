@@ -1,0 +1,26 @@
+state = {
+	id = 1304
+	name = "STATE_1304"
+
+	resources = {
+		aluminium = 2
+	}
+
+	history = {
+		owner = IME
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14471 1 }
+		add_core_of = IME
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		14451 14471 7176 11970
+	}
+
+	manpower = 29582
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

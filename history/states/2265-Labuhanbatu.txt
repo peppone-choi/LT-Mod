@@ -1,0 +1,28 @@
+state = {
+	id = 2265
+	name = "STATE_2265"
+	resources = {
+		rubber = 8
+		oil = 6
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			19199 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = GDP_regions_medan
+	}
+
+	provinces = {
+		19199 15721 12302
+	}
+	manpower = 387703
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

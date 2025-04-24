@@ -1,0 +1,31 @@
+state = { 
+	id = 2529
+	name = "STATE_2529"
+	resources = {
+		aluminium = 10
+		steel = 8
+	}
+	history = {
+		owner = ONG
+		victory_points = { 3168 7 }
+		victory_points = { 312 3 }
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			thermoelectric_plant = 2
+			barracks = 1
+			offices = 1
+			schools = 1
+			hospitals = 1
+		}
+		add_core_of = ONG
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		312 3130 3168 6102 11171
+	}
+	manpower = 300000
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

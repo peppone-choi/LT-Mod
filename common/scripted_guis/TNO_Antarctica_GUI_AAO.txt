@@ -1,0 +1,33 @@
+scripted_gui = {
+	Antarctica_GUI_AAO = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAO"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			
+		}
+		
+		triggers = {
+			
+		}
+		
+		properties = {
+			pie_chart_usa = {
+				frame = Antarctica_GUI_AAO_USA_Control
+			}
+			pie_chart_ast = {
+				frame = Antarctica_GUI_AAO_AST_Control
+			}
+			pie_chart_nzl = {
+				frame = Antarctica_GUI_AAO_NZL_Control
+			}
+			Antarctica_GUI_AAO_Progressbar_Cohesion = {
+				frame = Antarctica_GUI_AAO_Cohesion
+			}
+		}
+	}
+}

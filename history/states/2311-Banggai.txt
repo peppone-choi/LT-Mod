@@ -1,0 +1,24 @@
+state = {
+	id = 2311
+	name = "STATE_2311"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			19265 1
+		}
+		set_state_flag = GDP_regions_sulawesi
+	}
+
+	provinces = {
+		1505 4493 19265 4211
+	}
+	manpower = 138098
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

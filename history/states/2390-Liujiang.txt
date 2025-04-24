@@ -1,0 +1,27 @@
+state = {
+	id = 2390
+	name = "STATE_2390"
+
+	history = {
+		owner = GUX
+		add_core_of = GUX
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+		}
+		victory_points = {
+			19473 13
+		}
+		set_variable = { china_state_ref = 19 }
+		set_variable = { china_region_ref = 2 }
+		set_state_flag = state_category_large_town
+	}
+
+	provinces = {
+		19686 10039 7095 19473 1597 19545 19572
+	}
+	manpower = 2636549
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

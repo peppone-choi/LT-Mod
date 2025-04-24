@@ -1,0 +1,836 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TNO_YUN_WI_map"
+		size = { width = 1220 height = 1000 }
+		position = { x=540 y=80 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		buttonType = {
+			name = "YUN_WI_close_button"
+			position = { x = -32 y = 16 }
+			quadTextureSprite ="GFX_crt_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		iconType = {
+			name = "greater_china_map_background"
+			quadTextureSprite = "GFX_greater_china_map"
+			position = { x= 30 y = 120 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "greater_china_map_municipalities"
+			quadTextureSprite = "GFX_greater_china_municipalities"
+			position = { x= 790 y = 440 }
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "WI_map_integrate_button"
+			position = { x = 100 y = 725 }
+			quadTextureSprite = "GFX_WI_map_coring_state"
+			scale = 0.5
+			pdx_tooltip = WI_map_integrate_button_tt
+		}
+		buttonType = {
+			name = "WI_map_admin_button"
+			position = { x = 200 y = 725 }
+			quadTextureSprite = "GFX_WI_map_admin_efficiency"
+			scale = 0.8
+			pdx_tooltip = WI_map_admin_button_tt
+		}
+		buttonType = {
+			name = "WI_map_mil_button"
+			position = { x = 300 y = 725 }
+			quadTextureSprite = "GFX_WI_map_militarization_level"
+			scale = 0.8
+			pdx_tooltip = WI_map_mil_button_tt
+		}
+		buttonType = {
+			name = "WI_map_occupation_button"
+			position = { x = 400 y = 725 }
+			quadTextureSprite = "GFX_WI_map_occupation_status"
+			scale = 0.5
+			pdx_tooltip = WI_map_occupation_button_tt
+		}
+
+		iconType = {
+			name = "WI_map_basic_info"
+			position = { x = 70 y = 15 }
+			quadTextureSprite = GFX_WI_map_title
+			orientation = "UPPER_LEFT"
+			pdx_tooltip = WI_map_title_tt
+		}
+
+		containerWindowType = {
+			name = "TNO_YUN_WI_map_state_info"
+			size = { width = 400 height = 300 }
+			position = { x=60 y=740 }
+
+			iconType = {
+				name = "WI_map_state_status_box"
+				position = { x = 0 y = 30 }
+				quadTextureSprite = "GFX_WI_map_state_status"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "greater_china_map_city_pic"
+				position = { x = 13 y = 165 }
+				quadTextureSprite = "GFX_blank"
+			}
+			iconType = {
+				name = "WI_map_state_pop_icon"
+				position = { x = 20 y = 80 }
+				quadTextureSprite = "GFX_manpower_icon"
+			}
+			instantTextBoxType = {
+				name = "WI_map_state_pop"
+				position = { x = 50 y = 84 }
+				text = WI_map_state_pop_tt
+				text_color_code = Y
+				font = "aldrich_22_outline"
+				maxWidth = 250
+			}
+			iconType = {
+				name = "WI_map_state_gdp_icon"
+				position = { x = 20 y = 120 }
+				quadTextureSprite = "GFX_green_dollar_sign"
+				scale = 1.2
+			}
+			instantTextBoxType = {
+				name = "WI_map_state_gdp"
+				position = { x = 50 y = 122 }
+				text = WI_map_state_gdp_tt
+				text_color_code = Y
+				font = "aldrich_22_outline"
+				maxWidth = 250
+			}
+			#buttonType = {
+			#	name = "WI_map_strategy_attack_GUI"
+			#	position = { x = 400 y = 120 }
+			#	quadTextureSprite = "GFX_ability_chi_force_attack"
+			#	scale = 0.85
+			#	pdx_tooltip = WI_map_strategy_attack_GUI_tt
+			#}
+			#buttonType = {
+			#	name = "WI_map_strategy_defense_GUI"
+			#	position = { x = 440 y = 120 }
+			#	quadTextureSprite = "GFX_ability_jap_last_stand"
+			#	scale = 0.9
+			#	pdx_tooltip = WI_map_strategy_defense_GUI_tt
+			#}
+			instantTextBoxType = {
+				name = "WI_map_state_integration_info"
+				position = { x = 248 y = 130 }
+				text = WI_map_state_integrate_info
+				font = "aldrich_20_outline"
+				pdx_tooltip = WI_big_map_state_integration_progress_tt
+				maxHeight = 20
+			}
+			instantTextBoxType = {
+				name = "WI_map_state_administration_info"
+				position = { x = 313 y = 130 }
+				text = WI_map_state_admin_info
+				font = "aldrich_20_outline"
+				pdx_tooltip = WI_big_map_state_admin_info_tt
+				maxHeight = 20
+			}
+			instantTextBoxType = {
+				name = "WI_map_state_militarization_info"
+				position = { x = 375 y = 130 }
+				text = WI_map_state_mili_info
+				font = "aldrich_20_outline"
+				pdx_tooltip = WI_big_map_state_mil_info_tt
+				maxHeight = 20
+			}
+		}
+	
+		gridboxtype = {
+			name = "greater_china_map_provinces"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			slotsize = { width = 0 height = 0 }
+			add_horizontal = no
+		}
+		gridboxtype = {
+			name = "greater_china_map_fill"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			slotsize = { width = 0 height = 0 }
+			add_horizontal = no
+		}
+
+		gridboxtype = {
+			name = "greater_china_map"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			slotsize = { width = 0 height = 0 }
+			add_horizontal = no
+		}
+		
+		gridboxtype = {
+			name = "WI_greater_china_states_action_GUI"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+			slotsize = { width = 70 height = 0 }
+			max_slots_horizontal = 5
+			add_horizontal = yes
+		}
+	}
+	containerWindowType = {
+		name = "TNO_YUN_WI_map_state_admin"
+		size = { width = 0 height = 0 }
+		position = { x=460 y= 750 }
+		iconType = {
+			name = "WI_map_state_admin_info_GUI"
+			position = { x = 610 y = 30 }
+			quadTextureSprite = "GFX_Espionage_GUI_Button_Info"
+			pdx_tooltip = WI_map_state_admin_info_tt
+			Orientation = "UPPER_RIGHT"
+			scale = 0.8
+		}
+		#instantTextBoxType = {
+		#	name = "WI_map_state_integrate_text"
+		#	position = { x = 70 y = 110 }
+		#	text = WI_map_state_integrate_text
+		#	font = "aldrich_28_outline"
+		#}
+		instantTextBoxType = {
+			name = "WI_map_state_admin_text"
+			position = { x = 270 y = 110 }
+			text = WI_map_state_admin_text
+			font = "aldrich_28_outline"
+			maxWidth = 300
+		}
+		instantTextBoxType = {
+			name = "WI_map_state_admin_percent_GUI"
+			position = { x = 330 y = 158 }
+			text = WI_map_state_admin_percent_GUI
+			font = "aldrich_22_outline"
+			pdx_tooltip = WI_map_state_admin_percent_GUI_tt
+		}
+		buttonType = {
+			name = "WI_map_change_admin_spending"
+			position = { x = 270 y = 195 }
+			quadTextureSprite ="GFX_GNG_Proposals_button_confirm"
+			pdx_tooltip = WI_map_change_admin_spending_tt
+		}
+		buttonType = {
+			name = "WI_map_increase_admin_spending"
+			position = { x = 280 y = 155 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetPos"
+		}
+		buttonType = {
+			name = "WI_map_decrease_admin_spending"
+			position = { x = 430 y = 155 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetNeg"
+		}
+		instantTextBoxType = {
+			name = "WI_map_state_mil_text"
+			position = { x = 530 y = 110 }
+			text = WI_map_state_mil_text
+			font = "aldrich_28_outline"
+		}
+		instantTextBoxType = {
+			name = "WI_map_state_mil_percent_GUI"
+			position = { x = 550 y = 158 }
+			text = YUN_WI_state_mil_percent_GUI_tt
+			font = "aldrich_22_outline"
+			pdx_tooltip = WI_map_state_mil_percent_GUI_tt
+		}
+		buttonType = {
+			name = "WI_map_change_mil_spending"
+			position = { x = 490 y = 195 }
+			quadTextureSprite ="GFX_GNG_Proposals_button_confirm"
+			pdx_tooltip = WI_map_change_mil_spending_tt
+		}
+		buttonType = {
+			name = "WI_map_increase_mil_spending"
+			position = { x = 500 y = 155 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetPos"
+		}
+		buttonType = {
+			name = "WI_map_decrease_mil_spending"
+			position = { x = 650 y = 155 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetNeg"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_YUN_WI_states_action_adm"
+		size = { width = 290 height = 360 }
+		position = { x=435 y= 5 }
+		moveable = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+		iconType = {
+			name = "WI_map_state_info"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_WI_map_state_info"
+		}
+
+		#buttonType = {
+		#	name = "WI_action_adm_close_button"
+		#	position = { x = 15 y = 15 }
+		#	quadTextureSprite ="GFX_crt_closebutton"
+		#	buttonFont = "Main_14_black"
+		#	shortcut = "ESCAPE"
+		#	clicksound = click_close
+		#	pdx_tooltip = "CLOSE"
+		#}
+		iconType = {
+			name = "WI_map_state_admin_info"
+			position = { x = -60 y = 20 }
+			quadTextureSprite = "GFX_Espionage_GUI_Button_Info"
+			pdx_tooltip = WI_map_state_admin_info_tt
+			Orientation = "UPPER_RIGHT"
+			scale = 0.6
+		}
+
+		#instantTextBoxType = {
+		#	name = "WI_map_state_percent"
+		#	position = { x = 250 y = 65 }
+		#	text = YUN_WI_state_percent_tt
+		#	font = "aldrich_20_outline"
+		#}
+		instantTextBoxType = {
+			name = "WI_map_state_title"
+			position = { x = 60 y = 20 }
+			text = WI_map_state_title_tt
+			font = "aldrich_24_outline"
+			maxWidth = 340
+		}
+		iconType = {
+			name = "WI_map_state_integration_progress"
+			position = { x = 72 y = 68 }
+			quadTextureSprite = "GFX_WI_map_state_integrate"
+			pdx_tooltip = WI_map_state_integration_progress_tt
+			pdx_tooltip_delayed = WI_map_state_integration_info_tt
+		}
+		iconType = {
+			name = "WI_map_state_admin_efficiency"
+			position = { x = 72 y = 122 }
+			quadTextureSprite = "GFX_WI_map_state_admin"
+			pdx_tooltip = WI_map_state_admin_efficiency_tt
+			pdx_tooltip_delayed = WI_map_state_admin_info_tt
+		}
+		iconType = {
+			name = "WI_map_state_mil_level"
+			position = { x = 72 y = 174 }
+			quadTextureSprite = "GFX_WI_map_state_mil"
+			pdx_tooltip = WI_map_state_mil_level_tt
+			pdx_tooltip_delayed = WI_map_state_mil_info_tt
+		}
+		#iconType = {
+		#	name = "WI_map_state_officers_container"
+		#	position = { x = 50 y = 290 }
+		#	quadTextureSprite = "GFX_YUN_insurgency_GUI_container"
+		#	pdx_tooltip = WI_map_state_admin_efficiency_tt
+		#}
+		#instantTextBoxType = {
+		#	name = "WI_map_state_modifiers_info"
+		#	position = { x = 11 y = 360 }
+		#	text = WI_map_state_modifiers_tt
+		#	font = "aldrich_24_outline"
+		#	maxWidth = 340
+		#}
+		iconType = {
+			name = "WI_greater_china_provinces_short"
+			position = { x = 70 y = 240 }
+			quadTextureSprite = "GFX_greater_china_provinces_short"
+			pdx_tooltip = greater_china_province_short_tt
+		}
+		iconType = {
+			name = "WI_greater_china_regions_short"
+			position = { x = 125 y = 300 }
+			quadTextureSprite = "GFX_greater_china_regions_short"
+		}
+		buttonType = {
+			name = "WI_map_strategy_attack"
+			quadTextureSprite = "GFX_WI_map_strategy"
+			position = { x = 220 y = 220 }
+			frame = 1
+			pdx_tooltip = WI_map_strategy_attack_tt
+		}
+		buttonType = {
+			name = "WI_map_strategy_defense"
+			quadTextureSprite = "GFX_WI_map_strategy"
+			position = { x = 220 y = 280 }
+			frame = 2
+			pdx_tooltip = WI_map_strategy_defense_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "greater_china_map_provinces_container"
+		size = { width = 0 height = 0 }
+
+		instantTextBoxType = {
+			name = "greater_china_map_province_name"
+			position = { x = -20 y = 780 }
+			text = [GetWI_map_province_name]
+			font = "aldrich_24_outline"
+			format = centre
+			maxWidth = 600
+			maxHeight = 24
+		}
+	}
+	containerWindowType = {
+		name = "greater_china_map_fill_container"
+		size = { width = 0 height = 0 }
+
+		iconType = {
+			name = "greater_china_map_state_fill"
+			spriteType = "empty"
+		}
+	}
+
+	containerWindowType = {
+		name = "greater_china_map_entry_container"
+		size = { width = 0 height = 0 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "greater_china_map_entry"
+			spriteType = "empty"
+		}
+		buttonType = {
+			name = "greater_china_map_entry_outline"
+			spriteType = "empty"
+			position = { x= 0 y = 0 }
+			pdx_tooltip = WI_country_map_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "WI_china_states_action_GUI"
+		size = { width = 0 height = 0 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "WI_map_china_states_action_GUI"
+			position = { x = 690 y = 780 }
+			quadTextureSprite = "empty"
+			pdx_tooltip = "WI_map_china_states_action_GUI_click_tt"
+			pdx_tooltip_delayed = "WI_map_china_states_action_GUI_click_tt_delay"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_YUN_insurgency_GUI"
+		position = { x = 0 y = 0 }
+		size = { height = 620 width = 482 }
+
+		instantTextBoxType = {
+			name = "GFX_YUN_Xinan_GUI_external_threat"
+			position = { x = 11 y = 10 }
+			text = YUN_Xinan_GUI_external_threat_tt
+			text_color_code = Y
+			font = "aldrich_36_outline"
+			format = centre
+			maxWidth = 482
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_NRA"
+			position = { x = 80 y = 50 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_NRA"
+			pdx_tooltip = YUN_insurgency_GUI_NRA_desc
+			pdx_tooltip_delayed = YUN_insurgency_GUI_NRA_desc_2
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_NRA_info"
+			position = { x = 11 y = 150 }
+			quadTextureSprite = "GFX_YUN_Xinan_GUI_Power"
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_NRA_container"
+			position = { x = 11 y = 150 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_container"
+			pdx_tooltip = YUN_insurgency_GUI_NRA_power_tt
+			pdx_tooltip_delayed = YUN_NRA_Power_tt
+			scale = 0.75
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_CCP"
+			position = { x = 330 y = 50 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_CCP"
+			pdx_tooltip = YUN_insurgency_GUI_CCP_desc
+			pdx_tooltip_delayed = YUN_insurgency_GUI_CCP_desc_2
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_CCP_info"
+			position = { x = 270 y = 150 }
+			quadTextureSprite = "GFX_YUN_Xinan_GUI_Power"
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_CCP_container"
+			position = { x = 270 y = 150 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_container"
+			pdx_tooltip = YUN_insurgency_GUI_CCP_power_tt
+			pdx_tooltip_delayed = YUN_CCP_Power_tt
+			scale = 0.75
+		}
+		instantTextBoxType = {
+			name = "Xinan_GUI_garrison_size"
+			position = { x = 11 y = 215 }
+			text = YUN_Xinan_GUI_garrison_size_tt
+			font = "aldrich_18_outline"
+			maxWidth = 235
+			pdx_tooltip = YUN_Xinan_GUI_garrison_size_tooltip
+		}
+		buttonType = {
+			name = "Xinan_GUI_garrison_size_change"
+			position = { x = 280 y = 210 }
+			quadTextureSprite = "GFX_set_need_amount_button"
+			pdx_tooltip = Xinan_Insurgent_garrison_change_size_tt
+		}
+		buttonType = {
+			name = "Xinan_GUI_garrison_size_increase"
+			position = { x = 400 y = 220 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetPos"
+			scale = 1.1
+		}
+		buttonType = {
+			name = "Xinan_GUI_garrison_size_decrease"
+			position = { x = 350 y = 220 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetNeg"
+			scale = 1.1
+		}		
+		instantTextBoxType = {
+			name = "Xinan_GUI_garrison_cost"
+			position = { x = 11 y = 270 }
+			text = YUN_Xinan_GUI_garrison_cost
+			text_color_code = Y
+			font = "aldrich_18_outline"
+			maxWidth = 482
+		}
+		instantTextBoxType = {
+			name = "GFX_YUN_Xinan_GUI_internal_threat"
+			position = { x = 11 y = 320 }
+			text = YUN_Xinan_GUI_internal_threat_tt
+			text_color_code = Y
+			font = "aldrich_36_outline"
+			format = centre
+			maxWidth = 482
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_Bandit"
+			position = { x = 70 y = 360 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_Bandits"
+			pdx_tooltip = YUN_insurgency_GUI_Bandit_desc
+			pdx_tooltip_delayed = YUN_insurgency_GUI_Bandit_desc_2
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_Bandit_info"
+			position = { x = 11 y = 450 }
+			quadTextureSprite = "GFX_YUN_Xinan_GUI_Power"
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_Bandit_container"
+			position = { x = 11 y = 450 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_container"
+			pdx_tooltip = YUN_insurgency_GUI_bandit_power_tt
+			pdx_tooltip_delayed = YUN_Bandit_Power_tt
+			scale = 0.75
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_NPA"
+			position = { x = 330 y = 360 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_NPA"
+			pdx_tooltip = YUN_insurgency_GUI_NPA_desc
+			pdx_tooltip_delayed = YUN_insurgency_GUI_NPA_desc_2
+			scale = 0.9
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_NPA_info"
+			position = { x = 270 y = 450 }
+			quadTextureSprite = "GFX_YUN_Xinan_GUI_Power"
+		}
+		iconType = {
+			name = "GFX_YUN_Xinan_GUI_NPA_container"
+			position = { x = 270 y = 450 }
+			quadTextureSprite = "GFX_YUN_insurgency_GUI_container"
+			pdx_tooltip = YUN_insurgency_GUI_NPA_power_tt
+			pdx_tooltip_delayed = YUN_NPA_Power_tt
+			scale = 0.75
+		}
+		instantTextBoxType = {
+			name = "Xinan_GUI_police_size"
+			position = { x = 11 y = 530 }
+			text = YUN_Xinan_GUI_police_size_tt
+			font = "aldrich_18_outline"
+			maxWidth = 235
+			pdx_tooltip = YUN_Xinan_GUI_police_size_tooltip
+		}
+		buttonType = {
+			name = "Xinan_GUI_police_size_change"
+			position = { x = 280 y = 520 }
+			quadTextureSprite ="GFX_set_need_amount_button"
+			pdx_tooltip = Xinan_Insurgent_police_change_size_tt
+		}
+		buttonType = {
+			name = "Xinan_GUI_police_size_increase"
+			position = { x = 400 y = 530 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetPos"
+			scale = 1.1
+		}
+		buttonType = {
+			name = "Xinan_GUI_police_size_decrease"
+			position = { x = 350 y = 530 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_BudgetNeg"
+			scale = 1.1
+		}		
+		instantTextBoxType = {
+			name = "Xinan_GUI_police_cost"
+			position = { x = 11 y = 580 }
+			text = YUN_Xinan_GUI_police_cost
+			text_color_code = Y
+			font = "aldrich_18_outline"
+			maxWidth = 482
+		}
+		iconType = {
+			name = "YUN_insurgency_GUI_info"
+			position = { x = 390 y = -60 }
+			quadTextureSprite = "GFX_Espionage_GUI_Button_Info"
+			pdx_tooltip = YUN_insurgency_GUI_info_tt
+			scale = 0.8
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_YUN_WI_Sichuan_GUI"
+		position = { x = 0 y = 0 }
+		size = { height = 600 width = 482 }
+
+		instantTextBoxType = {
+			name = "YUN_WI_Sichuan_GUI_desc"
+			position = { x = 10 y = 0 }
+			text = YUN_WI_Sichuan_GUI_text
+			font = "aldrich_18_outline"
+			maxWidth = 480
+			maxHeight = 500
+		}
+		instantTextBoxType = {
+			name = "YUN_WI_Sichuan_GUI_RGOC"
+			position = { x = 50 y = 100 }
+			text = YUN_WI_Sichuan_GUI_RGOC
+			font = "aldrich_24_outline"
+		}
+		instantTextBoxType = {
+			name = "YUN_WI_Sichuan_GUI_NPA"
+			position = { x = 300 y = 100 }
+			text = YUN_WI_Sichuan_GUI_NPA
+			font = "aldrich_24_outline"
+		}
+		instantTextBoxType = {
+			name = "YUN_WI_Sichuan_GUI_RGOC_support"
+			position = { x = 10 y = 380 }
+			text = YUN_WI_Sichuan_GUI_RGOC_support
+			font = "aldrich_24_outline"
+			maxWidth = 300
+		}
+		instantTextBoxType = {
+			name = "YUN_WI_Sichuan_GUI_NPA_support"
+			position = { x = 300 y = 380 }
+			text = YUN_WI_Sichuan_GUI_NPA_support
+			font = "aldrich_24_outline"
+			maxWidth = 300
+		}
+		buttonType = {
+			name = "YUN_WI_Sichuan_GUI_invest"
+			position = { x = 210 y = 510 }
+			quadTextureSprite ="GFX_Espionage_GUI_Button_Invest"
+			pdx_tooltip = WI_Sichuan_GUI_invest_tt
+		}
+		buttonType = {
+			name = "YUN_WI_Sichuan_GUI_decrease_pp"
+			quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetNeg"
+			position = { x = 70 y = 510 }
+		}
+		buttonType = {
+			name = "YUN_WI_Sichuan_GUI_increase_pp"
+			quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetPos"
+			position = { x = 100 y = 510 }
+		}
+		instantTextBoxType = {
+			name = "YUN_WI_Sichuan_GUI_pp"
+			position = { x = 10 y = 480 }
+			text = YUN_WI_Sichuan_GUI_pp
+			font = "aldrich_20_outline"
+			maxWidth = 220
+			maxHeight = 25
+			pdx_tooltip = YUN_WI_Sichuan_GUI_pp_tt
+		}
+		buttonType = {
+			name = "YUN_WI_Sichuan_GUI_decrease_weapon"
+			quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetNeg"
+			position = { x = 380 y = 510 }
+		}
+		buttonType = {
+			name = "YUN_WI_Sichuan_GUI_increase_weapon"
+			quadTextureSprite = "GFX_Espionage_GUI_Button_BudgetPos"
+			position = { x = 410 y = 510 }
+		}
+		instantTextBoxType = {
+			name = "YUN_WI_Sichuan_GUI_weapon"
+			position = { x = 330 y = 480 }
+			text = YUN_WI_Sichuan_GUI_weapon
+			font = "aldrich_20_outline"
+			maxWidth = 220
+			maxHeight = 25
+			pdx_tooltip = YUN_WI_Sichuan_GUI_weapon_tt
+		}
+
+		iconType = {
+			name = "YUN_WI_Sichuan_influence"
+			position = { x = 100 y = 150 }
+			quadTextureSprite = "GFX_YUN_influence_GUI_Scale"
+		}
+	}
+	containerWindowType = {
+		name = "TNO_YUN_NPA_Crusade_GUI"
+		position = { x = 0 y = 0 }
+		size = { height = 600 width = 482 }
+
+		iconType = {
+			name = "YUN_WI_Crusade_GUI_title"
+			position = { x = 30 y = 0 }
+			quadTextureSprite = "GFX_YUN_WI_decision_title"
+			pdx_tooltip = YUN_NPA_Crusade_desc_tt
+		}
+
+		iconType = {
+			name = "YUN_WI_Crusade_GUI_warlord_highlight"
+			position = { x = 100 y = 100 }
+			quadTextureSprite = "GFX_YUN_WI_Warlord_flag_selected_box"
+		}
+
+		buttonType = {
+			name = "YUN_WI_Warlord_GUI_XIK_button"
+			position = { x = 100 y = 100 }
+			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
+			frame = 1
+			pdx_tooltip = WI_XIK_info_tt
+		}
+#
+		buttonType = {
+			name = "YUN_WI_Warlord_GUI_GUX_button"
+			position = { x = 220 y = 100 }
+			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
+			frame = 2
+			pdx_tooltip = WI_GUX_info_tt
+		}
+#
+		buttonType = {
+			name = "YUN_WI_Warlord_GUI_SHX_button"
+			position = { x = 340 y = 100 }
+			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
+			frame = 3
+			pdx_tooltip = WI_SHX_info_tt
+		}
+#
+		buttonType = {
+			name = "YUN_WI_Warlord_GUI_QIN_button"
+			position = { x = 100 y = 180 }
+			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
+			frame = 4
+			pdx_tooltip = WI_QIN_info_tt
+		}
+#
+		buttonType = {
+			name = "YUN_WI_Warlord_GUI_XIN_button"
+			position = { x = 220 y = 180 }
+			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
+			frame = 5
+			pdx_tooltip = WI_XIN_info_tt
+		}
+#
+		buttonType = {
+			name = "YUN_WI_Warlord_GUI_TIB_button"
+			position = { x = 340 y = 180 }
+			quadTextureSprite = "GFX_YUN_WI_Warlord_GUI_flags"
+			frame = 6
+			pdx_tooltip = WI_TIB_info_tt
+		}
+		instantTextboxType = {
+			name = "YUN_WI_Warlord_GUI_Selected_Warlord"
+			position = { x = 100 y = 270 }
+			font = "aldrich_20_outline"
+			text = "[GetWarlordName]"
+			maxWidth = 350
+		}
+		iconType = {
+			name = "YUN_WI_legitimacy_word"
+			position = { x = 25 y = 80 }
+			quadTextureSprite = "GFX_WI_war_info"
+			frame = 1
+		}
+		iconType = {
+			name = "YUN_WI_legitimacy_bar"
+			position = { x = 25 y = 140 }
+			quadTextureSprite = "GFX_WI_legitimacy"
+			pdx_tooltip = YUN_WI_legitimacy_tick_tt
+			pdx_tooltip_delayed = YUN_WI_legitimacy_tick_tt2
+		}
+		instantTextboxType = {
+			name = "YUN_WI_legitimacy_word_eng"
+			position = { x = 35 y = 473 }
+			font = "aldrich_36_outline"
+			text = "L"
+			text_color_code = "M"
+		}
+		iconType = {
+			name = "YUN_WI_warbuff_word"
+			position = { x = 458 y = 80 }
+			quadTextureSprite = "GFX_WI_war_info"
+			frame = 2
+		}
+		iconType = {
+			name = "YUN_WI_warbuff_bar"
+			position = { x = 455 y = 140 }
+			quadTextureSprite = "GFX_WI_war_buff"
+			pdx_tooltip = YUN_WI_warbuff_tick_tt
+			pdx_tooltip_delayed = YUN_WI_warbuff_tick_tt2
+		}
+		instantTextboxType = {
+			name = "YUN_WI_warbuff_word_eng"
+			position = { x = 460 y = 470 }
+			font = "aldrich_36_outline"
+			text = "M"
+			text_color_code = M
+		}
+		iconType = {
+			name = "YUN_WI_momentum_word"
+			position = { x = 210 y = 340 }
+			quadTextureSprite = "GFX_WI_momentum_title"
+			scale = 1.1
+		}
+		iconType = {
+			name = "YUN_WI_momentum_bar"
+			position = { x = 100 y = 420 }
+			quadTextureSprite = "GFX_WI_war_momentum"
+			pdx_tooltip = YUN_WI_momentum_tick_tt
+			pdx_tooltip_delayed = YUN_WI_momentum_tick_tt2
+		}
+		buttonType = {
+			name = "YUN_WI_map_entry"
+			position = { x = 166 y = 472 }
+			quadTextureSprite = "GFX_WI_map_GUI_entry"
+			pdx_tooltip = "scripted_gui_open_tt_greater_china"
+		}
+	}
+}

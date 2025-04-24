@@ -1,0 +1,34 @@
+state = {
+	id = 1934
+	name = "STATE_1934"
+
+	history = {
+		owner = IND
+		victory_points = {
+			4106 10
+		}
+		victory_points = {
+			2105 6
+		}
+		victory_points = {
+			18971 9
+		}
+		victory_points = {
+			1199 4
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_madhya_pradesh
+	}
+
+	provinces = {
+		1199 2105 4106 18898 18971 18987
+	}
+	manpower = 3141640
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,76 @@
+focus_tree = {
+    id = SAM_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = SAM
+        }
+    }
+    
+    default = no
+
+    focus = {
+        id = SAM_focus_1 #오흐리나 창설
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = SAM_focus_2 #콜호스 해체
+        prerequisite = {focus = SAM_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = SAM_focus_3 #소련 관료기구 흡수
+        prerequisite = {focus = SAM_focus_2}
+        x = 0
+        y = 2
+    }
+
+focus = {
+        id = SAM_focus_4 #군사 1
+        prerequisite = {focus = SAM_focus_3}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = SAM_focus_5 #정치
+        prerequisite = {focus = SAM_focus_4}
+        x = 0
+        y = 4
+    }
+
+    focus = {
+        id = SAM_focus_6 #군사 2
+        prerequisite = {focus = SAM_focus_5}
+        x = 0
+        y = 5
+    }
+
+    focus = {
+        id = SAM_focus_7 #왕이냐, 총이냐
+        prerequisite = {focus = SAM_focus_6}
+        x = 0
+        y = 6
+    }
+
+    focus = {
+        id = SAM_focus_8 #군사 3
+        prerequisite = {focus = SAM_focus_7}
+        x = 0
+        y = 7
+    }
+
+    focus = {
+        id = SAM_focus_9 #붉은 군대의 불온한 움직임
+        prerequisite = {focus = SAM_focus_8}
+        x = 0
+        y = 8
+    }
+}

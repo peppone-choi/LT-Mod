@@ -1,0 +1,18 @@
+state = {
+	id = 1904
+	name = "STATE_1904"
+	provinces = {
+		16155 10287 16144
+	}
+	history = {
+		owner = CYL
+		victory_points = { 16155 3 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CYL
+	}
+	manpower = 549492
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

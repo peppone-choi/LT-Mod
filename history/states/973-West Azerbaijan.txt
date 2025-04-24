@@ -1,0 +1,42 @@
+state = {
+	id = 973
+	name = "STATE_973"
+
+	resources = {
+		power = 2
+	}
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 4
+			hospitals = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = PER
+		victory_points = {
+			18798 10
+		}
+		victory_points = {
+			18794 4
+		}
+		victory_points = {
+			18763 2
+		}
+		victory_points = {
+			18772 1
+		}
+		victory_points = {
+			18786 1
+		}
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		1636 1822 7604 13120 18743 18763 18772 18786 18794 18798
+	}
+	manpower = 1087182
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

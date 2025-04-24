@@ -1,0 +1,25 @@
+scripted_gui = {
+	Antarctica_GUI_AAJ = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAJ"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			
+		}
+		
+		triggers = {
+			
+		}
+		
+		properties = {
+			Antarctica_GUI_AAJ_Dot = {
+				x = Antarctica_GUI_AAJ_Dot_x
+				y = Antarctica_GUI_AAJ_Dot_y
+			}
+		}
+	}
+}

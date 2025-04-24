@@ -1,0 +1,50 @@
+state = {
+	id = 460
+	name = "STATE_460"
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		victory_points = { 7081 10 }
+		victory_points = { 18079 4 }
+		victory_points = { 1160 2 }
+		victory_points = { 1141 4 }
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+			thermoelectric_plant = 1
+			7081 = {
+				naval_base = 1
+			}
+			18014 = {
+				bunker = 3
+			}
+			1141 = {
+				bunker = 3
+			}
+			1058 = {
+				bunker = 3
+			}
+			1160 = {
+				bunker = 3
+			}
+		}
+		add_core_of = ALG
+		set_state_flag = universal_renamings
+	}
+
+	resources = {
+		steel = 20
+		uranium = 4
+		power = 4
+	}
+
+	provinces = {
+		1058 1160 7081 18079 1141 18014
+	}
+	manpower = 683719
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

@@ -1,0 +1,295 @@
+characters = {
+	# Leaders
+
+	GAY_Grigory_Zinoviev = {
+		name = GAY_Grigory_Zinoviev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAY/Portrait_Gayny_Grigory_Zinoviev.dds"
+			}
+			army = {
+				large = "gfx/leaders/GAY/Portrait_Gayny_Grigory_Zinoviev.dds"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_GRIGORY_ZINOVIEV_DESC"
+			expire = "1999.1.1.1"
+			ideology = fascism_ordosocialism_subtype
+			traits = {  }
+			id = -1
+		}
+
+		field_marshal = {
+			traits = { unyielding_defender trait_engineer inflexible_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 3301
+		}
+	}
+
+	GAY_Nikolai_Bulganin = {
+		name = GAY_Nikolai_Bulganin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Nikolai_Bulganin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GAY_Nikolai_Bulganin_pol
+			allowed = { original_tag = GAY }
+			traits = { }
+		}
+	}
+
+	GAY_Nikolai_Ustryalov = {
+		name = GAY_Nikolai_Ustryalov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Nikolai_Ustryalov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GAY_Nikolai_Ustryalov_pol
+			allowed = { original_tag = GAY }
+			traits = { }
+		}
+	}
+
+	GAY_Yuri_Klyuchenikov = {
+		name = GAY_Yuri_Klyuchenikov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Yuri_Klyuchenikov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GAY_Yuri_Klyuchenikov_pol
+			allowed = { original_tag = GAY }
+			traits = { }
+		}
+	}
+
+	GAY_Ivan_Serov = {
+		name = GAY_Ivan_Serov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Ivan_Serov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GAY_Ivan_Serov_pol
+			allowed = { original_tag = GAY }
+			traits = { }
+		}
+	}
+
+	GAY_Grigory_Safarov = {
+		name = GAY_Grigory_Safarov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Grigory_Safarov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GAY_Grigory_Safarov_pol
+			allowed = { original_tag = GAY }
+			traits = { }
+		}
+	}
+
+	GAY_Grigory_Yevdokimov = {
+		name = GAY_Grigory_Yevdokimov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Grigory_Yevdokimov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GAY_Grigory_Yevdokimov_pol
+			allowed = { original_tag = GAY }
+			traits = { }
+		}
+	}
+
+	# GAY Marshals
+	GAY_Mikhail_Frunze = {
+		name = GAY_Mikhail_Frunze
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Mikhail_Frunze.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GAY_Wilhelm_Garf = {
+		name = GAY_Wilhelm_Garf
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Wilhelm_Garf.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GAY_Iona_Yakir = {
+		name = GAY_Iona_Yakir
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Iona_Yakir.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# GAY Generals
+	GAY_Yakov_Slashchov = {
+		name = GAY_Yakov_Slashchov
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Yakov_Slashchov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	GAY_Mikhail_Batorsky = {
+		name = GAY_Mikhail_Batorsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Mikhail_Batorsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GAY_Georgy_Vasilevich = {
+		name = GAY_Georgy_Vasilevich
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Georgy_Vasilevich.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GAY_Stefan_Bogomyakov = {
+		name = GAY_Stefan_Bogomyakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Stefan_Bogomyakov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GAY_Vasily_Glagolev = {
+		name = GAY_Vasily_Glagolev
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Vasily_Glagolev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GAY_Dmitry_Shmidt = {
+		name = GAY_Dmitry_Shmidt
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Dmitry_Shmidt.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GAY_Maksim_Antoniuk = {
+		name = GAY_Maksim_Antoniuk
+		portraits = {
+			army = {
+				large = "gfx/leaders/GAY/Portrait_GAY_Maksim_Antoniuk.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

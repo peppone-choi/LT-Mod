@@ -1,0 +1,27 @@
+state = {
+	id = 2220
+	name = "STATE_2220"
+	resources = {
+		steel = 2
+	}
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			19100 1
+		}
+		set_state_flag = GDP_regions_north_thailand
+	}
+
+	provinces = {
+		19100 19110 19123 12173 7544 19129 7353
+	}
+	manpower = 1318346
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

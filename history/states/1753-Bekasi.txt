@@ -1,0 +1,36 @@
+state = {
+	id = 1753
+	name = "STATE_1753"
+	resources = {
+		oil = 12
+		rubber = 8
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			15660 5
+		}
+		victory_points = {
+			19207 5
+		}
+		victory_points = {
+			19363 10
+		}
+		set_state_flag = GDP_regions_east_west_java
+	}
+
+	provinces = {
+		4406 15660 19207 19363
+	}
+	manpower = 4077055
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

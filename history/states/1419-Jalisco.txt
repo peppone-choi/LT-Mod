@@ -1,0 +1,50 @@
+state = {
+	id = 1419
+	name = "STATE_1419"
+	resources = {
+		tungsten = 3.000
+	}
+
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			thermoelectric_plant = 1
+			offices = 1
+			schools = 1
+			infrastructure = 3
+			dockyard = 1
+			air_base = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			5052 20
+		}
+		victory_points = {
+			14498 3
+		}
+		victory_points = {
+			14515 2
+		}
+		victory_points = {
+			2567 2
+		}
+		victory_points = {
+			12746 1
+		}
+		victory_points = {
+			13089 1
+		}
+		victory_points = {
+			2051 1
+		}
+	}
+
+	provinces = {
+		2051 2567 5052 12746 13089 14498 14515 14519 17314
+	}
+	manpower = 2896266
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

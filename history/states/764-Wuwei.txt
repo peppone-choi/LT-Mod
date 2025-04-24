@@ -1,0 +1,34 @@
+state = {
+	id = 764
+	name = "STATE_764"
+	resources = {
+		chromium = 4
+	}
+
+	history = {
+		owner = GAN
+		add_core_of = GAN
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		victory_points = {
+			12776 15
+		}
+		victory_points = {
+			5100 3
+		}
+		set_variable = { china_state_ref = 41 }
+		set_variable = { china_region_ref = 5 }
+		set_state_flag = GDP_category_town
+		set_state_flag = GDP_regions_gansu
+	}
+
+	provinces = {
+		5100 12327 12776
+	}
+	manpower = 1850276
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

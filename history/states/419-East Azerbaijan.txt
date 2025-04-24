@@ -1,0 +1,52 @@
+state = {
+	id = 419
+	name = "STATE_419"
+
+	resources = {
+		power = 3
+		steel = 4
+	}
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			offices = 2
+			barracks = 1
+			radar_station = 1
+		}
+		victory_points = {
+			18803 20
+		}
+		victory_points = {
+			4901 8
+		}
+		victory_points = {
+			12861 5
+		}
+		victory_points = {
+			12793 2
+		}
+		victory_points = {
+			18793 2
+		}
+		victory_points = {
+			4825 2
+		}
+		victory_points = {
+			4755 1
+		}
+		add_core_of = PER
+		add_extra_state_shared_building_slots = 1
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		1896 2071 4755 4825 4901 10454 12793 12861 15145 15150 18771 18775 18793 18795 18803
+	}
+	manpower = 2596439
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

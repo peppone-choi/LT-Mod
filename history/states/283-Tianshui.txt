@@ -1,0 +1,27 @@
+state = {
+	id = 283
+	name = "STATE_283"
+
+	history = {
+		owner = GAN
+		add_core_of = GAN
+		victory_points = {
+			1933 7
+		}
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+			barracks = 2
+		}
+		set_variable = { china_state_ref = 40 }
+		set_variable = { china_region_ref = 5 }
+	}
+
+	provinces = {
+		556 1933 7911 19513 19534 19703
+	}
+	manpower = 2666408
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,18 @@
+state = {
+	id = 2442
+	name = "STATE_2442"
+
+	history = {
+		owner = GUY
+		add_core_of = SUR
+		add_core_of = GUY
+	}
+
+	provinces = {
+		17496
+	}
+	manpower = 73
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

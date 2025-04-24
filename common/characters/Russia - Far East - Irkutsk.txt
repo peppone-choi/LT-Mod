@@ -1,0 +1,323 @@
+characters = {
+	# IRK Ministers
+	IRK_Joseph_Stalin = {
+		name = IRK_Joseph_Stalin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Joseph_Stalin.dds"
+			}
+		}
+		country_leader= {
+			desc = "POLITICS_JOSEPH_STALIN_DESC"
+			ideology = communist_marxism_leninism_subtype
+			traits = {  }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+	}
+
+	IRK_Georgy_Malenkov = {
+		name = IRK_Georgy_Malenkov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Georgy_Malenkov.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = IRK_Georgy_Malenkov_hog
+			allowed = { original_tag = IRK }
+			traits = { }
+		}
+		country_leader= {
+			desc = "POLITICS_GEORGY_MALENKOV_DESC"
+			ideology = communist_marxism_leninism_subtype
+			traits = {  }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+	}
+
+	IRK_Garegin_Apresov = {
+		name = IRK_Garegin_Apresov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Garegin_Apresov.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = IRK_Garegin_Apresov_for
+			allowed = { original_tag = IRK }
+			traits = { }
+		}
+	}
+
+	IRK_Nikolai_Yezhov = {
+		name = IRK_Nikolai_Yezhov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Nikolai_Yezhov.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = IRK_Nikolai_Yezhov_sec
+			allowed = { original_tag = IRK }
+			traits = { }
+		}
+	}
+
+	IRK_Nikolai_Shvernik = {
+		name = IRK_Nikolai_Shvernik
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Nikolai_Shvernik.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = IRK_Nikolai_Shvernik_eco
+			allowed = { original_tag = IRK }
+			traits = { }
+		}
+	}
+
+	IRK_Vyacheslav_Molotov = {
+		name = IRK_Vyacheslav_Molotov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Vyacheslav_Molotov.dds"
+			}
+		}
+		country_leader= {
+			desc = "POLITICS_VYACHESLAV_MOLOTOV_DESC"
+			ideology = communist_marxism_leninism_subtype
+			traits = {  }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = IRK_Vyacheslav_Molotov_for
+			allowed = { original_tag = IRK }
+			traits = { }
+		}
+	}
+
+	IRK_Lavrentiy_Beria = {
+		name = IRK_Lavrentiy_Beria
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Lavrentiy_Beria.dds"
+			}
+		}
+		country_leader= {
+			desc = "POLITICS_LAVRENTIY_BERIA_DESC"
+			ideology = communist_marxism_leninism_subtype
+			traits = {  }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = IRK_Lavrentiy_Beria_sec
+			allowed = { original_tag = IRK }
+			traits = { }
+		}
+	}
+
+	IRK_Leonid_Brezhnev = {
+		name = IRK_Leonid_Brezhnev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Leonid_Brezhnev.dds"
+			}
+		}
+		country_leader= {
+			desc = "POLITICS_LEONID_BREZHNEV_DESC"
+			ideology = communist_marxism_leninism_subtype
+			traits = {  }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = IRK_Leonid_Brezhnev_sec
+			allowed = { original_tag = IRK }
+			traits = { }
+		}
+	}
+
+	# IRK Marshals
+	IRK_Semyon_Budyonny = {
+		name = IRK_Semyon_Budyonny
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Semyon_Budyonny.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	IRK_Alexander_Yegorov = {
+		name = IRK_Alexander_Yegorov
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Alexander_Yegorov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	# IRK Generals
+	IRK_Vladimir_Zhivlyuk = {
+		name = IRK_Vladimir_Zhivlyuk
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Vladimir_Zhivlyuk.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRK_Ivan_Fedyuninsky = {
+		name = IRK_Ivan_Fedyuninsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Ivan_Fedyuninsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRK_Dmitry_Lukyanov = {
+		name = IRK_Dmitry_Lukyanov
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Dmitry_Lukyanov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRK_Savva_Fomichenko = {
+		name = IRK_Savva_Fomichenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Savva_Fomichenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRK_Nikolai_Bezzubov = {
+		name = IRK_Nikolai_Bezzubov
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Nikolai_Bezzubov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRK_Alexander_Utvenko = {
+		name = IRK_Alexander_Utvenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Alexander_Utvenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRK_Alexander_Sarayev = {
+		name = IRK_Alexander_Sarayev
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Alexander_Sarayev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	IRK_Pyotr_Ilyin = {
+		name = IRK_Pyotr_Ilyin
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRK/Portrait_IRK_Pyotr_Ilin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+} 

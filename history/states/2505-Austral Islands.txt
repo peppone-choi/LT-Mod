@@ -1,0 +1,26 @@
+state = {
+	id = 2505
+	name = "STATE_2505"
+	manpower = 3674
+	state_category = small_island
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			19963 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			19963 1
+		}
+		add_core_of = FRS
+		add_core_of = FFR
+	}
+	provinces = {
+		19961 19963
+	}
+}

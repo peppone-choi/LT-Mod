@@ -1,0 +1,250 @@
+IND_prep_war_strat = { # Before war
+	allowed = {
+		tag = IND
+	}
+	enable = {
+		NOT = {
+			has_global_flag = IND_civil_war_ongoing
+		}
+		AZH = {
+			exists = yes
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = AZH
+		value = 1000
+	}
+}
+IND_war_strat_AZH_1 = { # During war w/ AZH, before Pakistan invades
+	allowed = {
+		tag = IND
+	}
+	enable = {
+		has_global_flag = IND_civil_war_ongoing
+		NOT = {
+			OR = {
+				IND = {
+					has_war_with = PAK
+				}
+				PAK = {
+					owns_state = 926
+				}
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -2000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = AZH
+		value = 1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = PAK
+		value = 500
+	}
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_owned_by = AZH
+		}
+		ordertype = front
+		execution_type = careful
+	}
+}
+IND_war_strat_AZH_PAK_2 = { #Two fronts now sucka
+	allowed = {
+		tag = IND
+	}
+	enable = {
+		has_global_flag = IND_civil_war_ongoing
+		IND = {
+			has_war_with = PAK
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -2000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = AZH
+		value = 1000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = PAK
+		value = 250
+	}
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_controlled_by = PAK
+		}
+		ordertype = front
+		execution_type = rush
+	}
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_controlled_by = AZH
+		}
+		ordertype = front
+		execution_type = careful
+	}
+}
+IND_war_strat_AZH_3 = { #Peace w Pakistan, full focus on AZH strat
+	allowed = {
+		tag = IND
+	}
+	enable = {
+		has_global_flag = IND_civil_war_ongoing
+		OR = {
+			PAK = {
+				owns_state = 926
+			}
+			PAK = {
+				exists = no
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -2000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = AZH
+		value = 1000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = PAK
+		value = 200
+	}
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_controlled_by = AZH
+		}
+		ordertype = front
+		execution_type = rush
+	}
+}
+
+#Azad Hind
+AZH_prep_war_strat = { # Before war
+	allowed = {
+		tag = AZH
+	}
+	enable = {
+		NOT = {
+			has_global_flag = IND_civil_war_ongoing
+		}
+		IND = {
+			exists = yes
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -1000
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = IND
+		value = 1000
+	}
+}
+AZH_war_strat = { #Azad Hind - prioritize Gangetic valley, then south india
+	allowed = {
+		tag = AZH
+	}
+	enable = {
+		has_global_flag = IND_civil_war_ongoing
+		NOT = {
+			AZH = {
+				controls_state = 980
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -2000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = IND
+		value = 1000
+	}
+	ai_strategy = {
+		type = front_control
+		area = gangetic_plain
+		ordertype = front
+		priority = 100
+		state = 980
+	}
+	ai_strategy = {
+		type = area_priority
+		id = gangetic_plain
+		value = 300
+	}
+	ai_strategy = {
+		type = force_concentration_front_factor
+		area = gangetic_plain
+		value = 50
+	}
+	ai_strategy = {
+		type = force_concentration_target_weight
+		area = gangetic_plain
+		value = 250
+	}
+	ai_strategy = {
+		type = force_concentration_target_weight
+		state = 980
+		value = 80
+	}
+	ai_strategy = {
+		type = force_concentration_target_weight
+		area = india
+		value = -80
+	}
+}
+AZH_war_strat_2 = { #Azad Hind - got Delhi, target rest of india equally
+	allowed = {
+		tag = AZH
+	}
+	enable = {
+		has_global_flag = IND_civil_war_ongoing
+		AZH = {
+			controls_state = 980
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		value = -2000
+	}
+	ai_strategy = {
+		type = front_unit_request
+		value = 1000
+	}
+	ai_strategy = {
+		type = front_control
+		tag = IND
+		ordertype = front
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 2072
+	name = "STATE_2072" # Melchior Islands
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAA
+		add_core_of = AAA
+		add_core_of = AAC
+		add_claim_by = ENG
+		victory_points = { 17591 1 }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17591
+	}
+}

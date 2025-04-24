@@ -1,0 +1,24 @@
+state = {
+	id = 2140
+	name = "STATE_2140"
+
+	history = {
+		buildings = {
+			infrastructure = 4
+			prisons = 1
+		}
+		victory_points = {
+			3021 1
+		}
+		owner = NOR
+		add_core_of = NOR
+	}
+
+	provinces = {
+		179 6160 3021 3136 133 6042 10 18361 18380 11028 11113 3105 111 9135 9227 11206
+	}
+	manpower = 177324
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

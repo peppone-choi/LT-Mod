@@ -1,0 +1,42 @@
+state = {
+	id = 1015
+	name = "STATE_1015"
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			offices = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			19820 12
+		}
+		victory_points = {
+			4519 5
+		}
+		victory_points = {
+			4547 5
+		}
+		victory_points = {
+			7459 4
+		}
+		victory_points = {
+			7568 5
+		}
+		victory_points = {
+			19881 5
+		}
+		set_state_flag = GDP_regions_henan_sanyang
+		set_variable = { china_state_ref = 29 }
+		set_variable = { china_region_ref = 3 }
+	}
+
+	provinces = {
+		4519 4547 7459 7568 12012 19753 19820 19870 19881
+	}
+	manpower = 7861413
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

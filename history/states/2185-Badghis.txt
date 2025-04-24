@@ -1,0 +1,20 @@
+state = {
+	id = 2185
+	name = "STATE_2185"
+
+	history = {
+		owner = AFG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AFG
+	}
+
+	provinces = {
+		7448 14755 10896 18649
+	}
+	manpower = 186599
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

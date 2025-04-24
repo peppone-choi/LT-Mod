@@ -1,0 +1,76 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 700 }
+		
+		#iconType = {
+		#	name = "Antarctica_GUI_AAO_Info_Button"
+		#	spriteType = "GFX_Burgundy_GUI_Info_Button"
+		#	position = { x = 403 y = -141 }
+		#	#pdx_tooltip = Antarctica_Situation_Overview_GUI_tt
+		#}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAO_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAO_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_Movement"
+			position = { x = 15 y = 200 }
+			size = { width = 0 height = 0 }
+			
+			iconType = {
+				name = "pie_chart_nzl"
+				quadTextureSprite = "GFX_pie_chart_nzl"
+				position = { x = 35 y = 35 }
+			}
+			iconType = {
+				name = "pie_chart_ast"
+				quadTextureSprite = "GFX_pie_chart_ast"
+				position = { x = 35 y = 35 }
+			}
+			iconType = {
+				name = "pie_chart_usa"
+				quadTextureSprite = "GFX_pie_chart_usa"
+				position = { x = 35 y = 35 }
+			}
+			iconType = {
+				name = "pie_chart_overlay"
+				quadTextureSprite = "GFX_pie_chart_overlay_AAO"
+				position = { x = 0 y = 0 }
+				scale = 2.1
+				alwaystransparent = yes
+			}
+		
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_Stats_Text"
+				position = { x = 0 y = 355 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAO_Stats_Text
+				maxWidth = 390
+				format = center
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAO_Progressbar_Cohesion"
+				quadTextureSprite = "GFX_Antarctica_GUI_AAO_Progressbar_Cohesion"
+				position = { x = 390 y = 38 }
+				pdx_tooltip = Antarctica_GUI_AAO_Cohesion_tt
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_Cohesion_Text"
+				position = { x = 350 y = 137 }
+				font = "aldrich_32_outline"
+				text = Antarctica_GUI_AAO_Cohesion_Text
+				format = center
+				alwaystransparent = yes
+			}
+		}
+	}
+}

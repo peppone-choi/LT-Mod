@@ -1,0 +1,29 @@
+state = {
+	id = 1347
+	name = "STATE_1347"
+	resources = {
+		rubber = 8.000
+	}
+
+	history = {
+		owner = AZH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1075 10
+		}
+		add_core_of = AZH
+		add_claim_by = IND
+		set_state_flag = GDP_regions_bengal
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		1075 16119 18849
+	}
+	manpower = 1142863
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

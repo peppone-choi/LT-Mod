@@ -1,0 +1,41 @@
+state = {
+	id = 276
+	name = "STATE_276"
+
+	history = {
+		owner = CAN
+		buildings = {
+			schools = 1
+			prisons = 1
+			barracks = 1
+			offices = 3
+			infrastructure = 6
+			air_base = 2
+			radar_station = 1
+			nuclear_reactor = 1
+		}
+		add_core_of = CAN
+		victory_points = { #Ottawa
+			3778 40
+		}
+		victory_points = {
+			3605 5
+		}
+		victory_points = {
+			9580 5
+		}
+		victory_points = {
+			4270 4
+		}
+		set_state_flag = GDP_regions_ontario
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		605 3605 3608 3635 3640 3661 3778 4270 6625 6630 6662 9580 11567 11569 11585 11728
+	}
+	manpower = 1166833
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

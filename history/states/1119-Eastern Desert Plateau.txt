@@ -1,0 +1,23 @@
+state = {
+	id = 1119
+	name = "STATE_1119"
+	resources = {
+		uranium = 3.000
+	}
+
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1064 1977 4068 4910 5069 7156 12071 12889
+	}
+	manpower = 38554
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

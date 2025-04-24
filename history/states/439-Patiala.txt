@@ -1,0 +1,30 @@
+state = {
+	id = 439
+	name = "STATE_439"
+
+	history = {
+		owner = IND
+		buildings = {
+			infrastructure = 3
+			radar_station = 1
+			air_base = 2
+		}
+		victory_points = {
+			16036 10
+		}
+		victory_points = {
+			10729 2
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_punjab
+	}
+
+	provinces = {
+		10729 16036 5968
+	}
+	manpower = 3113048
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

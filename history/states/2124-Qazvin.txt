@@ -1,0 +1,19 @@
+state = {
+	id = 2124
+	name = "STATE_2124"
+	provinces = {
+		18805 18741 7969 18726 18757
+	}
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 7969 5 }
+		add_core_of = PER
+		set_state_flag = GDP_category_city
+	}
+	manpower = 345633
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 2310
+	name = "STATE_2310"
+
+	resources = {
+		steel = 2
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_sulawesi
+	}
+
+	provinces = {
+		19306 1518 19311 4537 19232 1484 19314
+	}
+	manpower = 131630
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

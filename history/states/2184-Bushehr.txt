@@ -1,0 +1,33 @@
+state = {
+	id = 2184
+	name = "STATE_2184"
+	resources = {
+		oil = 79
+	}
+
+	history = {
+		owner = PER
+		victory_points = {
+			13593 2
+		}
+		victory_points = {
+			18703 1
+		}
+		buildings = {
+			infrastructure = 2
+			13593 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = PER
+		set_state_flag = GDP_category_large_city
+	}
+
+	provinces = {
+		5089 18703 13593 18717 13592 15139 18707
+	}
+	manpower = 251921
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

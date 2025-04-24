@@ -1,0 +1,21 @@
+state = {
+	id = 1785
+	name = "STATE_1785"
+
+	history = {
+		owner = JOR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = JOR
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4574 18594
+	}
+	manpower = 5816
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

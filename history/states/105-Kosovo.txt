@@ -1,0 +1,42 @@
+state = {
+	id = 105
+	name = "STATE_105"
+	resources = {
+		chromium = 24.000
+		steel = 12.000
+		power = 4.000
+	}
+
+	history = {
+		owner = ALB
+		victory_points = {
+			9874 7
+		}
+		victory_points = {
+			9849 2
+		}
+		victory_points = {
+			18182 1
+		}
+		victory_points = {
+			6913 2
+		}
+		buildings = {
+			infrastructure = 5
+			radar_station = 2
+			air_base = 3
+			schools = 1
+			hospitals = 1
+		}
+		add_core_of = SER
+		add_core_of = ALB
+	}
+
+	provinces = {
+		6913 6940 9849 9874 18182
+	}
+	manpower = 632365
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

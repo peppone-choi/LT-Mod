@@ -1,0 +1,27 @@
+state = {
+	id = 2145
+	name = "STATE_2145"
+
+	history = {
+		owner = SWE
+		buildings = {
+			infrastructure = 5
+			hospitals = 1
+		}
+		victory_points = {
+			242 2
+		}
+		victory_points = {
+			9410 1
+		}
+		add_core_of = SWE
+	}
+
+	provinces = {
+		11231 9410 11280 242 18363 363
+	}
+	manpower = 158072
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

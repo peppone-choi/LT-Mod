@@ -1,0 +1,22 @@
+state = {
+	id = 1594
+	name = "STATE_1594"
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+		set_state_flag = GDP_regions_santa_cruz
+		victory_points = { 15003 1 }
+	}
+
+	provinces = {
+		14805 15003 15171 17494 17495 17548 17549
+	}
+	manpower = 567
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,164 @@
+characters = {
+	# Country leaders #
+	URL_Janis_Mendriks = {
+		name = URL_Janis_Mendriks
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/URL/Portrait_Ural_League_Janis_Mendriks.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_JANIS_MENDRIKS_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_military_junta_subtype
+			id = -1
+		}
+	}
+
+	URL_Walter_Cichek = {
+		name = URL_Walter_Cichek
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/URL/Portrait_URL_Walter_Cichek.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = URL_Walter_Cichek_pol
+			allowed = { original_tag = URL }
+			traits = { }
+		}
+	}
+
+	URL_Alexander_Dolgun = {
+		name = URL_Alexander_Dolgun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/URL/Portrait_URL_Alexander_Dolgun.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = URL_Alexander_Dolgun_pol
+			allowed = { original_tag = URL }
+			traits = { }
+		}
+	}
+
+	URL_Gustav_Herling = {
+		name = URL_Gustav_Herling
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/URL/Portrait_URL_Gustav_Herling.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = URL_Gustav_Herling_pol
+			allowed = { original_tag = URL }
+			traits = { }
+		}
+	}
+
+	URL_Olga_Adamova-Sliozberg = {
+		name = URL_Olga_Adamova-Sliozberg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/URL/Portrait_URL_Olga_Adamova-Sliozberg.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = URL_Olga_Adamova-Sliozberg_pol
+			allowed = { original_tag = URL }
+			traits = { }
+		}
+	}
+
+	# URL Marshals
+	URL_Valentin_Gonzalez = {
+		name = URL_Valentin_Gonzalez
+		portraits = {
+			army = {
+				large = "gfx/leaders/URL/Portrait_URL_Valentin_Gonzalez.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	URL_Alexei_Vlashenko = {
+		name = URL_Alexei_Vlashenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/URL/Portrait_URL_Alexei_Vlashenko.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	# URL Generals
+	URL_Erwin_Joris = {
+		name = URL_Erwin_Joris
+		portraits = {
+			army = {
+				large = "gfx/leaders/URL/Portrait_URL_Erwin_Joris.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	URL_Matvei_Shapshnikov = {
+		name = URL_Matvei_Shapshnikov
+		portraits = {
+			army = {
+				large = "gfx/leaders/URL/Portrait_URL_Matvei_Shapshnikov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	URL_Gustav_Herling = {
+		name = URL_Gustav_Herling
+		portraits = {
+			army = {
+				large = "gfx/leaders/URL/Portrait_URL_Gustav_Herling.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

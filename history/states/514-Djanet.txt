@@ -1,0 +1,33 @@
+state = {
+	id = 514
+	name = "STATE_514"
+
+	resources = {
+		oil = 16
+	}
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+			radar_station = 1
+			air_base = 1
+		}
+		victory_points = {
+			10749 1
+		}
+		add_core_of = ALG
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		10749 14306 14363 18048 14371 14388 18029 14381
+	}
+	manpower = 23833
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

@@ -1,0 +1,45 @@
+state = {
+	id = 1271
+	name = "STATE_1271"
+	resources = {
+		chromium = 56.000
+		aluminium = 20.000
+	}
+
+	history = {
+		owner = BUL
+		victory_points = {
+			14668 10
+		}
+		victory_points = {
+			11832 3
+		}
+		victory_points = {
+			14449 2
+		}
+		victory_points = {
+			18179 2
+		}
+		victory_points = {
+			6886 1
+		}
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			barracks = 1
+			air_base = 1
+		}
+		add_core_of = BUL
+		add_core_of = MAC
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_macedonia
+	}
+
+	provinces = {
+		907 3833 3882 6886 11832 14449 14668 18179 18186 18198
+	}
+	manpower = 675479
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

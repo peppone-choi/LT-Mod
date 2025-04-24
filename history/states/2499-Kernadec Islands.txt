@@ -1,0 +1,17 @@
+state = {
+	id = 2499
+	name = "STATE_2499"
+	manpower = 12
+	state_category = tiny_island
+
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		19970
+	}
+}

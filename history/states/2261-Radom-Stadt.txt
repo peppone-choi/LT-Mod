@@ -1,0 +1,25 @@
+state = {
+	id = 2261
+	name = "STATE_2261"
+
+	history = {
+		owner = GGN
+		add_core_of = GGN
+		add_core_of = POL
+		buildings = {
+			infrastructure = 5
+			prisons = 1
+		}
+		victory_points = { 3458 10 }
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		3458
+	}
+	manpower = 125508
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

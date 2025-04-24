@@ -1,0 +1,35 @@
+state = {
+	id = 676
+	name = "STATE_676"
+	resources = {
+		oil = 6.000
+	}
+
+	history = {
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			anti_air_building = 1
+		}
+		add_core_of = IRQ
+		victory_points = {
+			16303 8
+		}
+		victory_points = {
+			2220 5
+		}
+		victory_points = {
+			16297 3
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		12413 12839 16297 16303 16304 2220
+	}
+	manpower = 270451
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

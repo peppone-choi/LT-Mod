@@ -1,0 +1,24 @@
+state = {
+	id = 1010
+	name = "STATE_1010"
+
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = TRZ
+		add_core_of = TRZ
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18046 7992 14263 18038 10814
+	}
+	manpower = 70942
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

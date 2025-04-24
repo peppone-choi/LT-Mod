@@ -1,0 +1,26 @@
+state = {
+	id = 541
+	name = "STATE_541"
+
+	history = {
+		owner = NAM
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+			air_base = 3
+			anti_air_building = 3
+		}
+		add_core_of = NAM
+		victory_points = {
+			5154 1
+		}
+	}
+
+	provinces = {
+		2229 5154 13623 13630 17917
+	}
+	manpower = 17209
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 738
+	name = "STATE_738"
+
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+			19231 = {
+				naval_base = 3
+			}
+			air_base = 1
+		}
+		victory_points = {
+			19231 1
+		}
+		set_state_flag = GDP_regions_maluku
+	}
+
+	provinces = {
+		4579 19231 19351 19353 19354
+	}
+	manpower = 151257
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+	local_supplies = 0.000
+}

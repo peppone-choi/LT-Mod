@@ -1,0 +1,22 @@
+state = {
+	id = 1541
+	name = "STATE_1541"
+
+	history = {
+		owner = BKF
+		add_core_of = BKF
+		victory_points = { 8071 3 }
+		buildings = {
+			infrastructure = 1
+			thermoelectric_plant = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		8071
+	}
+	manpower = 1247000
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

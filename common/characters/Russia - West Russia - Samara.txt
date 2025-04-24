@@ -1,0 +1,601 @@
+###### INDEX
+# Ease of access
+
+### Samara
+## Samara_country_leaders
+## Samara_advisors
+## Samara_generals
+
+characters = {
+	### Samara
+	## Samara_country_leaders
+	SAM_Vladimir_III = {
+		name = SAM_Vladimir_III
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Vladimir_III.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = fascism_subtype
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = despotism_aristocratic_conservatism_subtype
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = paternalism_solidarism_subtype
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = conservatism_oligarchic_conservatism_subtype
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_TSAR_VLADIMIR_DESC"
+			ideology = liberal_conservatism_oligarchic_liberalism_subtype
+			traits = { the_rightful_heir }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	SAM_Andrey_Vlasov = {
+		name = SAM_Andrey_Vlasov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_Samara_Andrey_Vlasov.dds"
+				small = "GFX_idea_SAM_minister_Andrey_Vlasov"
+			}
+			army = { large = "gfx/leaders/SAM/Portrait_Samara_Andrey_Vlasov.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_ANDREY_VLASOV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_military_junta_subtype
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_ANDREY_VLASOV_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_anocracy_subtype
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_ANDREY_VLASOV_DESC"
+			expire = "1999.1.1"
+			ideology = national_socialism_naturalised_nazism_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SAM_Andrey_Vlasov_hog
+			allowed = { original_tag = SAM }
+			traits = {
+				head_of_government
+				hog_disgruntled_politician
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+		field_marshal = {
+			traits = {
+				offensive_doctrine
+				inflexible_strategist
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 3431
+		}
+	}
+	SAM_Gleb_Lar = {
+		name = SAM_Gleb_Lar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Gleb_Lar.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Gleb_Lar_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Fyodor_Trukhin = {
+		name = SAM_Fyodor_Trukhin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Fyodor_Trukhin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Fyodor_Trukhin_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Alexander_Kutepov = {
+		name = SAM_Alexander_Kutepov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Alexander_Kutepov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Alexander_Kutepov_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Fyodor_Krasnov = {
+		name = SAM_Fyodor_Krasnov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Fyodor_Krasnov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Fyodor_Krasnov_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Georgy_Zhilenkov = {
+		name = SAM_Georgy_Zhilenkov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Georgy_Zhilenkov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Georgy_Zhilenkov_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Sergey_Taboritsky = {
+		name = SAM_Sergey_Taboritsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Sergey_Taboritsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Sergey_Taboritsky_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Yevgeny_Messner = {
+		name = SAM_Yevgeny_Messner
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Yevgeny_Messner.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Yevgeny_Messner_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Pyotr_Bobrovksy = {
+		name = SAM_Pyotr_Bobrovksy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Pyotr_Bobrovksy.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Pyotr_Bobrovksy_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Alexei_Arkhangelsky = {
+		name = SAM_Alexei_Arkhangelsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Alexei_Arkhangelsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Alexei_Arkhangelsky_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	SAM_Boris_Permikin = {
+		name = SAM_Boris_Permikin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Boris_Permikin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SAM_Boris_Permikin_pol
+			allowed = { original_tag = SAM }
+			traits = { }
+		}
+	}
+
+	# SAM Air Chief of Staff
+	SAM_Viktor_Malchev = {
+		name = SAM_Viktor_Malchev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Viktor_Malchev.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = SAM_Viktor_Malchev_air
+			allowed = { original_tag = SAM }
+			traits = { air_innovator }
+		}
+	}
+
+	SAM_Fyodor_Krasnov = {
+		name = SAM_Fyodor_Krasnov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Fyodor_Krasnov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Alexander_Kutepov = {
+		name = SAM_Alexander_Kutepov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Alexander_Kutepov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Alexei_Arkhangelsky = {
+		name = SAM_Alexei_Arkhangelsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Alexei_Arkhangelsky.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# SAM Generals
+	SAM_Sergey_Bunyachenko = {
+		name = SAM_Sergey_Bunyachenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Sergey_Bunyachenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Vasily_Malyshkin = {
+		name = SAM_Vasily_Malyshkin
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Vasily_Malyshkin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Vladimir_Boyarsky = {
+		name = SAM_Vladimir_Boyarsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Vladimir_Boyarsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Mikhail_Meandrov = {
+		name = SAM_Mikhail_Meandrov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Mikhail_Meandrov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Yevgeny_Messner = {
+		name = SAM_Yevgeny_Messner
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Yevgeny_Messner.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Vyacheslav_Naumenko = {
+		name = SAM_Vyacheslav_Naumenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Vyacheslav_Naumenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Yevgeny_Miller = {
+		name = SAM_Yevgeny_Miller
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Yevgeny_Miller.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Pyotr_Buzun = {
+		name = SAM_Pyotr_Buzun
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Pyotr_Buzun.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Vladimir_Dyakov = {
+		name = SAM_Vladimir_Dyakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Vladimir_Dyakov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Anton_Turkul = {
+		name = SAM_Anton_Turkul
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Anton_Turkul.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Boris_Permikin = {
+		name = SAM_Boris_Permikin
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Boris_Permikin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Semyon_Krasnov = {
+		name = SAM_Semyon_Krasnov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Semyon_Krasnov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Igor_Sakharov = {
+		name = SAM_Igor_Sakharov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Igor_Sakharov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Ivan_Blagoveshchensky = {
+		name = SAM_Ivan_Blagoveshchensky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Ivan_Blagoveshchensky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Nikolai_Shatov = {
+		name = SAM_Nikolai_Shatov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Nikolai_Shatov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SAM_Fyodor_Trukhin = {
+		name = SAM_Fyodor_Trukhin
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAM/Portrait_SAM_Fyodor_Trukhin.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

@@ -1,0 +1,199 @@
+characters = {
+	# Country leaders #
+	# PRM Ministers
+	PRM_Bronislav_Kaminsky = {
+		name = PRM_Bronislav_Kaminsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Bronislav_Kaminsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRM_Bronislav_Kaminsky_pol
+			allowed = { original_tag = PRM }
+			traits = { }
+		}
+	}
+
+	PRM_Konstantin_Voskoboinik = {
+		name = PRM_Konstantin_Voskoboinik
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Konstantin_Voskoboinik.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRM_Konstantin_Voskoboinik_pol
+			allowed = { original_tag = PRM }
+			traits = { }
+		}
+	}
+
+	PRM_Mikhail_Oktan = {
+		name = PRM_Mikhail_Oktan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Mikhail_Oktan.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRM_Mikhail_Oktan_pol
+			allowed = { original_tag = PRM }
+			traits = { }
+		}
+	}
+
+	PRM_Antonina_Makarova = {
+		name = PRM_Antonina_Makarova
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Antonina_Makarova.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRM_Antonina_Makarova_pol
+			allowed = { original_tag = PRM }
+			traits = { }
+		}
+	}
+
+	PRM_Ivan_Dorba = {
+		name = PRM_Ivan_Dorba
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Ivan_Dorba.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = PRM_Ivan_Dorba_pol
+			allowed = { original_tag = PRM }
+			traits = { }
+		}
+	}
+
+	# PRM Marshals
+	PRM_Bronislav_Kaminsky = {
+		name = PRM_Bronislav_Kaminsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Bronislav_Kaminsky.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	PRM_Pavel_Abelov = {
+		name = PRM_Pavel_Abelov
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Pavel_Abelov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# PRM Generals
+	PRM_Boris_Smyslrovsky = {
+		name = PRM_Boris_Smyslrovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Boris_Smyslrovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	PRM_Antonina_Makarova = {
+		name = PRM_Antonina_Makarova
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Antonina_Makarova.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	PRM_Konstantin_Voskoboinik = {
+		name = PRM_Konstantin_Voskoboinik
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Konstantin_Voskoboinik.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	PRM_Vasily_Plug = {
+		name = PRM_Vasily_Plug
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Vasily_Plug.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	PRM_Alexei_Vlasenko = {
+		name = PRM_Alexei_Vlasenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/PRM/Portrait_PRM_Alexei_Vlasenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

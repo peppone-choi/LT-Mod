@@ -1,0 +1,35 @@
+state = {
+	id = 658
+	name = "STATE_658"
+	resources = {
+		oil = 38
+	}
+
+	history = {
+		owner = GUL
+		add_core_of = UAE
+		add_core_of = GUL
+		victory_points = {
+			7960 3
+		}
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 2
+			air_base = 2
+			7960 = {
+				naval_base = 4
+			}
+			offices = 1
+		}
+		add_extra_state_shared_building_slots = 2
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		2048 7960 8108 18571
+	}
+	manpower = 59193
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

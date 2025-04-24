@@ -1,0 +1,38 @@
+state = {
+	id = 859
+	name = "STATE_859"
+	resources = {
+		steel = 7.000
+		aluminium = 16.000
+	}
+
+	history = {
+		owner = ONG
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			hospitals = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			air_base = 1
+			3092 = {
+				bunker = 1
+			}
+		}
+		victory_points = {
+			9248 5
+		}
+		victory_points = {
+			11071 3
+		}
+		add_core_of = ONG
+	}
+
+	provinces = {
+		89 138 140 3031 3080 3086 3092 6034 6051 9248 11071 11137 11178
+	}
+	manpower = 121000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

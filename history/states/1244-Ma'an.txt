@@ -1,0 +1,28 @@
+state = {
+	id = 1244
+	name = "STATE_1244"
+
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = JOR
+		victory_points = {
+			11976 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = JOR
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4562 4591 4603 11976 18545 18582
+	}
+	manpower = 14819
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

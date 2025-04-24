@@ -1,0 +1,45 @@
+state = {
+	id = 1348
+	name = "STATE_1348"
+	resources = {
+		power = 3.000
+		oil = 6.000
+		rubber = 18.000
+		steel = 13.000
+		chromium = 8.000
+	}
+
+	history = {
+		victory_points = {
+			11929 25
+		}
+		victory_points = {
+			12423 10
+		}
+		victory_points = {
+			16142 3
+		}
+		victory_points = {
+			18846 3
+		}
+		victory_points = {
+			10416 3
+		}
+		owner = AZH
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = AZH
+		add_claim_by = IND
+		set_state_flag = GDP_regions_bengal
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		9993 10416 11929 12423 16142 18846
+	}
+	manpower = 15296956
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

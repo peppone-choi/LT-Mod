@@ -1,0 +1,32 @@
+state = {
+	id = 1656
+	name = "STATE_1656"
+	resources = {
+		steel = 4.000
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 3
+			prisons = 1
+		}
+		victory_points = {
+			15320 1
+		}
+		victory_points = {
+			15319 1
+		}
+	}
+
+	provinces = {
+		2472 2834 2968 15319 15320 17355
+	}
+	manpower = 559766
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

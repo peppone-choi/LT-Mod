@@ -1,0 +1,33 @@
+state = {
+	id = 1016
+	name = "STATE_1016"
+	resources = {
+		steel = 14.000
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			offices = 1
+			barracks = 2
+			infrastructure = 5
+			thermoelectric_plant = 2
+			radar_station = 1
+			air_base = 4
+		}
+		victory_points = {
+			12467 33
+		}
+		set_variable = { china_state_ref = 23 }
+		set_variable = { china_region_ref = 3 }
+	}
+
+	provinces = {
+		12467 16932 19897
+	}
+	manpower = 2573684
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

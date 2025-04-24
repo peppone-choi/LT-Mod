@@ -1,0 +1,36 @@
+state = {
+	id = 1526
+	name = "STATE_1526"
+	resources = {
+		steel = 3.000
+	}
+
+	history = {
+		owner = CHL
+		buildings = {
+			barracks = 1
+			offices = 1
+			infrastructure = 3
+			12954 = {
+				naval_base = 2
+			}
+			air_base = 2
+		}
+		add_core_of = CHL
+		victory_points = {
+			12954 4
+		}
+		victory_points = {
+			17490 5
+		}
+		set_state_flag = GDP_regions_los_lagos
+	}
+
+	provinces = {
+		5169 12954 14809 17490 17509 17511 17515 17551
+	}
+	manpower = 362242
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 508
+	name = "STATE_508"
+	resources = {
+		tungsten = 8.000
+	}
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARG
+		victory_points = {
+			8216 15
+		}
+		victory_points = {
+			17510 1
+		}
+	}
+
+	provinces = {
+		8216 17485 17510
+	}
+	manpower = 773972
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

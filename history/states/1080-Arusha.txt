@@ -1,0 +1,27 @@
+state = {
+	id = 1080
+	name = "STATE_1080"
+
+	history = {
+		owner = GRO
+		add_core_of = GRO
+		buildings = {
+			schools = 1
+			infrastructure = 1
+		}
+		victory_points = {
+			13904 3
+		}
+		victory_points = {
+			2206 1
+		}
+	}
+
+	provinces = {
+		2206 5224 13894 13898 13904 13909 14417
+	}
+	manpower = 931281
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

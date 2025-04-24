@@ -1,0 +1,24 @@
+state = {
+	id = 665
+	name = "STATE_665"
+
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+			9994 = {
+				naval_base = 8
+			}
+		}
+		victory_points = { 9994 8 }
+	}
+
+	provinces = {
+		9994
+	}
+	manpower = 229827
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

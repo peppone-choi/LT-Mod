@@ -1,0 +1,35 @@
+state = {
+	id = 1360
+	name = "STATE_1360"
+
+	resources = {
+		power = 4
+	}
+
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			air_base = 1
+			4891 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PER
+		victory_points = {
+			18716 3
+		}
+		victory_points = {
+			12895 1
+		}
+	}
+
+	provinces = {
+		1889 2039 2070 4891 10782 12895 13082 13595 13596 13597 13601 18708 18710 18716
+	}
+	manpower = 454996
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

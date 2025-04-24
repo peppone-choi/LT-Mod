@@ -1,0 +1,31 @@
+state = {
+	id = 2290
+	name = "STATE_2290"
+
+	resources = {
+		oil = 12
+		power = 2
+		steel = 6
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 4
+			synthetic_refinery = 1
+		}
+		victory_points = {
+			12293 5
+		}
+		set_state_flag = GDP_regions_central_java
+	}
+
+	provinces = {
+		1413 12293 4390 19211
+	}
+	manpower = 3243544
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

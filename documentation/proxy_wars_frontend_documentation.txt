@@ -1,0 +1,65 @@
+############################
+### INDONESIAN CIVIL WAR ###
+############################
+
+# Military dynamic modifier change effects
+# 1 = 100%
+set_temp_variable = { v = VAR }
+INS_ICW_modify_army_org_factor = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_army_morale_factor = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_army_attack_factor = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_army_core_defence_factor = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_recon_factor = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_command_power_gain_mult = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_army_speed_factor = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_breakthrough_factor = yes
+
+# Japanese Industrial Support
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_industrial_capacity_factory = yes
+
+set_temp_variable = { v = VAR }
+INS_ICW_modify_local_resources = yes
+
+#Apply effects to all PRIM factions example
+FRI = {
+	set_temp_variable = { v = 0.05 }
+	INS_ICW_modify_army_speed_factor = yes
+	set_temp_variable = { v = 0.05 }
+	INS_ICW_modify_army_core_defence_factor = yes
+}
+
+#Apply effects to all NKRI factions example
+INS = {
+	set_temp_variable = { v = 0.05 }
+	INS_ICW_modify_army_speed_factor = yes
+	set_temp_variable = { v = 0.05 }
+	INS_ICW_modify_army_core_defence_factor = yes
+}
+
+# Change discontent
+# Make sure applied correctly in either JAP or USA scope
+# 1 = 1%
+set_temp_variable = { tempDiscontent = VAR }
+INS_ICW_change_discontent = yes
+
+# Change Escalation
+# Global variable
+# 1 = 1%
+set_temp_variable = { tempEscalation = VAR }
+INS_ICW_change_escalation = yes

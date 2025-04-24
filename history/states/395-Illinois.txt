@@ -1,0 +1,53 @@
+state = {
+	id = 395
+	name = "STATE_395"
+	resources = {
+		steel = 142.000
+	}
+
+	history = {
+		owner = USA
+		buildings = {
+			prisons = 1
+			barracks = 1
+			offices = 1
+			infrastructure = 6
+			radar_station = 2
+			air_base = 3
+			nuclear_reactor = 2
+		}
+		add_core_of = USA
+		victory_points = { # Chicago
+			9450 50
+		}
+		victory_points = { # Rockford
+			12312 10
+		}
+		victory_points = { # Moline
+			10393 5
+		}
+		victory_points = { # Peoria
+			1527 5
+		}
+		victory_points = { # Urbana-Champaign
+			1655 5
+		}
+		victory_points = { # Decatur
+			720 3
+		}
+		victory_points = { # Springfield
+			12697 3
+		}
+		victory_points = { # East St. Louis
+			12305 1
+		}
+	}
+
+	provinces = {
+		720 954 1527 1604 1655 4508 4590 6737 7611 7626 7831 9450 9682 10339 10393 10457 10461 11589 12305 12312 12365 12368 12497 12697
+	}
+	manpower = 10150900
+	buildings_max_level_factor = 1.000
+	state_category = megalopolis
+	local_supplies = 0.000
+}

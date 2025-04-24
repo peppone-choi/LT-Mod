@@ -1,0 +1,230 @@
+guiTypes = {
+	extendedScrollbarType = {
+		name = "right_vertical_slider_Antarctica_GUI_Volunteers_Buttons"
+		position = { x = 20 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x = -17 y = -19}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Volunteers"
+		size = { width = 375 height = 745 }
+		position = { x = 541 y = 72 }
+
+		background = {
+			name = "Antarctica_GUI_Volunteers_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Title_Text"
+			position = { x = 25 y = 12 }
+			font = "aldrich_36_outline"
+			text = Antarctica_GUI_Volunteers_Title_Text
+			maxWidth = 325
+			maxHeight = 72
+			format = center
+			vertical_alignment = center
+		}
+
+		# Aid
+
+		iconType = {
+			name = "Antarctica_GUI_Volunteers_Divider_1"
+			spriteType = "GFX_Antarctica_GUI_Volunteers_HDivider"
+			position = { x = 7 y = 89 }
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Aid_Text"
+			position = { x = 25 y = 98 }
+			font = "aldrich_28_outline"
+			text = Antarctica_GUI_Volunteers_Aid_Text
+			maxWidth = 325
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Buttons_Bg_Text"
+			position = { x = 25 y = 230 }
+			font = "aldrich_32_outline"
+			text = Antarctica_GUI_Volunteers_Buttons_Bg_Text
+			maxWidth = 325
+			format = center
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Volunteers_Buttons"
+			size = { width = 300 height = 212 }
+			position = { x = 37 y = 133 }
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Volunteers_Buttons"
+
+			background = {
+				name = "Antarctica_GUI_Volunteers_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_Volunteers_Buttons_Grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 300 height = 54 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+		
+		# Objectives
+
+		iconType = {
+			name = "Antarctica_GUI_Volunteers_Divider_2"
+			spriteType = "GFX_Antarctica_GUI_Volunteers_HDivider"
+			position = { x = 7 y = 366 }
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Goals_Text"
+			position = { x = 25 y = 375 }
+			font = "aldrich_28_outline"
+			text = Antarctica_GUI_Volunteers_Goals_Text
+			maxWidth = 325
+			format = center
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Volunteers_Obj1_Checkbox"
+			position = { x = 20 y = 408 }
+			spriteType = "GFX_generic_checkbox"
+			pdx_tooltip = Antarctica_GUI_Volunteers_Obj1_Checkbox_tt
+			pdx_tooltip_delayed = Antarctica_GUI_Volunteers_Obj1_Checkbox_tt_delayed
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Obj1_Text"
+			position = { x = 58 y = 414 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_Volunteers_Obj1_Text
+			maxWidth = 300
+			format = left
+			#alwaystransparent = yes
+			pdx_tooltip = Antarctica_GUI_Volunteers_Obj1_Checkbox_tt
+			pdx_tooltip_delayed = Antarctica_GUI_Volunteers_Obj1_Checkbox_tt_delayed
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Volunteers_Obj2_Checkbox"
+			position = { x = 20 y = 448 }
+			spriteType = "GFX_generic_checkbox"
+			pdx_tooltip = Antarctica_GUI_Volunteers_Obj2_Checkbox_tt
+			pdx_tooltip_delayed = Antarctica_GUI_Volunteers_Obj2_Checkbox_tt_delayed
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Obj2_Text"
+			position = { x = 58 y = 454 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_Volunteers_Obj2_Text
+			maxWidth = 300
+			format = left
+			#alwaystransparent = yes
+			pdx_tooltip = Antarctica_GUI_Volunteers_Obj2_Checkbox_tt
+			pdx_tooltip_delayed = Antarctica_GUI_Volunteers_Obj2_Checkbox_tt_delayed
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Volunteers_Obj3_Checkbox"
+			position = { x = 20 y = 488 }
+			spriteType = "GFX_generic_checkbox"
+			pdx_tooltip = Antarctica_GUI_Volunteers_Obj3_Checkbox_tt
+			pdx_tooltip_delayed = Antarctica_GUI_Volunteers_Obj3_Checkbox_tt_delayed
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Obj3_Text"
+			position = { x = 58 y = 494 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_Volunteers_Obj3_Text
+			maxWidth = 300
+			format = left
+			#alwaystransparent = yes
+			pdx_tooltip = Antarctica_GUI_Volunteers_Obj3_Checkbox_tt
+			pdx_tooltip_delayed = Antarctica_GUI_Volunteers_Obj3_Checkbox_tt_delayed
+		}
+		
+		# Details
+
+		iconType = {
+			name = "Antarctica_GUI_Volunteers_Divider_3"
+			spriteType = "GFX_Antarctica_GUI_Volunteers_HDivider"
+			position = { x = 7 y = 530 }
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Details_Text"
+			position = { x = 25 y = 542 }
+			font = "aldrich_28_outline"
+			text = Antarctica_GUI_Volunteers_Details_Text
+			maxWidth = 325
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Volunteers_Details_Text_Composition"
+			position = { x = 25 y = 572 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_Volunteers_Details_Text_Composition
+			maxWidth = 330
+			format = left
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Volunteers_Buttons_Grid_Entries"
+		size = { width = 300 height = 50 }
+		position = { x = 0 y = 0 }
+		
+		buttonType = {
+			name = "Antarctica_GUI_Volunteers_Button"
+			quadTextureSprite = "GFX_Antarctica_GUI_Volunteers_Button"
+			position = { x = 0 y = 0 }
+			buttonFont = "aldrich_22_outline"
+			buttonText = Antarctica_GUI_Volunteers_Button_Text
+			pdx_tooltip = Antarctica_GUI_Volunteers_Button_Text_tt
+			multiline = yes
+		}
+	}
+}

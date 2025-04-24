@@ -1,0 +1,28 @@
+state = {
+	id = 1142
+	name = "STATE_1142"
+
+	resources = {
+		steel = 8
+		uranium = 4
+	}
+
+	history = {
+		owner = TUN
+		add_core_of = TUN
+		victory_points = { 18062 2 }
+		victory_points = { 4163 1 }
+		victory_points = { 1046 2 }
+		buildings = {
+			infrastructure = 4
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		18062 4163 1046 18072 7180
+	}
+	manpower = 473534
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

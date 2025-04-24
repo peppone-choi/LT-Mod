@@ -1,0 +1,12 @@
+scripted_gui = {
+
+	Antarctica_GUI_Open = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "Antarctica_GUI_Topbar"
+
+		visible = {
+			is_Antarctic_nation = yes
+		}
+	}
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 1983
+	name = "STATE_1983"
+
+	history = {
+		owner = BUL
+		victory_points = {
+			6857 3
+		}
+		victory_points = {
+			18160 3
+		}
+		victory_points = {
+			935 8
+		}
+		victory_points = {
+			3971 1
+		}
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		add_core_of = BUL
+	}
+
+	provinces = {
+		935 3908 3971 6857 18160 18170 18176 18450
+	}
+	manpower = 843735
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

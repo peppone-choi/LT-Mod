@@ -1,0 +1,511 @@
+characters = {
+	### OMCK
+	## Omsk_country_leaders
+	OMS_Dmitry_Karbyshev = {
+		name = OMS_Dmitry_Karbyshev
+		portraits = {
+			civilian = { large = "gfx/leaders/OMS/Portrait_Omsk_Dmitry_Karbyshev.dds" }
+			army = { large = "gfx/leaders/OMS/Portrait_Omsk_Dmitry_Karbyshev.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_DMITRY_KARBYSHEV_DESC"
+			expire = "1999.1.1"
+			ideology = ultranationalism_stratocracy_subtype
+			traits = { the_caged_general }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_DMITRY_KARBYSHEV_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_military_junta_subtype
+			traits = { the_caged_general }
+			id = -1
+		}
+		field_marshal = {
+			traits = { organisational_leader war_hero trait_engineer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 3586
+		}
+	}
+
+	OMS_Collapsed_Authority = {
+		name = OMS_Collapsed_Authority
+		portraits = { civilian = { large = "gfx/leaders/OMS/Portrait_Omsk_Power_Vacuum.dds" } }
+		country_leader = {
+			desc = "POLITICS_OMSK_COLLAPSED_AUTHORITY_DESC"
+			expire = "1999.1.1"
+			ideology = ultranationalism_stratocracy_subtype
+			traits = { utterly_abandoned }
+			id = -1
+		}
+	}
+
+	OMS_Collapsed_Authority_despot = {
+		name = OMS_Collapsed_Authority
+		portraits = { civilian = { large = "gfx/leaders/OMS/Portrait_Omsk_Power_Vacuum.dds" } }
+		country_leader = {
+			desc = "POLITICS_OMSK_COLLAPSED_AUTHORITY_DESC"
+			expire = "1999.1.1"
+			ideology = ultranationalism_stratocracy_subtype
+			traits = { utterly_abandoned }
+			id = -1
+		}
+	}
+
+		# OMS Ministers
+		OMS_Leon_Trotsky = {
+			name = OMS_Leon_Trotsky
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Leon_Trotsky.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Leon_Trotsky_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Grigory_Sokolnikov = {
+			name = OMS_Grigory_Sokolnikov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Grigory_Sokolnikov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Grigory_Sokolnikov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Karl_Radek = {
+			name = OMS_Karl_Radek
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Karl_Radek.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Karl_Radek_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Ivan_Smirnov = {
+			name = OMS_Ivan_Smirnov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Ivan_Smirnov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Ivan_Smirnov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Grigory_Pyatakov = {
+			name = OMS_Grigory_Pyatakov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Grigory_Pyatakov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Grigory_Pyatakov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Adolf_Joffe = {
+			name = OMS_Adolf_Joffe
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Adolf_Joffe.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Adolf_Joffe_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Alexander_Beloborodov = {
+			name = OMS_Alexander_Beloborodov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Alexander_Beloborodov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Alexander_Beloborodov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Mikhail_Boguslavsky = {
+			name = OMS_Mikhail_Boguslavsky
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Mikhail_Boguslavsky.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Mikhail_Boguslavsky_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Yakov_Drobnis = {
+			name = OMS_Yakov_Drobnis
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Yakov_Drobnis.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Yakov_Drobnis_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Georgy_Oppokov = {
+			name = OMS_Georgy_Oppokov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Georgy_Oppokov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Georgy_Oppokov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Nikolai_Muralov = {
+			name = OMS_Nikolai_Muralov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Nikolai_Muralov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Nikolai_Muralov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Ivar_Smilga = {
+			name = OMS_Ivar_Smilga
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Ivar_Smilga.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Ivar_Smilga_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Valerian_Obolensky = {
+			name = OMS_Valerian_Obolensky
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Valerian_Obolensky.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Valerian_Obolensky_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Yevgeny_Preobrazhensky = {
+			name = OMS_Yevgeny_Preobrazhensky
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Yevgeny_Preobrazhensky.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Yevgeny_Preobrazhensky_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Dmitry_Karbyshev = {
+			name = OMS_Dmitry_Karbyshev
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Dmitry_Karbyshev.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Dmitry_Karbyshev_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Ioakim_Vatsetis = {
+			name = OMS_Ioakim_Vatsetis
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Ioakim_Vatsetis.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Ioakim_Vatsetis_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Pavel_Sytin = {
+			name = OMS_Pavel_Sytin
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Pavel_Sytin.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Pavel_Sytin_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Boris_Vannikov = {
+			name = OMS_Boris_Vannikov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Boris_Vannikov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Boris_Vannikov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Dmitry_Zloba = {
+			name = OMS_Dmitry_Zloba
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Dmitry_Zloba.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Dmitry_Zloba_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_Omsk_Citizens_Council = {
+			name = OMS_Omsk_Citizens_Council
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Omsk_Citizens_Council.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_Omsk_Citizens_Council_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		OMS_German_Askarov = {
+			name = OMS_German_Askarov
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_German_Askarov.dds"
+				}
+			}
+			advisor = {
+				slot = political_advisor
+				idea_token = OMS_German_Askarov_pol
+				allowed = { original_tag = OMS }
+				traits = { }
+			}
+		}
+	
+		# OMS Army Chief of Staff
+		OMS_Ioakim_Vatsetis = {
+			name = OMS_Ioakim_Vatsetis
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Ioakim_Vatsetis.dds"
+				}
+			}
+			advisor = {
+				slot = army_chief
+				idea_token = OMS_Ioakim_Vatsetis_army
+				allowed = { original_tag = OMS }
+				traits = { army_offense }
+			}
+		}
+	
+		# OMS Marshals
+		OMS_Ioakim_Vatsetis = {
+			name = OMS_Ioakim_Vatsetis
+			portraits = {
+				army = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Ioakim_Vatsetis.dds"
+				}
+			}
+			field_marshal = {
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+		}
+	
+		OMS_Dmitry_Karbyshev = {
+			name = OMS_Dmitry_Karbyshev
+			portraits = {
+				army = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Dmitry_Karbyshev.dds"
+				}
+			}
+			field_marshal = {
+				traits = { }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+		}
+	
+		# OMS Generals
+		OMS_Nikolai_Muralov = {
+			name = OMS_Nikolai_Muralov
+			portraits = {
+				army = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Nikolai_Muralov.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		OMS_Nikolai_Varfolomeev = {
+			name = OMS_Nikolai_Varfolomeev
+			portraits = {
+				army = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Nikolai_Varfolomeev.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		OMS_Pavel_Sytin = {
+			name = OMS_Pavel_Sytin
+			portraits = {
+				army = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Pavel_Sytin.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		OMS_Dmitry_Zloba = {
+			name = OMS_Dmitry_Zloba
+			portraits = {
+				army = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Dmitry_Zloba.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+	
+		OMS_Boris_Vannikov = {
+			name = OMS_Boris_Vannikov
+			portraits = {
+				army = {
+					large = "gfx/leaders/OMS/Portrait_OMS_Boris_Vannikov.dds"
+				}
+			}
+			corps_commander = {
+				traits = { }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+		}
+}

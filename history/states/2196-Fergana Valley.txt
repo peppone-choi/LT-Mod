@@ -1,0 +1,45 @@
+state = {
+	id = 2196
+	name = "STATE_2196"
+
+	history = {
+		owner = KYR
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			schools = 1
+			barracks = 1
+		}
+		victory_points = {
+			18622 10
+		}
+		victory_points = {
+			10488 10
+		}
+		victory_points = {
+			10530 8
+		}
+		victory_points = {
+			13256 10
+		}
+		victory_points = {
+			18643 5
+		}
+		victory_points = {
+			18668 6
+		}
+		victory_points = {
+			18617 2
+		}
+		add_core_of = UZB
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18668 10187 18694 18643 18617 18622 13256 10530 10488
+	}
+	manpower = 2795206
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

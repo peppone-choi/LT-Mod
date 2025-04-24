@@ -1,0 +1,76 @@
+focus_tree = {
+	id = RUS_NOV_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NOV
+		}
+	}
+	default = no
+
+	focus = {
+		id = NOV_start_focus_1 #실로비키의 국가
+		x = 2
+		y = 0
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = NOV_start_focus_2 #아나키스트와 적색 물결
+		prerequisite = { focus = NOV_start_focus_1 }
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = NOV_start_focus_3 # 군벌들과의 협상?
+		prerequisite = { focus = NOV_start_focus_2 }
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = NOV_start_focus_4 # 우리의 항공기들
+		prerequisite = { focus = NOV_start_focus_1 }
+		x = 2
+		y = 1
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = NOV_start_focus_5 # 엔진 개선
+		prerequisite = { focus = NOV_start_focus_4 }
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = NOV_start_focus_6 # 또다른 전쟁
+		prerequisite = { focus = NOV_start_focus_1 }
+		x = 4
+		y = 1
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = NOV_start_focus_7 # 실로비키의 네트워크
+		prerequisite = { focus = NOV_start_focus_6 }
+		x = 4
+		y = 2
+		icon = GFX_goal_generic_political
+	}
+
+	focus = {
+		id = NOV_start_focus_8 # 경제 전쟁의 결과
+		prerequisite = { focus = NOV_start_focus_3 }
+		prerequisite = { focus = NOV_start_focus_5 }
+		prerequisite = { focus = NOV_start_focus_7 }
+		x = 2
+		y = 3
+		icon = GFX_goal_generic_political
+	}
+}

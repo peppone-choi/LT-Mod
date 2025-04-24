@@ -1,0 +1,29 @@
+state = {
+	id = 971
+	name = "STATE_971"
+
+	history = {
+		owner = PER
+		add_core_of = PER
+		victory_points = {
+			4943 5
+		}
+		victory_points = {
+			18756 1
+		}
+		victory_points = {
+			9816 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		4943 9816 18756 18767 18770 18782
+	}
+	manpower = 619573
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

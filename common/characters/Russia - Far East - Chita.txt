@@ -1,0 +1,11 @@
+characters = {
+	# CHT Ministers
+	CHT_Ivan_Ilin = {
+		name = CHT_Ivan_Ilin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHT/Portrait_CHT_Ivan_Ilin.dds"
+			}
+		}
+	}
+} 

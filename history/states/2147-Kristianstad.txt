@@ -1,0 +1,38 @@
+state = {
+	id = 2147
+	name = "STATE_2147"
+
+	history = {
+		owner = SWE
+		buildings = {
+			infrastructure = 5
+			radar_station = 1
+			anti_air_building = 1
+			11160 = {
+				bunker = 2
+			}
+			barracks = 2
+			6120 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			11160 2
+		}
+		victory_points = {
+			9362 1
+		}
+		victory_points = {
+			9300 1
+		}
+		add_core_of = SWE
+	}
+
+	provinces = {
+		9362 9300 11160 6120
+	}
+	manpower = 256559
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 926
+	name = "STATE_926"
+	resources = {
+		power = 2.000
+	}
+
+	history = {
+		owner = IND
+		add_claim_by = AZH
+		add_core_of = IND
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			air_base = 2
+		}
+		victory_points = {
+			18915 30
+		}
+		victory_points = {
+			18928 4
+		}
+		victory_points = {
+			18925 1
+		}
+		victory_points = {
+			18927 4
+		}
+		set_state_flag = GDP_regions_punjab
+	}
+
+	provinces = {
+		10066 16023 18915 18925 18928 18927
+	}
+	manpower = 5411206
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

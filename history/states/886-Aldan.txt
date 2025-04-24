@@ -1,0 +1,33 @@
+state = {
+	id = 886
+	name = "STATE_886"
+	resources = {
+		power = 2.000
+		steel = 6.000
+	}
+
+	history = {
+		owner = AMR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AMR
+		victory_points = {
+			1748 2
+		}
+		victory_points = {
+			7746 1
+		}
+		victory_points = {
+			7844 1
+		}
+	}
+
+	provinces = {
+		1748 4726 4752 4798 5749 5835 7746 7844 8553 8602 10608 10667 12694 13320
+	}
+	manpower = 116665
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 215
+	name = "STATE_215"
+	resources = {
+		steel = 18.000
+	}
+
+	history = {
+		owner = FIN
+		victory_points = {
+			9195 3
+		}
+		victory_points = {
+			9045 1
+		}
+		victory_points = {
+			3121 1
+		}
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+			hospitals = 1
+			anti_air_building = 1
+		}
+		add_core_of = FIN
+		set_state_flag = GDP_regions_karelia
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		3 15 86 94 170 176 3008 3078 3121 3189 6021 6029 6090 6096 6159 9045 9055 9162 9195 11045 11094 11175 11212 18443
+	}
+	manpower = 105698
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

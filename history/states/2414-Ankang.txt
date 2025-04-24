@@ -1,0 +1,26 @@
+state = {
+	id = 2414
+	name = "STATE_2414"
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		victory_points = {
+			7418 4
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_south_shaanxi
+		set_variable = { china_state_ref = 39 }
+		set_variable = { china_region_ref = 5 }
+	}
+
+	provinces = {
+		4256 19641 19694 7418 19707 19713
+	}
+	manpower = 2023611
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 2226
+	name = "STATE_2226"
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		buildings = {
+			infrastructure = 4
+			hospitals = 1
+		}
+		victory_points = {
+			10250 1
+		}
+		victory_points = {
+			10221 1
+		}
+	}
+
+	provinces = {
+		19127 19125 10221 10250 19094
+	}
+	manpower = 1220524
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

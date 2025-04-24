@@ -1,0 +1,41 @@
+state = {
+	id = 2141
+	name = "STATE_2141"
+
+	history = {
+		buildings = {
+			infrastructure = 4
+			6041 = {
+				coastal_bunker = 2
+			}
+			18392 = {
+				coastal_bunker = 2
+			}
+			107 = {
+				coastal_bunker = 2
+			}
+			18416 = {
+				coastal_bunker = 2
+			}
+			9132 = {
+				coastal_bunker = 2
+			}
+			6038 = {
+				coastal_bunker = 2
+			}
+		}
+		victory_points = {
+			6038 1
+		}
+		owner = NOR
+		add_core_of = NOR
+	}
+
+	provinces = {
+		18416 107 18392 6041 18398 9069 3098 6173 11173 115 9132 6038 11118
+	}
+	manpower = 116760
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

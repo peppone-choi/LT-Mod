@@ -1,0 +1,41 @@
+state = {
+	id = 1644
+	name = "STATE_1644"
+	resources = {
+		chromium = 12.000
+	}
+
+	history = {
+		owner = URA
+		add_claim_by = URA
+		add_core_of = SOR
+		victory_points = {
+			9604 3
+		}
+		victory_points = {
+			7868 3
+		}
+		victory_points = {
+			11643 1
+		}
+		victory_points = {
+			11575 1
+		}
+		set_variable = { china_state_ref = 51 }
+		set_variable = { china_region_ref = 6 }
+		buildings = {
+			infrastructure = 3
+			radar_station = 2
+		}
+		set_resistance = 0
+		set_compliance = 100
+	}
+
+	provinces = {
+		681 725 739 753 1267 1325 1343 1397 1504 3695 3756 3963 4404 4841 6774 7249 7266 7309 7868 9589 9604 9733 9749 10466 11575 11629 11643 11719 12136 14624
+	}
+	manpower = 212426
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

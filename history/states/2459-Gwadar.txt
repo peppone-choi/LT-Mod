@@ -1,0 +1,27 @@
+state = {
+	id = 2459
+	name = "STATE_2459"
+
+	history = {
+		owner = OMA
+		buildings = {
+			infrastructure = 3
+			7272 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = OMA
+		add_claim_by = AZH
+		add_claim_by = IND
+		add_claim_by = AFG
+		victory_points = { 7272 1 }
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		7272
+	}
+	manpower = 7356
+	buildings_max_level_factor = 1.000
+	state_category = enclave
+}

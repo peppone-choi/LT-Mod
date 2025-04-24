@@ -1,0 +1,20 @@
+state = {
+	id = 1204
+	name = "STATE_1204"
+
+	history = {
+		owner = CAO
+		add_core_of = CAO
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1473 14105 14119 14135
+	}
+	manpower = 119000
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+}

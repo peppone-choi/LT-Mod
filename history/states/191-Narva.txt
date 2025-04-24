@@ -1,0 +1,39 @@
+state = {
+	id = 191
+	name = "STATE_191"
+	resources = {
+		oil = 8.000
+	}
+
+	history = {
+		owner = OST
+		victory_points = {
+			4640 5
+		}
+		victory_points = {
+			456 3
+		}
+		victory_points = {
+			11057 1
+		}
+		buildings = {
+			infrastructure = 5
+			hospitals = 1
+			4640 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = OST
+		set_state_flag = GDP_regions_estonia
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		456 461 4640 11057 11127 11443
+	}
+	manpower = 167138
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

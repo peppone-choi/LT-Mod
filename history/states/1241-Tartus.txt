@@ -1,0 +1,34 @@
+state = {
+	id = 1241
+	name = "STATE_1241"
+
+	history = {
+		owner = SNS
+		victory_points = {
+			10087 2
+		}
+		victory_points = {
+			14683 1
+		}
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			barracks = 1
+			thermoelectric_plant = 1
+			dockyard = 2
+		}
+		add_core_of = SYR
+		add_core_of = SNS
+		add_extra_state_shared_building_slots = 1
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_syria
+	}
+
+	provinces = {
+		5528 10087 14683
+	}
+	manpower = 330916
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

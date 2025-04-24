@@ -1,0 +1,39 @@
+state = {
+	id = 952
+	name = "STATE_952"
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			schools = 1
+			hospitals = 2
+			barracks = 2
+			prisons = 2
+			infrastructure = 5
+			air_base = 1
+			radar_station = 2
+		}
+		victory_points = { # Lewiston
+			7462 3
+		}
+		victory_points = { # Bangor
+			12459 1
+		}
+		victory_points = { # Portland
+			3732 5
+		}
+		victory_points = { # Augusta
+			17305 1
+		}
+		set_state_flag = GDP_regions_new_england
+	}
+
+	provinces = {
+		1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459 17291 17305
+	}
+	manpower = 988000
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

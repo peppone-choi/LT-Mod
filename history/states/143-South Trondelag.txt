@@ -1,0 +1,43 @@
+state = {
+	id = 143
+	name = "STATE_143"
+
+	history = {
+		owner = NOR
+		buildings = {
+			offices = 1
+			infrastructure = 5
+			thermoelectric_plant = 1
+			air_base = 6
+			dockyard = 1
+			3022 = {
+				naval_base = 8
+				coastal_bunker = 2
+			}
+			3018 = {
+				coastal_bunker = 2
+			}
+			6116 = {
+				coastal_bunker = 2
+			}
+			18400 = {
+				coastal_bunker = 2
+			}
+			3096 = {
+				coastal_bunker = 2
+			}
+		}
+		victory_points = {
+			3022 10
+		}
+		add_core_of = NOR
+	}
+
+	provinces = {
+		3018 3022 3183 6114 6116 6118 9139 18390 18395 18400 3096
+	}
+	manpower = 211218
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

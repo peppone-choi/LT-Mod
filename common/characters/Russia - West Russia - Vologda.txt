@@ -1,0 +1,202 @@
+characters = {
+	# Leaders
+	VOL_Mikhail_Tukhachevsky = {
+		name = VOL_Mikhail_Tukhachevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Mikhail_Tukhachevsky.dds"
+			}
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Mikhail_Tukhachevsky.dds"
+			}
+		}
+
+		country_leader = {
+			desc = "POLITICS_MIKHAIL_TUKHACHEVSKY_DESC"
+			expire = "1999.1.1"
+			ideology = communist_stratocratic_communism_subtype
+			traits = { }
+			id = -1
+		}
+
+		field_marshal = {
+			traits = { war_hero trait_cautious defensive_doctrine }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 3421
+		}
+	}
+	VOL_Kliment_Voroshilov = {
+		name = VOL_Kliment_Voroshilov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Kliment_Voroshilov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Grigory_Kulik = {
+		name = VOL_Grigory_Kulik
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Grigory_Kulik.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# VOL Generals
+	VOL_Markian_Germanovich = {
+		name = VOL_Markian_Germanovich
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Markian_Germanovich.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Boris_Gorbachev = {
+		name = VOL_Boris_Gorbachev
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Boris_Gorbachev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Fyodor_Batalov = {
+		name = VOL_Fyodor_Batalov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Fyodor_Batalov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Leonid_Petrovsky = {
+		name = VOL_Leonid_Petrovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Leonid_Petrovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Ivan_Kosogov = {
+		name = VOL_Ivan_Kosogov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Ivan_Kosogov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Ivan_Kutyakov = {
+		name = VOL_Ivan_Kutyakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Ivan_Kutyakov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Georgy_Zhukov = {
+		name = VOL_Georgy_Zhukov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Georgy_Zhukov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	VOL_Dmitry_Pavlov = {
+		name = VOL_Dmitry_Pavlov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VOL/Portrait_VOL_Dmitry_Pavlov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

@@ -1,0 +1,36 @@
+state = {
+	id = 109
+	name = "STATE_109"
+
+	resources = {
+		chromium = 6
+	}
+
+	history = {
+		owner = CRO
+		buildings = {
+			thermoelectric_plant = 1
+			schools = 1
+			prisons = 1
+			offices = 1
+			hospitals = 1
+			infrastructure = 6
+			air_base = 4
+		}
+		victory_points = { 11581 20 }
+		victory_points = { 3592 5 }
+		victory_points = { 18153 3 }
+		victory_points = { 11594 3 }
+		victory_points = { 18164 2 }
+		victory_points = { 13372 1 }
+		victory_points = { 18154 1 }
+		add_core_of = CRO
+	}
+
+	provinces = {
+		624 3592 11581 13372 11594 18153 18164 18154
+	}
+	manpower = 1471426
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 2058
+	name = "STATE_2058" # Adelei Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
+
+	history = {
+		owner = AAN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		16424 16417
+	}
+}

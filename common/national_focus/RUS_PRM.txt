@@ -1,0 +1,76 @@
+focus_tree = {
+    id = PRM_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = PRM
+        }
+    }
+    
+    default = no
+
+    focus = {
+        id = PRM_focus_1 #타타르스탄 습격
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = PRM_focus_2 #바쉬키르의 운명
+        prerequisite = {focus = PRM_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = PRM_focus_3 #전략첩보부 창설
+        prerequisite = {focus = PRM_focus_2}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = PRM_focus_4 #증오를 접어두다
+        prerequisite = {focus = PRM_focus_3}
+        x = 0
+        y = 3
+    }
+
+focus = {
+        id = PRM_focus_5 #가이니와의 휴전
+        prerequisite = {focus = PRM_focus_4}
+        x = 1
+        y = 3
+    }
+
+    focus = {
+        id = PRM_focus_6 #관료조직 흡수
+        prerequisite = {focus = PRM_focus_4}
+        x = 0
+        y = 4
+    }
+
+focus = {
+        id = PRM_focus_7 #페름 교구 창설
+        prerequisite = {focus = PRM_focus_6}
+        x = 0
+        y = 5
+    }
+
+    focus = {
+        id = PRM_focus_8 #반공을 위한 부대
+        prerequisite = {focus = PRM_focus_7}
+        x = 0
+        y = 6
+    }
+
+    focus = {
+        id = PRM_focus_9 #투하쳅스키의 불온한 움직임
+        prerequisite = {focus = PRM_focus_8}
+        x = 0
+        y = 7
+    }
+}

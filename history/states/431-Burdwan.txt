@@ -1,0 +1,39 @@
+state = {
+	id = 431
+	name = "STATE_431"
+	resources = {
+		steel = 7.000
+		power = 2.000
+	}
+
+	history = {
+		owner = AZH
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			10077 10
+		}
+		victory_points = {
+			4644 15
+		}
+		victory_points = {
+			1444 3
+		}
+		victory_points = {
+			18977 3
+		}
+		add_core_of = AZH
+		add_claim_by = IND
+		set_state_flag = GDP_regions_bengal
+	}
+
+	provinces = {
+		1444 4644 10077 18962 18977 18982
+	}
+	manpower = 7320411
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 2107
+	name = "STATE_2107"
+	manpower = 56
+
+	state_category = small_island
+
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+			infrastructure = 1
+			17939 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			17939 1
+		}
+		set_state_flag = GDP_regions_magallanes
+	}
+
+	provinces = {
+		17939
+	}
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1618
+	name = "STATE_1618"
+	manpower = 212253
+	resources = {
+		power = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = PAR
+		add_core_of = PAR
+		victory_points = { 2194 10 }
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			schools = 1
+			prisons = 1
+			offices = 1
+		}
+	}
+
+	provinces = {
+		2194 15263
+	}
+
+}

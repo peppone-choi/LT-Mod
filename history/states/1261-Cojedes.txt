@@ -1,0 +1,26 @@
+state = {
+	id = 1261
+	name = "STATE_1261"
+
+	history = {
+		owner = VEN
+		buildings = {
+			offices = 2
+			barracks = 1
+			infrastructure = 3
+		}
+		add_core_of = VEN
+		victory_points = {
+			4942 10
+		}
+		set_state_flag = GDP_regions_mw_vz
+	}
+
+	provinces = {
+		4942 6608 17399
+	}
+	manpower = 318380
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,25 @@
+state = { #Population Done
+	id = 1449
+	name = "STATE_1449"
+	manpower = 500656
+	state_category = town
+	history = {
+		victory_points = { 1088 10 }
+		victory_points = { 14685 4 }
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			1088 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = TUR
+		add_claim_by = SYR
+		set_state_flag = GDP_regions_turkish_syria
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1088 7140 14685
+	}
+}

@@ -1,0 +1,35 @@
+state = {
+	id = 466
+	name = "STATE_466"
+	resources = {
+		#
+	}
+
+	history = {
+		owner = CAN
+		buildings = {
+			infrastructure = 1
+			radar_station = 3
+		}
+		add_core_of = CAN
+		victory_points = {
+			11902 1
+		}
+		victory_points = {
+			12147 1
+		}
+		victory_points = {
+			490 1
+		}
+		set_state_flag = GDP_regions_quebec
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		490 983 3208 3911 4666 6740 7364 10176 11682 11902 12147 13162 13166 13181 13184 13196 17251 17252 17259 17260 17261 17267 17271 17272 17276
+	}
+	manpower = 21639
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

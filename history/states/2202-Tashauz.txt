@@ -1,0 +1,26 @@
+state = {
+	id = 2202
+	name = "STATE_2202"
+	resources = {
+		oil = 4.000
+	}
+
+	history = {
+		owner = TRK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 12324 3 }
+		victory_points = { 10435 1 }
+		add_core_of = TRK
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1649 7618 10435 10485 12324 12465 18624 17294
+	}
+	manpower = 341425
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

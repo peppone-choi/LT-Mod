@@ -1,0 +1,25 @@
+state = {
+	id = 1546
+	name = "STATE_1546"
+	resources = {
+	}
+
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		victory_points = { 15112 7 }
+		buildings = {
+			infrastructure = 5
+			15112 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		15112
+	}
+	manpower = 79490
+	buildings_max_level_factor = 1.000
+	state_category = enclave
+}

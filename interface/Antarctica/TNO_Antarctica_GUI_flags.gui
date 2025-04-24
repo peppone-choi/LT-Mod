@@ -1,0 +1,193 @@
+guiTypes = {
+	extendedScrollbarType = {
+		name = "right_vertical_slider_flags"
+		position = { x = -8 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x=-17 y = -19}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Flags_Open"
+		size = { width = 0 height = 0 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "Antarctica_GUI_Flags_Open_Button"
+			quadTextureSprite = "GFX_Antarctica_GUI_Flags_Open_Button"
+			position = { x = 561 y = -18 }
+			pdx_tooltip = Antarctica_GUI_Flags_Open
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_Flags"
+		size = { width = 855 height = 600 }
+		position = { x = 200 y = 200 }
+		moveable = yes
+
+		background = {
+			name = "Antarctica_GUI_Flags_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_Flags_Header_2"
+			position = { x = 3 y = 2 }
+			spriteType = "GFX_header_wider_bg"
+		}
+		iconType = {
+			name = "Antarctica_GUI_Flags_Header"
+			position = { x = 25 y = 2 }
+			spriteType = "GFX_header_wider_bg"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_Flags_Header_Title"
+			position = { x = 0 y = 3 }
+			font = "Bomb_36"
+			text = Antarctica_GUI_Flags_Header_Title
+			maxWidth = 833
+			format = center
+		}
+
+		buttonType = {
+			name = "Antarctica_GUI_Flags_Close_Button"
+			position = { x = -32 y = 5 }
+			quadTextureSprite = "GFX_closebutton_small"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_Flags_List"
+			size = { width = 855 height = 540 }
+			position = { x = 0 y = 50 }
+			verticalScrollbar = "right_vertical_slider_flags"
+			
+			background = {
+				name = "Antarctica_GUI_Flags_List_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAA"
+				position = { x = 8 y = 0 }
+				spriteType = "GFX_flag_extra_large_AAA"
+				pdx_tooltip = AAA_paternalism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAC"
+				position = { x = 8 y = 540 }
+				spriteType = "GFX_flag_extra_large_AAC"
+				pdx_tooltip = AAC_paternalism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAG"
+				position = { x = 8 y = 1080 }
+				spriteType = "GFX_flag_extra_large_AAG"
+				pdx_tooltip = AAG_national_socialism
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAJ"
+				position = { x = 8 y = 1620 }
+				spriteType = "GFX_flag_extra_large_AAJ"
+				pdx_tooltip = AAJ_despotism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAO"
+				position = { x = 8 y = 2160 }
+				spriteType = "GFX_flag_extra_large_AAO"
+				pdx_tooltip = AAO_paternalism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAS"
+				position = { x = 8 y = 2700 }
+				spriteType = "GFX_flag_extra_large_AAS"
+				pdx_tooltip = AAS_paternalism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAU"
+				position = { x = 8 y = 3240 }
+				spriteType = "GFX_flag_extra_large_AAU"
+				pdx_tooltip = AAU_paternalism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAZ"
+				position = { x = 8 y = 3780 }
+				spriteType = "GFX_flag_extra_large_AAZ"
+				pdx_tooltip = AAZ_paternalism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAB"
+				position = { x = 8 y = 4320 }
+				spriteType = "GFX_flag_extra_large_AAB"
+				pdx_tooltip = AAB_esoteric_nazism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAB_Large"
+				position = { x = 8 y = 4860 }
+				spriteType = "GFX_flag_extra_large_AAB_Large"
+				pdx_tooltip = AAB_Large_esoteric_nazism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAI"
+				position = { x = 8 y = 5400 }
+				spriteType = "GFX_flag_extra_large_AAI"
+				pdx_tooltip = AAI_despotism
+			}
+		
+			iconType = {
+				name = "Antarctica_GUI_Flags_AAR"
+				position = { x = 8 y = 5940 }
+				spriteType = "GFX_flag_extra_large_AAR"
+				pdx_tooltip = AAR_despotism
+			}
+		}
+	}
+}

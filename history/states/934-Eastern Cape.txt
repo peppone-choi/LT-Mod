@@ -1,0 +1,54 @@
+state = {
+	id = 934
+	name = "STATE_934"
+	resources = {
+		chromium = 20.000
+	}
+
+	history = {
+		owner = SAF
+		buildings = {
+			schools = 1
+			prisons = 1
+			barracks = 1
+			offices = 1
+			infrastructure = 3
+			dockyard = 2
+			thermoelectric_plant = 1
+			13489 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13495 10
+		}
+		victory_points = {
+			13489 15
+		}
+		victory_points = {
+			17831 5
+		}
+		victory_points = {
+			4584 3
+		}
+		victory_points = {
+			15360 3
+		}
+		victory_points = {
+			13505 1
+		}
+		victory_points = {
+			13503 1
+		}
+		add_core_of = SAF
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		1468 1833 4584 4696 4822 7576 12547 13489 13491 13495 13499 13500 13501 13502 13503 13505 13506 13509 15360 15361 15362 15363 17831 17838 17840
+	}
+	manpower = 1566118
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

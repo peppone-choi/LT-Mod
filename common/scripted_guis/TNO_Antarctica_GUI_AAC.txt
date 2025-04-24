@@ -1,0 +1,40 @@
+scripted_gui = {
+	Antarctica_GUI_AAC = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAC"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			Antarctica_GUI_AAC_Basic_Map_AAA_Button_click = {
+				set_country_flag = Antarctica_GUI_AAC_AAA_Decisions_Visible
+				clr_country_flag = Antarctica_GUI_AAC_AAJ_Decisions_Visible
+			}
+			Antarctica_GUI_AAC_Basic_Map_AAJ_Button_click = {
+				clr_country_flag = Antarctica_GUI_AAC_AAA_Decisions_Visible
+				set_country_flag = Antarctica_GUI_AAC_AAJ_Decisions_Visible
+			}
+		}
+		
+		triggers = {
+			
+		}
+		
+		properties = {
+			Antarctica_GUI_AAC_Progressbar_AAA_1 = {
+				frame = Antarctica_GUI_AAC_Diplo_AAA
+			}
+			Antarctica_GUI_AAC_Progressbar_AAA_2 = {
+				frame = Antarctica_GUI_AAC_Tensions_AAA
+			}
+			Antarctica_GUI_AAC_Progressbar_AAJ_1 = {
+				frame = Antarctica_GUI_AAC_Diplo_AAJ
+			}
+			Antarctica_GUI_AAC_Progressbar_AAJ_2 = {
+				frame = Antarctica_GUI_AAC_Tensions_AAJ
+			}
+		}
+	}
+}

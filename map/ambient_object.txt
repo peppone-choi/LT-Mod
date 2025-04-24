@@ -1,0 +1,484 @@
+type={
+	type="ambient_wind_entity"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="ambient_wind"
+		position={
+			0.000 0.000 0.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="ambient_water_entity"
+	use_animation=no
+	scale=10.000000
+	object={
+		name="ambient_water"
+		position={
+			420.090 10.000 382.670 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			1234.890 10.000 407.440 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			2541.140 10.000 370.870 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			4201.620 10.000 358.560 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			3865.330 10.000 555.220 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			5000.920 10.000 559.670 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			685.150 10.000 1008.290 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			100.000 10.000 1000.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			2224.790 10.000 1268.600 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			5000.910 10.000 1005.380 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			205.110 10.000 1517.910 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			1773.610 10.000 1295.370 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			2427.300 10.000 1655.700 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="ambient_water"
+		position={
+			5000.160 10.000 1328.670 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="frame_border_logo_entity"
+	use_animation=no
+	scale=300.000000
+	always_visible=yes
+	object={
+		name="frame_border_logo_entity_top"
+		position={
+			2727.000 0.000 2662.500 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="frame_border_bottom_entity"
+	use_animation=no
+	scale=100.000000
+	always_visible=yes
+	object={
+		name="frame_border_bottom_entity_bottom"
+		position={
+			0.000 0.000 -139.100 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="volkshalle"
+	use_animation=no
+	scale=0.400000
+	object={
+		name="big_building_in_neu_berlin"
+		position={
+			2749.870 0.100 2084.790 
+		}
+		rotation={
+			0.000 30.000 0.000 
+		}
+	}
+}
+type={
+	type="eiffel"
+	use_animation=no
+	scale=1.100000
+	object={
+		name="eiffel_tower"
+		position={
+			2591.230 0.100 2015.360 
+		}
+		rotation={
+			0.000 30.000 0.000 
+		}
+	}
+}
+type={
+	type="liberty"
+	use_animation=no
+	scale=0.300000
+	object={
+		name="liberty"
+		position={
+			1508.420 0.100 1871.910 
+		}
+		rotation={
+			0.000 30.000 0.000 
+		}
+	}
+}
+type={
+	type="GoldenGate"
+	use_animation=no
+	scale=0.800000
+	object={
+		name="GoldenGate"
+		position={
+			817.600 -0.400 1819.470 
+		}
+		rotation={
+			0.000 115.000 0.000 
+		}
+	}
+}
+type={
+	type="Monumento"
+	use_animation=no
+	scale=0.800000
+	object={
+		name="Monumento"
+		position={
+			1147.230 -0.400 1536.690 
+		}
+		rotation={
+			0.000 115.000 0.000 
+		}
+	}
+}
+type={
+	type="christ"
+	use_animation=no
+	scale=0.400000
+	object={
+		name="christ"
+		position={
+			1940.620 -0.100 928.360 
+		}
+		rotation={
+			0.000 58.000 0.000 
+		}
+	}
+}
+type={
+	type="Torre"
+	use_animation=no
+	scale=0.400000
+	object={
+		name="Torre"
+		position={
+			2476.650 -0.100 1815.860 
+		}
+		rotation={
+			0.000 10.000 0.000 
+		}
+	}
+}
+type={
+	type="anitkabir"
+	use_animation=no
+	scale=0.230000
+	object={
+		name="anitkabir"
+		position={
+			3030.190 0.210 1857.930 
+		}
+		rotation={
+			0.000 225.000 0.000 
+		}
+	}
+}
+type={
+	type="parthenon"
+	use_animation=no
+	scale=0.300000
+	object={
+		name="parthenon"
+		position={
+			2896.470 0.410 1828.190 
+		}
+		rotation={
+			0.000 30.000 0.000 
+		}
+	}
+}
+type={
+	type="domerock"
+	use_animation=no
+	scale=0.400000
+	object={
+		name="domerock"
+		position={
+			3059.230 0.010 1725.500 
+		}
+		rotation={
+			0.000 290.000 0.000 
+		}
+	}
+}
+type={
+	type="colosseum"
+	use_animation=no
+	scale=0.350000
+	object={
+		name="colosseum"
+		position={
+			2739.120 0.230 1890.890 
+		}
+		rotation={
+			0.000 -45.000 0.000 
+		}
+	}
+}
+type={
+	type="big_ben"
+	use_animation=no
+	scale=0.500000
+	object={
+		name="big_ben"
+		position={
+			2556.480 0.100 2065.590 
+		}
+		rotation={
+			0.000 240.000 0.000 
+		}
+	}
+}
+type={
+	type="pyramids"
+	use_animation=no
+	scale=0.700000
+	object={
+		name="giza"
+		position={
+			2998.320 0.000 1695.330 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="magadanport"
+	use_animation=no
+	scale=0.800000
+	object={
+		name="magadan_port"
+		position={
+			4703.390 0.400 2219.580 
+		}
+		rotation={
+			0.000 315.000 0.000 
+		}
+	}
+}
+type={
+	type="vorkuta"
+	use_animation=no
+	scale=0.200000
+	object={
+		name="vorkuta_gulag"
+		position={
+			3477.990 0.000 2375.880 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+}
+type={
+	type="irkutsk"
+	use_animation=no
+	scale=0.350000
+	object={
+		name="irkutsk_hydro"
+		position={
+			4043.100 0.400 2078.220 
+		}
+		rotation={
+			0.000 128.000 0.000 
+		}
+	}
+}
+type={
+	type="basin"
+	use_animation=no
+	scale=0.500000
+	object={
+		name="kemerovo_basin"
+		position={
+			3794.750 0.000 2131.840 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+}
+type={
+	type="basil"
+	use_animation=no
+	scale=0.650000
+	object={
+		name="st_basils_cathedral"
+		position={
+			3093.700 0.700 2147.880 
+		}
+		rotation={
+			0.000 -45.000 0.000 
+		}
+	}
+}
+type={
+	type="forbiddencity"
+	use_animation=no
+	scale=0.300000
+	object={
+		name="forbiddencity"
+		position={
+			4213.180 0.100 1858.080 
+		}
+		rotation={
+			0.000 185.000 0.000 
+		}
+	}
+}
+type={
+	type="frame_border_entity"
+	use_animation=no
+	scale=100.000000
+	always_visible=yes
+	object={
+		name="frame_border_entity_top"
+		position={
+			0.000 0.000 2703.270 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="clocktower"
+	use_animation=no
+	scale=1.500000
+	object={
+		name="clocktower"
+		position={
+			4182.570 0.100 1584.510 
+		}
+		rotation={
+			0.000 -20.000 0.000 
+		}
+	}
+}
+type={
+	type="LegCoBuilding"
+	use_animation=no
+	scale=0.450000
+	object={
+		name="LegCoBuilding"
+		position={
+			4170.070 0.100 1592.290 
+		}
+		rotation={
+			0.000 20.000 0.000 
+		}
+	}
+}

@@ -1,0 +1,31 @@
+state = {
+	id = 1296
+	name = "STATE_1296"
+
+	resources = {
+		tungsten = 8
+		power = 1
+	}
+
+	history = {
+		owner = ENG
+		victory_points = { 9484 7 }
+		victory_points = {
+			3463 3
+		}
+		victory_points = {
+			3422 4
+		}
+		buildings = {
+			infrastructure = 5
+			schools = 1
+		}
+		add_core_of = ENG
+	}
+	provinces = {
+		3422 3463 9484 16324
+	}
+	manpower = 879502
+	buildings_max_level_factor = 2.000
+	state_category = rural
+}

@@ -1,0 +1,141 @@
+focus_tree = {
+    id = MGN_aircraft_engineer_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = MGN
+        }
+    }
+    
+    default = no
+
+    focus = {
+        id = MGN_NUC_focus_1 #맨발의 폭군의 후계자
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = MGN_NUC_focus_2 #마그니토고로스크 과학 아카데미 창설
+        prerequisite = {focus = MGN_NUC_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = MGN_NUC_focus_3 #지역당 개혁
+        prerequisite = {focus = MGN_NUC_focus_2}
+        x = 0
+        y = 2
+    }
+
+focus = {
+        id = MGN_NUC_focus_4 #전략 로켓 연구계획
+        prerequisite = {focus = MGN_NUC_focus_3}
+        x = 0
+        y = 3
+        completion_reward = {country_event = MGN_NUC_event_1}
+    }
+
+focus = {
+        id = MGN_NUC_focus_5 #식량위기 발발
+        prerequisite = {focus = MGN_NUC_focus_4}
+        x = 0
+        y = 4
+    }
+
+focus = {
+        id = MGN_NUC_focus_6 #기독교인들의 도움
+        prerequisite = {focus = MGN_NUC_focus_5}
+        mutually_exclusive = {focus = MGN_NUC_focus_7}
+        x = 1
+        y = 5
+}
+
+focus = {
+        id = MGN_NUC_focus_7 #코뮌의 도움
+        prerequisite = {focus = MGN_NUC_focus_5}
+        mutually_exclusive = {focus = MGN_NUC_focus_6}
+        x = 0
+        y = 5
+}
+
+focus = {
+        id = MGN_NUC_focus_8 #보급체계 개선
+        prerequisite = {focus = MGN_NUC_focus_6 focus = MGN_NUC_focus_7}
+        mutually_exclusive = {focus = MGN_NUC_focus_9}
+        x = 1
+        y = 6
+}
+
+focus = {
+        id = MGN_NUC_focus_9 #우랄 공군 창설
+        prerequisite = {focus = MGN_NUC_focus_6 focus = MGN_NUC_focus_7}
+        mutually_exclusive = {focus = MGN_NUC_focus_8}
+        x = 0
+        y = 6
+}
+
+focus = {
+        id = MGN_NUC_focus_10 #석탄위기 발발
+        prerequisite = {focus = MGN_NUC_focus_8 focus = MGN_NUC_focus_9}
+        x = 0
+        y = 7
+}
+
+focus = {
+        id = MGN_NUC_focus_11 #실로비키의 도움
+        prerequisite = {focus = MGN_NUC_focus_10}
+        mutually_exclusive = {focus = MGN_NUC_focus_12}
+        mutually_exclusive = {focus = MGN_NUC_focus_13}
+        x = 0
+        y = 8
+    }
+
+    focus = {
+        id = MGN_NUC_focus_12 #크냐치의 도움
+        prerequisite = {focus = MGN_NUC_focus_10}
+        mutually_exclusive = {focus = MGN_NUC_focus_13}
+        mutually_exclusive = {focus = MGN_NUC_focus_11}
+        x = -1
+        y = 8
+    }
+
+    focus = {
+        id = MGN_NUC_focus_13 #기독교인들의 도움
+        prerequisite = {focus = MGN_NUC_focus_10}
+        mutually_exclusive = {focus = MGN_NUC_focus_11}
+        mutually_exclusive = {focus = MGN_NUC_focus_12}
+        x = 1
+        y = 8
+    }
+
+    focus = {
+        id = MGN_NUC_focus_14 #남우랄 안전보장 연맹 창설
+        prerequisite = {focus = MGN_NUC_focus_11 
+                        focus = MGN_NUC_focus_12 
+                        focus = MGN_NUC_focus_13}
+        x = 0
+        y = 9
+    }
+
+    focus = {
+        id = MGN_NUC_focus_15 #괴물 처단
+        prerequisite = {focus = MGN_NUC_focus_15}
+        x = 0
+        y = 10
+    }
+
+    focus = {
+        id = MGN_NUC_focus_16 #북방의 군대의 부름
+        prerequisite = {focus = MGN_NUC_focus_16}
+        x = 0
+        y = 11
+    allow_branch = { has_country_flag = MGN}
+    }
+
+
+    }

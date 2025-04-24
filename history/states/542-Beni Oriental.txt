@@ -1,0 +1,26 @@
+state = {
+	id = 542
+	name = "STATE_542"
+	resources = {
+		chromium = 50.000
+	}
+
+	history = {
+		owner = BOL
+		add_core_of = BOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10982 1
+		}
+	}
+
+	provinces = {
+		10938 10982 17497 17498
+	}
+	manpower = 122500
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

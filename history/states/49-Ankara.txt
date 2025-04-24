@@ -1,0 +1,33 @@
+state = { #Population Done
+	id = 49
+	name = "STATE_49"
+	manpower = 1703053
+	resources = {
+		chromium = 20
+	}
+
+	state_category = city
+
+	history = {
+		owner = TUR
+
+		victory_points = { 11747 35 }
+		victory_points = { 804 5 }
+		victory_points = { 9901 2 }
+		victory_points = { 9844 2 }
+		victory_points = { 11844 2 }
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			radar_station = 1
+			schools = 1
+			prisons = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = TUR
+	}
+
+	provinces = {
+		804 6908 6925 9806 9901 11747 11784 6920 9844 16219 11844 16262
+	}
+}

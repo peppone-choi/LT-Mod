@@ -1,0 +1,46 @@
+state = {
+	id = 606
+	name = "STATE_606"
+	resources = {
+		power = 2
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			schools = 1
+			hospitals = 1
+			infrastructure = 4
+		}
+		victory_points = {
+			7222 19
+		}
+		victory_points = {
+			19866 1
+		}
+		victory_points = {
+			7094 5
+		}
+		victory_points = {
+			10008 2
+		}
+		victory_points = {
+			10064 5
+		}
+		victory_points = {
+			12036 16
+		}
+		set_state_flag = GDP_regions_anhui
+		set_variable = { china_state_ref = 6 }
+		set_variable = { china_region_ref = 0 }
+	}
+
+	provinces = {
+		1146 4203 7094 7222 10008 10017 10064 12036 19866
+	}
+	manpower = 7862042
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 2313
+	name = "STATE_2313"
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			12162 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12162 1
+		}
+		set_state_flag = GDP_regions_nusa_tenggara
+	}
+
+	provinces = {
+		10191 12162
+	}
+	manpower = 534890
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

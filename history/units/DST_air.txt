@@ -1,0 +1,15 @@
+air_wings = {
+	1400 = {
+		jet_fighter_equipment_1 = {
+			owner = "DST"
+			amount = 100
+		}
+		name = "1. Kampfjets"
+
+		jet_CAS_equipment_1 = {
+			owner = "DST"
+			amount = 50
+		}
+		name = "1. Luftunterstützung Schließen"
+	}
+}

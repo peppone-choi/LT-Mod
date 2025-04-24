@@ -1,0 +1,661 @@
+guiTypes = {
+	extendedScrollbarType = {
+		name = "right_vertical_slider_AAG"
+		position = { x = -11 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x=-17 y = -19}
+		}
+	}
+	
+	extendedScrollbarType = {
+		name = "left_vertical_slider_AAG"
+		position = { x = 4 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x=-17 y = -19}
+		}
+	}
+
+	containerWindowType = {
+		name = "Antarctica_GUI_AAG"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 725 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAG_Info_Text
+			maxWidth = 452
+			format = left
+		}
+
+		iconType = {
+			name = "Antarctica_GUI_AAG_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = 393 y = -141 }
+			pdx_tooltip = Antarctica_GUI_AAG_tt
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAG_assets"
+			position = { x = 6 y = 135 }
+			size = { width = 0 height = 0 }
+			
+			containerWindowType = {
+				name = "Antarctica_GUI_AAG_Entries"
+				size = { width = 525 height = 600 }
+				position = { x = 0 y = 0 }
+				verticalScrollbar = "left_vertical_slider_AAG"
+				clipping = yes
+				
+				background = {
+					name = "Background"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+				}
+				
+				gridboxtype = {
+					name = "Antarctica_GUI_AAG_Entries_List"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+					slotsize = { width = 450 height = 450 }
+					add_horizontal = no
+					max_slots_horizontal = 1
+				}
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAG_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 450 height = 444 }
+	 
+		background = {
+			name = "Antarctica_GUI_AAG_Entry_BG"
+			quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Entry"
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Entry_Image"
+			position = { x = 0 y = 0 }
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Entry_Title"
+			position = { x = 200 y = 5 }
+			font = "aldrich_22_outline"
+			text = Antarctica_GUI_AAG_Entry_Title
+			maxWidth = 248
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Entry_Body_Text"
+			position = { x = 204 y = 48 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAG_Entry_Body_Text
+			maxWidth = 240
+			format = left
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAG_Entry_Button_1"
+			position = { x = 17 y = 209 }
+			quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Entry_Button"
+			buttonFont = "aldrich_20_outline"
+			buttonText = Antarctica_GUI_AAG_Entry_Button_1_Text
+			pdx_tooltip = Antarctica_GUI_AAG_Entry_Button_1_tt
+			multiline = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAG_Entry_Button_2"
+			position = { x = 233 y = 209 }
+			quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Entry_Button"
+			buttonFont = "aldrich_20_outline"
+			buttonText = Antarctica_GUI_AAG_Entry_Button_2_Text
+			pdx_tooltip = Antarctica_GUI_AAG_Entry_Button_2_tt
+			multiline = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAG_Entry_Button_3"
+			position = { x = 17 y = 279 }
+			quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Entry_Button"
+			buttonFont = "aldrich_20_outline"
+			buttonText = Antarctica_GUI_AAG_Entry_Button_3_Text
+			pdx_tooltip = Antarctica_GUI_AAG_Entry_Button_3_tt
+			multiline = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAG_Entry_Button_4"
+			position = { x = 233 y = 279 }
+			quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Entry_Button"
+			buttonFont = "aldrich_20_outline"
+			buttonText = Antarctica_GUI_AAG_Entry_Button_4_Text
+			pdx_tooltip = Antarctica_GUI_AAG_Entry_Button_4_tt
+			multiline = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Progress_Bar_Title"
+			position = { x = 4 y = 346 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_AAG_Progress_Bar_Title_Text
+			maxWidth = 450
+			format = center
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Progress_Bar_BG"
+			position = { x = 17 y = 375 }
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Bar_BG"
+			pdx_tooltip = Antarctica_GUI_AAG_Progress_Bar_tt_Text
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Progress_Bar"
+			position = { x = 17 y = 374 }
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Bar"
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Entry_Date_Text"
+			position = { x = 4 y = 412 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_AAG_Entry_Date_Text
+			maxWidth = 450
+			format = center
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Entry_In_Progress"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Entry_In_Progress"
+		}
+
+		buttonType = {
+			name = "Antarctica_GUI_AAG_Progress_Bar_tt"
+			position = { x = 17 y = 375 }
+			size = { x = 416 y = 31 }
+			quadTextureSprite = "GFX_tiled_window_transparent"
+			pdx_tooltip = Antarctica_GUI_AAG_Progress_Bar_tt_Text
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Entry_Completed"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Entry_Completed"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAG_Survival"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 550 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Survival_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAG_Survival_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Warehouse"
+			position = { x = 50 y = 100 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_1"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 165 y = 314 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_2"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 191 y = 314 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_3"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 217 y = 314 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_4"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 243 y = 314 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_5"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 269 y = 314 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_6"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 295 y = 314 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_7"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 321 y = 314 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_8"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 176 y = 288 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_9"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 202 y = 288 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_10"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 228 y = 288 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_11"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 254 y = 288 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_12"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 280 y = 288 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_13"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 306 y = 288 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_14"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 186 y = 262 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_15"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 212 y = 262 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_16"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 238 y = 262 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_17"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 264 y = 262 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_18"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 212 y = 262 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_19"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+			position = { x = 208 y = 236 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Warehouse_Box_20"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+			position = { x = 234 y = 236 }
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAG_Survival_Movement_Container"
+			position = { x = 0 y = 320 }
+			size = { width = 0 height = 0 }
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAG_Survival_Bar_Title"
+				position = { x = 20 y = 35 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAG_Survival_Bar_Title
+				maxWidth = 482
+				format = center
+			}
+			#iconType = {
+			#	name = "Antarctica_GUI_AAG_Survival_Bar"
+			#	spriteType = "GFX_Antarctica_Decision_GUI_Bar_E"
+			#	position = { x = 35 y = 70 }
+			#}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAG_Survival_Supply_Use_Title"
+				position = { x = 20 y = 65 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAG_Survival_Supply_Use_Title
+				maxWidth = 482
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAG_Survival_Supply_Use_Amount"
+				position = { x = 20 y = 97 }
+				font = "aldrich_22_outline"
+				text = Antarctica_GUI_AAG_Survival_Supply_Use_Amount
+				pdx_tooltip = Antarctica_GUI_AAG_Survival_Supply_Use_Info_tt
+				maxWidth = 482
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAG_Survival_Supply_Use_Amount_Adjust"
+				position = { x = 20 y = 134 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAG_Survival_Supply_Use_Amount_Adjust
+				pdx_tooltip = Antarctica_GUI_AAG_Survival_Supply_Use_Info_tt
+				maxWidth = 482
+				format = center
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAG_Survival_Supply_Use_Minus_Supply"
+				position = { x = 97 y = 89 }
+				quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Minus"
+			}
+
+			buttonType = {
+				name = "Antarctica_GUI_AAG_Survival_Supply_Use_Plus_Supply"
+				position = { x = 390 y = 89 }
+				quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Plus"
+			}
+			
+			buttonType = {
+				name = "Antarctica_GUI_AAG_Survival_Supply_Use_Minus_Supply_Change"
+				position = { x = 97 y = 128 }
+				quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Minus"
+				scale = 0.75
+			}
+
+			buttonType = {
+				name = "Antarctica_GUI_AAG_Survival_Supply_Use_Plus_Supply_Change"
+				position = { x = 399 y = 128 }
+				quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAG_Plus"
+				scale = 0.75
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAG_Survival_Personnel_Remaining"
+				position = { x = 71 y = 170 }
+				font = "aldrich_22_outline"
+				text = Antarctica_GUI_AAG_Survival_Personnel_Remaining
+				maxWidth = 380
+				format = center
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAG_Nuclear"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 880 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAG_Nuclear_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_0"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_0"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_Ice_1"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Dot_Ice_1"
+			position = { x = 261 y = 131 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_Ice_2"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Dot_Ice_2"
+			position = { x = 312 y = 293 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_Ice_3"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Dot_Ice_1"
+			position = { x = 312 y = 397 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_Ice_4"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Dot_Ice_2"
+			position = { x = 46 y = 345 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_1"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_1"
+			position = { x = 262 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_2"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_2"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_3"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_3"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_4"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_4"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_5"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_5"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_6"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_6"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_7"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_7"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_8"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_8"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_9"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_9"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_10"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_10"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_11"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_11"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_12"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_12"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_13"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_13"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_14"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_14"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_15"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_15"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Nuclear_Icon_16"
+			spriteType = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_16"
+			position = { x = 261 y = 340 }
+			centerposition = yes
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Bar_1_BG"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Vial_BG"
+			position = { x = 111 y = 690 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Bar_1"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Vial_Green_Bar"
+			position = { x = 111 y = 689 }
+			centerposition = yes
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Bar_1_Text"
+			position = { x = 35 y = 800 }
+			font = "aldrich_22_outline"
+			text = Antarctica_GUI_AAG_Bar_1_Text
+			maxWidth = 148
+			format = center
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Bar_2_BG"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Vial_BG"
+			position = { x = 261 y = 690 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Bar_2"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Vial_Blue_Bar"
+			position = { x = 261 y = 689 }
+			centerposition = yes
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Bar_2_Text"
+			position = { x = 185 y = 800 }
+			font = "aldrich_22_outline"
+			text = Antarctica_GUI_AAG_Bar_2_Text
+			maxWidth = 148
+			format = center
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAG_Bar_3_BG"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Vial_BG"
+			position = { x = 411 y = 690 }
+			centerposition = yes
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAG_Bar_3"
+			spriteType = "GFX_Antarctica_Decision_GUI_AAG_Vial_Red_Bar"
+			position = { x = 411 y = 689 }
+			centerposition = yes
+		}
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAG_Bar_3_Text"
+			position = { x = 335 y = 800 }
+			font = "aldrich_22_outline"
+			text = Antarctica_GUI_AAG_Bar_3_Text
+			maxWidth = 148
+			format = center
+		}
+	}
+}

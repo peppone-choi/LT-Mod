@@ -1,0 +1,128 @@
+﻿division_template = {
+	name = "Bubing Shi"
+	division_names_group = NRA_INF_01 #Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 101
+		}
+		location = 12344
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 12344
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 12344
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 68
+		}
+		location = 16941
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 73
+		}
+		location = 16941
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 71
+		}
+		location = 16941
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = 8049
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = 8049
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 66
+		}
+		location = 8049
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 72
+		}
+		location = 8049
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

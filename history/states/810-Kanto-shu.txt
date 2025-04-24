@@ -1,0 +1,34 @@
+state = {
+	id = 810
+	name = "STATE_810"
+
+	resources = {
+		steel = 12
+	}
+
+	provinces = {
+		1150 6851
+	}
+	history = {
+		owner = JAP
+		add_core_of = MAN
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 7
+			barracks = 1
+			offices = 2
+			air_base = 3
+			1150 = {
+				naval_base = 10
+				coastal_bunker = 1
+			}
+		}
+		victory_points = { 1150 35 }
+		set_state_flag = universal_renamings
+		set_variable = { china_state_ref = 47 }
+		set_variable = { china_region_ref = 6 }
+	}
+	manpower = 3999808
+	state_category = enclave
+	buildings_max_level_factor = 1.000
+}

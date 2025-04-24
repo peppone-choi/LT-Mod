@@ -1,0 +1,38 @@
+state = {
+	id = 863
+	name = "STATE_863"
+	resources = {
+		oil = 23.000
+		aluminium = 12.000
+	}
+
+	history = {
+		owner = VOR
+		buildings = {
+			barracks = 1
+			prisons = 2
+			infrastructure = 2
+			198 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			13357 7
+		}
+		victory_points = {
+			9205 1
+		}
+		victory_points = {
+			10723 3
+		}
+		add_core_of = VOR
+	}
+
+	provinces = {
+		198 6040 9205 10723 11098 11119 11182 12393 13076 13357
+	}
+	manpower = 141000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

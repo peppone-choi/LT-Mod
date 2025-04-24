@@ -1,0 +1,197 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Map"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Map.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Map_Station_Dot"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Map_Station_Dot.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Map_Expedition_Dot"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Map_Expedition_Dot.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Map_Path"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Map_Path.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAA_Med_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_Decision_GUI_AAA_Med_Button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Bg"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Bg.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Bg_Empty"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Bg_Empty.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Blank"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Blank.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Leal"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Leal.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Giro"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Giro.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Ceppi"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Ceppi.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Ortiz"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Ortiz.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Bulacio"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Bulacio.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Rodriguez"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Rodriguez.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Carrion"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Carrion.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Moreno"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Moreno.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Zacarias"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Zacarias.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Alfonzo"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Alfonzo.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Acosta"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Acosta.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Perez"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Perez.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Britos"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Britos.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Goetz"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Goetz.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Villar"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Villar.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Alvarez"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Alvarez.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Guzman"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Guzman.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Member_Portrait_Pujato"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Member_Portrait_Pujato.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Tech_Icon_1_Asset"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_Decision_GUI_AAA_Tech_Icon_1_Asset.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Tech_Icon_2_Asset"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_Decision_GUI_AAA_Tech_Icon_2_Asset.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Tech_Icon_3_Asset"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_Decision_GUI_AAA_Tech_Icon_3_Asset.dds"
+	}
+	spritetype = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Ground"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Ground.dds"
+		#effectFile = "gfx/FX/buttonstate.lua"
+		#animation = {
+		#	animationmaskfile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Ground.dds"
+		#	animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		#	animationrotation = -90.0
+		#	animationlooping = yes
+		#	animationtime = 15
+		#	animationdelay = 0
+		#	animationblendmode = "add"
+		#	animationtype = "scrolling"
+		#	animationrotationoffset = { x = 0.0 y = 0.0 }
+		#	animationtexturescale = { x = 1.0 y = 1.0 }
+		#}
+	}
+	spritetype = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Snow_Wipe"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Snow_Wipe.dds"
+	}
+	spritetype = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Anim_Border"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Anim_Border.dds"
+	}
+	spritetype = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Snow"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Snow.dds"
+	}
+	spritetype = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Ground_Crack"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Ground_Crack.dds"
+	}
+	spritetype = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Ice_Wall"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Ice_Wall.dds"
+	}
+	spritetype = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Plane"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Plane.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Team_Pose_1"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Team_Pose_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Team_Pose_2"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Team_Pose_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Team_Pose_3"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Team_Pose_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Team_Pose_4"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Team_Pose_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Team_Pose_5"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Team_Pose_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Team_Pose_6"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Team_Pose_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Team_Pose_7"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Team_Pose_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Penguin_L"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Penguin_L.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_AAA_Op90_Incident_Penguin_R"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAA/trail/Antarctica_GUI_AAA_Op90_Incident_Penguin_R.dds"
+	}
+}

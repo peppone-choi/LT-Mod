@@ -1,0 +1,18 @@
+state = {
+	id = 2095
+	name = "STATE_2095"
+	manpower = 1
+	state_category = wasteland
+
+	history = {
+		owner = NZL
+		add_core_of = NZL
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		16385
+	}
+}

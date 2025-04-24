@@ -1,0 +1,33 @@
+state = {
+	id = 2377
+	name = "STATE_2377"
+
+	history = {
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			19503 3
+		}
+		victory_points = {
+			4192 5
+		}
+		victory_points = {
+			19492 5
+		}
+		buildings = {
+			infrastructure = 3
+			prisons = 1
+		}
+		set_variable = { china_state_ref = 20 }
+		set_variable = { china_region_ref = 2 }
+		set_state_flag = state_category_large_town
+	}
+
+	provinces = {
+		19503 4192 19492 7606 19493 12282
+	}
+	manpower = 3326638
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

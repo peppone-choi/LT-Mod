@@ -1,0 +1,20 @@
+state = {
+	id = 2052
+	name = "STATE_2052" # Ellsworth Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
+
+	history = {
+		owner = AAN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17719
+	}
+}

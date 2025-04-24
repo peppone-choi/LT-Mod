@@ -1,0 +1,29 @@
+state = {
+	id = 2113
+	name = "STATE_2113"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = SPA
+		victory_points = { 7203 10 }
+		victory_points = { 18088 3 }
+		victory_points = { 18055 1 }
+		victory_points = { 5046 1 }
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = state_renamings
+		add_core_of = MOR
+		set_state_flag = GDP_regions_morocco
+	}
+
+	provinces = {
+		7203 18088 18055 18060 4022 18057 5046
+	}
+	manpower = 1031124
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

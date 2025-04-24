@@ -1,0 +1,36 @@
+state = {
+	id = 1435
+	name = "STATE_1435"
+	resources = {
+		steel = 98.000
+	}
+
+	history = {
+		owner = MCW
+		add_core_of = MCW
+		victory_points = {
+			3580 10
+		}
+		victory_points = {
+			534 5
+		}
+		victory_points = {
+			580 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			schools = 1
+			thermoelectric_plant = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		457 534 558 580 3291 3554 3580 6254 6304 6330 6355 6543 6577 6603 9260 9328 9542 9579 11244 11310 11526 18312 18313 18325 18329
+	}
+	manpower = 2780973
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

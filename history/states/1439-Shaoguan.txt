@@ -1,0 +1,37 @@
+state = {
+	id = 1439
+	name = "STATE_1439"
+
+	history = {
+		owner = GNG
+		add_core_of = GNG
+		victory_points = {
+			1120 15
+		}
+		victory_points = {
+			1162 5
+		}
+		victory_points = {
+			1202 3
+		}
+		victory_points = {
+			19526 2
+		}
+		set_variable = { china_state_ref = 35 }
+		set_variable = { china_region_ref = 4 }
+		set_state_flag = state_renamings
+		buildings = {
+			prisons = 1
+			thermoelectric_plant = 1
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		1078 1120 1162 1202 7907 9970 12095 19526
+	}
+	manpower = 3782057
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

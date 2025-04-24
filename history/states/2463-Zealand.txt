@@ -1,0 +1,38 @@
+state = {
+	id = 2463
+	name = "STATE_2463"
+
+	history = {
+		owner = DEN
+		victory_points = {
+			6393 4
+		}
+		victory_points = {
+			5621 3
+		}
+		victory_points = {
+			8335 2
+		}
+		victory_points = {
+			3305 2
+		}
+		victory_points = {
+			3260 2
+		}
+		buildings = {
+			infrastructure = 6
+			schools = 2
+			hospitals = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = DEN
+	}
+
+	provinces = {
+		5621 3260 6393 8335 3305
+	}
+	manpower = 1016953
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,35 @@
+state = {
+	id = 2131
+	name = "STATE_2131"
+	resources = {
+		uranium = 8.000
+	}
+
+	history = {
+		owner = AZR
+		victory_points = {
+			4473 2
+		}
+		victory_points = {
+			12434 1
+		}
+		victory_points = {
+			18339 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = AZR
+		set_state_flag = GDP_regions_azerbaijan
+		set_state_flag = GDP_category_large_town
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		18348 12434 18339 4473
+	}
+	manpower = 589980
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

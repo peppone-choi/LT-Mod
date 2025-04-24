@@ -1,0 +1,28 @@
+state = {
+	id = 1009
+	name = "STATE_1009"
+	resources = {
+		uranium = 4.000
+	}
+
+	history = {
+		owner = SPA
+		add_core_of = SPA
+		victory_points = {
+			14317 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_western_sahara
+	}
+
+	provinces = {
+		8035 10779 13219 14317 14320 14343 14361 14365 18007 18034
+	}
+	manpower = 12606
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

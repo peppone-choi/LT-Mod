@@ -1,0 +1,22 @@
+state = {
+	id = 2487
+	name = "STATE_2487"
+	manpower = 2172
+	state_category = small_island
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 2
+			radar_station = 2
+			air_base = 1
+			barracks = 1
+			19978 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		19978
+	}
+}

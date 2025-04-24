@@ -1,0 +1,47 @@
+state = {
+	id = 116
+	name = "STATE_116"
+	resources = {
+		power = 4.000
+	}
+
+	history = {
+		owner = ITA
+		victory_points = {
+			14647 3
+		}
+		victory_points = {
+			656 3
+		}
+		victory_points = {
+			628 8
+		}
+		buildings = {
+			hospitals = 1
+			infrastructure = 4
+			air_base = 3
+			thermoelectric_plant = 1
+			14648 = {
+				bunker = 5
+			}
+			3657 = {
+				bunker = 5
+			}
+			9613 = {
+				bunker = 5
+			}
+		}
+		add_core_of = ITA
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_veneto
+		set_state_flag = GDP_category_large_city
+	}
+
+	provinces = {
+		628 656 3657 9613 14647 14648
+	}
+	manpower = 992789
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

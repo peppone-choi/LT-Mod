@@ -1,0 +1,36 @@
+state = {
+	id = 2144
+	name = "STATE_2144"
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = SWE
+		buildings = {
+			infrastructure = 6
+			prisons = 1
+		}
+		victory_points = {
+			18407 1
+		}
+		victory_points = {
+			18412 1
+		}
+		victory_points = {
+			3375 2
+		}
+		victory_points = {
+			18408 1
+		}
+		add_core_of = SWE
+	}
+
+	provinces = {
+		18408 18407 3063 3375 18412 3286 18419 18421 13095
+	}
+	manpower = 249873
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

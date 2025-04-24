@@ -1,0 +1,332 @@
+characters = {
+	# BRY Ministers
+	BRY_Rinchen_Elbegdorj = {
+		name = BRY_Rinchen_Elbegdorj
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Rinchen_Elbegdorj.dds"
+			}
+		}
+		country_leader= {
+			desc = "POLITICS_Rinchen_Elbegdorj_DESC"
+			ideology = communist_national_communism_subtype
+			traits = {  }
+			expire ="1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = BRY_Rinchen_Elbegdorj_pol
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	BRY_Damdin_Sukhbaatar = {
+		name = BRY_Damdin_Sukhbaatar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Damdin_Sukhbaatar.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = BRY_Damdin_Sukhbaatar_hog
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	BRY_Oscar_Ryvkin = {
+		name = BRY_Oscar_Ryvkin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Oscar_Ryvkin.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = BRY_Oscar_Rivkin_hog
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	BRY_Ardan_Markizov = {
+		name = BRY_Ardan_Markizov
+
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Ardan_Markizov.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = BRY_Ardan_Markizov_for
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Alexander_Shelepin = {
+		name = BRY_Alexander_Shelepin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Alexander_Shelepin.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = BRY_Alexander_Shelepin_sec
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Mikhei_Erbanov = {
+		name = BRY_Mikhei_Erbanov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Mikhei_Erbanov.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = BRY_Mikhei_Erbanov_eco
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Durazhap_Donidon = { # 확인 필요
+		name = BRY_Durazhap_Donidon
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Durazhap_Donidon.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = BRY_Durazhap_Donidon_pol
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Danil_Bolsokhoyev = {
+		name = BRY_Danil_Bolsokhoyev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Danil_Bolsokhoyev.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = BRY_Danil_Bolsokhoyev_eco
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Budazhap_Lobsanov = {
+		name = BRY_Budazhap_Lobsanov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Budazhap_Lobsanov.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = BRY_Budazhap_Lobsanov_eco
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Dashi_Sampilon = {
+		name = BRY_Dashi_Sampilon
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Dashi_Sampilon.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = BRY_Dashi_Sampilon_for
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = BRY_Dashi_Sampilon_eco
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Gunsyn_Tsydenova = {
+		name = BRY_Gunsyn_Tsydenova
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Gunsyn_Tsydenova.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = BRY_Gunsyn_Tsydenova_for
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = BRY_Gunsyn_Tsydenova_eco
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+	}
+
+	BRY_Dorzhi_Tsyrempilon = {
+		name = BRY_Dorzhi_Tsyrempilon
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Dorzhi_Tsyrempilon.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = BRY_Dorzhi_Tsyrempilon_for
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = BRY_Dorzhi_Tsyrempilon_eco
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRY_Badma_Zhabon = {
+		name = BRY_Badma_Zhabon
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Badma_Zhabon.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = BRY_Badma_Zhabon_sec
+			allowed = { original_tag = BRY }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# BRY Generals
+	BRY_Khorloogiin_Choibalsan = {
+		name = BRY_Khorloogiin_Choibalsan
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Khorloogiin_Choibalsan.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRY_Jambyn_Lkhumbe = {
+		name = BRY_Jambyn_Lkhumbe
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Jambyn_Lkhumbe.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRY_Garmajap_Garmayev = {
+		name = BRY_Garmajap_Garmayev
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Garmajap_Garmayev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	BRY_Mikhail_Markheev = {
+		name = BRY_Mikhail_Markheev
+		portraits = {
+			army = {
+				large = "gfx/leaders/BRY/Portrait_BRY_Mikhail_Markheev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+} 

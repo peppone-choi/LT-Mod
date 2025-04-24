@@ -1,0 +1,22 @@
+state = {
+	id = 434
+	name = "STATE_434"
+
+	history = {
+		owner = AZH
+		add_core_of = AZH
+		add_claim_by = IND
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = GDP_regions_assam
+	}
+
+	provinces = {
+		16123 18843 18856 18857
+	}
+	manpower = 104205
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

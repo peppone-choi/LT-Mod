@@ -1,0 +1,32 @@
+state = {
+	id = 1941
+	name = "STATE_1941"
+
+	history = {
+		owner = IND
+		victory_points = {
+			7938 5
+		}
+		victory_points = {
+			5040 4
+		}
+		victory_points = {
+			10332 1
+		}
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_madhya_pradesh
+	}
+
+	provinces = {
+		5040 7938 10332 18950
+	}
+	manpower = 2039605
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

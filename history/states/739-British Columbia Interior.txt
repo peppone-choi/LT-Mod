@@ -1,0 +1,53 @@
+state = {
+	id = 739
+	name = "STATE_739"
+	resources = {
+		oil = 34.000
+	}
+
+	history = {
+		owner = CAN
+		buildings = {
+			barracks = 1
+			infrastructure = 5
+			dockyard = 1
+			radar_station = 3
+			1799 = {
+				naval_base = 1
+			}
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			12571 5
+		}
+		victory_points = {
+			7677 2
+		}
+		victory_points = {
+			7853 1
+		}
+		victory_points = {
+			4343 1
+		}
+		victory_points = {
+			7753 1
+		}
+		victory_points = {
+			1799 1
+		}
+		victory_points = {
+			1411 1
+		}
+		add_core_of = CAN
+		set_state_flag = GDP_regions_british_columbia
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		917 1323 1393 1411 1737 1799 1858 1872 2991 4343 4385 4678 4870 4877 5981 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12508 12571 12578 17172 17227 17231 17235 17236
+	}
+	manpower = 435785
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

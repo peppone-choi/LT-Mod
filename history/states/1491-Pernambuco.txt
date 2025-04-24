@@ -1,0 +1,41 @@
+state = {
+	id = 1491
+	name = "STATE_1491"
+	resources = {
+		uranium = 2.000
+	}
+
+	history = {
+		owner = BRA
+		buildings = {
+			infrastructure = 4
+			5168 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			5168 25
+		}
+		victory_points = {
+			10967 10
+		}
+		victory_points = {
+			1446 10
+		}
+		victory_points = {
+			8227 4
+		}
+		victory_points = {
+			5182 6
+		}
+	}
+
+	provinces = {
+		1446 5168 5182 8227 10345 10967 12961 14773 17458
+	}
+	manpower = 4180601
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

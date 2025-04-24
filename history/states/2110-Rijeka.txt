@@ -1,0 +1,28 @@
+state = {
+	id = 2110
+	name = "STATE_2110"
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			barracks = 1
+			schools = 1
+			infrastructure = 4
+			14649 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 14649 10 }
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_veneto
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		14649 18177
+	}
+	manpower = 128759
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

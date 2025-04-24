@@ -1,0 +1,32 @@
+state = {
+	id = 906
+	name = "STATE_906"
+
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			19757 15
+		}
+		victory_points = {
+			16856 1
+		}
+		set_state_flag = GDP_category_large_town
+		set_state_flag = GDP_regions_qinghai
+		set_variable = { china_state_ref = 42 }
+		set_variable = { china_region_ref = 5 }
+	}
+
+	provinces = {
+		15646 16842 16856 19716 19740 19757
+	}
+	manpower = 1399923
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,529 @@
+spriteTypes = {
+	
+	# temp bug fix
+	spriteType = {
+		name = "GFX_trait_adviser_pickable"
+		texturefile = "gfx/interface/trait_window/trait_adviser_pickable.dds"
+	}
+	#
+	
+	spriteType = {
+		name = GFX_Antarctica
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_ice_sheet"
+		textureFile = "gfx/interface/terrains/terrain_ice_sheet.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_ice_sheet_winter"
+		textureFile = "gfx/interface/terrains/terrain_ice_sheet_winter.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_antarctic_territory_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_antarctic_territory.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_irradiated_icon"
+		textureFile = "gfx/interface/modifiers_irradiated_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctica_grid_gui_crt_icon"
+		textureFile = "gfx/interface/Antarctica_GUI/antarctica_grid_gui_crt_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_antarctica_pert_gui_crt_icon"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAO/pert/antarctica_pert_gui_crt_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = GFX_icicles
+		textureFile = "gfx/interface/Antarctica_GUI/icicles_1.dds"
+	}
+	spriteType = {
+		name = GFX_icicles_flipped
+		textureFile = "gfx/interface/Antarctica_GUI/icicles_2.dds"
+	}
+	spriteType = {
+		name = "GFX_frozen_economy_screen"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/economy.dds"
+	}
+	spriteType = {
+		name = "GFX_frozen_research_screen"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/research.dds"
+	}
+	spriteType = {
+		name = "GFX_frozen_production_top_cover"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/blue_production.dds"
+	}
+	spriteType = {
+		name = "GFX_frozen_production_screen"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/production.dds"
+	}
+	spriteType = {
+		name = "GFX_frozen_intel_screen"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/intel.dds"
+	}
+	spriteType = {
+		name = "GFX_country_selection_screen_WIP_overlay"
+		textureFile = "gfx/interface/country_selection_screen_WIP_overlay.dds"
+	}
+	spriteType = {
+		name = "GFX_frozen_construction_screen"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/construction.dds"
+	}
+	spriteType = {
+		name = "GFX_frozen_deploy_screen"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/deploy.dds"
+	}
+	spriteType = {
+		name = "GFX_construction_sidebar_cover"
+		textureFile = "gfx/interface/Antarctica_GUI/panel_covers/construction_sidebar.dds"
+	}
+	
+	spritetype = {
+		name = "GFX_TNO_Closing_BG"
+		texturefile = "gfx/interface/TNO_Closing_BG.dss"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Antarctica_Territory_Generic_Idea"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/Antarctica_Territory_Generic_Idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_antarctic_anarchy"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAN_Antarctic_Anarchy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AAJ_Nobu_Shirase_Land"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAJ_Nobu_Shirase_Land.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAJ_Nissui"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAJ_Nissui.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAJ_Hogei_no_Chi"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAJ_Hogei_no_Chi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAJ_Shirase_Nobu_Tokubetsu_Konkyochitai"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAJ_Shirase_Nobu_Tokubetsu_Konkyochitai.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AAF_Logistikbasis_Kerguelen_Variant_1"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_Logistikbasis_Kerguelen_Variant_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_Logistikbasis_Kerguelen_Variant_2"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_Logistikbasis_Kerguelen_Variant_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_Logistikbasis_Kerguelen_Variant_3"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_Logistikbasis_Kerguelen_Variant_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AAF_The_Brothers_Cousteau_Variant_1"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_The_Brothers_Cousteau_Variant_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_The_Brothers_Cousteau_Variant_2"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_The_Brothers_Cousteau_Variant_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_The_Brothers_Cousteau_Variant_3"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_The_Brothers_Cousteau_Variant_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAF_The_French_Southern_and_Antarctic_Lands_Variant_2"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_The_French_Southern_and_Antarctic_Lands_Variant_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAF_The_French_Southern_and_Antarctic_Lands_Variant_1"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAF_The_French_Southern_and_Antarctic_Lands_Variant_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAO_McMurdo_Station"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAO_McMurdo_Station.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAO_OFN_Tensions"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAO_OFN_Tensions.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAO_Gunship_Support"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAO_Gunship_Support.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAG_Aircraft_Testing_Site"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAG_Aircraft_Testing_Site.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Precarious_Supply_Situation"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAG_Precarious_Supply_Situation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAG_Alone_in_the_Cold"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAG_Alone_in_the_Cold.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAA_Dreams_Of_The_South_Pole"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Dreams_Of_The_South_Pole.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_War_Legacy"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_War_Legacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Azules_ARG"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Azules_ARG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Colorado_ARG"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Colorado_ARG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Scientific_Brilliance"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Scientific_Brilliance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Scientific_Mediocrity"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Scientific_Mediocrity.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Scientific_Failure"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Scientific_Failure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Op90_Resounding_Success"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Op90_Resounding_Success.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Op90_Nominal_Success"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Op90_Nominal_Success.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Op90_Tragic_Success"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Op90_Tragic_Success.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAA_Op90_Disaster"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAA_Op90_Disaster.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAC_Unrecognized_Antarctic_Claims"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAC_Unrecognized_Antarctic_Claims.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAC_Jealous_Defence"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAC_Jealous_Defence.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AAB_Burgundian_Think_Tank"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAB_Burgundian_Think_Tank.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAB_Vital_Research"
+		texturefile = "gfx/interface/ideas/national_spirits/Antarctica/AAB_Vital_Research.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AAV_Legal_Infallibility"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAV_Legal_Infallibility.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAV_Skeleton_Crew"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAV_Skeleton_Crew.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAV_The_Creeping_Dark"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAV_The_Creeping_Dark.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAR_Misplacement_to_Correct"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAR_Misplacement_to_Correct.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAR_Borrowed_Time"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAR_Borrowed_Time.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAR_Task_Force_Antarctica"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAR_Task_Force_Antarctica.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAI_Distant_Outpost"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAI_Distant_Outpost.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAI_Hooks_Harpoons"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAI_Hooks_Harpoons.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AAI_Kingmaker"
+		textureFile = "gfx/interface/ideas/national_spirits/Antarctica/AAI_Kingmaker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_AAG_Attack_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Attack_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Attack_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Night_Attack_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Night_Attack_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Night_Attack_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Flanking_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Flanking_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Flanking_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Defense_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Defense_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Defense_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Dig_In_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Dig_In_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Dig_In_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Planning_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Planning_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Planning_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Urban_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Urban_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Urban_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_River_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_River_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_River_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Max_Planning_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Max_Planning_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAG_Max_Planning_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Attack_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Attack_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Attack_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Underdog_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Underdog_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Underdog_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Flanking_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Flanking_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Flanking_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Night_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Night_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Night_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Winning_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Winning_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Winning_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Max_Planning_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Max_Planning_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Max_Planning_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Dig_In_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Dig_In_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Dig_In_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Offense_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Offense_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Offense_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Recon_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Recon_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Recon_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Fort_Attack_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Fort_Attack_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Fort_Attack_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Defense_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Defense_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Defense_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Night_River_Crossing_Objective_1"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Night_River_Crossing_Objective_2"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_AAO_Night_River_Crossing_Objective_3"
+		texturefile = "gfx/interface/traits/objective_trait.dds"
+	}
+}

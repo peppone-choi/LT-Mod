@@ -1,0 +1,13 @@
+characters = {
+	# Leaders
+	TAR_Abdulla_Alis = {
+		name = TAR_Abdulla_Alis
+		portraits = { civilian = { large = "gfx/leaders/TAR/Portrait_Tatarstan_Abdulla_Alis.dds" } }
+		country_leader = {
+			desc = "POLITICS_ABDULLA_ALIS_DESC"
+			expire = "1999.1.1.1"
+			ideology = paternalism_social_nationalism_subtype
+			id = -1
+		}
+	}
+}

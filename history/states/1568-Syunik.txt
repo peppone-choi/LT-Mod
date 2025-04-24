@@ -1,0 +1,33 @@
+state = {
+	id = 1568
+	name = "STATE_1568"
+	resources = {
+		steel = 6.000
+		aluminium = 12.000
+	}
+
+	history = {
+		owner = ARM
+		victory_points = {
+			18465 1
+		}
+		victory_points = {
+			4660 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARM
+		add_core_of = AZR
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		4660 6642 18465
+	}
+	manpower = 135142
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

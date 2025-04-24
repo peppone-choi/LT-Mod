@@ -1,0 +1,28 @@
+state = {
+	id = 80
+	name = "STATE_80"
+
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			infrastructure = 3
+			schools = 1
+		}
+		victory_points = {
+			6761 3
+		}
+		victory_points = {
+			9548 10
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		577 3407 6584 6761 9548 11689 18162
+	}
+	manpower = 1670034
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_GUI_Volunteers_HDivider"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_Volunteers/Antarctica_GUI_Volunteers_HDivider.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_GUI_Volunteers_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_Volunteers/Antarctica_GUI_Volunteers_Button.dds"
+	}
+}

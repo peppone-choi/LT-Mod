@@ -1,0 +1,34 @@
+state = {
+	id = 2439
+	name = "STATE_2439"
+
+	resources = {
+		steel = 4
+		tungsten = 14
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9982 2
+		}
+		victory_points = {
+			19685 3
+		}
+		set_state_flag = GDP_regions_hunan
+		set_variable = { china_state_ref = 28 }
+		set_variable = { china_region_ref = 3 }
+	}
+
+	provinces = {
+		11918 19685 9982 7004 19654
+	}
+	manpower = 2243139
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

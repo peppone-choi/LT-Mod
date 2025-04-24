@@ -1,0 +1,279 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_In_Progress"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_In_Progress.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Completed"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Completed.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Button"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_TEST"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_Overlay.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_BO115"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_BO115.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_HO229"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_HO229.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_HOXVIII"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_HOXVIII.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Entry_Pic_ME1110"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Entry_Pic_ME1110.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Bar"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Progressbar_Bar.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Progressbar_Frame.dds"
+		size = { x = 416 y = 31 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Bar_BG"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Progressbar_Frame.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_0"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 0
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_1"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_2"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 2
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_3"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 3
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_4"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 4
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_5"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_6"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 6
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_7"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 7
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_8"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 8
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_9"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 9
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_10"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_11"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 11
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_12"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_13"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 13
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_14"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_15"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Antarctica_GUI_AAG_Nuclear_Icon_16"
+		texturefile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Frames.dds"
+		noOfFrames = 16
+		animation_rate_fps = 16
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Vial_BG"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Vial_BG.dds"
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Vial_Blue_Bar"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Vial_Blue.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Vial_Empty.dds"
+		size = { x = 148 y = 198 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Vial_Red_Bar"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Vial_Red.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Vial_Empty.dds"
+		size = { x = 148 y = 198 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Vial_Green_Bar"
+		textureFile1 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Vial_Green.dds"
+		textureFile2 = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Vial_Empty.dds"
+		size = { x = 148 y = 198 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Dot_Ice_1"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Dot_Ice_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Dot_Ice_2"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Dot_Ice_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Warehouse"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Warehouse.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Box_1"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Box_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Box_2"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Box_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Minus"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Minus.dds"
+	}
+	spriteType = {
+		name = "GFX_Antarctica_Decision_GUI_AAG_Plus"
+		textureFile = "gfx/interface/Antarctica_GUI/Antarctica_GUI_AAG/Antarctica_Decision_GUI_AAG_Plus.dds"
+	}
+}

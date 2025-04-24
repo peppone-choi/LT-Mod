@@ -1,0 +1,40 @@
+state = {
+	id = 2345
+	name = "STATE_2345"
+	resources = {
+		tungsten = 26
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			offices = 1
+			barracks = 1
+		}
+		victory_points = {
+			9942 15
+		}
+		victory_points = {
+			4183 1
+		}
+		victory_points = {
+			19531 3
+		}
+		victory_points = {
+			19594 2
+		}
+		set_state_flag = GDP_regions_jiangxi_ganjiang
+		set_variable = { china_state_ref = 25 }
+		set_variable = { china_region_ref = 3 }
+	}
+
+	provinces = {
+		4183 9942 1053 11945 4081 10112 19594 12030 19531 7199
+	}
+	manpower = 3811780
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

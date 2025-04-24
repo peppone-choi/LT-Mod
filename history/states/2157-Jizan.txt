@@ -1,0 +1,27 @@
+state = {
+	id = 2157
+	name = "STATE_2157"
+
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 3
+			13431 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13431 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13431 18568
+	}
+	manpower = 240230
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

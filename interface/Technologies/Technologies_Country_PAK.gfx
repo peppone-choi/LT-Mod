@@ -1,0 +1,994 @@
+spriteTypes = {
+
+	### INFANTRY EQUIPMENT ###
+
+	SpriteType = {
+		name = "GFX_PAK_infantry_weapons_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_Infantry_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/COM_Infantry_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_58.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_weapons_4_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_68.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_weapons_5_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_78.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_weapons_6_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_88.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/COM_Infantry_AT_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/ENG_Infantry_AT_58.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_AT_68.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_AT_78.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_at5_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_AT_88.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_infantry_aa2_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_AA_62.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_aa4_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_AA_72.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_aa6_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_AA_82.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_infantry_aa8_medium"
+		texturefile = "gfx/interface/technologies/GER_Infantry_AA_88.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_motorized_infantry_medium"
+		texturefile = "gfx/interface/technologies/COM_Motorized_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_motorized_infantry_1_medium"
+		texturefile = "gfx/interface/technologies/COM_Motorized_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_motorized_infantry_2_medium"
+		texturefile = "gfx/interface/technologies/GER_Motorized_62.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_motorized_infantry_3_medium"
+		texturefile = "gfx/interface/technologies/GER_Motorized_74.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_motorized_infantry_4_medium"
+		texturefile = "gfx/interface/technologies/GER_Motorized_86.dds"
+	}
+	
+	### ARTILLERY & ANTIAIR ###
+	
+	SpriteType = {
+		name = "GFX_PAK_artillery_1945_medium"
+		texturefile = "gfx/interface/technologies/COM_Artillery_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_artillery_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_Artillery_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_artillery_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Artillery_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_artillery_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Artillery_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_artillery_1945_medium"
+		texturefile = "gfx/interface/technologies/COM_Artillery_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_artillery_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_Artillery_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_artillery_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Artillery_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_artillery_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Artillery_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_SPART_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_Artillery_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPART_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_Heavy_Artillery_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPART_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Artillery_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPART_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Artillery_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPART_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Artillery_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPART_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Artillery_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_light_SPART_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Light_Artillery_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPART_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_Light_Artillery_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPART_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_Artillery_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPART_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_Artillery_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPART_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_Artillery_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPART_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_Artillery_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_antiair_1945_medium"
+		texturefile = "gfx/interface/technologies/COM_AntiAir_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_antiair_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_AntiAir_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_antiair_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_AntiAir_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_antiair_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_AntiAir_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_antiair_1945_medium"
+		texturefile = "gfx/interface/technologies/COM_AntiAir_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_antiair_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_AntiAir_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_antiair_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_AntiAir_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_antiair_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_AntiAir_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_anti_air_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/COM_AntiAir_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_anti_air_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/COM_AntiAir_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_anti_air_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/GER_AntiAir_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_anti_air_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/GER_AntiAir_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_SPAA_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_AntiAir_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPAA_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_Heavy_AntiAir_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPAA_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_AntiAir_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPAA_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_AntiAir_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPAA_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_AntiAir_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_SPAA_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_AntiAir_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_light_SPAA_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Light_AntiAir_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPAA_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_Light_AntiAir_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPAA_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_AntiAir_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPAA_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_AntiAir_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPAA_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_AntiAir_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_SPAA_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Light_AntiAir_90.dds"
+	}
+	
+	### ARMOR ###
+	
+	SpriteType = {
+		name = "GFX_PAK_MBT_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_MBT_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_MBT_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_MBT_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_MBT_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_MBT_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_MBT_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_MBT_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_MBT_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_MBT_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_MBT_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_MBT_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_MBT_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_MBT_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_MBT_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_MBT_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_MBT_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_IFV_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_IFV_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_IFV_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_IFV_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_IFV_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_IFV_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_IFV_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_IFV_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_90.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PAK_NSB_IFV_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_IFV_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_IFV_1950_medium"
+		texturefile = "gfx/interface/technologies/COM_IFV_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_IFV_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_IFV_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_IFV_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_IFV_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_IFV_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_AC_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_AC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_AC_1950_medium"
+		texturefile = "gfx/interface/technologies/SAF_AC_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_AC_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_AC_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_AC_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_AC_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_AC_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_AC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_AC_1950_medium"
+		texturefile = "gfx/interface/technologies/SAF_AC_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_AC_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_AC_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_AC_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_AC_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_AC_90.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PAK_APC_1945_medium"
+		texturefile = "gfx/interface/technologies/SAF_APC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_APC_1950_medium"
+		texturefile = "gfx/interface/technologies/SAF_APC_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_APC_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_APC_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_APC_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_APC_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_90.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PAK_NSB_APC_1945_medium"
+		texturefile = "gfx/interface/technologies/SAF_APC_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_APC_1950_medium"
+		texturefile = "gfx/interface/technologies/SAF_APC_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_APC_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_APC_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_APC_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_APC_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_APC_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_Heavy_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_Tank_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_Heavy_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_Tank_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_Heavy_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Tank_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_Heavy_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Tank_70.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_heavy_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_Tank_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_heavy_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_Tank_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_heavy_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Tank_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_heavy_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Tank_70.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_heavy_tank_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_Tank_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_tank_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_Heavy_Tank_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_tank_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Tank_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_tank_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/GER_Heavy_Tank_70.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_Superheavy_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Superheavy_Tank_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_Superheavy_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Superheavy_Tank_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_Superheavy_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Superheavy_Tank_60.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_superheavy_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Superheavy_Tank_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_superheavy_1950_medium"
+		texturefile = "gfx/interface/technologies/GER_Superheavy_Tank_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_NSB_superheavy_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Superheavy_Tank_60.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_Superheavy_Artillery_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Superheavy_Artillery_45.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_superheavy_artillery_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Superheavy_Artillery_45.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_Superheavy_Antiair_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Superheavy_Antiair_45.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_NSB_superheavy_antiair_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Superheavy_AntiAir_45.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/ENG_Fighter_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_fighter_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Fighter_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_fighter_1950_medium"
+		texturefile = "gfx/interface/technologies/GER_Fighter_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_fighter_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Fighter_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_fighter_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Fighter_70.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_CAS_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_CAS_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_CAS_1950_medium"
+		texturefile = "gfx/interface/technologies/AST_CAS_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_CAS_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_CAS_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_CAS_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_CAS_70.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_MCA_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_MCA_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_MCA_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_MCA_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_light_stealth_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Stealth_Fighter_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_light_stealth_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Stealth_Fighter_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_interceptor_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Interceptor_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_interceptor_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Interceptor_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_interceptor_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Interceptor_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_interceptor_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Interceptor_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_interceptor_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Interceptor_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_interceptor_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Interceptor_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/ENG_Strategic_Bomber_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_air_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Strategic_Bomber_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_air_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Strategic_Bomber_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_air_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Strategic_Bomber_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_air_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Strategic_Bomber_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_air_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Strategic_Bomber_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_heavy_air_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Strategic_Bomber_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_strat_stealth_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Stealth_Strategic_Bomber_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_strat_stealth_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Stealth_Strategic_Bomber_90.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_stealth_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Stealth_Tactical_Bomber_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_stealth_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Stealth_Tactical_Bomber_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_tac_bomber1_medium"
+		texturefile = "gfx/interface/technologies/ENG_Tactical_Bomber_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_air_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Tactical_Bomber_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_air_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Tactical_Bomber_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_air_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Tactical_Bomber_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_air_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Tactical_Bomber_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_air_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Tactical_Bomber_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_tac_air_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Tactical_Bomber_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_transport_air1_medium"
+		texturefile = "gfx/interface/technologies/COM_Transport_36.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_air_1945_medium"
+		texturefile = "gfx/interface/technologies/COM_Transport_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_air_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Transport_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_air_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_air_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_air_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_air_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_scout_plane_1945_medium"
+		texturefile = "gfx/interface/technologies/ENG_Scout_Plane_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_scout_plane_1950_medium"
+		texturefile = "gfx/interface/technologies/ENG_Scout_Plane_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_scout_plane_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Scout_Plane_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_scout_plane_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Scout_Plane_70.dds"
+	}
+	
+	### HELICOPTER ###
+	
+	SpriteType = {
+		name = "GFX_PAK_very_early_helicopter_medium"
+		texturefile = "gfx/interface/technologies/GER_Very_Early_Heli.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_early_helicopter_medium"
+		texturefile = "gfx/interface/technologies/GER_Early_Heli.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_asw_helicopter_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_ASW_Heli_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_asw_helicopter_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_ASW_Heli_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_asw_helicopter_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_ASW_Heli_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_asw_helicopter_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_ASW_Heli_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_attack_helicopter_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Attack_Heli_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_attack_helicopter_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Attack_Heli_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_attack_helicopter_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Attack_Heli_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_attack_helicopter_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Attack_Heli_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_scout_helicopter_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Scout_Heli_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_scout_helicopter_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Scout_Heli_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_scout_helicopter_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Scout_Heli_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_scout_helicopter_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Scout_Heli_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_transport_helicopter_1960_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_Heli_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_helicopter_1970_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_Heli_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_helicopter_1980_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_Heli_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_transport_helicopter_1990_medium"
+		texturefile = "gfx/interface/technologies/GER_Transport_Heli_90.dds"
+	}
+	
+	### NAVY ###
+	
+	SpriteType = {
+		name = "GFX_PAK_ww2_destroyer_medium"
+		texturefile = "gfx/interface/technologies/ENG_Destroyer_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/ENG_Destroyer_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_ww2_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_ww2_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_Submarine_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_Submarine_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_ww2_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_Carrier_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_Carrier_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_ww2_battleship_medium"
+		texturefile = "gfx/interface/technologies/ENG_Battleship_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_battleship_medium"
+		texturefile = "gfx/interface/technologies/ENG_Battleship_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_ww2_frigate_medium"
+		texturefile = "gfx/interface/technologies/ENG_Frigate_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/ENG_Frigate_50.dds"
+	}
+	
+	### MtG Navy ###
+	
+	SpriteType = {
+		name = "GFX_PAK_early_ship_hull_very_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_Corvette_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_ship_hull_very_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_Corvette_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_Destroyer_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_Destroyer_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_ship_hull_cruiser_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_ship_hull_cruiser_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_ship_hull_cruiser_1_capital_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_ship_hull_cruiser_2_capital_medium"
+		texturefile = "gfx/interface/technologies/ENG_Cruiser_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_Submarine_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_Submarine_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_Carrier_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_Carrier_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ENG_Battleship_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ENG_Battleship_50.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAK_early_ship_hull_more_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_Frigate_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_PAK_basic_ship_hull_more_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_Frigate_50.dds"
+	}
+}

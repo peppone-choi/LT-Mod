@@ -1,0 +1,63 @@
+characters = {
+	OMO_No_Authority = {
+		name = OMO_No_Authority
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OMO/Portrait_Omolon_No_Authority.tga"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+			ideology = socialist_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}
+
+### Don't mind me just putting the Norilsk anarchy here
+characters = {
+	NRL_No_Authority = {
+		name = NRL_No_Authority
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OMO/Portrait_Omolon_No_Authority.tga"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+			ideology = socialist_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	VIL_No_Authority = { # let me slide in Norilsk's friend as well
+		name = VIL_No_Authority
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OMO/Portrait_Omolon_No_Authority.tga"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+			ideology = socialist_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	AAN_No_Authority = { #aunt arctic 
+		name = NRL_No_Authority
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OMO/Portrait_Omolon_No_Authority.tga"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NO_AUTHORITY_SIBERIA_DESC"
+			ideology = socialist_subtype
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}
+

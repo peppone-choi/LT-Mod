@@ -1,0 +1,14 @@
+*.ini
+*.DS_Store
+*__pycache__*
+*missing_quotes.yml
+*.db
+.vscode/settings.json
+drawio_loc.yml
+drawio_focus_tree.txt
+useful_python_programs/drawio_loc.yml
+useful_python_programs/drawio_focus_tree.txt
+useful_python_programs/.idea/*
+useful_python_programs/build/*
+useful_python_programs/input/*
+useful_python_programs/output/*

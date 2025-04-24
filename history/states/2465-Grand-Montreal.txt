@@ -1,0 +1,37 @@
+state = {
+	id = 2465
+	name = "STATE_2465"
+
+	history = {
+		owner = CAN
+		buildings = {
+			thermoelectric_plant = 2
+			schools = 2
+			hospitals = 1
+			barracks = 1
+			offices = 2
+			infrastructure = 8
+			air_base = 2
+		}
+		add_core_of = CAN
+		victory_points = { # Montreal
+			4345 30
+		}
+		victory_points = { # SJSR
+			7345 3
+		}
+		victory_points = { # Laval
+			5834 7
+		}
+		set_state_flag = GDP_regions_quebec
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		4345 5834 7345 17250 17268
+	}
+	manpower = 2450611
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

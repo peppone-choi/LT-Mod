@@ -1,0 +1,29 @@
+state = {
+	id = 2470
+	name = "STATE_2470"
+
+	resources = {
+		#
+	}
+
+	history = {
+		owner = CAN
+		buildings = {
+			radar_station = 4
+			air_base = 1
+		}
+		add_core_of = CAN
+		set_state_flag = GDP_regions_northwest_territories
+		set_state_flag = GDP_category_town
+	}
+
+	impassable = yes
+
+	provinces = {
+		16853 16862 16865 17212
+	}
+	manpower = 110
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

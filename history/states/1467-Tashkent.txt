@@ -1,0 +1,30 @@
+state = {
+	id = 1467
+	name = "STATE_1467"
+
+	history = {
+		owner = UZB
+		victory_points = {
+			18687 30
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			offices = 1
+			hospitals = 1
+			schools = 1
+			thermoelectric_plant = 2
+		}
+		add_core_of = UZB
+		set_demilitarized_zone = yes
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18687
+	}
+	manpower = 964000
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

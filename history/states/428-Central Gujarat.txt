@@ -1,0 +1,36 @@
+state = {
+	id = 428
+	name = "STATE_428"
+
+	history = {
+		owner = IND
+		victory_points = {
+			9975 30
+		}
+		victory_points = {
+			11952 15
+		}
+		victory_points = {
+			18990 4
+		}
+		victory_points = {
+			7165 4
+		}
+		buildings = {
+			infrastructure = 3
+			schools = 1
+			prisons = 1
+		}
+		add_claim_by = AZH
+		add_core_of = IND
+		set_state_flag = GDP_regions_gujarat
+	}
+
+	provinces = {
+		7165 9975 11952 12092 16068 16069 16070 18990
+	}
+	manpower = 7772041
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

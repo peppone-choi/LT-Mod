@@ -1,0 +1,751 @@
+scripted_gui = {
+	Antarctica_GUI_AAG = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAG"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			Antarctica_GUI_AAG_Entry_Button_1_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+					}
+					log = "entry 1 button 1"
+					set_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.10 days = 7 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1001 } # Special Mission 1 - 1 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 1"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+					}
+					log = "entry 2 button 1"
+					set_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.50 days = 16 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1005 } # Special Mission 1 - 5 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 5"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+					}
+					log = "entry 3 button 1"
+					set_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.90 days = 21 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1009 } # Special Mission 1 - 9 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 9"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+					}
+					log = "entry 4 button 1"
+					set_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.130 days = 18 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1013 } # Special Mission 1 - 13 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 13"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+			}
+			Antarctica_GUI_AAG_Entry_Button_2_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+					}
+					log = "entry 1 button 2"
+					set_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.20 days = 20 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1002 } # Special Mission 1 - 2 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 2"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+					}
+					log = "entry 2 button 2"
+					set_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.60 days = 10 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1006 } # Special Mission 1 - 6 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 6"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+					}
+					log = "entry 3 button 2"
+					set_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.100 days = 15 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1010 } # Special Mission 1 - 10 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 10"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+					}
+					log = "entry 4 button 2"
+					set_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.140 days = 10 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1014 } # Special Mission 1 - 14 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 14"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+			}
+			Antarctica_GUI_AAG_Entry_Button_3_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+					}
+					log = "entry 1 button 3"
+					set_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.30 days = 10 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1003 } # Special Mission 1 - 3 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 3"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+					}
+					log = "entry 2 button 3"
+					set_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.70 days = 4 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1007 } # Special Mission 1 - 7 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 7"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+					}
+					log = "entry 3 button 3"
+					set_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.110 days = 14 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1011 } # Special Mission 1 - 11 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 11"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+					}
+					log = "entry 4 button 3"
+					set_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.150 days = 12 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1015 } # Special Mission 1 - 15 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 15"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+			}
+			Antarctica_GUI_AAG_Entry_Button_4_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+					}
+					log = "entry 1 button 4"
+					set_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.40 days = 12 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1004 } # Special Mission 1 - 4 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 4"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+					}
+					log = "entry 2 button 4"
+					set_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.80 days = 16 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1008 } # Special Mission 1 - 8 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 8"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+					}
+					log = "entry 3 button 4"
+					set_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.120 days = 5 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1012 } # Special Mission 1 - 12 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 12"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+				else_if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+					}
+					log = "entry 4 button 4"
+					set_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+					add_to_variable = { Antarctica_Equipment = -8 }
+					country_event = { id = antarctica_aag_testing.160 days = 18 }
+					
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 100 } # 50 days
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Source_Array^Antarctic_Special_Missions_1_AAG_Tile = THIS } # Not the current tile scope, the player's scope
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Scope_Target_Array^Antarctic_Special_Missions_1_AAG_Tile = Antarctica_GUI_Selected_Scope } # The current tile scope, always saved in case it is used to check location
+					set_variable = { global.Antarctica_GUI_Tile_Mission_Id_Array^Antarctic_Special_Missions_1_AAG_Tile = 1016 } # Special Mission 1 - 16 happening in this tile
+					
+					log = "Started by [THIS.GetFlag], Special Mission 1 - 16"
+					
+					add_one_Antarctic_Intelligence_Agent_Used = yes
+				}
+			}
+		}
+		
+		triggers = {
+			Antarctica_GUI_AAG_Entry_In_Progress_visible = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+						has_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+						has_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+						has_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+						has_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+					}
+				}
+			}
+			Antarctica_GUI_AAG_Entry_Completed_visible = {
+				OR = {
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+						has_country_flag = Antarctica_GUI_AAG_Research_1_Completed
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+						has_country_flag = Antarctica_GUI_AAG_Research_2_Completed
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+						has_country_flag = Antarctica_GUI_AAG_Research_3_Completed
+					}
+					AND = {
+						check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+						has_country_flag = Antarctica_GUI_AAG_Research_4_Completed
+					}
+				}
+			}
+			
+			Antarctica_GUI_AAG_Entry_Button_1_click_enabled = {
+				NOT = {
+					OR = {
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_1_Test_1_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_2_Test_1_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_3_Test_1_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_4_Test_1_Done
+							}
+						}
+					}
+				}
+				check_variable = { Antarctic_Intelligence_Agents_Active < Antarctic_Intelligence_Agents_Cap }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 0 } # No active mission
+			}
+			Antarctica_GUI_AAG_Entry_Button_2_click_enabled = {
+				NOT = {
+					OR = {
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_1_Test_2_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_2_Test_2_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_3_Test_2_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_4_Test_2_Done
+							}
+						}
+					}
+				}
+				check_variable = { Antarctic_Intelligence_Agents_Active < Antarctic_Intelligence_Agents_Cap }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 0 } # No active mission
+			}
+			Antarctica_GUI_AAG_Entry_Button_3_click_enabled = {
+				NOT = {
+					OR = {
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_1_Test_3_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_2_Test_3_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_3_Test_3_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_4_Test_3_Done
+							}
+						}
+					}
+				}
+				check_variable = { Antarctic_Intelligence_Agents_Active < Antarctic_Intelligence_Agents_Cap }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 0 } # No active mission
+			}
+			Antarctica_GUI_AAG_Entry_Button_4_click_enabled = {
+				NOT = {
+					OR = {
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 1 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_1_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_1_Test_4_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 2 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_2_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_2_Test_4_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 3 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_3_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_3_Test_4_Done
+							}
+						}
+						AND = {
+							check_variable = { Antarctica_GUI_AAG_Research_Array^Antarctica_GUI_AAG_Research_Array_index = 4 }
+							OR = {
+								has_country_flag = Antarctica_GUI_AAG_Research_4_In_Progress
+								has_country_flag = Antarctica_GUI_AAG_Research_4_Test_4_Done
+							}
+						}
+					}
+				}
+				check_variable = { Antarctic_Intelligence_Agents_Active < Antarctic_Intelligence_Agents_Cap }
+				check_variable = { global.Antarctica_GUI_Tile_Mission_Progress_Array^Antarctic_Special_Missions_1_AAG_Tile = 0 } # No active mission
+			}
+		}
+		
+		properties = {
+			Antarctica_GUI_AAG_Entry_Image = { image = [Antarctica_Decision_GUI_AAG_Entry_Picture] }
+			
+			Antarctica_GUI_AAG_Progress_Bar = {
+				frame = Antarctica_GUI_AAG_Research_Array_Success^Antarctica_GUI_AAG_Research_Array_index
+			}
+		}
+		
+		dynamic_lists = {
+			Antarctica_GUI_AAG_Entries_List = {
+				array = Antarctica_GUI_AAG_Research_Array
+				index = Antarctica_GUI_AAG_Research_Array_index
+				value = Antarctica_GUI_AAG_Research_Array_value
+				change_scope = no
+				entry_container = Antarctica_GUI_AAG_Entry
+			}
+		}
+	}
+	
+	Antarctica_GUI_AAG_Survival = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAG_Survival"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			Antarctica_GUI_AAG_Survival_Supply_Use_Minus_Supply_Change_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount > 0.01 }
+					}
+					add_to_variable = { Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount = -0.01 }
+				}
+			}
+			Antarctica_GUI_AAG_Survival_Supply_Use_Plus_Supply_Change_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount < 0.10 }
+					}
+					add_to_variable = { Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount = 0.01 }
+				}
+			}
+			
+			Antarctica_GUI_AAG_Survival_Supply_Use_Minus_Supply_click = {
+				if = {
+					limit = {
+						set_temp_variable = { underflow_check = Antarctica_AAG_Survival_Supply_Usage }
+						subtract_from_temp_variable = { underflow_check = Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount }
+						
+						check_variable = {
+							var = underflow_check
+							value = 0
+							compare = greater_than_or_equals
+						}
+					}
+					subtract_from_variable = { Antarctica_AAG_Survival_Supply_Usage = Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount }
+				}
+			}
+			Antarctica_GUI_AAG_Survival_Supply_Use_Plus_Supply_click = {
+				if = {
+					limit = {
+						check_variable = { Antarctica_AAG_Survival_Supply_Usage < 2.00 }
+					}
+					add_to_variable = { Antarctica_AAG_Survival_Supply_Usage = Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount }
+				}
+			}
+		}
+		
+		triggers = {
+			Antarctica_GUI_AAG_Survival_Supply_Use_Minus_Supply_Change_click_enabled = {
+				check_variable = { Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount > 0.01 }
+			}
+			Antarctica_GUI_AAG_Survival_Supply_Use_Plus_Supply_Change_click_enabled = {
+				check_variable = { Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount < 0.10 }
+			}
+			Antarctica_GUI_AAG_Survival_Supply_Use_Minus_Supply_click_enabled = {
+				set_temp_variable = { underflow_check2 = Antarctica_AAG_Survival_Supply_Usage }
+				subtract_from_temp_variable = { underflow_check2 = Antarctica_GUI_AAG_Survival_Mech_Adjustment_Amount }
+				
+				check_variable = {
+					var = underflow_check2
+					value = Antarctica_GUI_AAG_Survival_Mech_Min_Use
+					compare = greater_than_or_equals
+				}
+			}
+			Antarctica_GUI_AAG_Survival_Supply_Use_Plus_Supply_click_enabled = {
+				check_variable = {
+					var = Antarctica_AAG_Survival_Supply_Usage
+					value = Antarctica_GUI_AAG_Survival_Mech_Max_Use
+					compare = less_than_or_equals
+				}
+			}
+		
+			Antarctica_GUI_AAG_Warehouse_Box_1_visible = {
+				check_variable = { Antarctica_Equipment > 0 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_2_visible = {
+				check_variable = { Antarctica_Equipment > 5 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_3_visible = {
+				check_variable = { Antarctica_Equipment > 10 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_4_visible = {
+				check_variable = { Antarctica_Equipment > 15 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_5_visible = {
+				check_variable = { Antarctica_Equipment > 20 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_6_visible = {
+				check_variable = { Antarctica_Equipment > 25 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_7_visible = {
+				check_variable = { Antarctica_Equipment > 30 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_8_visible = {
+				check_variable = { Antarctica_Equipment > 35 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_9_visible = {
+				check_variable = { Antarctica_Equipment > 40 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_10_visible = {
+				check_variable = { Antarctica_Equipment > 45 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_11_visible = {
+				check_variable = { Antarctica_Equipment > 50 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_12_visible = {
+				check_variable = { Antarctica_Equipment > 55 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_13_visible = {
+				check_variable = { Antarctica_Equipment > 60 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_14_visible = {
+				check_variable = { Antarctica_Equipment > 65 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_15_visible = {
+				check_variable = { Antarctica_Equipment > 70 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_16_visible = {
+				check_variable = { Antarctica_Equipment > 75 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_17_visible = {
+				check_variable = { Antarctica_Equipment > 80 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_18_visible = {
+				check_variable = { Antarctica_Equipment > 85 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_19_visible = {
+				check_variable = { Antarctica_Equipment > 90 }
+			}
+			Antarctica_GUI_AAG_Warehouse_Box_20_visible = {
+				check_variable = { Antarctica_Equipment > 95 }
+			}
+		}
+		
+		properties = {
+			#Antarctica_GUI_AAG_Survival_Bar = {
+			#	frame = Antarctica_Equipment
+			#}
+		}
+	}
+	
+	Antarctica_GUI_AAG_Nuclear = {
+		context_type = decision_category
+		window_name = "Antarctica_GUI_AAG_Nuclear"
+
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			
+		}
+		
+		triggers = {
+			Antarctica_GUI_AAG_Nuclear_Icon_0_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 0 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_Ice_1_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 0 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_Ice_2_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 0 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_Ice_3_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 0 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_Ice_4_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 0 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_1_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 1 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_2_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 2 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_3_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 3 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_4_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 4 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_5_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 5 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_6_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 6 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_7_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 7 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_8_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 8 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_9_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 9 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_10_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 10 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_11_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 11 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_12_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 12 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_13_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 13 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_14_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 14 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_15_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 15 }
+			}
+			Antarctica_GUI_AAG_Nuclear_Icon_16_visible = {
+				check_variable = { Antarctica_GUI_AAG_Nuclear_FPS = 16 }
+			}
+		}
+		
+		properties = {
+			Antarctica_GUI_AAG_Bar_1 = {
+				frame = Antarctica_GUI_AAG_Nuclear_Electronics
+			}
+			Antarctica_GUI_AAG_Bar_2 = {
+				frame = Antarctica_GUI_AAG_Nuclear_Delivery
+			}
+			Antarctica_GUI_AAG_Bar_3 = {
+				frame = Antarctica_GUI_AAG_Nuclear_Material
+			}
+		}
+	}
+}

@@ -1,0 +1,961 @@
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Aid_Text
+
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_Volunteers_in_GCW
+		}
+		localization_key = Antarctica_GUI_Volunteers_Aid_Text_GCW
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Aid_Text_Normal
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Title_Text
+
+	text = {
+		trigger = {
+			tag = AAG
+		}
+		localization_key = Antarctica_GUI_Volunteers_Title_Text_AAG
+	}
+	text = {
+		trigger = {
+			tag = AAO
+		}
+		localization_key = Antarctica_GUI_Volunteers_Title_Text_AAO
+	}
+	text = {
+		trigger = {
+			tag = AAJ
+		}
+		localization_key = Antarctica_GUI_Volunteers_Title_Text_AAJ
+	}
+	text = {
+		trigger = {
+			tag = AAA
+		}
+		localization_key = Antarctica_GUI_Volunteers_Title_Text_AAA
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Title_Text_Other
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Button_Text
+
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 0 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_1_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_2_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_3_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_4_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_5_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_6_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_7_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_8_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_9_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_10_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_11_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_12_Text
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_13_Text
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_None
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Button_Text_tt
+
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 0 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_1_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 1 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_2_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 2 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_3_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 3 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_4_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 4 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_5_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 5 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_6_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 6 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_7_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 7 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_8_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 8 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_9_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 9 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_10_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 10 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_11_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 11 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_12_Text_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { Antarctica_GUI_Volunteers_Buttons_Grid_Array^i = 12 }
+		}
+		localization_key = Antarctica_GUI_Volunteers_Spend_13_Text_tt
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_None
+	}
+}
+
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Selected_Plane
+
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_MCW_Sent_Ho229
+		}
+		localization_key = Antarctica_GUI_Volunteers_Selected_Plane_Ho229
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_MCW_Sent_MeP1110
+		}
+		localization_key = Antarctica_GUI_Volunteers_Selected_Plane_MeP1110
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_MCW_Sent_Bo115
+		}
+		localization_key = Antarctica_GUI_Volunteers_Selected_Plane_Bo115
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_MCW_Sent_Ho18
+		}
+		localization_key = Antarctica_GUI_Volunteers_Selected_Plane_Ho18
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj1
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					MDG = {
+						has_volunteers_amount_from = {
+							tag = AAG
+							count > 0
+						}
+					}
+					AAG = { has_country_flag = Antarctica_MCW_Defense_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_1
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					MDG = {
+						has_volunteers_amount_from = {
+							tag = AAG
+							count > 0
+						}
+					}
+					AAG = { has_country_flag = Antarctica_MCW_Attack_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_2
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					OR = {
+						GGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+						BGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+						SGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+					}
+					AAG = { has_country_flag = Antarctica_GCW_Urban_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_3
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						MLY = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_MLY_Attack_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_4
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						MAD = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_MCW_Night_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_5
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						SPH = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_PCW_Dig_In_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_6
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						SAF = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_SAW_Fort_Attack_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_7
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAA
+					OR = {
+						IME = {
+							has_volunteers_amount_from = {
+								tag = AAA
+								count > 0
+							}
+						}
+					}
+					AAA = { has_country_flag = Antarctica_ITW_Attack_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj1_8
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_None
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj2
+	
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					MDG = {
+						has_volunteers_amount_from = {
+							tag = AAG
+							count > 0
+						}
+					}
+					AAG = { has_country_flag = Antarctica_MCW_Dig_In_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_1
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					MDG = {
+						has_volunteers_amount_from = {
+							tag = AAG
+							count > 0
+						}
+					}
+					AAG = { has_country_flag = Antarctica_MCW_Night_Attack_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_2
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					OR = {
+						GGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+						BGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+						SGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+					}
+					AAG = { has_country_flag = Antarctica_GCW_River_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_3
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						MLY = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_MLY_Underdog_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_4
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						MAD = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_MCW_Winning_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_5
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						SPH = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_PCW_Offense_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_6
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						SAF = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_SAW_Defense_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_7
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAA
+					OR = {
+						IME = {
+							has_volunteers_amount_from = {
+								tag = AAA
+								count > 0
+							}
+						}
+					}
+					AAA = { has_country_flag = Antarctica_ITW_Night_Attack_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj2_8
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_None
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj3
+	
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					MDG = {
+						has_volunteers_amount_from = {
+							tag = AAG
+							count > 0
+						}
+					}
+					AAG = { has_country_flag = Antarctica_MCW_Planning_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_1
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					MDG = {
+						has_volunteers_amount_from = {
+							tag = AAG
+							count > 0
+						}
+					}
+					AAG = { has_country_flag = Antarctica_MCW_Flanking_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_2
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAG
+					OR = {
+						GGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+						BGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+						SGR = {
+							has_volunteers_amount_from = {
+								tag = AAG
+								count > 0
+							}
+						}
+					}
+					AAG = { has_country_flag = Antarctica_GCW_Max_Planning_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_3
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						MLY = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_MLY_Flanking_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_4
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						MAD = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_MCW_Max_Planning_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_5
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						SPH = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_PCW_Recon_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_6
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAO
+					OR = {
+						SAF = {
+							has_volunteers_amount_from = {
+								tag = AAO
+								count > 0
+							}
+						}
+					}
+					AAO = { has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_7
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					tag = AAA
+					OR = {
+						IME = {
+							has_volunteers_amount_from = {
+								tag = AAA
+								count > 0
+							}
+						}
+					}
+					AAA = { has_country_flag = Antarctica_ITW_Flanking_Objective }
+				}
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj3_8
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_None
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj1_Checkbox_tt
+	
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = Antarctica_MCW_Attack_Objective
+				has_country_flag = Antarctica_MCW_Defense_Objective
+				has_country_flag = Antarctica_GCW_Urban_Objective
+				has_country_flag = Antarctica_MLY_Attack_Objective
+				has_country_flag = Antarctica_MCW_Night_Objective
+				has_country_flag = Antarctica_PCW_Dig_In_Objective
+				has_country_flag = Antarctica_SAW_Fort_Attack_Objective
+				has_country_flag = Antarctica_ITW_Attack_Objective
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_blank
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj1_Checkbox_tt_delayed
+	
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = Antarctica_MCW_Attack_Objective
+				has_country_flag = Antarctica_MCW_Defense_Objective
+				has_country_flag = Antarctica_GCW_Urban_Objective
+				has_country_flag = Antarctica_MLY_Attack_Objective
+				has_country_flag = Antarctica_MCW_Night_Objective
+				has_country_flag = Antarctica_PCW_Dig_In_Objective
+				has_country_flag = Antarctica_SAW_Fort_Attack_Objective
+				has_country_flag = Antarctica_ITW_Attack_Objective
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_delayed
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_blank
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj2_Checkbox_tt
+	
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = Antarctica_MCW_Night_Attack_Objective
+				has_country_flag = Antarctica_MCW_Dig_In_Objective
+				has_country_flag = Antarctica_GCW_River_Objective
+				has_country_flag = Antarctica_MLY_Underdog_Objective
+				has_country_flag = Antarctica_MCW_Winning_Objective
+				has_country_flag = Antarctica_PCW_Offense_Objective
+				has_country_flag = Antarctica_SAW_Defense_Objective
+				has_country_flag = Antarctica_ITW_Night_Attack_Objective
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_blank
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj2_Checkbox_tt_delayed
+	
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = Antarctica_MCW_Night_Attack_Objective
+				has_country_flag = Antarctica_MCW_Dig_In_Objective
+				has_country_flag = Antarctica_GCW_River_Objective
+				has_country_flag = Antarctica_MLY_Underdog_Objective
+				has_country_flag = Antarctica_MCW_Winning_Objective
+				has_country_flag = Antarctica_PCW_Offense_Objective
+				has_country_flag = Antarctica_SAW_Defense_Objective
+				has_country_flag = Antarctica_ITW_Night_Attack_Objective
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_delayed
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_blank
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj3_Checkbox_tt
+	
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = Antarctica_MCW_Flanking_Objective
+				has_country_flag = Antarctica_MCW_Planning_Objective
+				has_country_flag = Antarctica_GCW_Max_Planning_Objective
+				has_country_flag = Antarctica_MLY_Flanking_Objective
+				has_country_flag = Antarctica_MCW_Max_Planning_Objective
+				has_country_flag = Antarctica_PCW_Recon_Objective
+				has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective
+				has_country_flag = Antarctica_ITW_Flanking_Objective
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_blank
+	}
+}
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Obj3_Checkbox_tt_delayed
+	
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = Antarctica_MCW_Flanking_Objective
+				has_country_flag = Antarctica_MCW_Planning_Objective
+				has_country_flag = Antarctica_GCW_Max_Planning_Objective
+				has_country_flag = Antarctica_MLY_Flanking_Objective
+				has_country_flag = Antarctica_MCW_Max_Planning_Objective
+				has_country_flag = Antarctica_PCW_Recon_Objective
+				has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective
+				has_country_flag = Antarctica_ITW_Flanking_Objective
+			}
+		}
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_delayed
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_Checkbox_tt_blank
+	}
+}
+
+defined_text = {
+	name = get_Antarctica_GUI_Volunteers_Details_Text_Composition
+	
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_flag = Antarctica_AAG_Division_Add_AntiArmor
+					has_country_flag = Antarctica_AAG_Division_Add_Artillery
+					has_country_flag = Antarctica_AAG_Division_Add_Troops
+				}
+			}
+			tag = AAG
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAG_MCW
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_Division_Add_AntiArmor
+			tag = AAG
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAG_GCW_AAAT
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_Division_Add_Artillery
+			tag = AAG
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAG_GCW_Artillery
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAG_Division_Add_Troops
+			tag = AAG
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAG_GCW_Troops
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAO_Volunteers_in_MLY
+			tag = AAO
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAO_MLY_Troops
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAO_Volunteers_in_MCW
+			tag = AAO
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAO_MCW_Troops
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAO_Volunteers_in_PCW
+			tag = AAO
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAO_PCW_Troops
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAO_Volunteers_in_SAW
+			tag = AAO
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAO_SAW_Troops
+	}
+	text = {
+		trigger = {
+			has_country_flag = Antarctica_AAA_Volunteers_in_ITW
+			tag = AAA
+		}
+		localization_key = Antarctica_GUI_Volunteers_Details_Text_Composition_AAA_ITW_Troops
+	}
+	text = {
+		localization_key = Antarctica_GUI_Volunteers_Obj_None
+	}
+}

@@ -1,0 +1,585 @@
+guiTypes = {
+
+	extendedScrollbarType = {
+		name = "right_vertical_slider_USFI"
+		position = { x = -12 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x =-17 y = -19}
+		}
+	}
+	
+	extendedScrollbarType = {
+		name = "bottom_horizontal_slider_USFI"
+		position = { x = 0 y = -14 }
+		size = { width = 18 height = 18 }
+		tileSize = { width = 12 height = 12}
+		maxValue = 1
+		minValue = 0
+		stepSize = 0.01
+		startValue = 0
+		horizontal = yes
+		orientation = lower_left
+		origo = lower_left
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_horisontal_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = 0 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track_horisontal"
+			position = { x = 0 y = 3 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_left"
+			position = { x = 3 y = 1 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_right"
+			position = { x =-19 y = -17 }
+		}
+	}
+
+	containerWindowType = {
+		name = "USFI_Air_Support_GUI_Opener"
+		size = { width = 220 height = 128 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "USFI_Air_Support_GUI_Open_Button"
+			spriteType = "GFX_USFI_Groovy"
+			position = { x = 238 y = 36 }
+			scale = 0.65
+		}
+	}
+	
+	containerWindowType = {
+		name = "USFI_Air_Support_GUI_Title_Window"
+		size = { width = 400 height = 395 }
+		position = { x = 541 y = 78 }
+		moveable = yes
+
+		background = {
+			name = "USFI_Air_Support_GUI_Title_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_Title_Begin_Game"
+			quadTextureSprite = "GFX_SGR_state_info_button"
+			position = { x = 15 y = 200 }
+			buttonFont = "aldrich_24_outline"
+			text = [USFI_Air_Support_GUI_Title_Begin_Game_Text]
+		}
+		
+		iconType = {
+			name = "GFX_USFI_Air_Support_GUI_Title"
+			spriteType = "GFX_USFI_Air_Support_GUI_Title"
+			position = { x = 0 y = -100 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "GFX_USFI_Air_Support_GUI_Title_Info_Text"
+			position = { x = 10 y = 265 }
+			font = "aldrich_22_outline"
+			text = GFX_USFI_Air_Support_GUI_Title_Info_Text
+			maxWidth = 380
+			format = center
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_close_button"
+			position = { x = -31 y = 12 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = upper_right
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_info_button"
+			position = { x = -31 y = 33 }
+			quadTextureSprite = "GFX_USFI_Air_Support_GUI_Info_Button"
+			Orientation = upper_right
+			pdx_tooltip = USFI_Air_Support_GUI_Info
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_HS_button"
+			position = { x = -31 y = 54 }
+			quadTextureSprite = "GFX_USFI_Air_Support_GUI_HS_Button"
+			Orientation = upper_right
+			#pdx_tooltip = USFI_Air_Support_GUI_HS
+		}
+	}
+	
+	containerWindowType = {
+		name = "USFI_Air_Support_GUI"
+		size = { width = 100% height = 100% }
+		position = { x = 0 y = 0 }
+		show_position = { x = 0 y = 0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400
+
+		background = { # This window holds non-moving objects, and provides a window to keep the scrollbar window from changing size due to the margin = { }
+			name = "USFI_Air_Support_GUI_Transparent_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		containerWindowType = {
+			name = "USFI_Air_Support_GUI_Gameplay_Area"
+			size = { width = 100% height = 100% }
+			position = { x = 0 y = 0 }
+			horizontalScrollbar = "bottom_horizontal_slider_Antarctica_GUI_Large"
+			verticalScrollbar = "right_vertical_slider_Antarctica_GUI_Large"
+			margin = { top = 12 bottom = 14 left = 14 right = 29 }
+		
+			background = { # This window is for the scrollbars, and has the actual background texture
+				name = "USFI_Air_Support_GUI_Main_bg"
+				quadTextureSprite = "GFX_tiled_window_thin_border2"
+			}
+			
+			containerWindowType = { # This window is for gameplay objects
+				name = "USFI_Air_Support_GUI_Objects_Area"
+				size = { width = 3840 height = 2160 }
+				position = { x = 0 y = 0 }
+				
+				background = {
+					name = "USFI_Air_Support_GUI_Gameplay_Area_bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+				}
+				
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_1"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_2"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_3"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_4"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_5"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_6"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_7"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_8"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_9"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_10"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_11"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_12"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_13"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_14"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_15"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_16"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_17"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_18"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_19"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_20"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_21"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_22"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_23"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Infantry_24"
+					spriteType = "GFX_USFI_Air_Support_GUI_Infantry"
+					position = { x = 0 y = 0 }
+				}
+				
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_1"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_2"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_3"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_4"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_5"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_6"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_7"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_8"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_9"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_10"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_11"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Tank_12"
+					spriteType = "GFX_USFI_Air_Support_GUI_Tank"
+					position = { x = 0 y = 0 }
+				}
+				
+				### Background Art Asset, covers infantry and tanks
+				iconType = {
+					name = "USFI_Air_Support_GUI_Gameplay_bg"
+					spriteType = "GFX_USFI_Air_Support_GUI_Gameplay_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				### Background Art Asset, covers infantry and tanks
+				
+				iconType = {
+					name = "USFI_Air_Support_GUI_Heli_1"
+					spriteType = "GFX_USFI_Air_Support_GUI_Heli"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Heli_2"
+					spriteType = "GFX_USFI_Air_Support_GUI_Heli"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Heli_3"
+					spriteType = "GFX_USFI_Air_Support_GUI_Heli"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Heli_4"
+					spriteType = "GFX_USFI_Air_Support_GUI_Heli"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Heli_5"
+					spriteType = "GFX_USFI_Air_Support_GUI_Heli"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "USFI_Air_Support_GUI_Heli_6"
+					spriteType = "GFX_USFI_Air_Support_GUI_Heli"
+					position = { x = 0 y = 0 }
+				}
+				
+				iconType = {
+					name = "USFI_Air_Support_GUI_SAM"
+					spriteType = "GFX_USFI_Air_Support_GUI_SAM"
+					position = { x = 0 y = 0 }
+				}
+			}
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_end_game_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_blank"
+			shortcut = "SPACE"
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_Gameplay_25MM"
+			quadTextureSprite = "GFX_USFI_Air_Support_GUI_Gun_Button"
+			position = { x = 14 y = 50 }
+			buttonFont = "aldrich_24_outline"
+			text = [USFI_Air_Support_GUI_25MM_Text]
+			multiline = yes
+			frame = 1
+			shortcut = "1"
+		}
+		iconType = {
+			name = "USFI_Air_Support_GUI_Gameplay_25MM_Ammo_Text_bg"
+			spriteType = "GFX_USFI_Air_Support_GUI_Gun_Text_bg"
+			position = { x = 146 y = 108 }
+		}
+		instantTextboxType = {
+			name = "USFI_Air_Support_GUI_Gameplay_25MM_Ammo"
+			position = { x = 150 y = 108 }
+			font = "aldrich_24_outline"
+			text = [USFI_Air_Support_GUI_25MM_Ammo_Text]
+			format = left
+			maxWidth = 250
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_Gameplay_40MM"
+			quadTextureSprite = "GFX_USFI_Air_Support_GUI_Gun_Button"
+			position = { x = 14 y = 150 }
+			buttonFont = "aldrich_24_outline"
+			text = [USFI_Air_Support_GUI_40MM_Text]
+			multiline = yes
+			frame = 1
+			shortcut = "2"
+		}
+		iconType = {
+			name = "USFI_Air_Support_GUI_Gameplay_40MM_Ammo_Text_bg"
+			spriteType = "GFX_USFI_Air_Support_GUI_Gun_Text_bg"
+			position = { x = 146 y = 208 }
+		}
+		instantTextboxType = {
+			name = "USFI_Air_Support_GUI_Gameplay_40MM_Ammo"
+			position = { x = 150 y = 208 }
+			font = "aldrich_24_outline"
+			text = [USFI_Air_Support_GUI_40MM_Ammo_Text]
+			format = left
+			maxWidth = 250
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_Gameplay_105MM"
+			quadTextureSprite = "GFX_USFI_Air_Support_GUI_Gun_Button"
+			position = { x = 14 y = 250 }
+			buttonFont = "aldrich_24_outline"
+			text = [USFI_Air_Support_GUI_105MM_Text]
+			multiline = yes
+			frame = 1
+			shortcut = "3"
+		}
+		iconType = {
+			name = "USFI_Air_Support_GUI_Gameplay_105MM_Ammo_Text_bg"
+			spriteType = "GFX_USFI_Air_Support_GUI_Gun_Text_bg"
+			position = { x = 146 y = 308 }
+		}
+		instantTextboxType = {
+			name = "USFI_Air_Support_GUI_Gameplay_105MM_Ammo"
+			position = { x = 150 y = 308 }
+			font = "aldrich_24_outline"
+			text = [USFI_Air_Support_GUI_105MM_Ammo_Text]
+			format = left
+			maxWidth = 250
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "USFI_Air_Support_GUI_Score"
+			position = { x = 42 y = 10 }
+			font = "aldrich_36_outline"
+			text = USFI_Air_Support_GUI_Score_Text
+			maxWidth = 1000
+			format = left
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "USFI_Air_Support_GUI_Health_Bar"
+			spriteType = "GFX_USFI_Air_Support_GUI_Health_Bar"
+			position = { x = 156 y = 51 }
+		}
+		
+		iconType = {
+			name = "USFI_Air_Support_GUI_Health_Bar_Frame"
+			spriteType = "GFX_USFI_Air_Support_GUI_Health_Bar_Frame"
+			position = { x = 154 y = 50 }
+			pdx_tooltip = "USFI_Air_Support_GUI_Life_Text"
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_close_button"
+			position = { x = 14 y = 12 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = upper_left
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		instantTextboxType = {
+			name = "USFI_Air_Support_GUI_Level_Up_Notif_Text"
+			position = { x = 500 y = 60 }
+			font = "vt323_72_WT_outline"
+			text = USFI_Air_Support_GUI_Level_Up_Notif_Text
+			format = center
+			maxWidth = 250
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "USFI_Air_Support_GUI_Level_Up_Notif_SAM_Text"
+			position = { x = 260 y = 60 }
+			font = "vt323_72_WT_outline"
+			text = USFI_Air_Support_GUI_Level_Up_Notif_SAM_Text
+			format = center
+			maxWidth = 250
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "USFI_Air_Support_GUI_AI_Window"
+		position = { x = 1050 y = 0 }	
+		size = { width = 150 height = 150 }
+		
+		background = {
+			name = "USFI_Air_Support_GUI_AI_Window_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		buttonType = {
+			name = "USFI_Air_Support_GUI_AI_Window_Button"
+			quadTextureSprite = "GFX_USFI_Air_Support_GUI_Gun_Button"
+			position = { x = 10 y = 34 }
+			frame = 2
+			buttonFont = "aldrich_16_outline"
+			text = "USFI Air Support Hourly Tick"
+			multiline = yes
+		}	
+	}
+}

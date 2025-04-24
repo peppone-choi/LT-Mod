@@ -1,0 +1,49 @@
+state = {
+	id = 202
+	name = "STATE_202"
+	resources = {
+		aluminium = 4.000
+		oil = 6.000
+	}
+
+	history = {
+		owner = UKR
+		victory_points = {
+			504 3
+		}
+		victory_points = {
+			3494 2
+		}
+		victory_points = {
+			11454 5
+		}
+		victory_points = {
+			11424 5
+		}
+		victory_points = {
+			11557 1
+		}
+		victory_points = {
+			15809 1
+		}
+		victory_points = {
+			11438 1
+		}
+		buildings = {
+			thermoelectric_plant = 1
+			offices = 1
+			infrastructure = 4
+			air_base = 8
+		}
+		set_state_flag = universal_renamings
+		add_core_of = UKR
+	}
+
+	provinces = {
+		504 3494 3543 6497 9451 9465 9543 9568 11424 11438 11454 11530 11557 14532 15658 15809 15820 18219 18223 18225 18232 18235 18239
+	}
+	manpower = 2734557
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

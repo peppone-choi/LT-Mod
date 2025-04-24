@@ -1,0 +1,35 @@
+state = {
+	id = 39
+	name = "STATE_39"
+	resources = {
+		aluminium = 22.000
+		power = 6
+	}
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			prisons = 1
+			barracks = 1
+			radar_station = 1
+			infrastructure = 4
+			6675 = { bunker = 5 }
+			9630 = { bunker = 5 }
+			11615 = { bunker = 5 }
+		}
+		victory_points = { 14646 8 }
+		victory_points = { 9598 7 }
+		victory_points = { 9630 3 }
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_large_city
+		set_state_flag = GDP_regions_veneto
+	}
+
+	provinces = {
+		6631 6675 9598 9630 11598 11615 14646
+	}
+	manpower = 786156
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

@@ -1,0 +1,21 @@
+state = {
+	id = 1973 #Europe's Most Wanted
+	name = "STATE_1973"
+
+	history = {
+		owner = MAD
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13683 15961 15962 15963 19184
+	}
+	manpower = 81296
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

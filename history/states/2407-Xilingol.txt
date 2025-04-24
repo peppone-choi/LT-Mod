@@ -1,0 +1,30 @@
+state = {
+	id = 2407
+	name = "STATE_2407"
+	resources = {
+		chromium = 8.000
+	}
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10372 1
+		}
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_chahar_suiyuan
+		set_variable = { china_state_ref = 54 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		1551 1608 1796 1811 1871 4222 4555 4612 4655 4873 7578 7648 10363 10372 11752 12448 12554 12629 16706 16835 17217
+	}
+	manpower = 64309
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

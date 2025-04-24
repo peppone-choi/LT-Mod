@@ -1,0 +1,238 @@
+capital = 458
+
+recruit_character = TUN_Muhammad_VIII
+recruit_character = TUN_Mohamed_Ennafaa
+recruit_character = TUN_Habib_Bourguiba
+recruit_character = TUN_Georges_Adda
+recruit_character = TUN_Mohamed_Habib_Essoussi
+recruit_character = TUN_Hedi_Nouira
+recruit_character = TUN_Salah_Farhat
+recruit_character = TUN_Enrico_Bombieri
+recruit_character = TUN_Habib_Thameur
+recruit_character = TUN_Mustapha_Kaak
+recruit_character = TUN_Mohamed_Chenik
+
+set_cosmetic_tag = TUN_ITA
+
+set_research_slots = 2
+set_convoys = 50
+oob = "TUN_1962"
+add_manpower = 12000
+
+#Italian endo/exo
+set_country_flag = italian_names
+
+add_ideas = {
+	### Faction Status ###
+	TRI_Member_Client
+
+	### NatSpirits ###
+	TUN_the_second_treaty_of_bardo
+	TUN_destour_hegemony
+	TUN_the_italo_tunisians
+	ITA_idea_colonial_government
+
+	### Ministers ###
+	TUN_Habib_Thameur_hog
+	TUN_Mustapha_Kaak_for
+	TUN_Mohamed_Chenik_eco
+	TUN_Mohamed_Habib_Essoussi_sec
+
+	### Political Laws ###
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_pluralism
+	tno_trade_unions_state_controlled
+	tno_immigration_quota_immigration
+	tno_slavery_outlawed
+	tno_public_meetings_regulated
+	tno_press_rights_state_press_only
+	tno_vote_franchise_elite_voting
+
+	### Military Laws ###
+	tno_conscription_service_by_requirement
+	tno_military_supervision_rules_of_engagement
+	tno_training_basic_training
+	tno_draft_exemptions_civil_service_deferment
+
+	### Economy Laws ###
+	tno_trade_laws_export_focus
+	tno_income_taxation_low_income_weighted
+	tno_minimum_wage_acceptable_minimum
+	tno_max_workhours_10_hour_work_day
+	tno_pensions_acceptable_pensions
+	tno_unemployment_moderate_subsidies
+	tno_regulations_moderate_regulations
+
+	### Social Laws ###
+	tno_health_care_low_income_protections
+	tno_education_public_education
+	tno_penal_system_incarceration
+	tno_gender_rights_women_in_the_workplace
+	tno_security_maintenance_of_order
+
+	### Misc Laws ###
+	tno_pollution_some_regulations
+	tno_safety_acceptable_regulations
+	tno_child_labor_illegal
+	tno_refugees_skilled
+	tno_racial_integration_integrated_military
+	tno_women_military_assistance
+	tno_minorities_equal_rights
+	tno_lgbt_rights_lgbt_outlawed
+
+	### Societal Development ###
+	tno_army_professionalism_cronyism
+	tno_industrial_expertise_nascent
+	tno_industrial_equipment_power_tools
+	tno_admin_efficiency_functional_administrative_systems
+	tno_healthcare_nascent
+	tno_agriculture_basic_mechanized
+	tno_research_facilities_outdated
+	tno_academic_base_basic_literacy
+}
+
+set_technology = {
+	basic_train = 1
+
+	##INFANTRY##
+	infantry_weapons_1 = 1
+	night_vision_1 = 1
+	
+	infantry_kit_1 = 1
+	infantry_weapons_2 = 1
+	night_vision_2 = 1
+	infantry_kit_2 = 1
+	infantry_weapons_improvements_mine_1 = 1
+	infantry_kit_3 = 1
+	infantry_weapons_improvements_ammo_1 = 1
+	infantry_weapons_improvements_grenade_1 = 1
+	#
+	infantry_weapons_3 = 1
+	night_vision_3 = 1
+	infantry_kit_4 = 1
+	basic_infantry_equipment = 1
+	support_weapons = 1
+	support_weapons_hmg_1 = 1
+	combat_support_equipment_1 = 1
+	
+	support_weapons_arty_1 = 1
+	infantry_at = 1
+	infantry_at_upgrade_1 = 1
+	
+	motorized_infantry = 1
+	motorized_rocket_unit = 1
+	motorized_infantry_1 = 1
+	marines = 1
+	#
+	tech_special_forces = 1
+
+	##SUPPORT##
+	tech_support = 1
+	tech_engineers = 1
+	assault_weapons_1 = 1
+	tech_engineers2 = 1
+	assault_weapons_2 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_logistics_company = 1
+
+	##ARMOR##
+	IFV_1945 = 1
+	MBT_1945 = 1
+	APC_1945 = 1
+	MBT_1950 = 1
+	MBT_1950_basic_turret = 1
+	AC_1945 = 1
+
+	##ARTY##
+	antiair_1945 = 1
+	antiair_1950 = 1
+	artillery_1945 = 1
+	artillery_1950 = 1
+	artillery_1950_soft_attack = 1
+	SPART_1950 = 1
+	SPART_1950_soft_attack = 1
+	#SPART_1950_speed = 1
+
+	##NAVAL##
+	ww2_destroyer = 1
+	ww2_cruiser = 1
+	transport = 1
+
+	##HELICOPTERS##
+	very_early_helicopter = 1
+	early_helicopter = 1
+
+	##LIGHT AIR##
+	early_fighter = 1
+	interceptor_1945 = 1
+	fighter_1945 = 1
+	fighter_1950 = 1
+
+	##HEAVY AIR##
+	tac_bomber1 = 1
+	tac_air_1945 = 1
+	strategic_bomber1 = 1
+	heavy_air_1945 = 1
+	heavy_air_1950 = 1
+	transport_air1 = 1
+	transport_air_1945 = 1
+
+	##ENGINEERING##
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_encryption = 1
+	advanced_computing_machine = 1
+	advanced_encryption = 1
+	computing_machine_1950 = 1
+	helicopter_engines = 1
+	jet_engines = 1
+	jet_engines_bombers = 1
+
+	##INDUSTRY##
+	ww2_line_production = 1
+	mass_production_1 = 1
+	building_construction_1 = 1
+	consumer_goods_reduction_1 = 1
+	energy_technology_1 = 1
+	social_construction_1 = 1
+	resource_extraction_methods = 1
+	excavation0 = 1
+	administration_construction_1 = 1
+	excavation1 = 1
+	military_construction_1 = 1
+	batch_production_1 = 1
+}
+
+every_owned_state = {
+	TUN = { give_resource_rights = { receiver = ITA state = PREV resources = { aluminium rubber tungsten steel chromium } } }
+}
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 0
+	ultranationalism = 0
+	socialist = 10
+	progressivism = 0
+	liberalism = 10
+	conservatism = 15
+	paternalism = 0
+	despotism = 55
+	fascism = 10
+}
+
+#econtype
+set_variable = { TNO_economy_type = token:Econ_Type_Capitalism }
+set_variable = { TNO_economy_subtype = token:Econ_Subtype_Colonial_Economy_Free_Market }

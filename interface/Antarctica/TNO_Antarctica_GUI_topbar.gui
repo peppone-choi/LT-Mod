@@ -1,0 +1,35 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_Topbar"
+		size = { width = 0 height = 0 }
+		position = { x = 6 y = 0 }
+
+		iconType = {
+			name = "Antarctica_GUI_Topbar_Personnel_BG"
+			spriteType = "GFX_generic_box_96"
+			position = { x = 319 y = 5 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = Antarctica_GUI_Topbar_Personnel_tt
+		}
+
+		iconType = {
+			name = "Antarctica_GUI_Topbar_Personnel_Icon"
+			spriteType = "GFX_manpower_icon"
+			position = { x = 317 y = 4 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Antarctica_GUI_Topbar_Personnel_Value"
+			position = { x = 336 y = 8 }
+			font = "aldrich_22_outline"
+			text = "[?Antarctica_Active_Personnel]"
+			format = center
+			maxWidth = 77
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+}

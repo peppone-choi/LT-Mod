@@ -1,0 +1,32 @@
+state = {
+	id = 190
+	name = "STATE_190"
+
+	history = {
+		owner = OST
+		victory_points = {
+			6342 5
+		}
+		victory_points = {
+			14599 1
+		}
+		victory_points = {
+			14591 1
+		}
+		buildings = {
+			infrastructure = 5
+			prisons = 1
+		}
+		add_core_of = OST
+		set_state_flag = GDP_regions_latvia
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		265 1250 3255 6342 11358 14586 14591 14599 15686
+	}
+	manpower = 348161
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

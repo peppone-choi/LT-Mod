@@ -1,0 +1,36 @@
+state = {
+	id = 1552
+	name = "STATE_1552"
+	resources = {
+		oil = 48
+	}
+
+	history = {
+		owner = AZR
+		victory_points = {
+			7661 30
+		}
+		victory_points = {
+			7495 10
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 6
+			offices = 2
+			schools = 1
+			barracks = 1
+			thermoelectric_plant = 1
+			synthetic_refinery = 1
+		}
+		add_core_of = AZR
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		7495 7661
+	}
+	manpower = 813184
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}

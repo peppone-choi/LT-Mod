@@ -1,0 +1,23 @@
+state = {
+	id = 2238
+	name = "STATE_2238"
+	resources = {
+		rubber = 2
+	}
+
+	history = {
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		4568
+	}
+	manpower = 90018
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

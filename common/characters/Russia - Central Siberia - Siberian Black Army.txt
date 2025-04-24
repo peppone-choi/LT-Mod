@@ -1,0 +1,407 @@
+characters = {
+	SBA_Viktor_Belash = {
+		name = SBA_Viktor_Belash
+		portraits = {
+			civilian = { large = "gfx/leaders/SBA/Portrait_SBA_Viktor_Belash.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_VIKTOR_BELASH_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_anarcho_communist_subtype
+			traits = { }
+			id = -1
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	# Country leader #
+	SBA_Siberian_Soviet = {
+		name = SBA_Siberian_Soviet
+		portraits = {
+			civilian = { large = "gfx/leaders/SBA/Portrait_SBA_Siberian_Soviet.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_SIBERIAN_SOVIET_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_anarcho_communist_subtype
+			traits = { }
+			id = -1
+		}
+	}
+	SBA_Security_Council = {
+		name = SBA_Siberian_Soviet
+		portraits = {
+			civilian = { large = "gfx/leaders/SBA/Portrait_SBA_Security_Council.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_KHAKASSIA_SECURITY_COUNCIL_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_vanguard_anarchism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+
+	SBA_Stefan_Petrichenko = {
+		name = SBA_Stefan_Petrichenko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Stefan_Petrichenko.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_STEFAN_PETRICHENKO_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_anarcho_communist_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SBA_Stefan_Petrichenko_hog
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Aida_Basevich = {
+		name = SBA_Aida_Basevich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Aida_Basevich.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = SBA_Aida_Basevich_for
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Lev_Zadov = {
+		name = SBA_Lev_Zadov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Lev_Zadov.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = SBA_Lev_Zadov_sec
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Abram_Anikst = {
+		name = SBA_Abram_Anikst
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Abram_Anikst.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = SBA_Abram_Anikst_eco
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Vladimir_Barmash = {
+		name = SBA_Vladimir_Barmash
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Vladimir_Barmash.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = SBA_Vladimir_Barmash_eco
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+		
+		advisor = {
+			slot = security_minister
+			idea_token = SBA_Vladimir_Barmash_sec
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Aaron_Baron = {
+		name = SBA_Aaron_Baron
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Aaron_Baron.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = SBA_Aaron_Baron_for
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+		
+		advisor = {
+			slot = security_minister
+			idea_token = SBA_Aaron_Baron_
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Mark_Gloomy = {
+		name = SBA_Mark_Gloomy # Mark Mratchny
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Mark_Gloomy.dds"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = SBA_Mark_Gloomy_for
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Lev_Zinkovsky = {
+		name = SBA_Lev_Zinkovsky # 레프 자도프랑 같은 사람?
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Lev_Zinkovsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SBA_Lev_Zinkovsky_pol
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SBA_Alexey_Mokrousov = {
+		name = SBA_Alexey_Mokrousov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Alexey_Mokrousov.dds"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = SBA_Alexey_Mokrousov_eco
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SBA_Peter_Arshinov = {
+		name = SBA_Peter_Arshinov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Peter_Arshinov.dds"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = SBA_Pyotr_Arshinov_sec
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SBA_Nestor_Makhno = {
+		name = SBA_Nestor_Makhno
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Nestor_Makhno.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NESTOR_MAKHNO_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_anarcho_communist_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SBA_Nestor_Makhno_hog
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	SBA_Vsevolod_Volin = {
+		name = SBA_Vsevolod_Volin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Vsevolod_Volin.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VOLIN_DESC"
+			expire = "1999.1.1"
+			ideology = socialist_anarcho_communist_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SBA_Vsevolod_Volin_hog
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+	}
+
+	SBA_Nestor_Kalandarishvili = {
+		name = SBA_Nestor_Kalandarishvili
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Nestor_Kalandarishvili.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			ideology = despotism_vanguard_anarchism_subtype
+			traits = { }
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SBA_Nestor_Kalandarishvili_pol
+			allowed = { original_tag = SBA }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SBA_Mikhail_Uralov = {
+		name = SBA_Mikhail_Uralov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Mikhail_Uralov.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	SBA_Mikhail_Kozyr = {
+		name = SBA_Mikhail_Kozyr
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Mikhail_Kozyr.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SBA_Alexander_Neborak = {
+		name = SBA_Alexander_Neborak
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Alexander_Neborak.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SBA_Stepan_Petrichenko = {
+		name = SBA_Stepan_Petrichenko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Stepan_Petrichenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SBA_Nazarii_Zuichenko = {
+		name = SBA_Nazarii_Zuichenko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SBA/Portrait_SBA_Nazarii_Zuichenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

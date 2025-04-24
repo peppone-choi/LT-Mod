@@ -1,0 +1,29 @@
+state = {
+	id = 1214
+	name = "STATE_1214"
+
+	history = {
+		owner = NAM
+		add_core_of = NAM
+		buildings = {
+			barracks = 1
+			infrastructure = 2
+			2207 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			2207 1
+		}
+		victory_points = {
+			10978 2
+		}
+	}
+	provinces = {
+		2207 10978 17919
+	}
+	manpower = 41741
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

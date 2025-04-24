@@ -1,0 +1,32 @@
+state = {
+	id = 2404
+	name = "STATE_2404"
+	resources = {
+		steel = 8.000
+	}
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		victory_points = {
+			1859 3
+		}
+		victory_points = {
+			10554 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		set_variable = { china_state_ref = 57 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		298 1859 7676 7717 10554 12605 13361 16843 16851 19458 19482 16860
+	}
+	manpower = 209702
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

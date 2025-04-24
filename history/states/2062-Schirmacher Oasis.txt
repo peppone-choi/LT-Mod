@@ -1,0 +1,25 @@
+state = {
+	id = 2062
+	name = "STATE_2062" # Schirmacher + Admiral Graf Spee Glacier/Harbor
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAG
+		add_core_of = AAG
+		victory_points = { 17742 1 }
+		victory_points = { 17695 3 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			17742 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		17695 17742
+	}
+}

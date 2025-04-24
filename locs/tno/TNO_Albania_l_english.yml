@@ -1,0 +1,193 @@
+﻿l_english:
+ 
+ ## Country Names ##
+ ALB_communist: "Albania"
+ ALB_communist_DEF: "the People's Republic of Albania"
+ ALB_communist_ADJ: "Albanian"
+ ALB_socialist: "Albania"
+ ALB_socialist_DEF: "the People's Republic of Albania"
+ ALB_socialist_ADJ: "Albanian"
+ ALB_conservatism: "Albania"
+ ALB_conservatism_DEF: "the Republic of Albania"
+ ALB_conservatism_ADJ: "Albanian"
+ ALB_paternalism: "Albania"
+ ALB_paternalism_DEF: "the Kingdom of Albania"
+ ALB_paternalism_ADJ: "Albanian"
+ ALB_despotism: "Prottetorato Imperiale D'Albania"
+ ALB_despotism_DEF: "Protettorato Imperiale del Regno d'Albania"
+ ALB_despotism_ADJ: "Albanian"
+ ALB_fascism: "Kingdom of Albania"
+ ALB_fascism_DEF: "the Kingdom of Albania"
+ ALB_fascism_ADJ: "Albanian"
+ ALB_FAR: "Albanian National Republican State"
+ ALB_FAR_DEF: "Albanian National Republican State"
+ ALB_FAR_ADJ: "Albanian"
+ ALB_P2: "Protectorate of Albania"
+ ALB_P2_DEF: "Protectorate of Albania"
+ ALB_P2_ADJ: "Albanian"
+ ALB_ITA: "Regno d'Albania"
+ ALB_ITA_DEF: "Il Regno d'Albania"
+ ALB_ITA_ADJ: "Albanian"
+ 
+ ## Party Names ##
+ ALB_communist_party: "LAN-GKS"
+ ALB_communist_party_long: "Lëvizja Antifashiste Nacionalçlirimtare - Grupi Komunist Shqiptar"
+ ALB_socialist_party: "KDS-FB"
+ ALB_socialist_party_long: "Koalicioni Demokratik Shqiptar - Fraksioni Bashkimi"
+ ALB_progressivism_party: "KDS-FSD"
+ ALB_progressivism_party_long: " Koalicioni Demokratik Shqiptar - Fraksioni Social Demokratike"
+ ALB_liberalism_party: "KDS-FIl"
+ ALB_liberalism_party_long: "Koalicioni Demokratik Shqiptar - Fraksioni I lirisë"
+ ALB_conservatism_party: "KDS-FK"
+ ALB_conservatism_party_long: "Koalicioni Demokratik Shqiptar - Fraksioni Kristodemokrate"
+ ALB_paternalism_party: "LL"
+ ALB_paternalism_party_long: "Lëvizja Legalitetit"
+ ALB_despotism_party: "LGdR"
+ ALB_despotism_party_long: "Luogotenenti Generali del Regno"
+ ALB_fascism_party: "PFSh"
+ ALB_fascism_party_long: "Partia Fashiste Shqiptare"
+ ALB_ultranationalism_party: "BK-FR"
+ ALB_ultranationalism_party_long: "Balli Kombëtar - Fraksioni Radikal"
+ 
+ ALB_P2_party: "FN"
+ ALB_P2_party_long: "Fronti Nacional"
+ ALB_SCU_party: "PKA"
+ ALB_SCU_party_long: "Partia Komuniste Antirevizioniste"
+ ALB_FAR_party: "FR"
+ ALB_FAR_party_long: "Balli Kombëtar - Fraksioni Radikal"
+ ALB_PM_RI_party: "KRSiP"
+ ALB_PM_RI_party_long: "Këshilli Revolucionar Shqiptar i Përkohshme"
+ ALB_ADC_RI_party: "KUR"
+ ALB_ADC_RI_party_long: "Keshilli Ushtarak Revolucionar"
+ ALB_RA_party: "KRS"
+ ALB_RA_party_long: "Këshilli Revolucionar Shqiptar"
+ ALB_SOCDEM_party: "PSD"
+ ALB_SOCDEM_party_long: "Partia Social Demokratike"
+ ALB_LIB_party: "Partia e Lirisë"
+ ALB_LIB_party_long: "PeL"
+ ALB_CON_party: "Partia Kristodemokrate"
+ ALB_CON_party_long: "PK"
+ ALB_GODO_party: "KDS- FNK"
+ ALB_GODO_party_long: "Koalicioni Demokratik Shqiptar - Fraksioni i Lirisë"
+ ALB_ABAS_party: "KDS-FB"
+ ALB_ABAS_party_long: "Koalicioni Demokratik Shqiptar - Fraksioni Balliste"
+ ALB_PAV_party: "BK-R"
+ ALB_PAV_party_long: "Balli Kombëtar- Frakcioni Radikal"
+ ALB_MUTI_party: "BK"
+ ALB_MUTI_party_long: "Balli Kombëtar"
+ 
+ 
+
+ #ALB_conservatism_party:0 "KÇK" # no fucking idea why these old as shit loc keys are here but i'll leave them just in case
+ #ALB_conservatism_party_long:0 "Komiteti i Çlirimit Kombëtar"
+ #ALB_paternalism_party:0 "Albanian Clans"
+ #ALB_paternalism_party_long:0 "Albanian Clans"
+
+ ## Country Leaders ##
+ ALB_Koci_Xoxe: "Koçi Xoxe"
+ ALB_Tefik_Mborja: "Tefik Mborja"
+ ALB_Francesco_Jacamoni: "Francesco Jacomoni"
+ ALB_Amedeo_de_Cia: "Amadeo De Cia"
+ ALB_Dhimiter_Beratti: "Dhimitër Beratti"
+ ALB_Prenk_Pervizi: "Prenk Pervizi"
+ ALB_Xhemil_Dino: "Xhemil Dino"
+ ALB_Zenone_Benini: "Zenone Benini"
+ ALB_Zef_Pali: "Zef Pali"
+ ALB_Musine_Kokalari: "Musine Kokalari"
+ ALB_Sabri_Godo: "Sabri Godo"
+ ALB_Esat_Bajraktari: "Esat Bajraktari"
+ ALB_Abas_Ermenji: "Abas Ermenji"
+ ALB_Hasan_Dosti: "Hasan Dosti"
+ ALB_Xhafer_Deva: "Xhafer Deva"
+ ALB_Gjergj_Kokoshi: "Gjergj Kokoshi"
+ ALB_Skender_Luarasi: "Skënder Luarasi"
+ ALB_Hysni_Kapo: "Hysni Kapo"
+ ALB_Mihal_Zallar: "Mihal Zallar"
+ ALB_Ernest_Koliqi: "Ernest Koliqi"
+ ALB_Niko_Xoxi: "Niko Xoxi"
+ ALB_Zeqi_Agolli: "Zeqi Agolli"
+ ALB_Andrea_Zisi: "Andrea Zisi"
+ ALB_Sejfullah_Maleshova: "Sejfullah Malëshova"
+ ALB_Myslim_Peza: "Myslim Peza"
+ ALB_Mihal_Zallari: "Mihal Zallari"
+ ALB_Ernest_Koliqii: "Ernest Koliqii"
+ ALB_Mehmet_Shehu: "Mehmet Shehu"
+ ALB_Maliq_Bushati: "Maliq Bushati"
+ 
+ ### Leader Bios ###
+ POLITICS_TEFIK_MBORJA_DESC: "Tefik Selim Mborja spent much of the past decades behind the scenes of Albanian history, and despite his importance, it was only recently that he could come to the forefront. Born in 1888, Mborja was one of the lucky few in the country whose family, well-off southern landowners, was wealthy enough to afford him a higher education - since Albania had no universities, that meant going abroad. Like many of his compatriots, he chose Italy, studying law in Rome and becoming acquainted with the Ciano family while there. Having returned to Albania, he became a member of parliament, and part of the ever increasing vanguard of Albanian politicians opposed to the rule of king Zog.\n\nWhen the Zog regime was toppled by the Italian invasion, an operation orchestrated by Count Ciano himself, Mborja was rewarded for his open Italophilia with an appointment as general secretary of the newly created Albanian Fascist Party, or PFSh. From this position, Mborja could exert his influence over the Albanian people, directing the propaganda and policies of the PFSh aimed at bringing Albania into a new, fascist era. Always contending with the cumbersome presence of Italy and its envoys, Mborja was still able to negotiate a certain degree of autonomy for Albania within the new Roman empire.\n\nIn reality, Mborja and his allies could do little more than come up with temporary solutions to the very permanent problem of Albania - the country's broken relationship with Italy. In theory an independent state in a crown union with Rome, in fact little more than a puppet state, able to win concessions and greater autonomy only in the face of imminent catastrophe, represented by the ever widespread guerrilla and banditry that seems impossible to fully root out. Now that Mborja was named prime minister under Ciano's suggestion, he seems determined to try his best to finally solve the country's endless conflicts - a daunting prospect, as there is little unity to be found among the disparate clans, classes and territories of the Land of Eagles."
+
+ ### Ministers ###
+ ALB_Amedeo_de_Cia_hog: "Amadeo De Cia"
+ ALB_Amedeo_de_Cia_hog_desc: "§YLieutenant-General of the King\nDespotism§!\n------------§L§!"
+ ALB_Xhemil_Dino_for: "Xhemil Dino"
+ ALB_Xhemil_Dino_for_desc: "§YMinister of Foreign Affairs\nFascism§!\n------------§L§!"
+ ALB_Zenone_Benini_sec: "Zenone Benini"
+ ALB_Zenone_Benini_sec_desc: "§YUndersecretary of Albanian Affairs of the Kingdom of Italy\nDespotism§!\n------------§L§!"
+ ALB_Dhimiter_Beratti_eco: "Dhimitër Beratti"
+ ALB_Dhimiter_Beratti_eco_desc: "§YMinister of the National Economy\nFascism§!\n------------§L§!"
+ 
+ ### Ideas ###
+ ALB_the_albanian_diarchy: "The Albanian Diarchy"
+ ALB_the_albanian_diarchy_desc: "Albania's modern political structure is built upon two pillars: that of the native Albanian parliament, led by the PFSh and the Prime Minister, Tefik Mborja, and the Italian appointed Lieutenant General, Francesco Jacomoni.\n\nThe two figures are in a near-constant struggle for power and influence, each trying to impose his vision for Albania over the other's, only one of which can ever be realized."
+ 
+ ALB_lnc_kck: "Partisan Infestation"
+ ALB_lnc_kck_desc: "The Albanian partisans have fought against the Italians for nearly 25 years. The LANÇ of Enver Hoxha led the movement in the early days until he met his fate in 1953. Now, the partisans are divided into three groups; the communist LANÇ, led by Myslim Peza, the democratic KDS, led by Gjergj Kokoshi; and the monarchist Legaliteti movement, led by Esat Bajraktari. These partisans deal with costly and frequent attacks on our infrastructure. They must be rooted out as fast as possible."
+ 
+ ALB_the_economic_divide: "An Economy in Two Steps"
+ ALB_the_economic_divide_desc: "A remnant of the old Ottoman system of landowners and serfs, the Albanian economy is still greatly stratified. In the cities like Tirana, Vlora, or Shkodra, you can find many modern industries, such as steel, on par with the rest of the Italian empire. However, in the countryside, the economy is entirely agrarian. Mechanization hasn't reached Albania, so peasants work with aging wooden tools. Wealthy landowners still own most of the arable land, and the lower strata of rural society live in pseudo-serfdom. "
+ 
+ ALB_In_the_Footsteps_of_Enver: "In the Footsteps of Enver"
+ ALB_In_the_Footsteps_of_Enver_desc: "From Italy to Albania, the communist uprising has galvanized the countries that had languished so much under fascist rule. Coming out of their caves and clearings, the LANÇ of Myslim Peza and Mehmet Shehu, have taken control of the country. The dream of the late Enver Hoxha, slain in the ill-fated uprising of 1953, is finally realized. The people march in the streets as they taste the freedom of socialism for the first time."
+ 
+ ALB_Avenge_Me_Youth: "Avenge Me Youth"
+ 
+ ALB_The_Red_Skanderbeg: "The Red Skanderbeg"
+ ALB_The_Red_Skanderbeg_desc: "Mehmet Shehu has been fighting the fascists since 1939. After overthrowing the fascist general Amedeo de Cia when revolution swept Italy, he has found himself the leader of an independent, Marxist Albania. He is an ambitious man, and truly desires to see a strong, prosperous Albania with genuine self-determination from Italy. However, he knows that in order to see this dream made reality, every counter-revolutionary must be fought relentlessly and annihilated."
+ 
+ ALB_The_Two_Eagles_of_Europe: "The Two Eagles of Europe"
+ ALB_The_Two_Eagles_of_Europe_desc: "As the Bolshevik Italian government was swept away by the Reich's victorious armies, the communists in Albania fell beside them. The Germans chose Albania's new leader, and they certainly chose wisely. Mihal Zallari is utterly dedicated to Germany, and is eager to wipe out any resistance against it. He has formed an alliance with the Balli Kombetar and has begun ruthless, terroristic anti-partisan operations in order to do so."
+ 
+ ALB_The_Puppet_and_the_Puppeteer: "The Puppet and the Puppeteer"
+ 
+ ALB_A_Tight_Leash: "A Tight Leash"
+ ALB_A_Tight_Leash_desc: "Amedeo De Cia was an ambitious man. Since saving Italian Albania in 1953, the Lieutenant-General has never aimed for anything other than total control over Albania. Pulling ahead in the power struggle against Tefik Mborja, De Cia arrested the former prime minister, abolished Albanian participation in politics, and reformed the country into the Italian-dominated Protettorato Imperiale dell'Albania. De Cia has now solidified his position as its unquestioned leader."
+ 
+ ALB_Sati_i_Zifes: "Sati i Zifes"
+ ALB_Sati_i_Zifes_desc: "Esat Bajraktari has been fighting all his life. The son of famed partisan Muharrem Bajraktari, he took up arms against the fascists at the age of 15, fighting for the royalist Legaliteti. Now however, the fascists have been ousted from within, and he finds himself appointed to lead Albania by the very nation he fought against. Albania remains in personal union with the Italian crown, but it is no longer a colony of Italy, though Italy still holds total economic dominance."
+ 
+ ALB_The_Albanian_Spring: "The Albanian Spring"
+ ALB_The_Albanian_Spring_desc: "The country is free! After a quarter-century of Fascist rule, Albania and Italy have finally democratized. People are finally free to speak their minds, and elections have been scheduled. The Fascist prime minister, Tefik Mborja, was overthrown by a popular mob as the democratic KDS partisans, led by Gjergj Kokoshi, Musine Kokalari, and Abas Ermenji, swept into power. Furthermore, the Italians have agreed to give Albania more autonomy, such as officially separating the country from Italy."
+ 
+ ALB_The_Zanas_Call_on_Us: "The Zanas Call on Us"
+ ALB_The_Zanas_Call_on_Us_desc: "As Pavolini's iron grip crushes Italy, Albania has been forced to follow suit. After the Italian garrison ousted the PFSh, the radicals of the Balli Kombetar, led by Xhafer Deva, now lead the state. Well known for their brutality and ultranationalism prior to coming to power, the minorities of Albania find themselves under attack by Ballist militias. The people of Albania have been further subjugated to Italian monopolies and are being squeezed both from the inside and outside."
+
+ ALB_The_Triumph_of_the_Old_Guard: "The Triumph of the Old Guard"
+ ALB_The_Triumph_of_the_Old_Guard_desc: "Any thoughts of change to Albania's political or social structure have been extinguished. As Italo Balbo rose to power as Duce in Italy, he brought all his power in Albania to bear in supporting the PFSh, the old guard of collaborationist fascists who have ran Albania since 1939. They now stand supreme over the state once more, and those who would threaten their power are permanently defeated."
+
+ ALB_Death_to_the_Traitors: "Death to the Traitors"
+ ALB_Death_to_the_Traitors_desc: "With the rise of a new breed of fascism in Italy, Albania follows suit. After Ettore Muti's government came to power in Italy, the PFSh were dragged out of power and replaced with the moderate faction of the Balli Kombetar. Hasan Dosti leads the faction, which in all respects follows Sansepolcrismo. Nationalist, flamboyant, revolutionary, and utterly opposed to any form of autonomy for the Serbian and Greek minorities in Albania."
+
+ ALB_KDS_counterrevolution: "Koalicioni Demokratik Shqiptar Partisans"
+ ALB_BK_counterrevolution: "Balli Kombëtar Partisans"
+ ALB_Tribesmen_counterrevolution: "Northern Tribal Revolts"
+ 
+ ALB_supply_center_of_the_revolution: "Supply Center of the Revolution"
+ ALB_end_of_the_economic_divide: "End of the Economic Divide"
+
+ ### Decisions ###
+ #debug skeleton 
+ Skeleton_category: "Skeleton Category"
+ ALB_Put_Kokalari_in_Power: "Put Kokalari in Power" 
+ ALB_Put_Pali_in_Power: "Put Pali in Power" 
+ ALB_Put_Godo_in_Power: "Put Godo in Power" 
+ ALB_Put_Kokoshi_in_Power: "Put Kokoshi in Power" 
+ ALB_Put_Ermenji_in_Power: "Put Ermenji in Power" 
+ ALB_Put_De_Cia_in_power: "Put De Cia in power" 
+ ALB_Put_Shehu_in_power: "Put Shehu in power" 
+ 
+ ### Tooltips ###
+ 
+ ### Focus Tree ###
+ 
+ ### Events ###

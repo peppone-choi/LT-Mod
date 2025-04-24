@@ -1,0 +1,33 @@
+state = {
+	id = 745
+	name = "STATE_745"
+	resources = {
+		aluminium = 2.000
+	}
+
+	history = {
+		owner = MNT
+		victory_points = {
+			16201 1
+		}
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 3
+			air_base = 2
+			prisons = 1
+			18193 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MNT
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		18193 16201 9821
+	}
+	manpower = 68726
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

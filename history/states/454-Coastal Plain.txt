@@ -1,0 +1,37 @@
+state = {
+	id = 454
+	name = "STATE_454"
+
+	history = {
+		owner = IME
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			barracks = 1
+			offices = 1
+			thermoelectric_plant = 1
+			4206 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1201 15
+		}
+		victory_points = {
+			4206 10
+		}
+		victory_points = {
+			18585 1
+		}
+		add_core_of = IME
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		1201 4206 18585
+	}
+	manpower = 886528
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

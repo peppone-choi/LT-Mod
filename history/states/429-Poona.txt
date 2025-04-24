@@ -1,0 +1,44 @@
+state = {
+	id = 429
+	name = "STATE_429"
+	resources = {
+		power = 3.000
+	}
+
+	history = {
+		victory_points = {
+			10270 30
+		}
+		victory_points = {
+			16086 10
+		}
+		victory_points = {
+			12295 10
+		}
+		victory_points = {
+			16085 9
+		}
+		victory_points = {
+			12142 15
+		}
+		owner = IND
+		add_core_of = IND
+		add_claim_by = AZH
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			hospitals = 1
+			barracks = 1
+		}
+		set_state_flag = GDP_regions_maharashtra
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		7119 10210 10270 12142 12182 12295 16085 16086 19011
+	}
+	manpower = 8326885
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

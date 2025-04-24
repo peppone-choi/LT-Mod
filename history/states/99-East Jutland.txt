@@ -1,0 +1,39 @@
+state = {
+	id = 99
+	name = "STATE_99"
+	resources = {
+		aluminium = 10.000
+	}
+
+	history = {
+		owner = DEN
+		victory_points = {
+			6364 10
+		}
+		victory_points = {
+			3277 4
+		}
+		victory_points = {
+			4030 4
+		}
+		buildings = {
+			infrastructure = 6
+			offices = 1
+			schools = 1
+			dockyard = 1
+			thermoelectric_plant = 1
+			6364 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = DEN
+	}
+
+	provinces = {
+		3277 6364 4030
+	}
+	manpower = 973487
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

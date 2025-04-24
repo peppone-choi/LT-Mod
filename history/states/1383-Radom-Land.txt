@@ -1,0 +1,40 @@
+state = {
+	id = 1383
+	name = "STATE_1383"
+
+	resources = {
+		steel = 36
+	}
+
+	history = {
+		owner = GGN
+		add_core_of = GGN
+		add_core_of = POL
+		victory_points = {
+			562 1
+		}
+		victory_points = {
+			11532 4
+		}
+		victory_points = {
+			467 1
+		}
+		victory_points = {
+			19167 3
+		}
+		buildings = {
+			infrastructure = 4
+			prisons = 2
+		}
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		467 562 3482 6416 11430 11532 15679 15813 19167 19180
+	}
+	manpower = 2172897
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,47 @@
+sound = {
+	name = "usfi_25mm_1"
+	file = "aao/usfi_25mm_1.wav"
+	always_load = no
+}
+
+sound = {
+	name = "usfi_40mm_1"
+	file = "aao/usfi_40mm_1.wav"
+	always_load = no
+}
+
+sound = {
+	name = "usfi_105mm_1"
+	file = "aao/usfi_105mm_1.wav"
+	always_load = no
+}
+
+sound = {
+	name = "usfi_25mm_2"
+	file = "aao/usfi_25mm_2.wav"
+	always_load = no
+}
+
+sound = {
+	name = "usfi_40mm_2"
+	file = "aao/usfi_40mm_2.wav"
+	always_load = no
+}
+
+sound = {
+	name = "usfi_105mm_2"
+	file = "aao/usfi_105mm_2.wav"
+	always_load = no
+}
+
+sound = {
+	name = "usfi_beep"
+	file = "aao/usfi_beep.wav"
+	always_load = no
+}
+
+sound = {
+	name = "usfi_boom"
+	file = "aao/usfi_boom.wav"
+	always_load = no
+}

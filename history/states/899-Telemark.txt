@@ -1,0 +1,26 @@
+state = {
+	id = 899
+	name = "STATE_899"
+
+	history = {
+		victory_points = {
+			6151 1
+		}
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+			infrastructure = 4
+			6151 = {
+				coastal_bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+		100 6072 6151 6184 9036 11198
+	}
+	manpower = 149943
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 2421
+	name = "STATE_2421"
+	resources = {
+		uranium = 4
+	}
+
+	history = {
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			1180 10
+		}
+		victory_points = {
+			4606 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = GDP_regions_shanxi
+		set_variable = { china_state_ref = 14 }
+		set_variable = { china_region_ref = 1 }
+	}
+
+	provinces = {
+		1519 10421 4634 7074 1180 4606 13235
+	}
+	manpower = 3231781
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

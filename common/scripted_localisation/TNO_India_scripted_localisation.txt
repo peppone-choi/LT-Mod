@@ -1,0 +1,15 @@
+﻿defined_text = {
+	name = GetCryHavocDesc
+	text = {
+		trigger = { #before war
+			has_country_flag = IND_Cry_Havoc_prep
+		}
+		localization_key = "IND_Cry_Havoc_prep"
+	}
+	text = {
+		trigger = { #during war
+			has_global_flag = IND_civil_war_ongoing
+		}
+		localization_key = "IND_Cry_Havoc_war"
+	}
+}	

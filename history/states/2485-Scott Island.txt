@@ -1,0 +1,18 @@
+state = {
+	id = 2485
+	name = "STATE_2485"
+
+	history = {
+		owner = AAO
+		add_core_of = AAO
+		add_core_of = AAZ
+	}
+
+	provinces = {
+		19947
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

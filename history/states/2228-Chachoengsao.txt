@@ -1,0 +1,24 @@
+state = {
+	id = 2228
+	name = "STATE_2228"
+
+	history = {
+		owner = THA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12224 1
+		}
+		add_core_of = THA
+		set_state_flag = GDP_regions_east_thailand
+	}
+
+	provinces = {
+		12224 19029 7225 10293
+	}
+	manpower = 462471
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

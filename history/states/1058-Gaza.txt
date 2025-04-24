@@ -1,0 +1,33 @@
+state = {
+	id = 1058
+	name = "STATE_1058"
+
+	history = {
+		owner = MZB
+		add_core_of = MZB
+		buildings = {
+			infrastructure = 2
+			radar_station = 1
+			thermoelectric_plant = 1
+			air_base = 2
+			offices = 1
+		}
+		victory_points = {
+			13638 4
+		}
+		victory_points = {
+			15381 2
+		}
+		victory_points = {
+			17857 1
+		}
+	}
+
+	provinces = {
+		13638 13639 13648 13662 15381 17845 17857
+	}
+	manpower = 681735
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

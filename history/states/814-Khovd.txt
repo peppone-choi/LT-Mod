@@ -1,0 +1,33 @@
+state = {
+	id = 814
+	name = "STATE_814"
+	resources = {
+		power = 2.000
+	}
+
+	history = {
+		buildings = {
+			barracks = 1
+			infrastructure = 2
+		}
+		owner = MEN
+		add_core_of = MEN
+		victory_points = {
+			10539 5
+		}
+		victory_points = {
+			12695 5
+		}
+		set_state_flag = GDP_regions_outer_mongolia
+		set_variable = { china_state_ref = 57 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		7773 7843 10539 10563 10669 12520 12695 16855 17056 17066 17092 17097 19388 19397 19634 19640 19678 19679 19701 19720 19775
+	}
+	manpower = 279643
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

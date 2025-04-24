@@ -1,0 +1,25 @@
+state = {
+	id = 1301
+	name = "STATE_1301"
+	manpower = 589617
+
+	state_category = rural
+
+
+	history = {
+		owner = ENG
+		victory_points = { 9364 3 }
+		victory_points = { 6363 1 }
+		buildings = {
+			infrastructure = 4
+			6363 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
+		set_state_flag = GDP_regions_wales
+	}
+	provinces = {
+		6363 9364 16339 18107
+	}
+}

@@ -1,0 +1,1510 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			ZZZ = {
+				Antarctica_GUI_setup = yes
+			}
+			# if = {
+			# 	limit = {
+			# 		has_game_rule = {
+			# 			rule = AAG_fate
+			# 			option = AAG_FATE_PARTITIONED
+			# 		}
+			# 	}
+			# 	AAG = { country_event = { id = TNO_CCP_DF.1 days = 730 } } 
+			# }
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = AAG_fate
+						option = AAG_FATE_STARVED
+					}
+				}
+				AAG = { country_event = { id = TNO_CCP_DF.2 days = 730 } } 
+			}
+		}
+	}
+	
+	on_capitulation = { # FROM = winner ROOT = loser
+		effect = {
+			if = { # AAO invades AAG
+				limit = { 
+					FROM = {
+						original_tag = AAO
+					}
+					ROOT = {
+						original_tag = AAG
+					}
+				}
+				
+				every_country = {
+					news_event = { id = antarctica_news_events.4 days = 1 }
+				}
+				
+				AAO = { transfer_state = 2030 }
+				AAO = { transfer_state = 2056 }
+				AAO = { transfer_state = 2057 }
+				AAO = { transfer_state = 2029 }
+				AAO = { transfer_state = 2062 }
+				AAB = { transfer_state = 2028 }
+				if = {
+					limit = {
+						AAR = {	exists = no }
+					}
+					AAB = { transfer_state = 2027 }
+				}
+				AAJ = { transfer_state = 2063 }
+
+				2030 = { add_core_of = AAO }
+				2056 = { add_core_of = AAO }
+				2057 = { add_core_of = AAO }
+				2029 = { add_core_of = AAO }
+				2062 = { add_core_of = AAO }
+				2028 = { add_core_of = AAB }
+				if = {
+					limit = {
+						AAR = {	exists = no }
+					}
+					2027 = { add_core_of = AAB }
+				}
+				2063 = { add_core_of = AAJ }
+				
+				USA = {
+					if = {
+						limit = {
+							OR = {
+								has_dlc = "Together for Victory"
+								has_dlc = "Man the Guns"
+							}
+						}
+						set_autonomy = {
+							target = AAO
+							autonomy_state = autonomy_antarctic_territory
+						}
+						else = {
+							puppet = AAO
+						}
+					}
+					add_to_faction = AAO
+				}
+				
+				AAO = {
+					set_popularities = {
+						communist = 0
+						ultranationalism = 0
+						socialist = 0
+						progressivism = 0
+						liberalism = 0
+						conservatism = 0
+						paternalism = 100
+						despotism = 0
+						fascism = 0
+						national_socialism = 0
+					}
+
+					promote_character = AAO_William_Francis_Raborn
+					
+					set_politics = {
+						ruling_party = paternalism
+						last_election = "1960.11.11"
+						election_frequency = 36
+						elections_allowed = no
+					}
+					
+					delete_unit_template_and_units = {
+						division_template = "MACA-SOG Antarctic Task Force"
+					}
+				}
+				
+				AAB = {
+					set_cosmetic_tag = AAB_Large
+				}
+			}
+#			else_if = { # Malaysia - Malaysian/USA Victory
+#				limit = {
+#					FROM = {
+#						original_tag = MLY
+#					}
+#					ROOT = {
+#						original_tag = SHO
+#					}
+#				}
+#				# Other effects fired from SHO_war_end_effect
+#			}
+#			else_if = { # Malaysia - Japanese Victory
+#				limit = {
+#					FROM = {
+#						original_tag = SHO
+#					}
+#					ROOT = {
+#						original_tag = MLY
+#					}
+#				}
+#				# Other effects fired from SHO_war_end_effect
+#			}
+			else_if = { # ECW - Collab victory
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = CRN
+							original_tag = ENG
+						}
+					}
+					ROOT = { original_tag = FEN }
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.20
+						days = 3
+					}
+				}
+			}
+			else_if = { # ECW - HMMLR victory
+				limit = {
+					FROM = { original_tag = FEN }
+					OR = {
+						AND = {
+							ROOT = { original_tag = CRN }
+							ENG = { has_capitulated = yes }
+						}
+						AND = {
+							ROOT = { original_tag = ENG }
+							CRN = { has_capitulated = yes }
+						}
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.30
+						days = 3
+					}
+				}
+			}
+			else_if = { # ITW - Italy wins
+				limit = {
+					FROM = {
+						original_tag = IME
+					}
+					ROOT = {
+						original_tag = TUR
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.120
+						days = 5
+					}
+				}
+			}
+			else_if = {  # ITW - Turkey wins
+				limit = {
+					FROM = {
+						original_tag = TUR
+					}
+					ROOT = {
+						original_tag = IME
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.130
+						days = 7
+					}
+				}
+			}
+			else_if = { # Algeria - Italy wins
+				limit = {
+					FROM = {
+						tag = ILG
+					}
+					ROOT = {
+						tag = SLG
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.320
+						days = 2
+					}
+				}
+			}
+			else_if = { # Algeria - Iberia wins
+				limit = {
+					FROM = {
+						tag = SLG
+					}
+					ROOT = {
+						tag = ILG
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.310
+						days = 2
+					}
+				}
+			}
+			else_if = { # Puerto Plata Invasion
+				limit = {
+					has_global_flag = PPI_landing_ongoing
+					FROM = {
+						OR = {
+							original_tag = DOM
+							original_tag = CAL
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = DOM
+							original_tag = CAL
+						}
+					}
+				}
+				if = { # Trujillo Wins
+					limit = {
+						FROM = { original_tag = DOM }
+					}
+					AAO = {
+						country_event = {
+							id = antarctica_aao_radio.420
+							days = 1
+						}
+					}
+				}
+				else = { # Legion Wins
+					AAO = {
+						country_event = {
+							id = antarctica_aao_radio.410
+							days = 1
+						}
+					}
+				}
+			}
+			else_if = { # PHI Capitulation
+				limit = {
+					ROOT = { original_tag = PHI }
+					has_global_flag = PHI_proxy_war
+				}
+				AAO = {
+					# Clear all unit related things
+					
+					set_temp_variable = { target = SPH }
+					TNO_clear_and_recall_volunteers = yes
+					
+					#set_equipment_fraction = 0.0
+					delete_unit_template_and_units = {
+						division_template = "Special Operations Group FP"
+					}
+					
+					# Remove all objective traits and flags
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_3
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_3
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_3
+					}
+					
+					clr_country_flag = Antarctica_PCW_Dig_In_Objective
+					clr_country_flag = Antarctica_PCW_Offense_Objective
+					clr_country_flag = Antarctica_PCW_Recon_Objective
+					
+					if = {
+						limit = {
+							num_divisions < 1
+						}
+						clear_array = Antarctica_GUI_Volunteers_Buttons_Grid_Array
+					}
+					
+					clr_country_flag = Antarctica_AAO_Volunteers_in_PCW
+					
+					set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 1 }
+					set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 1 }
+					set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 1 }
+		
+					set_variable = { Antarctica_GUI_AAO_CIA_Selected_War = 2 } # Swap to Philippines
+					set_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^2 = 2 } # Conclusion Phase
+					
+					country_event = {
+						id = antarctica_aao_cia.510
+						days = 35
+					}
+					
+					country_event = {
+						id = antarctica_aao_radio.920
+						days = 1
+					}
+				}
+			}
+			else_if = { # UPH Capitulation to PHI, PHI wins
+				limit = {
+					FROM = { original_tag = PHI }
+					ROOT = { original_tag = UPH }
+					has_global_flag = PHI_proxy_war
+					NOT = { country_exists = SPH }
+				}
+				AAO = {
+					# Clear all unit related things
+					
+					set_temp_variable = { target = SPH }
+					TNO_clear_and_recall_volunteers = yes
+					
+					#set_equipment_fraction = 0.0
+					delete_unit_template_and_units = {
+						division_template = "Special Operations Group FP"
+					}
+					
+					# Remove all objective traits and flags
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_3
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_3
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_3
+					}
+					
+					clr_country_flag = Antarctica_PCW_Dig_In_Objective
+					clr_country_flag = Antarctica_PCW_Offense_Objective
+					clr_country_flag = Antarctica_PCW_Recon_Objective
+					
+					if = {
+						limit = {
+							num_divisions < 1
+						}
+						clear_array = Antarctica_GUI_Volunteers_Buttons_Grid_Array
+					}
+					
+					clr_country_flag = Antarctica_AAO_Volunteers_in_PCW
+					
+					set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 1 }
+					set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 1 }
+					set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 1 }
+		
+					set_variable = { Antarctica_GUI_AAO_CIA_Selected_War = 2 } # Swap to Philippines
+					set_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^2 = 2 } # Conclusion Phase
+					
+					country_event = {
+						id = antarctica_aao_cia.510
+						days = 35
+					}
+					
+					country_event = {
+						id = antarctica_aao_radio.910
+						days = 12
+					}
+				}
+			}
+			else_if = { # SPH Capitulation to PHI, PHI wins
+				limit = {
+					FROM = { original_tag = PHI }
+					ROOT = { original_tag = SPH }
+					has_global_flag = PHI_proxy_war
+					NOT = { country_exists = UPH }
+				}
+				AAO = {
+					# Clear all unit related things
+					
+					set_temp_variable = { target = SPH }
+					TNO_clear_and_recall_volunteers = yes
+					
+					#set_equipment_fraction = 0.0
+					delete_unit_template_and_units = {
+						division_template = "Special Operations Group FP"
+					}
+					
+					# Remove all objective traits and flags
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Dig_In_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Dig_In_Objective_3
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Offense_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Offense_Objective_3
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_1
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_1
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_2
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_2
+					}
+					every_unit_leader = {
+						limit = {
+							has_trait = AAO_Recon_Objective_3
+						}
+						remove_unit_leader_trait = AAO_Recon_Objective_3
+					}
+					
+					clr_country_flag = Antarctica_PCW_Dig_In_Objective
+					clr_country_flag = Antarctica_PCW_Offense_Objective
+					clr_country_flag = Antarctica_PCW_Recon_Objective
+					
+					if = {
+						limit = {
+							num_divisions < 1
+						}
+						clear_array = Antarctica_GUI_Volunteers_Buttons_Grid_Array
+					}
+					
+					clr_country_flag = Antarctica_AAO_Volunteers_in_PCW
+					
+					set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 1 }
+					set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 1 }
+					set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 1 }
+		
+					set_variable = { Antarctica_GUI_AAO_CIA_Selected_War = 2 } # Swap to Philippines
+					set_variable = { Antarctica_GUI_AAO_CIA_Phase_Array^2 = 2 } # Conclusion Phase
+					
+					country_event = {
+						id = antarctica_aao_cia.510
+						days = 35
+					}
+					
+					country_event = {
+						id = antarctica_aao_radio.910
+						days = 12
+					}
+				}
+			}
+			else_if = { # 14th Army Wins
+				limit = {
+					OR = {
+						AND = {
+							FROM = { original_tag = FGB }
+							ROOT = { original_tag = SPH }
+							NOT = { country_exists = UPH }
+						}
+						AND = {
+							FROM = { original_tag = FGB }
+							ROOT = { original_tag = UPH }
+							NOT = { country_exists = SPH }
+						}
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.940
+						days = 1
+					}
+				}
+			}
+			else_if = { # 14th Army Loses
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = UPH
+							original_tag = SPH
+						}
+					}
+					ROOT = { original_tag = FGB }
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.950
+						days = 1
+					}
+				}
+			}
+			else_if = { # SAW - Total OFN Victory
+				limit = {
+					OR = {
+						ROOT = { original_tag = COG }
+						ROOT = { original_tag = GRO }
+						ROOT = { original_tag = BOR }
+						if = {
+							limit = {
+								NOT = { has_global_flag = ANG_Free }
+							}
+							ROOT = { original_tag = ANG }
+						}
+					}
+					GRO = {
+						NOT = {
+							OR = {
+								has_cosmetic_tag = GRO_REICHSSTAAT
+								has_cosmetic_tag = GRO_REICHSSTAAT_2
+								has_cosmetic_tag = GRO_REICHSSTAAT_3
+							}
+						}
+					}
+					FROM = {
+						OR = {
+							tag = SAF
+							is_in_faction_with = SAF
+						}
+					}
+					has_global_flag = south_african_war_happening
+					check_variable = {ZZZ.saw_as_cap_var = 4}
+				}
+				AAO = {
+					country_event =  {
+						id = antarctica_aao_cia.720
+						days = 2
+					}
+					country_event =  {
+						id = antarctica_aao_radio.620
+						days = 14
+					}
+					set_country_flag = AAO_win_saf
+				}
+			}
+			else_if = { # SAW - Total Schild Victory
+				limit = {
+					ROOT = { original_tag = SAF }
+					OR = {
+						FROM = { original_tag = COG }
+						FROM = { original_tag = GRO }
+						FROM = { original_tag = ANG }
+						FROM = { original_tag = BOR }
+					}
+					MZB = {
+						NOT = { has_cosmetic_tag = MZB_USA }
+					}
+					USC = { exists = no }
+					has_global_flag = south_african_war_happening
+					NOT = { has_global_flag = second_south_african_civil_war }
+				}
+				AAO = {
+					country_event =  {
+						id = antarctica_aao_cia.710
+						days = 2
+					}
+					country_event =  {
+						id = antarctica_aao_radio.630
+						days = 14
+					}
+				}
+			}
+		}
+	}
+	
+	# MCW Stuff
+	on_annex = { # ROOT is winner, FROM gets annexed
+		effect = {
+			if = { # MDG VICTORY - GER
+				limit = {
+					ROOT = { tag = MDG }
+					NOT = { country_exists = MAD }
+					NOT = { country_exists = MDM }
+				}
+				
+				AAG = {
+					if = {
+						limit = { NOT = { has_country_flag = MCW_Over_AAG } }
+
+						country_event = {
+							id = antarctica_aag_madagascar.100
+						}
+						set_country_flag = MCW_Over_AAG
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_cia.310
+						days = 3
+					}
+					country_event = {
+						id = antarctica_aao_radio.830
+					}
+					set_country_flag = MCW_Over_AAO
+				}
+			}
+			if = { # MAD VICTORY - USA
+				limit = {
+					ROOT = { tag = MAD }
+					NOT = { country_exists = MDG }
+					NOT = { country_exists = MDM }
+				}
+				
+				AAG = {
+					if = {
+						limit = { NOT = { has_country_flag = MCW_Over_AAG } }
+						
+						country_event = {
+							id = antarctica_aag_madagascar.101
+						}
+						set_country_flag = MCW_Over_AAG
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_cia.300
+					}
+					country_event = {
+						id = antarctica_aao_radio.840
+						days = 5
+					}
+					set_country_flag = MCW_Over_AAO
+					set_country_flag = AAO_win_mcw
+				}
+			}
+			if = { # MDM VICTORY - JAP
+				limit = {
+					ROOT = { tag = MDM }
+					NOT = { country_exists = MAD }
+					NOT = { country_exists = MDG }
+				}
+				
+				AAG = {
+					if = {
+						limit = { NOT = { has_country_flag = MCW_Over_AAG } }
+						
+						country_event = {
+							id = antarctica_aag_madagascar.101
+						}
+						set_country_flag = MCW_Over_AAG
+					}
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_cia.310
+					}
+					country_event = {
+						id = antarctica_aao_radio.820
+						days = 7
+					}
+					set_country_flag = MCW_Over_AAO
+				}
+			}
+			
+			if = { # USA loses in general
+				limit = {
+					OR = {
+						ROOT = { tag = MDM }
+						ROOT = { tag = MDG }
+					}
+					NOT = { country_exists = MAD }
+					AAO = { NOT = { has_country_flag = MCW_Over_AAO } }
+				}
+				
+				AAO = {
+					country_event = {
+						id = antarctica_aao_cia.310
+					}
+				}
+			}
+		}
+	}
+	
+	# ROOT is sender, FROM is receiver.	
+	on_send_volunteers = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = AAG }
+					FROM = { tag = MDG }
+				}
+				AAG = {
+					country_event = {
+						id = antarctica_aag_madagascar.30
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = AAG }
+					FROM = { tag = BGR }
+				}
+				AAG = {
+					country_event = {
+						id = antarctica_aag_gcw_division.10
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = AAG }
+					FROM = { tag = GGR }
+				}
+				AAG = {
+					country_event = {
+						id = antarctica_aag_gcw_division.20
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = AAG }
+					FROM = { tag = SGR }
+				}
+				AAG = {
+					country_event = {
+						id = antarctica_aag_gcw_division.30
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = AAO }
+					FROM = { tag = MLY }
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_cia.10
+						days = 7
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = { tag = AAO }
+					FROM = { tag = MAD }
+				}
+				AAO = {
+					country_event = {
+						id = antarctica_aao_radio.800
+						days = 5
+					}
+				}
+			}
+		}
+	}
+	
+	# Antarctica_Month_Tracker starts at 0
+	# January = 0 - Max Personnel
+	# February = 1 - 1
+	# March = 2 - .9
+	# April = 3 - .5
+	# May = 4 - .3
+	# June = 5 - .25
+	# July = 6 - Min Personnel
+	# August = 7 - .25
+	# September = 8 - .3
+	# October = 9 - .5
+	# November = 10 - .9
+	# December = 11 - 1
+	
+	on_monthly_ZZZ = {
+		effect = {
+			AAA = {
+				add_to_variable = { Antarctica_Month_Tracker = 1 }
+				if = {
+					limit = {
+						check_variable = { Antarctica_Month_Tracker = 12 }
+					}
+					set_variable = { Antarctica_Month_Tracker = 0 }
+				}
+				
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_Personnel_Locked } }
+					
+					set_variable = { temp = Antarctica_Max_Personnel }
+					
+					if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 0 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 1 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 2 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 3 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 4 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 5 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 6 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 7 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 8 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 9 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 10 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 11 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					
+					randomize_variable = {
+						var = Antarctica_Personnel_Rand
+						distribution = uniform
+						min = -24
+						max = 24
+					}
+					round_variable = Antarctica_Personnel_Rand
+					
+					add_to_variable = { temp = Antarctica_Personnel_Rand }
+					
+					set_variable = { Antarctica_Active_Personnel = temp }
+				}
+			}
+			AAB = {
+				add_to_variable = { Antarctica_Month_Tracker = 1 }
+				if = {
+					limit = {
+						check_variable = { Antarctica_Month_Tracker = 12 }
+					}
+					set_variable = { Antarctica_Month_Tracker = 0 }
+				}
+				
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_Personnel_Locked } }
+				
+					set_variable = { temp = Antarctica_Max_Personnel }
+					
+					if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 0 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 1 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 2 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 3 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 4 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 5 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 6 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 7 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 8 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 9 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 10 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 11 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					
+					randomize_variable = {
+						var = Antarctica_Personnel_Rand
+						distribution = uniform
+						min = -4
+						max = 4
+					}
+					round_variable = Antarctica_Personnel_Rand
+					
+					add_to_variable = { temp = Antarctica_Personnel_Rand }
+					
+					set_variable = { Antarctica_Active_Personnel = temp }
+				}
+			}
+			AAC = {
+				add_to_variable = { Antarctica_Month_Tracker = 1 }
+				if = {
+					limit = {
+						check_variable = { Antarctica_Month_Tracker = 12 }
+					}
+					set_variable = { Antarctica_Month_Tracker = 0 }
+				}
+				
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_Personnel_Locked } }
+					
+					set_variable = { temp = Antarctica_Max_Personnel }
+					
+					if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 0 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 1 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 2 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 3 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 4 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 5 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 6 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 7 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 8 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 9 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 10 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 11 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					
+					randomize_variable = {
+						var = Antarctica_Personnel_Rand
+						distribution = uniform
+						min = -24
+						max = 24
+					}
+					round_variable = Antarctica_Personnel_Rand
+					
+					add_to_variable = { temp = Antarctica_Personnel_Rand }
+					
+					set_variable = { Antarctica_Active_Personnel = temp }
+				}
+			}
+			AAG = {
+				add_to_variable = { Antarctica_Month_Tracker = 1 }
+				if = {
+					limit = {
+						check_variable = { Antarctica_Month_Tracker = 12 }
+					}
+					set_variable = { Antarctica_Month_Tracker = 0 }
+				}
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_Personnel_Locked } }
+					
+					set_variable = { temp = Antarctica_Max_Personnel }
+					
+					if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 0 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 1 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 2 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 3 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 4 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 5 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 6 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 7 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 8 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 9 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 10 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 11 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					
+					randomize_variable = {
+						var = Antarctica_Personnel_Rand
+						distribution = uniform
+						min = -24
+						max = 24
+					}
+					round_variable = Antarctica_Personnel_Rand
+					
+					add_to_variable = { temp = Antarctica_Personnel_Rand }
+					
+					set_variable = { Antarctica_Active_Personnel = temp }
+				}
+			}
+			AAJ = {
+				add_to_variable = { Antarctica_Month_Tracker = 1 }
+				if = {
+					limit = {
+						check_variable = { Antarctica_Month_Tracker = 12 }
+					}
+					set_variable = { Antarctica_Month_Tracker = 0 }
+				}
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_Personnel_Locked } }
+					
+					set_variable = { temp = Antarctica_Max_Personnel }
+					
+					if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 0 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 1 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 2 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 3 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 4 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 5 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 6 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 7 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 8 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 9 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 10 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 11 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					
+					randomize_variable = {
+						var = Antarctica_Personnel_Rand
+						distribution = uniform
+						min = -24
+						max = 24
+					}
+					round_variable = Antarctica_Personnel_Rand
+					
+					add_to_variable = { temp = Antarctica_Personnel_Rand }
+					
+					set_variable = { Antarctica_Active_Personnel = temp }
+				}
+			}
+			AAO = {
+				add_to_variable = { Antarctica_Month_Tracker = 1 }
+				if = {
+					limit = {
+						check_variable = { Antarctica_Month_Tracker = 12 }
+					}
+					set_variable = { Antarctica_Month_Tracker = 0 }
+				}
+				if = {
+					limit = { NOT = { has_country_flag = Antarctica_Personnel_Locked } }
+					
+					set_variable = { temp = Antarctica_Max_Personnel }
+					
+					if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 0 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 1 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 2 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 3 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 4 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 5 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 6 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 7 }
+						}
+						multiply_variable = { temp = .25 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 8 }
+						}
+						multiply_variable = { temp = .3 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 9 }
+						}
+						multiply_variable = { temp = .5 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 10 }
+						}
+						multiply_variable = { temp = .9 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { Antarctica_Month_Tracker = 11 }
+						}
+						multiply_variable = { temp = 1 }
+					}
+					
+					randomize_variable = {
+						var = Antarctica_Personnel_Rand
+						distribution = uniform
+						min = -24
+						max = 24
+					}
+					round_variable = Antarctica_Personnel_Rand
+					
+					add_to_variable = { temp = Antarctica_Personnel_Rand }
+					
+					set_variable = { Antarctica_Active_Personnel = temp }
+					round_variable = Antarctica_Active_Personnel
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 415
+	name = "STATE_415"
+	resources = {
+		steel = 2
+		aluminium = 2
+	}
+
+	history = {
+		owner = AFG
+		victory_points = {
+			5064 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AFG
+	}
+
+	provinces = {
+		5020 5064 14757
+	}
+	manpower = 371339
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

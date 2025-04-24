@@ -1,0 +1,30 @@
+state = {
+	id = 938
+	name = "STATE_938"
+	resources = {
+		chromium = 7.000
+	}
+
+	history = {
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			radar_station = 1
+		}
+		victory_points = {
+			13565 2
+		}
+		victory_points = {
+			13571 1
+		}
+		add_core_of = SAF
+	}
+
+	provinces = {
+		1688 5106 5217 13560 13561 13563 13564 13565 13566 13567 13568 13569 13570 13571 15376 15377 15378 17844
+	}
+	manpower = 1378804
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,107 @@
+﻿l_english:
+  ### Country Names ###
+  TUN_communist:0 "Tunisian Federation"
+  TUN_liberalism:0 "Tunisia"
+  TUN_liberalism_DEF:0 "Tunisia"
+  TUN_conservatism:0 "Kingdom of Tunisia"
+  TUN_conservatism_DEF:0 "The Kingdom of Tunisia"
+  TUN_paternalism:0 "Kingdom of Tunisia"
+  TUN_paternalism_DEF:0 "The Kingdom of Tunisia"
+  TUN_progressivism:0 "Tunisia"
+  TUN_progressivism_DEF:0 "Tunisia"
+  
+  TUN_ITA:0 "Regno di Tunisia"
+  TUN_ITA_DEF:0 "Il Regno di Tunisia"
+  TUN_ITA_ADJ:0 "Tunisian"
+
+  TUN_despotism:0 "Kingdom of Tunisia"
+  TUN_despotism_DEF:0 "The Kingdom of Tunisia"
+  TUN_fascism:0 "Kingdom of Tunisia"
+  TUN_fascism_DEF:0 "The Kingdom of Tunisia"
+  TUN_national_socialism:0 "Tunisian State"
+  TUN_national_socialism_DEF:0 "The Tunisian State"
+  TUN_ultranationalism:0 "Tunisian State"
+  TUN_ultranationalism_DEF:0 "The Tunisian State"
+ 
+  TUN_progressivism_ADJ:0 "Tunisian"
+  TUN_conservatism_ADJ:0 "Tunisian"
+  TUN_paternalism_ADJ:0 "Tunisian"
+  TUN_fascism_ADJ:0 "Tunisian"
+  TUN_liberalism_ADJ:0 "Tunisian"
+  TUN_communist_ADJ:0 "Tunisian"
+  TUN_despotism_ADJ:0 "Tunisian"
+  TUN_socialist_ADJ:0 "Tunisian"
+  TUN_ultranationalism_ADJ:0 "Tunisian"
+  TUN_national_socialism_ADJ:0 "Tunisian"
+ 
+  ##Parties##
+  TUN_communist_party:0 "PC"
+  TUN_communist_party_long:0 "Partito Comunista"
+  TUN_socialist_party:0 "PSI"
+  TUN_socialist_party_long:0 "Partito Socialista Italiano"
+  #TUN_progressivism_party:0 "PSDI"
+  #TUN_progressivism_party_long:0 "Partito Socialista Democratico Italiano"
+  TUN_progressivism_party:0 "Neo-Destour"
+  TUN_progressivism_party_long:0 "al-Ḥizb al-Ḥurr ad-Dustūrī"
+  #TUN_liberalism_party:0 "PI"
+  #TUN_liberalism_party_long:0 "Partito Italiano"
+  #TUN_conservatism_party:0 "GR-C"
+  #TUN_conservatism_party_long:0 "Gaddafi Regime-Conservative"
+  #TUN_paternalism_party:0 "GR-G"
+  #TUN_paternalism_party_long:0 "Gaddafi Regime-Gaddafi"
+  TUN_paternalism_party:0 "The Bey's Court"
+  TUN_paternalism_party_long:0 "The Bey's Court"
+  TUN_despotism_party:0 "Ed-Dustūrī"
+  TUN_despotism_party_long:0 "El-Hizb el-Hurr ed-Dustūrī"
+  #TUN_fascism_party:0 "GR-F"
+  #TUN_fascism_party_long:0 "Gaddafi Regime-Fascist"
+  TUN_fascism_party:0 "PNF"
+  TUN_fascism_party_long:0 "Partito Nazionale Fascista"
+  TUN_national_socialism_party:0 "ASBP-TUN"
+  TUN_national_socialism_party_long:0 "Arab Socialist Ba'ath Party-Tunisia"
+  TUN_ultranationalism_party:0 "GLP"
+  TUN_ultranationalism_party_long:0 "Green Libya Party"
+
+  TUN_liberalism_party:0 "Destour"
+  TUN_liberalism_party_long:0 "al-Ḥizb al-Ḥurr ad-Dustūrī"
+  TUN_conservatism_party:0 "Destour"
+  TUN_conservatism_party_long:0 "al-Ḥizb al-Ḥurr ad-Dustūrī"
+
+  ### Characters ###
+  TUN_Husain_Bey:0 "Husain Bey"
+  TUN_Muhammad_VIII:0 "Muhammad VIII"
+  TUN_Mohamed_Ennafaa:0 "Mohamed Ennafaa"
+  TUN_Habib_Bourguiba:0 "Habib Bourguiba"
+  TUN_Georges_Adda:0 "Georges Adda"
+  TUN_Habib_Thameur:0 "Habib Thameur"
+  TUN_Mustapha_Kaak:0 "Mustapha Kaak"
+  TUN_Mohamed_Chenik:0 "Mohamed Chenik"
+  TUN_Mohamed_Habib_Essoussi:0 "Mohamed Habib Essoussi"
+  TUN_Hedi_Nouira:0 "Hédi Nouira"
+  TUN_Salah_Farhat:0 "Salah Farhat"
+  TUN_Enrico_Bombieri:0 "Enrico Bombieri"
+
+ ### Leader Bios ###
+ POLITICS_MUHAMMAD_VIII_DESC:0 "Tunisia, as the saying goes, has dodged a raindrop only to hide in the gutter. It threw off the French yoke with gusto as Axis troops stormed through North Africa, only to replace it with the harsher rule of Rome. The whole European order has in the past thirty years been pulverized and reshaped into a form scarcely recognizable; despite all of this, things in Tunisia are in some ways the same as always. This stagnancy in the midst of upheaval manifests itself in the person of Muhammed VII al-Amin, the most recent Bey of the Husainid Dynasty.\n\nMore commonly known as Lamine Bey, he came into the spotlight in the 1940's, the cousin and chosen heir of Moncef Bey. His predecessor, a national hero for his efforts to break away from French hegemony during the war, defined postwar Tunisia, although his accommodation with the Italians caused significant discomfort among some elements of the population. After a poorly planned attempt by the Italians to integrate Libya into their African realms ended in failure, Lamine Bey was tapped by Rome to serve as regent in a protectorate regime ironically very similar to the one the French had installed long ago.\n\nTunisia was liberated and enslaved by the Italians, and Lamine Bey is both accomplice to and agent against them. Although legally ruling as the representative of the king in Rome, Lamine Bey shares his cousin's ambition for a free Tunisia, preferably established through negotiation with the Italians. His contacts in the Destour Party, at once a collaborator apparatus and genuine nationalist force, seek a cautious, legal road to a free homeland. Tunisia is a very polarized place, however, and the Bey is getting older. If he exits the picture, the Destour Party's carefully established balance could suddenly and drastically fall to pieces."
+
+ ### Ministers ###
+
+ 
+ ### Ideas ###
+ TUN_the_second_treaty_of_bardo:0 "The Second Treaty of Bardo"
+ TUN_the_second_treaty_of_bardo_desc:0 "In 1881, the Treaty of Bardo signed by the French and the bey utterly emasculated Tunisia, completely stripping it of autonomy. One might naively think that the total defeat of the French would improve the situation, but all that occurred was a new humiliation.\n\nThe Italians have relegated the Bey to a powerless regent, and their economic interests, whether industry, agriculture or tourism, have squeezed Tunisia dry, meager though the profits be.\n\nRumors of Tunisian oil may improve cash flows, however..."
+ 
+ TUN_destour_hegemony:0 "Destour Hegemony"
+ TUN_destour_hegemony_desc:0 "The Destour Party has suffered quite the ironic fate; originally intended to organize Arabs against French colonialism, it has become the unwilling partner of Italian colonialism.\n\nThe only legal political party after the collapse of Neo-Destour forced a merger, Destour has been increasingly destabilized by political violence and internal tensions, with disparate wings pulling it apart from within and other forces, like the growing communist movement, pushing it from without."
+ 
+ TUN_the_italo_tunisians:0 "The Italo-Tunisians"
+ TUN_the_italo_tunisians_desc:0 "For centuries, Tunisia has been an attractive refuge for Italians with nowhere to go and nothing to lose. Treated miserably under the French colonial administration, Italo-Tunisians were initially enraptured by fascism's promises of glory and connection to the homeland.\n\nNow actually under Italian rule, the community has become significantly more divided, as anti-fascist and left-wing ideas gain traction among those for whom fascism's lofty promises remain completely unfulfilled. Tunisia's Italians have formed into two fiercely opposed camps, and only struggle will determine who prevails."
+ 
+ ### Decisions ###
+ 
+ ### Tooltips ###
+ 
+ ### Focus Tree ###
+ 
+ ### Events ###
+

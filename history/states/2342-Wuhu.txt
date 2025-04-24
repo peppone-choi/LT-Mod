@@ -1,0 +1,39 @@
+state = {
+	id = 2342
+	name = "STATE_2342"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			1099 15
+		}
+		victory_points = {
+			1171 3
+		}
+		victory_points = {
+			4105 2
+		}
+		victory_points = {
+			12061 2
+		}
+		set_state_flag = GDP_regions_anhui
+		set_variable = { china_state_ref = 6 }
+		set_variable = { china_region_ref = 0 }
+	}
+
+	provinces = {
+		12061 11994 1099 1171 4105
+	}
+	manpower = 6502101
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

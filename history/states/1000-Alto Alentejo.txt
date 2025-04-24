@@ -1,0 +1,26 @@
+state = {
+	id = 1000
+	name = "STATE_1000"
+	provinces = {
+		3846 3886 3926 6986 9869
+	}
+	resources = {
+		chromium = 23
+	}
+	history = {
+		owner = POR
+		victory_points = { 9869 4 }
+		victory_points = { 3886 1 }
+		victory_points = { 3926 1 }
+		add_core_of = POR
+		buildings = {
+			schools = 1
+			infrastructure = 3
+		}
+		set_state_flag = GDP_regions_portugal
+		set_state_flag = GDP_category_large_town
+	}
+	manpower = 399165
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

@@ -1,0 +1,50 @@
+state = {
+	id = 714
+	name = "STATE_714"
+	resources = {
+		oil = 18.000
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+			radar_station = 2
+			air_base = 2
+			offices = 1
+			barracks = 1
+			prisons = 1
+			thermoelectric_plant = 1
+		}
+		victory_points = {
+			19828 21
+		}
+		victory_points = {
+			19851 2
+		}
+		victory_points = {
+			1588 5
+		}
+		victory_points = {
+			4561 12
+		}
+		victory_points = {
+			1627 3
+		}
+		victory_points = {
+			1499 15
+		}
+		set_variable = { china_state_ref = 50 }
+		set_variable = { china_region_ref = 6 }
+	}
+
+	provinces = {
+		1499 1588 1627 4506 4561 12485 14630 14631 19813 19828 19831 19851 19855 19871 19887 19896
+	}
+	manpower = 5853483
+
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

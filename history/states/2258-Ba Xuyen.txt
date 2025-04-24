@@ -1,0 +1,23 @@
+state = {
+	id = 2258
+	name = "STATE_2258"
+
+	history = {
+		add_core_of = VIN
+		add_core_of = VIC
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			offices = 1
+		}
+		victory_points = { 7303 1 }
+		victory_points = { 19104 1 }
+	}
+
+	provinces = {
+		7331 7303 19104
+	}
+	manpower = 1422605
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 78
+	name = "STATE_78"
+
+	history = {
+		owner = ROM
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+		}
+		add_core_of = ROM
+		victory_points = {
+			15984 3
+		}
+		victory_points = {
+			3724 1
+		}
+		set_state_flag = GDP_category_town
+	}
+
+	provinces = {
+		3707 3724 15984
+	}
+	manpower = 620103
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

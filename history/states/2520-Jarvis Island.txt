@@ -1,0 +1,18 @@
+state = {
+	id = 2520
+	name = "STATE_2520"
+	manpower = 1
+	state_category = tiny_island
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		19997
+	}
+}

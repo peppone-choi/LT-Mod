@@ -1,0 +1,49 @@
+state = {
+	id = 72
+	name = "STATE_72"
+	resources = {
+		aluminium = 5.000
+	}
+
+	history = {
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			3530 15
+		}
+		victory_points = {
+			11640 10
+		}
+		victory_points = {
+			6542 4
+		}
+		victory_points = {
+			6568 10
+		}
+		victory_points = {
+			6712 3
+		}
+		victory_points = {
+			694 2
+		}
+		victory_points = {
+			3679 5
+		}
+		buildings = {
+			schools = 1
+			infrastructure = 5
+			air_base = 3
+			missile_silo = 1
+			thermoelectric_plant = 2
+		}
+		add_extra_state_shared_building_slots = 1
+	}
+
+	provinces = {
+		694 3530 3679 3692 6542 6568 6581 6712 11640 15830
+	}
+	manpower = 3387298
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies = 0.000
+}

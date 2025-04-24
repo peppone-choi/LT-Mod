@@ -1,0 +1,30 @@
+state = {
+	id = 1388
+	name = "STATE_1388"
+
+	resources = {
+		oil = 4
+	}
+
+	history = {
+		owner = GGN
+		add_core_of = GGN
+		add_core_of = POL
+		victory_points = {
+			6460 3
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		6460 9425 11411 13018
+	}
+	manpower = 391588
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

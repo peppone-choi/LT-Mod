@@ -1,0 +1,45 @@
+state = {
+	id = 1434
+	name = "STATE_1434"
+
+	history = {
+		owner = MCW
+		add_core_of = MCW
+		victory_points = {
+			9197 5
+		}
+		victory_points = {
+			9177 5
+		}
+		victory_points = {
+			6095 3
+		}
+		victory_points = {
+			3072 1
+		}
+		victory_points = {
+			3140 5
+		}
+		victory_points = {
+			11068 1
+		}
+		victory_points = {
+			39 1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			thermoelectric_plant = 1
+		}
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		8 39 57 70 71 79 110 152 172 194 3072 3110 3140 3142 6035 6086 6095 6131 6154 6197 6225 9060 9082 9107 9111 9153 9164 9177 9184 9190 9197 9212 11048 11059 11068 11174 11191 13335 18266 18267 17118
+	}
+	manpower = 1581866
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

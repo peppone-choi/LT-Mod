@@ -1,0 +1,89 @@
+focus_tree = {
+    id = ONG_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = ONG
+        }
+    }
+    
+    default = no
+
+    focus = {
+        id = ONG_focus_1 #헬싱키의 확언
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = ONG_focus_2 #삼림 정찰대 창설
+        prerequisite = {focus = ONG_focus_1}
+        x = 0
+        y = 1
+    }
+
+focus = {
+        id = ONG_focus_3 #러시아를 떠도는 유령
+        prerequisite = {focus = ONG_focus_2}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = ONG_focus_4 #방벽을 자처하다
+        prerequisite = {focus = ONG_focus_3}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = ONG_focus_5 #감림 유격대 육성
+        prerequisite = {focus = ONG_focus_4}
+        x = 0
+        y = 4
+    }
+
+    focus = {
+        id = ONG_focus_6 #핀란드 디업인들과의 거래
+        prerequisite = {focus = ONG_focus_5}
+        x = 1
+        y = 2
+    }
+
+    focus = {
+        id = ONG_focus_7 #카렐레야 SSP 관료 복권
+        prerequisite = {focus = ONG_focus_6}
+        mutually_exclusive = {focus = ONG_focus_8}
+        x = 1
+        y = 3
+    }
+
+    focus = {
+        id = ONG_focus_8 #핀란드인 관료 우대
+        prerequisite = {focus = ONG_focus_6}
+        mutually_exclusive = {focus = ONG_focus_7}
+        x = 2
+        y = 3
+    }
+
+    focus = {
+        id = ONG_focus_9 #카렐인들과의 관계 정상화
+        prerequisite = {focus = ONG_focus_7 focus = ONG_focus_8}
+        x = 1
+        y = 4
+    }
+ 
+    focus = {
+        id = ONG_focus_10 #관료 재교육
+        prerequisite = {focus = ONG_focus_9}
+        x = 1
+        y = 5
+    }
+}
+
+
+
+

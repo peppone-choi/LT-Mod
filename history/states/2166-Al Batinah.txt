@@ -1,0 +1,28 @@
+state = {
+	id = 2166
+	name = "STATE_2166"
+
+	resources = {
+		chromium = 2
+	}
+
+	state_category = rural
+
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			13460 1
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		13460 18560 10760
+	}
+	manpower = 156700
+	buildings_max_level_factor = 1.000
+}

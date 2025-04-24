@@ -1,0 +1,26 @@
+state = { #Population Done
+	id = 1502
+	name = "STATE_1502" # Entre Rios
+	manpower = 805357
+
+	state_category = town
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ARG
+		victory_points = { 15080 10 }
+		victory_points = { 12453 3 }
+		victory_points = { 14962 5 }
+		victory_points = { 15013 1 }
+		victory_points = { 15085 1 }
+		victory_points = { 1449 1 }
+		victory_points = { 15015 1 }
+	}
+
+	provinces = {
+		1449 10515 10943 12453 14891 14892 14962 15013 15047 15080 15085
+	}
+}

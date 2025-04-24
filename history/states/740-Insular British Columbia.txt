@@ -1,0 +1,44 @@
+state = {
+	id = 740
+	name = "STATE_740"
+	manpower = 299402
+
+	state_category = town
+
+	history = {
+		owner = CAN
+		buildings = {
+			air_base = 3
+			offices = 2
+			infrastructure = 5
+			radar_station = 3
+			dockyard = 1
+			1869 = {
+				naval_base = 1
+			}
+			7259 = {
+				naval_base = 4
+			}
+		}
+		victory_points = { # Victoria
+			7259 10 # provincial capital
+		}
+		victory_points = { # Nanaimo
+			1214 2
+		}
+		victory_points = { # Campbell River
+			1420 1
+		}
+		victory_points = { # Queen Charlotte, added to have something on the Charlottes / Haida Gwaii
+			1869 1
+		}
+		add_core_of = CAN
+		set_state_flag = GDP_regions_british_columbia
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		1869 7259 1214 12259 12272 1420
+	}
+
+}

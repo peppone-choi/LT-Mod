@@ -1,0 +1,31 @@
+state = {
+	id = 621
+	name = "STATE_621"
+	resources = {
+		steel = 8.000
+		uranium = 2.000
+	}
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12403 2
+		}
+		set_state_flag = state_renamings
+		set_state_flag = GDP_regions_chahar_suiyuan
+		set_variable = { china_state_ref = 55 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		12403 14670 15196 16848
+	}
+	manpower = 1059209
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

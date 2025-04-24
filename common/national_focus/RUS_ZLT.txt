@@ -1,0 +1,78 @@
+focus_tree = {
+    id = ZLT_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = ZLT
+        }
+    }
+
+    default = no
+
+
+focus = {
+        id = ZLT_focus_1 #전부 잃거나, 전부 얻거나
+        x = 0
+        y = 0
+    }
+
+     focus = {
+        id = ZLT_focus_2 #경제 유통망 설정
+        prerequisite = {focus = ZLT_focus_1}
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = ZLT_focus_3 #붉은 군인들과의 협조계획
+        prerequisite = {focus = ZLT_focus_2}
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = ZLT_focus_4 #유그라 '토벌'
+        prerequisite = {focus = ZLT_focus_3}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = ZLT_focus_5 #동쪽을 향한 야망
+        prerequisite = {focus = ZLT_focus_4}
+        x = 0
+        y = 4
+    }
+
+    focus = {
+        id = ZLT_focus_6 #서쪽을 향한 개척
+        prerequisite = {focus = ZLT_focus_5}
+        x = 0
+        y = 5
+    }
+
+    focus = {
+        id = ZLT_focus_7 #경제전쟁의 끝
+        prerequisite = {focus = ZLT_focus_6}
+        x = 0
+        y = 6
+    }
+
+    focus = {
+        id = ZLT_focus_8 #보르쿠타와의 타협
+        prerequisite = {focus = ZLT_focus_7}
+        x = 0
+        y = 7
+    }
+
+    focus = {
+        id = ZLT_focus_9 #붉은 군대의 부름
+        prerequisite = {focus = ZLT_focus_8}
+        x = 0
+        y = 8
+    }
+
+}

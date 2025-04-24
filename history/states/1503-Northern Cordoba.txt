@@ -1,0 +1,36 @@
+state = {
+	id = 1503
+	name = "STATE_1503"
+	resources = {
+		steel = 5.000
+	}
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ARG
+		victory_points = {
+			14956 4
+		}
+		victory_points = {
+			10985 3
+		}
+		victory_points = {
+			12942 2
+		}
+		victory_points = {
+			14968 1
+		}
+		set_state_flag = GDP_regions_cordoba
+	}
+
+	provinces = {
+		10975 10985 12942 14956 14961 14968 14973 15011 17547
+	}
+	manpower = 1753840
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

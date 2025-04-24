@@ -1,0 +1,27 @@
+state = { #Population Done
+	id = 664
+	name = "STATE_664"
+	manpower = 1028500
+	resources = {
+		steel = 20
+		chromium = 4
+	}
+
+	state_category = town
+
+	history = {
+		owner = HUN
+		buildings = {
+			infrastructure = 5
+			hospitals = 1
+		}
+		victory_points = { 6573 10 }
+		victory_points = { 11679 2 }
+		victory_points = { 3716 2 }
+		add_core_of = HUN
+	}
+
+	provinces = {
+		3716 6561 6573 9537 11679
+	}
+}

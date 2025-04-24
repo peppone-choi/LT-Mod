@@ -1,0 +1,17 @@
+﻿l_english:
+
+  # Icon tooltip
+  TNO_ODF_icon_tt: "§DOPERATION DEEP FREEZE§!"
+  TNO_ODF_icon_tt_delayed: "§WAntarctica§!. The Exiled Continent. The Great White Nothing. Average temperature: §m-21.6 Celsius§!. Bounded by titanic cliffs, encased in glaciers, blasted by katabatic winds, it is the most inhospitable place on Earth, completely unfit for prolonged human habitation. However, from the moment the first explorers sighted the ice shelves on its shores, its §Gmysteries§!, §Bwonders§!, and §Rdangers§! summoned the bravest of them inland. From the coastal probes of H.M.S. Erebus and Terror to the polar ventures of §RScott§!, §GAmundsen§!, and §BShackleton§!, the last unexplored place on Earth's surface called to the intrepid.\n\nThe purpose of these ventures has always been to stake a nation's claim to this desert. The only uncontested region of the planet was subsumed by the whims of geopolitics. The triumph of the §LAxis Powers§! in the §RSecond World War§! only served to accelerate the conquest of §WAntarctica§!. Territorial disputes in the Beagle Channel over the islet of Snipe between §uChile§! and §MArgentina§! escalated into a regional conflagration that heralded the first §Rwar§! of §WAntarctic§! history, and the §mScramble for Antarctica§!.\n\nAs powers great and small carved up the coast and made grand claims to the interior, the stage was set for new §Rconflicts§! between nations. The American-led OFN mission, §DOperation Deep Freeze§!, began the involvement of the superpowers. Thousands of boots trod virgin snow, to be followed by thousands more from rival countries.\n\nThe irony that states are fighting over such an inherently worthless piece of land is not lost on any of the participants, but none can leave while the others remain, lest their prestige be shattered. Their desire to defeat each other is eclipsed only by the continent's indifference to the works of §GMan§!. Strong or weak, rich or poor, when the food runs out and the fuel runs low, there is only the §Bsilence§!, the §Bcold§!, and the §Rgnawing hunger that makes men do unspeakable things§!.\n\n§WAntarctica§! awaits..."
+
+####=== The tooltips that are shown when hovering over the menu pictures ===####
+###- TNO v1.5.0 - The Ruin, September 29th 2023
+
+## SINGLE PLAYER - Roald Amundsen 
+TNO_menupic_tooltip_1: "§F§GVictory§! awaits him who has everything in §Border§! - §Rluck§!, people call it.§!"
+
+## MULTIPLAYER - Sir Ernest Shackleton
+TNO_menupic_tooltip_2: "§F§RDifficulties§! are just things to §Govercome§!, after all.§!" 
+
+## QUIT - Robert Falcon Scott
+TNO_menupic_tooltip_3: "§FThe §Geternal silence§! of the §Wgreat white desert§!. Cloudy columns of §Wsnow§! drift advancing from the south, pale §Yyellow§! wraiths, heralding the §Bcoming storm§!, §Rblotting out§! one by one the sharp-cut lines of the land.§!"

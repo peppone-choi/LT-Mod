@@ -1,0 +1,539 @@
+guiTypes = {
+	extendedScrollbarType = {
+		name = "right_vertical_slider_AAA"
+		position = { x = -17 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x = -17 y = -19 }
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_L"
+		position = { x = 0 y = 0 }
+		size = { width = 35% height = 100% }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_L_Container"
+			position = { x = 0 y = 0 }
+
+			gridboxtype = {
+				name = "Antarctica_GUI_AAA_Op90_Window_L_Grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 0 height = 0 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_Map"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 100% }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Title"
+			position = { x = 0 y = 146 }
+			font = "aldrich_48_outline"
+			text = Antarctica_GUI_AAA_Op90_Map_Title
+			maxWidth = 672
+			format = center
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Map"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Map"
+			position = { x = 108 y = 234 } # 284
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Path"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Map_Path"
+			position = { x = 355 y = 683 }
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Esperanza_Dot"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Map_Station_Dot"
+			position = { x = 277 y = 248 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Map_Esperanza_Dot_tt
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Belgrano_Dot"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Map_Station_Dot"
+			position = { x = 449 y = 680 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Map_Belgrano_Dot_tt
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Sobral_Dot"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Map_Station_Dot"
+			position = { x = 407 y = 760 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Map_Sobral_Dot_tt
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Pole_Dot"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Map_Station_Dot"
+			position = { x = 352 y = 1019 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Map_Pole_Dot_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Expedition_Dot"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Map_Expedition_Dot"
+			position = { x = 449 y = 680 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Map_Expedition_Dot_tt
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Map_Members_Swap"
+			quadTextureSprite = "GFX_Antarctica_GUI_AAA_Standard_Button_Blue"
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_AAA_Op90_Map_Members_Swap
+			position = { x = 428 y = 24 }
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_Members"
+		position = { x = 0 y = 0 }
+		size = { width = 35% height = 100% }
+		
+		background = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_bg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Return"
+			quadTextureSprite = "GFX_Antarctica_GUI_AAA_Standard_Button_Blue"
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_AAA_Op90_Window_Members_Return
+			position = { x = 25 y = 24 }
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Title"
+			position = { x = 25 y = 60 }
+			font = "aldrich_32_outline"
+			text = Antarctica_GUI_AAA_Op90_Window_Members_Title
+			maxWidth = 500
+			format = left
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Info_Button"
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			position = { x = -60 y = 21 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Window_Members_Info_Button_tt
+			orientation = upper_right
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Container"
+			position = { x = 0 y = 93 }
+			size = { width = 100% height = 550 }
+			verticalScrollbar = "right_vertical_slider_AAA"
+			margin = { top = 0 bottom = 0 left = 0 right = 0 }
+
+			background = {
+				name = "Antarctica_GUI_AAA_Op90_Window_Members_Container_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_AAA_Op90_Window_Members_Grid"
+				position = { x = 0 y = 0 }
+				size = { width = 650 height = 100% }
+				slotsize = { width = 600 height = 152 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Inventory_Title"
+			position = { x = 25 y = 648 }
+			font = "aldrich_32_outline"
+			text = Antarctica_GUI_AAA_Op90_Window_Inventory_Title
+			maxWidth = 500
+			format = left
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Inventory_Container"
+			position = { x = 0 y = 688 }
+			size = { width = 100% height = -25 }
+			verticalScrollbar = "right_vertical_slider_AAA"
+			margin = { top = 0 bottom = 0 left = 0 right = 0 }
+
+			background = {
+				name = "Antarctica_GUI_AAA_Op90_Window_Inventory_Container_bg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+			
+			gridboxtype = {
+				name = "Antarctica_GUI_AAA_Op90_Window_Inventory_Grid"
+				position = { x = 0 y = 0 }
+				size = { width = 650 height = 100% }
+				slotsize = { width = 600 height = 50 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_Members_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 600 height = 150 }
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Healthbar"
+			position = { x = 125 y = 101 }
+			spriteType = GFX_Antarctica_GUI_AAA_Progressbar_Secrecy_AAJ
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Entry_Bg"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Member_Bg"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Window_Members_Entry_tt
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Portrait"
+			position = { x = 22 y = 21 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Entry_Name"
+			position = { x = 122 y = 0 }
+			font = "aldrich_28_outline"
+			text = Antarctica_GUI_AAA_Op90_Window_Members_Entry_Name
+			maxWidth = 500
+			maxHeight = 62
+			format = left
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Entry_Status"
+			position = { x = 122 y = 55 }
+			font = "aldrich_32_outline"
+			text = Antarctica_GUI_AAA_Op90_Window_Members_Entry_Status
+			maxWidth = 500
+			format = left
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Members_Entry_Treat_Injury"
+			quadTextureSprite = "GFX_Antarctica_Decision_GUI_AAA_Med_Button"
+			position = { x = 538 y = 50 }
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Window_Members_Entry_Treat_Injury_tt
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_Inventory_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 600 height = 50 }
+		
+		#iconType = {
+		#	name = "Antarctica_GUI_AAA_Op90_Window_Inventory_Entry_Bg"
+		#	spriteType = "GFX_Antarctica_GUI_AAA_Op90_Member_Bg_Empty"
+		#	position = { x = 0 y = 0 }
+		#}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Window_Inventory_Entry_Amount"
+			position = { x = 20 y = 0 }
+			font = "aldrich_32_outline"
+			text = Antarctica_GUI_AAA_Op90_Window_Inventory_Entry_Amount
+			maxWidth = 500
+			format = left
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_R"
+		position = { x = -35% y = 0 }
+		size = { width = 35% height = 100% }
+		orientation = upper_right
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Time_Remaining"
+			position = { x = 0 y = 24 }
+			font = "aldrich_28_outline"
+			text = Antarctica_GUI_AAA_Op90_Time_Remaining
+			maxWidth = 672
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Desc"
+			position = { x = 20 y = 149 }
+			font = "aldrich_24_outline"
+			text = Antarctica_GUI_AAA_Op90_Incident_Desc
+			maxWidth = 632
+			format = left
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Start_Button"
+			quadTextureSprite = "GFX_tiled_decisions_bg_small_alt"
+			buttonFont = "aldrich_48_outline"
+			buttonText = Antarctica_GUI_AAA_Op90_Start_Button_text
+			position = { x = 136 y = 160 }
+			size = { x = 400 y = 150 }
+			multiline = yes
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Ground_Container"
+			position = { x = 39 y = 465 }
+			size = { width = 596 height = 77 }
+			clipping = yes
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Op90_Incident_Ground_1"
+				spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Ground"
+				position = { x = 0 y = 0 }
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAA_Op90_Incident_Ground_2"
+				spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Ground"
+				position = { x = 0 y = 0 }
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Op90_Incident_Ground_Crack"
+				spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Ground_Crack"
+				position = { x = 0 y = 0 }
+			}
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Ice_Wall"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Ice_Wall"
+			position = { x = 569 y = 360 }
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_1"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_2"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_3"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_4"
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Tech_Icon_2_Asset"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Tech_Icon_1_Asset"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Tech_Icon_3_Asset"
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_5"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_6"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_7"
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Team_Member_8"
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Penguin_1"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Penguin_L"
+			position = { x = 445 y = 462 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Penguin_2"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Penguin_L"
+			position = { x = 480 y = 464 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Penguin_3"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Penguin_R"
+			position = { x = 515 y = 465 }
+		}
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Penguin_4"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Penguin_L"
+			position = { x = 560 y = 463 }
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Plane"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Plane"
+			position = { x = 180 y = 348 }
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Snow_Container"
+			position = { x = 39 y = 342 }
+			size = { width = 596 height = 200 }
+			clipping = yes
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Op90_Incident_Snow"
+				spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Snow"
+				position = { x = 0 y = 0 }
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAA_Op90_Incident_Snow_Wipe"
+				spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Snow_Wipe"
+				position = { x = 0 y = 0 }
+			}
+		}
+		
+		iconType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Anim_Border"
+			spriteType = "GFX_Antarctica_GUI_AAA_Op90_Incident_Anim_Border"
+			position = { x = 38 y = 341 }
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Button_1"
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Incident_Button_1_tt
+			quadTextureSprite = "GFX_tiled_paper_bg3"
+			size = { x = 300 y = 200 }
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_AAA_Op90_Incident_Button_1_text
+			position = { x = 37 y = 620 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Button_2"
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Incident_Button_2_tt
+			quadTextureSprite = "GFX_tiled_paper_bg3"
+			size = { x = 300 y = 200 }
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_AAA_Op90_Incident_Button_2_text
+			position = { x = 337 y = 620 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Button_3"
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Incident_Button_3_tt
+			quadTextureSprite = "GFX_tiled_paper_bg3"
+			size = { x = 300 y = 200 }
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_AAA_Op90_Incident_Button_3_text
+			position = { x = 37 y = 820 }
+			multiline = yes
+		}
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_Incident_Button_4"
+			pdx_tooltip = Antarctica_GUI_AAA_Op90_Incident_Button_4_tt
+			quadTextureSprite = "GFX_tiled_paper_bg3"
+			size = { x = 300 y = 200 }
+			buttonFont = "aldrich_24_outline"
+			buttonText = Antarctica_GUI_AAA_Op90_Incident_Button_4_text
+			position = { x = 337 y = 820 }
+			multiline = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_M"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 8% }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_Window_B"
+		position = { x = 0 y = -12% }
+		size = { width = 100% height = 12% }
+		orientation = lower_left
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+		}
+	}
+	
+	containerWindowType = {
+		name = "Antarctica_GUI_AAA_Op90_AI_Window"
+		position = { x = 1050 y = 0 }	
+		size = { width = 150 height = 150 }
+		
+		background = {
+			name = "Antarctica_GUI_AAA_Op90_AI_Window_bg"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
+		
+		buttonType = {
+			name = "Antarctica_GUI_AAA_Op90_AI_Window_Button"
+			quadTextureSprite = "GFX_Antarctica_GUI_AAA_Standard_Button_Blue"
+			position = { x = 10 y = 34 }
+			frame = 2
+			buttonFont = "aldrich_16_outline"
+			text = "Op90 Hourly Tick"
+		}	
+	}
+}

@@ -1,0 +1,36 @@
+state = {
+	id = 2359
+	name = "STATE_2359"
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+			offices = 1
+		}
+		victory_points = {
+			7948 5
+		}
+		victory_points = {
+			11865 15
+		}
+		victory_points = {
+			19535 5
+		}
+		victory_points = {
+			19649 5
+		}
+		set_state_flag = GDP_regions_chuandong
+		set_variable = { china_state_ref = 16 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		10144 7948 19649 11865 19535 19651 4041 19764
+	}
+	manpower = 5471174
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

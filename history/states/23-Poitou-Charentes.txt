@@ -1,0 +1,57 @@
+state = {
+	id = 23
+	name = "STATE_23"
+	resources = {
+		steel = 48.000
+	}
+
+	history = {
+		owner = FRS
+		victory_points = {
+			15254 3
+		}
+		victory_points = {
+			15252 10
+		}
+		victory_points = {
+			15253 1
+		}
+		victory_points = {
+			11582 1
+		}
+		victory_points = {
+			629 10
+		}
+		victory_points = {
+			9597 1
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			thermoelectric_plant = 1
+			15252 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+			9597 = {
+				coastal_bunker = 2
+			}
+			15251 = {
+				coastal_bunker = 2
+			}
+			prisons = 1
+			barracks = 1
+			offices = 1
+		}
+		add_core_of = FRS
+		add_core_of = FFR
+	}
+
+	provinces = {
+		595 629 3598 3659 9597 11582 11596 11869 13365 13366 15251 15252 15253 15254 15255 17985 17986
+	}
+	manpower = 1430000
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

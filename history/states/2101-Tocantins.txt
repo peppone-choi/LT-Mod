@@ -1,0 +1,30 @@
+state = {
+	id = 2101
+	name = "STATE_2101"
+	resources = {
+		aluminium = 6.000
+	}
+
+	history = {
+		owner = BRA
+		buildings = {
+			infrastructure = 3
+			radar_station = 1
+			air_base = 1
+			barracks = 1
+		}
+		add_core_of = BRA
+		victory_points = {
+			2168 1
+		}
+		set_state_flag = GDP_regions_goias
+	}
+
+	provinces = {
+		17475 17470 14777 14778 17478 5151 2168
+	}
+	manpower = 385702
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

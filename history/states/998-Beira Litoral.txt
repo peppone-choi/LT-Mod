@@ -1,0 +1,35 @@
+state = {
+	id = 998
+	name = "STATE_998"
+
+	history = {
+		owner = POR
+		add_core_of = POR
+		victory_points = {
+			17981 10
+		}
+		victory_points = {
+			6924 3
+		}
+		victory_points = {
+			3798 8
+		}
+		victory_points = {
+			799 5
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 2
+		}
+		set_state_flag = GDP_regions_portugal
+		set_state_flag = GDP_category_city
+	}
+
+	provinces = {
+		799 3798 6924 17981
+	}
+	manpower = 1183766
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,102 @@
+﻿l_english:
+
+ ### Party Names ###
+ WRS_fascism_party: "KONR"
+ WRS_fascism_party_long: "Komitet po Osvobozhdeniyu Narodov Rossii"
+ WRS_national_socialism_party: "KONR"
+ WRS_national_socialism_party_long: "Komitet Osvobozhdeniya Narodov Rossii"
+ WRS_ultranationalism_party: "Passionariyy-Evraziytsy"
+ WRS_ultranationalism_party_long: "Passionariyy-Evraziytsy"
+ WRS_despotism_party: "KONR"
+ WRS_despotism_party_long: "Komitet po Osvobozhdeniyu Narodov Rossii"
+ WRS_paternalism_party: "KONR"
+ WRS_paternalism_party_long: "Komitet po Osvobozhdeniyu Narodov Rossii"
+ WRS_conservatism_party: ""
+ WRS_conservatism_party_long: ""
+ WRS_liberalism_party: ""
+ WRS_liberalism_party_long: ""
+ WRS_progressivism_party: "VKP(b)"
+ WRS_progressivism_party_long: "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)"
+ WRS_socialist_party: "VKP(b)"
+ WRS_socialist_party_long: "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)"
+ WRS_communist_party: "VKP(b)"
+ WRS_communist_party_long: "Vsesoyuznaya Kommunisticheskaya Partiya (Bolshevikov)"
+
+ ### Idea Descriptions ###`
+
+ WRS_legitimate_government_of_the_soviet_union: "Legitimate Government of the Soviet Union"
+ WRS_legitimate_government_of_the_soviet_union_desc: ""
+
+ WRS_frigid_depths_of_the_white_sea: "Frigid Depths of the White Sea"
+ WRS_frigid_depths_of_the_white_sea_desc: ""
+
+ ### Leader Descriptions ###
+
+ WRS_Lev_Kamenev: "Lev Kamenev"
+ POLITICS_LEV_KAMENEV_DESC: ""
+
+WRS_Sergey_Kirov: "Sergey Kirov"
+POLITICS_SERGEY_KIROV_DESC: ""
+
+Nikita_Khrushchev: "Nikita Khrushchev"
+POLITICS_NIKITA_KHRUSHCHEV_DESC: ""
+
+WRS_Mikhail_Suslov: "Mikhail Suslov"
+POLITICS_MIKHAIL_SUSLOV_DESC: ""
+
+WRS_Lev_Sedov: "Lev Sedov"
+POLITICS_LEV_SEDOV_DESC: ""
+
+ #Zhukov cabinet
+# WRS_Konstantin_Telegin: "Konstantin Telegin"
+# WRS_Konstantin_Telegin_hog_desc: "§Y$head_of_government$\n$communist_bolshevism_subtype$§!"
+
+ ### Foci ###
+
+# Party Congress Focus
+WRS_party_congress_24: "24th Party Congress"
+WRS_party_congress_24_desc: ""
+
+# Leadership Path
+WRS_power_to_troika: "Power to the Troika!"
+WRS_power_to_troika_desc: ""
+
+WRS_left_opposition_victory: "Victory of the Left Opposition"
+WRS_left_opposition_victory_desc: ""
+
+# Military Path
+WRS_new_red_army: "The New Red Army"
+WRS_new_red_army_desc: ""
+
+WRS_military_strategy_debate: "Military Strategy Debate"
+WRS_military_strategy_debate_desc: ""
+
+WRS_first_guards_reconstruction: "Reconstruction of the First Guards"
+WRS_first_guards_reconstruction_desc: ""
+
+# Political Paths
+WRS_bureaucrat_leadership: "Leadership of the Bureaucrats"
+WRS_bureaucrat_leadership_desc: ""
+
+WRS_worker_leadership: "Leadership of the Workers"
+WRS_worker_leadership_desc: ""
+
+# Economic Focuses
+WRS_increase_supplies: "Increase Supply Production"
+WRS_increase_supplies_desc: ""
+
+WRS_power_of_people: "Power of the People!"
+WRS_power_of_people_desc: ""
+
+# Final Focus
+WRS_cooperation_with_tukhachevsky: "Cooperation with Tukhachevsky"
+WRS_cooperation_with_tukhachevsky_desc: ""
+
+# Country Names
+WRS_regional_unifier: "Union of Soviet Socialist Republics"
+WRS_regional_unifier_DEF: "Union of Soviet Socialist Republics"
+WRS_regional_unifier_ADJ: "Soviet"
+
+WRS_RUS: "Union of Soviet Socialist Republics"
+WRS_RUS_DEF: "Union of Soviet Socialist Republics"
+WRS_RUS_ADJ: "Soviet"

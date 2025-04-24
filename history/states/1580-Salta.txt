@@ -1,0 +1,25 @@
+state = {
+	id = 1580
+	name = "STATE_1580"
+	provinces = {
+		10965 14926 14966 14993 10944
+	}
+	resources = {
+		tungsten = 7
+	}
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARG
+		victory_points = {
+			10944 1
+		}
+		set_state_flag = GDP_regions_salta_jujuy
+		set_state_flag = GDP_category_pastoral
+	}
+	manpower = 61285
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

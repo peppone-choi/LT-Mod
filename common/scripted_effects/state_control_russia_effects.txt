@@ -1,0 +1,638 @@
+##SORTED BY STARTING TAG, AND THEN STATE ID NUMBER
+#BKR
+state_control_effect_651 = {
+	if = {
+		limit = {
+			is_controlled_by = BKR
+		}
+		set_state_name = STATE_651_bkr 
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 9349 name = VICTORY_POINTS_9349_bkr }
+			set_province_name = { id = 9385 name = VICTORY_POINTS_9385_bkr }
+		}
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 9349
+		reset_province_name = 9385
+	}
+}
+state_control_effect_853 = {
+	if = {
+		limit = {
+			is_controlled_by = BKR
+		}
+		set_state_name = STATE_853_bkr 
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 1278 name = VICTORY_POINTS_1278_bkr }
+			set_province_name = { id = 12130 name = VICTORY_POINTS_12130_bkr }
+		}
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 1278
+		reset_province_name = 12130
+	}
+}
+#BRY
+state_control_effect_564 = {
+	if = {
+		limit = {
+			OR = {
+				controller = {
+					RUS_consider_communist_regime = yes
+					OR = {
+						NOT = {
+							AND = {
+								tag = BRY
+								has_country_leader = {
+									character = BRY_Valery_Sablin
+								}
+							}
+						}
+						has_country_flag = buryatia_renamed_verkhneudinsk
+					}
+				}
+				is_controlled_by = SBA
+			}
+		}
+		set_province_name = { id = 7835 name = VICTORY_POINTS_7835_com }
+	}
+	else = {
+		reset_province_name = 7835
+	}
+}
+#FIN
+state_control_effect_215 = {
+	if = {
+		limit = {
+			controller = { is_russian_nation = yes }
+		}
+		set_state_name = STATE_215_rus
+		set_province_name = { id = 9195 name = VICTORY_POINTS_9195_rus }
+		set_province_name = { id = 9045 name = VICTORY_POINTS_9045_rus }
+		set_province_name = { id = 3121 name = VICTORY_POINTS_3121_rus }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 9195
+		reset_province_name = 9045
+		reset_province_name = 3121
+	}
+}
+state_control_effect_1359 = {
+	if = {
+		limit = {
+			controller = { is_russian_nation = yes }
+		}
+		set_state_name = STATE_1359_rus
+		set_province_name = { id = 3134 name = VICTORY_POINTS_3134_rus }
+		set_province_name = { id = 9201 name = VICTORY_POINTS_9201_rus }
+	}	
+	else = {
+		reset_state_name = yes
+		reset_province_name = 3134
+		reset_province_name = 9201
+	}
+}
+state_control_effect_1887 = {
+	if = {
+		limit = {
+			controller = { is_russian_nation = yes }
+		}
+		1887 = {
+			set_state_name = STATE_1887_rus
+		}
+		set_province_name = { id = 6109 name = VICTORY_POINTS_6109_rus }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 6109
+	}
+}
+#GOR
+state_control_effect_252 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_communist_regime = yes
+			}
+		}
+		reset_state_name = yes
+		reset_province_name = 11375
+	}
+	else_if = {
+		limit = {
+			controller = {
+				RUS_consider_aryan_regime = yes
+			}
+		}
+		set_state_name = STATE_252_ary
+		set_province_name = { id = 11375 name = VICTORY_POINTS_11375_ary }
+	}
+	else = {
+		set_state_name = STATE_252_nor
+		set_province_name = { id = 11375 name = VICTORY_POINTS_11375_nor }
+	}
+}
+#KEM
+state_control_effect_569 = {
+	if = {
+		limit = {
+			controller = { RUS_consider_stalinist_regime = yes }
+		}
+		set_province_name = { id = 1685 name = VICTORY_POINTS_1685_tym }
+	}
+	else_if = {
+		limit = {
+			controller = { RUS_consider_communist_regime = yes }
+		}
+		set_province_name = { id = 1685 name = VICTORY_POINTS_1685_sov }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 1685
+	}
+}
+#MAN
+state_control_effect_1364 = {
+	if = {
+		limit = {
+			controller = {
+				OR = {
+					is_in_faction_with = CHI
+					is_in_faction_with = JAP
+				}
+			}
+		}
+		reset_state_name = yes
+		reset_province_name = 19466
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 7763 name = VICTORY_POINTS_7763_man }
+		}
+		else = { reset_province_name = 7763 }
+	}
+	else = { 
+		set_province_name = { id = 19466 name = VICTORY_POINTS_19466_rus }
+		if = {
+			limit = {
+				controller = {
+					has_country_leader = {
+						character = AMR_Konstantin_Rodzaevsky
+						ruling_only = yes
+					}
+					has_country_flag = renamed_blagoveshchensk
+				}
+			}
+			set_state_name = STATE_1364_rodz
+			set_province_name = { id = 7763 name = VICTORY_POINTS_7763_rodz }
+		}
+		else = {
+			set_state_name = STATE_1364_rus
+			set_province_name = { id = 7763 name = VICTORY_POINTS_7763_rus }
+		}
+	}
+}
+#NOV
+state_control_effect_570 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_communist_regime = yes
+			}
+		}
+		set_province_name = { id = 12606 name = VICTORY_POINTS_12606_sov }
+	}
+	else = {
+		reset_province_name = 12606
+	}
+}
+#NRL
+state_control_effect_516 = {
+	if = {
+		limit = { controller = { has_cosmetic_tag = OMO_Anarchy } }
+		set_province_name = { id = 4859 name = VICTORY_POINTS_nrl }
+		set_province_name = { id = 1757 name = VICTORY_POINTS_nrl }
+	}
+	else = { 
+		reset_province_name = 4859 
+		reset_province_name = 1757
+	}
+}
+state_control_effect_575 = {
+	if = {
+		limit = { controller = { has_cosmetic_tag = OMO_Anarchy } }
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_state_name = STATE_575_nrl
+		}
+		set_province_name = { id = 4812 name = VICTORY_POINTS_nrl }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 4812
+	}
+}
+state_control_effect_761 = {
+	if = {
+		limit = { controller = { has_cosmetic_tag = OMO_Anarchy } }
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_state_name = STATE_761_nrl
+		}
+		set_province_name = { id = 13359 name = VICTORY_POINTS_nrl }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 13359
+	}
+}
+#OMO
+state_control_effect_644 = {
+	if = {
+		limit = { controller = { has_cosmetic_tag = OMO_Anarchy } }
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_state_name = STATE_644_omo
+		}
+		set_province_name = { id = 1722 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 2877 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 4455 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 4926 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 6211 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 9224 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 13351 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 13354 name = VICTORY_POINTS_omo }
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controller = { has_cosmetic_tag = OMO_Harmonious_State }
+				controller = { has_cosmetic_tag = OMO_Harmonious_State_SIB }
+				controller = { has_cosmetic_tag = OMO_Harmonious_State_RUS }
+			}
+		}
+		set_state_name = STATE_644_pony
+		set_province_name = { id = 4926 name = VICTORY_POINTS_pony }
+		set_province_name = { id = 13351 name = VICTORY_POINTS_13351_pony }
+		reset_province_name = 1722
+		reset_province_name = 2877
+		reset_province_name = 4455
+		reset_province_name = 6211
+		reset_province_name = 9224
+		reset_province_name = 13354
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 1722
+		reset_province_name = 2877
+		reset_province_name = 4455
+		reset_province_name = 4926
+		reset_province_name = 6211
+		reset_province_name = 9224
+		reset_province_name = 13351
+		reset_province_name = 13354
+	}
+}
+state_control_effect_891 = {
+	if = {
+		limit = {
+			controller = { has_cosmetic_tag = OMO_Anarchy }
+		}
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_state_name = STATE_891_omo
+		}
+		set_province_name = { id = 5880 name = VICTORY_POINTS_omo }
+		set_province_name = { id = 8162 name = VICTORY_POINTS_omo }
+	}
+	else_if = {
+		limit = {
+			OR = {
+				controller = { has_cosmetic_tag = OMO_Harmonious_State }
+				controller = { has_cosmetic_tag = OMO_Harmonious_State_SIB }
+				controller = { has_cosmetic_tag = OMO_Harmonious_State_RUS }
+			}
+		}
+		set_state_name = STATE_891_pony
+		set_province_name = { id = 5880 name = VICTORY_POINTS_5880_pony }
+		set_province_name = { id = 8162 name = VICTORY_POINTS_8162_pony }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 5880
+		reset_province_name = 8162
+	}
+}
+#PRC
+state_control_effect_329 = {
+	if = {
+		limit = {
+			controller = {
+				OR = {
+					RUS_consider_communist_regime = yes
+					original_tag = SBA
+				}
+			}
+		}
+		set_province_name = { id = 10627 name = VICTORY_POINTS_10627_com }
+		set_state_name = STATE_329_com
+	}
+	else_if = {
+		limit = {
+			OR = {
+				is_controlled_by = VYT
+				is_controlled_by = CHT
+				is_controlled_by = AMR
+				is_controlled_by = GAY
+				is_controlled_by = OMO
+			}
+		}
+		set_province_name = { id = 10627 name = VICTORY_POINTS_10627_nor }
+		set_state_name = STATE_329_nor
+	}
+	else_if = {
+		limit = {
+			OR = {
+				is_controlled_by = CHI
+				is_controlled_by = YUN
+			}
+		}
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_state_name = STATE_329_chi
+		}
+		else = { set_state_name = STATE_329_chi_eng }
+		set_province_name = { id = 10627 name = VICTORY_POINTS_10627_chi }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 10627
+	}
+}
+#PRM
+state_control_effect_753 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_aryan_regime = yes
+			}
+		}
+		set_state_name = STATE_753_prm
+		set_province_name = { id = 7375 name = VICTORY_POINTS_7375_prm }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 7375
+	}
+}
+state_control_effect_864 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_aryan_regime = yes
+			}
+		}
+		reset_state_name = yes
+		set_province_name = { id = 7403 name = VICTORY_POINTS_7403_prm }
+	}
+	else = {
+		set_state_name = STATE_864_nor
+		reset_province_name = 7403
+	}
+}
+#SAM
+state_control_effect_250 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_communist_regime = yes
+			}
+		}
+		set_province_name = { id = 392 name = VICTORY_POINTS_392_com }
+	}
+	else = {
+		reset_province_name = 392
+	}
+}
+state_control_effect_251 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_communist_regime = yes
+			}
+		}
+		set_state_name = STATE_251_com
+		set_province_name = { id = 9391 name = VICTORY_POINTS_9391_com }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 9391
+	}
+}
+state_control_effect_850 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_communist_regime = yes
+			}
+		}
+		set_state_name = STATE_850_com
+		set_province_name = { id = 11225 name = VICTORY_POINTS_11225_com }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 11225
+	}
+}
+#SVR
+state_control_effect_653 = {
+	if = {
+		limit = {
+			controller = {
+				OR = {
+					RUS_consider_communist_regime = yes
+					AND = {
+						tag = VYT
+						has_country_leader = {
+							character = VYT_Vladimir_III
+							ruling_only = yes
+						}
+						NOT = {
+							has_country_flag = vyatka_renamed_sverdlovsk
+						}
+					}
+					original_tag = SVR #Yeltsin keeps the name
+				}
+			}
+		}
+		reset_state_name = yes
+		reset_province_name = 1821
+		clr_global_flag = RUS_name_yekaterinburg
+	}
+	else = {
+		set_state_name = STATE_653_nor
+		set_province_name = { id = 1821 name = VICTORY_POINTS_1821_nor }
+		set_global_flag = RUS_name_yekaterinburg
+	}
+}
+#TAR
+state_control_effect_249 = {
+	if = {
+		limit = {
+			is_controlled_by = TAR
+			has_global_flag = TNO_endonym_mode
+		}
+		set_province_name = { id = 260 name = VICTORY_POINTS_260_tar }
+	}
+	else = {
+		reset_province_name = 260
+	}
+}
+state_control_effect_256 = {
+	if = {
+		limit = {
+			is_controlled_by = TAR
+		}
+		set_state_name = STATE_256_tar
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 3282 name = VICTORY_POINTS_3282_tar }
+			set_province_name = { id = 9259 name = VICTORY_POINTS_9259_tar }
+		}
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 3282
+		reset_province_name = 9259
+	}
+}
+state_control_effect_854 = {
+	if = {
+		limit = {
+			is_controlled_by = TAR
+		}
+		set_state_name = STATE_854_tar
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 3315 name = VICTORY_POINTS_3315_tar }
+			set_province_name = { id = 9402 name = VICTORY_POINTS_9402_tar }
+		}
+		if = {
+			limit = {
+				has_global_flag = TNO_exonym_mode
+			}
+			reset_state_name = yes
+		}
+	}
+	else_if = {
+		limit = {
+			controller = { has_cosmetic_tag = VOL_ANARCHY }
+		}
+		set_state_name = STATE_854_mar
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 3315 name = VICTORY_POINTS_3315_mar }
+			set_province_name = { id = 9402 name = VICTORY_POINTS_9402_mar }
+		}
+		if = {
+			limit = {
+				has_global_flag = TNO_exonym_mode
+			}
+			reset_state_name = yes
+		}
+	}
+	else_if = {
+		limit = {
+			controller = { RUS_consider_monarchist_regime = yes }
+		}
+		set_state_name = STATE_854_mon
+		set_province_name = { id = 9402 name = VICTORY_POINTS_9402_mon }
+	}
+	else_if = {
+		limit = {
+			controller = { RUS_consider_fascist_regime = yes }
+		}
+		set_state_name = STATE_854_fas
+		set_province_name = { id = 9402 name = VICTORY_POINTS_9402_fas }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 3315	
+		reset_province_name = 9402	
+	}
+}
+#TYM
+state_control_effect_403 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_stalinist_regime = yes
+			}
+		}
+		set_province_name = { id = 12521 name = VICTORY_POINTS_12521_kag }
+	}
+	else = {
+		reset_province_name = 12521
+	}
+}
+#VYT
+state_control_effect_400 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_communist_regime = yes
+			}
+		}
+		set_state_name = STATE_400_sov
+		set_province_name = { id = 6124 name = VICTORY_POINTS_6124_sov }
+		set_province_name = { id = 272 name = VICTORY_POINTS_272_sov }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 6124
+		reset_province_name = 272
+	}
+}
+#WRS
+state_control_effect_214 = {
+	if = {
+		limit = {
+			controller = {
+				RUS_consider_aryan_regime = yes
+			}
+		}
+		set_state_name = STATE_214_ary
+		set_province_name = { id = 3338 name = VICTORY_POINTS_3338_ary }
+	}
+	else = {
+		reset_state_name = yes
+		reset_province_name = 3338
+		if = {
+			limit = {
+				controller = {
+					RUS_consider_communist_regime = yes
+				}
+			}
+			reset_province_name = 312
+		}
+		else = {
+			set_province_name = { id = 312 name = VICTORY_POINTS_312_rus }
+		}
+	}
+}
+
+state_control_effect_1887 = {
+	if = {
+		limit = {
+			is_controlled_by = KRL
+		}
+		set_state_name = STATE_1887_krl
+	}
+	else = {
+		reset_state_name = yes
+	}
+}

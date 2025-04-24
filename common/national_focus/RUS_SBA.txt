@@ -1,0 +1,213 @@
+focus_tree = {
+	id = RUS_SBA_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SBA
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_SBA_focus_1 #흑군의 위기
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_2 #군사적 일시 통제
+		prerequisite = { focus = RUS_SBA_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_3
+		}
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_3 #농민들의 자치구
+		prerequisite = { focus = RUS_SBA_focus_1 }
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_2
+		}
+		x = 2
+		y = 1
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_4 #통일된 공업
+		prerequisite = { 
+		focus = RUS_SBA_focus_2
+		focus = RUS_SBA_focus_3 }
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_5
+		}
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_5 #노동조합 자치주의
+		prerequisite = { focus = RUS_SBA_focus_2
+		focus = RUS_SBA_focus_3 }
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_4
+		}
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_6 #엘리트 장교단
+		prerequisite = { 
+		focus = RUS_SBA_focus_4
+		focus = RUS_SBA_focus_5 }
+		x = 0
+		y = 3
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_7
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_7 #군사 민주주의
+		prerequisite = { 
+		focus = RUS_SBA_focus_4
+		focus = RUS_SBA_focus_5 }
+		x = 2
+		y = 3
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_6
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_8 #반마흐노주의 횔동 위원회의 부활
+		prerequisite = { 
+		focus = RUS_SBA_focus_6
+		focus = RUS_SBA_focus_7 }
+		x = 0
+		y = 4
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_9
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_9 #군인들의 자유
+		prerequisite = { 
+		focus = RUS_SBA_focus_6
+		focus = RUS_SBA_focus_7 }
+		x = 2
+		y = 4
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_8
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_10 #소수민족 권익
+		prerequisite = { 
+		focus = RUS_SBA_focus_8
+		focus = RUS_SBA_focus_9 }
+		x = 0
+		y = 5
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_11
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_11 #러시아인들의 우월
+		prerequisite = { 
+		focus = RUS_SBA_focus_8
+		focus = RUS_SBA_focus_9 }
+		x = 2
+		y = 5
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_10
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_12 #바쿠닌 군사학교 건설
+		prerequisite = { 
+		focus = RUS_SBA_focus_10
+		focus = RUS_SBA_focus_11 }
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_13 #대전략
+		prerequisite = { 
+		focus = RUS_SBA_focus_12 }
+		x = 0
+		y = 7
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_14
+			focus = RUS_SBA_focus_15
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_14 #기동전
+		prerequisite = { 
+		focus = RUS_SBA_focus_12 }
+		x = 2
+		y = 7
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_13
+			focus = RUS_SBA_focus_15
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_15 #대규모 전투
+		prerequisite = { 
+		focus = RUS_SBA_focus_12 }
+		x = 4
+		y = 7
+		mutually_exclusive = {
+			focus = RUS_SBA_focus_13
+			focus = RUS_SBA_focus_14
+		}
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_16 # 아타만의 전보
+		prerequisite = { 
+		focus = RUS_SBA_focus_13
+		focus = RUS_SBA_focus_14
+		focus = RUS_SBA_focus_15 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_communism
+	}
+
+	focus = {
+		id = RUS_SBA_focus_17 #흑군의 노선 논쟁 종결
+		prerequisite = { 
+		focus = RUS_SBA_focus_16 }
+		x = 0
+		y = 9
+		icon = GFX_goal_generic_communism
+	}
+}

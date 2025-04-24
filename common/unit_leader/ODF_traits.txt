@@ -1,0 +1,3435 @@
+leader_traits = {
+
+	# AAG
+	
+	AAG_Attack_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MCW_Attack_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Attack_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Attack_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Attack_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Attack_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MCW_Attack_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Attack_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Attack_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Attack_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Attack_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MCW_Attack_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Attack_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Attack_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Attack_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_Night_Attack_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MCW_Night_Attack_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Night_Attack_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Night_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Night_Attack_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Night_Attack_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Night_Attack_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MCW_Night_Attack_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Night_Attack_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Night_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Night_Attack_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Night_Attack_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Night_Attack_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MCW_Night_Attack_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Night_Attack_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Night_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Night_Attack_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Night_Attack_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_Flanking_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_MCW_Flanking_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Flanking_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Flanking_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Flanking_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Flanking_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_MCW_Flanking_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Flanking_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Flanking_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Flanking_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Flanking_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_MCW_Flanking_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Flanking_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Flanking_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Flanking_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_Defense_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_defender = yes
+			FROM = { has_country_flag = Antarctica_MCW_Defense_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Defense_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Defense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Defense_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Defense_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Defense_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_defender = yes
+			FROM = { has_country_flag = Antarctica_MCW_Defense_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Defense_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Defense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Defense_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Defense_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Defense_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_defender = yes
+			FROM = { has_country_flag = Antarctica_MCW_Defense_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Defense_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Defense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Defense_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Defense_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_Dig_In_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			dig_in > 0.25
+			FROM = { has_country_flag = Antarctica_MCW_Dig_In_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Dig_In_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Dig_In_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Dig_In_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Dig_In_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Dig_In_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			dig_in > 0.25
+			FROM = { has_country_flag = Antarctica_MCW_Dig_In_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Dig_In_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Dig_In_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Dig_In_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Dig_In_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Dig_In_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			dig_in > 0.25
+			FROM = { has_country_flag = Antarctica_MCW_Dig_In_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Dig_In_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Dig_In_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Dig_In_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Dig_In_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_Planning_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			min_planning > 0.25
+			FROM = { has_country_flag = Antarctica_MCW_Planning_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Planning_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Planning_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Planning_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Planning_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			min_planning > 0.25
+			FROM = { has_country_flag = Antarctica_MCW_Planning_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Planning_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Planning_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Planning_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Planning_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			min_planning > 0.25
+			FROM = { has_country_flag = Antarctica_MCW_Planning_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Planning_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Planning_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Planning_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_Urban_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_fighting_in_terrain = urban
+			FROM = { has_country_flag = Antarctica_GCW_Urban_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_Urban_Objective_Counter = 0 }
+				has_country_flag = Antarctica_GCW_Urban_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_Urban_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Urban_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Urban_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_fighting_in_terrain = urban
+			FROM = { has_country_flag = Antarctica_GCW_Urban_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_Urban_Objective_Counter = 33 }
+				has_country_flag = Antarctica_GCW_Urban_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_Urban_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Urban_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Urban_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_fighting_in_terrain = urban
+			FROM = { has_country_flag = Antarctica_GCW_Urban_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_Urban_Objective_Counter = 66 }
+				has_country_flag = Antarctica_GCW_Urban_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_Urban_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Urban_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_River_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			has_combat_modifier = river_crossing
+			FROM = { has_country_flag = Antarctica_GCW_River_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_River_Objective_Counter = 0 }
+				has_country_flag = Antarctica_GCW_River_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_River_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_River_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_River_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			has_combat_modifier = river_crossing
+			FROM = { has_country_flag = Antarctica_GCW_River_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_River_Objective_Counter = 33 }
+				has_country_flag = Antarctica_GCW_River_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_River_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_River_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_River_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			has_combat_modifier = river_crossing
+			FROM = { has_country_flag = Antarctica_GCW_River_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_River_Objective_Counter = 66 }
+				has_country_flag = Antarctica_GCW_River_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_River_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_River_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAG_Max_Planning_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			has_max_planning = yes
+			FROM = { has_country_flag = Antarctica_GCW_Max_Planning_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_Max_Planning_Objective_Counter = 0 }
+				has_country_flag = Antarctica_GCW_Max_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_Max_Planning_Objective_Counter = 33 }
+			}
+			
+			log = "AAG_Max_Planning_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Max_Planning_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			has_max_planning = yes
+			FROM = { has_country_flag = Antarctica_GCW_Max_Planning_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_Max_Planning_Objective_Counter = 33 }
+				has_country_flag = Antarctica_GCW_Max_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_Max_Planning_Objective_Counter = 66 }
+			}
+			
+			log = "AAG_Max_Planning_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAG_Max_Planning_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			has_max_planning = yes
+			FROM = { has_country_flag = Antarctica_GCW_Max_Planning_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAG }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_GCW_Max_Planning_Objective_Counter = 66 }
+				has_country_flag = Antarctica_GCW_Max_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_GCW_Max_Planning_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAG_Max_Planning_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# Actual Traits
+	AAG_Hans_Degen_Planned_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Hans_Degen_Planned_Training
+		expert_advisor_trait = AAG_Hans_Degen_Planned_Training
+		genius_advisor_trait = AAG_Hans_Degen_Planned_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_org_factor = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Hans_Degen_Rapid_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Hans_Degen_Rapid_Training
+		expert_advisor_trait = AAG_Hans_Degen_Rapid_Training
+		genius_advisor_trait = AAG_Hans_Degen_Rapid_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			experience_gain_army_factor = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Hans_Degen_Maneuver_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Hans_Degen_Maneuver_Training
+		expert_advisor_trait = AAG_Hans_Degen_Maneuver_Training
+		genius_advisor_trait = AAG_Hans_Degen_Maneuver_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			org_loss_when_moving = -0.2
+			army_speed_factor = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Hans_Degen_Defense_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Hans_Degen_Defense_Training
+		expert_advisor_trait = AAG_Hans_Degen_Defense_Training
+		genius_advisor_trait = AAG_Hans_Degen_Defense_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_defence_factor = 0.1
+			max_planning_factor = 0.2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Hans_Degen_Attack_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Hans_Degen_Attack_Training
+		expert_advisor_trait = AAG_Hans_Degen_Attack_Training
+		genius_advisor_trait = AAG_Hans_Degen_Attack_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_attack_factor = 0.1
+			breakthrough_factor = 0.2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Hans_Degen_Supply_Assurances = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Hans_Degen_Supply_Assurances
+		expert_advisor_trait = AAG_Hans_Degen_Supply_Assurances
+		genius_advisor_trait = AAG_Hans_Degen_Supply_Assurances
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_org_factor = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Entrenchment_Speed = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Entrenchment_Speed
+		expert_advisor_trait = AAG_Eduard_Zorn_Entrenchment_Speed
+		genius_advisor_trait = AAG_Eduard_Zorn_Entrenchment_Speed
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			dig_in_speed_factor = 0.1
+			recon_factor_while_entrenched = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Entrenchment_Depth = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Entrenchment_Depth
+		expert_advisor_trait = AAG_Eduard_Zorn_Entrenchment_Depth
+		genius_advisor_trait = AAG_Eduard_Zorn_Entrenchment_Depth
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			max_dig_in_factor = 0.1
+			cas_damage_reduction = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Environment_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Environment_Training
+		expert_advisor_trait = AAG_Eduard_Zorn_Environment_Training
+		genius_advisor_trait = AAG_Eduard_Zorn_Environment_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			terrain_penalty_reduction = 0.2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Night_Attack_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Night_Attack_Training
+		expert_advisor_trait = AAG_Eduard_Zorn_Night_Attack_Training
+		genius_advisor_trait = AAG_Eduard_Zorn_Night_Attack_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			land_night_attack = 0.2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Sorted_Supplies = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Sorted_Supplies
+		expert_advisor_trait = AAG_Eduard_Zorn_Sorted_Supplies
+		genius_advisor_trait = AAG_Eduard_Zorn_Sorted_Supplies
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			supply_consumption_factor = -0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Planned_Offensives = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Planned_Offensives
+		expert_advisor_trait = AAG_Eduard_Zorn_Planned_Offensives
+		genius_advisor_trait = AAG_Eduard_Zorn_Planned_Offensives
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			planning_speed = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Alfred_Kottas_Naval_Supplies = {
+		type = navy
+		slot = navy_chief
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Alfred_Kottas_Naval_Supplies
+		expert_advisor_trait = AAG_Alfred_Kottas_Naval_Supplies
+		genius_advisor_trait = AAG_Alfred_Kottas_Naval_Supplies
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			no_supply_grace = 168
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Franz_Preuschoff_Air_Supplies = {
+		type = corps_commander
+		slot = air_chief
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Franz_Preuschoff_Air_Supplies
+		expert_advisor_trait = AAG_Franz_Preuschoff_Air_Supplies
+		genius_advisor_trait = AAG_Franz_Preuschoff_Air_Supplies
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			air_cas_present_factor = 0.1
+			army_bonus_air_superiority_factor = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Prepared_for_Encirclements = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Prepared_for_Encirclements
+		expert_advisor_trait = AAG_Eduard_Zorn_Prepared_for_Encirclements
+		genius_advisor_trait = AAG_Eduard_Zorn_Prepared_for_Encirclements
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			out_of_supply_factor = -0.1
+			pocket_penalty = -0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Prepared_for_Defense = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Prepared_for_Defense
+		expert_advisor_trait = AAG_Eduard_Zorn_Prepared_for_Defense
+		genius_advisor_trait = AAG_Eduard_Zorn_Prepared_for_Defense
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_org_factor = 0.1
+			attrition = -0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Hot_Climate_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Hot_Climate_Training
+		expert_advisor_trait = AAG_Eduard_Zorn_Hot_Climate_Training
+		genius_advisor_trait = AAG_Eduard_Zorn_Hot_Climate_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			acclimatization_hot_climate_gain_factor = 0.25
+			recon_factor = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Cold_Climate_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Cold_Climate_Training
+		expert_advisor_trait = AAG_Eduard_Zorn_Cold_Climate_Training
+		genius_advisor_trait = AAG_Eduard_Zorn_Cold_Climate_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			acclimatization_cold_climate_gain_factor = 0.25
+			winter_attrition_factor = -0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Erwin_Fussenegger_Speed_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Erwin_Fussenegger_Speed_Training
+		expert_advisor_trait = AAG_Erwin_Fussenegger_Speed_Training
+		genius_advisor_trait = AAG_Erwin_Fussenegger_Speed_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_speed_factor = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Erwin_Fussenegger_Attack_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Erwin_Fussenegger_Attack_Training
+		expert_advisor_trait = AAG_Erwin_Fussenegger_Attack_Training
+		genius_advisor_trait = AAG_Erwin_Fussenegger_Attack_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_attack_factor = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Erwin_Fussenegger_Army_Organization_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Erwin_Fussenegger_Army_Organization_Training
+		expert_advisor_trait = AAG_Erwin_Fussenegger_Army_Organization_Training
+		genius_advisor_trait = AAG_Erwin_Fussenegger_Army_Organization_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_org_factor = 0.15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Erwin_Fussenegger_Extra_Training = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Erwin_Fussenegger_Extra_Training
+		expert_advisor_trait = AAG_Erwin_Fussenegger_Extra_Training
+		genius_advisor_trait = AAG_Erwin_Fussenegger_Extra_Training
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			experience_gain_army_unit_factor = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Erwin_Fussenegger_Rested_and_Ready = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Erwin_Fussenegger_Rested_and_Ready
+		expert_advisor_trait = AAG_Erwin_Fussenegger_Rested_and_Ready
+		genius_advisor_trait = AAG_Erwin_Fussenegger_Rested_and_Ready
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			army_org_regain = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAG_Eduard_Zorn_Experience_Retention = {
+		type = corps_commander
+		slot = high_command
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAG_Eduard_Zorn_Experience_Retention
+		expert_advisor_trait = AAG_Eduard_Zorn_Experience_Retention
+		genius_advisor_trait = AAG_Eduard_Zorn_Experience_Retention
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			experience_loss_factor = -1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	# AAO
+	
+	AAO_William_Robertson_Experience_Retention = {
+		type = corps_commander
+		slot = army_chief
+		trait_type = personality_trait
+		
+		specialist_advisor_trait = AAO_William_Robertson_Experience_Retention
+		expert_advisor_trait = AAO_William_Robertson_Experience_Retention
+		genius_advisor_trait = AAO_William_Robertson_Experience_Retention
+		
+		gain_xp = {
+			always = no
+		}
+		modifier = {
+			experience_loss_factor = -1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	AAO_Attack_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MLY_Attack_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Attack_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MLY_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Attack_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Attack_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Attack_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MLY_Attack_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Attack_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MLY_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Attack_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Attack_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Attack_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_MLY_Attack_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Attack_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MLY_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Attack_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Attack_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Underdog_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			less_combat_width_than_opponent = yes
+			FROM = { has_country_flag = Antarctica_MLY_Underdog_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Underdog_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MLY_Underdog_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Underdog_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Underdog_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Underdog_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			less_combat_width_than_opponent = yes
+			FROM = { has_country_flag = Antarctica_MLY_Underdog_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Underdog_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MLY_Underdog_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Underdog_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Underdog_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Underdog_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			less_combat_width_than_opponent = yes
+			FROM = { has_country_flag = Antarctica_MLY_Underdog_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Underdog_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MLY_Underdog_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Underdog_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Underdog_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Flanking_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_MLY_Flanking_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Flanking_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MLY_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Flanking_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Flanking_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Flanking_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_MLY_Flanking_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Flanking_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MLY_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Flanking_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Flanking_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Flanking_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_MLY_Flanking_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MLY_Flanking_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MLY_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MLY_Flanking_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Flanking_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Night_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			FROM = { has_country_flag = Antarctica_MCW_Night_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Night_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Night_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Night_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Night_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Night_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			FROM = { has_country_flag = Antarctica_MCW_Night_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Night_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Night_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Night_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Night_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Night_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			FROM = { has_country_flag = Antarctica_MCW_Night_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Night_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Night_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Night_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Night_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Winning_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_winning = yes
+			FROM = { has_country_flag = Antarctica_MCW_Winning_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Winning_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Winning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Winning_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Winning_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Winning_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_winning = yes
+			FROM = { has_country_flag = Antarctica_MCW_Winning_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Winning_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Winning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Winning_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Winning_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Winning_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_winning = yes
+			FROM = { has_country_flag = Antarctica_MCW_Winning_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Winning_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Winning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Winning_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Winning_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Max_Planning_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			has_max_planning = yes
+			FROM = { has_country_flag = Antarctica_MCW_Max_Planning_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Max_Planning_Objective_Counter = 0 }
+				has_country_flag = Antarctica_MCW_Max_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Max_Planning_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Max_Planning_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Max_Planning_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			has_max_planning = yes
+			FROM = { has_country_flag = Antarctica_MCW_Max_Planning_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Max_Planning_Objective_Counter = 33 }
+				has_country_flag = Antarctica_MCW_Max_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Max_Planning_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Max_Planning_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Max_Planning_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			has_max_planning = yes
+			FROM = { has_country_flag = Antarctica_MCW_Max_Planning_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_MCW_Max_Planning_Objective_Counter = 66 }
+				has_country_flag = Antarctica_MCW_Max_Planning_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_MCW_Max_Planning_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Max_Planning_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Dig_In_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			dig_in > 0.25
+			FROM = { has_country_flag = Antarctica_PCW_Dig_In_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Dig_In_Objective_Counter = 0 }
+				has_country_flag = Antarctica_PCW_Dig_In_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Dig_In_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Dig_In_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Dig_In_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			dig_in > 0.25
+			FROM = { has_country_flag = Antarctica_PCW_Dig_In_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Dig_In_Objective_Counter = 33 }
+				has_country_flag = Antarctica_PCW_Dig_In_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Dig_In_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Dig_In_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Dig_In_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			dig_in > 0.25
+			FROM = { has_country_flag = Antarctica_PCW_Dig_In_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Dig_In_Objective_Counter = 66 }
+				has_country_flag = Antarctica_PCW_Dig_In_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Dig_In_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Dig_In_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Offense_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_PCW_Offense_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Offense_Objective_Counter = 0 }
+				has_country_flag = Antarctica_PCW_Offense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Offense_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Offense_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Offense_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_PCW_Offense_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Offense_Objective_Counter = 33 }
+				has_country_flag = Antarctica_PCW_Offense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Offense_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Offense_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Offense_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_PCW_Offense_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Offense_Objective_Counter = 66 }
+				has_country_flag = Antarctica_PCW_Offense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Offense_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Offense_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Recon_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			recon_advantage > 0
+			FROM = { has_country_flag = Antarctica_PCW_Recon_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Recon_Objective_Counter = 0 }
+				has_country_flag = Antarctica_PCW_Recon_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Recon_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Recon_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Recon_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			recon_advantage > 0
+			FROM = { has_country_flag = Antarctica_PCW_Recon_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Recon_Objective_Counter = 33 }
+				has_country_flag = Antarctica_PCW_Recon_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Recon_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Recon_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Recon_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			recon_advantage > 0
+			FROM = { has_country_flag = Antarctica_PCW_Recon_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_PCW_Recon_Objective_Counter = 66 }
+				has_country_flag = Antarctica_PCW_Recon_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_PCW_Recon_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Recon_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Fort_Attack_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			has_combat_modifier = fort_attack
+			FROM = { has_country_flag = Antarctica_SAW_Fort_Attack_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Fort_Attack_Objective_Counter = 0 }
+				has_country_flag = Antarctica_SAW_Fort_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Fort_Attack_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Fort_Attack_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Fort_Attack_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			has_combat_modifier = fort_attack
+			FROM = { has_country_flag = Antarctica_SAW_Fort_Attack_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Fort_Attack_Objective_Counter = 33 }
+				has_country_flag = Antarctica_SAW_Fort_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Fort_Attack_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Fort_Attack_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Fort_Attack_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			has_combat_modifier = fort_attack
+			FROM = { has_country_flag = Antarctica_SAW_Fort_Attack_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Fort_Attack_Objective_Counter = 66 }
+				has_country_flag = Antarctica_SAW_Fort_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Fort_Attack_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Fort_Attack_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Defense_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_defender = yes
+			FROM = { has_country_flag = Antarctica_SAW_Defense_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Defense_Objective_Counter = 0 }
+				has_country_flag = Antarctica_SAW_Defense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Defense_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Defense_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Defense_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_defender = yes
+			FROM = { has_country_flag = Antarctica_SAW_Defense_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Defense_Objective_Counter = 33 }
+				has_country_flag = Antarctica_SAW_Defense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Defense_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Defense_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Defense_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_defender = yes
+			FROM = { has_country_flag = Antarctica_SAW_Defense_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Defense_Objective_Counter = 66 }
+				has_country_flag = Antarctica_SAW_Defense_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Defense_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Defense_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAO_Night_River_Crossing_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			has_combat_modifier = river_crossing
+			FROM = { has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Night_River_Crossing_Objective_Counter = 0 }
+				has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Night_River_Crossing_Objective_Counter = 33 }
+			}
+			
+			log = "AAO_Night_River_Crossing_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Night_River_Crossing_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			has_combat_modifier = river_crossing
+			FROM = { has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Night_River_Crossing_Objective_Counter = 33 }
+				has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Night_River_Crossing_Objective_Counter = 66 }
+			}
+			
+			log = "AAO_Night_River_Crossing_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAO_Night_River_Crossing_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			has_combat_modifier = river_crossing
+			FROM = { has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAO }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_SAW_Night_River_Crossing_Objective_Counter = 66 }
+				has_country_flag = Antarctica_SAW_Night_River_Crossing_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_SAW_Night_River_Crossing_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAO_Night_River_Crossing_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# AAA
+	
+	AAA_Attack_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_ITW_Attack_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Attack_Objective_Counter = 0 }
+				has_country_flag = Antarctica_ITW_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Attack_Objective_Counter = 33 }
+			}
+			
+			log = "AAA_Attack_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAA_Attack_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_ITW_Attack_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Attack_Objective_Counter = 33 }
+				has_country_flag = Antarctica_ITW_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Attack_Objective_Counter = 66 }
+			}
+			
+			log = "AAA_Attack_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAA_Attack_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_ITW_Attack_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Attack_Objective_Counter = 66 }
+				has_country_flag = Antarctica_ITW_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Attack_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj1_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAA_Attack_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAA_Night_Attack_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_ITW_Night_Attack_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Night_Attack_Objective_Counter = 0 }
+				has_country_flag = Antarctica_ITW_Night_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Night_Attack_Objective_Counter = 33 }
+			}
+			
+			log = "AAA_Night_Attack_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAA_Night_Attack_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_ITW_Night_Attack_Objective }
+		}
+		cost = 20
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Night_Attack_Objective_Counter = 33 }
+				has_country_flag = Antarctica_ITW_Night_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Night_Attack_Objective_Counter = 66 }
+			}
+			
+			log = "AAA_Night_Attack_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAA_Night_Attack_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			night = yes
+			is_attacker = yes
+			FROM = { has_country_flag = Antarctica_ITW_Night_Attack_Objective }
+		}
+		cost = 30
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Night_Attack_Objective_Counter = 66 }
+				has_country_flag = Antarctica_ITW_Night_Attack_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Night_Attack_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj2_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAA_Night_Attack_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	AAA_Flanking_Objective_1 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_ITW_Flanking_Objective }
+		}
+		cost = 5
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Flanking_Objective_Counter = 0 }
+				has_country_flag = Antarctica_ITW_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Flanking_Objective_Counter = 33 }
+			}
+			
+			log = "AAA_Flanking_Objective_1 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAA_Flanking_Objective_2 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_ITW_Flanking_Objective }
+		}
+		cost = 10
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Flanking_Objective_Counter = 33 }
+				has_country_flag = Antarctica_ITW_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Flanking_Objective_Counter = 66 }
+			}
+			
+			log = "AAA_Flanking_Objective_2 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	AAA_Flanking_Objective_3 = {
+		type = corps_commander
+		gain_xp = {
+			has_flanked_opponent = yes
+			FROM = { has_country_flag = Antarctica_ITW_Flanking_Objective }
+		}
+		cost = 15
+		
+		allowed = {
+			FROM = { tag = AAA }
+		}
+		prerequisites = {
+			FROM = {
+				check_variable = { Antarctica_ITW_Flanking_Objective_Counter = 66 }
+				has_country_flag = Antarctica_ITW_Flanking_Objective
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		on_add = {
+			FROM = {
+				set_variable = { Antarctica_ITW_Flanking_Objective_Counter = 100 }
+				set_variable = { Antarctica_GUI_Volunteers_Obj3_Checkbox_Frame = 2 }
+				
+				army_experience = 100
+			}
+			
+			log = "AAA_Flanking_Objective_3 gain"
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

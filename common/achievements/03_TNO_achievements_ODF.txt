@@ -1,0 +1,138 @@
+unique_id = ODF_achievements
+
+##### Neuschwabenland #####
+ODF_this_is_a_good_thing = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAG
+	}
+
+	happened = {
+		has_country_flag = ODF_this_is_a_good_thing_trigger
+	}
+}
+
+ODF_man_best_served_cold = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAG
+	}
+
+	happened = {
+		has_country_flag = ODF_man_best_served_cold_trigger
+	}
+}
+
+ODF_oppenheimer_who = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAG
+	}
+
+	happened = {
+		has_country_flag = ODF_oppenheimer_who_trigger
+	}
+}
+
+ODF_penguins_of_madagascar = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAG
+	}
+
+	happened = {
+		has_country_flag = ODF_penguins_of_madagascar_trigger
+	}
+}
+
+##### Argentine Antarctica #####
+ODF_dogs_live_for_the_moment = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAA
+	}
+
+	happened = {
+		has_country_flag = ODF_dogs_live_for_the_moment_trigger
+	}
+}
+
+ODF_penguin_emperor = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAA
+	}
+
+	happened = {
+		has_country_flag = ODF_penguin_emperor_trigger
+	}
+}
+
+ODF_just_like_scott = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAA
+	}
+
+	happened = {
+		has_country_flag = ODF_just_like_scott_trigger
+	}
+}
+
+ODF_the_last_crusade = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAA
+	}
+
+	happened = {
+		has_country_flag = ODF_the_last_crusade_trigger
+	}
+}
+
+##### OFN Antarctic Administration #####
+ODF_operation_deep_freeze = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAO
+	}
+
+	happened = {
+		has_country_flag = ODF_operation_deep_freeze_trigger
+	}
+}
+
+ODF_finish_iceman = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAO
+	}
+
+	happened = {
+		has_country_flag = ODF_finish_iceman_trigger
+	}
+}
+
+ODF_waddle_through_the_jungle = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAO
+	}
+
+	happened = {
+		has_country_flag = AAO_win_mcw
+		has_country_flag = AAO_win_saf
+		has_country_flag = AAO_win_phi
+	}
+}
+
+ODF_who_goes_there = {
+	possible = {
+		has_start_date < 1962.01.02
+		tag = AAO
+	}
+
+	happened = {
+		has_country_flag = ODF_who_goes_there_trigger
+	}
+}

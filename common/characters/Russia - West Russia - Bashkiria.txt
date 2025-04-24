@@ -1,0 +1,18 @@
+characters = {
+	# Leaders
+	BKR_Validi_Tugan = {
+		name = BKR_Validi_Tugan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BKR/Portrait_Bashkiria_Validi_Tugan.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VALIDI_TUGAN_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_social_nationalism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+}

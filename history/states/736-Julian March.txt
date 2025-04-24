@@ -1,0 +1,36 @@
+state = {
+	id = 736
+	name = "STATE_736"
+
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		victory_points = { 3772 15 }
+		victory_points = { 6626 6 }
+		buildings = {
+			prisons = 1
+			barracks = 2
+			infrastructure = 4
+			radar_station = 2
+			air_base = 2
+			599 = { bunker = 5 }
+			3772 = {
+				naval_base = 5
+			}
+		}
+		set_state_flag = universal_renamings
+		set_state_flag = GDP_regions_veneto
+		set_state_flag = GDP_category_large_town
+	}
+
+	resources = {
+		uranium = 4
+	}
+
+	provinces = {
+		599 3772 6626 13278 18003
+	}
+	manpower = 497911
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

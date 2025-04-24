@@ -1,0 +1,32 @@
+state = {
+	id = 2288
+	name = "STATE_2288"
+
+	resources = {
+		rubber = 4
+		oil = 2
+	}
+
+	history = {
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			19361 1
+		}
+		victory_points = {
+			15709 1
+		}
+		set_state_flag = GDP_regions_central_java
+	}
+
+	provinces = {
+		4434 19361 15709 19357
+	}
+	manpower = 2778169
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

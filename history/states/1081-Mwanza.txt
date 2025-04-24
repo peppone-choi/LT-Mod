@@ -1,0 +1,32 @@
+state = {
+	id = 1081
+	name = "STATE_1081"
+
+	history = {
+		owner = GRO
+		add_core_of = GRO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			13908 6
+		}
+		victory_points = {
+			11017 1
+		}
+		victory_points = {
+			2900 1
+		}
+		victory_points = {
+			13922 1
+		}
+	}
+
+	provinces = {
+		2900 11017 13380 13903 13908 13922
+	}
+	manpower = 2737566
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

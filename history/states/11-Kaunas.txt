@@ -1,0 +1,32 @@
+state = {
+	id = 11
+	name = "STATE_11"
+
+	resources = {
+		steel = 2
+	}
+
+	history = {
+		owner = OST
+		victory_points = {
+			14574 10
+		}
+		buildings = {
+			infrastructure = 6
+			thermoelectric_plant = 1
+			offices = 2
+			barracks = 1
+		}
+		add_core_of = OST
+		set_state_flag = GDP_regions_lithuania
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		14574
+	}
+	manpower = 182935
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

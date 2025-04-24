@@ -1,0 +1,33 @@
+state = {
+	id = 1722
+	name = "STATE_1722"
+	resources = {
+		steel = 4.000
+		power = 2
+		uranium = 2.000
+	}
+
+	history = {
+		owner = FIN
+		victory_points = {
+			9061 5
+		}
+		victory_points = {
+			18427 1
+		}
+		buildings = {
+			infrastructure = 4
+			offices = 1
+			anti_air_building = 1
+		}
+		add_core_of = FIN
+	}
+
+	provinces = {
+		193 3030 3068 3185 6156 6210 9061 9169 9181 11156 13108 13109 13114 13115 13118 18424 18427 18435
+	}
+	manpower = 207517
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

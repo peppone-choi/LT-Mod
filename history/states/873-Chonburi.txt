@@ -1,0 +1,39 @@
+state = {
+	id = 873
+	name = "STATE_873"
+	resources = {
+		rubber = 6
+	}
+
+	history = {
+		owner = THA
+		add_core_of = THA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			19126 = {
+				naval_base = 2
+			}
+			dockyard = 1
+			hospitals = 1
+		}
+		victory_points = {
+			19126 5
+		}
+		victory_points = {
+			1244 1
+		}
+		victory_points = {
+			19030 1
+		}
+		set_state_flag = GDP_regions_east_thailand
+	}
+
+	provinces = {
+		1244 4433 7292 19030 19126
+	}
+	manpower = 1323243
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,47 @@
+state = {
+	id = 1014
+	name = "STATE_1014"
+	resources = {
+		aluminium = 6
+		steel = 8
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			schools = 1
+			offices = 1
+			infrastructure = 4
+		}
+		victory_points = {
+			7129 5
+		}
+		victory_points = {
+			7508 5
+		}
+		victory_points = {
+			9958 29
+		}
+		victory_points = {
+			19823 16
+		}
+		victory_points = {
+			10364 10
+		}
+		victory_points = {
+			19863 8
+		}
+		set_state_flag = GDP_regions_henan_sanyang
+		set_variable = { china_state_ref = 30 }
+		set_variable = { china_region_ref = 3 }
+	}
+
+	provinces = {
+		7129 7508 7656 9958 10364 19823 19863
+	}
+	manpower = 10424373
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

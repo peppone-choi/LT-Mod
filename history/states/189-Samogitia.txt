@@ -1,0 +1,31 @@
+state = { #Population Done
+	id = 189
+	name = "STATE_189"
+	manpower = 808570
+
+	state_category = town
+
+	resources = {
+		steel = 3
+	}
+
+	history = {
+		owner = OST
+		victory_points = { 6376 7 }
+		victory_points = { 3337 1 }
+		victory_points = { 3354 1 }
+		victory_points = { 6314 1 }
+		buildings = {
+			infrastructure = 5
+			schools = 1
+			hospitals = 1
+		}
+		add_core_of = OST
+		set_state_flag = GDP_regions_lithuania
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		530 3337 3354 6229 6314 6376 9483 9499 9731 14579 14578
+	}
+}

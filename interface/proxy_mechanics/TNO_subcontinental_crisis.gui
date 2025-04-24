@@ -1,0 +1,178 @@
+guiTypes = {
+	containerWindowType = {
+		name = "TNO_Subcontinental_Crisis_GUI"
+		position = { x = 29 y = 131 }
+		size = { width = 496 height = 506 }
+
+		icontype = {
+			name = "header_image"
+			position = { x = 247 y = 54 }
+			centerposition = yes
+			spritetype = "GFX_blank"
+		}
+		
+		#iconType = {
+		#	name = "infobox"
+		#	position = { x = 8 y = 301 }
+		#	spriteType = ""
+		#	pdx_tooltip = ""
+		#}
+
+		instantTextboxType = {
+			name = "desc_text"
+			position = { x = 8 y = 109 }
+			font = "aldrich_18_outline"
+			text = [GetSubcontinentalCrisisDesc]
+			maxWidth = 486
+			format = left
+		}
+		
+		iconType = {
+			name = "seal"
+			position = { x = 100 y = 150 }
+			spriteType = "GFX_fopo_dept_of_state_seal"
+		}
+
+		instantTextboxType = {
+			name = "readiness_text_player"
+			position = { x = 5 y = 493 }
+			font = "aldrich_20_outline"
+			text = Subcontinental_Crisis_Readiness_text
+			format = left
+		}
+
+		iconType = {
+			name = "German_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x = 12 y = 465 }
+		}
+		iconType = {
+			name = "German_flag_overlay"
+			position = { x = 12 y = 466 }
+			spriteType = "GFX_flag_overlay_stateview_2"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Pakistani_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x = 61 y = 465 }
+		}
+		iconType = {
+			name = "Pakistani_flag_overlay"
+			position = { x = 61 y = 466 }
+			spriteType = "GFX_flag_overlay_stateview_2"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Japanese_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x = 448 y = 465 }
+		}
+		iconType = {
+			name = "Japanese_flag_overlay"
+			position = { x = 448 y = 466 }
+			spriteType = "GFX_flag_overlay_stateview_2"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Azad_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x = 399 y = 465 }
+		}
+		iconType = {
+			name = "Azad_flag_overlay"
+			position = { x = 399 y = 466 }
+			spriteType = "GFX_flag_overlay_stateview_2"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "info_frame"
+			spriteType = "GFX_channel_crisis_info_frame"
+			position = { x = 411 y = -28 }
+			pdx_tooltip = SC_info_tt
+		}
+
+		containerWindowType = {
+			name = "readiness_container_player"
+			position = { x = 16 y = 229 }
+
+			iconType = {
+				name = "readiness_bar_player"
+				spriteType = "GFX_channel_crisis_readiness_bar"
+				position = { x = 1 y = 0 }
+				#frame = 85
+				pdx_tooltip = SC_player_readiness_tt
+			}
+
+			iconType = {
+				name = "readiness_frame_player"
+				spriteType = "GFX_channel_crisis_readiness_frame"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+		}
+
+		instantTextboxType = {
+			name = "readiness_text_opposing"
+			position = { x = 389 y = 493 }
+			font = "aldrich_20_outline"
+			text = Subcontinental_Crisis_Readiness_text
+			format = left
+		}
+
+		containerWindowType = {
+			name = "readiness_container_opposing"
+			position = { x = 402 y = 229 }
+
+			iconType = {
+				name = "readiness_bar_opposing"
+				spriteType = "GFX_channel_crisis_readiness_opposing_bar"
+				position = { x = 1 y = 0 }
+				pdx_tooltip = SC_opposing_readiness_tt
+			}
+
+			iconType = {
+				name = "readiness_frame_opposing"
+				spriteType = "GFX_channel_crisis_readiness_frame"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+		}
+
+		iconType = { #phase indicator
+			name = "sc_fake_background_frame"
+			spriteType = "GFX_fopo_fake_background_frame" 
+			position = { x = 527 y = 44 }
+		}
+		iconType = { #phase indicator
+			name = "sc_involvement_bar" 
+			spriteType = "GFX_haiti_animated_bar"
+			position = { x = 531 y = 51 }
+		}
+		iconType = { #phase indicator
+			name = "sc_involvement_bar_overlay"
+			spriteType = "GFX_haiti_overlay_bar"
+			position = { x = 531 y = 51 }
+		}
+		iconType = { #phase indicator no prog needed
+			name = "sc_involvement_bar_static"
+			spriteType = "GFX_channel_crisis_phase_indicator_static"
+			position = { x = 531 y = 52 }
+		}
+		instantTextboxType = {
+			name = "sc_phase_text"
+			position = { x = 514 y = 48 }
+			text = subcontinental_crisis_current_phase_bar_text
+			format = center
+			vertical_alignment = center
+			font = "aldrich_24_outline" 
+			maxWidth = 512
+			maxheight = 48
+			text_color_code = W
+			#pdx_tooltip = 
+			#pdx_tooltip_delayed = 
+		}
+	}
+
+}

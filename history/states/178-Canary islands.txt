@@ -1,0 +1,26 @@
+state = { #Population Done
+	id = 178
+	name = "STATE_178"
+	manpower = 971484
+
+	state_category = town
+
+	history = {
+		owner = SPA
+		victory_points = { 13071 10 }
+		buildings = {
+			prisons = 1
+			radar_station = 2
+			air_base = 2
+			infrastructure = 2
+			13071 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SPA
+	}
+
+	provinces = {
+		13071
+	}
+}

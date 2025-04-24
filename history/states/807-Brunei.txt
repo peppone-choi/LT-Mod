@@ -1,0 +1,29 @@
+state = {
+	id = 807
+	name = "STATE_807"
+
+	resources = {
+		oil = 42
+	}
+
+	history = {
+		owner = NRB
+		add_core_of = NRB
+		victory_points = { 7387 5 }
+		buildings = {
+			infrastructure = 4
+			thermoelectric_plant = 1
+			7387 = {
+				naval_base = 3
+			}
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		7371 7387
+	}
+	manpower = 93897
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

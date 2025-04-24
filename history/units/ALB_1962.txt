@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "Divisione di Fanteria"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Legione Ordinaria"
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 0 y = 3 }
+		light_infantry = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Legione Alpina"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	division = {
+		name="Divisione 'Cacciatori d'Albania'"
+		location="14448"
+		division_template= "Divisione di Fanteria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name="Legione MFA Ordinaria"
+		location="9875"
+		division_template= "Legione Ordinaria"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name="Legione MFA Alpina"
+		location="833"
+		division_template= "Legione Alpina"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

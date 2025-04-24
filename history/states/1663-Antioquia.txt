@@ -1,0 +1,36 @@
+state = {
+	id = 1663
+	name = "STATE_1663"
+	resources = {
+		aluminium = 4.000
+		steel = 8.000
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 3
+			hospitals = 1
+			schools = 1
+			offices = 2
+			thermoelectric_plant = 2
+		}
+		victory_points = {
+			2023 25
+		}
+		victory_points = {
+			2815 5
+		}
+	}
+
+	provinces = {
+		2023 2113 2138 2296 2436 2635 2641 2802 2815 10864 12703 15322 15323 15620 15621 15624
+	}
+	manpower = 2126855
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

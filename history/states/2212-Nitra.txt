@@ -1,0 +1,31 @@
+state = {
+	id = 2212
+	name = "STATE_2212"
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = SLO
+		victory_points = {
+			541 3
+		}
+		victory_points = {
+			11522 1
+		}
+		buildings = {
+			infrastructure = 4
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+		add_core_of = SLO
+	}
+
+	provinces = {
+		541 11522
+	}
+	manpower = 456066
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 93
+	name = "STATE_93"
+
+	manpower = 2759572
+	state_category = town
+
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		set_state_flag = universal_renamings
+
+		victory_points = { 3412 1 }
+		victory_points = { 6435 3 }
+		victory_points = { 422 1 }
+		victory_points = { 11543 1 }
+		victory_points = { 474 5 }
+
+		buildings = {
+			offices = 1
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		422 474 513 535 572 3412 3496 6435 6520 6557 6579 9520 11441 11503 11543 14537 18221 18242
+	}
+}

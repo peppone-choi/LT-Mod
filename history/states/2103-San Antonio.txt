@@ -1,0 +1,34 @@
+state = {
+	id = 2103
+	name = "STATE_2103"
+	resources = {
+		steel = 6.000
+	}
+
+	history = {
+		owner = CHL
+		buildings = {
+			barracks = 1
+			schools = 1
+			offices = 1
+			infrastructure = 4
+			17553 = {
+				naval_base = 2
+			}
+			dockyard = 1
+		}
+		add_core_of = CHL
+		victory_points = {
+			17553 2
+		}
+		set_state_flag = GDP_regions_valparaiso
+	}
+
+	provinces = {
+		17553 15510
+	}
+	manpower = 80740
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

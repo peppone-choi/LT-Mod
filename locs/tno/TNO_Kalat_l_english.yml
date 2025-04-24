@@ -1,0 +1,27 @@
+﻿l_english:
+ ### Country Names ###
+ KLT: "Union of Baloch States"
+ KLT_DEF: "the Union of Baloch States"
+ KLT_ADJ: "Balochi"
+
+ ### Parties ###
+ KLT_despotism_party: "Loya Jirga"
+ KLT_despotism_party_long: "Loya Jirga"
+ KLT_ultranationalism_party: "PML"
+ KLT_ultranationalism_party_long: "Pakistan Muslim League"
+
+ ### Characters ###
+ KLT_Mir_Ahmad_Yar_Khan: "Mir Ahmad Yar Khan"
+ KLT_Sher_Mohammed_Marri: "Sher Mohammed Marri"
+ KLT_Mir_Gul_Khan_Nasseer: "Mir Gul Khan Nasseer"
+ KLT_Khair_Bakhsh_Marri: "Khair Bakhsh Marri"
+ KLT_Abdul_Wali: "Abdul Wali"
+
+ ### Ideas ###
+ KLT_sandemans_spectre: "Sandeman's Spectre"
+ KLT_sandemans_spectre_desc: "The influence of British colonial bureaucrat Robert Groves Sandeman, most well-known for his meddling in Balochistan, is still palpable today. The Union of Baloch States is still ruled under Sandeman's system of "tribal pacification", in which subsidies are directed from the Kalati throne towards loyal clans, while brutality is directed towards disloyal clans.\n\nBaloch society under the Sandeman tribal pacification method is fundamentally based upon clan kinship and factionalism. Inter-clan violence is highly encouraged by the ruling princes of the Union, the better to keep them on their thrones."
+ KLT_not_a_nation_but_an_alliance: "Not a Nation but an Alliance"
+ KLT_not_a_nation_but_an_alliance_desc: "The Union of Baloch States is not a nation in the traditional sense, as it lacks any form of centralization beyond matters of foreign policy, which the Khan of Kalat or his envoy dictates. Even matters such as currency and defense, which are not devolved in confederal or federal unions, are completely devolved to the constituent polities of the UBS.\n\nIn practice, the UBS is a union of princely states in Balochistan. They align together under the Khan of Kalat for their own survival and for the continued persistence of tradition and the old ways, no matter how reactionary those old ways—such as the perpetuation of chattel slavery—might be. Such a polity obviously also lacks any form of democracy or accountability, and amounts to little more than a band of petty tyrants well past their expiration date desperately trying to cling onto power."
+
+ ## Leader Bios ##
+ POLITICS_MIR_AHMAD_YAR_KHAN_DESC: "Some might say that the Union of Baloch States or the Khanate of Kalat is nothing more than a band of petty tyrants well past its expiration date trying desperately to cling on to power and precious "traditions". Mir Ahmad Yar Khan, Khan of Kalat and President of the UBS, laughs in their faces and carries on as he was.\n\nAn autocrat on his own domains, he maintains his rule with an iron hand that only stays its force when beneficial developments such as inter-clan violence are ongoing. First among equals over his fellow princes, he only presumes to direct them in respect to foreign policy.\n\nOne of his primary positions in which he is rather firm is the matter of the Pakistan Movement. Some are sympathetic to it; Mir Ahmad Yar Khan is rather more ambivalent on the matter. Though not outright hostile, the Khan believes that his own sovereignty is much more precious than the dream of some Islamic state he'd have to share with Sindhis and Punjabis. He is thus likely to resist any attempt by more sympathetic princes to see Kalat absorbed into Pakistan."

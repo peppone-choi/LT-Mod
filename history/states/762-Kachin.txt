@@ -1,0 +1,25 @@
+state = {
+	id = 762
+	name = "STATE_762"
+
+	history = {
+		owner = BUR
+		victory_points = {
+			8063 5
+		}
+		add_core_of = BUR
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			radar_station = 1
+		}
+	}
+
+	provinces = {
+		1082 4425 8063 10920 19040 19046
+	}
+	manpower = 530636
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

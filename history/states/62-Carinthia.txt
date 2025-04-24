@@ -1,0 +1,39 @@
+state = { #Population Done
+	id = 62
+	name = "STATE_62"
+
+	manpower = 526759
+	state_category = town
+
+	resources = {
+		tungsten = 24
+	}
+
+	history = {
+		owner = GER
+		add_core_of = GER
+		victory_points = { 3673 7 }
+		victory_points = { 6673 4 }
+		victory_points = { 671 1 }
+		victory_points = { 13362 1 }
+
+		buildings = {
+			barracks = 1
+			infrastructure = 4
+			radar_station = 2
+			missile_silo = 1
+			671 = {
+				bunker = 6
+			}
+			6673 = {
+				bunker = 6
+			}
+		}
+		set_state_flag = GDP_regions_austria
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		671 6673 668 3674 3673 11612 13362
+	}
+}

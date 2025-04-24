@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Region_ANTARCTICA"
+		textureFile = "gfx/interface/opening_screen/regions/ANTARCTICA.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_AAA"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_AAA.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_AAJ"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_AAJ.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_AAO"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_AAO.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_AAG"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_AAG.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_AAC"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_AAC.dds"
+	}
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_AAB"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_AAB.dds"
+	}
+}

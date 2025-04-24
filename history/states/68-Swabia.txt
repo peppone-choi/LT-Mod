@@ -1,0 +1,27 @@
+state = { #Population Done
+	id = 68
+	name = "STATE_68"
+	manpower = 1334049
+	resources = {
+		aluminium = 24
+	}
+
+	state_category = city
+
+	history = {
+		owner = GER
+		buildings = {
+			offices = 1
+			prisons = 2
+			infrastructure = 5
+			thermoelectric_plant = 1
+		}
+		add_core_of = GER
+		victory_points = { 708 10 }
+		victory_points = { 9666 3 }
+	}
+
+	provinces = {
+		11638 9666 708 6540
+	}
+}

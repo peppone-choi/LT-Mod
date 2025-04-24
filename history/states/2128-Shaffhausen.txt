@@ -1,0 +1,25 @@
+state = {
+	id = 2128
+	name = "STATE_2128"
+	manpower = 48264
+
+
+	state_category = enclave
+
+	history = {
+		owner = SWI
+		buildings = {
+			infrastructure = 5
+			anti_air_building = 1
+			15831 = {
+				bunker = 6
+			}
+		}
+		victory_points = { 15831 3 }
+		add_core_of = SWI
+	}
+
+	provinces = {
+		15831
+	}
+}

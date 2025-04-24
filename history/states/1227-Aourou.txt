@@ -1,0 +1,19 @@
+state = {
+	id = 1227
+	name = "STATE_1227"
+
+	history = {
+		owner = MLI
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		14198 14213 14237
+	}
+	manpower = 90000
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

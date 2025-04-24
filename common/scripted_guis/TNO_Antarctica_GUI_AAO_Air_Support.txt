@@ -1,0 +1,663 @@
+scripted_gui = {
+	TNO_USFI_Air_Support_GUI_Opener = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "USFI_Air_Support_GUI_Opener"
+
+		visible = {
+			tag = AAO
+			has_country_flag = Antarctica_GUI_AAO_USFI_Mechanic_Enabled
+		}
+
+		effects = {
+			USFI_Air_Support_GUI_Open_Button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = USFI_Air_Support_GUI_Title_visible } }
+					set_country_flag = USFI_Air_Support_GUI_Title_visible
+				}
+				else_if = {
+					limit = { has_country_flag = USFI_Air_Support_GUI_Title_visible }
+					clr_country_flag = USFI_Air_Support_GUI_Title_visible
+				}
+			}
+		}
+		
+		triggers = {
+			
+		}
+	}
+	
+	TNO_USFI_Air_Support_GUI_Main = {
+		context_type = player_context
+		window_name = "USFI_Air_Support_GUI"
+		dirty = USFI_Air_Support_GUI_dirty
+
+		visible = {
+			has_country_flag = USFI_Air_Support_GUI_visible
+		}
+
+		triggers = {
+			USFI_Air_Support_GUI_Level_Up_Notif_Text_visible = {
+				has_country_flag = USFI_Air_Support_GUI_Level_Up_Notif_Text_visible_flag
+			}
+			USFI_Air_Support_GUI_Level_Up_Notif_SAM_Text_visible = {
+				has_country_flag = USFI_Air_Support_GUI_Level_Up_Notif_SAM_Text_visible_flag
+			}
+			
+			USFI_Air_Support_GUI_Gameplay_25MM_click_enabled = {
+				NOT = { has_country_flag = USFI_Air_Support_GUI_25MM_Disabled }
+			}
+			USFI_Air_Support_GUI_Gameplay_40MM_click_enabled = {
+				NOT = { has_country_flag = USFI_Air_Support_GUI_40MM_Disabled }
+			}
+			USFI_Air_Support_GUI_Gameplay_105MM_click_enabled = {
+				NOT = { has_country_flag = USFI_Air_Support_GUI_105MM_Disabled }
+			}
+			
+			USFI_Air_Support_GUI_Infantry_1_visible = {
+				has_country_flag = USFI_Air_Support_Infantry1_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_2_visible = {
+				has_country_flag = USFI_Air_Support_Infantry2_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_3_visible = {
+				has_country_flag = USFI_Air_Support_Infantry3_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_4_visible = {
+				has_country_flag = USFI_Air_Support_Infantry4_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_5_visible = {
+				has_country_flag = USFI_Air_Support_Infantry5_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_6_visible = {
+				has_country_flag = USFI_Air_Support_Infantry6_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_7_visible = {
+				has_country_flag = USFI_Air_Support_Infantry7_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_8_visible = {
+				has_country_flag = USFI_Air_Support_Infantry8_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_9_visible = {
+				has_country_flag = USFI_Air_Support_Infantry9_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_10_visible = {
+				has_country_flag = USFI_Air_Support_Infantry10_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_11_visible = {
+				has_country_flag = USFI_Air_Support_Infantry11_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_12_visible = {
+				has_country_flag = USFI_Air_Support_Infantry12_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_13_visible = {
+				has_country_flag = USFI_Air_Support_Infantry13_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_14_visible = {
+				has_country_flag = USFI_Air_Support_Infantry14_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_15_visible = {
+				has_country_flag = USFI_Air_Support_Infantry15_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_16_visible = {
+				has_country_flag = USFI_Air_Support_Infantry16_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_17_visible = {
+				has_country_flag = USFI_Air_Support_Infantry17_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_18_visible = {
+				has_country_flag = USFI_Air_Support_Infantry18_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_19_visible = {
+				has_country_flag = USFI_Air_Support_Infantry19_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_20_visible = {
+				has_country_flag = USFI_Air_Support_Infantry20_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_21_visible = {
+				has_country_flag = USFI_Air_Support_Infantry21_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_22_visible = {
+				has_country_flag = USFI_Air_Support_Infantry22_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_23_visible = {
+				has_country_flag = USFI_Air_Support_Infantry23_Visible
+			}
+			USFI_Air_Support_GUI_Infantry_24_visible = {
+				has_country_flag = USFI_Air_Support_Infantry24_Visible
+			}
+			
+			USFI_Air_Support_GUI_Tank_1_visible = {
+				has_country_flag = USFI_Air_Support_Tank1_Visible
+			}
+			USFI_Air_Support_GUI_Tank_2_visible = {
+				has_country_flag = USFI_Air_Support_Tank2_Visible
+			}
+			USFI_Air_Support_GUI_Tank_3_visible = {
+				has_country_flag = USFI_Air_Support_Tank3_Visible
+			}
+			USFI_Air_Support_GUI_Tank_4_visible = {
+				has_country_flag = USFI_Air_Support_Tank4_Visible
+			}
+			USFI_Air_Support_GUI_Tank_5_visible = {
+				has_country_flag = USFI_Air_Support_Tank5_Visible
+			}
+			USFI_Air_Support_GUI_Tank_6_visible = {
+				has_country_flag = USFI_Air_Support_Tank6_Visible
+			}
+			USFI_Air_Support_GUI_Tank_7_visible = {
+				has_country_flag = USFI_Air_Support_Tank7_Visible
+			}
+			USFI_Air_Support_GUI_Tank_8_visible = {
+				has_country_flag = USFI_Air_Support_Tank8_Visible
+			}
+			USFI_Air_Support_GUI_Tank_9_visible = {
+				has_country_flag = USFI_Air_Support_Tank9_Visible
+			}
+			USFI_Air_Support_GUI_Tank_10_visible = {
+				has_country_flag = USFI_Air_Support_Tank10_Visible
+			}
+			USFI_Air_Support_GUI_Tank_11_visible = {
+				has_country_flag = USFI_Air_Support_Tank11_Visible
+			}
+			USFI_Air_Support_GUI_Tank_12_visible = {
+				has_country_flag = USFI_Air_Support_Tank12_Visible
+			}
+			
+			USFI_Air_Support_GUI_Heli_1_visible = {
+				has_country_flag = USFI_Air_Support_Heli1_Visible
+			}
+			USFI_Air_Support_GUI_Heli_2_visible = {
+				has_country_flag = USFI_Air_Support_Heli2_Visible
+			}
+			USFI_Air_Support_GUI_Heli_3_visible = {
+				has_country_flag = USFI_Air_Support_Heli3_Visible
+			}
+			USFI_Air_Support_GUI_Heli_4_visible = {
+				has_country_flag = USFI_Air_Support_Heli4_Visible
+			}
+			USFI_Air_Support_GUI_Heli_5_visible = {
+				has_country_flag = USFI_Air_Support_Heli5_Visible
+			}
+			USFI_Air_Support_GUI_Heli_6_visible = {
+				has_country_flag = USFI_Air_Support_Heli6_Visible
+			}
+			
+			USFI_Air_Support_GUI_SAM_visible = {
+				has_country_flag = USFI_Air_Support_SAM_Visible
+			}
+		}
+		
+		effects = {
+			USFI_Air_Support_GUI_close_button_click = {
+				clr_country_flag = USFI_Air_Support_GUI_visible
+				play_song = "general_peace_1"
+			}
+			USFI_Air_Support_GUI_Gameplay_25MM_click = {
+				USFI_Air_Support_Clear_Guns = yes
+				clr_country_flag = USFI_Air_Support_Cant_Fire
+				set_country_flag = USFI_Air_Support_25MM_Selected
+				USFI_Air_Support_Set_Guns_Frame = yes
+			}
+			USFI_Air_Support_GUI_Gameplay_40MM_click = {
+				USFI_Air_Support_Clear_Guns = yes
+				clr_country_flag = USFI_Air_Support_Cant_Fire
+				set_country_flag = USFI_Air_Support_40MM_Selected
+				USFI_Air_Support_Set_Guns_Frame = yes
+			}
+			USFI_Air_Support_GUI_Gameplay_105MM_click = {
+				USFI_Air_Support_Clear_Guns = yes
+				clr_country_flag = USFI_Air_Support_Cant_Fire
+				set_country_flag = USFI_Air_Support_105MM_Selected
+				USFI_Air_Support_Set_Guns_Frame = yes
+			}
+			USFI_Air_Support_GUI_end_game_button_click = {
+				USFI_Air_Support_End_Game = yes
+			}
+			
+			USFI_Air_Support_GUI_Infantry_1_click = {
+				USFI_Air_Support_Infantry1_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_2_click = {
+				USFI_Air_Support_Infantry2_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_3_click = {
+				USFI_Air_Support_Infantry3_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_4_click = {
+				USFI_Air_Support_Infantry4_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_5_click = {
+				USFI_Air_Support_Infantry5_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_6_click = {
+				USFI_Air_Support_Infantry6_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_7_click = {
+				USFI_Air_Support_Infantry7_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_8_click = {
+				USFI_Air_Support_Infantry8_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_9_click = {
+				USFI_Air_Support_Infantry9_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_10_click = {
+				USFI_Air_Support_Infantry10_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_11_click = {
+				USFI_Air_Support_Infantry11_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_12_click = {
+				USFI_Air_Support_Infantry12_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_13_click = {
+				USFI_Air_Support_Infantry13_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_14_click = {
+				USFI_Air_Support_Infantry14_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_15_click = {
+				USFI_Air_Support_Infantry15_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_16_click = {
+				USFI_Air_Support_Infantry16_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_17_click = {
+				USFI_Air_Support_Infantry17_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_18_click = {
+				USFI_Air_Support_Infantry18_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_19_click = {
+				USFI_Air_Support_Infantry19_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_20_click = {
+				USFI_Air_Support_Infantry20_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_21_click = {
+				USFI_Air_Support_Infantry21_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_22_click = {
+				USFI_Air_Support_Infantry22_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_23_click = {
+				USFI_Air_Support_Infantry23_Plus = yes
+			}
+			USFI_Air_Support_GUI_Infantry_24_click = {
+				USFI_Air_Support_Infantry24_Plus = yes
+			}
+			
+			USFI_Air_Support_GUI_Tank_1_click = {
+				USFI_Air_Support_Tank1_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_2_click = {
+				USFI_Air_Support_Tank2_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_3_click = {
+				USFI_Air_Support_Tank3_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_4_click = {
+				USFI_Air_Support_Tank4_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_5_click = {
+				USFI_Air_Support_Tank5_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_6_click = {
+				USFI_Air_Support_Tank6_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_7_click = {
+				USFI_Air_Support_Tank7_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_8_click = {
+				USFI_Air_Support_Tank8_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_9_click = {
+				USFI_Air_Support_Tank9_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_10_click = {
+				USFI_Air_Support_Tank10_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_11_click = {
+				USFI_Air_Support_Tank11_Plus = yes
+			}
+			USFI_Air_Support_GUI_Tank_12_click = {
+				USFI_Air_Support_Tank12_Plus = yes
+			}
+			
+			USFI_Air_Support_GUI_Heli_1_click = {
+				USFI_Air_Support_Heli1_Plus = yes
+			}
+			USFI_Air_Support_GUI_Heli_2_click = {
+				USFI_Air_Support_Heli2_Plus = yes
+			}
+			USFI_Air_Support_GUI_Heli_3_click = {
+				USFI_Air_Support_Heli3_Plus = yes
+			}
+			USFI_Air_Support_GUI_Heli_4_click = {
+				USFI_Air_Support_Heli4_Plus = yes
+			}
+			USFI_Air_Support_GUI_Heli_5_click = {
+				USFI_Air_Support_Heli5_Plus = yes
+			}
+			USFI_Air_Support_GUI_Heli_6_click = {
+				USFI_Air_Support_Heli6_Plus = yes
+			}
+			
+			USFI_Air_Support_GUI_SAM_click = {
+				USFI_Air_Support_SAM_Plus = yes
+			}
+		}
+		
+		properties = {
+			USFI_Air_Support_GUI_Health_Bar = {
+				frame = USFI_Air_Support_Health
+			}
+			USFI_Air_Support_GUI_Gameplay_25MM = {
+				frame = USFI_Air_Support_25MM_Button_Frame
+			}
+			USFI_Air_Support_GUI_Gameplay_40MM = {
+				frame = USFI_Air_Support_40MM_Button_Frame
+			}
+			USFI_Air_Support_GUI_Gameplay_105MM = {
+				frame = USFI_Air_Support_105MM_Button_Frame
+			}
+			
+			USFI_Air_Support_GUI_Infantry_1 = {
+				x = USFI_Air_Support_Infantry1_XPos
+				y = USFI_Air_Support_Infantry1_YPos
+				frame = USFI_Air_Support_Infantry1_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_2 = {
+				x = USFI_Air_Support_Infantry2_XPos
+				y = USFI_Air_Support_Infantry2_YPos
+				frame = USFI_Air_Support_Infantry2_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_3 = {
+				x = USFI_Air_Support_Infantry3_XPos
+				y = USFI_Air_Support_Infantry3_YPos
+				frame = USFI_Air_Support_Infantry3_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_4 = {
+				x = USFI_Air_Support_Infantry4_XPos
+				y = USFI_Air_Support_Infantry4_YPos
+				frame = USFI_Air_Support_Infantry4_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_5 = {
+				x = USFI_Air_Support_Infantry5_XPos
+				y = USFI_Air_Support_Infantry5_YPos
+				frame = USFI_Air_Support_Infantry5_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_6 = {
+				x = USFI_Air_Support_Infantry6_XPos
+				y = USFI_Air_Support_Infantry6_YPos
+				frame = USFI_Air_Support_Infantry6_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_7 = {
+				x = USFI_Air_Support_Infantry7_XPos
+				y = USFI_Air_Support_Infantry7_YPos
+				frame = USFI_Air_Support_Infantry7_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_8 = {
+				x = USFI_Air_Support_Infantry8_XPos
+				y = USFI_Air_Support_Infantry8_YPos
+				frame = USFI_Air_Support_Infantry8_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_9 = {
+				x = USFI_Air_Support_Infantry9_XPos
+				y = USFI_Air_Support_Infantry9_YPos
+				frame = USFI_Air_Support_Infantry9_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_10 = {
+				x = USFI_Air_Support_Infantry10_XPos
+				y = USFI_Air_Support_Infantry10_YPos
+				frame = USFI_Air_Support_Infantry10_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_11 = {
+				x = USFI_Air_Support_Infantry11_XPos
+				y = USFI_Air_Support_Infantry11_YPos
+				frame = USFI_Air_Support_Infantry11_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_12 = {
+				x = USFI_Air_Support_Infantry12_XPos
+				y = USFI_Air_Support_Infantry12_YPos
+				frame = USFI_Air_Support_Infantry12_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_13 = {
+				x = USFI_Air_Support_Infantry13_XPos
+				y = USFI_Air_Support_Infantry13_YPos
+				frame = USFI_Air_Support_Infantry13_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_14 = {
+				x = USFI_Air_Support_Infantry14_XPos
+				y = USFI_Air_Support_Infantry14_YPos
+				frame = USFI_Air_Support_Infantry14_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_15 = {
+				x = USFI_Air_Support_Infantry15_XPos
+				y = USFI_Air_Support_Infantry15_YPos
+				frame = USFI_Air_Support_Infantry15_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_16 = {
+				x = USFI_Air_Support_Infantry16_XPos
+				y = USFI_Air_Support_Infantry16_YPos
+				frame = USFI_Air_Support_Infantry16_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_17 = {
+				x = USFI_Air_Support_Infantry17_XPos
+				y = USFI_Air_Support_Infantry17_YPos
+				frame = USFI_Air_Support_Infantry17_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_18 = {
+				x = USFI_Air_Support_Infantry18_XPos
+				y = USFI_Air_Support_Infantry18_YPos
+				frame = USFI_Air_Support_Infantry18_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_19 = {
+				x = USFI_Air_Support_Infantry19_XPos
+				y = USFI_Air_Support_Infantry19_YPos
+				frame = USFI_Air_Support_Infantry19_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_20 = {
+				x = USFI_Air_Support_Infantry20_XPos
+				y = USFI_Air_Support_Infantry20_YPos
+				frame = USFI_Air_Support_Infantry20_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_21 = {
+				x = USFI_Air_Support_Infantry21_XPos
+				y = USFI_Air_Support_Infantry21_YPos
+				frame = USFI_Air_Support_Infantry21_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_22 = {
+				x = USFI_Air_Support_Infantry22_XPos
+				y = USFI_Air_Support_Infantry22_YPos
+				frame = USFI_Air_Support_Infantry22_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_23 = {
+				x = USFI_Air_Support_Infantry23_XPos
+				y = USFI_Air_Support_Infantry23_YPos
+				frame = USFI_Air_Support_Infantry23_Frame
+			}
+			USFI_Air_Support_GUI_Infantry_24 = {
+				x = USFI_Air_Support_Infantry24_XPos
+				y = USFI_Air_Support_Infantry24_YPos
+				frame = USFI_Air_Support_Infantry24_Frame
+			}
+			
+			USFI_Air_Support_GUI_Tank_1 = {
+				x = USFI_Air_Support_Tank1_XPos
+				y = USFI_Air_Support_Tank1_YPos
+				frame = USFI_Air_Support_Tank1_Frame
+			}
+			USFI_Air_Support_GUI_Tank_2 = {
+				x = USFI_Air_Support_Tank2_XPos
+				y = USFI_Air_Support_Tank2_YPos
+				frame = USFI_Air_Support_Tank2_Frame
+			}
+			USFI_Air_Support_GUI_Tank_3 = {
+				x = USFI_Air_Support_Tank3_XPos
+				y = USFI_Air_Support_Tank3_YPos
+				frame = USFI_Air_Support_Tank3_Frame
+			}
+			USFI_Air_Support_GUI_Tank_4 = {
+				x = USFI_Air_Support_Tank4_XPos
+				y = USFI_Air_Support_Tank4_YPos
+				frame = USFI_Air_Support_Tank4_Frame
+			}
+			USFI_Air_Support_GUI_Tank_5 = {
+				x = USFI_Air_Support_Tank5_XPos
+				y = USFI_Air_Support_Tank5_YPos
+				frame = USFI_Air_Support_Tank5_Frame
+			}
+			USFI_Air_Support_GUI_Tank_6 = {
+				x = USFI_Air_Support_Tank6_XPos
+				y = USFI_Air_Support_Tank6_YPos
+				frame = USFI_Air_Support_Tank6_Frame
+			}
+			USFI_Air_Support_GUI_Tank_7 = {
+				x = USFI_Air_Support_Tank7_XPos
+				y = USFI_Air_Support_Tank7_YPos
+				frame = USFI_Air_Support_Tank7_Frame
+			}
+			USFI_Air_Support_GUI_Tank_8 = {
+				x = USFI_Air_Support_Tank8_XPos
+				y = USFI_Air_Support_Tank8_YPos
+				frame = USFI_Air_Support_Tank8_Frame
+			}
+			USFI_Air_Support_GUI_Tank_9 = {
+				x = USFI_Air_Support_Tank9_XPos
+				y = USFI_Air_Support_Tank9_YPos
+				frame = USFI_Air_Support_Tank9_Frame
+			}
+			USFI_Air_Support_GUI_Tank_10 = {
+				x = USFI_Air_Support_Tank10_XPos
+				y = USFI_Air_Support_Tank10_YPos
+				frame = USFI_Air_Support_Tank10_Frame
+			}
+			USFI_Air_Support_GUI_Tank_11 = {
+				x = USFI_Air_Support_Tank11_XPos
+				y = USFI_Air_Support_Tank11_YPos
+				frame = USFI_Air_Support_Tank11_Frame
+			}
+			USFI_Air_Support_GUI_Tank_12 = {
+				x = USFI_Air_Support_Tank12_XPos
+				y = USFI_Air_Support_Tank12_YPos
+				frame = USFI_Air_Support_Tank12_Frame
+			}
+			
+			USFI_Air_Support_GUI_Heli_1 = {
+				x = USFI_Air_Support_Heli1_XPos
+				y = USFI_Air_Support_Heli1_YPos
+				frame = USFI_Air_Support_Heli1_Frame
+			}
+			USFI_Air_Support_GUI_Heli_2 = {
+				x = USFI_Air_Support_Heli2_XPos
+				y = USFI_Air_Support_Heli2_YPos
+				frame = USFI_Air_Support_Heli2_Frame
+			}
+			USFI_Air_Support_GUI_Heli_3 = {
+				x = USFI_Air_Support_Heli3_XPos
+				y = USFI_Air_Support_Heli3_YPos
+				frame = USFI_Air_Support_Heli3_Frame
+			}
+			USFI_Air_Support_GUI_Heli_4 = {
+				x = USFI_Air_Support_Heli4_XPos
+				y = USFI_Air_Support_Heli4_YPos
+				frame = USFI_Air_Support_Heli4_Frame
+			}
+			USFI_Air_Support_GUI_Heli_5 = {
+				x = USFI_Air_Support_Heli5_XPos
+				y = USFI_Air_Support_Heli5_YPos
+				frame = USFI_Air_Support_Heli5_Frame
+			}
+			USFI_Air_Support_GUI_Heli_6 = {
+				x = USFI_Air_Support_Heli6_XPos
+				y = USFI_Air_Support_Heli6_YPos
+				frame = USFI_Air_Support_Heli6_Frame
+			}
+			
+			USFI_Air_Support_GUI_SAM = {
+				x = USFI_Air_Support_SAM_XPos
+				y = USFI_Air_Support_SAM_YPos
+				frame = USFI_Air_Support_SAM_Frame
+			}
+		}
+	}
+
+	TNO_USFI_Air_Support_GUI_Title_Window = {
+		context_type = player_context
+		window_name = "USFI_Air_Support_GUI_Title_Window"
+		
+		visible = {
+			has_country_flag = USFI_Air_Support_GUI_Title_visible
+		}
+		
+		effects = {
+			USFI_Air_Support_GUI_close_button_click = {
+				clr_country_flag = USFI_Air_Support_GUI_Title_visible
+			}
+			
+			USFI_Air_Support_GUI_Title_Begin_Game_click = {
+				if = {
+					limit = { NOT = { has_country_flag = USFI_Air_Support_GUI_visible } }
+					set_country_flag = USFI_Air_Support_GUI_visible
+				}
+				else_if = {
+					limit = { has_country_flag = USFI_Air_Support_GUI_visible }
+					clr_country_flag = USFI_Air_Support_GUI_visible
+				}
+				
+				USFI_Air_Support_Clear_Guns = yes
+				set_country_flag = USFI_Air_Support_25MM_Selected
+				USFI_Air_Support_Set_Guns_Frame = yes
+				
+				if = {
+					limit = { NOT = { has_country_flag = USFI_Air_Support_Mission_Begun } }
+					USFI_Air_Support_Initialize = yes
+				}
+			}
+		}
+		
+		triggers = {
+			
+		}
+	}
+	
+	TNO_USFI_Air_Support_GUI_AI_Tick = { # Yard1 is a smarter man than I
+		context_type = player_context
+		window_name = "USFI_Air_Support_GUI_AI_Window"
+		
+		visible = {
+			tag = ICE
+			AAO = { has_country_flag = USFI_Air_Support_GUI_visible }
+		}
+		
+		ai_enabled = {
+			always = yes
+		}
+		
+		### Every hour on the hour ###
+		ai_test_variance = 0
+		ai_test_interval = 1
+		### Every hour on the hour ###
+		
+		effects = {
+			USFI_Air_Support_GUI_AI_Window_Button_click = {
+				AAO = {
+					if = {
+						limit = { has_country_flag = USFI_Air_Support_Mission_Begun }
+						USFI_Air_Support_AI_Tick = yes
+					}
+				}
+			}
+		}
+		
+		ai_weights = {
+			USFI_Air_Support_GUI_AI_Window_Button_click = {
+				ai_will_do = {
+					factor = 30000
+				}
+			}
+		}
+	}
+}

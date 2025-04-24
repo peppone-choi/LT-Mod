@@ -1,0 +1,30 @@
+state = {
+	id = 329
+	name = "STATE_329"
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10627 12
+		}
+		add_core_of = PRC
+		set_state_flag = GDP_regions_outer_mongolia
+		set_state_flag = state_renamings
+		set_variable = { china_state_ref = 57 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 19579 19639 19680 19706
+	}
+	manpower = 515784
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 1149
+	name = "STATE_1149"
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		victory_points = {
+			5035 3
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = state_renamings
+	}
+	resources = {
+		oil = 20
+	}
+	provinces = {
+		1901 4903 5035 14398 14400 1043
+	}
+	manpower = 188256
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

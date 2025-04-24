@@ -1,0 +1,28 @@
+state = { #Population Done
+	id = 693
+	name = "STATE_693"
+	manpower = 32877
+
+	state_category = tiny_island
+
+	history = {
+		owner = CAN
+		add_claim_by = ENG
+		add_core_of = BAH
+		buildings = {
+			infrastructure = 3
+			1513 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # ???
+			1513 1
+		}
+		set_state_flag = GDP_regions_bahamas
+		set_state_flag = GDP_category_small_island
+	}
+
+	provinces = {
+		1513 19987
+	}
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 2337
+	name = "STATE_2337"
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1168 5
+		}
+		victory_points = {
+			10058 3
+		}
+		victory_points = {
+			19656 3
+		}
+		set_state_flag = GDP_regions_zhejiang_ouhai
+		set_variable = { china_state_ref = 5 }
+		set_variable = { china_region_ref = 0 }
+	}
+
+	provinces = {
+		1168 10058 19656 7146
+	}
+	manpower = 3015881
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

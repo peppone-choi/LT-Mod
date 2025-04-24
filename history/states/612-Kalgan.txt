@@ -1,0 +1,33 @@
+state = {
+	id = 612
+	name = "STATE_612"
+
+	history = {
+		owner = MEN
+		add_core_of = MEN
+		buildings = {
+			barracks = 1
+			offices = 1
+			infrastructure = 4
+		}
+		victory_points = {
+			19727 20
+		}
+		victory_points = {
+			6904 11
+		}
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_large_town
+		set_state_flag = GDP_regions_chahar_suiyuan
+		set_variable = { china_state_ref = 54 }
+		set_variable = { china_region_ref = 7 }
+	}
+
+	provinces = {
+		1137 1590 6904 19698 19727
+	}
+	manpower = 2499090
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

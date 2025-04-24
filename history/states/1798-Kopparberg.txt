@@ -1,0 +1,29 @@
+state = {
+	id = 1798
+	name = "STATE_1798"
+	manpower = 277000
+
+	state_category = rural
+
+	resources = {
+		steel = 72
+		uranium = 6
+		aluminium = 6
+	}
+
+	history = {
+		victory_points = { 156 2 }
+		victory_points = { 11197 3 }
+		victory_points = { 114 1 }
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 5
+			anti_air_building = 1
+			offices = 1
+		}
+	}
+	provinces = {
+		11197 9193 3148 9173 6147 3005 6123 9068 202 13099 156 6093 114 3070 9182 77
+	}
+}

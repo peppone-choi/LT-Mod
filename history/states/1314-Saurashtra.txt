@@ -1,0 +1,54 @@
+state = {
+	id = 1314
+	name = "STATE_1314"
+	resources = {
+		aluminium = 6.000
+	}
+
+	history = {
+		owner = IND
+		add_claim_by = AZH
+		add_core_of = IND
+		buildings = {
+			infrastructure = 4
+			hospitals = 1
+			thermoelectric_plant = 1
+			12037 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			16073 15
+		}
+		victory_points = {
+			10118 10
+		}
+		victory_points = {
+			4090 10
+		}
+		victory_points = {
+			7207 15
+		}
+		victory_points = {
+			1144 4
+		}
+		victory_points = {
+			12037 5
+		}
+		victory_points = {
+			4090 3
+		}
+		victory_points = {
+			18992 1
+		}
+		set_state_flag = GDP_regions_gujarat
+	}
+
+	provinces = {
+		1144 4090 4132 7207 10118 12037 16073 18992
+	}
+	manpower = 5344359
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

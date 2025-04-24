@@ -1,0 +1,97 @@
+focus_tree = {
+	id = RUS_MAG_start_focus
+	country = { 
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAG
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = RUS_MAG_focus_1 #이시와라의 통보
+		x = 0
+		y = 0
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_2 #혁신관료들의 보고
+		prerequisite = { focus = RUS_MAG_focus_1 }
+		x = 0
+		y = 1
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_3 #일본 사업가들의 낙원
+		prerequisite = { focus = RUS_MAG_focus_2 }
+		x = 0
+		y = 2
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_4 #깊어져가는 불만
+		prerequisite = { focus = RUS_MAG_focus_3 }
+		x = 0
+		y = 3
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_5 #일본식 군제개혁
+		prerequisite = { focus = RUS_MAG_focus_4 }
+		x = 0
+		y = 4
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_6 #자영농들의 불만 진화
+		prerequisite = { focus = RUS_MAG_focus_5 }
+		x = 0
+		y = 5
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_7 #노동자들의 호의
+		prerequisite = { focus = RUS_MAG_focus_6 }
+		mutually_exclusive = {
+			focus = RUS_MAG_focus_8
+		}
+		x = 0
+		y = 6
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_8 #일본 기업가 보호
+		prerequisite = { focus = RUS_MAG_focus_6 }
+		mutually_exclusive = {
+			focus = RUS_MAG_focus_7
+		}
+		x = 2
+		y = 6
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_9 #도쿄 정치인들의 호의
+		prerequisite = { focus = RUS_MAG_focus_7 focus = RUS_MAG_focus_8 }
+		x = 0
+		y = 7
+		icon = GFX_goal_generic_orthodox
+	}
+
+	focus = {
+		id = RUS_MAG_focus_10 #억압받는 인민들의 분노
+		prerequisite = { focus = RUS_MAG_focus_9 }
+		x = 0
+		y = 8
+		icon = GFX_goal_generic_orthodox
+	}
+}

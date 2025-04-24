@@ -1,0 +1,22 @@
+state = {
+	id = 2454
+	name = "STATE_2454"
+
+	history = {
+		owner = AAG
+		add_core_of = AAG
+		add_core_of = AAV
+
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17654
+	}
+	manpower = 1
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
+}

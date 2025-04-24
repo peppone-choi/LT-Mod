@@ -1,0 +1,31 @@
+state = {
+	id = 1727
+	name = "STATE_1727"
+
+	history = {
+		owner = IND
+		add_claim_by = AZH
+		add_core_of = IND
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			16071 4
+		}
+		victory_points = {
+			1103 5
+		}
+		victory_points = {
+			18996 3
+		}
+		set_state_flag = GDP_regions_gujarat
+	}
+
+	provinces = {
+		1103 4064 16071 18835 18996
+	}
+	manpower = 2453444
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

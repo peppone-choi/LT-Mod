@@ -1,0 +1,22 @@
+state = {
+	id = 1341
+	name = "STATE_1341"
+	provinces = {
+		4435
+	}
+	history = {
+		owner = SIK
+		victory_points = { 4435 1 }
+		buildings = {
+			infrastructure = 2
+			hospitals = 1
+			offices = 1
+		}
+		add_core_of = SIK
+		add_claim_by = IND
+		add_claim_by = AZH
+	}
+	manpower = 162189
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

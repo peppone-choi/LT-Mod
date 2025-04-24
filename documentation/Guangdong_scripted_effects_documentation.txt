@@ -1,0 +1,430 @@
+# GUANGDONG EFFECTS CHEAT SHEET (THANK YOU WILLM FOR BEING BASED)
+
+## INDEX
+
+## POPULATION APPROVAL
+## UNDERWORLD
+## PRODUCT CYCLE
+## ECONOMY
+## RESEARCH AND DEVELOPMENT
+## LEGCO
+## ORDINANCES
+## THREE EVILS
+## ENDGAME
+
+## POPULATION APPROVAL
+
+##Indentation is due to easier copy and paste
+every_owned_state = {
+
+}
+
+#State being part of the pearl river
+every_owned_state = {
+	limit = {
+		GNG_is_pearl_river_delta_state = yes
+	}
+}
+
+#State not being part of the pearl river
+every_owned_state = {
+	limit = {
+		GNG_is_pearl_river_delta_state = no
+	}
+}
+#Chinese
+#1 = 1%
+	set_temp_variable = { chi_app_temp = var } 
+	GNG_chinese_app_change = yes
+
+#Zhujin
+#1 = 1%
+	set_temp_variable = { zhu_app_temp = var } 
+	GNG_zhujin_app_change = yes
+
+#Japanese
+#1 = 1%
+	set_temp_variable = { jap_app_temp = var } 
+	GNG_japanese_app_change = yes
+
+#When the state is not random_state, use following effects instead, with same variables
+GNG_chinese_app_change_specific_state = yes
+GNG_zhujin_app_change_specific_state = yes
+GNG_japanese_app_change_specific_state = yes
+
+## UNDERWORLD
+#Police
+#1 = 1%
+	set_temp_variable = { sar_spt_temp = var } 
+	GNG_police_control_change = yes
+
+#Triad
+#1 = 1%
+	set_temp_variable = { tri_spt_temp = var } 
+	GNG_triad_control_change = yes
+
+#Yakuza
+#1 = 1%
+	set_temp_variable = { yak_spt_temp = var } 
+	GNG_yakuza_control_change = yes
+
+#Kenpeitai
+#1 = 1%
+	set_temp_variable = { ken_spt_temp = var } 
+	GNG_kenpeitai_control_change = yes
+
+#When the state is not random_state, use following effects instead, with same variables
+GNG_police_control_change_specific_state = yes
+GNG_triad_control_change_specific_state = yes
+GNG_yakuza_control_change_specific_state = yes
+GNG_kenpeitai_control_change_specific_state = yes
+
+## PRODUCT CYCLE
+
+#Change interest
+#1 = 1%
+	set_temp_variable = { GNG_product_interest_temp = var } 
+	GNG_product_cycle_interest_change = yes
+
+#Change quality
+#1 = 1%
+	set_temp_variable = { GNG_product_quality_temp = var } 
+	GNG_product_cycle_quality_change = yes
+
+#Change profitability
+#1 = 100%
+	set_temp_variable = { GNG_product_profitability_temp_var = var } 
+	GNG_product_cycle_profitability_change = yes
+
+
+#Change interest min for next product
+#1 = 1%
+	set_temp_variable = { GNG_product_cycle_interest_min_temporary_modifier_temp = var } 
+	GNG_product_cycle_next_product_interest_min_change = yes
+
+#Change interest max for next product
+#1 = 1%
+	set_temp_variable = { GNG_product_cycle_interest_max_temporary_modifier_temp = var } 
+	GNG_product_cycle_next_product_interest_max_change = yes
+
+#Change quality min for next product
+#1 = 1%
+	set_temp_variable = { GNG_product_cycle_quality_min_temporary_modifier_temp = var } 
+	GNG_product_cycle_next_product_quality_min_change = yes
+
+#Change quality max for next product
+#1 = 1%
+	set_temp_variable = { GNG_product_cycle_quality_max_temporary_modifier_temp = var } 
+	GNG_product_cycle_next_product_quality_max_change = yes
+
+## ECONOMY
+#Handy TT effects
+#GDP Growth
+#1 = 1%
+	set_temp_variable = { gdp_growth_temp = var }
+	econ_gdp_growth_change = yes
+#Spending
+#1 = 1B
+	set_temp_variable = { temp_econ_spending_amount = var }
+	econ_spend_money_once_effect_raw_money = yes
+#Reserves
+#1 = 1B
+	set_temp_variable = { money_reserves_temp = var }
+	econ_money_reserves_change_raw_money = yes
+
+#GNG Specific
+#Change Misc Income. Dont subtract with this unless otherwise specified
+#1 = 1B
+	set_temp_variable = { GNG_misc_income_temp = var } 
+	GNG_misc_income_change = yes
+
+#Change Misc Costs. Dont subtract with this unless otherwise specified
+#1 = 1B
+	set_temp_variable = { GNG_misc_costs_temp = var } 
+	GNG_misc_costs_change = yes
+
+#Change Social Costs
+#1 = 1B
+	set_temp_variable = { GNG_social_costs_temp = var } 
+	GNG_social_costs_change = yes
+
+#Change Military Costs
+#1 = 1B
+	set_temp_variable = { GNG_military_costs_temp = var } 
+	GNG_military_costs_change = yes
+
+#Change Admin Costs
+#1 = 1B
+	set_temp_variable = { GNG_admin_costs_temp = var } 
+	GNG_admin_costs_change = yes
+
+## RESEARCH AND DEVELOPMENT
+#IDs:
+# Audio/Video: 1
+# Household Electronics: 2
+# Data Storage: 3
+# Computational Power: 4
+# Power Efficiency: 5
+
+#Change research speed for one
+#1 = 1%
+	set_temp_variable = { GNG_RnD_temp_id = ID } 
+	set_temp_variable = { GNG_research_monthly_base_temp = var }
+	GNG_research_base_monthly_change = yes
+
+#Change research speed for all
+#1 = 1%
+	set_temp_variable = { GNG_research_monthly_base_temp = var }
+	GNG_research_base_monthly_change_all = yes
+
+## LEGCO
+#IDs
+# Suzuki: 1
+# Yasuda: 2
+# Sony: 3
+# Matsushita: 4
+# Fujitsu: 5
+# Cheung Kong: 6
+# Hitachi: 7
+
+#Change one's seat count
+	set_temp_variable = { GNG_legco_seat_temp = var }
+	set_temp_variable = { GNG_legco_faction_temp = ID }
+	GNG_change_legco_seats = yes
+
+#Change one's seat by modifying another
+	set_temp_variable = { GNG_legco_seat_temp = var }
+	set_temp_variable = { GNG_legco_faction_temp = ID } #Faction that gains if +, loses if -
+	set_temp_variable = { GNG_legco_faction_target_temp = target_ID } #Faction that gets seats if -, loses if +
+	GNG_change_legco_seats_specific_1 = yes
+
+## ORDINANCES
+#Pass Ordinance
+GNG_pass_ordinance = yes
+
+#Fail Ordinance
+GNG_fail_ordinance = yes
+
+#Effects for events
+#Pass Ordinance
+GNG_pass_ordinance_effect = yes
+
+#Fail Ordinance
+GNG_fail_ordinance_effect = yes
+
+#Add an amendment
+	set_temp_variable = { GNG_legco_amendment_id = Amendment_ID }
+	GNG_add_amendment_to_current = yes
+
+#Remove an amendment
+	set_temp_variable = { GNG_legco_amendment_id = Amendment_ID }
+	GNG_remove_amendment_from_current = yes
+
+#Check if Ordinance has specific amendment
+	set_temp_variable = { GNG_legco_amendment_id = Amendment_ID }
+	GNG_has_amendment_check = yes
+
+#Initalize Voting Percentage
+#1 = 100%
+	set_temp_variable = { GNG_legco_cheungkong_temp_support = var }
+	set_temp_variable = { GNG_legco_sony_temp_support = var }
+	set_temp_variable = { GNG_legco_matsushita_temp_support = var }
+	set_temp_variable = { GNG_legco_fujitsu_temp_support = var }
+	set_temp_variable = { GNG_legco_hitachi_temp_support = var }
+
+#Change Votes for a Faction
+#1 = 1
+	set_temp_variable = { GNG_temp_votes = var } 
+	set_temp_variable = { GNG_legco_faction = ID }
+	GNG_legco_change_votes = yes
+
+#Change Votes for a Faction Percentage
+#1 = 100%
+	set_temp_variable = { GNG_temp_votes_percentage = var } 
+	set_temp_variable = { GNG_legco_faction = ID }
+	GNG_legco_change_votes_percentage = yes
+
+#Introduce an Ordinance
+	set_temp_variable = { GNG_temp_legco_id = ID }
+	legco_introduce_ordinance = yes
+
+#Start Ordinance Vote
+legco_ordinance_vote_start = yes
+
+#Introduce and start an Ordinance vote
+	set_temp_variable = { GNG_temp_legco_id = ID }
+	legco_introduce_ordinance_start = yes
+
+#Conclude an Ordinance
+legco_bill_conclude = yes
+
+#Add effects to Ordinances
+GNG_ordinances_effects = {
+
+#Add effects to Amendments
+GNG_amendment_effects = {
+
+#Add events for Ordinances Passing
+GNG_pass_ordinance_event_effect = {
+
+#Add events for Ordinances Failing
+GNG_fail_ordinance_event_effect = {
+
+## THREE EVILS
+#Change Chinese Opinion
+#1 = 1%
+	set_temp_variable = { GNG_opinion_temp_var = var }  	
+	GNG_China_opinion_change = yes
+
+#Change Chinese Opinion Cap
+#1 = 1%
+	set_temp_variable = { GNG_China_cap_temp = var }
+	GNG_China_Opinion_Cap_Change = yes
+
+#Change Japanese Approval
+#1 = 1%
+	set_temp_variable = { GNG_approval_temp_var = var } 
+	GNG_Japan_approval_change = yes
+
+#Change Japanese Approval Cap
+#1 = 1%
+	set_temp_variable = { GNG_Japan_cap_temp = var } 
+	GNG_Japan_Approval_Cap_Change = yes
+
+#Change Corruption
+#1 = 1%
+	set_temp_variable = { GNG_corruption_temp_var = var } 
+	GNG_Corruption_Change = yes
+
+## ENDGAME
+#Change GFT Strength
+#1 = 1%
+	set_temp_variable = { GNG_Riots_GFT_Strength_Temp = var } 
+	GNG_Riots_GFT_Strength_Change = yes
+
+#Change GFT Radicalism
+#1 = 1%
+	set_temp_variable = { GNG_Riots_GFT_Radicalism_Temp = var } 
+	GNG_Riots_GFT_Radicalism_Change = yes
+
+#Change CCL Strength
+#1 = 1%
+	set_temp_variable = { GNG_Riots_CCL_Strength_Temp = var } 
+	GNG_Riots_CCL_Strength_Change = yes
+
+#Change CCL Radicalism
+#1 = 1%
+	set_temp_variable = { GNG_Riots_CCL_Radicalism_Temp = var } 
+	GNG_Riots_CCL_Radicalism_Change = yes
+
+#Change Government Despair
+#1 = 1%
+	set_temp_variable = { GNG_Riots_Despair_Temp = var } 
+	GNG_Despair_Change = yes
+
+#Change Japanese Intervention
+#1 = 1%
+	set_temp_variable = { GNG_Japan_Riots_Temp = var } 
+	GNG_Japanese_Intervention_Change = yes
+
+#Change Strength Ticker
+#1 = 1%
+	set_temp_variable = { GNG_Riots_Strength_Tick_Temp = var } 
+	GNG_Riots_Strength_Tick_Change = yes
+
+#Change Radicalism Ticker
+#1 = 1%
+	set_temp_variable = { GNG_Riots_Radicalism_Tick_Temp = var } 
+	GNG_Riots_Radicalism_Tick_Change = yes
+
+#Change Government Despair Ticker
+#1 = 1%
+	set_temp_variable = { GNG_Riots_Despair_Tick_Temp = var } 
+	GNG_Riots_Despair_Tick_Change = yes
+
+#Change Japanese Intervention Ticker
+#1 = 1%
+	set_temp_variable = { GNG_Riots_Japanese_Intervention_Tick_Temp = var } 
+	GNG_Riots_Japanese_Intervention_Tick_Change = yes
+
+#Change Government Control
+#1 = 1%
+	set_temp_variable = { govt_spt_temp = var } 
+	GNG_government_control_change = yes
+
+#Change Rioters Control
+#1 = 1%
+	set_temp_variable = { riot_spt_temp = var } 
+	GNG_rioters_control_change = yes
+
+#Specific States
+	GNG_government_control_change_specific_state = yes
+	GNG_rioters_control_change_specific_state = yes
+
+#Lexica of Texticons and Text Combos
+#Nations and Others
+£GFX_GNG_Guangdong_texticon §SGuangdong§!
+#LegCo
+£GNG_legco_texticon §SLegCo§!
+
+£GFX_GNG_Guangdong_texticon §SSuzuki§!
+£GNG_Yasuda_texticon §YYasuda§!
+£GNG_Sony_texticon §VSony§!
+£GNG_Matsushita_texticon §WMatsushita§!
+£GNG_Fujitsu_texticon §mFujitsu§!
+£GNG_Cheung_Kong_texticon §CCheung Kong§!
+£GNG_Hitachi_texticon §kHitachi§!
+#Underworld and Demographics
+£GNG_expats_texticon §eJapanese Expats§! 
+£GNG_zhujin_texticon §EZhujin§!
+£GNG_chinese_texticon §iChinese§!
+
+£GNG_police_texticon §QPolice§!
+£GNG_triads_texticon §nTriads§!
+£GNG_yakuza_texticon §EYakuza§!
+£GNG_kenpeitai_texticon §eKenpeitai§!
+#Three Evils
+£GNG_corruption_yen_texticon §Rcorruption§!
+£GNG_japanese_nation_texticon §jJapanese Approval§!
+£GNG_chinese_nation_texticon §MChinese Opinion§!
+
+£GNG_japanese_frustration_texticon §jIJA§!
+
+#Nations
+£GNG_japanese_nation_texticon §jEmpire of Japan§!
+£GNG_chinese_nation_texticon §MRepublic of China§!
+£MAN_manchukuo_texticon §fManchurian§!
+£GFX_GNG_Nissan_texticon §PNissan§!
+#Riots
+£GNG_riot_strength_texticon §estrength§!
+£GNG_riot_radicalism_texticon §xradicalism§!
+£GNG_government_despair_texticon §Jgovernment despair§! 
+£GNG_japanese_frustration_texticon §jJapanese frustration§!
+£GNG_government_riots_texticon §AGovernment§!
+£GNG_rioters_texticon §uRioters§!
+
+£GNG_CCL_texticon §VCCL§! 
+£GNG_CCL_texticon §VCommittee on Chinese Labor§!
+£GNG_GFT_texticon §nGFT§!
+£GNG_GFT_texticon §nGuangdong Federation of Tradesmen§!
+
+#IJA Failstate
+£GNG_IJA_riots_texticon §qIJA§!
+
+## MISC LAWS
+
+# v corresponds to a law set in GetAssortedLawsGNG
+set_temp_variable = { v = VAR }
+GNG_add_uncategorised_law = yes
+
+set_temp_variable = { v = VAR }
+GNG_remove_uncategorised_law = yes
+
+#For the starting 4 laws which update throughout the game, simply change the respective law variable and add a custom tooltip
+
+
+## IJA GUI
+
+#1=1
+set_temp_variable = { v = VAR }
+GNG_IJA_add_takeover_progress = yes

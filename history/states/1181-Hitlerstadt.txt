@@ -1,0 +1,25 @@
+state = {
+	id = 1181
+	name = "STATE_1181"
+
+	history = {
+		owner = COG
+		add_core_of = COG
+		victory_points = {
+			10071 10
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			radar_station = 1
+		}
+	}
+
+	provinces = {
+		10071 13983 20021
+	}
+	manpower = 424280
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

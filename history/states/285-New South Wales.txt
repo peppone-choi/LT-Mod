@@ -1,0 +1,56 @@
+state = {
+	id = 285
+	name = "STATE_285"
+	resources = {
+		aluminium = 2.000
+	}
+
+	history = {
+		owner = AST
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 5
+			radar_station = 3
+			dockyard = 2
+			barracks = 2
+			hospitals = 2
+			schools = 2
+			offices = 2
+			air_base = 5
+			4864 = {
+				naval_base = 6
+				coastal_bunker = 2
+			}
+			4673 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			4864 35
+		}
+		victory_points = {
+			4500 1
+		}
+		victory_points = {
+			10682 1
+		}
+		victory_points = {
+			1667 2
+		}
+		victory_points = {
+			4673 10
+		}
+		victory_points = {
+			7859 1
+		}
+		add_core_of = AST
+	}
+
+	provinces = {
+		1667 1861 2114 2146 3023 4500 4673 4763 4836 4864 5134 5161 7533 7859 8234 8812 10427 10455 10682 10977 11019 12377 12435 12532 12560 12968
+	}
+	manpower = 3212787 #was 3952482 pre NE split
+	buildings_max_level_factor = 1.250
+	state_category = metropolis
+	local_supplies = 0.000
+}

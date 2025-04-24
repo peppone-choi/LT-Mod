@@ -1,0 +1,29 @@
+state = {
+	id = 1082
+	name = "STATE_1082"
+	resources = {
+		uranium = 2.000
+	}
+
+	history = {
+		owner = GRO
+		add_core_of = GRO
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			12911 5
+		}
+		victory_points = {
+			13892 1
+		}
+	}
+
+	provinces = {
+		5180 12911 13874 13892 17870 17878 17879
+	}
+	manpower = 871942
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

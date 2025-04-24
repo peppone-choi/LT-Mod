@@ -1,0 +1,23 @@
+state = {
+	id = 1584
+	name = "STATE_1584"
+
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARG
+		victory_points = {
+			12982 2
+		}
+		set_state_flag = GDP_regions_rio_negro
+	}
+
+	provinces = {
+		12982 14910 14912
+	}
+	manpower = 27590
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

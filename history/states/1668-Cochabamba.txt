@@ -1,0 +1,35 @@
+state = {
+	id = 1668
+	name = "STATE_1668"
+	resources = {
+		tungsten = 10.000
+		oil = 1.000
+	}
+
+	history = {
+		owner = BOL
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 2
+			offices = 1
+			schools = 1
+			hospitals = 1
+			barracks = 1
+			prisons = 1
+			air_base = 1
+		}
+		add_core_of = BOL
+		victory_points = {
+			8240 10
+		}
+		set_state_flag = GDP_category_pastoral
+	}
+
+	provinces = {
+		8240 15342 17528
+	}
+	manpower = 565600
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

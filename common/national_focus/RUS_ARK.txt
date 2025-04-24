@@ -1,0 +1,130 @@
+focus_tree = {
+    id = WRS_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = WRS
+        }
+    }
+    
+    default = no
+
+    focus = {
+        id = WRS_party_congress_24 #24차 당 대회
+        icon = GFX_goal_party_congress_24
+        cost = 3
+        x = 2
+        y = 0
+    }
+
+    focus = {
+        id = WRS_power_to_troika #트로이카에 권력을!
+        icon = GFX_goal_power_to_troika
+        prerequisite = {focus = WRS_party_congress_24}
+        mutually_exclusive = { focus = WRS_left_opposition_victory}
+        cost = 3
+        x = 0
+        y = 1
+    }
+
+    focus = {
+        id = WRS_left_opposition_victory #좌익 반대파의 승리
+        icon = GFX_goal_left_opposition_victory
+        prerequisite = {focus = WRS_party_congress_24}
+        mutually_exclusive = {focus = WRS_power_to_troika}
+        cost = 3
+        x = 2
+        y = 1
+    }
+
+    focus = {
+        id = WRS_new_red_army #새로운 붉은 군대
+        icon = GFX_goal_new_red_army
+        prerequisite = {focus = WRS_party_congress_24}
+        cost = 3
+        x = 4
+        y = 1
+    }
+
+    focus = {
+        id = WRS_bureaucrat_leadership #관료들의 지도
+        icon = GFX_goal_bureaucrat_leadership
+        prerequisite = {focus = WRS_power_to_troika focus = WRS_left_opposition_victory}
+        mutually_exclusive = {
+            focus = WRS_worker_leadership
+        }
+        cost = 3
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = WRS_increase_supplies #보급품 생산 증대
+        icon = GFX_goal_increase_supplies
+        prerequisite = {focus = WRS_bureaucrat_leadership
+        focus = WRS_worker_leadership}
+        x = 0
+        y = 3
+        cost = 3
+        mutually_exclusive = {
+            focus = WRS_power_of_people
+        }
+    }
+
+    focus = {
+        id = WRS_worker_leadership #노동자들의 지도
+        icon = GFX_goal_worker_leadership
+        prerequisite = {focus = WRS_power_to_troika focus = WRS_left_opposition_victory}
+        mutually_exclusive = {
+            focus = WRS_bureaucrat_leadership
+        }
+        cost = 3
+        x = 2
+        y = 2
+    }
+    
+    focus = {
+        id = WRS_power_of_people #인민의 힘으로!
+        icon = GFX_goal_power_of_people
+        prerequisite = {focus = WRS_worker_leadership
+        focus = WRS_bureaucrat_leadership
+        }
+        mutually_exclusive = {
+            focus = WRS_increase_supplies
+        }
+        cost = 3
+        x = 2
+        y = 3
+    }
+
+    focus = {
+        id = WRS_military_strategy_debate #군사 전략 논쟁
+        icon = GFX_goal_military_strategy_debate
+        prerequisite = {focus = WRS_new_red_army}
+        cost = 3
+        x = 4
+        y = 2
+    }
+
+    focus = {
+        id = WRS_first_guards_reconstruction #제1 근위군 재건
+        icon = GFX_goal_first_guards_reconstruction
+        prerequisite = {focus = WRS_military_strategy_debate}
+        cost = 3
+        x = 4
+        y = 3
+    }
+
+    focus = {
+        id = WRS_cooperation_with_tukhachevsky #투하쳅스키와의 협력
+        icon = GFX_goal_cooperation_with_tukhachevsky
+        prerequisite = {focus = WRS_increase_supplies focus = WRS_power_of_people}
+        prerequisite = {focus = WRS_first_guards_reconstruction}
+        cost = 3
+        x = 2
+        y = 4
+    }
+}

@@ -1,0 +1,12 @@
+CAM_Debug_Category = {
+	icon = GFX_decision_category_debug
+	picture = GFX_decision_image_ENG_debug
+
+	allowed = { tag = CAM }
+	visible = {
+		is_debug = yes
+		is_ai = no
+	}
+
+	priority = 10000
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 2205
+	name = "STATE_2205"
+	resources = {
+		oil = 2
+	}
+
+	history = {
+		owner = UTL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UTL
+		add_core_of = TRK
+	}
+
+	provinces = {
+		9605 1632 756
+	}
+	manpower = 22149
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

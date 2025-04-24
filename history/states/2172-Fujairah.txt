@@ -1,0 +1,26 @@
+state = {
+	id = 2172
+	name = "STATE_2172"
+
+	resources = {
+		oil = 8
+	}
+
+	history = {
+		owner = GUL
+		add_core_of = UAE
+		add_core_of = GUL
+		buildings = {
+			infrastructure = 2
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		18589 18574
+	}
+	manpower = 6001
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

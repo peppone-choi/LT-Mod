@@ -1,0 +1,38 @@
+state = {
+	id = 2118
+	name = "STATE_2118"
+
+	history = {
+		owner = ILG
+		add_core_of = FRS
+		add_core_of = ILG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 3
+			radar_station = 1
+			18053 = {
+				bunker = 3
+			}
+			3991 = {
+				bunker = 3
+			}
+		}
+		victory_points = {
+			7008 2
+		}
+		victory_points = {
+			13232 1
+		}
+		victory_points = {
+			18028 1
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		7008 18045 13232 13074 18028 12018 18051 3991 18053
+	}
+	manpower = 183391
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

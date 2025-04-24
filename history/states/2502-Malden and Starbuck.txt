@@ -1,0 +1,22 @@
+state = {
+	id = 2502
+	name = "STATE_2502"
+	manpower = 76
+	state_category = tiny_island
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		add_claim_by = NZL
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			19984 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		19984
+	}
+}

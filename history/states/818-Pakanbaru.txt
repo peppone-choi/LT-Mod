@@ -1,0 +1,30 @@
+state = {
+	id = 818
+	name = "STATE_818"
+	resources = {
+		oil = 36
+	}
+
+	history = {
+		victory_points = {
+			15701 10
+		}
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			schools = 1
+			barracks = 1
+			infrastructure = 5
+			air_base = 1
+		}
+		set_state_flag = GDP_regions_riau
+	}
+
+	provinces = {
+		15701
+	}
+	manpower = 78756
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

@@ -1,0 +1,47 @@
+state = {
+	id = 574
+	name = "STATE_574"
+	resources = {
+		steel = 24.000
+		tungsten = 18.000
+		oil = 6.000
+	}
+
+	history = {
+		owner = YAK
+		buildings = {
+			schools = 1
+			offices = 1
+			prisons = 1
+			thermoelectric_plant = 1
+			infrastructure = 2
+		}
+		victory_points = {
+			4474 1
+		}
+		victory_points = {
+			10641 10
+		}
+		victory_points = {
+			5516 1
+		}
+		victory_points = {
+			13352 1
+		}
+		victory_points = {
+			5396 1
+		}
+		victory_points = {
+			12623 1
+		}
+		add_core_of = YAK
+	}
+
+	provinces = {
+		1714 1805 1852 1878 2853 4474 5396 5516 5540 5644 5667 5672 5826 5962 7817 10589 10641 10701 12623 13352
+	}
+	manpower = 273854
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

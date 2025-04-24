@@ -1,0 +1,1785 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+#Variable Colours
+defined_text = {
+	name = GetJapanophileFactionInfluence
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.85 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_inf_red
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.75 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_inf_orange
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.65 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_inf_yellow
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.55 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_inf_lime
+	}
+	text = {
+		localization_key = CHI_fac_japanophile_inf_green
+	}
+}
+
+defined_text = { #Old Guard
+	name = GetOldGuardFactionInfluence
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.85 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_inf_red
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.75 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_inf_orange
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.65 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_inf_yellow
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.55 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_inf_lime
+	}
+	text = {
+		localization_key = CHI_fac_old_guard_inf_green
+	}
+}
+
+defined_text = { #Reformist
+	name = GetReformistFactionInfluence
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_influence value = 0.85 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_inf_red
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_influence value = 0.75 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_inf_orange
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_influence value = 0.65 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_inf_yellow
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_influence value = 0.55 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_inf_lime
+	}
+	text = {
+		localization_key = CHI_fac_reformist_inf_green
+	}
+}
+
+defined_text = {
+	name = GetJapanophileFactionOpinion
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 15 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_red
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 25 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_orange
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 35 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_yellow
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 45 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_lime
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 85 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_lavender
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 75 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_lightblue
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 65 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_lightbluegreen
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 55 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_japanophile_opn_bluegreen
+	}
+	text = {
+		localization_key = CHI_fac_japanophile_opn_green
+	}
+}
+
+defined_text = { #Old Guard
+	name = GetOldGuardFactionOpinion
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 15 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_red
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 25 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_orange
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 35 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_yellow
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 45 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_lime
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 85 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_lavender
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 75 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_lightblue
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 65 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_lightbluegreen
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 55 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_opn_bluegreen
+	}
+	text = {
+		localization_key = CHI_fac_old_guard_opn_green
+	}
+}
+
+defined_text = { #Reformist
+	name = GetReformistFactionOpinion
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 15 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_red
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 25 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_orange
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 35 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_yellow
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 45 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_lime
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 85 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_lavender
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 75 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_lightblue
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 65 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_lightbluegreen
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 55 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_opn_bluegreen
+	}
+	text = {
+		localization_key = CHI_fac_reformist_opn_green
+	}
+}
+
+defined_text = {
+	name = GetProJapanOpinionChange
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 90 compare = greater_than }
+		}
+		localization_key = CHI_fac_pro_japan_high_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 75 compare = greater_than }
+		}
+		localization_key = CHI_fac_pro_japan_mid_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 50 compare = greater_than }
+		}
+		localization_key = CHI_fac_pro_japan_low_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 10 compare = less_than }
+		}
+		localization_key = CHI_fac_pro_japan_high_increase
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 25 compare = less_than }
+		}
+		localization_key = CHI_fac_pro_japan_mid_increase
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 50 compare = less_than }
+		}
+		localization_key = CHI_fac_pro_japan_low_increase
+	}
+	text = {
+		localization_key = CHI_fac_pro_japan_no_change
+	}
+}
+
+defined_text = {
+	name = GetOldGuardOpinionChange
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 90 compare = greater_than }
+		}
+		localization_key = CHI_fac_old_guard_high_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 75 compare = greater_than }
+		}
+		localization_key = CHI_fac_old_guard_mid_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 50 compare = greater_than }
+		}
+		localization_key = CHI_fac_old_guard_low_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 10 compare = less_than }
+		}
+		localization_key = CHI_fac_old_guard_high_increase
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 25 compare = less_than }
+		}
+		localization_key = CHI_fac_old_guard_mid_increase
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 50 compare = less_than }
+		}
+		localization_key = CHI_fac_old_guard_low_increase
+	}
+	text = {
+		localization_key = CHI_fac_old_guard_no_change
+	}
+}
+
+defined_text = {
+	name = GetReformistOpinionChange
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 90 compare = greater_than }
+		}
+		localization_key = CHI_fac_reformist_high_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 75 compare = greater_than }
+		}
+		localization_key = CHI_fac_reformist_mid_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 50 compare = greater_than }
+		}
+		localization_key = CHI_fac_reformist_low_decrease
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 10 compare = less_than }
+		}
+		localization_key = CHI_fac_reformist_high_increase
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 25 compare = less_than }
+		}
+		localization_key = CHI_fac_reformist_mid_increase
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 50 compare = less_than }
+		}
+		localization_key = CHI_fac_reformist_low_increase
+	}
+	text = {
+		localization_key = CHI_fac_reformist_no_change
+	}
+}
+
+defined_text = {
+	name = GetJapanophileFactionModifierStatus
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 60 compare = greater_than_or_equals }
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.70 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_pro_japan_modifier_good_high
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 60 compare = greater_than_or_equals }
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.50 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_pro_japan_modifier_good_mid
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 60 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_pro_japan_modifier_good_low
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.80 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_pro_japan_modifier_bad_overwhelming
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.70 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_pro_japan_modifier_bad_high
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.50 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_pro_japan_modifier_bad_mid
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_pro_japan_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_pro_japan_influence value = 0.50 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_pro_japan_modifier_bad_low
+	}
+	text = {
+		localization_key = CHI_fac_pro_japan_modifier_neutral
+	}
+}
+
+defined_text = {
+	name = GetOldGuardFactionModifierStatus
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 60 compare = greater_than_or_equals }
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.70 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_modifier_good_high
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 60 compare = greater_than_or_equals }
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.50 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_modifier_good_mid
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 60 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_modifier_good_low
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 15 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.60 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_modifier_bad_overwhelming
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.70 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_modifier_bad_high
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.50 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_modifier_bad_mid
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_old_guard_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_old_guard_influence value = 0.50 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_old_guard_modifier_bad_low
+	}
+	text = {
+		localization_key = CHI_fac_old_guard_modifier_neutral
+	}
+}
+
+defined_text = {
+	name = GetReformistFactionModifierStatus
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 60 compare = greater_than_or_equals }
+			check_variable = { var = CHI.faction_reformist_influence value = 0.70 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_modifier_good_high
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 60 compare = greater_than_or_equals }
+			check_variable = { var = CHI.faction_reformist_influence value = 0.50 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_modifier_good_mid
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 60 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_modifier_good_low
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_reformist_influence value = 0.80 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_modifier_bad_overwhelming
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_reformist_influence value = 0.70 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_modifier_bad_high
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_reformist_influence value = 0.50 compare = greater_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_modifier_bad_mid
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CHI.faction_reformist_opinion value = 40 compare = less_than_or_equals }
+			check_variable = { var = CHI.faction_reformist_influence value = 0.50 compare = less_than_or_equals }
+		}
+		localization_key = CHI_fac_reformist_modifier_bad_low
+	}
+	text = {
+		localization_key = CHI_fac_reformist_modifier_neutral
+	}
+}
+
+defined_text = {
+	name = GetEduStatusTitle
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency > 4 }
+		}
+		localization_key = CHI_edu_very_good_title
+	}
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency = 4 }
+		}
+		localization_key = CHI_edu_good_title
+	}
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency = 3 }
+		}
+		localization_key = CHI_edu_ok_title
+	}
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency = 2 }
+		}
+		localization_key = CHI_edu_bad_title
+	}
+	text = {
+		localization_key = CHI_edu_very_bad_title
+	}
+}
+
+defined_text = {
+	name = GetEduStatusDesc
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency > 4 }
+		}
+		localization_key = CHI_edu_very_good_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency = 4 }
+		}
+		localization_key = CHI_edu_good_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency = 3 }
+		}
+		localization_key = CHI_edu_ok_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { edu_efficiency = 2 }
+		}
+		localization_key = CHI_edu_bad_desc
+	}
+	text = {
+		localization_key = CHI_edu_very_bad_desc
+	}
+}
+
+defined_text = {
+	name = GetNanjingGoods
+	text = {
+		trigger = {
+			check_variable = { CHI_nanjing_fallout_consumer_goods < 0 }
+		}
+		localization_key = ChiNanjingGoodsGood
+	}
+	text = {
+		trigger = {
+			check_variable = { CHI_nanjing_fallout_consumer_goods > 0 }
+		}
+		localization_key = ChiNanjingGoodsBad
+	}
+	text = {
+		localization_key = ChiNanjingGoodsZero
+	}
+}
+
+defined_text = {
+	name = GetNanjingPp
+	text = {
+		trigger = {
+			check_variable = { CHI_nanjing_shockwave_pol > 0 }
+		}
+		localization_key = ChiNanjingPpGood
+	}
+	text = {
+		trigger = {
+			check_variable = { CHI_nanjing_shockwave_pol < 0 }
+		}
+		localization_key = ChiNanjingPpBad
+	}
+	text = {
+		localization_key = ChiNanjingPpZero
+	}
+}
+
+defined_text = {
+	name = GetNanjingShockwaveStatusTitle
+	text = {
+		trigger = {
+			check_variable = { nanjing_shockwave > 27 }
+		}
+		localization_key = CHI_nanjing_shockwave_very_good_title
+	}
+	text = {
+		trigger = {
+			check_variable = { nanjing_shockwave > 20 }
+		}
+		localization_key = CHI_nanjing_shockwave_good_title
+	}
+	text = {
+		trigger = {
+			check_variable = { nanjing_shockwave > 13 }
+		}
+		localization_key = CHI_nanjing_shockwave_ok_title
+	}
+	text = {
+		trigger = {
+			check_variable = { nanjing_shockwave > 6 }
+		}
+		localization_key = CHI_nanjing_shockwave_bad_title
+	}
+	text = {
+		localization_key = CHI_nanjing_shockwave_very_bad_title
+	}
+}
+
+defined_text = {
+	name = GetNanjingFalloutStatusTitle
+	text = {
+		trigger = {
+			check_variable = { nanjing_fallout > 27 }
+		}
+		localization_key = CHI_nanjing_fallout_very_good_title
+	}
+	text = {
+		trigger = {
+			check_variable = { nanjing_fallout > 20 }
+		}
+		localization_key = CHI_nanjing_fallout_good_title
+	}
+	text = {
+		trigger = {
+			check_variable = { nanjing_fallout > 13 }
+		}
+		localization_key = CHI_nanjing_fallout_ok_title
+	}
+	text = {
+		trigger = {
+			check_variable = { nanjing_fallout > 6 }
+		}
+		localization_key = CHI_nanjing_fallout_bad_title
+	}
+	text = {
+		localization_key = CHI_nanjing_fallout_very_bad_title
+	}
+}
+
+defined_text = {
+	name = GetCHICost
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { CHI_calc_cost > 0 }
+				check_variable = { YUN_calc_cost > 0 }
+			}
+		}
+		localization_key = WI_Color_Text_Red
+	}
+	text = {
+		localization_key = WI_Color_Text_Green
+	}
+}
+
+defined_text = {
+	name = GetCHIIncome
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { CHI_calc_income < 0 }
+				check_variable = { YUN_calc_income < 0 }
+			}
+		}
+		localization_key = WI_Color_Text_Red
+	}
+	text = {
+		localization_key = WI_Color_Text_Green
+	}
+}
+
+defined_text = {
+	name = GetWISichuanSide
+	text = {
+		trigger = {
+			tag = YUN
+		}
+		localization_key = "[CHI.GetLeader]"
+	}
+	text = {
+		localization_key = "[YUN.GetLeader]"
+	}
+}
+
+defined_text = {
+	name = GetWIWarlordBattle
+	text = {
+		trigger = {
+			tag = YUN
+		}
+		localization_key = YUN_WI_Warlord_influence
+	}
+	text = {
+		localization_key = CHI_WI_Warlord_influence
+	}
+}
+
+defined_text = {
+	name = GetWarlordName
+	text = {
+		trigger = { check_variable = { YUN_WI_Warlord = 1 } }
+		localization_key = GUI_Warlord_XIK
+	}
+	text = {
+		trigger = { check_variable = { YUN_WI_Warlord = 2 } }
+		localization_key = GUI_Warlord_GUX
+	}
+	text = {
+		trigger = { check_variable = { YUN_WI_Warlord = 3 } }
+		localization_key = GUI_Warlord_SHX
+	}
+	text = {
+		trigger = { check_variable = { YUN_WI_Warlord = 4 } }
+		localization_key = GUI_Warlord_QIN
+	}
+	text = {
+		trigger = { check_variable = { YUN_WI_Warlord = 5 } }
+		localization_key = GUI_Warlord_XIN
+	}
+	text = {
+		trigger = { check_variable = { YUN_WI_Warlord = 6 } }
+		localization_key = GUI_Warlord_TIB
+	}
+}
+
+defined_text = {
+	name = GetWarlordInfluence
+	text = {
+		trigger = {
+			check_variable = { YUN_WI_Warlord = 1 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+			NOT = { has_global_flag = XIK_joins_NPA }
+			XIK = {
+				has_capitulated = no
+				NOT = { has_country_flag = WI_joins_RGOC }
+			}
+		}
+		localization_key = GUI_Warlord_XIK_Influence
+	}
+	text = {
+		trigger = {
+			check_variable = { YUN_WI_Warlord = 2 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+			NOT = { has_global_flag = GUX_joins_NPA }
+			GUX = {
+				has_capitulated = no
+				NOT = { has_country_flag = WI_joins_RGOC }
+			}
+		}
+		localization_key = GUI_Warlord_GUX_Influence
+	}
+	text = {
+		trigger = {
+			check_variable = { YUN_WI_Warlord = 3 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+			NOT = { has_global_flag = SHX_joins_NPA }
+			SHX = {
+				has_capitulated = no
+				NOT = { has_country_flag = WI_joins_RGOC }
+			}
+		}
+		localization_key = GUI_Warlord_SHX_Influence
+	}
+	text = {
+		trigger = {
+			check_variable = { YUN_WI_Warlord = 4 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+			NOT = { has_global_flag = QIN_helps_NPA }
+			QIN = { has_capitulated = no }
+		}
+		localization_key = GUI_Warlord_QIN_Influence
+	}
+	text = {
+		trigger = {
+			check_variable = { YUN_WI_Warlord = 5 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+			NOT = { has_global_flag = XIN_helps_NPA }
+			XIN = { has_capitulated = no }
+		}
+		localization_key = GUI_Warlord_XIN_Influence
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GetWarlordFaction
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { YUN_WI_Warlord = 1 }
+					has_global_flag = XIK_joins_NPA
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 2 }
+					has_global_flag = GUX_joins_NPA
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 3 }
+					has_global_flag = SHX_joins_NPA
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 4 }
+					has_global_flag = QIN_helps_NPA
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 5 }
+					has_global_flag = XIN_helps_NPA
+				}
+			}
+		}
+		localization_key = GUI_Warlord_help_NPA
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { YUN_WI_Warlord = 1 }
+					XIK = { has_country_flag = WI_joins_RGOC }
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 2 }
+					GUX = { has_country_flag = WI_joins_RGOC }
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 3 }
+					SHX = { has_country_flag = WI_joins_RGOC }
+				}
+			}
+		}
+		localization_key = GUI_Warlord_help_RGOC
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = { YUN_WI_Warlord = 1 }
+					XIK = { has_capitulated = yes }
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 2 }
+					GUX = { has_capitulated = yes }
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 3 }
+					SHX = { has_capitulated = yes }
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 4 }
+					QIN = { has_capitulated = yes }
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 5 }
+					XIN = { has_capitulated = yes }
+				}
+				AND = {
+					check_variable = { YUN_WI_Warlord = 6 }
+					TIB = { has_capitulated = yes }
+				}
+			}
+		}
+		localization_key = GUI_Warlord_help_capitulated
+	}
+	text = {
+		localization_key = GUI_Warlord_help_neutral
+	}
+}
+
+defined_text = {
+	name = GetYunNRA_Power
+
+	text = {
+		trigger = {
+			check_variable = { YunNRA_Power < 50 }
+		}
+		localization_key = YUN_NRA_Power_Low
+	}
+	text = {
+		trigger = {
+			check_variable = { YunNRA_Power < 70 }
+		}
+		localization_key = YUN_NRA_Power_Medium
+	}
+	text = {
+		trigger = {
+			check_variable = { YunNRA_Power < 90 }
+		}
+		localization_key = YUN_NRA_Power_High
+	}
+	text = {
+		localization_key = YUN_NRA_Power_Dangerous
+	}
+}
+
+defined_text = {
+	name = GetYunCCP_Power
+
+	text = {
+		trigger = {
+			check_variable = { YunCCP_Power < 50 }
+		}
+		localization_key = YUN_CCP_Power_Low
+	}
+	text = {
+		trigger = {
+			check_variable = { YunCCP_Power < 70 }
+		}
+		localization_key = YUN_CCP_Power_Medium
+	}
+	text = {
+		trigger = {
+			check_variable = { YunCCP_Power < 90 }
+		}
+		localization_key = YUN_CCP_Power_High
+	}
+	text = {
+		localization_key = YUN_CCP_Power_Dangerous
+	}
+}
+
+defined_text = {
+	name = GetYunBandit_Power
+
+	text = {
+		trigger = {
+			check_variable = { YunBandit_Power < 50 }
+		}
+		localization_key = YUN_Bandit_Power_Low
+	}
+	text = {
+		trigger = {
+			check_variable = { YunBandit_Power < 70 }
+		}
+		localization_key = YUN_Bandit_Power_Medium
+	}
+	text = {
+		trigger = {
+			check_variable = { YunBandit_Power < 90 }
+		}
+		localization_key = YUN_Bandit_Power_High
+	}
+	text = {
+		localization_key = YUN_Bandit_Power_Dangerous
+	}
+}
+
+defined_text = {
+	name = GetYunNPA_Power
+
+	text = {
+		trigger = {
+			check_variable = { YunNPA_Power < 50 }
+		}
+		localization_key = YUN_NPA_Power_Low
+	}
+	text = {
+		trigger = {
+			check_variable = { YunNPA_Power < 70 }
+		}
+		localization_key = YUN_NPA_Power_Medium
+	}
+	text = {
+		trigger = {
+			check_variable = { YunNPA_Power < 90 }
+		}
+		localization_key = YUN_NPA_Power_High
+	}
+	text = {
+		localization_key = YUN_NPA_Power_Dangerous
+	}
+}
+
+defined_text = {
+	name = GetYunNewFacilitiesText
+	text = {
+		trigger = {
+			has_completed_focus = YUN_survey_the_land
+			has_completed_focus = YUN_taming_the_land
+		}
+		localization_key = YUN_new_facilities_mining_construction
+	}
+	text = {
+		trigger = {
+			has_completed_focus = YUN_survey_the_land
+		}
+		localization_key = YUN_new_facilities_mining
+	}
+	text = {
+		trigger = {
+			has_completed_focus = YUN_taming_the_land
+		}
+		localization_key = YUN_new_facilities_construction
+	}
+}
+
+defined_text = {
+	name = Getchina_states_action
+	text = {
+		trigger = { check_variable = { china_states_action_id = 0 } }
+		localization_key = YUN_WI_action_1
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 1 } }
+		localization_key = YUN_WI_action_2
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 2 } }
+		localization_key = YUN_WI_action_3
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 3 } }
+		localization_key = YUN_WI_action_4
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 4 } }
+		localization_key = YUN_WI_action_5
+	}
+}
+
+defined_text = {
+	name = GetWI_action_tooltip
+	text = {
+		trigger = { check_variable = { china_states_action_id = 0 } }
+		localization_key = YUN_WI_action_tt_1
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 1 } }
+		localization_key = YUN_WI_action_tt_2
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 2 } }
+		localization_key = YUN_WI_action_tt_3
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 3 } }
+		localization_key = YUN_WI_action_tt_4
+	}
+	text = {
+		trigger = { check_variable = { china_states_action_id = 4 } }
+		localization_key = YUN_WI_action_tt_5
+	}
+}
+
+defined_text = {
+	name = GetWIStateregion
+	text = {
+		trigger = { check_variable = { WI_open_region = 1 } }
+		localization_key = china_region_1
+	}
+	text = {
+		trigger = { check_variable = { WI_open_region = 2 } }
+		localization_key = china_region_2
+	}
+	text = {
+		trigger = { check_variable = { WI_open_region = 3 } }
+		localization_key = china_region_3
+	}
+	text = {
+		trigger = { check_variable = { WI_open_region = 4 } }
+		localization_key = china_region_4
+	}
+	text = {
+		trigger = { check_variable = { WI_open_region = 5 } }
+		localization_key = china_region_5
+	}
+	text = {
+		trigger = { check_variable = { WI_open_region = 6 } }
+		localization_key = china_region_6
+	}
+	text = {
+		trigger = { check_variable = { WI_open_region = 7 } }
+		localization_key = china_region_7
+	}
+	text = {
+		trigger = { check_variable = { WI_open_region = 8 } }
+		localization_key = china_region_8
+	}
+}
+
+defined_text = {
+	name = GetWI_state_province_name
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = { set_temp_variable = { v = token:china_province_[ID] } }
+				ID = "[?china_state_ref]"
+			}
+		}
+		localization_key = "[?v.GetTokenLocalizedKey]"
+	}
+}
+
+defined_text = {
+	name = GetWI_state_region_name
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = { set_temp_variable = { v = token:china_region_[ID] } }
+				ID = "[?china_region_ref]"
+			}
+		}
+		localization_key = "[?v.GetTokenLocalizedKey]"
+	}
+}
+
+defined_text = {
+	name = GetWIStateStatus
+	text = {
+		trigger = {
+			any_of_scopes = {
+				array = global.greater_china_states
+				check_variable = { china_state_ref = idx }
+				is_controlled_by = ROOT
+			}
+		}
+		localization_key = WI_state_info_controlled
+	}
+	text = {
+		localization_key = "."
+	}
+}
+
+defined_text = {
+	name = GetWI_map_color
+	text = {
+		trigger = {
+			var:capital_city_id = {
+				OR = {
+					controller = { 
+						is_in_faction_with = JAP
+						NOT = { tag = GUX }
+						NOT = { tag = SHX }
+					}
+					controller = { has_war_with = YUN }
+				}
+			}
+		}
+		localization_key = WI_Color_Text_Red
+	}
+	text = {
+		trigger = {
+			var:capital_city_id = {
+				controller = { 
+					OR = {
+						tag = YUN
+						is_in_faction_with = YUN 
+					}
+				}
+			}
+		}
+		localization_key = WI_Color_Text_Green
+	}
+	text = {
+		trigger = {
+			var:capital_city_id = {
+				controller = { tag = YUN }
+				is_core_of = YUN
+			}
+		}
+		localization_key = WI_Color_Text_Blue
+	}
+	text = {
+		localization_key = WI_Color_Text_Grey
+	}
+}
+
+defined_text = {
+	name = GetWI_color
+	text = {
+		trigger = {
+			OR = {
+				controller = { 
+					is_in_faction_with = JAP
+					NOT = { tag = GUX }
+					NOT = { tag = SHX }
+				}
+				controller = { has_war_with = YUN }
+			}
+		}
+		localization_key = WI_Color_Text_Red
+	}
+	text = {
+		trigger = {
+			controller = { 
+				OR = {
+					tag = YUN
+					is_in_faction_with = YUN 
+				}
+			}
+		}
+		localization_key = WI_Color_Text_Green
+	}
+	text = {
+		trigger = {
+			controller = { tag = YUN }
+			is_core_of = YUN
+		}
+		localization_key = WI_Color_Text_Blue
+	}
+	text = {
+		localization_key = WI_Color_Text_Grey
+	}
+}
+
+defined_text = {
+	name = GetWI_map_province_name
+	text = {
+		trigger = {
+			meta_trigger = {
+				text = { set_temp_variable = { v = token:china_province_[ID] } }
+				ID = "[?selected_province]"
+			}
+		}
+		localization_key = "[?v.GetTokenLocalizedKey]"
+	}
+}
+
+defined_text = {
+	name = GetWI_map_city_pic
+	text = {
+		trigger = {
+			check_variable = { selected_province = 0 }
+		}
+		localization_key = "GFX_state_lore_img_85"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 1 }
+		}
+		localization_key = "GFX_state_lore_img_119"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 2 }
+		}
+		localization_key = "GFX_state_lore_img_363"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 3 }
+		}
+		localization_key = "GFX_state_lore_img_132"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 4 }
+		}
+		localization_key = "GFX_state_lore_img_109"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 5 }
+		}
+		localization_key = "GFX_state_lore_img_364"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 6 }
+		}
+		localization_key = "GFX_state_lore_img_365"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 7 }
+		}
+		localization_key = "GFX_state_lore_img_86"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 8 }
+		}
+		localization_key = "GFX_state_lore_img_120"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 9 }
+		}
+		localization_key = "GFX_state_lore_img_106"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 10 }
+		}
+		localization_key = "GFX_state_lore_img_374"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 11 }
+		}
+		localization_key = "GFX_state_lore_img_373"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 12 }
+		}
+		localization_key = "GFX_state_lore_img_128"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 13 }
+		}
+		localization_key = "GFX_state_lore_img_375"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 14 }
+		}
+		localization_key = "GFX_state_lore_img_129"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 15 }
+		}
+		localization_key = "GFX_state_lore_img_126"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 16 }
+		}
+		localization_key = "GFX_state_lore_img_376"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 17 }
+		}
+		localization_key = "GFX_state_lore_img_125"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 18 }
+		}
+		localization_key = "GFX_state_lore_img_384"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 19 }
+		}
+		localization_key = "GFX_state_lore_img_381"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 20 }
+		}
+		localization_key = "GFX_state_lore_img_114"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 21 }
+		}
+		localization_key = "GFX_state_lore_img_387"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 22 }
+		}
+		localization_key = "GFX_state_lore_img_383"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 23 }
+		}
+		localization_key = "GFX_state_lore_img_131"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 24 }
+		}
+		localization_key = "GFX_state_lore_img_366"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 25 }
+		}
+		localization_key = "GFX_state_lore_img_367"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 26 }
+		}
+		localization_key = "GFX_state_lore_img_369"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 27 }
+		}
+		localization_key = "GFX_state_lore_img_124"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 28 }
+		}
+		localization_key = "GFX_state_lore_img_370"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 29 }
+		}
+		localization_key = "GFX_state_lore_img_371"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 30 }
+		}
+		localization_key = "GFX_state_lore_img_372"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 31 }
+		}
+		localization_key = "GFX_state_lore_img_362"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 32 }
+		}
+		localization_key = "GFX_state_lore_img_82"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 33 }
+		}
+		localization_key = "GFX_state_lore_img_127"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 34 }
+		}
+		localization_key = "GFX_state_lore_img_368"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 35 }
+		}
+		localization_key = "GFX_state_lore_img_218"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 36 }
+		}
+		localization_key = "GFX_state_lore_img_413"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 37 }
+		}
+		localization_key = "GFX_state_lore_img_433"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 38 }
+		}
+		localization_key = "GFX_state_lore_img_130"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 39 }
+		}
+		localization_key = "GFX_state_lore_img_385"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 40 }
+		}
+		localization_key = "GFX_state_lore_img_377"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 41 }
+		}
+		localization_key = "GFX_state_lore_img_380"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 42 }
+		}
+		localization_key = "GFX_state_lore_img_382"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 43 }
+		}
+		localization_key = "GFX_state_lore_img_386"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 44 }
+		}
+		localization_key = "GFX_state_lore_img_115"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 45 }
+		}
+		localization_key = "GFX_state_lore_img_112"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 46 }
+		}
+		localization_key = "GFX_state_lore_img_110"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 47 }
+		}
+		localization_key = "GFX_state_lore_img_107"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 48 }
+		}
+		localization_key = "GFX_state_lore_img_335"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 49 }
+		}
+		localization_key = "GFX_state_lore_img_339"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 50 }
+		}
+		localization_key = "GFX_state_lore_img_338"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 51 }
+		}
+		localization_key = "GFX_state_lore_img_121"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 52 }
+		}
+		localization_key = "GFX_state_lore_img_340"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 53 }
+		}
+		localization_key = "GFX_state_lore_img_1003"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 54 }
+		}
+		localization_key = "GFX_state_lore_img_378"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 55 }
+		}
+		localization_key = "GFX_state_lore_img_379"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 56 }
+		}
+		localization_key = "GFX_state_lore_img_334"
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_province = 57 }
+		}
+		localization_key = "GFX_state_lore_img_388"
+	}
+	text = {
+		localization_key = "GFX_terrain_urban"
+	}
+}
+
+defined_text = {
+	name = GetWIMomentumSide1
+	text = {
+		trigger = { check_variable = { global.YUN_WI_war_momentum_check > 50 } }
+		localization_key = "[YUN.GetFlag][YUN.GetName]"
+	}
+	text = {
+		localization_key = "[CHI.GetFlag][CHI.GetName]"
+	}
+}
+
+defined_text = {
+	name = GetWIMomentumSide2
+	text = {
+		trigger = { check_variable = { global.YUN_WI_war_momentum_check > 50 } }
+		localization_key = "[CHI.GetFlag][CHI.GetName]"
+	}
+	text = {
+		localization_key = "[YUN.GetFlag][YUN.GetName]"
+	}
+}
+
+defined_text = {
+	name = GetWIMomentumDebuff1
+	text = {
+		trigger = {
+			check_variable = { global.YUN_WI_war_momentum_check > 50 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+		}
+		localization_key = "[?CHI.WI_momentum_mor|+1%]"
+	}
+	text = {
+		localization_key = "[?YUN.WI_momentum_mor|+1%]"
+	}
+}
+
+defined_text = {
+	name = GetWIMomentumDebuff2
+	text = {
+		trigger = {
+			check_variable = { global.YUN_WI_war_momentum_check > 50 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+		}
+		localization_key = "[?CHI.WI_momentum_atk|+1%]"
+	}
+	text = {
+		localization_key = "[?YUN.WI_momentum_atk|+1%]"
+	}
+}
+
+defined_text = {
+	name = GetWIMomentumDebuff3
+	text = {
+		trigger = {
+			check_variable = { global.YUN_WI_war_momentum_check > 50 }
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+		}
+		localization_key = "[?CHI.WI_momentum_org|+1%]"
+	}
+	text = {
+		localization_key = "[?YUN.WI_momentum_org|+1%]"
+	}
+}
+
+defined_text = {
+	name = GetWIStatus
+	text = {
+		trigger = {
+			NOT = { has_global_flag = YUN_NPA_GAW_Crisis }
+		}
+		localization_key = YUN_WI_momentum_pre_GAW
+	}
+	text = {
+		localization_key = YUN_WI_momentum_GAW
+	}
+}
+
+defined_text = {
+	name = GetWIwarmeasures
+	text = {
+		trigger = {
+			check_variable = { china_states_action_id = 0 }
+		}
+		localization_key = "GFX_greater_china_map_war_measures_0"
+	}
+	text = {
+		trigger = {
+			check_variable = { china_states_action_id = 1 }
+		}
+		localization_key = "GFX_greater_china_map_war_measures_1"
+	}
+	text = {
+		trigger = {
+			check_variable = { china_states_action_id = 2 }
+		}
+		localization_key = "GFX_greater_china_map_war_measures_2"
+	}
+	text = {
+		trigger = {
+			check_variable = { china_states_action_id = 3 }
+		}
+		localization_key = "GFX_greater_china_map_war_measures_3"
+	}
+	text = {
+		trigger = {
+			check_variable = { china_states_action_id = 4 }
+		}
+		localization_key = "GFX_greater_china_map_war_measures_4"
+	}
+}
+
+defined_text = {
+	name = GetWI_provincial_capital_status
+	text = {
+		trigger = {
+			var:china_acted_province = {
+				controller = { tag = YUN }
+			}
+		}
+		localization_key = WI_map_provincial_capital_bonus
+	}
+	text = {
+		localization_key = ""
+	}
+}

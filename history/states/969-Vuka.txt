@@ -1,0 +1,25 @@
+state = {
+	id = 969
+	name = "STATE_969"
+	history = {
+		owner = CRO
+		victory_points = { 11580 7 }
+		victory_points = { 18150 6 }
+		victory_points = { 11577 3 }
+		buildings = {
+			infrastructure = 5
+			barracks = 1
+			offices = 1
+		}
+
+		add_core_of = SER
+		add_core_of = CRO
+		set_state_flag = GDP_category_town
+	}
+	provinces = {
+		11580 11577 18150
+	}
+	manpower = 260226
+	buildings_max_level_factor = 1.000
+	state_category = rural
+}

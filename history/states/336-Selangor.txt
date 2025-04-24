@@ -1,0 +1,38 @@
+state = {
+	id = 336
+	name = "STATE_336"
+	resources = {
+		rubber = 44
+		oil = 26
+	}
+
+	history = {
+		owner = SHO
+		buildings = {
+			infrastructure = 4
+			radar_station = 2
+			10297 = {
+				naval_base = 4
+				coastal_bunker = 3
+			}
+			thermoelectric_plant = 1
+			prisons = 1
+			air_base = 4
+		}
+		victory_points = {
+			10297 5
+		}
+		victory_points = { 14696 15 }
+		add_core_of = SHO
+		add_core_of = MLY
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		4412 10297 19103 14696 19341
+	}
+	manpower = 1180413
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1744
+	name = "STATE_1744"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		add_core_of = VIC
+		buildings = {
+			infrastructure = 3
+			barracks = 1
+		}
+		victory_points = { 12048 5 }
+		victory_points = { 19086 1 }
+	}
+
+	provinces = {
+		7015 12048 19065 19086
+	}
+	manpower = 2084739
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

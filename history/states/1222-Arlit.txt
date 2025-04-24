@@ -1,0 +1,20 @@
+state = {
+	id = 1222
+	name = "STATE_1222"
+
+	history = {
+		owner = AYR
+		add_core_of = AYR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7939 14215 14229 14247
+	}
+	manpower = 26000
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 2476
+	name = "STATE_2476"
+
+	history = {
+		owner = IND
+		victory_points = {
+			18914 3
+		}
+		victory_points = {
+			16100 7
+		}
+		victory_points = {
+			1569 1
+		}
+		buildings = {
+			infrastructure = 3
+			barracks = 2
+			hospitals = 1
+			16100 = {
+				bunker = 3
+			}
+			18914 = {
+				bunker = 3
+			}
+		}
+		add_core_of = IND
+		add_claim_by = AZH
+		set_state_flag = GDP_regions_bihar_ind
+	}
+
+	provinces = {
+		1569 16100 18914
+	}
+	manpower = 4140445
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

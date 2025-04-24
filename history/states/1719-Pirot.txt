@@ -1,0 +1,26 @@
+state = {
+	id = 1719
+	name = "STATE_1719"
+
+	history = {
+		owner = BUL
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			11868 1
+		}
+		add_core_of = BUL
+		add_core_of = SER
+		set_state_flag = GDP_regions_vranje
+		set_state_flag = GDP_category_rural
+	}
+
+	provinces = {
+		11868 11857
+	}
+	manpower = 145785
+	buildings_max_level_factor = 1.000
+	state_category = enclave
+	local_supplies = 0.000
+}

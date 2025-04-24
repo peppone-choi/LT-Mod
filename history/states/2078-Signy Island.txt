@@ -1,0 +1,22 @@
+state = {
+	id = 2078
+	name = "STATE_2078" # Signy Island
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAO
+		add_core_of = AAO
+		add_core_of = AAA
+		add_claim_by = ENG
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17755
+	}
+}

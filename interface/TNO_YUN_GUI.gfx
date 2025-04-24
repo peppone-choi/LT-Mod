@@ -1,0 +1,1365 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_YUN_Xinan_GUI_Power"
+		textureFile1 = "gfx/interface/chi_gui/YUN_Xinan_insurgency_reverse.dds"
+		textureFile2 = "gfx/interface/chi_gui/YUN_Xinan_insurgency_empty.dds"
+		size = { x = 223 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_WI_map_state_integrate"
+		textureFile1 = "gfx/interface/chi_gui/YUN_WI_map_state_integrate.dds"
+		textureFile2 = "gfx/interface/chi_gui/YUN_WI_map_state_empty.dds"
+		size = { x = 190 y = 12 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_WI_map_state_admin"
+		textureFile1 = "gfx/interface/chi_gui/YUN_WI_map_state_admin.dds"
+		textureFile2 = "gfx/interface/chi_gui/YUN_WI_map_state_empty.dds"
+		size = { x = 190 y = 12 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_WI_map_state_mil"
+		textureFile1 = "gfx/interface/chi_gui/YUN_WI_map_state_mil.dds"
+		textureFile2 = "gfx/interface/chi_gui/YUN_WI_map_state_empty.dds"
+		size = { x = 190 y = 12 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_WI_war_momentum"
+		textureFile1 = "gfx/interface/chi_gui/WI_momentum_bar_2.dds"
+		textureFile2 = "gfx/interface/chi_gui/WI_momentum_bar_1.dds"
+		size = { x = 330 y = 37 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_WI_legitimacy"
+		textureFile1 = "gfx/interface/chi_gui/WI_momentum_bar.dds"
+		textureFile2 = "gfx/interface/chi_gui/WI_momentum_bar_empty.dds"
+		size = { x = 37 y = 330 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_WI_war_buff"
+		textureFile1 = "gfx/interface/chi_gui/WI_momentum_bar.dds"
+		textureFile2 = "gfx/interface/chi_gui/WI_momentum_bar_empty.dds"
+		size = { x = 37 y = 330 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	spriteType = {
+		name = "GFX_YUN_insurgency_GUI_NRA"
+		texturefile = "gfx/interface/chi_gui/NRA.dds"
+	}
+	spriteType = {
+		name = "GFX_YUN_insurgency_GUI_CCP"
+		texturefile = "gfx/interface/chi_gui/CCP.dds"
+	}
+	spriteType = {
+		name = "GFX_YUN_insurgency_GUI_Bandits"
+		texturefile = "gfx/interface/chi_gui/Bandits.dds"
+	}
+	spriteType = {
+		name = "GFX_YUN_insurgency_GUI_NPA"
+		texturefile = "gfx/interface/chi_gui/NPA.dds"
+	}
+	spriteType = {
+		name = "GFX_YUN_insurgency_GUI_container"
+		texturefile = "gfx/interface/chi_gui/YUN_Xinan_insurgency_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_YUN_WI_decision_title"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_decision_title.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_momentum_title"
+		texturefile = "gfx/interface/chi_gui/WI_momentum.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_war_info"
+		texturefile = "gfx/interface/chi_gui/WI_war_info.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_WI_map_GUI_entry"
+		texturefile = "gfx/interface/chi_gui/WI_map_GUI_entry.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_YUN_WI_Warlord_GUI_flags"
+		texturefile = "gfx/interface/chi_gui/WI_warlord_flags.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_YUN_WI_Warlord_flag_selected_box"
+		texturefile = "gfx/interface/chi_gui/WI_warlord_flag_selected_box.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_map_title"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_title.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_map_state_status"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_state_status.dds"
+	}
+	spriteType = {
+		name = "GFX_YUN_influence_GUI_Scale"
+		texturefile = "gfx/interface/chi_gui/YUN_influence_GUI_Scale.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_WI_map_state_info"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_state_info.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_map_admin_efficiency"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_admin_efficiency.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_map_militarization_level"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_militarization_level.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_map_coring_state"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_add_core.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_map_occupation_status"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_controller_status.dds"
+	}
+	spriteType = {
+		name = "GFX_WI_map_strategy"
+		texturefile = "gfx/interface/chi_gui/YUN_GUI_strategy.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_greater_china_map_war_measures_0"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_war_measures_0.dds"
+	}
+	spriteType = {
+		name = "GFX_greater_china_map_war_measures_1"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_war_measures_1.dds"
+	}
+	spriteType = {
+		name = "GFX_greater_china_map_war_measures_2"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_war_measures_2.dds"
+	}
+	spriteType = {
+		name = "GFX_greater_china_map_war_measures_3"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_war_measures_3.dds"
+	}
+	spriteType = {
+		name = "GFX_greater_china_map_war_measures_4"
+		texturefile = "gfx/interface/chi_gui/YUN_WI_map_war_measures_4.dds"
+	}
+	spriteType = {
+		name = "GFX_greater_china_provinces_short"
+		texturefile = "gfx/interface/chi_gui/states/greater_china_provinces_short.dds"
+		noOfFrames = 58 
+	}
+	spriteType = {
+		name = "GFX_greater_china_regions_short"
+		texturefile = "gfx/interface/chi_gui/states/greater_china_regions_short.dds"
+		noOfFrames = 8
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_greater_china_map"
+		texturefile = "gfx/interface/chi_gui/states/greater_china_map.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_municipalities"
+		texturefile = "gfx/interface/chi_gui/states/greater_china_municipalities.dds"
+		transparencecheck = yes
+	}
+	#States
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_613"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_613.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_813"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_813.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2326"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2326.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2328"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2328.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_598"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_598.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_596"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_596.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2334"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2334.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_606"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_606.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_595"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_595.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2347"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2347.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_524"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_524.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_608"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_608.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2325"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2325.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_812"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_812.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_614"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_614.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1023"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1023.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1020"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1020.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1022"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1022.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_615"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_615.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_956"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_956.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2413"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2413.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1538"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1538.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_603"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_603.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_599"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_599.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_605"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_605.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_325"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_325.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2374"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2374.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_765"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_765.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2359"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2359.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1016"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1016.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1019"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1019.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2345"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2345.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2353"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2353.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_602"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_602.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2354"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2354.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1015"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1015.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1014"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1014.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1439"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1439.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_591"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_591.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_592"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_592.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1302"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1302.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_764"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_764.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_906"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_906.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_617"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_617.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_1265"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_1265.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_328"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_328.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_801"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_801.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_810"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_810.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_716"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_716.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_717"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_717.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_714"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_714.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_809"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_809.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_409"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_409.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_537"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_537.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_612"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_612.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_2408"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_2408.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_610"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_610.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_overlay_330"
+		texturefile = "gfx/interface/chi_gui/states/state_overlay/state_330.dds"
+		transparencecheck = yes
+	}
+
+	#States Fill
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_613"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_613.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 46 y = 77 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_813"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_813.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 55 y = 69 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2326"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2326.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 35 y = 33 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2328"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2328.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 52 y = 52 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_598"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_598.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 77 y = 43 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_596"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_596.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 50 y = 33 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2334"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2334.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 53 y = 39 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_606"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_606.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 57 y = 56 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_595"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_595.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 59 y = 45 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2347"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2347.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 51 y = 46 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_524"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_524.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 38 y = 50 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	# Huabei
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_608"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_608.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 38 y = 41 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2325"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2325.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 38 y = 37 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_812"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_812.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 64 y = 61 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_614"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_614.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 84 y = 42 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1023"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1023.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 84 y = 63 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1020"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1020.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 56 y = 59 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1022"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1022.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 73 y = 54 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_615"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_615.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 56 y = 87 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_956"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_956.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 69 y = 103 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2413"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2413.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 89 y = 48 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	# Xinan
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1538"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1538.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 25 y = 29 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_603"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_603.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 106 y = 77 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_599"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_599.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 113 y = 91 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_605"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_605.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 87 y = 99 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_325"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_325.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 157 y = 115 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2374"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2374.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 97 y = 108 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_765"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_765.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 289 y = 157 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2359"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2359.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 58 y = 60 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	#Zhongnan
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1016"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1016.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 48 y = 50 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1019"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1019.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 67 y = 42 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2345"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2345.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 45 y = 55 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2353"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2353.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 81 y = 54 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_602"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_602.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 52 y = 55 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2354"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2354.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 46 y = 41 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1015"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1015.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 69 y = 39 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1014"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1014.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 87 y = 30 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1439"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1439.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 90 y = 61 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_591"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_591.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 34 y = 28 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_592"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_592.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 44 y = 40 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	# Xibei
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1302"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1302.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 91 y = 134 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_764"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_764.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 184 y = 97 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_906"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_906.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 192 y = 109 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_617"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_617.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 357 y = 262 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	# Dongbei
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_1265"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_1265.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 33 y = 29 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_328"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_328.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 37 y = 40 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_801"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_801.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 39 y = 30 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_810"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_810.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 36 y = 29 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_716"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_716.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 126 y = 102 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_717"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_717.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 161 y = 114 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_714"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_714.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 217 y = 176 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_809"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_809.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 149 y = 192 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_409"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_409.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 224 y = 143 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_537"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_537.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 44 y = 160 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	# Saibei
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_612"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_612.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 131 y = 133 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_2408"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_2408.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 136 y = 104 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_610"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_610.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 113 y = 128 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+	progressbartype = {
+		name = "GFX_greater_china_state_fill_330"
+		textureFile1 = "gfx/interface/chi_gui/states/state_fill/state_330.dds"
+		textureFile2 = "gfx/interface/chi_gui/states/colors.dds"
+		color = { 1 0.06 0 0 }
+		size = { x = 436 y = 212 }
+		steps = 10000
+		effectFile = "gfx/FX/map_fill_palette.shader"
+	}
+
+	#########
+	#Outlines#
+	spriteType = {
+		name = "GFX_greater_china_state_outline_613"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_613.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_813"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_813.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2326"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2326.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2328"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2328.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_598"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_598.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_596"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_596.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2334"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2334.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_606"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_606.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_595"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_595.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2347"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2347.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_524"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_524.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	# Huabei
+	spriteType = {
+		name = "GFX_greater_china_state_outline_608"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_608.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2325"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2325.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_812"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_812.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_614"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_614.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1023"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1023.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1020"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1020.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1022"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1022.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_615"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_615.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_956"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_956.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2413"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2413.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	# Xinan
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1538"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1538.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_603"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_603.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_599"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_599.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_605"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_605.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_325"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_325.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2374"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2374.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_765"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_765.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2359"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2359.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	# Zhongnan
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1016"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1016.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1019"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1019.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2345"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2345.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2353"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2353.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_602"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_602.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2354"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2354.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1015"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1015.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1014"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1014.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1439"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1439.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_591"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_591.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_592"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_592.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	# Xibei
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1302"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1302.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_764"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_764.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_906"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_906.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_617"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_617.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	# Dongbei
+	spriteType = {
+		name = "GFX_greater_china_state_outline_1265"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_1265.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_328"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_328.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_801"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_801.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_810"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_810.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_716"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_716.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_717"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_717.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_714"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_714.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_809"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_809.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_409"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_409.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_537"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_537.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	# Saibei
+	spriteType = {
+		name = "GFX_greater_china_state_outline_612"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_612.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_2408"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_2408.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_610"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_610.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+	spriteType = {
+		name = "GFX_greater_china_state_outline_330"
+		texturefile = "gfx/interface/chi_gui/states/state_outline/state_330.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/china_state_outlines.lua"
+	}
+}
+

@@ -1,0 +1,36 @@
+state = {
+	id = 972
+	name = "STATE_972"
+	resources = {
+		oil = 22
+		uranium = 2
+		steel = 2
+	}
+
+	history = {
+		owner = PER
+		victory_points = {
+			7982 3
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			schools = 1
+			radar_station = 1
+			dockyard = 2
+			7982 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = PER
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		4959 7982 13589 13590 13591 13600 15138 18705 18709 18714 18748
+	}
+	manpower = 346410
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

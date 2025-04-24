@@ -1,0 +1,20 @@
+state = {
+	id = 2073
+	name = "STATE_2073" # Galindez Island
+	manpower = 1
+
+	state_category = wasteland
+
+	history = {
+		owner = AAA
+		add_core_of = AAA
+		add_claim_by = ENG
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17689
+	}
+}

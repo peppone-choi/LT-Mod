@@ -1,0 +1,34 @@
+state = {
+	id = 661
+	name = "STATE_661"
+	resources = {
+		oil = 8.000
+		power = 4.000
+	}
+
+	history = {
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = LBA
+		victory_points = {
+			1189 3
+		}
+		victory_points = {
+			17979 2
+		}
+		victory_points = {
+			12039 1
+		}
+		set_state_flag = GDP_regions_libya
+	}
+
+	provinces = {
+		1189 4051 4117 4962 7154 10037 10067 10884 11940 12039 14401 14403 17966 17968 17970 17976 17977 17979
+	}
+	manpower = 368022
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

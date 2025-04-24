@@ -1,0 +1,33 @@
+state = {
+	id = 2380
+	name = "STATE_2380"
+	resources = {
+		oil = 2.000
+		rubber = 44.000
+		chromium = 4.000
+	}
+
+	history = {
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			19780 1
+		}
+		victory_points = {
+			19737 4
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		set_variable = { china_state_ref = 20 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		1383 5009 8680 10413 10776 12262 19737 19780
+	}
+	manpower = 1404074
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

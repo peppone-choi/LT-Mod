@@ -1,0 +1,31 @@
+state = {
+	id = 1077
+	name = "STATE_1077"
+	resources = {
+		uranium = 4.000
+	}
+
+	history = {
+		owner = GRO
+		add_core_of = GRO
+		buildings = {
+			offices = 1
+			infrastructure = 2
+			synthetic_refinery = 1
+		}
+		victory_points = {
+			13823 1
+		}
+		victory_points = {
+			13843 1
+		}
+	}
+
+	provinces = {
+		8201 10845 13819 13823 13843 17864
+	}
+	manpower = 443544
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

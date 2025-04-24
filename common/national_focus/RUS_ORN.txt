@@ -1,0 +1,150 @@
+focus_tree = {
+    id = ORN_first_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = ORN
+        }
+    }
+
+    default = no
+
+
+focus = {
+        id = ORN_focus_1 #오르스크 괴물의 침입
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = ORN_focus_2 #군대개혁 논쟁
+        prerequisite = {focus = ORN_focus_1}
+        x = 0
+        y = 1
+    }
+
+
+    focus = {
+        id = ORN_focus_3
+        prerequisite = {focus = ORN_focus_2}
+        x = 0
+        y = 2
+    }
+
+
+    focus = {
+        id = ORN_focus_4 #붉은 군대의 규율
+        prerequisite = {focus = ORN_focus_3}
+        mutually_exclusive = {focus = ORN_focus_5}
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = ORN_focus_5 #군대의 민주화
+        prerequisite = {focus = ORN_focus_3}
+        mutually_exclusive = {focus = ORN_focus_4}
+        x = 1
+        y = 3
+    }
+
+    focus = {
+        id = ORN_focus_6 #평의회 개혁 논쟁
+        prerequisite = {focus = ORN_focus_4 focus = ORN_focus_5}
+        x = 0
+        y = 4
+    }
+
+
+    focus = {
+        id = ORN_focus_7 #평의회 체재 개편
+        prerequisite = {focus = ORN_focus_6}
+        mutually_exclusive = {focus = ORN_focus_8}
+        x = 0
+        y = 5
+    }
+
+
+    focus = {
+        id = ORN_focus_8 #남우랄 평의회의 끝
+        prerequisite = {focus = ORN_focus_6}
+        mutually_exclusive = {focus = ORN_focus_7}
+        x = 1
+        y = 5
+    }
+
+    focus = {
+        id = ORN_focus_9 #콜호즈의 완전한 헤제
+        prerequisite = {focus = ORN_focus_7}
+        x = 0
+        y = 6
+    }
+
+    focus = {
+        id = ORN_focus_10 #카시린 공단 축조
+        prerequisite = {focus = ORN_focus_9}
+        x = 0
+        y = 7
+    }
+
+     focus = {
+        id = ORN_focus_11 #남우랄 삼자동맹 구축
+        prerequisite = {focus = ORN_focus_10}
+        x = 0
+        y = 8
+    }
+
+     focus = {
+        id = ORN_focus_12 #우랄 군정청의 끝
+        prerequisite = {focus = ORN_focus_11}
+        x = 0
+        y = 9
+    }
+
+    focus = {
+        id = ORN_focus_13 #북방의 붉은 군대
+        prerequisite = {focus = ORN_focus_12}
+        x = 0
+        y = 9
+    allow_branch = { has_country_flag = ORN}
+    }
+    
+    focus = {
+        id = ORN_focus_14 #집단농장 철저화
+        prerequisite = {focus = ORN_focus_8}
+        x = 1
+        y = 6
+    }
+
+    focus = {
+        id = ORN_focus_15 #우랄 5개년 계획
+        prerequisite = {focus = ORN_focus_14}
+        x = 1
+        y = 7
+    } 
+
+    focus = {
+        id = ORN_focus_16 #남우랄 통합 계획
+        prerequisite = {focus = ORN_focus_16}
+        x = 1
+        y = 8
+    }
+
+   focus = {
+        id = ORN_focus_17 #슈바벤 도적의 끝
+        prerequisite = {focus = ORN_focus_16}
+        x = 1
+        y = 9
+    }
+
+     focus = {
+        id = ORN_focus_18 #붉은 나폴레옹의 접촉
+        prerequisite = {focus = ORN_focus_17}
+        x = 0
+        y = 10
+    allow_branch = { has_country_flag = ORN}
+    }
+}

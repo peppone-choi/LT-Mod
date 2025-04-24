@@ -1,0 +1,31 @@
+state = {
+	id = 250
+	name = "STATE_250"
+
+	history = {
+		owner = MCW
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+		}
+		victory_points = {
+			6226 1
+		}
+		victory_points = {
+			392 10
+		}
+		add_core_of = SAM
+		add_core_of = MCW
+		add_claim_by = GOR
+		add_claim_by = MCW
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		286 345 392 3196 3197 3246 3269 3276 3334 3372 6226 6294 6302 6337 6394 9338 11373 18280
+	}
+	manpower = 277000
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

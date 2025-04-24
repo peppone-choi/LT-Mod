@@ -1,0 +1,36 @@
+state = {
+	id = 174
+	name = "STATE_174"
+	resources = {
+		tungsten = 9.000
+	}
+
+	history = {
+		owner = SPA
+		victory_points = {
+			726 7
+		}
+		victory_points = {
+			11843 3
+		}
+		victory_points = {
+			918 4
+		}
+		victory_points = {
+			3918 1
+		}
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SPA
+		set_state_flag = GDP_category_large_town
+	}
+
+	provinces = {
+		726 918 920 3725 3727 3918 3920 6746 6907 9699 11843 15521
+	}
+	manpower = 905217
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

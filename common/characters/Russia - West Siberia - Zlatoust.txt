@@ -1,0 +1,105 @@
+characters = {
+	# Leaders
+	ZLT_Yevgeny_Dragunov = {
+		name = ZLT_Yevgeny_Dragunov
+		portraits = { civilian = { large = "gfx/leaders/ZLT/Portrait_Zlatoust_Yevgeny_Dragunov.dds" } }
+		country_leader = {
+			desc = "POLITICS_YEVGENY_DRAGUNOV_DESC"
+			expire = "1999.1.1.1"
+			ideology = liberal_conservatism_market_liberalism_subtype
+			traits = { the_merchant_of_death }
+			id = -1
+		}
+	}
+
+	# Ministers
+	ZLT_Mikhail_Kalashnikov = {
+		name = ZLT_Mikhail_Kalashnikov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZLT/Portrait_Zlatoust_Mikhail_Kalashnikov.dds"
+				small = "GFX_idea_ZLT_minister_Mikhail_Kalashnikov"
+			}
+			army = {
+				large = "gfx/leaders/ZLT/Portrait_Zlatoust_Mikhail_Kalashnikov.dds"
+				small = "GFX_idea_ZLT_minister_Mikhail_Kalashnikov"
+			}
+		}
+		field_marshal = {
+			traits = { politically_connected media_personality organisational_leader trait_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 3545
+		}
+
+		advisor = {
+			slot = head_of_government
+			idea_token = ZLT_Mikhail_Kalashnikov_hog
+			allowed = { original_tag = ZLT }
+			traits = {
+				head_of_government
+				hog_corporate_suit
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ZLT_Alexander_Yakovlev = {
+		name = ZLT_Alexander_Yakovlev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZLT/Portrait_ZLT_Alexander_Yakovlev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ZLT_Alexander_Yakovlev_pol
+			allowed = { original_tag = ZLT }
+			traits = { }
+		}
+	}
+
+	ZLT_Frol_Kozlov = {
+		name = ZLT_Frol_Kozlov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZLT/Portrait_ZLT_Frol_Kozlov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ZLT_Frol_Kozlov_pol
+			allowed = { original_tag = ZLT }
+			traits = { }
+		}
+	}
+
+	ZLT_Luka_Ernov = {
+		name = ZLT_Luka_Ernov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZLT/Portrait_ZLT_Luka_Ernov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ZLT_Luka_Ernov_pol
+			allowed = { original_tag = ZLT }
+			traits = { }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

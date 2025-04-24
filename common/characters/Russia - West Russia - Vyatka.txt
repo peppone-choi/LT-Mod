@@ -1,0 +1,424 @@
+# S nami Bog!
+characters = {
+
+	VYT_Viktor_Chernov = {
+		name = VYT_Viktor_Chernov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_Vyatka_Viktor_Chernov.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_VICTOR_CHERNOV_DESC"
+			ideology = socialist_social_democracy_subtype
+			traits = {  }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_VICTOR_CHERNOV_DESC"
+			ideology = communist_left_communist_subtype
+			traits = {  }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_VICTOR_CHERNOV_DESC"
+			ideology = progressivism_utopian_socialism_subtype
+			traits = {  }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	VYT_Alexander_Shliapnikov = {
+		name = VYT_Alexander_Shliapnikov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Alexander_Shliapnikov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Alexander_Shliapnikov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Alexander_Kazembeg = {
+		name = VYT_Alexander_Kazembeg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Alexander_Kazembeg.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Alexander_Kazembeg_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Maria_Spiridonova = {
+		name = VYT_Maria_Spiridonova
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Maria_Spiridonova.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Maria_Spiridonova_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Nikolai_Valentinov = {
+		name = VYT_Nikolai_Valentinov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Nikolai_Valentinov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Nikolai_Valentinov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Alexander_Bogdanov = {
+		name = VYT_Alexander_Bogdanov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Alexander_Bogdanov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Alexander_Bogdanov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Boris_Avilov = {
+		name = VYT_Boris_Avilov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Boris_Avilov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Boris_Avilov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Konstantin_Yurenev = {
+		name = VYT_Konstantin_Yurenev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Konstantin_Yurenev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Konstantin_Yurenev_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Sergey_Medvedev = {
+		name = VYT_Sergey_Medvedev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Sergey_Medvedev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Sergey_Medvedev_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Vladimir_Nevsky = {
+		name = VYT_Vladimir_Nevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Vladimir_Nevsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Vladimir_Nevsky_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Yuri_Lutovinov = {
+		name = VYT_Yuri_Lutovinov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Yuri_Lutovinov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Yuri_Lutividov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Yakov_Dedusenko = {
+		name = VYT_Yakov_Dedusenko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Yakov_Dedusenko.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Yakov_Dedusenko_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Alexei_Kiselyov = {
+		name = VYT_Alexei_Kiselyov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Alexei_Kiselyov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Alexei_Kiselyov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Irakli_Tsereteli = {
+		name = VYT_Irakli_Tsereteli
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Irakli_Tsereteli.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Irakli_Tsereteli_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Vladimir_Zenzinov = {
+		name = VYT_Vladimir_Zenzinov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Vladimir_Zenzinov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Vladimir_Zenzinov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Sergey_Melgunov = {
+		name = VYT_Sergey_Melgunov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Sergey_Melgunov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Sergey_Melgunov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Vladimir_Cherbaum = {
+		name = VYT_Vladimir_Cherbaum
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Vladimir_Cherbaum.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Vladimir_Cherbaum_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Sergey_Maslov = {
+		name = VYT_Sergey_Maslov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Sergey_Maslov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Sergey_Maslov_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	VYT_Alexandra_Kollontai = {
+		name = VYT_Alexandra_Kollontai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Alexandra_Kollontai.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = VYT_Alexandra_Kollontai_pol
+			allowed = { original_tag = VYT }
+			traits = { }
+		}
+	}
+
+	# VYT Marshals
+	VYT_Fyodor_Stepun = {
+		name = VYT_Fyodor_Stepun
+		portraits = {
+			army = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Fyodor_Stepun.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VYT_Vladimir_Marushevsky = {
+		name = VYT_Vladimir_Marushevsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Vladimir_Marushevsky.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VYT_Alexander_Gerua = {
+		name = VYT_Alexander_Gerua
+		portraits = {
+			army = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Alexander_Gerua.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	# VYT Generals
+	VYT_Sergey_Medvedev = {
+		name = VYT_Sergey_Medvedev
+		portraits = {
+			army = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Sergey_Medvedev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VYT_Vladimir_Nevsky = {
+		name = VYT_Vladimir_Nevsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Vladimir_Nevsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VYT_Konstantin_Yurenev = {
+		name = VYT_Konstantin_Yurenev
+		portraits = {
+			army = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Konstantin_Yurenev.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	VYT_Nikolai_Ivanov = {
+		name = VYT_Nikolai_Ivanov
+		portraits = {
+			army = {
+				large = "gfx/leaders/VYT/Portrait_VYT_Nikolai_Ivanov.dds"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+}

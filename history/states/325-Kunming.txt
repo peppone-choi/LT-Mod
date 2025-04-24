@@ -1,0 +1,43 @@
+state = {
+	id = 325
+	name = "STATE_325"
+	resources = {
+		steel = 6.000
+		aluminium = 16.000
+		rubber = 8.000
+		tungsten = 8.000
+	}
+
+	history = {
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			7446 31
+		}
+		victory_points = {
+			19533 2
+		}
+		victory_points = {
+			19558 1
+		}
+		buildings = {
+			air_base = 2
+			barracks = 1
+			offices = 1
+			schools = 2
+			infrastructure = 4
+			thermoelectric_plant = 1
+		}
+		set_state_flag = state_category_city
+		set_variable = { china_state_ref = 20 }
+		set_variable = { china_region_ref = 2 }
+	}
+
+	provinces = {
+		5756 7446 19533 19558
+	}
+	manpower = 2542453
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
+}

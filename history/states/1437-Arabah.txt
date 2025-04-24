@@ -1,0 +1,25 @@
+state = {
+	id = 1437
+	name = "STATE_1437"
+
+	resources = {
+		steel = 2
+	}
+
+	manpower = 1520
+	state_category = wasteland
+
+	history = {
+		owner = IME
+		add_core_of = IME
+		victory_points = { 14452 1 }
+		buildings = {
+			infrastructure = 1
+		}
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		14456 1015 14452
+	}
+}

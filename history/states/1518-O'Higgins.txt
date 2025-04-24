@@ -1,0 +1,29 @@
+state = {
+	id = 1518
+	name = "STATE_1518"
+
+	history = {
+		owner = CHL
+		buildings = {
+			thermoelectric_plant = 1
+			schools = 1
+			offices = 1
+			infrastructure = 4
+		}
+		add_core_of = CHL
+		victory_points = {
+			14834 5
+		}
+		victory_points = {
+			17521 2
+		}
+	}
+
+	provinces = {
+		14831 14832 14834 17519 17521
+	}
+	manpower = 301566
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

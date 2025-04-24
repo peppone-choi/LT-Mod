@@ -1,0 +1,22 @@
+state = {
+	id = 1270
+	name = "STATE_1270"
+	history = {
+		owner = BUL
+		victory_points = { 9771 3 }
+		victory_points = { 965 3 }
+		buildings = {
+			thermoelectric_plant = 1
+			infrastructure = 5
+			barracks = 1
+		}
+		add_core_of = BUL
+	}
+
+	provinces = {
+		793 965 9771 11754
+	}
+	manpower = 713295
+	buildings_max_level_factor = 1.000
+	state_category = town
+}

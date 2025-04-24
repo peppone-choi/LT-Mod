@@ -1,0 +1,25 @@
+state = { #Population + VPs Done
+	id = 721
+	name = "STATE_721"
+	manpower = 483161
+
+	state_category = pastoral
+
+	history = {
+		owner = INS
+		buildings = {
+			infrastructure = 3
+			radar_station = 2
+			air_base = 1
+			12190 = {
+				naval_base = 4
+			}
+		}
+		victory_points = { 12190 1 }
+		set_state_flag = GDP_regions_nusa_tenggara
+	}
+
+	provinces = {
+		1326 12178 12190 13001
+	}
+}

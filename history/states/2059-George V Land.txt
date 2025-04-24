@@ -1,0 +1,20 @@
+state = {
+	id = 2059
+	name = "STATE_2059" # George V Land
+	manpower = 1
+
+	state_category = wasteland
+
+	impassable = yes
+
+	history = {
+		owner = AAN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces = {
+		17684 16411 17562 17706 17644 17771 17563 17682 17584 17609 17645 17648 17580 17623 17764 17701 16435 16432
+	}
+}

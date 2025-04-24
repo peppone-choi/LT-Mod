@@ -1,0 +1,24 @@
+state = {
+	id = 1652
+	name = "STATE_1652"
+
+	history = {
+		owner = CLL
+		add_core_of = COL
+		add_core_of = CLC
+		add_core_of = CLL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 15311 1 }
+		set_state_flag = universal_renamings
+	}
+
+	provinces = {
+		15310 15311 15630 17337
+	}
+	manpower = 9734
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

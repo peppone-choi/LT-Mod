@@ -1,0 +1,21 @@
+state = {
+	id = 2093
+	name = "STATE_2093"
+	manpower = 30
+	state_category = small_island
+
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+			infrastructure = 0
+			16458 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		16458
+	}
+}

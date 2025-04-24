@@ -1,0 +1,40 @@
+scripted_gui = {
+
+	Antarctica_GUI_Flags_Open = {
+		context_type = player_context
+		parent_window_name = "MapmodesInterface_Ingame"
+		window_name = "Antarctica_GUI_Flags_Open"
+
+		visible = {
+			is_Antarctic_nation = yes
+			is_debug = yes
+		}
+		
+		effects = {
+			Antarctica_GUI_Flags_Open_Button_click = {
+				if = {
+					limit = { check_variable = { Antarctica_GUI_Flags_visible = 0 } }
+					set_variable = { Antarctica_GUI_Flags_visible = 1 }
+				}
+				else = {
+					set_variable = { Antarctica_GUI_Flags_visible = 0 }
+				}
+			}
+		}
+	}
+	
+	Antarctica_GUI_Flags = {
+		context_type = player_context
+		window_name = "Antarctica_GUI_Flags"
+
+		visible = {
+			check_variable = { Antarctica_GUI_Flags_visible = 1 }
+		}
+		
+		effects = {
+			Antarctica_GUI_Flags_Close_Button_click = {
+				set_variable = { Antarctica_GUI_Flags_visible = 0 }
+			}
+		}
+	}
+}

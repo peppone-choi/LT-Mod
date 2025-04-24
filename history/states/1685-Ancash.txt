@@ -1,0 +1,23 @@
+state = {
+	id = 1685
+	name = "STATE_1685"
+
+	history = {
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRU
+		victory_points = {
+			17452 2
+		}
+	}
+
+	provinces = {
+		5190 15472 15475 17448 17452
+	}
+	manpower = 609330
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

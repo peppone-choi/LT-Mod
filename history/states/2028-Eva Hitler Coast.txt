@@ -1,0 +1,33 @@
+state = {
+	id = 2028
+	name = "STATE_2028"
+
+	history = {
+		owner = AAG
+		add_core_of = AAG
+		add_core_of = AAV
+		victory_points = {
+			17794 1
+		}
+		victory_points = {
+			17807 1
+		}
+		victory_points = {
+			17810 1
+		}
+		buildings = {
+			infrastructure = 0
+			17810 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		16448 17655 17690 17807 17810
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+	local_supplies = 0.000
+}

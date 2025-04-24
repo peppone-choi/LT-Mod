@@ -1,0 +1,43 @@
+state = {
+	id = 2469
+	name = "STATE_2469"
+
+	resources = {
+		steel = 4
+	}
+
+	history = {
+		owner = CAN
+		buildings = {
+			thermoelectric_plant = 1
+			schools = 3
+			hospitals = 2
+			offices = 2
+			infrastructure = 8
+		}
+		add_core_of = CAN
+		victory_points = { # Toronto
+			3775 30
+		}
+		victory_points = { # Hamilton
+			749 15
+		}
+		victory_points = { # Mississauga
+			3763 10
+		}
+		victory_points = { # Oshawa
+			6797 7
+		}
+		set_state_flag = GDP_regions_ontario
+		set_state_flag = GDP_category_city
+	}
+
+
+	provinces = {
+		749 3763 3775 6797 9583 11695 17283
+	}
+	manpower = 2858941
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
+	local_supplies = 0.000
+}

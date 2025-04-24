@@ -1,0 +1,213 @@
+characters = {
+	# Country leaders #
+	MGN_Trofim_Lysenko = {
+		name = MGN_Trofim_Lysenko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_Magnitogorsk_Trofim_Lysenko.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_TROFIM_LYSENKO_DESC"
+			expire = "1999.1.1"
+			ideology = despotism_civilian_dictatorship_subtype
+			id = -1
+		}
+	}
+	# All generals happened to be advisors lolhd
+	MGN_Nikolai_Vavilov = {
+		name = MGN_Nikolai_Vavilov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Nikolai_Vavilov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Nikolai_Vavilov_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Dmitry_Belyaev = {
+		name = MGN_Dmitry_Belyaev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Dmitry_Belyaev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Dmitry_Belyaev_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Nikolai_Timofeev-Resovsky = {
+		name = MGN_Nikolai_Timofeev-Resovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Nikolai_Timofeev-Resovsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Nikolai_Timofeev-Resovsky_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Alexander_Uspensky = {
+		name = MGN_Alexander_Uspensky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Alexander_Uspensky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Alexander_Uspensky_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Irakli_Siniagin = {
+		name = MGN_Irakli_Siniagin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Irakli_Siniagin.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Irakli_Siniagin_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Pyotr_Kapitsa = {
+		name = MGN_Pyotr_Kapitsa
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Pyotr_Kapitsa.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Pyotr_Kapitsa_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Georgy_Flyorov = {
+		name = MGN_Georgy_Flyorov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Georgy_Flyorov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Georgy_Flyorov_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Boris_Hessen = {
+		name = MGN_Boris_Hessen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Boris_Hessen.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Boris_Hessen_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Andrei_Sakharov = {
+		name = MGN_Andrei_Sakharov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Andrei_Sakharov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Andrei_Sakharov_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Andrei_Tupolev = {
+		name = MGN_Andrei_Tupolev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Andrei_Tupolev.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Andrei_Tupolev_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Vladimir_Petlyakov = {
+		name = MGN_Vladimir_Petlyakov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Vladimir_Petlyakov.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Vladimir_Petlyakov_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	MGN_Lev_Gatovsky = {
+		name = MGN_Lev_Gatovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Lev_Gatovsky.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MGN_Lev_Gatovsky_pol
+			allowed = { original_tag = MGN }
+			traits = { }
+		}
+	}
+
+	# MGN Air Chief of Staff
+	MGN_Semyon_Labotsky = {
+		name = MGN_Semyon_Labotsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MGN/Portrait_MGN_Semyon_Labotsky.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = MGN_Semyon_Labotsky_air
+			allowed = { original_tag = MGN }
+			traits = { air_offense }
+		}
+	}
+}

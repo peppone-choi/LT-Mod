@@ -1,0 +1,243 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Antarctica_GUI_AAO_CIA"
+		position = { x = 0 y = 0 }
+		size = { width = 0 height = 850 }
+		
+		instantTextboxType = {
+			name = "Antarctica_GUI_AAO_CIA_Info_Text"
+			position = { x = 20 y = 10 }
+			font = "aldrich_18_outline"
+			text = Antarctica_GUI_AAO_CIA_Info_Text
+			maxWidth = 452
+			format = left
+		}
+		
+		containerWindowType = {
+			name = "Antarctica_GUI_AAO_CIA_movement"
+			position = { x = 0 y = 250 }
+			size = { width = 0 height = 0 }
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_War_Title"
+				position = { x = 20 y = -50 }
+				font = "aldrich_32_outline"
+				text = Antarctica_GUI_AAO_CIA_War_Title
+				maxWidth = 462
+				format = center
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Swap_Left_Arrow"
+				spriteType = "GFX_production_line_arrow_left"
+				position = { x = 20 y = -48 }
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Swap_Right_Arrow"
+				spriteType = "GFX_production_line_arrow_left"
+				position = { x = 452 y = -48 }
+				rotation = 3.141592
+			}
+			
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Grid_BG"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Grid"
+				position = { x = 144 y = 3 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Planning_Phase_Title"
+				position = { x = 20 y = 79 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAO_CIA_Planning_Phase_Text
+				maxWidth = 124
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Planning_Phase_Text1"
+				position = { x = 144 y = 3 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Planning_Phase_Text1
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Planning_Phase_Image1"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 144 y = 83 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Planning_Phase_Text2"
+				position = { x = 263 y = 3 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Planning_Phase_Text2
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Planning_Phase_Image2"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 263 y = 83 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Planning_Phase_Text3"
+				position = { x = 382 y = 3 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Planning_Phase_Text3
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Planning_Phase_Image3"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 382 y = 83 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Execution_Phase_Title"
+				position = { x = 20 y = 279 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAO_CIA_Execution_Phase_Text
+				maxWidth = 124
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Execution_Phase_Text1"
+				position = { x = 144 y = 202 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Execution_Phase_Text1
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Execution_Phase_Image1"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 144 y = 282 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Execution_Phase_Text2"
+				position = { x = 263 y = 202 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Execution_Phase_Text2
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Execution_Phase_Image2"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 263 y = 282 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Execution_Phase_Text3"
+				position = { x = 382 y = 202 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Execution_Phase_Text3
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Execution_Phase_Image3"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 382 y = 282 }
+			}
+			
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Conclusion_Phase_Title"
+				position = { x = 20 y = 479 }
+				font = "aldrich_24_outline"
+				text = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text
+				maxWidth = 124
+				format = center
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1"
+				position = { x = 144 y = 401 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text1
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image1"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 144 y = 481 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2"
+				position = { x = 263 y = 401 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text2
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image2"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 263 y = 481 }
+			}
+			instantTextboxType = {
+				name = "Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3"
+				position = { x = 382 y = 401 }
+				font = "aldrich_18_outline"
+				text = Antarctica_GUI_AAO_CIA_Conclusion_Phase_Text3
+				maxWidth = 119
+				maxHeight = 80
+				format = center
+				fixedSize = yes
+				vertical_alignment = center
+			}
+			iconType = {
+				name = "Antarctica_GUI_AAO_CIA_Conclusion_Phase_Image3"
+				spriteType = "GFX_Antarctica_GUI_AAO_CIA_Image1"
+				position = { x = 382 y = 481 }
+			}
+			
+#			instantTextboxType = {
+#				name = "Antarctica_GUI_AAO_CIA_Operation_Secrecy_Title"
+#				position = { x = 35 y = 609 }
+#				font = "aldrich_28_outline"
+#				text = Antarctica_GUI_AAO_CIA_Operation_Secrecy_Title
+#				maxWidth = 452
+#				format = center
+#			}
+#			iconType = {
+#				name = "Antarctica_GUI_AAO_CIA_Operation_Secrecy_Bar"
+#				spriteType = "GFX_Antarctica_GUI_AAA_Progressbar_Secrecy"
+#				position = { x = 35 y = 648 }
+#			}
+#			instantTextboxType = {
+#				name = "Antarctica_GUI_AAO_CIA_Operation_Secrecy_Level"
+#				position = { x = 35 y = 690 }
+#				font = "aldrich_24_outline"
+#				text = Antarctica_GUI_AAO_CIA_Operation_Secrecy_Level
+#				maxWidth = 452
+#				format = center
+#			}
+		}
+	}
+}

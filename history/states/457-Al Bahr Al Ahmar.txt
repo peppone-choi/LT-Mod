@@ -1,0 +1,26 @@
+state = {
+	id = 457
+	name = "STATE_457"
+	resources = {
+		uranium = 2.000
+	}
+
+	history = {
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+			12002 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = EGY
+	}
+
+	provinces = {
+		1080 1151 4143 7030 7188 9957 10028 10126 12002 12004 15779 15780 15781 15801
+	}
+	manpower = 58832
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

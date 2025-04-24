@@ -1,0 +1,32 @@
+state = {
+	id = 1993
+	name = "STATE_1993"
+	resources = {
+		oil = 26.000
+	}
+
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRQ
+		victory_points = {
+			15760 2
+		}
+		victory_points = {
+			8123 7
+		}
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		8123 8478 15756 15760 16320 18453 18475 16293 16295
+	}
+	manpower = 491934
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 2510
+	name = "STATE_2510"
+	manpower = 700
+	state_category = tiny_island
+
+	history = {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+			infrastructure = 2
+			19977 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		19977
+	}
+}

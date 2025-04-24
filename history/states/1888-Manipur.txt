@@ -1,0 +1,30 @@
+state = {
+	id = 1888
+	name = "STATE_1888"
+	resources = {
+		rubber = 4.000
+	}
+
+	history = {
+		owner = AZH
+		victory_points = {
+			16127 7
+		}
+		victory_points = {
+			18858 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AZH
+		add_claim_by = IND
+	}
+
+	provinces = {
+		1553 16127 16128 18858 18862
+	}
+	manpower = 780794
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

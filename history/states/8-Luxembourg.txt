@@ -1,0 +1,28 @@
+state = { #Population Done
+	id = 8
+	name = "STATE_8"
+
+	state_category = town
+
+	manpower = 328113
+	resources = {
+		steel = 43
+	}
+
+	history = {
+		owner = GER
+		buildings = {
+			barracks = 1
+			prisons = 2
+			infrastructure = 5
+			thermoelectric_plant = 2
+		}
+		victory_points = { 6583 7 }
+		add_core_of = GER
+		set_state_flag = GDP_category_large_city
+	}
+
+	provinces = {
+		6583 15851
+	}
+}

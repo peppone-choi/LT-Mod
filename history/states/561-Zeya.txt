@@ -1,0 +1,37 @@
+state = {
+	id = 561
+	name = "STATE_561"
+	resources = {
+		steel = 9.000
+	}
+
+	history = {
+		owner = AMR
+		buildings = {
+			infrastructure = 3
+			thermoelectric_plant = 1
+			prisons = 1
+		}
+		victory_points = {
+			10678 3
+		}
+		victory_points = {
+			13298 1
+		}
+		victory_points = {
+			5331 1
+		}
+		victory_points = {
+			1845 2
+		}
+		add_core_of = AMR
+	}
+
+	provinces = {
+		1730 1845 5331 7691 7851 8544 10678 12591 12660 13298
+	}
+	manpower = 202888
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

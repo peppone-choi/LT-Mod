@@ -1,0 +1,27 @@
+state = {
+	id = 124
+	name = "STATE_124"
+	manpower = 58662
+
+	state_category = rural
+
+	history = {
+		victory_points = { 6258 1 }
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 5
+			radar_station = 3
+			air_base = 2
+			anti_air_building = 1
+			408 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+			barracks = 1
+		}
+	}
+	provinces = {
+		408 6258
+	}
+}

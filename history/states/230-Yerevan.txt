@@ -1,0 +1,47 @@
+state = {
+	id = 230
+	name = "STATE_230"
+	resources = {
+		steel = 9.000
+		aluminium = 5.000
+	}
+
+	history = {
+		owner = ARM
+		victory_points = {
+			12320 20
+		}
+		victory_points = {
+			12441 10
+		}
+		victory_points = {
+			18467 5
+		}
+		victory_points = {
+			18474 1
+		}
+		victory_points = {
+			12380 1
+		}
+		victory_points = {
+			3564 1
+		}
+		buildings = {
+			infrastructure = 4
+			radar_station = 1
+			thermoelectric_plant = 1
+			air_base = 5
+		}
+		add_extra_state_shared_building_slots = 1
+		add_core_of = ARM
+		set_state_flag = state_renamings
+	}
+
+	provinces = {
+		3564 11708 12320 12380 12441 12450 13123 18467 18474
+	}
+	manpower = 1813562
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
+}
