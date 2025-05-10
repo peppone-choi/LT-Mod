@@ -1,0 +1,71 @@
+l_english:
+ # Political Events Localization
+ political.1.t:0 "Government Reform"
+ political.1.d:0 "As our nation faces internal challenges and public discontent, there are growing calls for significant reforms to our governmental structure and policies. Various factions within our administration have proposed different approaches to address these issues, from sweeping changes to more modest adjustments. The path we choose will have profound implications for our political stability and future development."
+ political.1.a:0 "Implement major reforms"
+ political.1.b:0 "Implement moderate reforms"
+ political.1.c:0 "Reject calls for reform"
+
+ political.2.t:0 "Political Opposition"
+ political.2.d:0 "Political opposition to our government has been growing stronger in recent months. Various opposition groups have been organizing protests, publishing critical materials, and gathering support among the population. This movement represents a significant challenge to our authority and stability, requiring a careful response to prevent further destabilization."
+ political.2.a:0 "Suppress the opposition"
+ political.2.b:0 "Engage in dialogue"
+ political.2.c:0 "Ignore them for now"
+
+ political.3.t:0 "Military Coup Threat"
+ political.3.d:0 "Intelligence reports indicate growing discontent within the military leadership regarding the current political situation. There are rumors of officers meeting in secret to discuss the possibility of a military intervention to 'restore order' and 'protect national interests.' This potential threat to civilian authority must be addressed before it materializes into a full-blown coup attempt."
+ political.3.a:0 "Purge disloyal officers"
+ political.3.b:0 "Negotiate with military leadership"
+ political.3.c:0 "Ignore the threat"
+
+ political.4.t:0 "Military Coup"
+ political.4.d:0 "In a swift and coordinated operation, military units have seized control of key government buildings, communication centers, and transportation hubs. The military leadership has announced the establishment of a transitional government to 'restore order and national dignity.' The civilian government has effectively been deposed, and the military now controls the country."
+ political.4.a:0 "The military takes control"
+
+ political.5.t:0 "Popular Uprising"
+ political.5.d:0 "Mass protests have erupted across the country, with hundreds of thousands of citizens taking to the streets to demand political change. What began as isolated demonstrations has quickly evolved into a nationwide movement challenging the legitimacy of our government. The situation is deteriorating rapidly, with clashes between protesters and security forces reported in several cities."
+ political.5.a:0 "Use force to suppress the uprising"
+ political.5.b:0 "Make concessions to appease the protesters"
+ political.5.c:0 "Initiate comprehensive political reforms"
+
+ political.6.t:0 "Government Reform Results"
+ political.6.d:0 "Several months have passed since we initiated our comprehensive government reform program. The implementation process has faced both successes and challenges as various institutions adjusted to the new framework. Now, as the dust settles, we can evaluate the overall impact of these reforms on our political system and society at large."
+ political.6.a:0 "The reforms have been largely successful"
+ political.6.b:0 "The reforms have achieved mixed results"
+
+ # Political Ideas Localization
+ political_reform:0 "Government Reform Program"
+ political_reform_desc:0 "Our nation is implementing fundamental changes to government structures and policies, which creates some short-term disruption but aims to improve long-term stability and effectiveness."
+
+ suppressed_opposition:0 "Suppressed Political Opposition"
+ suppressed_opposition_desc:0 "Our government has taken strong measures against political opposition groups, limiting their ability to organize and influence the population while creating some international criticism."
+
+ political_concessions:0 "Political Concessions"
+ political_concessions_desc:0 "Our government has made significant concessions to opposition groups or factions, which has eased internal tensions but may have weakened central authority."
+
+ political_opposition:0 "Strong Political Opposition"
+ political_opposition_desc:0 "Our government faces organized and influential political opposition that challenges policies, mobilizes public demonstrations, and reduces overall political stability."
+
+ military_purge:0 "Military Leadership Purge"
+ military_purge_desc:0 "Our government has removed suspected disloyal officers from the military hierarchy, ensuring political reliability but temporarily reducing military effectiveness."
+
+ military_concessions:0 "Military Concessions"
+ military_concessions_desc:0 "Our government has granted significant concessions to the military leadership regarding budget, autonomy, or political influence to maintain their support."
+
+ military_takeover:0 "Military Takeover"
+ military_takeover_desc:0 "The military has assumed control of the government, establishing order through martial authority while suspending certain civil institutions and processes."
+
+ martial_law:0 "Martial Law"
+ martial_law_desc:0 "Our government has declared martial law, giving military authorities significant control over civilian affairs to maintain order during a period of severe instability."
+
+ civil_concessions:0 "Civil Concessions"
+ civil_concessions_desc:0 "Our government has made significant concessions to civil society groups or protesters, addressing grievances while potentially appearing weak to hardliners."
+
+ government_reform_program:0 "Government Reform Program"
+ government_reform_program_desc:0 "Our nation is undergoing a comprehensive reform of government institutions and policies, creating political uncertainty during the transition but aiming for improved governance."
+
+ reformed_government:0 "Successfully Reformed Government"
+ reformed_government_desc:0 "Our government has successfully implemented major structural and policy reforms, creating a more effective administrative system with broad public support."
+
+ partial_reform:0 "Partially Reformed Government"
+ partial_reform_desc:0 "Our government has implemented some reforms while abandoning or delaying others, creating an imperfect but improved system with moderate public approval."

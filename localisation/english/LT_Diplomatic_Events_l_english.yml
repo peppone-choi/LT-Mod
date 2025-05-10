@@ -1,0 +1,75 @@
+l_english:
+ # Diplomatic Events Localization
+ diplomatic.1.t:0 "Trade Agreement Proposal"
+ diplomatic.1.d:0 "The government of [From.GetNameDef] has approached us with a proposal for a comprehensive trade agreement. Their diplomats suggest that this agreement would benefit both our economies by facilitating the exchange of resources and manufactured goods. Should we accept this proposal and deepen our economic ties with [From.GetNameDef]?"
+ diplomatic.1.a:0 "Accept the trade agreement"
+ diplomatic.1.b:0 "Decline the proposal"
+
+ diplomatic.2.t:0 "Trade Agreement Accepted"
+ diplomatic.2.d:0 "The government of [From.GetNameDef] has formally accepted our proposal for a comprehensive trade agreement. Their representatives have signed the necessary documents, and preparations are already underway to implement the new trade protocols. This agreement will strengthen economic ties between our nations and benefit both our economies."
+ diplomatic.2.a:0 "Excellent news"
+
+ diplomatic.3.t:0 "Trade Agreement Declined"
+ diplomatic.3.d:0 "The government of [From.GetNameDef] has officially declined our proposal for a trade agreement. Their diplomatic note cited various concerns and expressed a preference for maintaining the current level of economic relations. This response is disappointing but does not necessarily preclude future negotiations on this matter."
+ diplomatic.3.a:0 "Disappointing but understandable"
+
+ diplomatic.4.t:0 "Diplomatic Crisis"
+ diplomatic.4.d:0 "Tensions between our nation and [crisis_country.GetNameDef] have escalated to a concerning level. A series of diplomatic incidents, misunderstandings, and conflicting interests have created a situation that some analysts are describing as a diplomatic crisis. If not addressed properly, this situation could further deteriorate and potentially threaten regional stability."
+ diplomatic.4.a:0 "Attempt to resolve the crisis diplomatically"
+ diplomatic.4.b:0 "Stand firm on our position"
+
+ diplomatic.5.t:0 "Diplomatic Resolution Offer"
+ diplomatic.5.d:0 "The government of [From.GetNameDef] has reached out to us with a proposal aimed at resolving the current diplomatic crisis between our nations. Their representatives have suggested a framework for negotiations that would address the key points of contention while allowing both sides to maintain their core interests. This could be an opportunity to de-escalate tensions and improve relations."
+ diplomatic.5.a:0 "Accept the resolution proposal"
+ diplomatic.5.b:0 "Reject their terms"
+
+ diplomatic.6.t:0 "Diplomatic Standoff"
+ diplomatic.6.d:0 "In response to our firm stance on the issues at hand, [From.GetNameDef] has maintained its own assertive position, creating what observers are calling a diplomatic standoff. Neither side appears willing to back down from their stated positions, and diplomatic channels have become increasingly tense. We must decide how to respond to this challenging situation."
+ diplomatic.6.a:0 "Back down to avoid further escalation"
+ diplomatic.6.b:0 "Maintain our firm stance"
+
+ diplomatic.7.t:0 "Diplomatic Resolution Accepted"
+ diplomatic.7.d:0 "Our diplomatic initiative to resolve the crisis with [From.GetNameDef] has been successful. Their government has formally accepted our proposed framework for negotiations, and diplomatic teams from both countries are already working on the details of an agreement. This positive development has been well-received internationally and has helped to ease tensions in the region."
+ diplomatic.7.a:0 "A victory for diplomacy"
+
+ diplomatic.8.t:0 "Diplomatic Resolution Rejected"
+ diplomatic.8.d:0 "Our attempts to resolve the diplomatic crisis with [From.GetNameDef] have been rebuffed. Their government has officially rejected our proposed framework for negotiations, citing what they describe as 'unacceptable terms' and 'failure to address core concerns.' This rejection complicates our diplomatic position and may necessitate a reevaluation of our approach to this crisis."
+ diplomatic.8.a:0 "Continue diplomatic efforts"
+ diplomatic.8.b:0 "Prepare for potential conflict"
+
+ # Diplomatic Ideas Localization
+ diplomatic_isolation:0 "Diplomatic Isolation"
+ diplomatic_isolation_desc:0 "Our nation has limited diplomatic ties with other countries, either by choice or due to international circumstances. This isolation reduces foreign influence but also limits our international trade and cooperation opportunities."
+
+ international_cooperation:0 "International Cooperation"
+ international_cooperation_desc:0 "Our nation actively participates in international organizations and maintains strong diplomatic ties with multiple countries, facilitating trade, scientific exchange, and political cooperation."
+
+ defensive_alliance:0 "Defensive Alliance Network"
+ defensive_alliance_desc:0 "Our nation has established a network of defensive alliances focused on mutual security and territorial integrity, deterring potential aggressors through collective security guarantees."
+
+ aggressive_foreign_policy:0 "Aggressive Foreign Policy"
+ aggressive_foreign_policy_desc:0 "Our nation pursues an assertive approach to international relations, actively promoting our interests and willing to use various means of pressure to achieve our objectives."
+
+ diplomatic_pressure:0 "Diplomatic Pressure"
+ diplomatic_pressure_desc:0 "Our nation is experiencing significant diplomatic pressure from other countries regarding our policies or actions, which affects our international standing and freedom of action."
+
+ diplomatic_tension:0 "Diplomatic Tension"
+ diplomatic_tension_desc:0 "Relations between our nation and one or more countries have deteriorated, creating an atmosphere of distrust and limiting opportunities for cooperation."
+
+ diplomatic_compromise:0 "Diplomatic Compromise"
+ diplomatic_compromise_desc:0 "Our nation has reached significant compromises with other countries to resolve disputes, demonstrating flexibility but potentially disappointing domestic hardliners."
+
+ trade_agreement:0 "Comprehensive Trade Agreement"
+ trade_agreement_desc:0 "Our nation has established favorable trade terms with one or more countries, facilitating the exchange of goods and resources and benefiting our economy."
+
+ declined_trade:0 "Declined Trade Proposal"
+ declined_trade_desc:0 "Our nation recently rejected a trade agreement proposal, which has created some economic friction and diplomatic coolness with the proposing country."
+
+ political_loyalty_idea:0 "Political Loyalty Campaign"
+ political_loyalty_idea_desc:0 "Our government has implemented measures to ensure loyalty within the political hierarchy and bureaucracy, reducing internal dissent but potentially limiting fresh perspectives."
+
+ arms_export_focus:0 "Arms Export Focus"
+ arms_export_focus_desc:0 "Our nation prioritizes the export of military equipment and weapons, which strengthens our defense industry and provides economic benefits but may entangle us in foreign conflicts."
+
+ neutral_foreign_policy:0 "Neutral Foreign Policy"
+ neutral_foreign_policy_desc:0 "Our nation maintains a position of strict neutrality in international affairs, avoiding alliances and entanglements while focusing on peaceful trade with all countries."

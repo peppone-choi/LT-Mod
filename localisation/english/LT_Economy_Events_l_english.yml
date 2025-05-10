@@ -1,0 +1,43 @@
+l_english:
+ # Economy Event Localization
+ economy.1.t:0 "Economic Crisis"
+ economy.1.d:0 "Our nation is facing a severe economic crisis. Production has slowed, unemployment has risen, and public morale is declining. The economic advisors have presented several options to address this crisis, each with their own potential benefits and drawbacks. How should we respond to this challenging situation?"
+ economy.1.a:0 "Implement austerity measures"
+ economy.1.b:0 "Stimulate the economy with government spending"
+
+ economy.2.t:0 "Economic Recovery"
+ economy.2.d:0 "Thanks to the economic policies we have implemented and the hard work of our people, our nation is showing clear signs of recovery from the recent economic crisis. Industrial output is increasing, unemployment is falling, and consumer confidence is on the rise. Financial experts predict a period of sustained growth if we maintain our current economic course."
+ economy.2.a:0 "Our economy is back on track"
+
+ economy.3.t:0 "Industrial Development"
+ economy.3.d:0 "Our industrial sector has seen impressive growth over the past few years. New factories have been established, existing facilities have expanded, and production efficiency has increased significantly. This industrial development has created jobs, boosted our economy, and enhanced our military production capabilities. We now face a decision about how to direct this industrial momentum."
+ economy.3.a:0 "Focus on civilian industry"
+ economy.3.b:0 "Prioritize military production"
+
+ # Economy Ideas Localization
+ economic_crisis:0 "Economic Crisis"
+ economic_crisis_desc:0 "Our nation is experiencing a severe economic downturn, with reduced industrial output, high unemployment, and declining consumer confidence. This crisis affects all sectors of our economy and requires immediate attention."
+
+ industrial_boom:0 "Industrial Boom"
+ industrial_boom_desc:0 "Our country is experiencing a period of rapid industrial growth and economic expansion. New factories are being built, production is increasing, and technological innovation is accelerating."
+
+ military_industrial_focus:0 "Military-Industrial Focus"
+ military_industrial_focus_desc:0 "Our industrial policy prioritizes military production over civilian goods. While this strengthens our armed forces, it may reduce living standards for civilians."
+
+ export_focus:0 "Export-Oriented Economy"
+ export_focus_desc:0 "Our economic policy focuses on producing goods for export to international markets, increasing foreign trade and generating hard currency."
+
+ import_substitution:0 "Import Substitution"
+ import_substitution_desc:0 "Our economic policy emphasizes developing domestic industries to replace imported goods, reducing foreign dependency but potentially increasing costs."
+
+ economic_regulation:0 "Economic Regulation"
+ economic_regulation_desc:0 "Our government maintains significant control over economic activity through regulations, price controls, and other interventions to ensure stability and equitable distribution."
+
+ free_market_economy:0 "Free Market Economy"
+ free_market_economy_desc:0 "Our economy operates with minimal government intervention, allowing market forces to determine prices, production, and distribution of goods and services."
+
+ economic_austerity:0 "Economic Austerity"
+ economic_austerity_desc:0 "Our government has implemented severe budget cuts and reduced spending to address financial challenges, potentially improving fiscal health at the cost of short-term growth and public services."
+
+ economic_expansion:0 "Economic Expansion Policy"
+ economic_expansion_desc:0 "Our government is pursuing aggressive economic growth through infrastructure investment, industrial development, and increased spending to stimulate all sectors of the economy."

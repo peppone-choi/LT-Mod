@@ -1,0 +1,34 @@
+l_english:
+ # West Russian Revolutionary Front Focus Tree
+ WRS_rebuilding_the_union:0 "Rebuilding the Union"
+ WRS_rebuilding_the_union_desc:0 "The West Russian Revolutionary Front represents the continuation of the Soviet state in this region. Our primary mission is to rebuild the Soviet Union from the ashes, reclaiming territories lost during the German invasion and reestablishing a socialist system based on the principles of Marxism-Leninism."
+
+ WRS_military_reorganization:0 "Military Reorganization"
+ WRS_military_reorganization_desc:0 "Our military forces require significant reorganization to transform them from a collection of partisan units into a cohesive, professional fighting force capable of challenging the German occupiers. We must standardize training, equipment, and command structures to increase our combat effectiveness."
+
+ WRS_industrial_recovery:0 "Industrial Recovery"
+ WRS_industrial_recovery_desc:0 "The industrial base in our territory has been severely damaged by war and neglect. Rebuilding these facilities is essential for both economic recovery and military production. We must prioritize the restoration of key factories and infrastructure to support our broader goals."
+
+ WRS_political_consolidation:0 "Political Consolidation"
+ WRS_political_consolidation_desc:0 "To effectively govern our territories and prepare for eventual reunification, we must consolidate political control through the establishment of local Soviet authorities loyal to the Front. This will strengthen our legitimacy and create a functioning administrative system."
+
+ WRS_modern_equipment:0 "Modern Equipment"
+ WRS_modern_equipment_desc:0 "Our forces often rely on outdated or improvised weaponry. Developing and producing modern infantry equipment will significantly enhance our combat capabilities and ensure our soldiers can effectively face well-equipped opponents."
+
+ WRS_tank_modernization:0 "Tank Modernization"
+ WRS_tank_modernization_desc:0 "Armored forces played a crucial role in Soviet military doctrine, and they remain essential for modern warfare. We must develop and produce more advanced tank models to provide our forces with the mobile firepower needed for offensive operations."
+
+ WRS_artillery_focus:0 "Artillery Focus"
+ WRS_artillery_focus_desc:0 "Artillery has historically been the 'god of war' in Soviet doctrine. Emphasizing the development and production of modern artillery systems will give our forces the necessary firepower to break enemy defenses and support infantry advances."
+
+ WRS_heavy_industry:0 "Heavy Industry"
+ WRS_heavy_industry_desc:0 "Expanding our heavy industrial capacity is essential for long-term economic development. New steel mills, mining operations, and manufacturing plants will provide the foundation for sustained industrial growth and self-sufficiency."
+
+ WRS_military_industry:0 "Military Industry"
+ WRS_military_industry_desc:0 "Establishing a robust military-industrial complex is crucial for our security and independence. Dedicated arms factories, ammunition plants, and equipment production facilities will ensure our forces have a steady supply of war materials."
+
+ WRS_secure_the_party:0 "Secure the Party"
+ WRS_secure_the_party_desc:0 "The Communist Party remains the vanguard of our revolution and the foundation of our political system. We must strengthen Party structures, ensure ideological unity, and eliminate potential internal threats to maintain effective leadership."
+
+ WRS_foreign_policy:0 "Foreign Policy"
+ WRS_foreign_policy_desc:0 "As we consolidate our position, we must develop a coherent approach to international relations. Establishing diplomatic contacts, seeking potential allies, and positioning ourselves within the global struggle against fascism will be essential for our long-term survival and success."
