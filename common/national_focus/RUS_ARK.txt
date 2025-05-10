@@ -13,118 +13,193 @@ focus_tree = {
     default = no
 
     focus = {
-        id = WRS_party_congress_24 #24차 당 대회
-        icon = GFX_goal_party_congress_24
+        id = WRS_party_congress_28 #28차 당대회
+        icon = GFX_goal_WRS_party_congress_28
         cost = 3
-        x = 2
+        x = 3
         y = 0
     }
 
     focus = {
-        id = WRS_power_to_troika #트로이카에 권력을!
-        icon = GFX_goal_power_to_troika
-        prerequisite = {focus = WRS_party_congress_24}
-        mutually_exclusive = { focus = WRS_left_opposition_victory}
+        id = WRS_hand_with_red_napoleon #붉은 나폴레옹과 손잡다
+        icon = GFX_goal_WRS_hand_with_red_napoleon
+        prerequisite = {focus = WRS_party_congress_28}
         cost = 3
-        x = 0
+        x = 3
         y = 1
     }
 
     focus = {
-        id = WRS_left_opposition_victory #좌익 반대파의 승리
-        icon = GFX_goal_left_opposition_victory
-        prerequisite = {focus = WRS_party_congress_24}
-        mutually_exclusive = {focus = WRS_power_to_troika}
+        id = WRS_establish_brusilov_academy #브루실로프 아카데미 설립
+        icon = GFX_goal_WRS_establish_brusilov_academy
+        prerequisite = {focus = WRS_hand_with_red_napoleon}
         cost = 3
-        x = 2
-        y = 1
-    }
-
-    focus = {
-        id = WRS_new_red_army #새로운 붉은 군대
-        icon = GFX_goal_new_red_army
-        prerequisite = {focus = WRS_party_congress_24}
-        cost = 3
-        x = 4
-        y = 1
-    }
-
-    focus = {
-        id = WRS_bureaucrat_leadership #관료들의 지도
-        icon = GFX_goal_bureaucrat_leadership
-        prerequisite = {focus = WRS_power_to_troika focus = WRS_left_opposition_victory}
-        mutually_exclusive = {
-            focus = WRS_worker_leadership
-        }
-        cost = 3
-        x = 0
+        x = 3
         y = 2
     }
 
     focus = {
-        id = WRS_increase_supplies #보급품 생산 증대
-        icon = GFX_goal_increase_supplies
-        prerequisite = {focus = WRS_bureaucrat_leadership
-        focus = WRS_worker_leadership}
-        x = 0
-        y = 3
+        id = WRS_foreseeing_agricultural_famine #농업기근의 예견
+        icon = GFX_goal_WRS_foreseeing_agricultural_famine
+        prerequisite = {focus = WRS_establish_brusilov_academy}
         cost = 3
-        mutually_exclusive = {
-            focus = WRS_power_of_people
-        }
-    }
-
-    focus = {
-        id = WRS_worker_leadership #노동자들의 지도
-        icon = GFX_goal_worker_leadership
-        prerequisite = {focus = WRS_power_to_troika focus = WRS_left_opposition_victory}
-        mutually_exclusive = {
-            focus = WRS_bureaucrat_leadership
-        }
-        cost = 3
-        x = 2
-        y = 2
-    }
-    
-    focus = {
-        id = WRS_power_of_people #인민의 힘으로!
-        icon = GFX_goal_power_of_people
-        prerequisite = {focus = WRS_worker_leadership
-        focus = WRS_bureaucrat_leadership
-        }
-        mutually_exclusive = {
-            focus = WRS_increase_supplies
-        }
-        cost = 3
-        x = 2
+        x = 3
         y = 3
     }
 
     focus = {
-        id = WRS_military_strategy_debate #군사 전략 논쟁
-        icon = GFX_goal_military_strategy_debate
-        prerequisite = {focus = WRS_new_red_army}
+        id = WRS_finalizing_kamenev_plan #카메네프 계획의 마무리
+        icon = GFX_goal_WRS_finalizing_kamenev_plan
+        prerequisite = {focus = WRS_foreseeing_agricultural_famine}
         cost = 3
-        x = 4
-        y = 2
-    }
-
-    focus = {
-        id = WRS_first_guards_reconstruction #제1 근위군 재건
-        icon = GFX_goal_first_guards_reconstruction
-        prerequisite = {focus = WRS_military_strategy_debate}
-        cost = 3
-        x = 4
-        y = 3
-    }
-
-    focus = {
-        id = WRS_cooperation_with_tukhachevsky #투하쳅스키와의 협력
-        icon = GFX_goal_cooperation_with_tukhachevsky
-        prerequisite = {focus = WRS_increase_supplies focus = WRS_power_of_people}
-        prerequisite = {focus = WRS_first_guards_reconstruction}
-        cost = 3
-        x = 2
+        x = 3
         y = 4
+    }
+
+    focus = {
+        id = WRS_growing_bayonet_power #커져가는 총검의 힘
+        icon = GFX_goal_WRS_growing_bayonet_power
+        prerequisite = {focus = WRS_finalizing_kamenev_plan}
+        cost = 3
+        x = 3
+        y = 5
+    }
+
+    # 첫 번째 분기: 세 개의 주요 경로
+    focus = {
+        id = WRS_revival_of_central_party #중앙당의 부활
+        icon = GFX_goal_WRS_revival_of_central_party
+        prerequisite = {focus = WRS_growing_bayonet_power}
+        mutually_exclusive = {focus = WRS_small_lef}
+        cost = 3
+        x = 1
+        y = 6
+    }
+
+    focus = {
+        id = WRS_small_lef #작은 레프
+        icon = GFX_goal_WRS_small_lef
+        prerequisite = {focus = WRS_growing_bayonet_power}
+        mutually_exclusive = {focus = WRS_revival_of_central_party }
+        cost = 3
+        x = 3
+        y = 6
+    }
+
+    focus = {
+        id = WRS_complete_alliance_with_napoleon #나폴레옹과의 완전한 동맹
+        icon = GFX_goal_WRS_complete_alliance_with_napoleon
+        prerequisite = {focus = WRS_growing_bayonet_power}
+        cost = 3
+        x = 5
+        y = 6
+    }
+
+    # 두 번째 분기: 각 주요 경로의 다음 단계
+    focus = {
+        id = WRS_politburo_reorganization #정치국 개편
+        icon = GFX_goal_WRS_politburo_reorganization
+        prerequisite = {focus = WRS_revival_of_central_party}
+        cost = 3
+        x = 1
+        y = 7
+    }
+
+    focus = {
+        id = WRS_traces_of_tukhachevsky #투하쳅스키의 흔적
+        icon = GFX_goal_WRS_traces_of_tukhachevsky
+        prerequisite = {focus = WRS_small_lef}
+        cost = 3
+        x = 3
+        y = 7
+    }
+
+    focus = {
+        id = WRS_uranus_plan #천왕성 계획
+        icon = GFX_goal_WRS_uranus_plan
+        prerequisite = {focus = WRS_complete_alliance_with_napoleon}
+        cost = 3
+        x = 5
+        y = 7
+    }
+
+    # 세 번째 분기: 각 경로 계속
+    focus = {
+        id = WRS_bureaucrats_dominance #관료들의 우위
+        icon = GFX_goal_WRS_bureaucrats_dominance
+        prerequisite = {focus = WRS_politburo_reorganization}
+        cost = 3
+        x = 1
+        y = 8
+    }
+
+    focus = {
+        id = WRS_foster_defense_industry #군수공업 육성
+        icon = GFX_goal_WRS_foster_defense_industry
+        prerequisite = {focus = WRS_traces_of_tukhachevsky}
+        cost = 3
+        x = 3
+        y = 8
+    }
+
+    focus = {
+        id = WRS_ivan_and_grain #이반과 밀알
+        icon = GFX_goal_WRS_ivan_and_grain
+        prerequisite = {focus = WRS_uranus_plan}
+        cost = 3
+        x = 5
+        y = 8
+    }
+
+    # 네 번째 분기: 각 경로의 마지막 단계
+    focus = {
+        id = WRS_politburo_complexification #정치국 복잡화
+        icon = GFX_goal_WRS_politburo_complexification
+        prerequisite = {focus = WRS_bureaucrats_dominance}
+        cost = 3
+        x = 1
+        y = 9
+    }
+
+    focus = {
+        id = WRS_first_guards_tank_reorganization #제1근위기갑사단 재편
+        icon = GFX_goal_WRS_first_guards_tank_reorganization
+        prerequisite = {focus = WRS_foster_defense_industry}
+        cost = 3
+        x = 3
+        y = 9
+    }
+
+    focus = {
+        id = WRS_northern_chimneys #북동의 굴뚝들
+        icon = GFX_goal_WRS_northern_chimneys
+        prerequisite = {focus = WRS_ivan_and_grain}
+        cost = 3
+        x = 5
+        y = 9
+    }
+
+    # 통합 포커스 - 정치국 복잡화 또는 제1근위기갑사단 재편 중 하나와 북동의 굴뚝들이 필요
+    focus = {
+        id = WRS_rise_up_workers #굴기해라! 노동자들이여!
+        icon = GFX_goal_WRS_rise_up_workers
+        prerequisite = {
+            focus = WRS_politburo_complexification
+            focus = WRS_first_guards_tank_reorganization
+        }
+        prerequisite = {focus = WRS_northern_chimneys}
+        cost = 3
+        x = 3
+        y = 10
+    }
+
+    # 최종 포커스
+    focus = {
+        id = WRS_fight_under_red_banner #싸워라! 적기아래!
+        icon = GFX_goal_WRS_fight_under_red_banner
+        prerequisite = {focus = WRS_rise_up_workers}
+        cost = 3
+        x = 3
+        y = 11
     }
 }
