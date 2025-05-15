@@ -1,107 +1,941 @@
 focus_tree = {
-    id = GAY_first_focus
-    
-    country = {
-        factor = 0
-        
-        modifier = {
-            add = 10
-            tag = GAY
-        }
-    }
+	id = GAY_zinoviev_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GAY
+		}
+	}
 
-    default = no
+	default = no
+	reset_on_civil_war = no
+	
+	shared_focus = GAY_the_war_for_revenge
+	shared_focus = GAY_the_glory_of_the_soviets
+	shared_focus = GAY_the_voice_of_the_people
+}
 
-    focus = {
-        id = GAY_focus_1 #투하쳅스키에게서 온 서신
-        x = 0
-        y = 0
-    }
+### 복수주의 국가 이념 브랜치 ###
+focus = {
+	id = GAY_the_war_for_revenge
+	icon = GFX_goal_generic_national_unity
+	x = 7
+	y = 0
+	cost = 4
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_war_for_revenge"
+		add_stability = 0.05
+		add_war_support = 0.10
+		add_political_power = 100
+		custom_effect_tooltip = GAY_revanchist_tooltip
+	}
+}
 
-    focus = {
-        id = GAY_focus_2 #국민 볼셰비즘 강령 창립
-        prerequisite = {focus = GAY_focus_1}
-        x = 0
-        y = 1
-    }
+focus = {
+	id = GAY_the_socialist_heart
+	icon = GFX_goal_anarchy
+	x = 5
+	y = 1
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_war_for_revenge }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_socialist_heart"
+		add_stability = 0.05
+		add_ideas = GAY_socialist_fervor
+		add_political_power = 50
+	}
+}
 
-    focus = {
-        id = GAY_focus_3 #코민테른 재건
-        prerequisite = {focus = GAY_focus_2}
-        x = 0
-        y = 2
-    }
+focus = {
+	id = GAY_a_new_national_bolshevism
+	icon = GFX_goal_support_communism
+	x = 7
+	y = 1
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_war_for_revenge }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_a_new_national_bolshevism"
+		add_popularity = {
+			ideology = communist
+			popularity = 0.10
+		}
+		add_ideas = GAY_national_bolshevism_concept
+	}
+}
 
-    focus = {
-        id = GAY_focus_4 #프룬제 아카데미 재건
-        prerequisite = {focus = GAY_focus_3}
-        x = 1
-        y = 2
-    }
+focus = {
+	id = GAY_the_sword_of_justice
+	icon = GFX_goal_generic_occupy_states_ongoing_war
+	x = 9
+	y = 1
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_war_for_revenge }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_sword_of_justice"
+		add_war_support = 0.10
+		add_ideas = GAY_revolutionary_justice
+	}
+}
 
-    focus = {
-        id = GAY_focus_5 #대전략 교리
-        prerequisite = {focus = GAY_focus_4}
-        mutually_exclusive = {focus = GAY_focus_6}
-        mutually_exclusive = {focus = GAY_focus_7}
-        x = 1
-        y = 3
-    }
+focus = {
+	id = GAY_rally_the_workers
+	icon = GFX_goal_generic_demand_territory
+	x = 5
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_socialist_heart }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_rally_the_workers"
+		add_manpower = 10000
+		add_ideas = GAY_worker_militias
+	}
+}
 
-    focus = {
-        id = GAY_focus_6 #대규모 교리
-        prerequisite = {focus = GAY_focus_4}
-        mutually_exclusive = {focus = GAY_focus_5}
-        mutually_exclusive = {focus = GAY_focus_7}
-        x = 2
-        y = 3
-    }
+focus = {
+	id = GAY_appease_kamenev_faction
+	icon = GFX_goal_generic_political_pressure
+	x = 7
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_a_new_national_bolshevism }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_appease_kamenev_faction"
+		add_stability = -0.05
+		add_war_support = 0.05
+		add_ideas = GAY_appeasement_efforts
+		hidden_effect = {
+			country_event = { id = gayny.11 days = 7 }
+		}
+	}
+}
 
-    focus = {
-        id = GAY_focus_7 #기동 교리
-        prerequisite = {focus = GAY_focus_4}
-        mutually_exclusive = {focus = GAY_focus_6}
-        mutually_exclusive = {focus = GAY_focus_5}
-        x = 3
-        y = 3
-    }
+focus = {
+	id = GAY_the_great_patriotic_revival
+	icon = GFX_goal_generic_major_war
+	x = 9
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_sword_of_justice }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_great_patriotic_revival"
+		add_war_support = 0.10
+		create_corps_commander = {
+			name = "Vasily Chuikov"
+			picture = "gfx/leaders/RUS/Portrait_Russia_Generic_land_4.dds"
+			traits = { defensive_doctrine infantry_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		army_experience = 25
+	}
+}
 
-    focus = {
-        id = GAY_focus_8 #"전문제 근위사단" 창설
-        prerequisite = {focus = GAY_focus_5 
-                        focus = GAY_focus_6 
-                        focus = GAY_focus_7}
-                        x = 2
-                        y = 4
-    }
+focus = {
+	id = GAY_the_russian_cause
+	icon = GFX_goal_generic_soviet_construction
+	x = 6
+	y = 3
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_rally_the_workers }
+	prerequisite = { focus = GAY_purge_the_traitors }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_russian_cause"
+		add_stability = 0.05
+		add_ideas = GAY_russian_revival
+	}
+}
 
-    focus = {
-        id = GAY_focus_9 #투하쳅스키의 밀사에 대한 답변
-        prerequisite = {focus = GAY_focus_8}
-        x = 2
-        y = 5
-    }
+focus = {
+	id = GAY_the_patriotic_military
+	icon = GFX_goal_generic_military_sphere
+	x = 8
+	y = 3
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_purge_the_traitors }
+	prerequisite = { focus = GAY_the_great_patriotic_revival }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_patriotic_military"
+		swap_ideas = {
+			remove_idea = GAY_worker_militias
+			add_idea = GAY_nationalist_red_army
+		}
+		add_war_support = 0.05
+	}
+}
 
-    focus = {
-        id = GAY_focus_10 #추이코프의 합류
-        prerequisite = {focus = GAY_focus_3}
-        x = 0
-        y = 3
-    }
+focus = {
+	id = GAY_all_russian_national_unification
+	icon = GFX_goal_generic_major_alliance
+	x = 7
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_russian_cause }
+	prerequisite = { focus = GAY_the_patriotic_military }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_all_russian_national_unification"
+		add_stability = -0.05
+		add_war_support = 0.10
+		add_ideas = GAY_anti_minority_campaigns
+	}
+}
 
+focus = {
+	id = GAY_the_revenge_of_1941
+	icon = GFX_goal_generic_attack_allies
+	x = 7
+	y = 5
+	cost = 10
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_crushing_minority_separatism }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_revenge_of_1941"
+		add_war_support = 0.15
+		add_ideas = GAY_revanchist_momentum
+		create_wargoal = {
+			type = annex_everything
+			target = ARK
+		}
+		hidden_effect = {
+			country_event = { id = gayny.12 days = 1 }
+		}
+	}
+}
 
-     focus = {
-        id = GAY_focus_11 #KGB 창설
-        x = 4
-        y = 0
-     }
+### 군사 브랜치 ###
+focus = {
+	id = GAY_the_glory_of_the_soviets
+	icon = GFX_goal_generic_soviet_construction
+	x = 18
+	y = 0
+	cost = 4
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_glory_of_the_soviets"
+		add_political_power = 50
+		add_stability = 0.05
+		add_war_support = 0.05
+		custom_effect_tooltip = GAY_soviet_glory_tooltip
+	}
+}
 
-     focus = {
-        id = GAY_focus_12 #'제 5열'
-        prerequisite = {focus = GAY_focus_11}
-        x = 4
-        y = 1
-     }
+focus = {
+	id = GAY_reestablish_the_frunze_academy
+	icon = GFX_goal_generic_build_tank
+	x = 15
+	y = 1
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_glory_of_the_soviets }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_reestablish_the_frunze_academy"
+		add_ideas = GAY_frunze_military_academy
+		army_experience = 50
+	}
+}
 
+focus = {
+	id = GAY_strategic_doctrine
+	icon = GFX_goal_generic_army_doctrines
+	x = 14
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 40 }
+	prerequisite = { focus = GAY_reestablish_the_frunze_academy }
+	mutually_exclusive = { focus = GAY_mass_mobilization_doctrine }
+	mutually_exclusive = { focus = GAY_advanced_warfare_doctrine }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_strategic_doctrine"
+		add_doctrine_cost_reduction = {
+			name = land_doc_defensive
+			cost_reduction = 0.5
+			uses = 2
+		}
+		add_ideas = GAY_defensive_doctrine
+	}
+}
 
+focus = {
+	id = GAY_mass_mobilization_doctrine
+	icon = GFX_goal_generic_small_arms
+	x = 16
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 30 }
+	prerequisite = { focus = GAY_reestablish_the_frunze_academy }
+	mutually_exclusive = { focus = GAY_strategic_doctrine }
+	mutually_exclusive = { focus = GAY_advanced_warfare_doctrine }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_mass_mobilization_doctrine"
+		add_doctrine_cost_reduction = {
+			name = land_doc_offensive
+			cost_reduction = 0.5
+			uses = 2
+		}
+		add_ideas = GAY_offensive_doctrine
+	}
+}
+
+focus = {
+	id = GAY_advanced_warfare_doctrine
+	icon = GFX_goal_generic_army_tanks
+	x = 18
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 30 }
+	prerequisite = { focus = GAY_reestablish_the_frunze_academy }
+	mutually_exclusive = { focus = GAY_strategic_doctrine }
+	mutually_exclusive = { focus = GAY_mass_mobilization_doctrine }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_advanced_warfare_doctrine"
+		add_doctrine_cost_reduction = {
+			name = land_doc_mobile_warfare
+			cost_reduction = 0.5
+			uses = 2
+		}
+		add_ideas = GAY_mobile_doctrine
+	}
+}
+
+focus = {
+	id = GAY_establish_kgb
+	icon = GFX_goal_generic_intelligence_exchange
+	x = 21
+	y = 1
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_glory_of_the_soviets }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_establish_kgb"
+		add_ideas = GAY_kgb_operations
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = GAY_infiltration_networks
+	icon = GFX_goal_generic_intelligence_exchange
+	x = 20
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_establish_kgb }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_infiltration_networks"
+		add_ideas = GAY_infiltration_operations
+	}
+}
+
+focus = {
+	id = GAY_special_operations
+	icon = GFX_goal_generic_secret_weapon
+	x = 22
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_establish_kgb }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_special_operations"
+		add_ideas = GAY_special_operations_directorate
+	}
+}
+
+focus = {
+	id = GAY_soviet_specialists
+	icon = GFX_goal_generic_scientific_exchange
+	x = 16
+	y = 3
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_strategic_doctrine focus = GAY_mass_mobilization_doctrine focus = GAY_advanced_warfare_doctrine }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_soviet_specialists"
+		add_research_slot = 1
+		add_tech_bonus = {
+			name = GAY_military_theory_bonus
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+}
+
+focus = {
+	id = GAY_create_frunze_guards
+	icon = GFX_goal_generic_special_forces
+	x = 16
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_soviet_specialists }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_create_frunze_guards"
+		add_ideas = GAY_frunze_guards_division
+		create_corps_commander = {
+			name = "Mikhail Frunze"
+			picture = "gfx/leaders/RUS/Portrait_Russia_Generic_land_1.dds"
+			traits = { inflexible_strategist infantry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		add_equipment = {
+			infantry_equipment = 2000
+			support_equipment = 500
+		}
+	}
+}
+
+focus = {
+	id = GAY_the_fifth_column
+	icon = GFX_goal_generic_position_armies
+	x = 21
+	y = 3
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_infiltration_networks }
+	prerequisite = { focus = GAY_special_operations }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_fifth_column"
+		swap_ideas = {
+			remove_idea = GAY_kgb_operations
+			add_idea = GAY_fifth_column_network
+		}
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = GAY_arkhangelsk_infiltrators
+	icon = GFX_goal_generic_occupy_states_ongoing_war
+	x = 20
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_fifth_column }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_arkhangelsk_infiltrators"
+		add_ideas = GAY_arkhangelsk_infiltration
+		hidden_effect = {
+			country_event = { id = gayny.13 days = 14 }
+		}
+	}
+}
+
+focus = {
+	id = GAY_west_russia_operatives
+	icon = GFX_goal_generic_occupy_states_ongoing_war
+	x = 22
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_fifth_column }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_west_russia_operatives"
+		add_ideas = GAY_west_russia_infiltration
+		hidden_effect = {
+			country_event = { id = gayny.14 days = 14 }
+		}
+	}
+}
+
+focus = {
+	id = GAY_lessons_from_germans
+	icon = GFX_goal_generic_build_tank
+	x = 15
+	y = 5
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_create_frunze_guards }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_lessons_from_germans"
+		add_tech_bonus = {
+			name = armor_bonus
+			bonus = 0.5
+			uses = 2
+			category = armor
+		}
+		219 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_red_perun
+	icon = GFX_goal_generic_army_artillery2
+	x = 17
+	y = 5
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_create_frunze_guards }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_red_perun"
+		add_tech_bonus = {
+			name = artillery_bonus
+			bonus = 0.5
+			uses = 2
+			category = artillery
+		}
+		219 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_kgb_assassination_plots
+	icon = GFX_goal_generic_secret_weapon
+	x = 21
+	y = 5
+	cost = 10
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_arkhangelsk_infiltrators }
+	prerequisite = { focus = GAY_west_russia_operatives }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_kgb_assassination_plots"
+		add_war_support = 0.10
+		add_stability = -0.05
+		add_ideas = GAY_assassination_plots
+		country_event = { id = gayny.15 days = 7 }
+	}
+}
+
+### 경제 브랜치 ###
+focus = {
+	id = GAY_the_voice_of_the_people
+	icon = GFX_goal_generic_propaganda
+	x = 28
+	y = 0
+	cost = 4
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_the_voice_of_the_people"
+		add_political_power = 50
+		add_stability = 0.10
+		custom_effect_tooltip = GAY_peoples_voice_tooltip
+	}
+}
+
+focus = {
+	id = GAY_reconstruction_program
+	icon = GFX_goal_generic_construct_civ_factory
+	x = 26
+	y = 1
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_voice_of_the_people }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_reconstruction_program"
+		add_ideas = GAY_reconstruction_efforts
+		219 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		351 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_war_economy_framework
+	icon = GFX_goal_generic_production
+	x = 30
+	y = 1
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_the_voice_of_the_people }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_war_economy_framework"
+		add_ideas = GAY_war_economy
+		add_timed_idea = { 
+			idea = GAY_wartime_economic_measures
+			days = 180
+		}
+	}
+}
+
+focus = {
+	id = GAY_infrastructure_repairs
+	icon = GFX_goal_generic_construct_infrastructure
+	x = 25
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_reconstruction_program }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_infrastructure_repairs"
+		219 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		351 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_civilian_industries
+	icon = GFX_goal_generic_construct_civ_factory
+	x = 27
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_reconstruction_program }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_civilian_industries"
+		219 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		351 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_mobilize_ural_resources
+	icon = GFX_goal_generic_oil_refinery
+	x = 29
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_war_economy_framework }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_mobilize_ural_resources"
+		219 = {
+			add_resource = {
+				type = steel
+				amount = 8
+			}
+			add_resource = {
+				type = oil
+				amount = 4
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_arms_production_priority
+	icon = GFX_goal_generic_construct_mil_factory
+	x = 31
+	y = 2
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_war_economy_framework }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_arms_production_priority"
+		219 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		351 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_VASKhNIL_reconstruction
+	icon = GFX_goal_generic_scientific_exchange
+	x = 26
+	y = 3
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_infrastructure_repairs }
+	prerequisite = { focus = GAY_civilian_industries }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_VASKhNIL_reconstruction"
+		add_research_slot = 1
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 2
+			category = industry
+		}
+	}
+}
+
+focus = {
+	id = GAY_collective_farms
+	icon = GFX_goal_generic_soviet_construction
+	x = 28
+	y = 3
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_civilian_industries }
+	prerequisite = { focus = GAY_mobilize_ural_resources }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_collective_farms"
+		add_stability = -0.05
+		add_ideas = GAY_collectivized_agriculture
+	}
+}
+
+focus = {
+	id = GAY_weapons_development
+	icon = GFX_goal_generic_small_arms
+	x = 30
+	y = 3
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_mobilize_ural_resources }
+	prerequisite = { focus = GAY_arms_production_priority }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_weapons_development"
+		add_tech_bonus = {
+			name = infantry_weapons_bonus
+			bonus = 0.5
+			uses = 2
+			category = infantry_weapons
+		}
+		add_equipment = {
+			infantry_equipment = 1000
+		}
+	}
+}
+
+focus = {
+	id = GAY_urban_renewal
+	icon = GFX_goal_generic_construct_civilian
+	x = 25
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_rehabilitate_scientists }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_urban_renewal"
+		add_stability = 0.05
+		add_ideas = GAY_urban_reconstruction
+	}
+}
+
+focus = {
+	id = GAY_scientific_research_programs
+	icon = GFX_goal_generic_radar
+	x = 27
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_rehabilitate_scientists }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_scientific_research_programs"
+		add_tech_bonus = {
+			name = research_bonus
+			bonus = 0.5
+			uses = 2
+			category = electronics
+		}
+	}
+}
+
+focus = {
+	id = GAY_total_war_economy
+	icon = GFX_goal_generic_construct_mil_factory
+	x = 29
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_collective_farms }
+	prerequisite = { focus = GAY_weapons_development }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_total_war_economy"
+		swap_ideas = {
+			remove_idea = GAY_war_economy
+			add_idea = GAY_total_war_economy_idea
+		}
+		add_war_support = 0.10
+	}
+}
+
+focus = {
+	id = GAY_rebuild_heavy_industry
+	icon = GFX_goal_generic_production2
+	x = 31
+	y = 4
+	cost = 6
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_weapons_development }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_rebuild_heavy_industry"
+		219 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		351 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+focus = {
+	id = GAY_prepare_for_liberation
+	icon = GFX_goal_generic_major_war
+	x = 28
+	y = 5
+	cost = 10
+	available = { always = yes }
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = GAY_urban_renewal }
+	prerequisite = { focus = GAY_scientific_research_programs }
+	prerequisite = { focus = GAY_total_war_economy }
+	prerequisite = { focus = GAY_rebuild_heavy_industry }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus GAY_prepare_for_liberation"
+		add_war_support = 0.15
+		add_stability = 0.05
+		add_political_power = 150
+		add_ideas = GAY_prepared_for_war
+		add_equipment = {
+			infantry_equipment = 2000
+			support_equipment = 500
+		}
+	}
 }

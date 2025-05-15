@@ -1,76 +1,654 @@
 focus_tree = {
-    id = SAM_first_focus
-    
-    country = {
-        factor = 0
-        
-        modifier = {
-            add = 10
-            tag = SAM
-        }
-    }
-    
-    default = no
+	id = SAM_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SAM
+		}
+	}
+	
+	default = no
 
-    focus = {
-        id = SAM_focus_1 #오흐리나 창설
-        x = 0
-        y = 0
-    }
-
-    focus = {
-        id = SAM_focus_2 #콜호스 해체
-        prerequisite = {focus = SAM_focus_1}
-        x = 0
-        y = 1
-    }
-
-    focus = {
-        id = SAM_focus_3 #소련 관료기구 흡수
-        prerequisite = {focus = SAM_focus_2}
-        x = 0
-        y = 2
-    }
-
-focus = {
-        id = SAM_focus_4 #군사 1
-        prerequisite = {focus = SAM_focus_3}
-        x = 0
-        y = 3
-    }
-
-    focus = {
-        id = SAM_focus_5 #정치
-        prerequisite = {focus = SAM_focus_4}
-        x = 0
-        y = 4
-    }
-
-    focus = {
-        id = SAM_focus_6 #군사 2
-        prerequisite = {focus = SAM_focus_5}
-        x = 0
-        y = 5
-    }
-
-    focus = {
-        id = SAM_focus_7 #왕이냐, 총이냐
-        prerequisite = {focus = SAM_focus_6}
-        x = 0
-        y = 6
-    }
-
-    focus = {
-        id = SAM_focus_8 #군사 3
-        prerequisite = {focus = SAM_focus_7}
-        x = 0
-        y = 7
-    }
-
-    focus = {
-        id = SAM_focus_9 #붉은 군대의 불온한 움직임
-        prerequisite = {focus = SAM_focus_8}
-        x = 0
-        y = 8
-    }
+	# 시작 포커스: 총이냐, 왕관이냐 - 첫 번째 분기점
+	focus = {
+		id = SAM_gun_or_crown
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		x = 16
+		y = 0
+		
+		completion_reward = {
+			country_event = { id = sam.1 }
+		}
+	}
+	
+	### 공통 루트 ###
+	
+	# 오흐라나 재창설
+	focus = {
+		id = SAM_recreate_okhrana
+		icon = GFX_goal_generic_secret_police
+		cost = 10
+		x = 16
+		y = 1
+		prerequisite = { focus = SAM_gun_or_crown }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+	
+	# 스톨리핀 개혁의 부활 & 볼로스트 부활 상호배제
+	focus = {
+		id = SAM_stolypin_reforms
+		icon = GFX_goal_generic_improve_relations
+		cost = 10
+		x = 13
+		y = 2
+		prerequisite = { focus = SAM_recreate_okhrana }
+		mutually_exclusive = { focus = SAM_volost_revival }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = SAM_volost_revival
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		x = 19
+		y = 2
+		prerequisite = { focus = SAM_recreate_okhrana }
+		mutually_exclusive = { focus = SAM_stolypin_reforms }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+	
+	# 독일 자본가 초청
+	focus = {
+		id = SAM_invite_german_capitalists
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10
+		x = 14
+		y = 3
+		prerequisite = { focus = SAM_stolypin_reforms }
+		
+		completion_reward = {
+			add_ideas = economic_boost
+		}
+	}
+	
+	# 국영기업 민영화
+	focus = {
+		id = SAM_privatize_state_enterprises
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10
+		x = 18
+		y = 3
+		prerequisite = { focus = SAM_volost_revival }
+		
+		completion_reward = {
+			add_ideas = privatization_boost
+		}
+	}
+	
+	# 국가 농업조합 설립
+	focus = {
+		id = SAM_national_agricultural_union
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		x = 16
+		y = 4
+		prerequisite = { focus = SAM_invite_german_capitalists }
+		prerequisite = { focus = SAM_privatize_state_enterprises }
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = agricultural_cooperation
+		}
+	}
+	
+	# 독일식 군제개혁
+	focus = {
+		id = SAM_german_military_reform
+		icon = GFX_goal_generic_military_sphere
+		cost = 10
+		x = 16
+		y = 5
+		prerequisite = { focus = SAM_national_agricultural_union }
+		
+		completion_reward = {
+			army_experience = 50
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	# 퇴역 무기 수입
+	focus = {
+		id = SAM_import_retired_weapons
+		icon = GFX_goal_generic_small_arms
+		cost = 10
+		x = 16
+		y = 6
+		prerequisite = { focus = SAM_german_military_reform }
+		
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = GER
+			}
+		}
+	}
+	
+	# 고급두뇌 '밀수'
+	focus = {
+		id = SAM_smuggle_intellectuals
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10
+		x = 16
+		y = 7
+		prerequisite = { focus = SAM_import_retired_weapons }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	### 왼쪽 루트 (블라소프) ###
+	
+	# 총: 해방군의 승리
+	focus = {
+		id = SAM_gun_victory_liberation_army
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		x = 7
+		y = 1
+		prerequisite = { focus = SAM_gun_or_crown }
+		mutually_exclusive = { focus = SAM_crown_victory_romanov }
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	# '명목상'의 차르
+	focus = {
+		id = SAM_nominal_tsar
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		x = 5
+		y = 2
+		prerequisite = { focus = SAM_gun_victory_liberation_army }
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	# 백군 잔당 흡수
+	focus = {
+		id = SAM_absorb_white_army_remnants
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		x = 9
+		y = 2
+		prerequisite = { focus = SAM_gun_victory_liberation_army }
+		
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	
+	# 가짜 민주주의
+	focus = {
+		id = SAM_fake_democracy
+		icon = GFX_goal_generic_support_democracy
+		cost = 10
+		x = 5
+		y = 3
+		prerequisite = { focus = SAM_nominal_tsar }
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+		}
+	}
+	
+	# 소련 관료체계 흡수
+	focus = {
+		id = SAM_absorb_soviet_bureaucracy
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10
+		x = 9
+		y = 3
+		prerequisite = { focus = SAM_absorb_white_army_remnants }
+		
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	
+	# 블라소프 우상화
+	focus = {
+		id = SAM_vlasov_cult
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		x = 5
+		y = 4
+		prerequisite = { focus = SAM_fake_democracy }
+		
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+	
+	# 기초교육 육성
+	focus = {
+		id = SAM_promote_basic_education
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10
+		x = 9
+		y = 4
+		prerequisite = { focus = SAM_absorb_soviet_bureaucracy }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	# 자본가 회유
+	focus = {
+		id = SAM_persuade_capitalists
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10
+		x = 5
+		y = 5
+		prerequisite = { focus = SAM_vlasov_cult }
+		
+		completion_reward = {
+			add_ideas = capitalist_collaboration
+		}
+	}
+	
+	# 국가 협동조합
+	focus = {
+		id = SAM_national_cooperative
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10
+		x = 9
+		y = 5
+		prerequisite = { focus = SAM_promote_basic_education }
+		
+		completion_reward = {
+			add_ideas = national_cooperative_economy
+		}
+	}
+	
+	# 문민통제 거부 & 군부통제 상호배제
+	focus = {
+		id = SAM_reject_civilian_control
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		x = 4
+		y = 6
+		prerequisite = { focus = SAM_persuade_capitalists }
+		mutually_exclusive = { focus = SAM_military_control }
+		
+		completion_reward = {
+			add_ideas = civilian_economy
+		}
+	}
+	
+	focus = {
+		id = SAM_military_control
+		icon = GFX_goal_generic_military_sphere
+		cost = 10
+		x = 8
+		y = 6
+		prerequisite = { focus = SAM_national_cooperative }
+		mutually_exclusive = { focus = SAM_reject_civilian_control }
+		
+		completion_reward = {
+			add_ideas = war_economy
+		}
+	}
+	
+	# 멍에의 유예
+	focus = {
+		id = SAM_postpone_yoke
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		x = 5
+		y = 7
+		prerequisite = { focus = SAM_reject_civilian_control }
+		
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	# 서방의 인정
+	focus = {
+		id = SAM_western_recognition
+		icon = GFX_goal_generic_improve_relations
+		cost = 10
+		x = 9
+		y = 7
+		prerequisite = { focus = SAM_military_control }
+		
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = medium_increase
+			}
+		}
+	}
+	
+	# 대봉기 계획
+	focus = {
+		id = SAM_great_uprising_plan
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		x = 7
+		y = 8
+		prerequisite = { focus = SAM_postpone_yoke }
+		prerequisite = { focus = SAM_western_recognition }
+		
+		completion_reward = {
+			add_war_support = 0.2
+		}
+	}
+	
+	# 복수의 시간
+	focus = {
+		id = SAM_time_for_revenge
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		x = 7
+		y = 9
+		prerequisite = { focus = SAM_great_uprising_plan }
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = revenge_spirit
+				days = 365
+			}
+		}
+	}
+	
+	### 오른쪽 루트 (로마노프) ###
+	
+	# 왕관: 로마노프의 승리
+	focus = {
+		id = SAM_crown_victory_romanov
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		x = 25
+		y = 1
+		prerequisite = { focus = SAM_gun_or_crown }
+		mutually_exclusive = { focus = SAM_gun_victory_liberation_army }
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	# 자유주의자 회유책
+	focus = {
+		id = SAM_persuade_liberals
+		icon = GFX_goal_generic_support_democracy
+		cost = 10
+		x = 23
+		y = 2
+		prerequisite = { focus = SAM_crown_victory_romanov }
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	# 하나된 백군
+	focus = {
+		id = SAM_united_white_army
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+		x = 27
+		y = 2
+		prerequisite = { focus = SAM_crown_victory_romanov }
+		
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	
+	# 차르의 신성성
+	focus = {
+		id = SAM_tsar_sanctity
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		x = 23
+		y = 3
+		prerequisite = { focus = SAM_persuade_liberals }
+		
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	# 새로운 헌법
+	focus = {
+		id = SAM_new_constitution
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		x = 27
+		y = 3
+		prerequisite = { focus = SAM_united_white_army }
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	# 임시 독재정 확립
+	focus = {
+		id = SAM_establish_temporary_dictatorship
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		x = 25
+		y = 4
+		prerequisite = { focus = SAM_tsar_sanctity }
+		prerequisite = { focus = SAM_new_constitution }
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 75
+		}
+	}
+	
+	# 국민협동조합
+	focus = {
+		id = SAM_peoples_cooperative
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10
+		x = 23
+		y = 5
+		prerequisite = { focus = SAM_establish_temporary_dictatorship }
+		
+		completion_reward = {
+			add_ideas = people_cooperative_economy
+		}
+	}
+	
+	# 토착 기업 지원
+	focus = {
+		id = SAM_support_local_businesses
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		x = 27
+		y = 5
+		prerequisite = { focus = SAM_establish_temporary_dictatorship }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	# 교육체계 개혁
+	focus = {
+		id = SAM_education_reform
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10
+		x = 23
+		y = 6
+		prerequisite = { focus = SAM_peoples_cooperative }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	
+	# 굴종의 연장
+	focus = {
+		id = SAM_extend_submission
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		x = 27
+		y = 6
+		prerequisite = { focus = SAM_support_local_businesses }
+		
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = -50
+		}
+	}
+	
+	# 대봉기 계획
+	focus = {
+		id = SAM_romanov_uprising_plan
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		x = 23
+		y = 7
+		prerequisite = { focus = SAM_education_reform }
+		
+		completion_reward = {
+			add_war_support = 0.2
+		}
+	}
+	
+	# 코사크 회유
+	focus = {
+		id = SAM_persuade_cossacks
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		x = 27
+		y = 7
+		prerequisite = { focus = SAM_extend_submission }
+		
+		completion_reward = {
+			add_ideas = cossack_support
+		}
+	}
+	
+	# 반공의 십자군
+	focus = {
+		id = SAM_anticommunist_crusade
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		x = 25
+		y = 8
+		prerequisite = { focus = SAM_romanov_uprising_plan }
+		prerequisite = { focus = SAM_persuade_cossacks }
+		
+		completion_reward = {
+			add_war_support = 0.15
+			add_timed_idea = {
+				idea = anticommunist_fervor
+				days = 365
+			}
+		}
+	}
+	
+	### 최종 포커스 ###
+	
+	# 서러시아의 방벽
+	focus = {
+		id = SAM_barrier_of_west_russia
+		icon = GFX_goal_generic_fortify_city
+		cost = 10
+		x = 16
+		y = 10
+		prerequisite = { focus = SAM_time_for_revenge }
+		prerequisite = { focus = SAM_smuggle_intellectuals }
+		prerequisite = { focus = SAM_anticommunist_crusade }
+		
+		completion_reward = {
+			custom_effect_tooltip = SAM_final_focus_tooltip
+			hidden_effect = {
+				# 여기에 최종 포커스 효과 추가
+				add_stability = 0.2
+				add_war_support = 0.2
+				add_political_power = 200
+				
+				# 3개의 임의 주에 요새 추가
+				random_owned_controlled_state = {
+					limit = { is_coastal = no }
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = {
+							all_provinces = yes
+						}
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { is_coastal = no }
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = {
+							all_provinces = yes
+						}
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { is_coastal = no }
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = {
+							all_provinces = yes
+						}
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
 }
