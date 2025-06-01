@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = MAN
+		owner = KOR
 		victory_points = {
 			944 10 #special importance
 		}
@@ -28,11 +28,11 @@ state = {
 			infrastructure = 4
 			thermoelectric_plant = 1
 		}
-		add_core_of = MAN
+		add_core_of = KOR
 	}
 
 	provinces = {
-		927 944 973 3929 3944 6806 6964 9897 11823 11862 11879 19509
+		927 944 973 3929 3944 6964 9897 11823 11862 19509
 	}
 	manpower = 2371582
 	buildings_max_level_factor = 1.000

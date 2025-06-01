@@ -13,22 +13,13 @@ state = {
 			prisons = 1
 		}
 		victory_points = {
-			10678 3
-		}
-		victory_points = {
-			13298 1
-		}
-		victory_points = {
-			5331 1
-		}
-		victory_points = {
 			1845 2
 		}
 		add_core_of = AMR
 	}
 
 	provinces = {
-		1730 1845 5331 7691 7851 8544 10678 12591 12660 13298
+		1730 1845 7691 8544 12591 12660
 	}
 	manpower = 202888
 	buildings_max_level_factor = 1.000

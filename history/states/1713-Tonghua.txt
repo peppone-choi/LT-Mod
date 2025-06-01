@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1713"
 
 	history = {
-		owner = MAN
+		owner = KOR
 		victory_points = {
 			9759 14
 		}
@@ -22,6 +22,7 @@ state = {
 			thermoelectric_plant = 1
 		}
 		add_core_of = MAN
+		add_core_of = KOR
 		set_variable = { china_state_ref = 48 }
 		set_variable = { china_region_ref = 6 }
 	}

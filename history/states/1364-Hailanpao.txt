@@ -19,6 +19,15 @@ state = {
 		victory_points = {
 			7763 10
 		}
+		victory_points = {
+			10678 3
+		}
+		victory_points = {
+			13298 1
+		}
+		victory_points = {
+			5331 1
+		}
 		set_resistance = 0
 		set_compliance = 100
 		set_variable = { china_state_ref = 52 }
@@ -28,7 +37,7 @@ state = {
 	}
 
 	provinces = {
-		1724 1739 4731 4847 7754 7763 12657 13304 19466 19483
+		1724 1739 4731 4847 5331 7754 7763 7851 10678 12543 12657 13298 13304 19466 19483
 	}
 	manpower = 186397
 	buildings_max_level_factor = 1.000

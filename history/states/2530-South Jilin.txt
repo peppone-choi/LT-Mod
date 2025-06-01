@@ -1,6 +1,6 @@
 state = {
-	id = 717
-	name = "STATE_717"
+	id = 2530
+	name = "STATE_2530"
 	resources = {
 		steel = 10.000
 		oil = 4.000
@@ -8,7 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = MAN
+		owner = KOR
+		add_core_of = KOR
 		add_core_of = MAN
 		buildings = {
 			infrastructure = 5
@@ -20,13 +21,10 @@ state = {
 			thermoelectric_plant = 2
 		}
 		victory_points = {
-			4572 3
+			3947 1
 		}
 		victory_points = {
-			11744 1
-		}
-		victory_points = {
-			7652 17
+			11864 25
 		}
 		set_variable = { china_state_ref = 49 }
 		set_variable = { china_region_ref = 6 }
@@ -34,7 +32,7 @@ state = {
 	}
 
 	provinces = {
-		4572 4633 7523 7652 7663 11744 19918 19921
+		946 1567 3932 3947 6947 8970 9883 9913 9928 11850 11864 14634 19805
 	}
 	manpower = 15682698
 	buildings_max_level_factor = 1.000

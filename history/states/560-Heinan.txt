@@ -9,7 +9,6 @@ state = { #Population Done
 	history = {
 		owner = KOR
 		add_core_of = KOR
-		add_core_of = JAP
 		buildings = {
 			infrastructure = 4
 			air_base = 2

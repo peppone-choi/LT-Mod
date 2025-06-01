@@ -7,15 +7,18 @@ state = {
 	}
 
 	history = {
-		owner = MAN
+		owner = KOR
 		victory_points = {
 			6981 31
 		}
 		victory_points = {
-			6918 2
+			9848 1
 		}
 		victory_points = {
-			9848 1
+			3895 20
+		}
+		victory_points = {
+			19811 1
 		}
 		set_variable = { china_state_ref = 48 }
 		set_variable = { china_region_ref = 6 }
@@ -31,10 +34,11 @@ state = {
 			}
 		}
 		add_core_of = MAN
+		add_core_of = KOR
 	}
 
 	provinces = {
-		836 945 3839 3970 6860 6910 6918 6981 9848 9854
+		836 887 945 3839 3849 3895 3913 3970 6804 6860 6868 6910 6981 9848 9854 19811 
 	}
 	manpower = 6239354
 	buildings_max_level_factor = 1.000
